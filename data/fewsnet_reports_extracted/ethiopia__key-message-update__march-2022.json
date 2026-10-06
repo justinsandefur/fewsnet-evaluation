@@ -1,0 +1,177 @@
+{
+ "name": "ethiopia__key-message-update__march-2022",
+ "period_covered": "March 2022",
+ "national": {
+  "famine_risk_mentioned": true,
+  "worst_case_described": true,
+  "worst_case_text": "Not most likely, but if 2022 gu/genna fails and food assistance does not reach those in need, food security could deteriorate to extreme levels with Extremely Critical malnutrition and high mortality.",
+  "aid_assumption": "assumed_reduced",
+  "aid_assumption_text": "Tigray convoy first in over 100 days; level of need far exceeds supply",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "below",
+  "season_status_text": "Gu/genna not started late March; belg delayed over a month"
+ },
+ "areas": [
+  {
+   "location": "Tigray",
+   "admin1": "Tigray",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 4,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "deteriorate",
+   "nutrition_class": "proxy GAM 30.9% (Extremely Critical)",
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "access_constraint",
+    "displacement"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": true
+  },
+  {
+   "location": "Wag Himra",
+   "admin1": "Amhara",
+   "admin2": "Wag Himra",
+   "livelihood_zone": null,
+   "population_group": "IDPs",
+   "current_phase": 4,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": "39% GAM in Find-and-Treat",
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "displacement"
+   ],
+   "aid_status": "reduced_or_ending",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Southern and southeastern pastoral areas",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 4,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "livestock",
+    "displacement"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Belg areas of NE Amhara, Tigray, SNNP, Sidama, Oromia",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "harvest_poor"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "Tigray",
+   "admin1": "Tigray",
+   "admin2": null,
+   "population_group": null,
+   "survey_type": "MUAC_screening",
+   "fieldwork": "as of March 31 2022",
+   "gam_pct": 30.9,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "OCHA proxy GAM",
+   "planned_not_done": false
+  },
+  {
+   "location": "Wag Himra",
+   "admin1": "Amhara",
+   "admin2": "Wag Himra",
+   "population_group": null,
+   "survey_type": "MUAC_screening",
+   "fieldwork": "February 2022",
+   "gam_pct": 39,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "Find-and-Treat campaign screened children",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "humanitarian_distribution_data",
+  "admissions_data"
+ ],
+ "data_gaps": [
+  {
+   "location": "Tigray",
+   "admin1": "Tigray",
+   "what": "general",
+   "text": "Possible worse outcomes ongoing but information insufficient to confirm or deny."
+  }
+ ],
+ "remote_monitoring": false
+}

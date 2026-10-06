@@ -1,0 +1,109 @@
+{
+ "name": "sudan__key-message-update__september-2021",
+ "period_covered": "through September 2021, harvest from October",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "not_stated",
+  "aid_assumption_text": null,
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "improve",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "not_stated",
+  "season_status_text": "Above-average June-August rainfall; flooding affected over 314,000 people in August-September"
+ },
+ "areas": [
+  {
+   "location": "IDPs and conflict-affected in Darfur, Kordofan, parts of White Nile; poor in flood-affected central and eastern Sudan",
+   "admin1": "Darfur; Kordofan; White Nile",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": "IDPs",
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "flood",
+    "prices_high"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Eastern Sudan flood areas",
+   "admin1": "Gadaref; White Nile; River Nile; Kassala; Al Jazira; Sennar",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "flood"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Sudan staple markets",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": 500,
+   "price_change_basis": "five_year_avg",
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "prices_high",
+    "currency"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "market_prices_fewsnet",
+  "remote_sensing_vegetation",
+  "humanitarian_distribution_data"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

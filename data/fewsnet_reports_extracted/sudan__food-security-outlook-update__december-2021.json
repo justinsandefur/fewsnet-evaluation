@@ -1,0 +1,173 @@
+{
+ "name": "sudan__food-security-outlook-update__december-2021",
+ "period_covered": "December 2021 - May 2022",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "assumed_continued",
+  "aid_assumption_text": "WFP reached about 6.1 million in November 2021; irregular access to SPLM-N-controlled areas.",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "mixed",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "not_stated",
+  "season_status_text": "2021/22 main harvest near average nationally but disrupted by clashes; lean season begins April"
+ },
+ "areas": [
+  {
+   "location": "Newly displaced households, newly arrived refugees, protracted IDPs in Darfur and South Kordofan, macro-affected poor",
+   "admin1": "Darfur; South Kordofan",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": "IDPs",
+   "current_phase": 3,
+   "projected_phase": 3,
+   "projected_period": "through May 2022",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "stable",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "displacement",
+    "macro",
+    "prices_high"
+   ],
+   "aid_status": "present",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Most of Sudan",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": 2,
+   "projected_period": "December 2021-May 2022",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "stable",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_good"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Darfur and Kordofan intercommunal conflict areas",
+   "admin1": "North Darfur; West Darfur; Central Darfur; West Kordofan; South Kordofan",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "displacement"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Ethiopian refugees, eastern Sudan",
+   "admin1": "Kassala; Gadaref",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": "refugees",
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "displacement"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "National staple markets",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": 400,
+   "price_change_basis": "five_year_avg",
+   "terms_of_trade_text": "70-80 percent above last year; wheat 200-400 percent above five-year average",
+   "people_in_need": null,
+   "drivers": [
+    "prices_high",
+    "macro",
+    "conflict"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "market_prices_other",
+  "displacement_tracking",
+  "humanitarian_distribution_data",
+  "conflict_data",
+  "crop_assessment"
+ ],
+ "data_gaps": [
+  {
+   "location": "SPLM-N-controlled South Kordofan; Jebel Marra; Blue Nile",
+   "admin1": "South Kordofan",
+   "what": "access",
+   "text": "Humanitarian access remains irregular due to insecurity."
+  }
+ ],
+ "remote_monitoring": false
+}

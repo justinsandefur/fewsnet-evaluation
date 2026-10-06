@@ -1,0 +1,112 @@
+{
+ "name": "ethiopia__alert__july-2017",
+ "period_covered": "July-December 2017",
+ "national": {
+  "famine_risk_mentioned": true,
+  "worst_case_described": true,
+  "worst_case_text": "If food assistance does not resume by end of July, poor households in worst-affected pastoral areas will begin to move into Catastrophe (Phase 5); acute malnutrition and mortality may rise. No Famine indicated by current data.",
+  "aid_assumption": "assumed_reduced",
+  "aid_assumption_text": "No emergency food assistance in Dollo and Korahe since fourth round ended in May, partly funding; TSF pipeline break anticipated end of July.",
+  "people_in_need_crisis_plus": 2500000,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": "Oct-Dec rains forecast positive but herd recovery slow.",
+  "rain_forecast": "above",
+  "season_status_text": "April/May rains modestly replenished water and pasture."
+ },
+ "areas": [
+  {
+   "location": "Somali Region",
+   "admin1": "Somali",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 4,
+   "projected_phase": 4,
+   "projected_period": "July-December 2017",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": 2500000,
+   "drivers": [
+    "rain_deficit",
+    "livestock",
+    "displacement",
+    "disease_outbreak",
+    "aid_reduction"
+   ],
+   "aid_status": "reduced_or_ending",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Dollo and Korahe Zones",
+   "admin1": "Somali",
+   "admin2": "Dollo; Korahe",
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 4,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "deteriorate",
+   "nutrition_class": "atypically high acute malnutrition",
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "aid_reduction",
+    "livestock"
+   ],
+   "aid_status": "reduced_or_ending",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Korahe-Gode, Afder and Lowland Hawd Pastoral livelihood zones",
+   "admin1": "Somali",
+   "admin2": null,
+   "livelihood_zone": "Korahe-Gode Pastoral; Afder Pastoral; Lowland Hawd Pastoral",
+   "population_group": "pastoralists",
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": "July-September 2017",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "livestock"
+   ],
+   "aid_status": "reduced_or_ending",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "remote_sensing_rain",
+  "field_visit",
+  "household_survey",
+  "humanitarian_distribution_data"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

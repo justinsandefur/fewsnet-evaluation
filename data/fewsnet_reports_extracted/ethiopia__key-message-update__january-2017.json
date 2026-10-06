@@ -1,0 +1,107 @@
+{
+ "name": "ethiopia__key-message-update__january-2017",
+ "period_covered": "through at least May 2017",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "assumed_continued",
+  "aid_assumption_text": "Government plans to assist about half of those in need, WFP and JEOP about a quarter each",
+  "people_in_need_crisis_plus": 5600000,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "below",
+  "season_status_text": "Gu/Genna and Deyr/Hagaya 2016 poor; below-average Gu March-May 2017 forecast"
+ },
+ "areas": [
+  {
+   "location": "Worst-affected pastoral areas of southern and southeastern Ethiopia",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": "sharp declines in livestock to cereal terms of trade",
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "livestock"
+   ],
+   "aid_status": "present",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Southern Afar and Sitti Zone",
+   "admin1": "Afar; Somali",
+   "admin2": "Sitti",
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": 3,
+   "projected_period": "through at least May 2017",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "livestock",
+    "rain_deficit"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Lowland areas of eastern and central Oromia, northeastern SNNPR, eastern Amhara",
+   "admin1": "Oromia; SNNPR; Amhara",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": 3,
+   "projected_period": "through at least May 2017",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_poor",
+    "rain_deficit"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "livestock_data"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

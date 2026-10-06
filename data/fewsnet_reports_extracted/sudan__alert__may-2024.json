@@ -1,0 +1,30 @@
+{
+ "name": "sudan__alert__may-2024",
+ "period_covered": null,
+ "national": {
+  "famine_risk_mentioned": true,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "not_stated",
+  "aid_assumption_text": null,
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "not_stated",
+  "season_status_text": null
+ },
+ "areas": [],
+ "surveys": [],
+ "data_sources_cited": [],
+ "data_gaps": [
+  {
+   "location": "national",
+   "admin1": null,
+   "what": "general",
+   "text": "Only the title is available in the source text; body not captured."
+  }
+ ],
+ "remote_monitoring": false
+}

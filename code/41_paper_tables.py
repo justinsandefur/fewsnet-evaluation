@@ -161,7 +161,7 @@ def benefit():
         cc = [r2(x.loc[m, "cost_per_death"]) for m in ["low", "central", "high"]]
         costs.append(f"\\quad {h} & & " + " & ".join(cc) + f" & {r2(x.loc['central', 'budget_usd'] / x.loc['central', 'emergency_person_years'])}"
                      + f" & {r2(x.loc['high', 'budget_usd'] / x.loc['high', 'child_wasting_years'])}--{r2(x.loc['low', 'budget_usd'] / x.loc['low', 'child_wasting_years'])}" + r" \\")
-    out += [r"\midrule", r"\multicolumn{7}{l}{\textit{Cost per outcome averted (US\$, budget \$64 million a year)}} \\"] + costs
+    out += [r"\midrule", r"\multicolumn{7}{l}{\textit{Cost per outcome averted (US\$, budget \$45 million a year)}} \\"] + costs
     out += [r"\bottomrule", r"\end{tabular}"]
     (OUT / "benefit.tex").write_text("\n".join(out))
 

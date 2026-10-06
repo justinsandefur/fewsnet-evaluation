@@ -456,7 +456,7 @@ def benefit():
     k = json.loads((TAB / "benefit_cost_key.json").read_text())
     R = pd.read_csv(TAB / "benefit_cost.csv")
     R = R[R.budget == "central"]
-    N["bcBudget"], N["bcBudgetLow"], N["bcBudgetHigh"] = "64", "27", "90"
+    N["bcBudget"], N["bcBudgetLow"], N["bcBudgetHigh"] = "45", "35", "65"
     N["bcFlaggedRounds"] = f"{k['flagged_area_rounds']:,}"
     N["bcFlaggedAreas"] = f"{k['flagged_areas']:,}"
     N["bcPeople"] = f"{k['avg_people_flagged'] / 1e6:.0f}"
@@ -487,7 +487,7 @@ def benefit():
     N["bcOneShareFood"] = sg(100 * O[(O.attribution == "A3") & (O.mortality == "central")].mean_share_attributed.iloc[0], 1)
     for a, ka in [("A4", "Four"), ("A5", "Five")]:
         py = R[(R.attribution == a) & (R.mortality == "central")].crisis_person_years.iloc[0]
-        N[f"bcCostCrisis{ka}"] = f"{64e6 / py:,.0f}"
+        N[f"bcCostCrisis{ka}"] = f"{45e6 / py:,.0f}"
     B = pd.read_csv(TAB / "benefit_cost.csv")
     wb = B[B.attribution.isin(["A4", "A5"])]
     N["bcWholeLoBudgetLo"], N["bcWholeHiBudgetHi"] = r2(wb.cost_per_death.min()), r2(wb.cost_per_death.max())
@@ -550,6 +550,33 @@ def hetero():
         N[f"het{k}Diff"] = sg(r.coef["cx"], 2)
 
 
+def budget_and_cg():
+    """FEWS NET's budget from USAspending, and the benefit-cost in Coefficient Giving's units."""
+    ob = json.loads((TAB / "fewsnet_obligations.json").read_text())
+    fy = {}
+    for a, d in ob.items():
+        for y, v in d.items():
+            fy[int(y)] = fy.get(int(y), 0) + v
+    N["obAvgLong"] = f"{np.mean([fy.get(y, 0) for y in range(2017, 2025)]) / 1e6:.0f}"
+    N["obAvgCore"] = f"{np.mean([fy.get(y, 0) for y in range(2019, 2024)]) / 1e6:.0f}"
+    N["obPeak"] = f"{fy[2023] / 1e6:.0f}"
+    N["obMin"] = f"{min(fy.get(y, 0) for y in range(2017, 2025)) / 1e6:.0f}"
+    N["obPillarOne"] = f"{sum(ob['7200AA19F00018'].values()) / 1e6:.0f}"
+    R = pd.read_csv(TAB / "benefit_cost.csv")
+    d = R[(R.budget == "central") & R.attribution.isin(["A1", "A2", "A3"])]
+    for dpd, k in [(30, "Thirty"), (40, "Forty"), (55, "Fifty")]:
+        x = d.deaths_per_year * dpd * 1e5 / d.budget_usd
+        N[f"cg{k}Lo"], N[f"cg{k}Hi"] = r2(x.min()), r2(x.max())
+    dd = R[R.attribution.isin(["A1", "A2", "A3"]) & (R.mortality == "central")]
+    x = dd.deaths_per_year * 40 * 1e5 / dd.budget_usd
+    N["cgBudgetLo"], N["cgBudgetHi"] = r2(x.min()), r2(x.max())
+    h = [d.emergency_person_years * np.log(1 + g) * 5e4 / d.budget_usd for g in (0.10, 0.25)]
+    N["cgHungerLo"], N["cgHungerHi"] = f"{min(v.min() for v in h):.0f}", f"{max(v.max() for v in h):.0f}"
+    W = R[(R.budget == "central") & R.attribution.isin(["A4", "A5"])]
+    xw = W.deaths_per_year * 40 * 1e5 / W.budget_usd
+    N["cgWholeLo"], N["cgWholeHi"] = r2(xw.min()), r2(xw.max())
+
+
 def predictable():
     """What the public-data benchmark of FEWS NET's forecast actually captures."""
     p = pd.read_parquet(INP / "panel" / "fewsnet_contribution_panel.parquet").dropna(subset=["b_fc3"])
@@ -575,6 +602,215 @@ def write_numbers():
     print(json.dumps(N, indent=1))
 
 
+LABELS = {"fc4": "FEWS NET forecast: Emergency", "flag": "Aid flag now", "fc_flag": "Aid flag in forecast",
+          "t_proj4": "Report: Emergency projected", "t_worst4": "Report: worst case Emergency or Famine",
+          "t_det": "Report: deterioration expected", "t_aid_down": "Report: aid expected to fall",
+          "t_access": "Report: access constrained", "t_conflict": "Report: conflict or displacement",
+          "t_rain": "Report: poor rains or harvest", "t_prices": "Report: high prices or currency",
+          "t_uncert": "Report: uncertainty stated", "t_mention": "Area discussed in reports",
+          "s_any": "Survey in previous 12 months", "s_gam15": "Survey: acute malnutrition 15\\%+",
+          "s_mort": "Survey: death rate above emergency threshold", "g_any": "Report: data gap stated"}
+
+
+def text_table():
+    """Appendix table: escalation from Crisis on map, text and data features."""
+    r = pd.read_csv(TAB / "text_value_escalation.csv")
+    cols = [("next4", "map"), ("next4", "map+text"), ("next4", "map+text+data"),
+            ("need4", "map"), ("need4", "map+text"), ("need4", "map+text+data")]
+    lines = ["\\begin{tabular}{l" + "c" * len(cols) + "}", "\\toprule",
+             " & \\multicolumn{3}{c}{Emergency+ on next map} & \\multicolumn{3}{c}{Emergency+ by need} \\\\",
+             "\\cmidrule(lr){2-4}\\cmidrule(lr){5-7}",
+             " & " + " & ".join(f"({i + 1})" for i in range(len(cols))) + " \\\\", "\\midrule"]
+    for v, lab in LABELS.items():
+        cells, ses = [], []
+        for y, m in cols:
+            x = r[(r.outcome == y) & (r.model == m) & (r["var"] == v)]
+            if x.empty:
+                cells.append(""); ses.append("")
+                continue
+            b, se = x.coef.iloc[0], x.se.iloc[0]
+            t = abs(b / se) if se > 0 else 0
+            star = "***" if t > 2.576 else "**" if t > 1.96 else "*" if t > 1.645 else ""
+            cells.append(f"{b:.3f}{star}"); ses.append(f"({se:.3f})")
+        lines.append(lab + " & " + " & ".join(cells) + " \\\\")
+        lines.append(" & " + " & ".join(ses) + " \\\\")
+    n = r.groupby(["outcome", "model"]).n.first()
+    lines += ["\\midrule", "Area-rounds & " + " & ".join(f"{n[c]:,}" for c in cols) + " \\\\",
+              "\\bottomrule", "\\end{tabular}"]
+    (OUT / "tables" / "text.tex").write_text("\n".join(lines) + "\n")
+
+
+def boot_gain(df, y, a, b, cluster, reps=500, seed=1):
+    """AUC(b) - AUC(a) and a 95 percent interval resampling clusters (country-years)."""
+    from sklearn.metrics import roc_auc_score
+    df = df.dropna(subset=[a, b])
+    point = roc_auc_score(df[y], df[b]) - roc_auc_score(df[y], df[a])
+    groups = {k: v.index.values for k, v in df.groupby(cluster)}
+    keys = np.array(list(groups))
+    rng = np.random.default_rng(seed)
+    out = []
+    for _ in range(reps):
+        idx = np.concatenate([groups[k] for k in rng.choice(keys, len(keys))])
+        s = df.loc[idx]
+        if s[y].nunique() == 2:
+            out.append(roc_auc_score(s[y], s[b]) - roc_auc_score(s[y], s[a]))
+    lo, hi = np.percentile(out, [2.5, 97.5])
+    return point, lo, hi
+
+
+def fig_information():
+    """What information improves the forecast? AUC gains with bootstrap intervals, and what moves the maps."""
+    pv = pd.read_parquet(INP / "panel/price_value_preds.parquet")
+    pv["cy"] = pv.country_code + pv.r.str[:4]
+    pv = pv.reset_index(drop=True)
+    rows = []
+    specs = [("Starting from public data\n(country, season, rainfall, conflict)", [
+                 ("WFP prices", "raw", "raw +WFP prices"),
+                 ("FEWS NET's own prices", "raw", "raw +FEWS NET prices"),
+                 ("Both price sources", "raw", "raw +both"),
+                 ("FEWS NET's map and forecast", "raw", "raw +FEWS NET map and forecast")]),
+             ("Starting from FEWS NET's current maps", [
+                 ("Both price sources", "base", "+both"),
+                 ("FEWS NET's forecast", "base", "+forecast")])]
+    for group, items in specs:
+        for lab, a, b in items:
+            for task in ["new crisis", "escalation"]:
+                d = pv[pv.task == task].reset_index(drop=True)
+                g, lo, hi = boot_gain(d, "y", a, b, "cy")
+                rows.append(dict(group=group, label=lab, task=task, gain=g, lo=lo, hi=hi))
+    tp = pd.read_parquet(INP / "reports/text_value_preds.parquet")
+    tp["cy"] = tp.country_code + tp.r.str[:4]
+    tp = tp.reset_index(drop=True)
+    g, lo, hi = boot_gain(tp, "next4", "next4_map", "next4_text", "cy")
+    rows.append(dict(group="Starting from FEWS NET's current maps", label="Report text (pilot: 3 countries)",
+                     task="escalation", gain=g, lo=lo, hi=hi))
+    R = pd.DataFrame(rows)
+    R.to_csv(TAB / "information_gains.csv", index=False)
+    def gain(label, task):
+        return f"{100 * R[(R.label == label) & (R.task == task)].gain.iloc[0]:.0f}"
+    N["infoMapNew"], N["infoMapEsc"] = gain("FEWS NET's map and forecast", "new crisis"), gain("FEWS NET's map and forecast", "escalation")
+    N["infoFcNew"], N["infoFcEsc"] = gain("FEWS NET's forecast", "new crisis"), gain("FEWS NET's forecast", "escalation")
+
+    ns = pd.read_csv(TAB / "text_value_new_survey.csv")
+    ns = ns[ns.controls == "all text"].set_index("outcome")
+
+    fig, (ax, bx) = plt.subplots(1, 2, figsize=(7.2, 4.4), gridspec_kw={"width_ratios": [1.9, 1], "wspace": 0.55})
+    col = {"new crisis": BLUE, "escalation": ORANGE}
+    mk = {"new crisis": "o", "escalation": "s"}
+    y, ticks, labels, heads = 0, [], [], []
+    for group, items in specs + [(None, [])]:
+        if group is None:
+            break
+        heads.append((y, group))
+        y -= 0.9
+        labs = list(dict.fromkeys([l for l, _, _ in items]))
+        if group.startswith("Starting from FEWS"):
+            labs.append("Report text (pilot: 3 countries)")
+        for lab in labs:
+            for task, off in [("new crisis", 0.17), ("escalation", -0.17)]:
+                r = R[(R.group == group) & (R.label == lab) & (R.task == task)]
+                if r.empty:
+                    continue
+                r = r.iloc[0]
+                ax.errorbar(100 * r.gain, y + off, xerr=[[100 * (r.gain - r.lo)], [100 * (r.hi - r.gain)]],
+                            fmt=mk[task], color=col[task], ms=5, lw=1.4, capsize=0,
+                            label=None)
+            ticks.append(y); labels.append(lab)
+            y -= 1
+        y -= 0.4
+    ax.axvline(0, color=GREY, lw=0.8)
+    ax.set_yticks(ticks); ax.set_yticklabels(labels, fontsize=8)
+    for yy, g in heads:
+        ax.text(-0.75, yy, g.replace("\n", " "), transform=ax.get_yaxis_transform(), ha="left", va="center",
+                fontsize=8, fontweight="bold", color="#333333")
+    ax.tick_params(axis="y", length=0)
+    ax.spines["left"].set_visible(False)
+    ax.set_ylim(y + 0.6, 0.6)
+    ax.set_xlabel("Gain in AUC (points out of 100)")
+    ax.set_title("A. Which information improves the forecast?")
+    ax.grid(axis="x", color="#e6e6e6", lw=0.6); ax.set_axisbelow(True)
+    from matplotlib.lines import Line2D
+    ax.legend(handles=[Line2D([], [], marker="o", color=BLUE, ls="", ms=5, label="New crises"),
+                       Line2D([], [], marker="s", color=ORANGE, ls="", ms=5, label="Escalation")],
+              loc="upper right", bbox_to_anchor=(1.0, 0.9), fontsize=7.5, handletextpad=0.3)
+
+    items = [("next4", "Crisis area reaches\nEmergency"), ("up", "Next map worse\nthan forecast"),
+             ("down", "Next map better\nthan forecast")]
+    for i, (k, lab) in enumerate(items):
+        r = ns.loc[k]
+        bx.errorbar(100 * r.coef, -i, xerr=196 * r.se, fmt="D", color=BLUE, ms=5, lw=1.4)
+        bx.text(100 * r.coef, -i - 0.32, f"base rate {100 * r.base:.0f}%", ha="center", va="top", fontsize=7, color="#555555")
+    bx.axvline(0, color=GREY, lw=0.8)
+    bx.set_yticks([-i for i in range(len(items))]); bx.set_yticklabels([l for _, l in items], fontsize=8)
+    bx.tick_params(axis="y", length=0); bx.spines["left"].set_visible(False)
+    bx.set_ylim(-len(items) + 0.3, 0.6)
+    bx.set_xlabel("Change when a new survey arrives\n(percentage points)")
+    bx.set_title("B. What moves FEWS NET's maps?")
+    bx.grid(axis="x", color="#e6e6e6", lw=0.6); bx.set_axisbelow(True)
+    fig.savefig(FIG / "fig8_information.pdf")
+    plt.close(fig)
+
+
+# ------------------------------------------------------------------ which pieces are worth paying for
+def pieces():
+    """Pilot on FEWS NET's reports (53_text_value.py) and the value of price data (55_price_value.py)."""
+    k = json.loads((TAB / "text_value_key.json").read_text())
+    rep = pd.read_parquet(INP / "reports/reports.parquet")
+    rep = rep[rep.cc.isin(["SO", "ET", "SD"])]
+    N["txtReports"] = f"{len(rep):,}"
+    N["txtOutlooks"] = str((rep.type == "food-security-outlook").sum())
+    N["txtMatch"] = pct(k["extract_match"])
+    N["txtMatchN"] = str(k["extract_match_n"])
+    N["txtEscN"], N["txtEscEvents"] = f"{k['esc_n']:,}", f"{k['esc_events']:,}"
+    N["txtEscFcFour"] = pct(k["esc_fc4_share"])
+    for y, tag in [("next4", "Map"), ("need4", "Need")]:
+        N[f"txtAuc{tag}"] = f"{k[f'auc_{y}_map']:.2f}"
+        N[f"txtAuc{tag}Text"] = f"{k[f'auc_{y}_text']:.2f}"
+    # surveys quoted in the reports
+    N["svTotal"] = str(k["surveys_total"])
+    N["svSO"], N["svET"], N["svSD"] = (str(k["surveys_by_country"].get(c, 0)) for c in ["SO", "ET", "SD"])
+    bp = pd.read_csv(TAB / "text_value_surveys_by_phase.csv").set_index("phase")
+    for ph, tag in [(2, "Two"), (3, "Three"), (4, "Four"), (5, "Five")]:
+        N[f"svGam{tag}"] = f"{bp.loc[ph, 'gam_mean']:.0f}"
+    N["svCritShare"] = pct(k["survey_crit"] / k["survey_n"])
+    cov = pd.read_csv(TAB / "text_value_survey_coverage.csv").set_index("country_code")
+    for c in ["ET", "SO", "SD"]:
+        N[f"svEmerg{c}"] = pct(cov.loc[c, "emergency_share_with_survey"])
+        N[f"svPop{c}"] = pct(cov.loc[c, "pop_share_with_survey_12m"])
+    ns = pd.read_csv(TAB / "text_value_new_survey.csv").set_index(["outcome", "controls"])
+    r = ns.loc[("up", "all text")]
+    N["nsUp"], N["nsUpSe"], N["nsUpBase"] = pct(r.coef, 1), pct(r.se, 1), pct(r.base)
+    N["nsShare"] = pct(r.share_new, 1)
+    r = ns.loc[("down", "all text")]
+    N["nsDown"], N["nsDownSe"] = sg(100 * r.coef, 1), pct(r.se, 1)
+    r = ns.loc[("next4", "all text")]
+    N["nsEsc"], N["nsEscSe"], N["nsEscBase"] = pct(r.coef, 1), pct(r.se, 1), pct(r.base, 1)
+    g = k["new_survey_groups"]
+    N["nsUnforecast"] = pct(g["escalated_unforecast"]["share_new_survey"])
+    N["nsForecast"] = pct(g["escalated_forecast"]["share_new_survey"])
+    N["nsNone"] = pct(g["no_escalation"]["share_new_survey"])
+    text_table()
+    er = pd.read_csv(TAB / "text_value_escalation.csv")
+    er = er[(er.outcome == "next4") & (er.model == "map+text")].set_index("var")
+    N["txtAidDown"], N["txtAccess"] = pct(er.loc["t_aid_down", "coef"]), pct(er.loc["t_access", "coef"])
+    # prices
+    pc = pd.read_csv(TAB / "price_value_coverage.csv", index_col=0)
+    a = pc.loc["All"]
+    N["prBoth"], N["prWfpOnly"], N["prFewsOnly"], N["prNone"] = (pct(a[c]) for c in ["both", "WFP only", "FEWS only", "none"])
+    fp = pd.read_parquet(INP / "prices_fdw/prices.parquet", columns=["source_organization", "market_id"])
+    own = ~fp.source_organization.str.contains("WFP", case=False, na=False)
+    N["prMarketsFews"] = f"{fp[own].market_id.nunique():,}"
+    N["prShareNonWfp"] = pct(own.mean())
+    pv = pd.read_csv(TAB / "price_value.csv")
+    pv = pv[pv["sample"] == "all"].set_index(["task", "model"]).auc
+    for task, tag in [("new crisis", "New"), ("escalation", "Esc")]:
+        for model, mt in [("base", "Base"), ("+WFP prices", "Wfp"), ("+FEWS NET prices", "Fews"), ("+both", "Both"),
+                          ("+forecast", "Fc"), ("raw", "Raw"), ("raw +both", "RawBoth"),
+                          ("raw +FEWS NET map and forecast", "RawMap")]:
+            if (task, model) in pv.index:
+                N[f"pv{tag}{mt}"] = f"{pv.loc[(task, model)]:.3f}"
+
+
 if __name__ == "__main__":
     coverage()
     type2()
@@ -589,4 +825,7 @@ if __name__ == "__main__":
     distinct()
     cases()
     hetero()
+    budget_and_cg()
+    pieces()
+    fig_information()
     write_numbers()

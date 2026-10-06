@@ -1,0 +1,153 @@
+{
+ "name": "ethiopia__alert__december-2020",
+ "period_covered": "2021 (through late 2021 harvest)",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": true,
+  "worst_case_text": "Absent assistance and PSNP, additional very poor households likely deteriorate to Emergency (Phase 4) in coming months; area-level Phase 4 likely in early 2021.",
+  "aid_assumption": "assumed_scaled_up",
+  "aid_assumption_text": "PSNP deliveries anticipated to resume by mid-2021 and humanitarian assistance delivered to some areas in coming months; urgent scale-up needed.",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": "PSNP resumes mid-2021; humanitarian aid to some areas from coming months.",
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "not_stated",
+  "season_status_text": null
+ },
+ "areas": [
+  {
+   "location": "Eastern, central and southern Tigray incl. urban and peri-urban areas",
+   "admin1": "Tigray",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": 4,
+   "projected_period": "early 2021 (if access constraints/no assistance)",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "displacement",
+    "access_constraint",
+    "prices_high",
+    "trade_border"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "PSNP permanent direct support beneficiaries in Tigray",
+   "admin1": "Tigray",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 4,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": 250000,
+   "drivers": [
+    "access_constraint",
+    "aid_reduction"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Displaced and poor households in bordering Afar and Amhara",
+   "admin1": "Afar; Amhara",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": "IDPs",
+   "current_phase": 3,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "displacement",
+    "trade_border"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Western Tigray surplus-producing areas",
+   "admin1": "Tigray",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "stable",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_good",
+    "conflict"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "displacement_tracking",
+  "key_informants",
+  "conflict_data",
+  "humanitarian_distribution_data"
+ ],
+ "data_gaps": [
+  {
+   "location": "Tigray",
+   "admin1": "Tigray",
+   "what": "general",
+   "text": "Telecommunication services remain limited; full extent of conflict likely still unknown."
+  },
+  {
+   "location": "Tigray",
+   "admin1": "Tigray",
+   "what": "assistance",
+   "text": "Humanitarian assistance reaching some areas is difficult to confirm."
+  }
+ ],
+ "remote_monitoring": false
+}

@@ -1,0 +1,127 @@
+{
+ "name": "somalia__alert__march-2011",
+ "period_covered": "through at least September 2011",
+ "national": {
+  "famine_risk_mentioned": true,
+  "worst_case_described": true,
+  "worst_case_text": "If Gu significantly below average (<50% crop production), large-scale crisis migration and localized famine conditions, including significant mortality increases, possible in Lower Juba Riverine and Hiran Agropastoral.",
+  "aid_assumption": "assumed_reduced",
+  "aid_assumption_text": "Humanitarian access restrictions and insecurity expected to continue; emergency assistance very limited",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "below",
+  "season_status_text": "Failed 2010 Deyr; April-June Gu forecast below average (75-100% of average) and erratic"
+ },
+ "areas": [
+  {
+   "location": "Southern Somalia",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": "median acute malnutrition 25% (Dec 2010)",
+   "price_change_pct": 125,
+   "price_change_basis": "yoy",
+   "terms_of_trade_text": "purchasing power 35-60% lower than last year; sorghum 120-130% and maize 25-75% above last year",
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "harvest_poor",
+    "prices_high",
+    "access_constraint",
+    "livestock"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Lower Juba riverine",
+   "admin1": "Lower Juba",
+   "admin2": null,
+   "livelihood_zone": "Lower Juba Riverine",
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "livestock"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Hiran Agropastoral",
+   "admin1": "Hiran",
+   "admin2": null,
+   "livelihood_zone": "Hiran Agropastoral",
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_poor"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "Southern Somalia",
+   "admin1": null,
+   "admin2": null,
+   "population_group": null,
+   "survey_type": "FSNAU_seasonal",
+   "fieldwork": "December 2010",
+   "gam_pct": 25,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "median prevalence of acute malnutrition",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "market_prices_fewsnet",
+  "crop_assessment"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

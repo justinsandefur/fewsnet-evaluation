@@ -1,0 +1,125 @@
+{
+ "name": "sudan__key-message-update__november-2016",
+ "period_covered": "November 2016 post-harvest",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "not_stated",
+  "aid_assumption_text": null,
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "improve",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "not_stated",
+  "season_status_text": "October/November harvests expected above average"
+ },
+ "areas": [
+  {
+   "location": "Most areas of Sudan",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": 2,
+   "projected_period": "post-harvest",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "improve",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_good",
+    "prices_falling"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Parts of South Kordofan and Jebel Marra",
+   "admin1": "South Kordofan; Darfur",
+   "admin2": "Jebel Marra",
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": 3,
+   "projected_period": "post-harvest",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Sudan sorghum markets",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": 20,
+   "price_change_basis": "yoy",
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "currency",
+    "macro",
+    "prices_high"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "18 states",
+   "admin1": null,
+   "admin2": null,
+   "population_group": null,
+   "survey_type": "MUAC_screening",
+   "fieldwork": "August/September 2016",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "4 million children screened; 53,545 SAM and 267,017 MAM; highest in North Darfur, South Kordofan, Central Darfur",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "market_prices_fewsnet",
+  "admissions_data"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

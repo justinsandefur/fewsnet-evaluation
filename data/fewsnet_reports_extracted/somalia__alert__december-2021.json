@@ -1,0 +1,163 @@
+{
+ "name": "somalia__alert__december-2021",
+ "period_covered": "first six months of 2022",
+ "national": {
+  "famine_risk_mentioned": true,
+  "worst_case_described": true,
+  "worst_case_text": "If 2022 gu performs poorly and assistance fails to reach those in need, high proportion could face extreme consumption deficits; possible Catastrophe (Phase 5) households or risk of Famine in 2022.",
+  "aid_assumption": "assumed_continued",
+  "aid_assumption_text": "Assistance averaged 2.3 million people/month Sept-Nov 2021 vs 473,000 in 2016; scale of need will likely outpace current and planned assistance",
+  "people_in_need_crisis_plus": 4500000,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "below",
+  "season_status_text": "2021 deyr largely failed (30-60% of average), third consecutive poor season; fourth below-average gu April-June 2022 possible"
+ },
+ "areas": [
+  {
+   "location": "Juba Cattle Pastoral, Coastal Deeh Pastoral, Addun Pastoral",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": "Juba Cattle Pastoral; Coastal Deeh Pastoral; Addun Pastoral",
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": 4,
+   "projected_period": "March/April 2022",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "livestock",
+    "prices_high",
+    "conflict"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Bay Bakool Low Potential Agropastoral",
+   "admin1": "Bay; Bakool",
+   "admin2": null,
+   "livelihood_zone": "Bay Bakool Low Potential Agropastoral",
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": 4,
+   "projected_period": "March/April 2022",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_poor",
+    "rain_deficit"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Gedo, Bakool, Middle and Lower Juba, Galgaduud, Mudug, Hiiraan",
+   "admin1": "Gedo; Bakool; Middle Juba; Lower Juba; Galgaduud; Mudug; Hiraan",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "livestock",
+    "rain_deficit"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Southern Somalia agropastoral and riverine",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": 50,
+   "price_change_basis": "other",
+   "terms_of_trade_text": "goat-to-rice and goat-to-sorghum ToT 15-50% below average in Gedo, Bay, Bakool, Nugaal",
+   "people_in_need": null,
+   "drivers": [
+    "prices_high",
+    "harvest_poor"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "Somalia post-deyr 2021",
+   "admin1": null,
+   "admin2": null,
+   "population_group": null,
+   "survey_type": "FSNAU_seasonal",
+   "fieldwork": "December 2021 (ongoing)",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "food security, acute malnutrition and mortality survey underway; results by early February 2022",
+   "planned_not_done": true
+  }
+ ],
+ "data_sources_cited": [
+  "remote_sensing_rain",
+  "market_prices_fewsnet",
+  "humanitarian_distribution_data",
+  "crop_assessment"
+ ],
+ "data_gaps": [
+  {
+   "location": "national",
+   "admin1": null,
+   "what": "nutrition",
+   "text": "2021 post-deyr survey results not yet available; updated estimates expected February 2022."
+  }
+ ],
+ "remote_monitoring": false
+}

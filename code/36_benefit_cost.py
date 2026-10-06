@@ -62,7 +62,7 @@ GAM = {"low": {1: 0.04, 2: 0.05, 3: 0.10, 4: 0.15, 5: 0.30},
        "central": {1: 0.025, 2: 0.075, 3: 0.125, 4: 0.225, 5: 0.35},
        "high": {1: 0.0, 2: 0.10, 3: 0.15, 4: 0.30, 5: 0.40}}
 
-BUDGET = {"low": 27e6, "central": 64e6, "high": 90e6}
+BUDGET = {"low": 35e6, "central": 45e6, "high": 65e6}   # USAspending FEWS NET contract obligations, see paper
 
 
 def rounds():
@@ -238,7 +238,7 @@ def figure(R):
             a.text(i + 0.12, s_["central"], f"\\${float(f'{s_.central:.2g}'):,.0f}", fontsize=7, va="center")
         for lo, hi, lab in bands:
             a.axhspan(lo, hi, color="#e6862e", alpha=0.25, lw=0)
-            a.text(2.4, (lo * hi) ** 0.5, lab, fontsize=6.5, ha="right", va="center", color="#a0521a")
+            a.text(-0.42, hi * 0.95, lab, fontsize=6.5, ha="left", va="top", color="#a0521a")
         a.set_yscale("log")
         from matplotlib.ticker import FuncFormatter, LogLocator
         a.yaxis.set_major_locator(LogLocator(base=10, subs=(1, 2, 5)))
@@ -247,7 +247,7 @@ def figure(R):
         a.set_xticks(range(3), list(labs.values()), fontsize=7)
         a.set_xlim(-0.5, 2.6)
         a.set_title(title, fontsize=8.5, loc="left", fontweight="bold")
-    ax[0].set_ylabel("FEWS NET budget per outcome averted\n(log scale; budget \\$64 million a year)")
+    ax[0].set_ylabel("FEWS NET budget per outcome averted\n(log scale; budget \\$45 million a year)")
     fig.tight_layout()
     fig.savefig(FIG / "fig7_benefit_cost.pdf", bbox_inches="tight")
     fig.savefig(FIG / "fig7_benefit_cost.png", dpi=150, bbox_inches="tight")

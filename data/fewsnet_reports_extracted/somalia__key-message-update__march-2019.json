@@ -1,0 +1,107 @@
+{
+ "name": "somalia__key-message-update__march-2019",
+ "period_covered": "through June 2019",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "assumed_reduced",
+  "aid_assumption_text": "Funding shortfalls may prevent full implementation of planned food assistance.",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "below",
+  "season_status_text": "Gu onset delayed by cyclone Idai; cumulative April-June rainfall most likely below average"
+ },
+ "areas": [
+  {
+   "location": "Northern and central pastoral and agropastoral areas",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": 3,
+   "projected_period": "April-June 2019",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "livestock"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Bay Bakool Low Potential Agropastoral and Southern Agropastoral Hiiraan",
+   "admin1": "Bay; Bakool; Hiiraan",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": 3,
+   "projected_period": "April-June 2019",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Northwestern agropastoral areas",
+   "admin1": "Awdal; Woqooyi Galbeed",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_poor",
+    "prices_high"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "market_prices_other",
+  "remote_sensing_rain"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

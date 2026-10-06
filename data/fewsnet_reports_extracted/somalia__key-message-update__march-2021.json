@@ -1,0 +1,116 @@
+{
+ "name": "somalia__key-message-update__march-2021",
+ "period_covered": "through mid-2021",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "assumed_reduced",
+  "aid_assumption_text": "Assistance fell from 2.05 million (Jan) to 1.4 million (Feb), 66 percent of need; plans from April onward unconfirmed.",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "below",
+  "season_status_text": "Todob/jarar rains failed; delayed, suppressed gu rainfall likely"
+ },
+ "areas": [
+  {
+   "location": "Northern and central pastoral areas, Bay Bakool Low Potential, Cowpea Belt, Southern Rainfed Agropastoral",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "other",
+    "livestock"
+   ],
+   "aid_status": "reduced_or_ending",
+   "aid_coverage_pct_of_need": 66,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Northern Inland, Coastal Deeh, Guban, NW East Golis, Addun, Hawd pastoral; Togdheer and Cowpea Agropastoral; Bakool, Bay, Gedo, Lower Juba agropastoral",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "livestock"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Northern rural reference markets (Sool, Sanaag, Bari, Nugaal)",
+   "admin1": "Sool; Sanaag; Bari; Nugaal",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": 23,
+   "price_change_basis": "five_year_avg",
+   "terms_of_trade_text": "20-liter water jerrican SOS 6,375, double a year ago",
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "market_prices_other",
+  "humanitarian_distribution_data",
+  "key_informants"
+ ],
+ "data_gaps": [
+  {
+   "location": "national",
+   "admin1": null,
+   "what": "assistance",
+   "text": "Partners unable to confirm assistance plans from April onward."
+  }
+ ],
+ "remote_monitoring": false
+}

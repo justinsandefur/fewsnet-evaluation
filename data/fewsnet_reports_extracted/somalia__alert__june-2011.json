@@ -1,0 +1,109 @@
+{
+ "name": "somalia__alert__june-2011",
+ "period_covered": "through September 2011",
+ "national": {
+  "famine_risk_mentioned": true,
+  "worst_case_described": true,
+  "worst_case_text": "Localized famine conditions possible in worst-affected riverine and urban areas depending on prices, conflict and humanitarian response.",
+  "aid_assumption": "assumed_reduced",
+  "aid_assumption_text": "Current humanitarian assistance very limited in southern Somalia and insufficient",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "not_stated",
+  "season_status_text": "Gu 2011 late start, poor performance, early cessation; harvests <50% of Gu 2010"
+ },
+ "areas": [
+  {
+   "location": "Southern Somalia poor households",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 4,
+   "projected_phase": 4,
+   "projected_period": "through September 2011",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "deteriorate",
+   "nutrition_class": "acute malnutrition and child mortality above Crisis thresholds",
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": "goat-to-maize ToT 63-76% below 2010 in Maize Belt; wage ToT 40-70% lower",
+   "people_in_need": null,
+   "drivers": [
+    "prices_high",
+    "harvest_poor",
+    "conflict",
+    "access_constraint",
+    "trade_border"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Beled Hawa",
+   "admin1": "Gedo",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": 82,
+   "price_change_basis": "other",
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "prices_high"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Lower Shabelle, Juba, Gedo, Hiran, Bakool",
+   "admin1": "Lower Shabelle; Juba; Gedo; Hiran; Bakool",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_poor"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "market_prices_fewsnet",
+  "market_prices_wfp"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

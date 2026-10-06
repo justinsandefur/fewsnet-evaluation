@@ -1,0 +1,124 @@
+{
+ "name": "sudan__key-message-update__july-2017",
+ "period_covered": "July 2017",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "not_stated",
+  "aid_assumption_text": null,
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "not_stated",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "not_stated",
+  "season_status_text": "Favorable rainfall overall; below average in parts of Kassala, northern North Kordofan, North Darfur; local flooding"
+ },
+ "areas": [
+  {
+   "location": "Kassala; northern North Kordofan; North Darfur",
+   "admin1": "Kassala; North Kordofan; North Darfur",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Flooded localities",
+   "admin1": "South Darfur; Central Darfur; North Darfur; Sennar; White Nile",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "flood"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "North Jebel Marra locality",
+   "admin1": "North Darfur",
+   "admin2": "North Jebel Marra",
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "displacement"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "West and Central Jebel Marra localities",
+   "admin1": "Central Darfur",
+   "admin2": null,
+   "population_group": null,
+   "survey_type": "MUAC_screening",
+   "fieldwork": "June 2017",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "42,667 children screened; 782 SAM and 3,909 MAM",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "remote_sensing_rain",
+  "displacement_tracking",
+  "joint_assessment_ipc"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

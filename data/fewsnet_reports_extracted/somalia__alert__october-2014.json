@@ -1,0 +1,115 @@
+{
+ "name": "somalia__alert__october-2014",
+ "period_covered": "October 2014 - April 2015",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": true,
+  "worst_case_text": "If Oct-Dec Deyr rains were below average, food security could continue to deteriorate into early 2015, making contingency planning necessary.",
+  "aid_assumption": "assumed_scaled_up",
+  "aid_assumption_text": "Additional humanitarian food assistance needed between now and start of Deyr harvest in February; increased levels to rural areas necessary.",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "above",
+  "season_status_text": "Gu rains ended early and below average in northern Gedo."
+ },
+ "areas": [
+  {
+   "location": "Dawo Pastoral livelihood zone, northern Gedo",
+   "admin1": "Gedo",
+   "admin2": null,
+   "livelihood_zone": "Dawo Pastoral",
+   "population_group": "pastoralists",
+   "current_phase": 3,
+   "projected_phase": 2,
+   "projected_period": "April/May 2015",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "livestock",
+    "prices_high"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Southern Agropastoral livelihood zone, northern Gedo",
+   "admin1": "Gedo",
+   "admin2": null,
+   "livelihood_zone": "Southern Agropastoral",
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": 2,
+   "projected_period": "February 2015",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "harvest_poor",
+    "prices_high"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Garbahare District",
+   "admin1": "Gedo",
+   "admin2": "Garbahare",
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "remote_sensing_rain",
+  "market_prices_other",
+  "displacement_tracking"
+ ],
+ "data_gaps": [
+  {
+   "location": "Garbahare District and rural northern Gedo",
+   "admin1": "Gedo",
+   "what": "access",
+   "text": "Humanitarian access remains low, particularly in Garbahare District and rural areas."
+  }
+ ],
+ "remote_monitoring": false
+}

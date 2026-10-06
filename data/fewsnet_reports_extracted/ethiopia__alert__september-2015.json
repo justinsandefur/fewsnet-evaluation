@@ -1,0 +1,75 @@
+{
+ "name": "ethiopia__alert__september-2015",
+ "period_covered": "September 2015 - March 2016",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "not_stated",
+  "aid_assumption_text": "Some humanitarian assistance present; sustained assistance needed until March 2016 rains.",
+  "people_in_need_crisis_plus": 954000,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "not_stated",
+  "season_status_text": "Both rainy seasons far below average; Karan/Karma started late with long dry spells."
+ },
+ "areas": [
+  {
+   "location": "Sitti Zone and southern Afar",
+   "admin1": "Somali; Afar",
+   "admin2": "Sitti",
+   "livelihood_zone": null,
+   "population_group": "pastoralists",
+   "current_phase": 3,
+   "projected_phase": 3,
+   "projected_period": "through March 2016 (peak Feb-March)",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 4,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": -41,
+   "price_change_basis": "yoy",
+   "terms_of_trade_text": "Wheat per goat fell from 67 kg July 2014 to 28 kg July 2015",
+   "people_in_need": 954000,
+   "drivers": [
+    "rain_deficit",
+    "livestock",
+    "prices_falling"
+   ],
+   "aid_status": "present",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "Sitti Zone and southern Afar",
+   "admin1": null,
+   "admin2": null,
+   "population_group": null,
+   "survey_type": "other",
+   "fieldwork": "July 2015",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "Preliminary survey info: acute malnutrition risen significantly from already high levels",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "remote_sensing_vegetation",
+  "remote_sensing_rain",
+  "admissions_data",
+  "market_prices_fewsnet",
+  "humanitarian_distribution_data"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

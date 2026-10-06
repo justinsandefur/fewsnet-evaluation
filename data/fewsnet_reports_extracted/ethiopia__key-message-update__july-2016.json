@@ -1,0 +1,112 @@
+{
+ "name": "ethiopia__key-message-update__july-2016",
+ "period_covered": "through September 2016",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "assumed_continued",
+  "aid_assumption_text": "Continued, regular assistance essential to mitigate food consumption gaps",
+  "people_in_need_crisis_plus": 10000000,
+  "headline_direction": "mixed",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": "Meher harvests in November expected to reduce assistance needs in meher-dependent areas",
+  "rain_forecast": "below",
+  "season_status_text": "Above-average Kiremt rainfall since June; La Nina raises likelihood of below-normal Deyr/Hageya"
+ },
+ "areas": [
+  {
+   "location": "Wag Himra, East and West Hararghe, Shinile and southern Afar pastoral",
+   "admin1": "Amhara; Oromia; Somali; Afar",
+   "admin2": "Wag Himra; East Hararghe; West Hararghe; Shinile",
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": 3,
+   "projected_period": "through September",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": true,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit"
+   ],
+   "aid_status": "present",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Flood-prone areas",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "flood"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Southern pastoral areas (central and southern Somali, Bale, Guji, Borena lowlands, South Omo, Segen)",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "livestock"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "key_informants"
+ ],
+ "data_gaps": [
+  {
+   "location": "national",
+   "admin1": null,
+   "what": "crop_production",
+   "text": "Belg production and number in need will be available once multi-sector assessment results are released."
+  }
+ ],
+ "remote_monitoring": false
+}

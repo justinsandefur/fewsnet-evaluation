@@ -1,0 +1,107 @@
+{
+ "name": "ethiopia__key-message-update__september-2018",
+ "period_covered": "through January 2019",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "assumed_reduced",
+  "aid_assumption_text": "Delayed and irregular humanitarian assistance to IDPs due to insecurity and resource gaps",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "improve",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "not_stated",
+  "season_status_text": "Kiremt delayed onset, dry spells to early August; Karan/Karma 15-30% above average in north"
+ },
+ "areas": [
+  {
+   "location": "Eastern Somali Region, Guji/Borena border areas, East/West Hararghe, West Guji, Gedeo",
+   "admin1": "Somali; Oromia; SNNPR",
+   "admin2": "Guji; Borena; East Hararghe; West Hararghe; West Guji; Gedeo",
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": 3,
+   "projected_period": "through January 2019",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "displacement",
+    "livestock"
+   ],
+   "aid_status": "reduced_or_ending",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Most meher areas",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": 2,
+   "projected_period": "after harvest",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "improve",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_good"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Sitti Zone and Afar",
+   "admin1": "Somali; Afar",
+   "admin2": "Sitti",
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 2,
+   "projected_phase": 2,
+   "projected_period": "from October",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": true,
+   "worst_case_phase": null,
+   "direction": "improve",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "livestock"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "remote_sensing_rain",
+  "admissions_data"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

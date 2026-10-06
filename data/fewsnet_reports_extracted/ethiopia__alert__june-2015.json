@@ -1,0 +1,55 @@
+{
+ "name": "ethiopia__alert__june-2015",
+ "period_covered": "June-September 2015, into 2016",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "not_stated",
+  "aid_assumption_text": "Only 11,502 of 65,061 HRD beneficiaries in SNNPR had received emergency food assistance by June; additional assistance needed.",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": "Poor households improve to Stressed after Meher harvest in Oct/Nov.",
+  "rain_forecast": "not_stated",
+  "season_status_text": "Belg rains started up to a month late, 20-50 percent below average; Belg harvest delayed 1-2 months."
+ },
+ "areas": [
+  {
+   "location": "Central SNNPR root crop and maize-dependent areas (Wolayita, Gamo Gofa, Hadiya, Kambato Tamboro, western Sidama)",
+   "admin1": "SNNPR",
+   "admin2": "Wolayita; Gamo Gofa; Hadiya; Kambato Tamboro; Sidama",
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 2,
+   "projected_phase": 3,
+   "projected_period": "July-September 2015",
+   "projected_phase_2": 2,
+   "projected_period_2": "after Meher harvest, October/November 2015",
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "harvest_poor"
+   ],
+   "aid_status": "present",
+   "aid_coverage_pct_of_need": 18,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "remote_sensing_rain",
+  "crop_assessment",
+  "humanitarian_distribution_data"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}
