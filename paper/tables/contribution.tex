@@ -1,0 +1,18 @@
+\begin{tabular}{lcccccc}
+\toprule
+ & \multicolumn{3}{c}{Without FEWS NET: rainfall,} & \multicolumn{3}{c}{Without FEWS NET: rainfall, conflict,} \\
+ & \multicolumn{3}{c}{conflict and prices} & \multicolumn{3}{c}{prices and latest official analysis} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+ & (1) & (2) & (3) & (4) & (5) & (6) \\
+\midrule
+FEWS NET current map, beyond the baseline & $0.201^{***}$ &  & $0.127^{***}$ & $0.165^{***}$ &  & $0.121^{***}$ \\
+ & $(0.015)$ &  & $(0.023)$ & $(0.013)$ &  & $(0.020)$ \\
+FEWS NET forecast, beyond the baseline &  & $0.195^{***}$ & $0.131^{***}$ &  & $0.142^{***}$ & $0.082^{***}$ \\
+ &  & $(0.011)$ & $(0.019)$ &  & $(0.016)$ & $(0.023)$ \\
+Baseline's own prediction (coefficient) & $0.42$ & $0.42$ & $0.44$ & $0.68$ & $0.68$ & $0.68$ \\
+\midrule
+Observations & 12,764 & 12,764 & 12,764 & 12,764 & 12,764 & 12,764 \\
+Countries & 21 & 21 & 21 & 21 & 21 & 21 \\
+AUC: baseline $\rightarrow$ adding FEWS NET & \multicolumn{3}{c}{0.79 $\rightarrow$ 0.85} & \multicolumn{3}{c}{0.84 $\rightarrow$ 0.86} \\
+\bottomrule
+\end{tabular}

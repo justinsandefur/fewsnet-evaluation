@@ -1,0 +1,437 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}\onehalfspacing
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx,float}
+\usepackage{booktabs,threeparttable}
+\usepackage[authoryear,round]{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+\usepackage{enumitem}
+\setlist{itemsep=2pt,topsep=4pt}
+\usepackage{appendix}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{placeins}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcommand{\authornote}[1]{\textcolor{red}{[AUTHOR: #1]}}
+\input{numbers}
+
+\title{False Alarms and Missed Emergencies:\\ An Evaluation of the Famine Early Warning Systems Network}
+\author{Claude Opus 5.5\thanks{This paper is fully AI generated. Claude Opus 5.5 assembled the data, wrote the code, ran the analysis and drafted the text. Human direction consisted of 64 prompts totaling about 3,900 words between 30 September and 6 October 2026. Replication code is available at \url{https://github.com/justinsandefur/fewsnet-evaluation}.} \and Charles Kenny\thanks{Center for Global Development.} \and Justin Sandefur\thanks{Coefficient Giving.}}
+\date{October 2026 \\ \small Working draft --- not for citation}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent The U.S.-funded Famine Early Warning Systems Network (FEWS NET) forecasts food crises in about 30 countries, at a cost of about \$\bcBudget{} million a year. We score its 2011--2024 forecasts against independent IPC and Cadre Harmonis\'e assessments and link them to humanitarian funding. Only \tIInoWarning{} percent of new emergencies arrived with no warning of at least Crisis, but four months ahead FEWS NET forecast just \tIIleadfour{} percent of them as emergencies. Of its emergency warnings, \tIfailed{} percent did not come true; FEWS NET credits aid for about half. Its forecasts add to what donors could otherwise know, and funding follows them. Crediting FEWS NET only with information donors could not otherwise have had, and taking its judgments of where aid holds back crises at face value, it averts a death for every \$\bcDistinctLo{}--\bcDistinctHi{} of its budget, and keeps a person out of Emergency for a year for every \$\dCostEmergLo{}--\dCostEmergHi{}.
+\end{abstract}
+
+\vspace{1em}
+\noindent\textbf{JEL codes:} O19, Q18, F35, I15. \quad \textbf{Keywords:} famine, early warning, humanitarian aid, forecasting, food security.
+
+\newpage
+\section{Introduction}
+
+In August 2010, the Famine Early Warning Systems Network warned that failing rains would push southern Somalia into crisis. By March 2011 it was warning of possible famine. Famine was declared in July 2011, and an estimated 258,000 people died between 2010 and 2012, about half of them young children \citep{salama2012,checchi2013}. The post-mortems agreed that the warnings had been timely and right; the response was not \citep{hillbruner2012}. Fourteen years later the question has flipped. In late January 2025, during the freeze on U.S. foreign assistance, FEWS NET went offline. It had been publishing maps and forecasts for \outBefore{} countries; it came back in stages from August 2025, under the State Department, and its long-run funding remains uncertain \citep{Devex2025FEWS,NPR2026FEWS}. Somalia 2011 shows that a warning system can be right and still not save lives. The question now is whether it is worth paying for at all.
+
+This paper asks what FEWS NET's warnings are worth, using the data FEWS NET itself publishes and the independent assessments that run alongside it. We organize the evaluation around the two ways a warning system can fail. A \emph{Type II error} is a missed emergency: a crisis that arrives without warning. A \emph{Type I error} is a false alarm: a warned crisis that never comes. The two errors are not symmetric in what they reveal. If warnings work --- if they bring aid that prevents the crisis --- a correct warning looks like a false alarm. Aid can turn a true positive into an apparent Type I error, but it cannot create a Type II error. So observed false alarms overstate how often FEWS NET was wrong, while observed misses are a lower bound on how often it failed to see a crisis coming. This asymmetry, and FEWS NET's own judgments about where aid is holding back a crisis, shape the whole analysis.
+
+We combine four data sources: (i) every FEWS NET current-situation map and medium-term forecast for \csAreas{} areas in \csCountries{} countries, 2011--2024; (ii) the Cadre Harmonis\'e in West Africa and the multi-agency IPC elsewhere, which publish their own area classifications and projections; (iii) humanitarian funding commitments from OCHA's Financial Tracking Service; and (iv) local rainfall, political violence and food prices --- the raw signals a donor could watch without FEWS NET.
+
+Our first finding is that FEWS NET rarely misses a crisis entirely but often misjudges its severity. Of \tIIonsets{} areas that newly entered Emergency (Phase 4 on the five-phase IPC scale), \tIIfromCrisis{} percent were already in Crisis (Phase 3), and only \tIInoWarning{} percent had no forecast of at least Crisis in the preceding eight months. Yet FEWS NET forecast Emergency for only \tIIleadfour{} percent of these areas four months ahead and \tIIleadeight{} percent eight months ahead. For comparison, it forecast Emergency for \tIIcontrolEmergency{} percent of areas that did not tip over. Its warnings carry real signal; they mostly arrive late and at one phase too low.
+
+Second, about half of FEWS NET's emergency warnings did not come true, but FEWS NET itself attributes many of these to aid. Of \tIwarnings{} area-months forecast four to eight months ahead to be in Emergency, \tIcame{} percent were, \tIflagged{} percent ended in Crisis with FEWS NET's flag that humanitarian assistance was keeping the area at least one phase better, and \tIunflagged{} percent ended in Crisis without that flag. Taking FEWS NET's judgment at face value, about a quarter of emergency warnings were genuine false alarms. Two checks temper that reading. Nearly half of the flagged ``averted'' cases were already flagged before the warning, so the flag often describes ongoing aid rather than a response to the warning. And we find no sign that warnings come true less often when funding to the country then rises unusually fast, which is what aid-prevented crises would produce.
+
+Third, FEWS NET knows things that other sources do not. We build two benchmarks for what a donor could know without it: one from rainfall, conflict and food prices, and one that adds the latest official IPC or Cadre Harmonis\'e analysis. Without FEWS NET, donors would usually have had only the first: just \shareWithIndependent{} percent of FEWS NET's area-rounds had an official analysis from the previous eight months. Scored against the next independent assessment, adding FEWS NET's maps and forecasts raises the area under the ROC curve for areas tipping into Crisis from \aucRaw{} to \aucRawFews{} over the raw-data benchmark, and from \aucRawIPC{} to \aucRawIPCFews{} over the benchmark with official analyses. In a head-to-head with the official projections for the same areas and seasons, FEWS NET catches somewhat fewer new crises (\offHitFews{} versus \offHitOfficial{} percent) but raises fewer false alarms (\offFaFews{} versus \offFaOfficial{} percent), and its forecast predicts the next official analysis even after controlling for the official projection.
+
+Fourth, money follows FEWS NET's distinctive information. Across countries, humanitarian funding tracks FEWS NET's maps closely. Within a country over time, funding follows its forecasts rather than its current maps. Splitting the forecast into the part predictable from the country, the season, rainfall, conflict and prices, and FEWS NET's own contribution, only the latter predicts funding: a 10 percentage point rise in the share of a country's areas that FEWS NET forecasts to be in Crisis, beyond what that information predicts, comes with \moneyRawAllContrib{} percent more humanitarian funding and \moneyRawFoodContrib{} percent more food and nutrition funding over the next six months.
+
+Fifth, we combine these pieces into a rough benefit-cost calculation. We take FEWS NET at its word about where aid is holding back a crisis and translate one phase of severity into deaths and malnutrition using the IPC's reference thresholds. We credit FEWS NET only with the aid that follows its distinctive information --- what it says beyond each country's usual situation, the season, rainfall, conflict and prices. That is \dShareLo{}--\dShareHi{} percent of the aid in the areas it flags. On that basis FEWS NET averts \dDeathsLo{}--\dDeathsHi{} deaths a year, at \$\bcDistinctLo{}--\bcDistinctHi{} per death averted. That is around or somewhat above the \$3,000--5,500 of the most cost-effective charities \citep{givewell2024}. It also keeps \dEmergLo{}--\dEmergHi{} people a year out of Emergency (\$\dCostEmergLo{}--\dCostEmergHi{} each), and averts \dWastLo{}--\dWastHi{} child-years of acute malnutrition (\$\dCostWastLo{}--\dCostWastHi{} each).
+
+These results do not show that FEWS NET saves lives. We cannot observe outcomes that do not depend on classifications made by FEWS NET or its partners, and the obvious natural experiments --- the 2025 shutdown and earlier changes in FEWS NET coverage --- turn out to be too weak to identify effects on welfare (Section~\ref{sec:limits}). What the data do show is that FEWS NET produces information that other sources lack, that this information is borne out by later independent assessments, and that humanitarian money moves with it.
+
+\paragraph{Related literature.} Several studies score FEWS NET's forecasts against its own later maps. They find headline accuracy of 78--92 percent, falling in pastoral and conflict-affected areas and in strong El Ni\~no years \citep{choularton2019,krishnamurthy2020,backer2021,bertetti2024}. Because food security changes slowly, a forecast that nothing will change does nearly as well: \citet{bertetti2024} find 78 percent accuracy for FEWS NET's near-term forecasts against 76 percent for persistence. \citet{andree2020} show that FEWS NET's outlooks miss most transitions into Crisis while rarely raising false alarms, and that machine-learning models trained on public data can trade some of that conservatism for more detection. Outside FEWS NET, \citet{lentz2019} find that IPC zone classifications explain almost none of the variation in household food security measured by surveys in Malawi, and \citet{lentz2025} argue that official IPC figures undercount acute hunger by about a fifth. \citet{seyffer2026} compare FEWS NET and IPC projections in Somalia and find similar agreement with later assessments. We add three things. First, we score FEWS NET against independent assessments, not only its own later maps, and compare it directly with the official projections. Second, we use the Type I/Type II framework and FEWS NET's own aid flag to separate false alarms from crises held back by aid. Third, we measure FEWS NET's value relative to what donors would otherwise know, and link that marginal information to humanitarian funding. The last step connects to work on what drives disaster and humanitarian aid, which finds that need explains only part of the allocation, alongside news coverage and donor politics \citep{eisensee2007news,drury2005politics,fink2011determinants}.
+
+The rest of the paper runs as follows. Section~\ref{sec:background} describes FEWS NET and sets out why aid clouds the measurement of both errors. Section~\ref{sec:data} describes the data. Sections~\ref{sec:type2} and~\ref{sec:type1} measure missed emergencies and false alarms. Section~\ref{sec:value} asks what FEWS NET adds to what donors could otherwise know, and Section~\ref{sec:money} whether money follows it. Section~\ref{sec:bcr} puts the pieces together into a rough benefit-cost calculation. Section~\ref{sec:limits} explains what the data cannot tell us, and Section~\ref{sec:conclusion} concludes.
+
+\section{FEWS NET and the measurement problem}\label{sec:background}
+
+\subsection{What FEWS NET produces}
+
+USAID created FEWS NET in 1985, after the Ethiopian and Sudanese famines of the mid-1980s. It monitors rainfall, harvests, markets, livestock, conflict and humanitarian assistance, and turns them into maps that classify each area of a country on the five-phase scale of the Integrated Food Security Phase Classification (IPC): Minimal (1), Stressed (2), Crisis (3), Emergency (4) and Famine (5) \citep{IPC2021manual}. An area is placed in the highest phase that describes at least 20 percent of its population.
+
+Three features of FEWS NET's products matter for this paper.
+\begin{itemize}
+  \item \textbf{Current maps and forecasts.} Each round, FEWS NET publishes a map of the current situation and two forecasts: a near-term one for roughly the next four months and a medium-term one for the four months after that. Since 2016 these rounds have come three times a year, in February, June and October; before 2016, quarterly \citep{FEWSNET2018scenario}.
+  \item \textbf{Forecasts assume aid.} The forecasts build in humanitarian assistance that is planned and likely to be funded. A forecast of Emergency therefore means ``Emergency even with the aid we expect,'' not ``Emergency if nobody acts.''
+  \item \textbf{The aid flag.} FEWS NET marks an area with ``!'' when it judges that humanitarian assistance is keeping the area at least one phase better than it would otherwise be. The flag is FEWS NET's own estimate of what aid is preventing.
+\end{itemize}
+
+FEWS NET is not the only source of classifications. The IPC, a partnership of UN agencies, NGOs and governments, publishes area classifications and projections in many countries, and the Cadre Harmonis\'e does the same in West Africa. FEWS NET staff take part in many of these analyses. In much of FEWS NET's coverage, though, no official analysis exists for months at a time.
+
+\subsection{Two errors, and why aid hides them}\label{sec:framework}
+
+Consider an area with underlying need $N$ --- the phase it would reach without aid --- and observed phase $P$ after any aid arrives. A forecaster issues warning $W$ about $N$; donors respond with aid $A$, which lowers $P$ relative to $N$. A Type II error is a crisis ($P \ge 4$, say) without a prior warning; a Type I error is a warning followed by no crisis.
+
+Aid treats the two errors differently. Where a warning brings aid that works, $P < N$: a correct warning is recorded as a false alarm. Where no warning was issued, aid is less likely, and $P$ is closer to $N$. So:
+\begin{itemize}
+  \item observed false alarms overstate the true Type I error rate, by the number of crises prevented; and
+  \item observed misses understate the true Type II error rate only if unwarned crises were nonetheless prevented by aid, which is less likely. Observed misses are close to a lower bound.
+\end{itemize}
+The same logic means that a system whose warnings work will look less accurate than one whose warnings are ignored. Any evaluation that scores forecasts only against outcomes penalizes successful early warning. This is the familiar problem of judging any response that goes where the problems are --- hospitals have sicker patients, and countries under IMF programs have worse economies \citep{barro2005imf}.
+
+FEWS NET's aid flag offers a partial way out. If we take it at face value, an area mapped as Crisis with the flag had an underlying need of Emergency, and we can score warnings against need ($P$ plus one if flagged) rather than outcome. We use this throughout, with two caveats: the same analysts produce the warning and the flag, and the flag records ongoing aid, not only aid that responded to the warning.
+
+\subsection{Two examples}\label{sec:examples}
+
+Figures~\ref{fig:case_so} and~\ref{fig:case_et} show what FEWS NET's products look like in two crises. In each, the left panels show signals any donor could watch, and the right panels show FEWS NET's forecast and what it later mapped.
+
+\paragraph{Somalia, 2016--17.} The October--December 2016 rains failed: across Somalia's \caseSoAreas{} FEWS NET areas, rainfall over the six months to January 2017 averaged \caseSoRain{} standard deviations below normal, with the deepest deficits in the north (panel A). Political violence was concentrated in the south (panel B). In February 2017 FEWS NET forecast Emergency for \caseSoFcFour{} areas by June, up from \caseSoCurFour{} at the time, including much of the north (panel C). By June, \caseSoNextFour{} areas were in Emergency --- mostly in the south --- and the north was mapped one phase lower, in Crisis, but flagged as held back by aid (panel D). In all, FEWS NET flagged \caseSoFlags{} of the \caseSoAreas{} areas (\caseSoFlagShare{} percent). This is the Type I ambiguity in miniature. The northern warnings did not come true as forecast, and FEWS NET's own map says that is because aid arrived.
+
+\paragraph{Ethiopia, 2015--16.} The El Ni\~no drought hit the northern and central highlands: rainfall over the six months to September 2015 averaged \caseEtRain{} standard deviations below normal across Ethiopia's \caseEtAreas{} FEWS NET areas, and much more in the worst-hit zones (panel A). Conflict was low and plays no role here. In October 2015, FEWS NET forecast Emergency for \caseEtFcFour{} areas by February 2016, up from \caseEtCurFour{} (panels B and C). By February, \caseEtNextFour{} areas were in Emergency, almost exactly where forecast, and FEWS NET flagged \caseEtFlags{} areas (\caseEtFlagShare{} percent) as held back by aid. Many flags fell in areas mapped as Crisis in the north and as Stressed or Minimal in the south (panel D). Here the forecast came true, and FEWS NET credits aid with keeping the surrounding areas from following.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_case_somalia.png}
+\caption{Somalia, 2016--17. FEWS NET areas. A: rainfall over the six months to January 2017, in standard deviations from the same months in the previous 20 years (CHIRPS). B: political violence events in the six months to January 2017 (ACLED, log of one plus events). C: FEWS NET's forecast, issued February 2017, for June 2017. D: FEWS NET's classification for June 2017; hatching marks areas FEWS NET flagged as held at least one phase better by humanitarian assistance.}\label{fig:case_so}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_case_ethiopia.png}
+\caption{Ethiopia, 2015--16. FEWS NET areas. A: rainfall over the six months to September 2015, in standard deviations from the same months in the previous 20 years (CHIRPS). B: FEWS NET's classification in October 2015, when the forecast was issued. C: FEWS NET's forecast, issued October 2015, for February 2016. D: FEWS NET's classification for February 2016; hatching marks areas FEWS NET flagged as held at least one phase better by humanitarian assistance.}\label{fig:case_et}
+\end{figure}
+
+\FloatBarrier
+\section{Data}\label{sec:data}
+
+Table~\ref{tab:data} summarizes the data. All sources are public; Appendix~\ref{app:data} gives details and match rates.
+
+\begin{table}[t]
+\centering
+\begin{threeparttable}
+\caption{Data sources}\label{tab:data}
+\small
+\begin{tabular}{L{4.3cm}L{6.0cm}L{4.4cm}}
+\toprule
+Source & Content & Coverage used \\
+\midrule
+FEWS NET Data Warehouse \citep{fewsnetdata} & Current-situation phases, near- and medium-term forecasts and aid flags for each FEWS NET area & \csAreaMonths{} area-months; \csAreas{} areas in \csCountries{} countries; 2011--2024 \\[3pt]
+Cadre Harmonis\'e \citep{chdata} & Area classifications and projections, West and Central Africa & 2014--2026; district or region level \\[3pt]
+IPC \citep{ipcdata} & Area classifications and projections outside West Africa & 2017--2026 \\[3pt]
+Global Report on Food Crises \citep{GRFC2025} & People in Crisis or worse, by country and year & 2016--2024; \covCountries{} countries \\[3pt]
+OCHA Financial Tracking Service \citep{OCHAFTS} & Humanitarian funding commitments by recipient, sector and date & 2011--2024 \\[3pt]
+CHIRPS \citep{funk2015chirps} & Monthly rainfall, 0.05$^\circ$ grid (aggregated to 0.2$^\circ$) & 1981--2026 \\[3pt]
+ACLED \citep{raleigh2010acled,acledhdx} & Political violence events and deaths by district and month & 19 countries with sub-national data \\[3pt]
+WFP market prices \citep{wfpprices} & Retail prices of cereals and tubers by market & Nearest market within 150 km \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item \textit{Notes:} FEWS NET areas are livelihood zones or administrative units, depending on the country. IPC and Cadre Harmonis\'e areas are matched to FEWS NET areas by spatial overlay.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\paragraph{FEWS NET.} We use every current-situation map and forecast published through FEWS NET's data warehouse from January 2011 to December 2024 --- \csAreaMonths{} area-months in \csAreas{} areas and \csCountries{} countries. We stop at 2024 so that the 2025 shutdown does not distort the sample.
+
+\paragraph{Independent classifications.} The Cadre Harmonis\'e covers 19 West and Central African countries from 2014 and the IPC some 30 countries from 2017. For each area and analysis, we record whether the area is classified in Crisis or worse and the share of its population in Crisis or worse, for both the current situation and the projection. We overlay these areas on FEWS NET's to compare like with like. These classifications are independent of FEWS NET's own maps, but not of its staff, who join many IPC and Cadre Harmonis\'e analyses. They are the best independent benchmark available, not a perfect one.
+
+\paragraph{Funding.} The Financial Tracking Service records humanitarian commitments by recipient country and date. Over 2011--2024, FEWS NET countries received about \ftsShareFews{} percent of all humanitarian funding; the United States provided about \ftsUsFoodShare{} percent of food and nutrition funding to these countries. We sum commitments to each country over the six months after each FEWS NET map round.
+
+\paragraph{Raw signals.} To represent what a donor could know without FEWS NET, we measure, for each FEWS NET area and round: rainfall over the previous 6 and 12 months relative to the same months in the preceding 20 years (CHIRPS); political violence events and deaths in the previous 6 months and their change on a year earlier (ACLED), apportioned from districts by area; and 3- and 12-month changes in retail cereal prices at the nearest WFP market. Rainfall covers 99 percent of area-rounds, conflict 48 percent and prices 28 percent; models treat missing values as missing.
+
+\paragraph{Coverage.} Figure~\ref{fig:coverage} shows why FEWS NET matters. Over 2016--2024, the countries FEWS NET monitored accounted for \covPthree{} percent of the world's person-years in Crisis or worse, and \covPfour{} percent of those in Emergency or worse, across the \covCountries{} countries in the Global Report on Food Crises. The largest crises outside its coverage were Syria, Pakistan, Bangladesh and Myanmar.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/fig1_coverage.pdf}
+\caption{Where the world's food crises are. Person-years in Crisis or worse (IPC Phase 3 and above), 2016--2024, for the 16 countries with the most, by whether FEWS NET monitored the country. Source: Global Report on Food Crises country-year database.}\label{fig:coverage}
+\end{figure}
+
+\section{Type II errors: missed emergencies}\label{sec:type2}
+
+We define a new emergency as an area mapped in Emergency or worse whose previous map, no more than six months earlier, placed it below Emergency. Between 2011 and 2024 there were \tIIonsets{} such cases. For each, we look back at every forecast FEWS NET issued for that area and month in the preceding one to eight months.
+
+Figure~\ref{fig:type2} shows the result. Panel A plots, by how far ahead the forecast was made, the share of new emergencies that FEWS NET forecast to be in Emergency (dark line) and in Crisis or worse (light line). Almost all new emergencies were foreseen as crises: at four months, \tIIleadfourCrisis{} percent had been forecast to be in at least Crisis. Few were foreseen as emergencies: \tIIleadeight{} percent at eight months, \tIIleadfour{} percent at four months and \tIIleadone{} percent one month ahead. Panel B gives the most severe forecast made four to eight months ahead --- the window that matters for mobilizing aid. \tIIearlyEmergency{} percent were forecast as Emergency, \tIIearlyCrisis{} percent as Crisis, and \tIIearlyStressed{} percent as Stressed or better.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig2_type2.pdf}
+\caption{Were new emergencies foreseen? \tIIonsets{} FEWS NET areas that entered Emergency or worse (IPC Phase 4+) in 2011--2024, after a previous map below Emergency. Panel A: share of these areas that FEWS NET had forecast, $k$ months earlier, to be in Emergency or worse (dark) or Crisis or worse (light), for the outcome month or the three months before it. The grey dashed line shows the share of areas that did \emph{not} tip into Emergency that were forecast to be in Emergency. Panel B: the most severe forecast issued four to eight months before the new emergency.}\label{fig:type2}
+\end{figure}
+
+These numbers say that FEWS NET's Type II errors are mostly errors of degree, not of kind. Only \tIInoWarning{} percent of new emergencies came with no warning of at least Crisis. The warnings also discriminate: four months ahead, FEWS NET forecast Emergency for \tIIleadfour{} percent of areas that went on to tip into Emergency, but for only \tIIcontrolEmergency{} percent (on average across horizons) of comparable areas that did not. What FEWS NET does badly is forecast escalation from Crisis to Emergency  --- the step at which, in the IPC's definitions, very high acute malnutrition and excess mortality are expected.
+
+A wider lens tells the same story. Food security changes slowly: in \accNaive{} percent of area-rounds, an area's next map shows the same phase as its current one. FEWS NET's medium-term forecast matches the next map \accForecast{} percent of the time, against \accNaive{} percent for a forecast that nothing changes. Among the \shareChanges{} percent of area-rounds in which the phase did change, the forecast was right \accChanges{} percent of the time. These numbers score FEWS NET against itself and so flatter it, but the conclusion is consistent with earlier evaluations: most of FEWS NET's headline accuracy comes from stable areas, and its skill on change is real but partial.
+
+\FloatBarrier
+\section{Type I errors: false alarms}\label{sec:type1}
+
+We define an emergency warning as a forecast, issued four to eight months ahead, that an area would be in Emergency or worse in a month for which FEWS NET later published a current-situation map. There were \tIwarnings{} such area-month warnings between 2011 and 2024.
+
+Figure~\ref{fig:type1} shows what happened to them. In \tIcame{} percent of cases the area was in Emergency or worse, as forecast. In \tIfailed{} percent it was not. Almost all of those ended one phase lower, in Crisis; only \tIbetter{} percent ended in Stressed or better.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{figures/fig3_type1.pdf}
+\caption{What happened to emergency warnings. Area-months that FEWS NET forecast, four to eight months ahead, to be in Emergency or worse (IPC Phase 4+), 2011--2024, by the phase FEWS NET later mapped. Panel A: all countries. Panel B: countries with at least 40 warned area-months. ``Held back by aid'' means FEWS NET's map carried its ``!'' flag: humanitarian assistance was keeping the area at least one phase better than it would otherwise be.}\label{fig:type1}
+\end{figure}
+
+FEWS NET's aid flag lets us ask how many of these apparent false alarms FEWS NET itself attributes to aid. Of the warned areas that ended in Crisis, \tIflagShareOfCrisis{} percent carried the flag, against \tIflagUnwarnedCrisis{} percent of Crisis areas that had not been warned about. Taken at face value, the flag reclassifies \tIflagged{} percent of all emergency warnings as crises held back by aid, leaving \tIunflagged{} percent ending in Crisis without the flag and \tIbetter{} percent ending lower. On this reading, about a quarter of FEWS NET's emergency warnings were genuine false alarms.
+
+The pattern differs sharply across countries (Figure~\ref{fig:type1}, panel B). In Sudan, Nigeria and Ethiopia, two-thirds or more of emergency warnings came true. In Somalia and Kenya, fewer than a quarter did, and FEWS NET credited aid with holding back about half or more of the rest. In Sudan, where warnings failed, FEWS NET almost never credited aid.
+
+Two checks suggest caution before crediting aid with the rest.
+
+First, \tIflaggedAlreadyFlagged{} percent of the warned areas that ended in flagged Crisis had carried the flag on the map before the warning was issued. In those areas, the flag describes aid that was already flowing, not aid mobilized by the warning. The forecast should already have accounted for it, since FEWS NET's forecasts assume planned assistance. One reading is that FEWS NET forecast Emergency on the expectation that existing aid would fall away, and it did not; another is that the flag rationalizes a forecast that was too pessimistic. The data cannot distinguish them.
+
+Second, if aid were preventing warned emergencies, warnings should come true less often when money then arrived. We test this in Appendix~\ref{app:masking} using FEWS NET's ``distinctive'' warnings --- the part of each forecast that rainfall, conflict, prices and the previous maps do not predict (Section~\ref{sec:value}). We compare countries whose humanitarian funding over the following six months rose more than their usual level and recent trend would predict with countries whose funding rose less. The share of distinctive warnings borne out is \maskMappedLow{} where funding rose less than usual and \maskMappedHigh{} where it rose more. Scoring against need (the mapped phase plus one if flagged) gives \maskNeedLow{} and \maskNeedHigh{}. We find no sign that funding surprises mask accuracy. Funding is only observed by country, so this test is coarse; it does not rule out well-targeted aid within countries.
+
+Defining emergencies by need gives a similar picture. If we count an area as reaching Emergency when its mapped phase plus the aid flag reaches 4, there were \needOnsets{} such cases, and \needHeld{} percent were held back by aid on FEWS NET's own account. But \needHeldSteady{} percent of those held back were areas already in Crisis whose phase did not change; the flag simply switched on. And among these need-defined emergencies, early warning did not raise the share held back by aid (\needEarly{} percentage points, standard error \needEarlySe{}). FEWS NET's forecasts already assume the aid that is coming, so they are not designed to answer this question.
+
+\FloatBarrier
+\section{Does FEWS NET know something others don't?}\label{sec:value}
+
+Accuracy against FEWS NET's own later maps says little about value. What matters for a funder is what would be lost without FEWS NET: its information relative to what donors could otherwise see, scored against outcomes it did not produce. We approach this in two ways.
+
+\subsection{Against a world without FEWS NET}
+
+We define two benchmarks for what donors would know without FEWS NET. The first uses only raw signals: local rainfall, conflict and food prices before the forecast, plus country and season. The second adds the latest official IPC or Cadre Harmonis\'e analysis of the area, if one was made in the previous eight months. The second benchmark is generous to the world without FEWS NET, because FEWS NET staff contribute to many official analyses. It is also usually unavailable: only \shareWithIndependent{} percent of FEWS NET's area-rounds had a recent official analysis.
+
+For each benchmark, we use gradient-boosted trees to predict two things out of sample (each year predicted from models fitted on the other years): FEWS NET's own current map and forecast, and the outcome in the next official analysis. ``FEWS NET's contribution'' is the part of its map or forecast that the benchmark does not predict. We then score everything against the next independent IPC or Cadre Harmonis\'e analysis of the area. We focus on areas that were not in Crisis at the latest official analysis, because predicting that a crisis continues is easy. This leaves \aucN{} area-rounds in which \aucEvents{} areas tipped into Crisis.
+
+Figure~\ref{fig:contribution} gives the main result as the area under the ROC curve (AUC): the probability that a randomly chosen area that tipped into Crisis is ranked above one that did not. Adding FEWS NET's map and forecast to the raw signals raises the AUC from \aucRaw{} to \aucRawFews{}, closing more than a quarter of the gap to perfect ranking. Adding them to the more generous benchmark raises it from \aucRawIPC{} to \aucRawIPCFews{}.
+
+The second gain is small, and it is worth being clear about why it does not undercut the rest of the paper. First, it is measured where FEWS NET's alternatives are strongest. The benchmark includes the latest official analysis, which exists for only \shareWithIndependent{} percent of FEWS NET's area-rounds, and every observation in this test is, by construction, an area the IPC or Cadre Harmonis\'e covers. Second, those official analyses are not independent of FEWS NET: its analysts take part in them and its data feed them, so the benchmark already contains much of what FEWS NET knows. Third, the AUC is close to its ceiling; the move from \aucRawIPC{} to \aucRawIPCFews{} closes about an eighth of the remaining gap, and the regressions below find the gain precisely estimated. The fair reading is that where a recent official analysis exists, FEWS NET adds modestly to it. FEWS NET's distinctive value lies mainly where none exists --- three-quarters of its coverage --- and there we cannot score it against an independent outcome. Section~\ref{sec:money} shows that funding behaves accordingly.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/fig5_contribution.pdf}
+\caption{FEWS NET's information beyond what donors could otherwise know. Accuracy in ranking which areas tip into Crisis or worse at the next official IPC or Cadre Harmonis\'e analysis, among \aucN{} area-rounds not in Crisis at the latest official analysis (\aucEvents{} tipped into Crisis), 2011--2024. Grey: out-of-sample predictions from rainfall, conflict, prices, country and season (left), plus the latest official analysis (right). Blue: the same models with FEWS NET's current map and forecast added. AUC is the probability that an area that tipped into Crisis is ranked above one that did not.}\label{fig:contribution}
+\end{figure}
+
+Table~\ref{tab:contribution} gives the regression version. The outcome is whether the area is in Crisis or worse at the next official analysis. We regress it on the benchmark's own prediction of that outcome and on FEWS NET's contribution, with country-by-round fixed effects, so the comparison is between areas in the same country at the same time:
+\begin{equation*}
+y_{a,t+1} = \alpha\, \hat{y}_{at} + \beta\, c_{at} + \mu_{c(a),t} + \varepsilon_{at},
+\end{equation*}
+where $y_{a,t+1}$ is an indicator for Crisis or worse in area $a$ at the next official analysis, $\hat{y}_{at}$ is the benchmark's prediction of it, $c_{at}$ is FEWS NET's contribution (its map or forecast minus the benchmark's prediction of that map or forecast), and $\mu_{c(a),t}$ is a country-by-round fixed effect. The coefficient $\beta$ measures how much of FEWS NET's distinctive signal is borne out by an independent assessment. Over the raw-data benchmark, it is \contribRawCur{} for the current map and \contribRawFc{} for the forecast when both enter (column 3); over the benchmark with official analyses, \contribRawIPCCur{} and \contribRawIPCFc{} (column 6). All are precisely estimated.
+
+\begin{table}[t]
+\centering
+
+\caption{Is FEWS NET's distinctive information borne out by independent assessments?}\label{tab:contribution}
+\scriptsize
+\resizebox{\textwidth}{!}{\input{tables/contribution.tex}}
+\par\vspace{4pt}\begin{minipage}{\textwidth}\scriptsize \textit{Notes:} Linear probability models. Outcome: area classified in Crisis or worse (IPC Phase 3+) at the next official IPC or Cadre Harmonis\'e analysis. Sample: official areas not in Crisis at the latest official analysis, 2011--2024. FEWS NET's map and forecast are overlaid onto official areas (share of the area in Crisis or worse). ``Beyond the baseline'' is FEWS NET's map or forecast minus its out-of-sample prediction from the baseline (gradient-boosted trees, fitted on other years). All columns control for the baseline's own out-of-sample prediction of the outcome and include country-by-round fixed effects. Standard errors clustered by country in parentheses. * $p<0.10$, ** $p<0.05$, *** $p<0.01$. The last row gives the AUC for ranking areas that tip into Crisis, using the baseline alone and adding FEWS NET's map and forecast.
+\end{minipage}
+
+\end{table}
+
+The coefficients are well below one. Only part of FEWS NET's distinctive signal shows up in the next official assessment. Some of the gap is noise in FEWS NET's judgments, some is noise in the official assessments, and some, if aid works, is masking. But the signal is clearly there, and it survives controlling for the official analyses that do exist.
+
+\subsection{Head to head with the official projections}
+
+The IPC and Cadre Harmonis\'e also publish forecasts. Where both exist, we compare FEWS NET's forecast with the official projection for the same area and period, both scored against the next official current analysis. We match each official projection to FEWS NET's forecast from its latest round at or up to four months before the official analysis. This gives \offNall{} area-projections in \offCountriesAll{} countries; \offN{} of them were not in Crisis at the latest official analysis, and \offNew{} of those tipped into Crisis. In the Cadre Harmonis\'e, projections target the June--August lean season, which is rarely assessed as a current period; we score them against the next current analysis (September--December). Both forecasters face the same mismatch.
+
+Figure~\ref{fig:official} plots both forecasts in Type I/Type II space. The vertical axis is the share of new crises that were not warned about (misses); the horizontal axis is the share of areas that stayed out of Crisis but were warned about (false alarms). The official projection classifies the area in Crisis for \offHitOfficial{} percent of new crises, at a false alarm rate of \offFaOfficial{} percent. FEWS NET forecasts Crisis for most of the area in \offHitFews{} percent of new crises, at a false alarm rate of \offFaFews{} percent. FEWS NET is more conservative: it misses slightly more but cries wolf less. The two are complements. Warning when either one warns catches \offHitEither{} percent of new crises at a false alarm rate of \offFaEither{} percent. In \offHitOnlyFews{} percent of new crises, FEWS NET warned and the official projection did not.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.72\textwidth]{figures/fig4_official.pdf}
+\caption{FEWS NET and the official projections in Type I/Type II space. \offN{} official IPC and Cadre Harmonis\'e areas not in Crisis at the latest official analysis, in \offCountries{} countries, \offYears{}; \offNew{} tipped into Crisis at the next official analysis. Points: misses (new crises not warned about) and false alarms (areas warned about that stayed out of Crisis) for the official projection classifying the area in Crisis or worse, FEWS NET forecasting Crisis or worse for most of the area, and either one warning. Lines trace every warning threshold for the official projection (share of the population projected in Crisis or worse) and for FEWS NET (share of the area forecast in Crisis or worse). Lower and further left is better.}\label{fig:official}
+\end{figure}
+
+Table~\ref{tab:official} regresses the next official classification on both forecasts. FEWS NET's forecast predicts the outcome over and above the official projection. With both forecasts and the latest official analysis (column 4), the coefficient on FEWS NET's forecast is \offCoefAllFews{} and on the official projection \offCoefAllProj{}. For areas not yet in Crisis (Panel B, column 3), they are \offCoefNewFews{} and \offCoefNewProj{}. With only 12 to 14 countries, cluster-robust standard errors can overstate precision; wild cluster bootstrap $p$-values for FEWS NET's coefficient are \bootOffAllFews{} and \bootOffNewFews{}.
+
+\begin{table}[t]
+\centering
+
+\caption{FEWS NET's forecasts and the official projections, scored against the next official analysis}\label{tab:official}
+\scriptsize
+\resizebox{\textwidth}{!}{\input{tables/official.tex}}
+\par\vspace{4pt}\begin{minipage}{\textwidth}\scriptsize \textit{Notes:} Linear probability models. Outcome: area classified in Crisis or worse (IPC Phase 3+) at the next official IPC or Cadre Harmonis\'e current analysis after the projection. Official projection: Cadre Harmonis\'e March projections for June--August, and IPC first projections. FEWS NET forecast: share of the official area that FEWS NET's latest forecast (issued up to four months before the official analysis) placed in Crisis or worse for the projection period. All columns include country-by-analysis-round fixed effects. In Panel B, the latest official analysis is constant by construction, so column (4) repeats column (3). Standard errors clustered by country in parentheses; with 12--14 clusters, see wild bootstrap $p$-values in the text. * $p<0.10$, ** $p<0.05$, *** $p<0.01$.
+\end{minipage}
+
+\end{table}
+
+These comparisons are partly circular: FEWS NET analysts join many official analyses, and both teams read each other's work. That makes it more notable, not less, that FEWS NET's forecast keeps predictive power after controlling for the official projection.
+
+\FloatBarrier
+\section{Does money follow the warnings?}\label{sec:money}
+
+Information has value only if someone acts on it. We cannot observe aid at the level of FEWS NET's areas, so we ask whether humanitarian funding to a country moves with FEWS NET's classifications of that country. For each country and FEWS NET round, we regress the log of humanitarian funding committed over the next six months on the share of the country's FEWS NET areas in Crisis or worse on the current map, and on the share forecast to be in Crisis or worse four to eight months ahead.
+
+Across countries, funding follows FEWS NET's maps closely. Without controls, and holding the current map fixed, a 10 percentage point rise in the share of a country's areas forecast to be in Emergency goes with \aidAllFourFcPool{} percent more humanitarian funding (95 percent interval \aidAllFourFcPoolCi{}). Most of this reflects persistent differences between countries: large, chronic crises get both bad maps and more money. Figure~\ref{fig:money}A shows what survives as controls are added for global funding swings, the country's funding in the previous six months, and the country's usual aid level. With all controls, the current map no longer predicts funding (\aidFoodThreeCurWithin{} percent for food and nutrition funding per 10 percentage points of areas in Crisis), but the forecast does (\aidFoodThreeFcWithin{} percent; interval \aidFoodThreeFcWithinCi{}). Within a country, money moves when FEWS NET expects things to get worse, not when it reports that they are bad. The Emergency shares are too rarely nonzero within countries to estimate this precisely (Appendix Table~\ref{tab:money}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{figures/fig6_money.pdf}
+\caption{Does humanitarian funding follow FEWS NET? Country $\times$ FEWS NET round, 2011--2024. Outcome: humanitarian funding committed to the country over the next six months (OCHA Financial Tracking Service, log), expressed as the percent change per 10 percentage points more of the country's FEWS NET areas in Crisis or worse. Panel A: the share in Crisis or worse on the current map and the share forecast in Crisis or worse four to eight months ahead, in the same regression, adding controls from left to right. Panel B: the forecast split into the part predictable from rainfall, conflict, prices, country and season, and FEWS NET's own contribution; with time and country fixed effects and funding in the previous six months. 95 percent intervals clustered by country.}\label{fig:money}
+\end{figure}
+
+Does funding respond to FEWS NET's own information, or to the rainfall failures and conflict that donors could see directly? Panel B splits the forecast into the part predictable from the country, the season and raw signals, and FEWS NET's contribution. The predictable part is mostly country and season: those alone account for \predCountrySeason{} percent of its variation, and within a country and season, rainfall, conflict and prices explain only \predShocksWithin{} percent of the variation in FEWS NET's forecasts. Across country-rounds, the predictable part varies little within countries (standard deviation \predBaseSdWithin{}, against \predBaseSd{} overall), while FEWS NET's contribution varies almost entirely within them (\predContribSdWithin{} of \predContribSd{}). Only the contribution predicts funding: \moneyRawAllContrib{} percent more humanitarian funding (interval \moneyRawAllContribCi{}) and \moneyRawFoodContrib{} percent more food and nutrition funding (\moneyRawFoodContribCi{}) per 10 percentage points of areas FEWS NET forecasts in Crisis beyond what that information predicts. The predictable part has no detectable effect (\moneyRawAllBase{} and \moneyRawFoodBase{} percent, with wide intervals). Results are similar against the benchmark that includes official analyses (Table~\ref{tab:money}). Funding follows FEWS NET's distinctive information more strongly where official analyses are scarce. In country-rounds where fewer than half of FEWS NET's areas had a recent official analysis (\hetShareHigh{} percent of country-rounds have more), a 10 percentage point rise in its distinctive forecast comes with \hetAllLow{} percent more humanitarian funding and \hetFoodLow{} percent more food funding. Where official analyses are common, the figures are \hetAllHigh{} and \hetFoodHigh{} percent. The difference is imprecise (standard errors \hetAllDiffSe{} and \hetFoodDiffSe{} log points per unit), but it matches the pattern in Section~\ref{sec:value}.
+
+These are associations, not causal effects. Donors and FEWS NET may respond to the same news that our raw signals miss --- a displacement wave, a government request, a news story. But the pattern is the one we would expect if FEWS NET's forecasts inform allocation: funding responds to the forward-looking, distinctive part of FEWS NET's analysis, and not to what anyone could infer from a country's usual situation and public data.
+
+\FloatBarrier
+\section{What is FEWS NET worth? A rough benefit-cost calculation}\label{sec:bcr}
+
+The evidence so far is about information and money, not lives. This section pushes it as far as it will go toward a cost per death averted, using five pieces. Each is uncertain, and we show how the answer moves with each. The calculation is a guide to orders of magnitude, not an estimate of causal effects.
+
+\paragraph{1. Cost.} Federal records put the cost of the FEWS NET contract to USAID at about \$\bcBudget{} million in 2024 \citep{NPR2025FEWS}. The main analysis task order under the current contract was worth \$135 million over five years, about \$\bcBudgetLow{} million a year \citep{g2x2024}. We use \$\bcBudget{} million as the central figure, and \$\bcBudgetLow{}--\bcBudgetHigh{} million as a range that allows for costs outside the main contract.
+
+\paragraph{2. FEWS NET's word on what aid prevents.} We take FEWS NET's aid flag at face value: in every area-round it flags, aid keeps the area one phase better than it would otherwise be. Between 2011 and 2024, FEWS NET flagged \bcFlaggedRounds{} area-rounds. We attach a population to each flagged area using WorldPop's 2020 gridded estimates \citep{worldpop2020}, and count the months until the next map. On average, \bcPeople{} million people lived in a flagged area at any time. Half of the flagged area-rounds (\bcPhaseTwo{} percent) were in Stressed held back from Crisis, and \bcPhaseThree{} percent were in Crisis held back from Emergency.
+
+\paragraph{3. What a phase means.} The IPC's reference table ties each phase to crude death rates: below 0.5 deaths per 10,000 people per day in Phases 1 and 2, 0.5--1 in Crisis, 1--2 in Emergency and above 2 in Famine. It ties them to global acute malnutrition among children under five as well: below 5, 5--10, 10--15, 15--30 and above 30 percent \citep{IPC2021manual,ipcreftable}. In the official IPC and Cadre Harmonis\'e data, \bcSthreeStressed{} percent of people in an area classified as Stressed are themselves in Crisis or worse; the figure is \bcSthreeCrisis{} percent in Crisis areas and \bcSthreeEmerg{} percent in Emergency areas. We use three mortality scenarios.
+\begin{itemize}
+  \item \textbf{Conservative.} Crisis itself brings no excess mortality, in line with the IPC's description of Phase 3. Holding an area at Crisis rather than Emergency lowers the death rate by 0.25 per 10,000 per day (from the bottom of the Emergency band to the middle of the Crisis band), and holding it at Emergency rather than Famine lowers it by 1.
+  \item \textbf{IPC mid-points.} Each phase sits at the middle of its band.
+  \item \textbf{IPC upper.} Each phase sits at the top of its band.
+\end{itemize}
+On FEWS NET's own account, then, aid in its flagged areas averts \bcGrossCons{},000 (conservative), \bcGrossMid{},000 (mid-points) or \bcGrossUp{},000 (upper) deaths a year, and keeps about \bcGrossCrisis{} million people a year out of Crisis or worse. For scale, the 2011 Somalia famine killed an estimated 258,000 people over two years \citep{checchi2013}. Taking the IPC thresholds literally implies that aid prevents a Somalia-scale disaster every six months. We regard the conservative scenario as the most plausible: the IPC thresholds are reference values for classification, not measured death rates, and few classified areas have mortality surveys behind them.
+
+\paragraph{4. FEWS NET's share of that aid.} Not all of this aid is due to FEWS NET. We credit FEWS NET only with the aid that follows its distinctive information. That is the part of its forecast that the country's usual situation, the season, rainfall, conflict and prices --- and, in one version, the latest official analysis --- cannot predict (Sections~\ref{sec:value} and~\ref{sec:money}). If funding rises by $\beta$ log points per unit of this contribution $x$ for a country and round, the share of funding due to FEWS NET is $1-e^{-\beta x}$. Where FEWS NET was less alarmed than other information ($x<0$), it lowered funding. We then count $-(1-e^{\beta x})$: the funding it subtracted, as a share of what there would have been without it. Both branches measure FEWS NET's effect as a share of the larger of actual and counterfactual funding, so over- and under-alarm count equally. The funding responses $\beta$ come from Table~\ref{tab:money}: \bcBetaOne{} to \bcBetaThree{} percent more funding per 10 percentage points.
+
+This is the right counterfactual for a funding decision. Without FEWS NET, donors would still know that Somalia and South Sudan are chronically in crisis, and when the lean season falls; they would lose what FEWS NET tells them beyond that. Crediting FEWS NET with its whole forecast instead --- as if donors would otherwise know nothing --- gives \$\wholeLo{}--\wholeHi{} per death averted, but we regard that as an implausible upper bound.
+
+\paragraph{5. Result.} Table~\ref{tab:bcr} and Figure~\ref{fig:bcr} combine the pieces. FEWS NET's distinctive information accounts for \dShareLo{}--\dShareHi{} percent of the aid in its flagged areas: \bcShareOne{} to \bcShareTwo{} percent of all humanitarian funding, and \bcShareThree{} percent of food and nutrition funding. Applied to the aid that FEWS NET says is holding back crises, this gives:
+\begin{itemize}
+  \item \textbf{Deaths:} \dDeathsLo{}--\dDeathsHi{} averted a year, or \$\bcDistinctLo{}--\bcDistinctHi{} of FEWS NET's budget per death averted (\$\dCostBudgetLo{}--\dCostBudgetHi{} across the budget range). The food-funding version, arguably the most relevant to food crises, gives \$5,300--7,400, just above GiveWell's range for its top charities.
+  \item \textbf{Hunger:} \dEmergLo{}--\dEmergHi{} person-years in Emergency or worse averted a year, at \$\dCostEmergLo{}--\dCostEmergHi{} each, and \dCrisisLo{}--\dCrisisHi{} person-years in Crisis or worse, at \$\dCostCrisisLo{}--\dCostCrisisHi{} each.\footnote{Fewer person-years are kept out of Crisis than out of Emergency because FEWS NET's distinctive information is, on balance, slightly \emph{less} alarmed than other information in Stressed areas held back from Crisis, which pulls down the Crisis total.}
+  \item \textbf{Child malnutrition:} \dWastLo{}--\dWastHi{} child-years of acute malnutrition averted a year under IPC mid-point prevalences, at \$\dCostWastLo{}--\dCostWastHi{} each (\$\dCostWastMin{}--\dCostWastMax{} across all scenarios).
+\end{itemize}
+The shares are small partly for a mechanical reason. FEWS NET's forecasts assume the aid that is coming, so where aid is flowing --- exactly the flagged areas --- they tend to sit \emph{below} what other information would predict, and FEWS NET's distinctive information looks like less alarm, not more. Applying the one-sided formula $1-e^{-\beta x}$ to negative signals as well, which lets a few country-rounds in which FEWS NET was much calmer than other information dominate, gives \$\bcOneLo{}--\bcOneHi{} per death, with food funding netting out slightly negative.
+
+\begin{table}[t]
+\centering
+\caption{A rough benefit-cost calculation: FEWS NET credited with its distinctive information}\label{tab:bcr}
+\scriptsize
+\resizebox{\textwidth}{!}{\input{tables/benefit.tex}}
+\par\vspace{4pt}\begin{minipage}{\textwidth}\scriptsize \textit{Notes:} Areas FEWS NET flagged as held back by aid, 2011--2024, annual averages; aid assumed to keep each area one phase better. Population: WorldPop 2020. Deaths averted: population $\times$ months until the next map $\times$ the change in crude death rate from one phase, under three scenarios. Conservative: no excess mortality from Crisis itself; 0.25 deaths per 10,000 per day from Emergency versus Crisis, and 1 from Famine versus Emergency. IPC mid and upper: the middle and top of the IPC reference bands (Phases 1--2 below 0.5, Crisis 0.5--1, Emergency 1--2, Famine above 2). Person-years out of Emergency or worse: from the average share of people in Emergency or worse in official IPC and Cadre Harmonis\'e areas of each phase. Child-years of acute malnutrition: children under five (17 percent of the population) $\times$ the change in acute malnutrition prevalence across IPC reference bands (range across scenarios). Share of aid attributed: $1-e^{-\beta x}$ for $x\ge 0$ and $-(1-e^{\beta x})$ for $x<0$, where $x$ is FEWS NET's forecast beyond what the country, season, rainfall, conflict and prices (and, in the first row, the latest official analysis) predict, and $\beta$ the within-country funding response (Table~\ref{tab:money}); averaged over flagged areas weighted by deaths averted under IPC mid-points. Costs: \$\bcBudget{} million a year divided by each outcome.\end{minipage}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig7_benefit_cost.pdf}
+\caption{What FEWS NET's budget buys, crediting it only with its distinctive information. Cost per outcome averted, at \$\bcBudget{} million a year, for the aid that follows FEWS NET's forecasts beyond what each country's usual situation, the season, rainfall, conflict and prices predict (``beyond data''), or these plus the latest official analysis (``beyond data + official''), using all humanitarian funding or food and nutrition funding. Dots: IPC mid-point mortality and malnutrition. Bars: range across the conservative, mid-point and upper scenarios. Shaded band: GiveWell's estimate of the cost per death averted by its top charities \citep{givewell2024}.}\label{fig:bcr}
+\end{figure}
+
+The calculation leaves out a good deal in both directions.
+\begin{itemize}
+  \item \textbf{Ways it may overstate.}
+    \begin{itemize}
+      \item It takes FEWS NET's flags at face value, and nearly half of the flags on failed warnings predate the warning.
+      \item Aid that FEWS NET steers may come from other crises where it would also have saved lives. If the displaced aid would have done half as much good, the costs double.
+      \item The funding responses are associations, not causal effects.
+    \end{itemize}
+  \item \textbf{Ways it may understate.}
+    \begin{itemize}
+      \item FEWS NET's forecasts assume planned aid, which biases its distinctive information downward exactly where aid is flowing.
+      \item It counts only flagged areas. Crises that warnings prevent entirely never show up, nor do responses by governments, markets and households.
+      \item It ignores FEWS NET's value beyond aid allocation, for example to governments, researchers and the official classifications to which its analysts contribute.
+    \end{itemize}
+\end{itemize}
+With those caveats, the calculation puts FEWS NET within a factor of about four of the most cost-effective global health charities: \$\bcDistinctLo{}--\bcDistinctHi{} per death averted, against \$3,000--5,500, and under \$2,000 per person-year kept out of Emergency.
+
+\FloatBarrier
+\section{What the data cannot tell us}\label{sec:limits}\label{sec:limits2}
+
+The ideal evaluation would compare welfare --- child malnutrition, mortality --- in places and times with and without FEWS NET. We tried two versions with the data available, and neither is informative.
+
+\paragraph{The 2025 shutdown.} FEWS NET went dark in January 2025 just as U.S. aid was cut. If its ``held back by aid'' flags are right, flagged areas should have deteriorated faster afterwards than comparable unflagged areas. Over 12 months, flagged areas worsen relative to comparable unflagged areas by about \flagOwnPlacebo{} of a phase in normal years. For windows ending in 2025, the gap widened by a further \flagOwn{} phases on FEWS NET's own later maps (wild bootstrap $p = \flagOwnP{}$) and \flagIpc{} on official classifications ($p = \flagIpcP{}$). The flag carries information about fragility, but the data cannot yet separate the cut's effect from the trend. We need outcomes beyond mid-2026 (Appendix~\ref{app:shutdown}).
+
+\paragraph{Changes in FEWS NET coverage.} FEWS NET has entered and left countries over time, but these moves follow aid and conflict trends, so comparing levels before and after is confounded. A narrower test asks whether local shocks do less damage, within a country, when FEWS NET covers it. Local rainfall, conflict and price shocks explain only \shockRsq{} percent of the variation in official classifications within country and month, and coverage does not change their effect (\covPre{}, standard error \covPreSe{}, before 2025). Classifications move too slowly, and too nationally, to detect FEWS NET's effect this way (Appendix~\ref{app:coverage}). The same weakness of public fundamentals appears in Section~\ref{sec:money}: they explain little of FEWS NET's forecasts within a country and season, which is why most of FEWS NET's information cannot be reproduced from public data.
+
+Testing whether FEWS NET saves lives will require outcomes it does not produce: child anthropometry and mortality from household surveys, linked to the timing and location of its warnings.
+
+\section{Conclusion}\label{sec:conclusion}
+
+FEWS NET rarely misses a food crisis outright, but it often sees emergencies late and one phase too mild. About half of its emergency warnings do not come true; FEWS NET credits aid for about half of those, though often aid that was already flowing. Measured against what donors could otherwise know, it adds information that independent assessments later bear out, it raises fewer false alarms than the official projections, and humanitarian funding moves with the part of its forecasts that public data cannot reproduce.
+
+For funders deciding FEWS NET's future, the relevant comparison is with what would replace it. In three-quarters of FEWS NET's coverage, there is no recent official analysis to fall back on, and the raw signals --- rainfall, conflict, prices --- predict where crises will strike much less well. FEWS NET's distinctive contribution is modest in any single forecast but systematic, and it is the part that money follows. Against a budget of about \$\bcBudget{} million a year --- a fraction of a percent of the humanitarian funding that flows to the countries it monitors --- a rough calculation that credits FEWS NET only with its distinctive information, and takes its own judgments of what aid prevents at face value, puts its cost at \$\bcDistinctLo{}--\bcDistinctHi{} per death averted and \$\dCostEmergLo{}--\dCostEmergHi{} per person-year kept out of Emergency.
+
+Three changes would make the system easier to evaluate and probably more useful. First, publish a forecast without assumed aid alongside the current one. Donors need to know what will happen if they do nothing, and evaluators need it to separate crises prevented from false alarms. Second, record when and why the aid flag is applied, so that ``held back by aid'' can be distinguished from ``aid was already there.'' Third, validate forecasts against independent outcomes. Our comparisons use the IPC and Cadre Harmonis\'e, which share analysts with FEWS NET; linking FEWS NET's warnings to household survey data on child malnutrition and mortality would show whether its information, and the aid it moves, change lives.
+
+\newpage
+\bibliographystyle{chicago}
+\bibliography{references}
+
+\newpage
+\begin{appendices}
+\renewcommand{\thefigure}{A\arabic{figure}}
+\renewcommand{\thetable}{A\arabic{table}}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+
+\section{Data construction}\label{app:data}
+
+\paragraph{FEWS NET classifications.} We download all current-situation (``CS'') and projection (``ML1'' near-term, ``ML2'' medium-term) classifications from the FEWS NET Data Warehouse, month by month, January 2011 to August 2026, and use those through December 2024. Each record gives an area identifier, its phase, the projection period and whether the area carries the aid flag. We use the full map rounds (three per year since 2016; quarterly before). For the analyses in Sections~\ref{sec:value} and~\ref{sec:money}, the unit is an area and map round, giving \panelAreaRounds{} area-rounds for \panelAreas{} areas in \panelCountries{} countries with complete forecasts and a next map within eight months.
+
+\paragraph{Official classifications.} Cadre Harmonis\'e records (current and projected) come from the regional dataset; IPC records from the IPC's area-level data (2017--2026). For IPC records we derive the area phase from population shares using the IPC's 20 percent rule. Areas are matched to polygons from the Cadre Harmonis\'e 2023 map, IPC country maps and geoBoundaries administrative units, and overlaid on FEWS NET's areas in an equal-area projection. FEWS NET's classifications are averaged over each official area, weighted by overlap.
+
+\paragraph{Raw signals.} Rainfall is the area mean of monthly CHIRPS rainfall. Conflict is ACLED's district-level political violence data, available sub-nationally for the 19 countries with UN humanitarian response plans. Districts are matched to OCHA administrative boundaries by district code, then by name, and apportioned to FEWS NET areas by area share. Prices are the mean 3- and 12-month log changes of retail cereal and tuber prices at the WFP market nearest each FEWS NET area, within 150 km.
+
+\paragraph{Funding.} Humanitarian commitments (``paid'' and ``commitment'' status, incoming flows) from the Financial Tracking Service, assigned to recipient countries; multi-country flows are dropped. Food and nutrition funding is the subset whose cluster is Food Security or Nutrition.
+
+\paragraph{Prediction models.} All benchmark predictions use gradient-boosted trees (scikit-learn's histogram gradient boosting) with country as a categorical feature, cross-fitted by year: predictions for each year come from a model trained on all other years.
+
+\section{The masking test}\label{app:masking}
+
+If aid prevents crises that FEWS NET warns about, its distinctive warnings should be borne out less often when funding to the country rises unexpectedly. Funding surprises are country-round residuals of log funding over the next six months, after removing country and time effects and the country's funding in the previous six months. We split country-rounds into thirds and estimate, within each third, how much of FEWS NET's distinctive warning (the forecast minus its prediction from raw signals and previous maps) is borne out on its next map, with country-by-round fixed effects. Figure~\ref{fig:masking} shows no pattern: the share is about one half in all three groups, whether outcomes are scored as mapped or by need. The interaction of the distinctive warning with the funding surprise is \maskInter{} (standard error \maskInterSe{}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/figA1_masking.pdf}
+\caption{Do warnings come true less often where money flowed? Coefficient on FEWS NET's distinctive warning (forecast of Crisis or worse minus its out-of-sample prediction from rainfall, conflict, prices, previous maps, country and season) in a regression of Crisis or worse on its next map, by the country's funding surprise over the following six months. Red: outcome as mapped. Blue: outcome by need (mapped phase plus one if flagged as held up by aid). 95 percent intervals clustered by country.}\label{fig:masking}
+\end{figure}
+
+\section{The 2025 shutdown}\label{app:shutdown}
+
+We compare same-season changes in areas FEWS NET flagged as held up by aid with unflagged areas that started in the same phase, country and month, for 12-month windows ending each year from 2014 to 2025. Windows ending in 2025 span the shutdown and the U.S. aid cut; earlier windows show how flagged areas normally evolve. Figure~\ref{fig:shutdown} shows that flagged areas worsen relative to unflagged ones in almost every year, and that the gap was already rising in 2023--2024, when humanitarian funding was falling. The 2025 gap is in line with that trend. Using 24-month windows produces a larger 2025 gap that is not repeated in 2026; pooling horizons, as in an earlier version of this analysis, mixes windows of different lengths in different years and overstates the effect.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/figA2_shutdown.pdf}
+\caption{Did areas FEWS NET flagged as held up by aid deteriorate after the 2025 shutdown? Difference in the 12-month change in phase between flagged and unflagged areas that started in the same phase, country and month, by the year the window ends. Panel A: FEWS NET's own maps (FEWS NET areas in Phase 2--3). Panel B: official IPC and Cadre Harmonis\'e analyses, with the flag measured as the share of the official area covered by flagged FEWS NET areas in a map made at most four months before. Red: windows ending after the shutdown. 95 percent intervals clustered by country.}\label{fig:shutdown}
+\end{figure}
+
+\section{Coverage changes and local shocks}\label{app:coverage}
+
+We built an index of local shocks --- rainfall deficits, political violence and food price spikes, weighted to predict official classifications in other countries --- and asked whether its effect on official classifications differs, within a country, between periods when FEWS NET covered the country and periods when it did not. With area and country-by-month fixed effects and country-specific shock effects, the interaction is \covPre{} (standard error \covPreSe{}) before 2025 and \covPost{} (\covPostSe{}) in 2025--2026, measured on the share of the population in Crisis or worse. The index explains only \shockRsq{} percent of the within-country variation in classifications; rainfall alone explains \shockRsqRain{} percent. An earlier specification suggested that shocks did \emph{more} damage under FEWS NET coverage; that result rested entirely on Cameroon, where FEWS NET arrived in 2020 as conflict escalated, and on archive gaps that made FEWS NET appear to leave Burkina Faso and Mauritania when it had not.
+
+\section{Funding regressions}\label{app:money}
+
+\begin{table}[H]
+\centering
+
+\caption{Humanitarian funding and FEWS NET's maps and forecasts, within countries}\label{tab:money}
+\scriptsize
+\resizebox{\textwidth}{!}{\input{tables/money.tex}}
+\par\vspace{4pt}\begin{minipage}{\textwidth}\scriptsize \textit{Notes:} Country $\times$ FEWS NET map round, 2011--2024. Outcome: log humanitarian funding committed to the country over the six months after the map (OCHA Financial Tracking Service); all humanitarian funding (``All'') or food security and nutrition (``Food''). Coefficients are scaled to log points per 10 percentage points of the country's FEWS NET areas (approximately the percent change). Columns 1--2: share of areas in Crisis or worse on the current map and in the medium-term forecast, in the same regression. Columns 3--6: the forecast share split into its out-of-sample prediction from rainfall, conflict, prices, country and season (columns 3--4), or these plus the latest official analysis (columns 5--6), and FEWS NET's contribution beyond that prediction. All columns include country and time fixed effects and log funding in the previous six months. Standard errors clustered by country in parentheses. * $p<0.10$, ** $p<0.05$, *** $p<0.01$.
+\end{minipage}
+
+\end{table}
+
+\section{Replication}\label{app:replication}
+
+All data are public. The analysis is in Python, in the project's \texttt{code} directory.
+\begingroup\sloppy\small
+\begin{itemize}
+  \item FEWS NET data: \texttt{01\_fetch\_fewsnet.py}, \texttt{07\_build\_panel.py}
+  \item Official classifications: \texttt{04\_fetch\_ipc\_ch.py}, \texttt{23\_outcome\_panel.py}
+  \item Funding: \texttt{03\_fetch\_fts.py}
+  \item Rainfall, conflict and prices: \texttt{22\_fetch\_chirps.py}, \texttt{24\_area\_rainfall.py}, \texttt{26\_fetch\_acled\_wfp.py}
+  \item Type I and II errors: \texttt{12\_errors.py}; need-defined emergencies: \texttt{30\_need\_onsets.py}
+  \item The 2025 shutdown: \texttt{28\_flag\_release.py}; coverage changes: \texttt{27\_shock\_index.py}
+  \item Funding responses: \texttt{31\_aid\_response.py}
+  \item FEWS NET's distinctive information: \texttt{32\_forecast\_value.py}, \texttt{33\_fewsnet\_contribution.py}
+  \item Official projections: \texttt{34\_official\_projections.py}
+  \item Numbers, figures and tables in this paper: \texttt{40\_paper.py}, \texttt{41\_paper\_tables.py}, \texttt{42\_paper\_bootstrap.py}
+\end{itemize}
+\endgroup
+
+\end{appendices}
+\end{document}
