@@ -319,10 +319,13 @@ def new_measurement(p, s):
     d["tgt"] = per(d.target)
     ss = s.dropna(subset=["fnid"])[["fnid", "fw", "gam_pct"]]
     x = d[["fnid", "r", "tgt"]].merge(ss, on="fnid")
-    x = x[(x.fw > x.r) & (x.fw <= x.tgt)].drop_duplicates(["fnid", "r"])[["fnid", "r"]]
+    x = x[(x.fw > x.r) & (x.fw <= x.tgt)].groupby(["fnid", "r"]).gam_pct.max().rename("new_gam").reset_index()
     x["new_s"] = 1.0
     d = d.merge(x, on=["fnid", "r"], how="left")
     d["new_s"] = d.new_s.fillna(0.0)
+    # survey content: critical (acute malnutrition 15%+) vs not; surveys without a GAM result in neither
+    d["new_crit"] = (d.new_gam >= 15).astype(float)
+    d["new_ok"] = (d.new_gam < 15).astype(float)
     d["err"] = d.next_phase - d.fc_phase
     d["up"], d["down"] = (d.err > 0).astype(float), (d.err < 0).astype(float)
     rows = []
@@ -332,6 +335,17 @@ def new_measurement(p, s):
             r, n, G = DID.fe_ols(sample, y, xs, ["cell"], cluster="cl")
             rows.append(dict(outcome=y, controls=ctrl, coef=r.loc["new_s", "coef"], se=r.loc["new_s", "se"],
                              n=n, clusters=G, base=sample[y].mean(), share_new=sample.new_s.mean()))
+    # mechanism checks: (a) where no nutrition evidence is needed (forecast Stressed or better);
+    # (b) by what the survey found
+    d["up_any"] = d["up"]
+    for lab, sample, xs in [("fc<=2", d[d.fc_phase <= 2], ["new_s"]), ("fc=3", d[d.fc_phase == 3], ["new_s"]),
+                            ("content", d, ["new_crit", "new_ok"])]:
+        for y in ["up", "down"]:
+            r, n, G = DID.fe_ols(sample, y, xs + [c for c in CTRL if c not in xs], ["cell"], cluster="cl")
+            for v in xs:
+                rows.append(dict(outcome=y, controls="mech:" + lab + ":" + v, coef=r.loc[v, "coef"],
+                                 se=r.loc[v, "se"], n=n, clusters=G, base=sample[y].mean(),
+                                 share_new=sample[v].mean()))
     c = d[d.phase == 3]
     groups = {"escalated_unforecast": c[(c.next_phase >= 4) & (c.fc4 == 0)],
               "escalated_forecast": c[(c.next_phase >= 4) & (c.fc4 == 1)],

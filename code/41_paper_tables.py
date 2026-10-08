@@ -147,20 +147,23 @@ def benefit():
             return "--"
         d = -int(floor(log10(abs(v)))) + 1
         return f"{round(v, d):,.0f}"
+    def rng(v):
+        """Range across mortality scenarios, smallest first (scenarios need not be monotonic)."""
+        return f"{r2(v.min())}--{r2(v.max())}"
     out = [r"\begin{tabular}{lrrrrrr}", r"\toprule",
            r" & Share of aid & \multicolumn{3}{c}{Deaths averted per year} & Person-years out of & Child-years of acute \\",
            r"\cmidrule(lr){3-5}",
-           r"FEWS NET credited with its distinctive information on: & attributed & Cons. & IPC mid & IPC upper & Emergency+ per year & malnutrition per year \\", r"\midrule"]
+           r"FEWS NET credited with its distinctive information on: & attributed & Low & Central & High & Emergency+ per year & malnutrition per year \\", r"\midrule"]
     costs = []
     for a, h in lab.items():
         x = R[R.attribution == a].set_index("mortality")
         sh = x.loc["central", "mean_share_attributed"]
         dd = [r2(x.loc[m, "deaths_per_year"]) for m in ["low", "central", "high"]]
         out.append(f"{h} & {100 * sh:.1f}\\% & " + " & ".join(dd) + f" & {r2(x.loc['central', 'emergency_person_years'])}"
-                   + f" & {r2(x.loc['low', 'child_wasting_years'])}--{r2(x.loc['high', 'child_wasting_years'])}" + r" \\")
+                   + f" & {rng(x.child_wasting_years)}" + r" \\")
         cc = [r2(x.loc[m, "cost_per_death"]) for m in ["low", "central", "high"]]
         costs.append(f"\\quad {h} & & " + " & ".join(cc) + f" & {r2(x.loc['central', 'budget_usd'] / x.loc['central', 'emergency_person_years'])}"
-                     + f" & {r2(x.loc['high', 'budget_usd'] / x.loc['high', 'child_wasting_years'])}--{r2(x.loc['low', 'budget_usd'] / x.loc['low', 'child_wasting_years'])}" + r" \\")
+                     + f" & {rng(x.budget_usd / x.child_wasting_years)}" + r" \\")
     out += [r"\midrule", r"\multicolumn{7}{l}{\textit{Cost per outcome averted (US\$, budget \$45 million a year)}} \\"] + costs
     out += [r"\bottomrule", r"\end{tabular}"]
     (OUT / "benefit.tex").write_text("\n".join(out))

@@ -575,6 +575,20 @@ def budget_and_cg():
     W = R[(R.budget == "central") & R.attribution.isin(["A4", "A5"])]
     xw = W.deaths_per_year * 40 * 1e5 / W.budget_usd
     N["cgWholeLo"], N["cgWholeHi"] = r2(xw.min()), r2(xw.max())
+    # sensitivity: the IPC reference bands instead of the evidence-based calibration
+    I = pd.read_csv(TAB / "benefit_cost_ipcbands.csv")
+    di = I[(I.budget == "central") & I.attribution.isin(["A1", "A2", "A3"])]
+    N["ipcDistinctLo"], N["ipcDistinctHi"] = r2(di.cost_per_death.min()), r2(di.cost_per_death.max())
+    N["ipcDeathsLo"], N["ipcDeathsHi"] = r2(di.deaths_per_year.min()), r2(di.deaths_per_year.max())
+    x = di.deaths_per_year * 40 * 1e5 / di.budget_usd
+    N["ipcCgLo"], N["ipcCgHi"] = r2(x.min()), r2(x.max())
+    ki = json.loads((TAB / "benefit_cost_key_ipcbands.json").read_text())
+    for m, km in [("low", "Cons"), ("central", "Mid"), ("high", "Up")]:
+        N[f"ipcGross{km}"] = f"{ki['gross_deaths'][m] / 1e3:,.0f}"
+    wi = I[(I.budget == "central") & I.attribution.isin(["A4", "A5"])]
+    N["ipcWholeLo"], N["ipcWholeHi"] = r2(wi.cost_per_death.min()), r2(wi.cost_per_death.max())
+    # the cost-effectiveness bar in cost per death, at 40 DALYs per death
+    N["cgBarPerDeath"] = r2(40 * 1e5 / 1000)
 
 
 def predictable():
@@ -751,6 +765,100 @@ def fig_information():
     plt.close(fig)
 
 
+def fig_fsnau():
+    """Somalia's scheduled surveys: measured malnutrition against FEWS NET's forecast and the last survey."""
+    d = pd.read_csv(TAB / "fsnau_value_panel.csv")
+    fig, (ax, bx) = plt.subplots(1, 2, figsize=(7.0, 3.2), gridspec_kw={"wspace": 0.35})
+    d["ph"] = d.fc.round().clip(2, 4)
+    g = d.groupby("ph").gam.agg(["mean", "std", "size"])
+    se = g["std"] / np.sqrt(g["size"])
+    ax.errorbar(g.index, g["mean"], yerr=1.96 * se, fmt="o", color=BLUE, ms=6, lw=1.4)
+    for x, r in g.iterrows():
+        ax.text(x + 0.08, r["mean"], f"n={int(r['size'])}", fontsize=7, color="#555555", va="center")
+    ax.axhline(15, color=GREY, lw=0.8, ls="--")
+    ax.text(1.65, 15.4, "critical (15%)", fontsize=7, color="#555555", ha="left")
+    ax.set_xticks([2, 3, 4]); ax.set_xticklabels(["Stressed\nor better", "Crisis", "Emergency\nor worse"], fontsize=8)
+    ax.set_xlim(1.6, 4.6); ax.set_ylim(0, 25)
+    ax.set_ylabel("Acute malnutrition, children under 5 (%)")
+    ax.set_title("A. By FEWS NET's forecast for the zone")
+    bx.scatter(d.gam_lag, d.gam, s=9, color=BLUE, alpha=0.45, linewidths=0)
+    lim = [0, max(d.gam.max(), d.gam_lag.max()) + 2]
+    bx.plot(lim, lim, color=GREY, lw=0.8, ls="--")
+    b = np.polyfit(d.gam_lag, d.gam, 1)
+    xs = np.linspace(lim[0], lim[1], 50)
+    bx.plot(xs, b[1] + b[0] * xs, color=ORANGE, lw=1.6)
+    bx.set_xlim(lim); bx.set_ylim(lim)
+    bx.set_xlabel("Previous round (%)"); bx.set_ylabel("This round (%)")
+    bx.set_title("B. Against the zone's previous survey")
+    for a_ in (ax, bx):
+        a_.grid(axis="y", color="#e6e6e6", lw=0.6); a_.set_axisbelow(True)
+    fig.savefig(FIG / "fig9_fsnau.pdf")
+    plt.close(fig)
+
+
+# ------------------------------------------------------------------ what a phase means (57, 58)
+def phase_outcomes():
+    """Measured malnutrition and mortality by phase: Somalia within zones, and other countries."""
+    W = pd.read_csv(TAB / "fsnau_value_within.csv").set_index(["outcome", "phase", "fe"])
+    for y, yt in [("gam", "Gam"), ("cdr", "Cdr"), ("u5dr", "Ufive")]:
+        for fe, ft in [("key", "Zone"), ("key+t", "ZoneSeason")]:
+            r = W.loc[(y, "fc", fe)]
+            d = 1 if y == "gam" else 2
+            N[f"wz{yt}{ft}"], N[f"wz{yt}{ft}Se"] = f"{r.coef:.{d}f}", f"{r.se:.{d}f}"
+            r = W.loc[(y, "after", fe)]
+            N[f"wz{yt}{ft}Map"], N[f"wz{yt}{ft}MapSe"] = f"{r.coef:.{d}f}", f"{r.se:.{d}f}"
+    k = json.loads((TAB / "phase_outcomes_key.json").read_text())
+    P = pd.read_csv(TAB / "phase_outcomes.csv")
+    sp = P[(P.source == "SMART+ all") & (P.measure == "fews_cur")].set_index("phase")
+    for ph, tag in [("1", "One"), ("2", "Two"), ("3", "Three"), ("4+", "Four")]:
+        N[f"spGam{tag}"] = f"{sp.loc[ph, 'gam_mean']:.0f}"
+        N[f"spCdr{tag}"] = f"{sp.loc[ph, 'cdr_mean']:.2f}"
+    m = k["match"]
+    N["spN"], N["spNfews"] = str(m["SMART+ all"]["n"]), str(m["SMART+ all"]["fews_cur"])
+    N["spNround"] = str(m["SMART+ Nigeria rounds"]["n"])
+    N["fdwN"], N["fdwNfews"] = str(m["FDW (BF, MR)"]["n"]), str(m["FDW (BF, MR)"]["fews_cur"])
+    c = k["corr"]
+    N["spCorr"] = f"{c['SMART+ all']['fews_cur']['gam']:.2f}"
+    N["fdwCorr"] = f"{c['FDW (BF, MR)']['fews_cur']['gam']:.2f}"
+    o = k["ols"]
+    g = o["SMART+ all"]["fews_cur"]["gam_country_year_fe"]
+    N["spSlope"], N["spSlopeSe"] = f"{g['coef']:.1f}", f"{g['se']:.1f}"
+    g = o["SMART+ all"]["fews_cur"]["cdr_country_year_fe"]
+    N["spCdrSlope"], N["spCdrSlopeSe"] = sg(g["coef"], 2), f"{g['se']:.2f}"
+    g = o["SMART+ all"]["ipc_ch"]["cdr_country_year_fe"]
+    N["spCdrSlopeIpc"], N["spCdrSlopeIpcSe"] = f"{g['coef']:.2f}", f"{g['se']:.2f}"
+    g = o["SMART+ Nigeria rounds"]["ipc_ch"]["gam_country_year_fe"]
+    N["ngSlope"], N["ngSlopeSe"] = f"{g['coef']:.1f}", f"{g['se']:.1f}"
+    g = o["FDW (BF, MR)"]["fews_cur"]["gam_country_year_fe"]
+    N["fdwSlope"], N["fdwSlopeSe"] = f"{g['coef']:.1f}", f"{g['se']:.1f}"
+    a = k["amn"]
+    N["amnExpN"], N["amnExpCorr"] = str(a["AMN explicit"]["n"]), f"{a['AMN explicit']['corr']:.2f}"
+    N["amnExpAgree"] = pct(a["AMN explicit"]["exact_agree"])
+    dk = [x for x in a if x.lower().startswith("amn derived")][0]
+    N["amnDerN"], N["amnDerCorr"] = str(a[dk]["n"]), f"{a[dk]['corr']:.2f}"
+    N["amnDerCountries"] = str(len(a[dk].get("countries", [])))
+    # would paying for surveys pay off? (59_survey_value.py)
+    v = json.loads((TAB / "survey_value_key.json").read_text())
+    for k_, t in [("share_reached_survey", "Survey"), ("share_reached_forecast", "Fc"), ("share_reached_random", "Rand"),
+                  ("share_reached_oracle", "Oracle"), ("rate_rule_share_survey", "RateSurvey"),
+                  ("rate_rule_share_forecast", "RateFc")]:
+        N[f"svv{t}"] = pct(v[k_])
+    N["svvZones"] = f"{v['zones_per_season']:.0f}"
+    N["svvRound"] = r2(v["cost_round_central"])
+    N["svvDeaths"] = f"{v['deaths_central']:.0f}"
+    N["svvCostMid"], N["svvCostLo"], N["svvCostHi"] = (r2(v[f"cost_per_death_{x}"]) for x in ["central", "high", "low"])
+    N["svvRateMid"], N["svvRateLo"], N["svvRateHi"] = (r2(v[f"rate_rule_cost_per_death_{x}"]) for x in ["central", "high", "low"])
+    fk = json.loads((TAB / "fsnau_value_key.json").read_text())
+    N["fsFcOnLag"], N["fsFcOnLagSe"] = f"{10 * fk['fc_on_lag']:.2f}", f"{10 * fk['fc_on_lag_se']:.2f}"
+    # the calibration used in the benefit-cost section (36_benefit_cost.py)
+    ke = json.loads((TAB / "benefit_cost_key.json").read_text())
+    for lvl, t in [("low", "Lo"), ("central", "Mid"), ("high", "Hi")]:
+        cd, gm = ke["cdr"][lvl], ke["gam"][lvl]
+        N[f"calCdr{t}"] = f"{cd['2'] - cd['1']:.2f}"
+        N[f"calFam{t}"] = f"{cd['5'] - cd['4']:.1f}"
+        N[f"calGam{t}"] = f"{100 * (gm['2'] - gm['1']):.1f}"
+
+
 # ------------------------------------------------------------------ which pieces are worth paying for
 def pieces():
     """Pilot on FEWS NET's reports (53_text_value.py) and the value of price data (55_price_value.py)."""
@@ -785,11 +893,37 @@ def pieces():
     N["nsDown"], N["nsDownSe"] = sg(100 * r.coef, 1), pct(r.se, 1)
     r = ns.loc[("next4", "all text")]
     N["nsEsc"], N["nsEscSe"], N["nsEscBase"] = pct(r.coef, 1), pct(r.se, 1), pct(r.base, 1)
+    for key_, tag in [("mech:fc<=2:new_s", "Stress"), ("mech:content:new_crit", "Crit"), ("mech:content:new_ok", "Ok")]:
+        for y, yt in [("up", "Up"), ("down", "Down")]:
+            r = ns.loc[(y, key_)]
+            N[f"ns{tag}{yt}"], N[f"ns{tag}{yt}Se"] = sg(100 * r.coef, 1), pct(r.se, 1)
+        N[f"ns{tag}N"] = f"{round(r.share_new * r.n):,}"
+    N["nsStressBase"] = pct(ns.loc[("up", "mech:fc<=2:new_s")].base)
     g = k["new_survey_groups"]
     N["nsUnforecast"] = pct(g["escalated_unforecast"]["share_new_survey"])
     N["nsForecast"] = pct(g["escalated_forecast"]["share_new_survey"])
     N["nsNone"] = pct(g["no_escalation"]["share_new_survey"])
     text_table()
+    # scheduled surveys in Somalia (57_fsnau_value.py)
+    fk = json.loads((TAB / "fsnau_value_key.json").read_text())
+    fv = pd.read_csv(TAB / "fsnau_value.csv").set_index("model")
+    fc_ = pd.read_csv(TAB / "fsnau_value_changes.csv").set_index("model")
+    fpan = pd.read_csv(TAB / "fsnau_value_panel.csv")
+    fb = fpan.assign(fc_round=fpan.fc.round().clip(2, 4)).groupby("fc_round").agg(gam=("gam", "mean"))   # as in Figure 9
+    sv = pd.read_csv(INP / "fsnau/surveys.csv")
+    N["fsAll"] = f"{len(sv):,}"
+    N["fsN"], N["fsZones"], N["fsSeasons"] = str(fk["n"]), str(fk["n_zones"]), str(fk["n_seasons"])
+    N["fsGam"], N["fsCrit"] = f"{fk['gam_mean']:.0f}", pct(fk["crit_share"])
+    N["fsLead"] = f"{fk['median_lead']:.0f}"
+    N["fsCorrFc"], N["fsCorrLag"], N["fsCorrAfter"] = (f"{fk[k]:.2f}" for k in ["corr_gam_forecast", "corr_gam_lag", "corr_gam_after_map"])
+    N["fsRtwoFc"], N["fsRtwoLag"], N["fsRtwoBoth"] = (sg(fv.loc[m, "r2"], 2) for m in ["FEWS NET forecast", "last survey", "forecast + last survey"])
+    N["fsAucFc"], N["fsAucLag"] = f"{fv.loc['FEWS NET forecast', 'auc']:.2f}", f"{fv.loc['last survey', 'auc']:.2f}"
+    N["fsChRtwoLag"], N["fsChRtwoFc"] = sg(fc_.loc["last survey", "r2"], 2), sg(fc_.loc["forecast level and change", "r2"], 2)
+    N["fsDfc"], N["fsDfcSe"] = f"{fk['dgam_on_dfc']:.1f}", f"{fk['dgam_on_dfc_se']:.1f}"
+    for ph, tag in [(2, "Two"), (3, "Three"), (4, "Four")]:
+        N[f"fsGam{tag}"] = f"{fb.loc[ph, 'gam']:.0f}"
+    N["fsMortN"] = str(fk["mort_n"])
+    N["fsMortFc"], N["fsMortLag"] = sg(fk["mort_r2_forecast"], 2), sg(fk["mort_r2_lag"], 2)
     er = pd.read_csv(TAB / "text_value_escalation.csv")
     er = er[(er.outcome == "next4") & (er.model == "map+text")].set_index("var")
     N["txtAidDown"], N["txtAccess"] = pct(er.loc["t_aid_down", "coef"]), pct(er.loc["t_access", "coef"])
@@ -827,5 +961,7 @@ if __name__ == "__main__":
     hetero()
     budget_and_cg()
     pieces()
+    phase_outcomes()
     fig_information()
+    fig_fsnau()
     write_numbers()

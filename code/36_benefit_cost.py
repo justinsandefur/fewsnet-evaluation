@@ -5,10 +5,15 @@ Chain of assumptions (each a range):
      the area one phase better than it would otherwise be (counterfactual = phase + 1).
   2. People: area population (WorldPop 2020, UN-adjusted, 1 km) over the time until
      the next map (capped at 6 months).
-  3. What a phase means: IPC reference-table thresholds for the crude death rate
-     (deaths/10,000/day) and global acute malnutrition among under-5s, and the
-     empirical shares of people in Crisis+ / Emergency+ in areas of each phase in the
-     official IPC and Cadre Harmonise data.
+  3. What a phase means. Main calibration ("evidence"): the extra deaths and acute
+     malnutrition that go with one phase, estimated from survey data (Somalia's
+     scheduled FSNAU surveys within zones, 57_fsnau_value.py; SMART+ and national
+     rounds elsewhere, 58_phase_outcomes.py; excess-mortality studies, see
+     references/lit_phase_outcomes.md). Sensitivity ("ipcbands"): the IPC
+     reference-table thresholds for the crude death rate (deaths/10,000/day) and
+     global acute malnutrition among under-5s, which were never calibrated against
+     food insecurity outcomes. People kept out of Crisis+/Emergency+: empirical shares
+     by area phase in the official IPC and Cadre Harmonise data.
   4. FEWS NET's share of that aid: from the funding regressions, the share of
      humanitarian funding in the country-round attributable to FEWS NET, where x is
      FEWS NET's contribution (or its whole forecast) for the country-round and beta the
@@ -17,7 +22,7 @@ Chain of assumptions (each a range):
      Signed: where FEWS NET was less alarmed than public data, the share is negative.
   5. Cost: FEWS NET's annual budget.
 
-Outputs: output/tables/benefit_cost*.csv, output/cgd_paper/figures/fig7_benefit_cost.pdf,
+Outputs: output/tables/benefit_cost*.csv (main calibration), benefit_cost*_ipcbands.* (IPC bands), output/cgd_paper/figures/fig7_benefit_cost.pdf,
          numbers appended by 40_paper.py from benefit_cost_key.json
 """
 import importlib.util
@@ -50,17 +55,33 @@ FV = load("fv", "32_forecast_value.py")
 YEARS = 14                     # 2011-2024
 U5 = 0.17                      # share of population under five (sub-Saharan Africa, roughly)
 
-# IPC reference table (area outcomes): crude death rate, deaths per 10,000 per day.
-# Phases 1-2: < 0.5; Phase 3: 0.5-1; Phase 4: 1-2; Phase 5: > 2.
-CDR = {"low": {1: 0.75, 2: 0.75, 3: 0.75, 4: 1.00, 5: 2.00},     # deaths only above Crisis: no excess
-                                                                   # mortality from Crisis itself (the IPC's
-                                                                   # description of Phase 3); bottom of each band
-       "central": {1: 0.30, 2: 0.30, 3: 0.75, 4: 1.50, 5: 3.00},  # mid-points (Phase 5: 2-4)
-       "high": {1: 0.25, 2: 0.25, 3: 1.00, 4: 2.00, 5: 4.00}}     # top of each band
-# Global acute malnutrition among under-5s: <5%, 5-10%, 10-15%, 15-30%, >30%.
-GAM = {"low": {1: 0.04, 2: 0.05, 3: 0.10, 4: 0.15, 5: 0.30},
-       "central": {1: 0.025, 2: 0.075, 3: 0.125, 4: 0.225, 5: 0.35},
-       "high": {1: 0.0, 2: 0.10, 3: 0.15, 4: 0.30, 5: 0.40}}
+# Evidence calibration: change in the crude death rate (deaths/10,000/day) and in the share of
+# under-5s acutely malnourished for one phase, below Famine and from Emergency to Famine.
+#   below Famine: Somalia within-zone slopes 0.07-0.12 (CDR) and 0.6-1.2 points (GAM);
+#     SMART+ with IPC/CH phase and country-year effects 0.17 (CDR), about 2 points (GAM);
+#     excess deaths per person in Phase 3+ in Somalia 2017-18 and 2022, 0.15-0.21.
+#   Emergency to Famine: Somalia 2010-12 excess deaths per Phase 3+ person, 1.1-1.9;
+#     Famine Review Committee strata 2017-2024 (non-trauma CDR up to 1.9).
+STEP = {"low": (0.07, 0.9, 0.006, 0.05), "central": (0.15, 1.5, 0.015, 0.10), "high": (0.25, 1.9, 0.025, 0.15)}
+
+
+def stepped(d, f):
+    """Phase -> level, rising by d per phase from Phase 1 to Phase 4 and by f from 4 to 5."""
+    return {1: 0.0, 2: d, 3: 2 * d, 4: 3 * d, 5: 3 * d + f}
+
+
+CAL = {"evidence": ({k: stepped(v[0], v[1]) for k, v in STEP.items()},
+                    {k: stepped(v[2], v[3]) for k, v in STEP.items()}),
+       # IPC reference table (area outcomes): crude death rate, deaths per 10,000 per day.
+       # Phases 1-2: < 0.5; Phase 3: 0.5-1; Phase 4: 1-2; Phase 5: > 2. 'low' assumes no excess
+       # mortality from Crisis itself (the IPC's description of Phase 3) and the bottom of each band.
+       # Global acute malnutrition among under-5s: <5%, 5-10%, 10-15%, 15-30%, >30%.
+       "ipcbands": ({"low": {1: 0.75, 2: 0.75, 3: 0.75, 4: 1.00, 5: 2.00},
+                     "central": {1: 0.30, 2: 0.30, 3: 0.75, 4: 1.50, 5: 3.00},
+                     "high": {1: 0.25, 2: 0.25, 3: 1.00, 4: 2.00, 5: 4.00}},
+                    {"low": {1: 0.04, 2: 0.05, 3: 0.10, 4: 0.15, 5: 0.30},
+                     "central": {1: 0.025, 2: 0.075, 3: 0.125, 4: 0.225, 5: 0.35},
+                     "high": {1: 0.0, 2: 0.10, 3: 0.15, 4: 0.30, 5: 0.40}})}
 
 BUDGET = {"low": 35e6, "central": 45e6, "high": 65e6}   # USAspending FEWS NET contract obligations, see paper
 
@@ -113,7 +134,9 @@ def populations(fnids):
     return p
 
 
-def main():
+def main(calib="evidence"):
+    CDR, GAM = CAL[calib]
+    sfx = "" if calib == "evidence" else f"_{calib}"
     allcs, fl = flagged_rounds()
     pop = populations(sorted(fl.fnid.unique()))
     fl = fl.merge(pop, on="fnid", how="left")
@@ -191,9 +214,9 @@ def main():
                                  "emergency_person_years": (A * have.emerg_py).sum() / YEARS,
                                  "child_wasting_years": w, "budget_usd": b})
         out[form] = pd.DataFrame(rows)
-    out["one-sided"].to_csv(TAB / "benefit_cost_onesided.csv", index=False)
+    out["one-sided"].to_csv(TAB / f"benefit_cost_onesided{sfx}.csv", index=False)
     R = out["symmetric"]
-    R.to_csv(TAB / "benefit_cost.csv", index=False)
+    R.to_csv(TAB / f"benefit_cost{sfx}.csv", index=False)
     pd.set_option("display.width", 250)
     show = R[R.budget == "central"].pivot_table(index="attribution", columns="mortality",
                                                  values=["deaths_per_year", "cost_per_death"]).round(0)
@@ -202,7 +225,7 @@ def main():
                                                                   "emergency_person_years", "child_wasting_years"]].round(3))
     by_phase = have.groupby("p").agg(area_rounds=("fnid", "size"), people_m=("pop", lambda v: v.sum() / 1e6),
                                      deaths_central=("deaths_central", "sum")).assign(deaths_central=lambda d: d.deaths_central / YEARS)
-    by_phase.to_csv(TAB / "benefit_cost_by_phase.csv")
+    by_phase.to_csv(TAB / f"benefit_cost_by_phase{sfx}.csv")
     print(by_phase.round(1))
     # population context: average people living in flagged areas at any time
     avg_people = (have["pop"] * have.months / 12).sum() / YEARS
@@ -210,10 +233,13 @@ def main():
            "avg_people_flagged": float(avg_people), "gross_deaths": gross, "gross_crisis_py": float(gross_py),
            "s3": {int(k): float(v) for k, v in s3.items()}, "s4": {int(k): float(v) for k, v in s4.items()},
            "share_phase": have.p.value_counts(normalize=True).sort_index().to_dict(),
-           "betas": {a[0]: float(a[3]) for a in ATTR}}
-    (TAB / "benefit_cost_key.json").write_text(json.dumps(key, indent=1, default=float))
+           "betas": {a[0]: float(a[3]) for a in ATTR}, "calibration": calib,
+           "cdr": {k: {int(p_): v for p_, v in d.items()} for k, d in CDR.items()},
+           "gam": {k: {int(p_): v for p_, v in d.items()} for k, d in GAM.items()}}
+    (TAB / f"benefit_cost_key{sfx}.json").write_text(json.dumps(key, indent=1, default=float))
     print(json.dumps(key, indent=1, default=float))
-    figure(R)
+    if calib == "evidence":
+        figure(R)
 
 
 def figure(R):
@@ -254,4 +280,5 @@ def figure(R):
 
 
 if __name__ == "__main__":
-    main()
+    main("evidence")
+    main("ipcbands")

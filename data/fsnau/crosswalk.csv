@@ -1,0 +1,512 @@
+season,population_group,region,key,n_units
+Deyr 2010/11,Adduun,Central and Northeast,addun||,23
+Deyr 2010/11,Agro-pastoral,Gedo,,0
+Deyr 2010/11,Agro-pastoral,Middle and Lower Juba,,0
+Deyr 2010/11,Agro-pastoral Zone (Northwest Agro-pastoral),,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Deyr 2010/11,Coastal Deeh,Northeast,coastal deeh||,35
+Deyr 2010/11,East Golis/Gebbi Valley,,east golis||,15
+Deyr 2010/11,Galgadud,Galgadud,,0
+Deyr 2010/11,Hawd,Central and Northeast,hawd||,56
+Deyr 2010/11,Hawd Livelihood Zone,,hawd||,56
+Deyr 2010/11,Nugal Valley,,nugal valley||,22
+Deyr 2010/11,Pastoral,Gedo,,0
+Deyr 2010/11,Pastoral,Middle and Lower Juba,,0
+Deyr 2010/11,Riverine,Gedo,,0
+Deyr 2010/11,Riverine,Middle and Lower Juba,,0
+Deyr 2010/11,Sool Plateau,,sool.?sanag plateau|sool plateau||,18
+Deyr 2010/11,Togdheer Agro pastoral,Togdheer,togdheer agro|Togdheer|,9
+Deyr 2010/11,West Golis/Guban,,west golis||,36
+Gu 2011,Addun,Central and Northeast,addun||,23
+Gu 2011,Agro-pastoral Zone,,,0
+Gu 2011,Bakool Agro-pastoral,Bakool,agro|Bakool|,21
+Gu 2011,Bakool Pastoral,Bakool,pastoral|Bakool|,32
+Gu 2011,Bay Agro-pastoral,Bay,bay|sorghum high|Bay|,20
+Gu 2011,Bay Agro-pastoral,Bay,bay|sorghum high|Bay|,20
+Gu 2011,Coastal Deeh,Northeast,coastal deeh||,35
+Gu 2011,East Golis/Karakaar Livelihood Zone,,east golis||,15
+Gu 2011,Gedo Agropastoral,,agro|Gedo|,26
+Gu 2011,Gedo Pastoral,,pastoral|Gedo|,48
+Gu 2011,Gedo Pastoral,,pastoral|Gedo|,48
+Gu 2011,Gedo Riverine,,riverine|pump|gravity|irrigat|Gedo|,12
+Gu 2011,Hawd,Central and Northeast,hawd||,56
+Gu 2011,Hiran Agro-pastoral,Hiran,agro|Hiiraan|,14
+Gu 2011,Hiran Pastoral,Hiran,None|Hiiraan|,41
+Gu 2011,Hiran Riverine,Hiran,riverine|pump|gravity|irrigat|Hiiraan|,12
+Gu 2011,Juba Agro pastoral,Middle and Lower Juba,"agro|Lower Juba,Middle Juba|",28
+Gu 2011,Juba Agro pastoral,Middle and Lower Juba,"agro|Lower Juba,Middle Juba|",28
+Gu 2011,Juba Pastoral,Middle and Lower Juba,"pastoral|Lower Juba,Middle Juba|",71
+Gu 2011,Juba Pastoral,Middle and Lower Juba,"pastoral|Lower Juba,Middle Juba|",71
+Gu 2011,Juba Riverine,Middle and Lower Juba,"riverine|pump|gravity|irrigat|Lower Juba,Middle Juba|",21
+Gu 2011,Juba Riverine,Middle and Lower Juba,"riverine|pump|gravity|irrigat|Lower Juba,Middle Juba|",21
+Gu 2011,L. Shabelle Agro-pastoral,Lower Shabelle,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2011,L. Shabelle Riverine,Lower Shabelle,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2011,M. Shabelle Agro-pastoral,Middle Shabelle,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2011,M. Shabelle Riverine,Middle Shabelle,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2011,Nugal Valley,,nugal valley||,22
+Gu 2011,Sool plateau,,sool.?sanag plateau|sool plateau||,18
+Gu 2011,The Hawd Livelihood Zone,,hawd||,56
+Gu 2011,West Golis/Guban,,west golis||,36
+Deyr 2011/12,Addun,"Central regions (also shown in Table 19, Northeast Regions)",addun||,23
+Deyr 2011/12,Agro-pastoral Zone,,,0
+Deyr 2011/12,Coastal Deeh,Northeast regions,coastal deeh||,35
+Deyr 2011/12,East Golis,Northeast regions,east golis||,15
+Deyr 2011/12,East Golis/Gebbi Valley,,east golis||,15
+Deyr 2011/12,Hawd,"Central regions (also shown in Table 19, Northeast Regions)",hawd||,56
+Deyr 2011/12,Juba Agropastoral,Juba,"agro|Lower Juba,Middle Juba|",28
+Deyr 2011/12,Juba Pastoral,Juba,"pastoral|Lower Juba,Middle Juba|",71
+Deyr 2011/12,Juba Riverine,Juba,"riverine|pump|gravity|irrigat|Lower Juba,Middle Juba|",21
+Deyr 2011/12,Nugal Valley,Northeast regions,nugal valley||,22
+Deyr 2011/12,Sool Plateau,Northeast regions,sool.?sanag plateau|sool plateau||,18
+Deyr 2011/12,The Hawd Livelihood Zone,,hawd||,56
+Deyr 2011/12,West Golis/Guban,,west golis||,36
+Gu 2012,Addun,"Central regions (table also reproduced as Table 18, Northeast Regions)",addun||,23
+Gu 2012,Agro-pastoral Zone,,,0
+Gu 2012,Bakool Pastoral,Bakool,pastoral|Bakool|,32
+Gu 2012,Bay Agro-Pastoral,Bay,bay|sorghum high|Bay|,20
+Gu 2012,Coastal Deeh,Central regions,coastal deeh||,35
+Gu 2012,Coastal Deeh,Northeast regions,coastal deeh||,35
+Gu 2012,Cowpea Belt,Central regions,cowpea|central regions agro||,41
+Gu 2012,East Golis,Northeast regions,east golis||,15
+Gu 2012,East Golis/Gebbi Valley,,east golis||,15
+Gu 2012,Gedo Pastoral,Gedo,pastoral|Gedo|,48
+Gu 2012,Gedo Riverine,Gedo,riverine|pump|gravity|irrigat|Gedo|,12
+Gu 2012,Hawd,"Central regions (table also reproduced as Table 18, Northeast Regions)",hawd||,56
+Gu 2012,Juba Agro-pastoral,Juba,"agro|Lower Juba,Middle Juba|",28
+Gu 2012,Juba Pastoral,Juba,"pastoral|Lower Juba,Middle Juba|",71
+Gu 2012,Juba Riverine,Juba,"riverine|pump|gravity|irrigat|Lower Juba,Middle Juba|",21
+Gu 2012,Nugal Valley,Northeast regions,nugal valley||,22
+Gu 2012,Sool Plateau,Northeast regions,sool.?sanag plateau|sool plateau||,18
+Gu 2012,The Hawd Livelihood Zone,,hawd||,56
+Gu 2012,West Golis/Guban,,west golis||,36
+Deyr 2012/13,Addun,Central,addun||,23
+Deyr 2012/13,Bakool pastoral,Bakool,pastoral|Bakool|,32
+Deyr 2012/13,Bay Agro-pastoral,Bay,bay|sorghum high|Bay|,20
+Deyr 2012/13,Coastal Deeh,Northeast,coastal deeh||,35
+Deyr 2012/13,EGolis (NW),NW,"golis|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",46
+Deyr 2012/13,East Golis/Karkaar,Northeast,east golis||,15
+Deyr 2012/13,Gedo Agropastoral,Gedo,agro|Gedo|,26
+Deyr 2012/13,Gedo Pastoral,Gedo,pastoral|Gedo|,48
+Deyr 2012/13,Gedo Riverine,Gedo,riverine|pump|gravity|irrigat|Gedo|,12
+Deyr 2012/13,Hawd,Central,hawd||,56
+Deyr 2012/13,Hawd (NW),NW,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Deyr 2012/13,NW Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Deyr 2012/13,Nugal Valley,,nugal valley||,22
+Deyr 2012/13,Sool plateau,,sool.?sanag plateau|sool plateau||,18
+Deyr 2012/13,West Golis/Guban,,west golis||,36
+Gu 2013,Addun Central,Central,"addun|Galgaduud,Mudug|",20
+Gu 2013,Agro-pastoral,,,0
+Gu 2013,Bakool Pastoral,Bakool,pastoral|Bakool|,32
+Gu 2013,Bay agro-pastoral,Bay,bay|sorghum high|Bay|,20
+Gu 2013,Coastal deeh (NE),Northeast,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Gu 2013,East Golis,,east golis||,15
+Gu 2013,East Golis NE,Northeast,"east golis|Bari,Mudug,Nugaal,Sanaag,Sool|",14
+Gu 2013,Gedo North Agro-Pastoral,Gedo,"agro|Gedo|Belet Xaawo,Doolow,Luuq",8
+Gu 2013,Gedo North Pastoral,Gedo,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Gu 2013,Gedo North Riverine,Gedo,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Gu 2013,Hawd,,hawd||,56
+Gu 2013,Hawd Central,Central,"hawd|Galgaduud,Mudug|",21
+Gu 2013,Nugal Valley,,nugal valley||,22
+Gu 2013,Sool plateau,,sool.?sanag plateau|sool plateau||,18
+Gu 2013,West Golis/Guban,,west golis||,36
+Deyr 2013/14,Addun Pastoral,Central,addun||,23
+Deyr 2013/14,Bakool pastoral,Bay Bakool,pastoral|Bakool|,32
+Deyr 2013/14,Bay Agro Pastoral,Bay Bakool,bay|sorghum high|Bay|,20
+Deyr 2013/14,Beletweyn,Hiran,None|Hiiraan|Beledweyn,12
+Deyr 2013/14,Coastal Deeh,,coastal deeh||,35
+Deyr 2013/14,East Golis,Northeast,east golis||,15
+Deyr 2013/14,GEDO AGROPASTORAL,Gedo,agro|Gedo|,26
+Deyr 2013/14,GEDO PASTORAL,Gedo,pastoral|Gedo|,48
+Deyr 2013/14,GEDO RIVERINE,Gedo,riverine|pump|gravity|irrigat|Gedo|,12
+Deyr 2013/14,Hawd Pastoral,Central,hawd||,56
+Deyr 2013/14,Mataban,Hiran,None|Hiiraan|Beledweyn,12
+Deyr 2013/14,Nugal Valley,Northwest,nugal valley||,22
+Deyr 2013/14,Sool Plateau,Northwest,sool.?sanag plateau|sool plateau||,18
+Gu 2014,Addun Pastoral,Central,addun||,23
+Gu 2014,Agro-Pastoral LZ (Togdheer),Northwest,,0
+Gu 2014,Bakool Pastoral,Bay Bakool,pastoral|Bakool|,32
+Gu 2014,Bay Agro-pastoral,Bay Bakool,bay|sorghum high|Bay|,20
+Gu 2014,Beletwyene,Hiran,None|Hiiraan|Beledweyn,12
+Gu 2014,Coastal,Northeast,,0
+Gu 2014,East Golis/Gebi Valley Pastoral,Northwest,east golis||,15
+Gu 2014,East Golis/Karkaar Pastoral,Northeast,east golis||,15
+Gu 2014,Hawd Pastoral,Central,hawd||,56
+Gu 2014,L.Shabelle,Lower Shabelle,"None|Lower Shabelle,Middle Shabelle|",123
+Gu 2014,M. Shabelle,Middle Shabelle,"None|Lower Shabelle,Middle Shabelle|",123
+Gu 2014,Mataban,Hiran,None|Hiiraan|Beledweyn,12
+Gu 2014,N GEDO AGROPASTORAL,Gedo,agro|Gedo|,26
+Gu 2014,N GEDO PASTORAL,Gedo,pastoral|Gedo|,48
+Gu 2014,N GEDO RIVERINE,Gedo,riverine|pump|gravity|irrigat|Gedo|,12
+Gu 2014,NW Hawd,Northwest,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Gu 2014,Nugal Valley,Northeast,nugal valley||,22
+Gu 2014,Shabelle Agro Pastoral,Shabelle,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2014,Shabelle Riverine,Shabelle,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2014,Sool Plateau,Northwest,sool.?sanag plateau|sool plateau||,18
+Gu 2014,West Golis /Guban Pastoral LZ,Northwest,west golis||,36
+Deyr 2014/15,Addun,Central,addun||,23
+Deyr 2014/15,Bakool pastoral,Bakool,pastoral|Bakool|,32
+Deyr 2014/15,Bay Agro Pastoral,Bay,bay|sorghum high|Bay|,20
+Deyr 2014/15,Coastal Deeh,Northeast,coastal deeh||,35
+Deyr 2014/15,East Golis/Gebi Valley Pastoral,Northwest,east golis||,15
+Deyr 2014/15,East Golis/Karkaar,Northeast,east golis||,15
+Deyr 2014/15,Hawd,Central,hawd||,56
+Deyr 2014/15,North Gedo Agro-pastoral,North Gedo,"agro|Gedo|Belet Xaawo,Doolow,Luuq",8
+Deyr 2014/15,North Gedo Pastoral,North Gedo,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Deyr 2014/15,North Gedo Riverine,North Gedo,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Deyr 2014/15,Northwest Agro-Pastoral LZ,Northwest,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Deyr 2014/15,Northwest Hawd,Northwest,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Deyr 2014/15,Nugal Valley Pastoral,Northwest,nugal valley||,22
+Deyr 2014/15,Shabelle Agro-pastoral,Shabelle,"agro|Lower Shabelle,Middle Shabelle|",57
+Deyr 2014/15,Shabelle Riverine,Shabelle,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Deyr 2014/15,Sool Plateau,Northwest,sool.?sanag plateau|sool plateau||,18
+Deyr 2014/15,West Golis/Guban Pastoral LZ,Northwest,west golis||,36
+Gu 2015,Addun,Central,addun||,23
+Gu 2015,Bakool pastoral,Bakool,pastoral|Bakool|,32
+Gu 2015,Bay Agro Pastoral,Bay,bay|sorghum high|Bay|,20
+Gu 2015,Beletweyne,Hiran,None|Hiiraan|Beledweyn,12
+Gu 2015,Coastal Deeh,Northeast,coastal deeh||,35
+Gu 2015,Golis Pastoral,Northeast,golis||,58
+Gu 2015,Hawd,Central,hawd||,56
+Gu 2015,Mataban,Hiran,None|Hiiraan|Beledweyn,12
+Gu 2015,NW Agro-Pastoral LZ,Northwest,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Gu 2015,North Gedo Pastoral,North Gedo,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Gu 2015,North Gedo Riverine,North Gedo,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Gu 2015,Shabeele Agro-pastoral,Shabelle,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2015,Shabelle Riverine,Shabelle,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2015,West Golis Pastoral LZ,Northwest,west golis||,36
+Deyr 2015/16,Addun Pastoral,Northeast/Central,addun||,23
+Deyr 2015/16,Bakool Pastoral,Bakool,pastoral|Bakool|,32
+Deyr 2015/16,Bay Agro Pastoral,Bay,bay|sorghum high|Bay|,20
+Deyr 2015/16,Beletweyne,Hiran,None|Hiiraan|Beledweyn,12
+Deyr 2015/16,Coastal Deeh,Northeast,coastal deeh||,35
+Deyr 2015/16,East Golis Pastoral,Northeast,east golis||,15
+Deyr 2015/16,Hawd Pastoral,,hawd||,56
+Deyr 2015/16,Hawd Pastoral,Northeast/Central,hawd||,56
+Deyr 2015/16,Mataban,Hiran,None|Hiiraan|Beledweyn,12
+Deyr 2015/16,North Gedo Pastoral,North Gedo,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Deyr 2015/16,North Gedo Riverine,North Gedo,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Deyr 2015/16,Northern Inland Pastoral,,northern inland||,14
+Deyr 2015/16,Northwest Agro-Pastoral LZ,Northwest,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Deyr 2015/16,Shabeele Agro-pastoral,Shabelle,"agro|Lower Shabelle,Middle Shabelle|",57
+Deyr 2015/16,Shabele Riverine,Shabelle,,0
+Deyr 2015/16,West Golis Pastoral LZ,Northwest,west golis||,36
+Gu 2016,Addun Pastoral,Northeast/Central,addun||,23
+Gu 2016,Bakool Pastoral,Bakool,pastoral|Bakool|,32
+Gu 2016,Bay Agro-pastoral,Bay,bay|sorghum high|Bay|,20
+Gu 2016,Coastal Deeh,Northeast,coastal deeh||,35
+Gu 2016,Guban Pastoral LZ,Northwest,guban||,18
+Gu 2016,Hawd Pastoral,,hawd||,56
+Gu 2016,Hawd Pastoral,Northeast/Central,hawd||,56
+Gu 2016,NW Agro-Pastoral LZ,Northwest,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Gu 2016,North Gedo Pastoral,North Gedo,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Gu 2016,North Gedo Riverine,North Gedo,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Gu 2016,Northern Inland Pastoral,,northern inland||,14
+Gu 2016,Shabelle AgroPastoral,Shabelle,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2016,Shabelle Riverine,Shabelle,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2016,West Golis Pastoral LZ,Northwest,west golis||,36
+Deyr 2016/17,Addun Pastoral,,addun||,23
+Deyr 2016/17,Bakool Pastoral,Bakool,pastoral|Bakool|,32
+Deyr 2016/17,Bay Agro-pastoral,Bay,bay|sorghum high|Bay|,20
+Deyr 2016/17,Coastal Deeh,,coastal deeh||,35
+Deyr 2016/17,Guban Pastoral,,guban||,18
+Deyr 2016/17,Hawd Pastoral,,hawd||,56
+Deyr 2016/17,NIP,,,0
+Deyr 2016/17,NW AP,,,0
+Deyr 2016/17,NW Hawd,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Deyr 2016/17,North Gedo Pastoral (SIP),Gedo,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Deyr 2016/17,North Gedo Riverine,Gedo,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Deyr 2016/17,Shabelle Agropastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Deyr 2016/17,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Deyr 2016/17,West Golis,,west golis||,36
+Gu 2017,Addun Pastoral,,addun||,23
+Gu 2017,Bakool Pastoral,,pastoral|Bakool|,32
+Gu 2017,Bay Agropastoral,,bay|sorghum high|Bay|,20
+Gu 2017,Coastal Deeh,,coastal deeh||,35
+Gu 2017,East Golis,,east golis||,15
+Gu 2017,Galkacyo,,,0
+Gu 2017,Guban Pastoral,,guban||,18
+Gu 2017,Hawd NW,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Gu 2017,NE Hawd Pastoral,,"hawd|Bari,Mudug,Nugaal,Sanaag,Sool|",24
+Gu 2017,NE Inland Pastoral,,,0
+Gu 2017,NW Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Gu 2017,NW Inland Pastoral,,,0
+Gu 2017,North Gedo Pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Gu 2017,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Gu 2017,Shabelle Agro pastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2017,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2017,West Golis Pastoral,,west golis||,36
+Deyr 2017/18,Addun Pastoral,,addun||,23
+Deyr 2017/18,Bay Agropastoral,,bay|sorghum high|Bay|,20
+Deyr 2017/18,Coastal Deeh NE,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Deyr 2017/18,East Golis,,east golis||,15
+Deyr 2017/18,Guban Pastoral,,guban||,18
+Deyr 2017/18,Hawd Pastoral NE,,"hawd|Bari,Mudug,Nugaal,Sanaag,Sool|",24
+Deyr 2017/18,Hawd Pastoral NW,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Deyr 2017/18,NW Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Deyr 2017/18,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Deyr 2017/18,North Gedo pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Deyr 2017/18,Northern Inland Pastoral NE,,"northern inland|Bari,Mudug,Nugaal,Sanaag,Sool|",14
+Deyr 2017/18,Northern Inland Pastoral NW,,"northern inland|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",7
+Deyr 2017/18,Shabelle Agro pastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Deyr 2017/18,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Deyr 2017/18,West Golis Pastoral,,west golis||,36
+Gu 2018,Addun Pastoral,,addun||,23
+Gu 2018,Bakool Pastoral,,pastoral|Bakool|,32
+Gu 2018,Bay Agropastoral,,bay|sorghum high|Bay|,20
+Gu 2018,Beletwein District (Riverine),,None|Hiiraan|Beledweyn,12
+Gu 2018,Coastal Deeh NE,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Gu 2018,East Golis,,east golis||,15
+Gu 2018,Guban Pastoral,,guban||,18
+Gu 2018,Hawd Pastoral NE,,"hawd|Bari,Mudug,Nugaal,Sanaag,Sool|",24
+Gu 2018,Hawd Pastoral NW,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Gu 2018,NW Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Gu 2018,North Gedo Pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Gu 2018,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Gu 2018,Northern Inland Pastoral NE,,"northern inland|Bari,Mudug,Nugaal,Sanaag,Sool|",14
+Gu 2018,Northern Inland Pastoral NW,,"northern inland|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",7
+Gu 2018,Shabelle Agro pastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2018,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2018,West Golis Pastoral,,west golis||,36
+Deyr 2018/19,Addun Pastoral,,addun||,23
+Deyr 2018/19,Bakool Pastora,,pastoral|Bakool|,32
+Deyr 2018/19,Bay Agropastoral,,bay|sorghum high|Bay|,20
+Deyr 2018/19,Beletwein District,,None|Hiiraan|Beledweyn,12
+Deyr 2018/19,Coastal Deeh NE,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Deyr 2018/19,East Golis,,east golis||,15
+Deyr 2018/19,Guban Pastoral,,guban||,18
+Deyr 2018/19,Hawd Pastoral NE,,"hawd|Bari,Mudug,Nugaal,Sanaag,Sool|",24
+Deyr 2018/19,NW Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Deyr 2018/19,NW Hawd Pastoral,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Deyr 2018/19,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Deyr 2018/19,North Gedo pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Deyr 2018/19,Northern Inland Pastoral NE,,"northern inland|Bari,Mudug,Nugaal,Sanaag,Sool|",14
+Deyr 2018/19,Northern Inland Pastoral NW,,"northern inland|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",7
+Deyr 2018/19,Shabelle Agro pastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Deyr 2018/19,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Deyr 2018/19,West Golis Pastoral,,west golis||,36
+Gu 2019,Addun Pastoral,,addun||,23
+Gu 2019,Bay Agropastoral,,bay|sorghum high|Bay|,20
+Gu 2019,Beletwein District (Riverine),,None|Hiiraan|Beledweyn,12
+Gu 2019,Coastal Deeh NE,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Gu 2019,East Golis,,east golis||,15
+Gu 2019,Guban Pastoral,,guban||,18
+Gu 2019,Hawd Pastoral NE,,"hawd|Bari,Mudug,Nugaal,Sanaag,Sool|",24
+Gu 2019,Hawd Pastoral NW,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Gu 2019,Lasanood(Sool),Sool,,0
+Gu 2019,NW Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Gu 2019,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Gu 2019,North Gedo pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Gu 2019,Northern Inland Pastoral NE,,"northern inland|Bari,Mudug,Nugaal,Sanaag,Sool|",14
+Gu 2019,Northern Inland Pastoral NW,,"northern inland|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",7
+Gu 2019,Shabelle Agro pastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2019,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2019,West Golis Pastoral,,west golis||,36
+Deyr 2019/20,Addun Pastoral,,addun||,23
+Deyr 2019/20,Bay Agropastoral,,bay|sorghum high|Bay|,20
+Deyr 2019/20,Beletwein District (Riverine),,None|Hiiraan|Beledweyn,12
+Deyr 2019/20,Coastal Deeh NE,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Deyr 2019/20,East Golis,,east golis||,15
+Deyr 2019/20,Elberde District,,,0
+Deyr 2019/20,Guban Pastoral,,guban||,18
+Deyr 2019/20,Hawd Pastoral NE,,"hawd|Bari,Mudug,Nugaal,Sanaag,Sool|",24
+Deyr 2019/20,Hawd Pastoral NW,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Deyr 2019/20,NW Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Deyr 2019/20,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Deyr 2019/20,North Gedo pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Deyr 2019/20,Northern Inland Pastoral NE,,"northern inland|Bari,Mudug,Nugaal,Sanaag,Sool|",14
+Deyr 2019/20,Northern Inland Pastoral NW,,"northern inland|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",7
+Deyr 2019/20,Shabelle Agro pastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Deyr 2019/20,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Deyr 2019/20,West Golis Pastoral,,west golis||,36
+Gu 2020,Addun Pastoral,,addun||,23
+Gu 2020,Bay Agropastoral,,bay|sorghum high|Bay|,20
+Gu 2020,Beletwein District(Riverine),,None|Hiiraan|Beledweyn,12
+Gu 2020,Coastal Deeh NE,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Gu 2020,East Golis,,east golis||,15
+Gu 2020,Guban Pastoral,,guban||,18
+Gu 2020,Hawd Pastoral NE,,"hawd|Bari,Mudug,Nugaal,Sanaag,Sool|",24
+Gu 2020,Hawd Pastoral NW,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Gu 2020,NW Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Gu 2020,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Gu 2020,North Gedo pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Gu 2020,Northern Inland Pastoral NE,,"northern inland|Bari,Mudug,Nugaal,Sanaag,Sool|",14
+Gu 2020,Northern Inland Pastoral NW,,"northern inland|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",7
+Gu 2020,Shabelle Agropastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2020,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2020,West Golis,,west golis||,36
+Deyr 2020/21,Addun Pastoral,,addun||,23
+Deyr 2020/21,Bakool district (ACF_Nov 2020,,pastoral|Bakool|,32
+Deyr 2020/21,Bay Agropastoral,,bay|sorghum high|Bay|,20
+Deyr 2020/21,Coastal Deeh Pastoral of Northeast,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Deyr 2020/21,East Golis Pastoral,,east golis||,15
+Deyr 2020/21,Guban Pastoral,,guban||,18
+Deyr 2020/21,Hawd Pastoral of Central,,"hawd|Galgaduud,Mudug|",21
+Deyr 2020/21,Hawd Pastoral of Northwest,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Deyr 2020/21,North Gedo Pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Deyr 2020/21,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Deyr 2020/21,Northern Inland Pastoral of Northeas,,northern inland||,14
+Deyr 2020/21,Northern Inland Pastoral of Northwes,,northern inland||,14
+Deyr 2020/21,Northwest Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Deyr 2020/21,Shabelle Agropastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Deyr 2020/21,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Deyr 2020/21,West Golis Pastoral,,west golis||,36
+Gu 2021,Addun Pastoral,,addun||,23
+Gu 2021,Bay Agropastoral,,bay|sorghum high|Bay|,20
+Gu 2021,Coastal Deeh Pastoral of Northeast,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Gu 2021,East Golis Pastoral,,east golis||,15
+Gu 2021,Guban Pastoral,,guban||,18
+Gu 2021,Hawd Pastoral of Central,,"hawd|Galgaduud,Mudug|",21
+Gu 2021,Hawd Pastoral of Northwest,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Gu 2021,North Gedo Pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Gu 2021,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Gu 2021,Northern Inland Pastoral of Northeas,,northern inland||,14
+Gu 2021,Northern Inland Pastoral of Northwes,,northern inland||,14
+Gu 2021,Northwest Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Gu 2021,Shabelle Agropastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2021,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2021,West Golis Pastoral,,west golis||,36
+Deyr 2021/22,Addun Pastoral,,addun||,23
+Deyr 2021/22,Bay Agropastoral,,bay|sorghum high|Bay|,20
+Deyr 2021/22,Beletweyne District (Riverine& AP),,None|Hiiraan|Beledweyn,12
+Deyr 2021/22,Coastal Deeh Pastoral of Northeast,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Deyr 2021/22,East Golis Pastoral,,east golis||,15
+Deyr 2021/22,Guban Pastoral,,guban||,18
+Deyr 2021/22,Hawd Pastoral of Central,,"hawd|Galgaduud,Mudug|",21
+Deyr 2021/22,Hawd Pastoral of Northwest,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Deyr 2021/22,Median,,,0
+Deyr 2021/22,North Gedo Pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Deyr 2021/22,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Deyr 2021/22,Northern Inland Pastoral of Northeas,,northern inland||,14
+Deyr 2021/22,Northern Inland Pastoral of Northwes,,northern inland||,14
+Deyr 2021/22,Northwest Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Deyr 2021/22,Shabelle Agropastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Deyr 2021/22,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Deyr 2021/22,West Golis Pastoral,,west golis||,36
+Gu 2022,Addun Pastoral**April/May Survey**,,addun||,23
+Gu 2022,Bay Agro Pastoral -Baidoa & Burhakab,,bay|sorghum high|Bay|,20
+Gu 2022,Bay Agro Pastoral -Qansah Dhere & Di,,bay|sorghum high|Bay|,20
+Gu 2022,Beletweyne District (Riverine& AP)**,,None|Hiiraan|Beledweyn,12
+Gu 2022,Coastal Deeh Pastoral of Northeast,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Gu 2022,East Golis Pastoral,,east golis||,15
+Gu 2022,Hawd Pastoral of Central**April/May,,"hawd|Galgaduud,Mudug|",21
+Gu 2022,Median,,,0
+Gu 2022,North Gedo Pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Gu 2022,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Gu 2022,Northern Inland Pastoral of Northeas,,northern inland||,14
+Gu 2022,Shabelle Agropastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2022,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Deyr 2022/23,Addun Pastoral,,addun||,23
+Deyr 2022/23,Baidoa & Burhakaba Agropastoral,,,0
+Deyr 2022/23,Bay Agro Pastoral -Qansah Dhere & Di,,bay|sorghum high|Bay|,20
+Deyr 2022/23,Beletweyne District (Riverine& AP),,None|Hiiraan|Beledweyn,12
+Deyr 2022/23,Coastal Deeh Pastoral of Northeast,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Deyr 2022/23,East Golis Pastoral,,east golis||,15
+Deyr 2022/23,Hawd Pastoral of Central* October su,,"hawd|Galgaduud,Mudug|",21
+Deyr 2022/23,Hawd Pastoral-NW Odweyne District(SC,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Deyr 2022/23,North Gedo Pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Deyr 2022/23,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Deyr 2022/23,Northern Inland Pastoral of Northeas,,northern inland||,14
+Deyr 2022/23,Sorghum High potential-Middle Shabel,,bay|sorghum high|Bay|,20
+Gu 2023,Addun Pastoral,,addun||,23
+Gu 2023,Bay Agro Pastoral Lz,,bay|sorghum high|Bay|,20
+Gu 2023,Beletweyne Rural (Riverine & AP),,None|Hiiraan|Beledweyn,12
+Gu 2023,Coastal Deeh Pastoral of NE,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Gu 2023,East Golis Pastoral,,east golis||,15
+Gu 2023,Guban Pastoral,,guban||,18
+Gu 2023,Hawd Pastoral of Central,,"hawd|Galgaduud,Mudug|",21
+Gu 2023,Hawd Pastoral of Northwest,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Gu 2023,North Gedo Pastoral (SIP),SIP,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Gu 2023,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Gu 2023,Northern Inland Pastoral of NE,,"northern inland|Bari,Mudug,Nugaal,Sanaag,Sool|",14
+Gu 2023,Northern Inland Pastoral of NW,,"northern inland|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",7
+Gu 2023,Northwest Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Gu 2023,Shabelle Agropastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2023,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2023,West Golis Pastoral,,west golis||,36
+Deyr 2023/24,Addun Pastoral,,addun||,23
+Deyr 2023/24,Bay Agro Pastoral Lz,,bay|sorghum high|Bay|,20
+Deyr 2023/24,Beletweyne District (Riverine& AP),,None|Hiiraan|Beledweyn,12
+Deyr 2023/24,Coastal Deeh Pastoral of Northeast,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Deyr 2023/24,East Golis Pastoral,,east golis||,15
+Deyr 2023/24,Ergavo District _CARE,,,0
+Deyr 2023/24,Guban Pastoral,,guban||,18
+Deyr 2023/24,Hawd Pastoral of Central,,"hawd|Galgaduud,Mudug|",21
+Deyr 2023/24,Hawd Pastoral of Northwest,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Deyr 2023/24,Juba SIP pastoral- Dhobely district,,"pastoral|Lower Juba,Middle Juba|",71
+Deyr 2023/24,Median,,,0
+Deyr 2023/24,North Gedo Pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Deyr 2023/24,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Deyr 2023/24,Northern Inland Pastoral of Northeas,,northern inland||,14
+Deyr 2023/24,Northern Inland Pastoral of Northwes,,northern inland||,14
+Deyr 2023/24,Northwest Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Deyr 2023/24,Shabelle Agropastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Deyr 2023/24,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Deyr 2023/24,Southern inland pastoral ( Elberde D,,,0
+Deyr 2023/24,West Golis Pastoral,,west golis||,36
+Gu 2024,Addun Pastoral,,addun||,23
+Gu 2024,Bay Agro Pastoral Lz,,bay|sorghum high|Bay|,20
+Gu 2024,Beletweyne District (Riverine& AP),,None|Hiiraan|Beledweyn,12
+Gu 2024,Coastal Deeh Pastoral of Northeast,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Gu 2024,East Golis Pastoral,,east golis||,15
+Gu 2024,Guban Pastoral,,guban||,18
+Gu 2024,Hawd Pastoral of Central,,"hawd|Galgaduud,Mudug|",21
+Gu 2024,Hawd Pastoral of Northwest,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Gu 2024,North Gedo Pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Gu 2024,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Gu 2024,Northern Inland Pastoral of Northeas,,northern inland||,14
+Gu 2024,Northern Inland Pastoral of Northwes,,northern inland||,14
+Gu 2024,Northwest Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Gu 2024,Shabelle Agropastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2024,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2024,West Golis Pastoral,,west golis||,36
+Deyr 2024/25,Addun Pastoral,,addun||,23
+Deyr 2024/25,Bay Agro Pastoral Lz,,bay|sorghum high|Bay|,20
+Deyr 2024/25,Beletweyne District (Riverine& AP),,None|Hiiraan|Beledweyn,12
+Deyr 2024/25,Coastal Deeh Pastoral of Northeast,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Deyr 2024/25,East Golis Pastoral,,east golis||,15
+Deyr 2024/25,Guban Pastoral,,guban||,18
+Deyr 2024/25,Hawd Pastoral of Central,,"hawd|Galgaduud,Mudug|",21
+Deyr 2024/25,Hawd Pastoral of Northwest,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Deyr 2024/25,Matabaan District,,,0
+Deyr 2024/25,Medium,,,0
+Deyr 2024/25,North Gedo Pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Deyr 2024/25,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Deyr 2024/25,Northern Inland Pastoral of Northeast,,"northern inland|Bari,Mudug,Nugaal,Sanaag,Sool|",14
+Deyr 2024/25,Northern Inland Pastoral of Northwest,,"northern inland|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",7
+Deyr 2024/25,Northwest Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Deyr 2024/25,Shabelle Agropastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Deyr 2024/25,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Deyr 2024/25,West Golis Pastoral,,west golis||,36
+Gu 2025,Addun Pastoral,,addun||,23
+Gu 2025,Bay Agro Pastoral Lz,,bay|sorghum high|Bay|,20
+Gu 2025,Beletweyne District (Riverine& AP),,None|Hiiraan|Beledweyn,12
+Gu 2025,Coastal Deeh Pastoral of Northeast,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Gu 2025,East Golis Pastoral,,east golis||,15
+Gu 2025,Guban Pastoral,,guban||,18
+Gu 2025,Hawd Pastoral of Central,,"hawd|Galgaduud,Mudug|",21
+Gu 2025,Hawd Pastoral of Northwest,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Gu 2025,Medium,,,0
+Gu 2025,North Gedo Pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Gu 2025,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Gu 2025,Northern Inland Pastoral of Northeast,,"northern inland|Bari,Mudug,Nugaal,Sanaag,Sool|",14
+Gu 2025,Northern Inland Pastoral of Northwest,,"northern inland|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",7
+Gu 2025,Northwest Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Gu 2025,Shabelle Agropastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Gu 2025,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Gu 2025,West Golis Pastoral,,west golis||,36
+Deyr 2025/26,Addun Pastoral,,addun||,23
+Deyr 2025/26,Bay Agro Pastoral Lz,,bay|sorghum high|Bay|,20
+Deyr 2025/26,Beletweyne District (Riverine& AP),,None|Hiiraan|Beledweyn,12
+Deyr 2025/26,Coastal Deeh Pastoral of Northeast,,"coastal deeh|Bari,Mudug,Nugaal,Sanaag,Sool|",21
+Deyr 2025/26,East Golis Pastoral,,east golis||,15
+Deyr 2025/26,Guban Pastoral,,guban||,18
+Deyr 2025/26,Hawd Pastoral of Central,,"hawd|Galgaduud,Mudug|",21
+Deyr 2025/26,Hawd Pastoral of Northwest,,"hawd|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",20
+Deyr 2025/26,Matabaan District,,,0
+Deyr 2025/26,Medium,,,0
+Deyr 2025/26,North Gedo Pastoral,,"pastoral|Gedo|Belet Xaawo,Doolow,Luuq",14
+Deyr 2025/26,North Gedo Riverine,,"riverine|pump|gravity|irrigat|Gedo|Belet Xaawo,Doolow,Luuq",6
+Deyr 2025/26,Northern Inland Pastoral of NW & NE,,"northern inland|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",7
+Deyr 2025/26,Northwest Agropastoral,,"north.?west(ern)? ?agro|north-west agro|Awdal,Sanaag,Sool,Togdheer,Woqooyi Galbeed|",14
+Deyr 2025/26,Shabelle Agropastoral,,"agro|Lower Shabelle,Middle Shabelle|",57
+Deyr 2025/26,Shabelle Riverine,,"riverine|pump|gravity|irrigat|Lower Shabelle,Middle Shabelle|",38
+Deyr 2025/26,West Golis Pastoral,,west golis||,36
