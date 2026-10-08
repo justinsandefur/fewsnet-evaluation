@@ -859,6 +859,70 @@ def phase_outcomes():
         N[f"calGam{t}"] = f"{100 * (gm['2'] - gm['1']):.1f}"
 
 
+# ------------------------------------------------------------------ within countries (61-63)
+def subnational():
+    """Does aid follow FEWS NET within Somalia and Sudan, and do its aid flags mark where aid went?"""
+    R = pd.read_csv(TAB / "subnational_models.csv")
+    K = json.loads((TAB / "subnational_key.json").read_text())
+    def g(iso, block, spec, y, v):
+        x = R[(R.iso == iso) & (R.block == block) & (R.spec == spec) & (R.outcome == y) & (R["var"] == v)].iloc[0]
+        return x
+    def star(c, se):
+        t = abs(c / se) if se > 0 else 0
+        return "***" if t > 2.576 else "**" if t > 1.96 else "*" if t > 1.645 else ""
+    rows = [("Pooled-fund aid (asinh US\\$)", "A", "static", "aid", "fc3", "Forecast share in Crisis+"),
+            ("", "A", "dynamic", "aid", "fc3", "\\quad with lagged aid"),
+            ("", "A", "Anderson-Hsiao", "d_aid", "d_fc3", "\\quad first differences, lag instrumented"),
+            ("", "A", "distinctive", "aid", "b_fc3", "Predictable part of forecast"),
+            ("", "A", "distinctive", "aid", "c_fc3", "FEWS NET's distinctive information"),
+            ("", "A", "placebo: next round's forecast", "aid", "fc3_f1", "Placebo: next round's forecast"),
+            ("Any pooled-fund aid", "A", "static", "aid_any", "fc3", "Forecast share in Crisis+"),
+            ("Food and nutrition partners present", "A", "static", "pres", "fc3", "Forecast share in Crisis+"),
+            ("People reached (asinh, annual)", "A2", "district and year effects", "reach", "fc3", "Forecast share in Crisis+"),
+            ("Aid flag share", "B", "contemporaneous", "flag", "aid", "Pooled-fund aid (asinh)"),
+            ("", "B", "contemporaneous", "flag (3W presence)", "pres", "Partners present"),
+            ("", "B2", "district and year effects", "flag", "reach", "People reached (asinh, annual)"),
+            ("", "B", "lags and lead", "flag", "aid_f1", "Placebo: next period's aid")]
+    lines = ["\\begin{tabular}{llcc}", "\\toprule", "Outcome & Regressor & Somalia & Sudan \\\\", "\\midrule"]
+    for out_lab, block, spec, y, v, lab in rows:
+        cells, ses = [], []
+        for iso in ["SOM", "SDN"]:
+            try:
+                x = g(iso, block, spec, y, v)
+                cells.append(f"{x.coef:.3f}{star(x.coef, x.se)}"); ses.append(f"({x.se:.3f})")
+            except IndexError:
+                cells.append("--"); ses.append("")
+        lines.append(f"{out_lab} & {lab} & " + " & ".join(cells) + " \\\\")
+        lines.append(" & & " + " & ".join(ses) + " \\\\")
+    lines += ["\\midrule", f"Districts & & {K['SOM']['districts']} & {K['SDN']['districts']} \\\\",
+              f"FEWS NET periods & & {K['SOM']['periods']} & {K['SDN']['periods']} \\\\", "\\bottomrule", "\\end{tabular}"]
+    (OUT / "tables" / "subnational.tex").write_text("\n".join(lines) + "\n")
+    for iso, t in [("SOM", "So"), ("SDN", "Sd")]:
+        k = K[iso]
+        N[f"sub{t}Districts"], N[f"sub{t}Periods"] = str(k["districts"]), str(k["periods"])
+        N[f"sub{t}AidShare"] = pct(k["share_with_aid"])
+        for nm, (b, sp, y, v) in {"Fc": ("A", "static", "aid", "fc3"), "Any": ("A", "static", "aid_any", "fc3"),
+                                  "Base": ("A", "distinctive", "aid", "b_fc3"), "Contrib": ("A", "distinctive", "aid", "c_fc3"),
+                                  "Plac": ("A", "placebo: next round's forecast", "aid", "fc3_f1"),
+                                  "Pres": ("A", "static", "pres", "fc3"), "Reach": ("A2", "district and year effects", "reach", "fc3"),
+                                  "FlagPres": ("B", "contemporaneous", "flag (3W presence)", "pres"),
+                                  "FlagAid": ("B", "contemporaneous", "flag", "aid"),
+                                  "FlagReach": ("B2", "district and year effects", "flag", "reach"),
+                                  "FlagReachPc": ("B2", "district and year effects", "flag", "reach_pc"),
+                                  "FlagPersist": ("B", "next round", "flag_next", "flag")}.items():
+            x = g(iso, b, sp, y, v)
+            d = 3 if nm.startswith("Flag") and nm != "FlagPersist" else 2
+            N[f"sub{t}{nm}"], N[f"sub{t}{nm}Se"] = sg(x.coef, d), f"{x.se:.{d}f}"
+        N[f"sub{t}AnyPct"] = sg(100 * g(iso, "A", "static", "aid_any", "fc3").coef)
+        c = R[(R.iso == iso) & (R.block == "C") & (R.spec == "2SLS") & (R.outcome == "phase_next") & (R["var"] == "aid")].iloc[0]
+        N[f"sub{t}IvF"] = f"{c.first_stage_F:.0f}"
+    A = pd.read_parquet(INP / "panel/subnational_SOM_annual.parquet")
+    pc = ((A.reach_fs + A.reach_nut) / A["pop"].where(A["pop"] > 0))
+    pc = pc.clip(upper=pc.quantile(0.99))
+    N["subSoFlagReachSd"] = pct(float(g("SOM", "B2", "district and year effects", "flag", "reach_pc").coef) * pc.std())
+    N["subSoFlagMean"] = pct(A.flag.mean())
+
+
 # ------------------------------------------------------------------ which pieces are worth paying for
 def pieces():
     """Pilot on FEWS NET's reports (53_text_value.py) and the value of price data (55_price_value.py)."""
@@ -961,6 +1025,7 @@ if __name__ == "__main__":
     hetero()
     budget_and_cg()
     pieces()
+    subnational()
     phase_outcomes()
     fig_information()
     fig_fsnau()
