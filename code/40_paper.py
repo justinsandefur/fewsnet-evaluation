@@ -1139,8 +1139,12 @@ def fig_foodsec():
         mm = x0.assign(ph=x0.phase.round().clip(1, 4)).groupby("ph").value.agg(["mean", "std", "size"])
         ax.errorbar(mm.index, mm["mean"], yerr=1.96 * mm["std"] / np.sqrt(mm["size"]), fmt="D", color="#222222", ms=6,
                     lw=1.4, zorder=4, label="Mean, all (95% interval)")
-        ax.axhline(20, color="#666666", lw=1, ls="--", zorder=1,
-                   label="20% of households: the IPC's reference share for an area in Phase 3")
+        # IPC 20% rule: an area is in Phase 3 or worse when at least 20% of households are; these indicators
+        # mark households in Phase 3 or worse, so Phases 1-2 imply < 20% and Phases 3+ imply >= 20%
+        for ph, (lo, hi) in {1: (0, 20), 2: (0, 20), 3: (20, 100), 4: (20, 100)}.items():
+            ax.add_patch(plt.Rectangle((ph - 0.45, lo), 0.9, hi - lo, color="#ececec", lw=0, zorder=0))
+        ax.add_patch(plt.Rectangle((0, 0), 0, 0, color="#ececec", lw=0,
+                                   label="Range consistent with the phase under the IPC's 20% rule"))
         ax.set_xticks(range(1, 5))
         ax.set_xticklabels(["1\nMinimal", "2\nStressed", "3\nCrisis", "4 or 5\nEmergency+"], fontsize=8)
         ax.set_xlim(0.5, 4.5); ax.set_ylim(0, 100)
@@ -1159,6 +1163,9 @@ def fig_foodsec():
         wa = x0.assign(v=x0.value - x0.groupby("area_id").value.transform("mean"), p=x0.phase - x0.groupby("area_id").phase.transform("mean"))
         N[f"fs{t}CorrArea"] = f"{wa.v.corr(wa.p):.2f}"
         N[f"fs{t}SdOne"] = f"{x0[x0.phase.round().clip(1, 4) == 1].value.std():.0f}"
+        ph = x0.phase.round().clip(1, 4)
+        N[f"fs{t}LowOver"] = pct((x0.value[ph <= 2] >= 20).mean())      # Phase 1-2 areas above the 20% line
+        N[f"fs{t}HighUnder"] = pct((x0.value[ph >= 3] < 20).mean())     # Phase 3+ areas below it
     N["fsFoodCountries"] = str(d.iso3.nunique())
     N["fsFoodAreas"] = f"{d.area_id.nunique():,}"
     # the Cadre Harmonise's own input indicators against its own phase (not independent)
