@@ -580,5 +580,8 @@
  "voiSeasons": "26",
  "voiSamShare": "16",
  "voiRangeLo": "1,200",
- "voiRangeHi": "2,200"
+ "voiRangeHi": "2,200",
+ "wzSlopeFig": "0.5",
+ "amnAnyN": "1,427",
+ "amnAnyDiag": "35"
 }

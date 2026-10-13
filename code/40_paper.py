@@ -965,6 +965,144 @@ def fig_voi():
     N["voiRangeLo"], N["voiRangeHi"] = r2(min(cpd)), r2(max(cpd))
 
 
+# ------------------------------------------------------------------ what a phase means: single-panel figures
+C1, C2, C3 = "#2a78d6", "#eb6834", "#1baf7a"      # validated categorical slots 1-3 (dataviz reference palette)
+IPC_GAM = {1: (0, 5), 2: (5, 10), 3: (10, 15), 4: (15, 30), 5: (30, 45)}
+IPC_CDR = {1: (0, 0.5), 2: (0, 0.5), 3: (0.5, 1.0), 4: (1.0, 2.0), 5: (2.0, 3.0)}
+
+
+def _survey_points():
+    """Survey results with FEWS NET's map phase for the area at the time of the survey."""
+    a = pd.read_csv(TAB / "fsnau_value_panel.csv")
+    a = a.assign(phase=a.after.fillna(a.cur), group="Somalia, scheduled rounds (FSNAU)")[["phase", "gam", "cdr", "group"]]
+    b = pd.read_csv(TAB / "phase_outcomes_surveys.csv").dropna(subset=["cur"])
+    b["group"] = np.where(b.recurring, "Other recurring rounds (Nigeria, Burkina Faso, Mauritania)", "Ad hoc surveys (SMART+)")
+    b = b.rename(columns={"cur": "phase"})[["phase", "gam", "cdr", "group"]]
+    return pd.concat([a, b], ignore_index=True)
+
+
+def _bands(ax, bands, xmax=5.45):
+    for ph, (lo, hi) in bands.items():
+        ax.add_patch(plt.Rectangle((ph - 0.45, lo), 0.9, hi - lo, color="#ececec", lw=0, zorder=0))
+    ax.add_patch(plt.Rectangle((0, 0), 0, 0, color="#ececec", lw=0, label="IPC reference band for the phase"))
+
+
+def _strip(ax, d, y, bands, ylabel, ylim):
+    groups = ["Somalia, scheduled rounds (FSNAU)", "Other recurring rounds (Nigeria, Burkina Faso, Mauritania)",
+              "Ad hoc surveys (SMART+)"]
+    cols, mks = dict(zip(groups, [C1, C2, C3])), dict(zip(groups, ["o", "s", "^"]))
+    rng = np.random.default_rng(3)
+    _bands(ax, bands)
+    d = d.dropna(subset=[y, "phase"])
+    for i, g in enumerate(groups):
+        x = d[d.group == g]
+        off = (i - 1) * 0.22
+        ax.scatter(x.phase.round().clip(1, 5) + off + rng.uniform(-0.08, 0.08, len(x)), x[y], s=10, alpha=0.55,
+                   color=cols[g], marker=mks[g], linewidths=0, label=f"{g} (n={len(x)})", zorder=2)
+    m = d.assign(ph=d.phase.round().clip(1, 5)).groupby("ph")[y].agg(["mean", "std", "size"])
+    m = m[m["size"] >= 5]
+    ax.errorbar(m.index, m["mean"], yerr=1.96 * m["std"] / np.sqrt(m["size"]), fmt="D", color="#222222", ms=6,
+                lw=1.4, zorder=4, label="Mean, all surveys (95% interval)")
+    ax.set_xticks(range(1, 6))
+    ax.set_xticklabels(["1\nMinimal", "2\nStressed", "3\nCrisis", "4\nEmergency", "5\nFamine"], fontsize=8)
+    ax.set_xlim(0.5, 5.5); ax.set_ylim(*ylim)
+    ax.set_xlabel("FEWS NET's phase for the area at the time of the survey")
+    ax.set_ylabel(ylabel)
+    ax.grid(axis="y", color="#e6e6e6", lw=0.6); ax.set_axisbelow(True)
+    ax.legend(fontsize=7, loc="upper left", frameon=False)
+
+
+def fig_phase_singles():
+    d = _survey_points()
+    fig, ax = plt.subplots(figsize=(6.6, 4.2))
+    _strip(ax, d, "gam", IPC_GAM, "Acute malnutrition, children under five (%)", (0, 45))
+    fig.savefig(FIG / "fig9a_phase_gam.pdf"); plt.close(fig)
+    fig, ax = plt.subplots(figsize=(6.6, 4.2))
+    _strip(ax, d, "cdr", IPC_CDR, "Crude death rate (deaths per 10,000 people per day)", (0, 3))
+    fig.savefig(FIG / "fig9b_phase_cdr.pdf"); plt.close(fig)
+    # within zones (Somalia): residual phase vs residual malnutrition, binned
+    a = pd.read_csv(TAB / "fsnau_value_panel.csv").dropna(subset=["fc", "gam"])
+    w = a[["gam", "fc"]].copy()
+    for _ in range(50):
+        for f in ["key", "t"]:
+            w = w - w.groupby(a[f]).transform("mean")
+    w["bin"] = pd.qcut(w.fc.rank(method="first"), 15, labels=False)
+    b = w.groupby("bin").agg(x=("fc", "mean"), y=("gam", "mean"), n=("gam", "size"))
+    fig, ax = plt.subplots(figsize=(6.0, 4.0))
+    ax.scatter(w.fc, w.gam, s=7, color=C1, alpha=0.18, linewidths=0, label="Zone-seasons")
+    ax.scatter(b.x, b.y, s=34, color=C1, zorder=3, label="Averages within 15 bins")
+    slope = (w.fc @ w.gam) / (w.fc @ w.fc)
+    xs = np.linspace(w.fc.quantile(0.01), w.fc.quantile(0.99), 20)
+    ax.plot(xs, slope * xs, color=C1, lw=2, label=f"Fitted: {slope:.1f} points per phase")
+    ax.plot(xs, 7.5 * xs, color=C2, lw=2, ls="--", label="IPC bands: about 7.5 points per phase")
+    ax.axhline(0, color=GREY, lw=0.7); ax.axvline(0, color=GREY, lw=0.7)
+    ax.set_xlabel("FEWS NET's forecast phase, relative to the zone's usual level and the season")
+    ax.set_ylabel("Acute malnutrition, relative to the zone's\nusual level and the season (points)")
+    ax.set_ylim(-12, 14)
+    ax.legend(fontsize=7.5, loc="upper left", frameon=False)
+    ax.grid(axis="y", color="#e6e6e6", lw=0.6); ax.set_axisbelow(True)
+    fig.savefig(FIG / "fig9c_within_zone.pdf"); plt.close(fig)
+    N["wzSlopeFig"] = f"{slope:.1f}"
+    # persistence: this round vs the previous round (Somalia)
+    fig, ax = plt.subplots(figsize=(5.0, 4.4))
+    ax.scatter(a.gam_lag, a.gam, s=11, color=C1, alpha=0.5, linewidths=0)
+    lim = [0, max(a.gam.max(), a.gam_lag.max()) + 2]
+    ax.plot(lim, lim, color=GREY, lw=0.8, ls="--")
+    bb = np.polyfit(a.gam_lag, a.gam, 1)
+    ax.plot(lim, np.polyval(bb, lim), color=C1, lw=1.8)
+    ax.text(lim[1] * 0.97, np.polyval(bb, lim[1] * 0.97) - 2.5, f"fit: slope {bb[0]:.2f}", ha="right", fontsize=7.5, color="#333333")
+    ax.text(lim[1] * 0.97, lim[1] * 0.97 + 0.8, "equal", ha="right", fontsize=7.5, color="#666666")
+    ax.set_xlim(lim); ax.set_ylim(lim)
+    ax.set_xlabel("Acute malnutrition in the previous round, six months earlier (%)")
+    ax.set_ylabel("Acute malnutrition this round (%)")
+    ax.grid(color="#e6e6e6", lw=0.6); ax.set_axisbelow(True)
+    fig.savefig(FIG / "fig9d_persistence.pdf"); plt.close(fig)
+    # the IPC's two scales for the same areas
+    c = pd.read_csv(TAB / "phase_outcomes_amn.csv")
+    c = c[(c.comparison == "AMN any") & (c.row == "crosstab")]
+    order = ["1", "2", "3", "4+"]
+    M = c.pivot_table(index="afi_bin", columns="amn_bin", values="n", aggfunc="sum").reindex(index=order, columns=order).fillna(0)
+    Sh = M.div(M.sum(axis=1), axis=0)
+    fig, ax = plt.subplots(figsize=(5.2, 4.2))
+    im = ax.imshow(Sh.values, cmap=matplotlib.colors.LinearSegmentedColormap.from_list("b", ["#f4f8fd", "#1c5cab"]),
+                   vmin=0, vmax=1, origin="lower")
+    for i in range(len(order)):
+        for j in range(len(order)):
+            v, n = Sh.values[i, j], int(M.values[i, j])
+            if M.values[i].sum() == 0:
+                continue
+            ax.text(j, i, f"{100 * v:.0f}%\n({n})", ha="center", va="center", fontsize=7.5,
+                    color="white" if v > 0.5 else "#222222")
+    for k in range(len(order)):
+        ax.add_patch(plt.Rectangle((k - 0.5, k - 0.5), 1, 1, fill=False, ec="#222222", lw=1.4))
+    ax.set_xticks(range(4), ["1", "2", "3", "4 or 5"]); ax.set_yticks(range(4), ["1", "2", "3", "4 or 5"])
+    ax.set_xlabel("IPC acute malnutrition phase")
+    ax.set_ylabel("IPC acute food insecurity phase")
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    cb = fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
+    cb.set_label("Share of areas in the row", fontsize=8)
+    fig.savefig(FIG / "fig9e_afi_amn.pdf"); plt.close(fig)
+    N["amnAnyN"] = f"{int(M.values.sum()):,}"
+    N["amnAnyDiag"] = pct(np.trace(M.values) / M.values.sum())
+    # excess deaths in documented crises vs the IPC bands
+    e = pd.read_csv(ROOT / "references" / "excess_deaths.csv")
+    days = e.months * 30.4
+    e["lo"], e["hi"] = e.deaths_lo / (e.p3_hi * days) * 1e4, e.deaths_hi / (e.p3_lo * days) * 1e4
+    fig, ax = plt.subplots(figsize=(6.4, 3.0))
+    ax.axvspan(0.2, 0.8, color="#ececec", lw=0, zorder=0)
+    ax.text(0.5, len(e) - 0.35, "IPC Crisis band,\nless a normal baseline", ha="center", fontsize=7, color="#555555", va="bottom")
+    for i, r in enumerate(e.itertuples()):
+        ax.plot([r.lo, r.hi], [i, i], color=C1, lw=3, solid_capstyle="round")
+        ax.scatter([(r.lo + r.hi) / 2], [i], color=C1, s=30, zorder=3)
+    ax.set_yticks(range(len(e)), e.label, fontsize=8)
+    ax.set_ylim(-0.6, len(e) + 0.3)
+    ax.set_xlabel("Excess deaths per 10,000 people in Crisis or worse, per day")
+    ax.grid(axis="x", color="#e6e6e6", lw=0.6); ax.set_axisbelow(True)
+    ax.spines["left"].set_visible(False); ax.tick_params(axis="y", length=0)
+    fig.savefig(FIG / "fig9f_excess_deaths.pdf"); plt.close(fig)
+
+
 # ------------------------------------------------------------------ which pieces are worth paying for
 def pieces():
     """Pilot on FEWS NET's reports (53_text_value.py) and the value of price data (55_price_value.py)."""
@@ -1072,4 +1210,5 @@ if __name__ == "__main__":
     fig_information()
     fig_fsnau()
     fig_voi()
+    fig_phase_singles()
     write_numbers()

@@ -1,0 +1,5 @@
+crisis,label,months,deaths_lo,deaths_hi,p3_lo,p3_hi,response,source
+som2017,"Somalia 2017-18 drought",24,44700,44700,3100000,3200000,with response,warsame2023
+som2022,"Somalia 2022 drought",12,36200,43000,5600000,6700000,with response,lshtm2023somalia
+nga2016,"Northeast Nigeria 2016-19 (conflict)",45,490900,490900,4100000,4100000,mixed,checchi2023nigeria
+som2011,"Somalia 2010-12 famine",19,258000,258000,2400000,4000000,late response,checchi2013
