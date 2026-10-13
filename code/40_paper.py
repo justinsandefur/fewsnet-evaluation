@@ -1103,6 +1103,72 @@ def fig_phase_singles():
     fig.savefig(FIG / "fig9f_excess_deaths.pdf"); plt.close(fig)
 
 
+def _foodsec():
+    """Independent WFP food security indicators matched to FEWS NET's map phase (66_foodsec_surveys.py).
+    Survey rounds (WFP's compilation; mVAM files where the compilation has no value for the area-month) and
+    WFP's monthly phone monitoring, averaged to area-years so that repeated months do not dominate."""
+    m = pd.read_parquet(INP / "foodsec_surveys/matched.parquet")
+    m = m[m.independent_of_ipc & m.indicator.isin(["fcs_poor_borderline", "rcsi_19plus"]) & m.fews_cs.notna()].copy()
+    m["key"] = m.area_id.astype(str) + "|" + m.month.astype(str) + "|" + m.indicator
+    lit = set(m[m.source == "wfp_lit"].key)
+    m = m[~((m.source == "mvam_hdx") & m.key.isin(lit))]
+    rounds = m[m.source.isin(["wfp_lit", "mvam_hdx"])].assign(group="WFP survey rounds")
+    rt = m[m.source == "wfp_rt"].groupby(["area_id", "iso3", "year", "indicator"]).agg(
+        value=("value", "mean"), fews_cs=("fews_cs", "mean")).reset_index().assign(group="WFP phone monitoring (area-years)")
+    d = pd.concat([rounds[["area_id", "iso3", "indicator", "value", "fews_cs", "group"]],
+                   rt[["area_id", "iso3", "indicator", "value", "fews_cs", "group"]]], ignore_index=True)
+    d["phase"] = d.fews_cs
+    if d.value.max() <= 1.5:
+        d["value"] = 100 * d.value
+    return d, m
+
+
+def fig_foodsec():
+    d, m = _foodsec()
+    groups = ["WFP survey rounds", "WFP phone monitoring (area-years)"]
+    cols, mks = dict(zip(groups, [C1, C2])), dict(zip(groups, ["o", "s"]))
+    for ind, fname, ylab in [("fcs_poor_borderline", "fig9g_phase_fcs.pdf", "Households with poor or borderline\nfood consumption (%)"),
+                             ("rcsi_19plus", "fig9h_phase_rcsi.pdf", "Households using severe\ncoping strategies (%)")]:
+        x0 = d[d.indicator == ind].dropna(subset=["value", "phase"])
+        fig, ax = plt.subplots(figsize=(6.6, 4.2))
+        rng = np.random.default_rng(5)
+        for i, g in enumerate(groups):
+            x = x0[x0.group == g]
+            ax.scatter(x.phase.round().clip(1, 4) + (i - 0.5) * 0.24 + rng.uniform(-0.09, 0.09, len(x)), x.value,
+                       s=7, alpha=0.35, color=cols[g], marker=mks[g], linewidths=0, label=f"{g} (n={len(x):,})", zorder=2)
+        mm = x0.assign(ph=x0.phase.round().clip(1, 4)).groupby("ph").value.agg(["mean", "std", "size"])
+        ax.errorbar(mm.index, mm["mean"], yerr=1.96 * mm["std"] / np.sqrt(mm["size"]), fmt="D", color="#222222", ms=6,
+                    lw=1.4, zorder=4, label="Mean, all (95% interval)")
+        ax.axhline(20, color="#666666", lw=1, ls="--", zorder=1,
+                   label="20% of households: the IPC's reference share for an area in Phase 3")
+        ax.set_xticks(range(1, 5))
+        ax.set_xticklabels(["1\nMinimal", "2\nStressed", "3\nCrisis", "4 or 5\nEmergency+"], fontsize=8)
+        ax.set_xlim(0.5, 4.5); ax.set_ylim(0, 100)
+        ax.set_xlabel("FEWS NET's phase for the area at the time of the survey")
+        ax.set_ylabel(ylab)
+        ax.grid(axis="y", color="#e6e6e6", lw=0.6); ax.set_axisbelow(True)
+        ax.legend(fontsize=7, loc="upper left", frameon=False)
+        fig.savefig(FIG / fname); plt.close(fig)
+        t = "Fcs" if ind.startswith("fcs") else "Rcsi"
+        for ph, tag in [(1, "One"), (2, "Two"), (3, "Three"), (4, "Four")]:
+            N[f"fs{t}{tag}"] = f"{mm.loc[ph, 'mean']:.0f}" if ph in mm.index else "--"
+        N[f"fs{t}N"] = f"{len(x0):,}"
+        N[f"fs{t}Corr"] = f"{x0.value.corr(x0.phase):.2f}"
+        wc = x0.assign(v=x0.value - x0.groupby("iso3").value.transform("mean"), p=x0.phase - x0.groupby("iso3").phase.transform("mean"))
+        N[f"fs{t}CorrCty"] = f"{wc.v.corr(wc.p):.2f}"
+        wa = x0.assign(v=x0.value - x0.groupby("area_id").value.transform("mean"), p=x0.phase - x0.groupby("area_id").phase.transform("mean"))
+        N[f"fs{t}CorrArea"] = f"{wa.v.corr(wa.p):.2f}"
+        N[f"fs{t}SdOne"] = f"{x0[x0.phase.round().clip(1, 4) == 1].value.std():.0f}"
+    N["fsFoodCountries"] = str(d.iso3.nunique())
+    N["fsFoodAreas"] = f"{d.area_id.nunique():,}"
+    # the Cadre Harmonise's own input indicators against its own phase (not independent)
+    k = json.loads((TAB / "foodsec_phase_key.json").read_text())["ch_hdx (IPC input)"]
+    for ind, t in [("fcs_poor_borderline", "Fcs"), ("hhs_3plus", "Hhs"), ("rcsi_19plus", "Rcsi"), ("lcs_crisis_plus", "Lcs")]:
+        N[f"ch{t}Corr"] = f"{k[ind]['IPC/CH phase']['corr']:.2f}"
+    N["chN"] = f"{k['fcs_poor_borderline']['IPC/CH phase']['n']:,}"
+    N["chCountries"] = str(k["fcs_poor_borderline"]["IPC/CH phase"]["countries"])
+
+
 # ------------------------------------------------------------------ which pieces are worth paying for
 def pieces():
     """Pilot on FEWS NET's reports (53_text_value.py) and the value of price data (55_price_value.py)."""
@@ -1211,4 +1277,5 @@ if __name__ == "__main__":
     fig_fsnau()
     fig_voi()
     fig_phase_singles()
+    fig_foodsec()
     write_numbers()
