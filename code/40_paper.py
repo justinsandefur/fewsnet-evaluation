@@ -923,6 +923,48 @@ def subnational():
     N["subSoFlagMean"] = pct(A.flag.mean())
 
 
+def fig_voi():
+    """If treatment followed surveys: extra deaths averted per season by Somalia's survey round."""
+    R = pd.read_csv(TAB / "survey_voi.csv")
+    R = R[~R.scaled]
+    S = R.groupby(["cover", "redeploy", "info"]).deaths.mean().unstack("info")
+    S["gain"] = S.survey - S.forecast
+    fig, ax = plt.subplots(figsize=(5.6, 3.4))
+    cols = {0.0: BLUE, 0.5: LBLUE, 1.0: ORANGE}
+    labs = {0.0: "No redeployment", 0.5: "Half of stranded supplies moved", 1.0: "All stranded supplies moved"}
+    for rd, c in cols.items():
+        x = S.xs(rd, level="redeploy")
+        ax.plot(100 * x.index, x.gain, marker="o", ms=4, lw=1.6, color=c, label=labs[rd])
+    ax.axhline(0, color=GREY, lw=0.8)
+    ax.axvline(38, color=GREY, lw=0.8, ls="--")
+    ax.text(39, ax.get_ylim()[0] + 0.05 * (ax.get_ylim()[1] - ax.get_ylim()[0]), "typical coverage (38%)",
+            fontsize=7, color="#555555", va="bottom")
+    ax.set_xlabel("Treatment budget, percent of the season's caseload")
+    ax.set_ylabel("Extra deaths averted per season\n(survey-based vs forecast-based planning)")
+    ax.legend(fontsize=7.5, loc="upper left")
+    ax.grid(axis="y", color="#e6e6e6", lw=0.6); ax.set_axisbelow(True)
+    fig.savefig(FIG / "fig10_voi.pdf")
+    plt.close(fig)
+    k = json.loads((TAB / "survey_voi_key.json").read_text())["table"]
+    for rd, t in [("0.0", "Zero"), ("0.5", "Half"), ("1.0", "Full")]:
+        x = k[f"0.38_fixed_{rd}"]
+        N[f"voiGain{t}"] = f"{x['survey_vs_forecast']:.0f}"
+        N[f"voiCost{t}"] = r2(x["cost_per_death_central"])
+        N[f"voiCostLo{t}"], N[f"voiCostHi{t}"] = r2(x["cost_per_death_low"]), r2(x["cost_per_death_high"])
+        N[f"voiOracle{t}"] = pct(x["survey_share_of_oracle_gain"])
+    x = k["0.38_fixed_0.0"]
+    N["voiBase"] = f"{x['forecast']:,.0f}"
+    N["voiPop"] = f"{x['population']:,.0f}"
+    N["voiOracleDeaths"] = f"{x['oracle']:,.0f}"
+    kk = json.loads((TAB / "survey_voi_key.json").read_text())
+    N["voiZones"], N["voiSeasons"] = f"{kk['zones_per_season']:.0f}", str(kk["seasons"])
+    N["voiSamShare"] = pct(kk["sam_share"])
+    # range over realistic budgets (20-50 percent) and redeployment assumptions
+    g = [v for kx, v in k.items() if kx.split("_")[0] in ("0.2", "0.3", "0.38", "0.5") and "fixed" in kx]
+    cpd = [v["cost_per_death_central"] for v in g if v["cost_per_death_central"]]
+    N["voiRangeLo"], N["voiRangeHi"] = r2(min(cpd)), r2(max(cpd))
+
+
 # ------------------------------------------------------------------ which pieces are worth paying for
 def pieces():
     """Pilot on FEWS NET's reports (53_text_value.py) and the value of price data (55_price_value.py)."""
@@ -1029,4 +1071,5 @@ if __name__ == "__main__":
     phase_outcomes()
     fig_information()
     fig_fsnau()
+    fig_voi()
     write_numbers()

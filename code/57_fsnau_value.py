@@ -161,9 +161,10 @@ def build():
     s["t"] = s.season_year + np.where(s.season_type == "Deyr", 0.5, 0.0)
     # one row per zone key and season (average duplicates, e.g. re-analyses)
     s = s.groupby(["key", "t"]).agg(month=("month", "first"), season=("season", "first"), gam=("gam", "mean"),
+                                    sam=("sam", "mean"),
                                     cdr=("cdr", "mean"), u5dr=("u5dr", "mean"), fnids=("fnids", "first"),
                                     name=("population_group", "first")).reset_index()
-    prev = s[["key", "t", "gam"]].rename(columns={"gam": "gam_lag"})
+    prev = s[["key", "t", "gam", "sam", "u5dr"]].rename(columns={"gam": "gam_lag", "sam": "sam_lag", "u5dr": "u5dr_lag"})
     prev["t"] = prev.t + 0.5
     s = s.merge(prev, on=["key", "t"], how="left")
     # FEWS NET forecast for the survey month, latest report issued 3-8 months before
