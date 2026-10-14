@@ -1291,6 +1291,7 @@ def famine_errors():
     # precise emergency statements for the introduction
     N["tIfailFlagShare"] = pct(float(N["tIflagged"]) / float(N["tIfailed"])) if float(N["tIfailed"]) else "0"
     N["tIIearlyMiss"] = pct(1 - float(N["tIIearlyEmergency"]) / 100)
+    N["aucRawPct"], N["aucRawFewsPct"] = f"{100 * float(N['aucRaw']):.0f}", f"{100 * float(N['aucRawFews']):.0f}"
     N["tIIearlyCrisisPlus"] = pct((float(N["tIIearlyEmergency"]) + float(N["tIIearlyCrisis"])) / 100)
     N["tIgenuine"] = pct((float(N["tIunflagged"]) + float(N["tIbetter"])) / 100)
 

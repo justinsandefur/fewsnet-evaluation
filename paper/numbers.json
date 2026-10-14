@@ -696,6 +696,8 @@
  "famRiskLeadSd": "12",
  "tIfailFlagShare": "56",
  "tIIearlyMiss": "53",
+ "aucRawPct": "79",
+ "aucRawFewsPct": "85",
  "tIIearlyCrisisPlus": "89",
  "tIgenuine": "23"
 }
