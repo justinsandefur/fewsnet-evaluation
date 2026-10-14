@@ -1,0 +1,49 @@
+block,baseline,sample,spec,term,coef,se,n,countries,q_coef,t
+accuracy (next Cadre Harmonise / IPC),raw data,all areas,forecast,c_fc3,0.3280176002765139,0.0347775919560533,21406,24,0.6428706214820613,9.431866377954318
+accuracy (next Cadre Harmonise / IPC),raw data,all areas,current map,c_cur3,0.3296059184754456,0.0376778527809149,21406,24,0.6446702942984213,8.748001654765254
+accuracy (next Cadre Harmonise / IPC),raw data,all areas,both,c_cur3,0.1995094507214658,0.0300281822163655,21406,24,0.6520970859141939,6.644073533453258
+accuracy (next Cadre Harmonise / IPC),raw data,all areas,both,c_fc3,0.2135799444723674,0.0203967242034393,21406,24,0.6520970859141939,10.471286582202875
+accuracy (next Cadre Harmonise / IPC),raw data,areas not in Crisis at last analysis,forecast,c_fc3,0.1946164574016434,0.0107665941127869,12764,21,0.4189069201080116,18.075953766150292
+accuracy (next Cadre Harmonise / IPC),raw data,areas not in Crisis at last analysis,current map,c_cur3,0.2006619909652585,0.0149952485329356,12764,21,0.4189388648684041,13.381704913027876
+accuracy (next Cadre Harmonise / IPC),raw data,areas not in Crisis at last analysis,both,c_cur3,0.1266606000543235,0.0232864319238401,12764,21,0.4392738042784812,5.439244641196023
+accuracy (next Cadre Harmonise / IPC),raw data,areas not in Crisis at last analysis,both,c_fc3,0.1309577141708838,0.0191461999410605,12764,21,0.4392738042784812,6.839880215083024
+accuracy (next Cadre Harmonise / IPC),raw data + latest Cadre Harmonise / IPC,all areas,forecast,c_fc3,0.2104837124855231,0.0168209535374355,21406,24,0.7895514585516481,12.513185534760874
+accuracy (next Cadre Harmonise / IPC),raw data + latest Cadre Harmonise / IPC,all areas,current map,c_cur3,0.2181950601095229,0.0178734188303214,21406,24,0.7937847861091802,12.207796515088935
+accuracy (next Cadre Harmonise / IPC),raw data + latest Cadre Harmonise / IPC,all areas,both,c_cur3,0.1438088138848499,0.0199214745472291,21406,24,0.7931400591672614,7.21878360680144
+accuracy (next Cadre Harmonise / IPC),raw data + latest Cadre Harmonise / IPC,all areas,both,c_fc3,0.1337752824906186,0.0171796247349107,21406,24,0.7931400591672614,7.786857079524768
+accuracy (next Cadre Harmonise / IPC),raw data + latest Cadre Harmonise / IPC,areas not in Crisis at last analysis,forecast,c_fc3,0.1422489214041322,0.0162261856403118,12764,21,0.6799723625549227,8.766627262708813
+accuracy (next Cadre Harmonise / IPC),raw data + latest Cadre Harmonise / IPC,areas not in Crisis at last analysis,current map,c_cur3,0.1650118825148268,0.013129261372666,12764,21,0.681713368718824,12.568253295525558
+accuracy (next Cadre Harmonise / IPC),raw data + latest Cadre Harmonise / IPC,areas not in Crisis at last analysis,both,c_cur3,0.1213292705791726,0.0201091159848032,12764,21,0.6801576363416347,6.033545714832163
+accuracy (next Cadre Harmonise / IPC),raw data + latest Cadre Harmonise / IPC,areas not in Crisis at last analysis,both,c_fc3,0.0820693395187626,0.0230820127409885,12764,21,0.6801576363416347,3.5555538609085646
+funding,raw data,"all funding, within country",forecast,base_fc3,0.3078371705174346,0.6715378609045494,851,28,,0.4584062767552427
+funding,raw data,"all funding, within country",forecast,contrib_fc3,1.1168401950053697,0.3905927362893164,851,28,,2.859347067268843
+funding,raw data,"all funding, within country",current map,base_cur3,0.3839416445212843,0.5480451102133629,851,28,,0.7005657697991495
+funding,raw data,"all funding, within country",current map,contrib_cur3,0.6657526912509323,0.3944889670443425,851,28,,1.687633234052141
+funding,raw data,"all funding, across countries",forecast,base_fc3,1.3406628370273357,0.3116980100222425,851,28,,4.301159436121094
+funding,raw data,"all funding, across countries",forecast,contrib_fc3,0.8050080330272347,0.3541018255983455,851,28,,2.273380069890823
+funding,raw data,"all funding, across countries",current map,base_cur3,1.3722609202335685,0.3333827338703661,851,28,,4.116172737269482
+funding,raw data,"all funding, across countries",current map,contrib_cur3,0.2438158775296169,0.3527879351225261,851,28,,0.6911117225279764
+funding,raw data,"food funding, within country",forecast,base_fc3,0.9680996846991374,1.44659539526671,850,28,,0.6692263005030844
+funding,raw data,"food funding, within country",forecast,contrib_fc3,2.8329535370598076,0.9328860986911964,850,28,,3.0367625169185533
+funding,raw data,"food funding, within country",current map,base_cur3,1.6295304199126135,1.3326277448864718,850,28,,1.2227949074041191
+funding,raw data,"food funding, within country",current map,contrib_cur3,1.5917873642156133,0.6511689103369558,850,28,,2.4445076215200787
+funding,raw data,"food funding, across countries",forecast,base_fc3,2.786373105362629,0.6387540458284923,850,28,,4.362200323519798
+funding,raw data,"food funding, across countries",forecast,contrib_fc3,1.7393246747846949,0.9453399555209476,850,28,,1.8398933258101915
+funding,raw data,"food funding, across countries",current map,base_cur3,3.0194961354613628,0.7688126464574355,850,28,,3.927479795467352
+funding,raw data,"food funding, across countries",current map,contrib_cur3,0.3052174807204264,0.83498187052443,850,28,,0.3655378535688774
+funding,raw data + latest Cadre Harmonise / IPC,"all funding, within country",forecast,base_fc3,0.6747240525242927,0.6153993504683989,851,28,,1.096400332581989
+funding,raw data + latest Cadre Harmonise / IPC,"all funding, within country",forecast,contrib_fc3,1.021521559825916,0.357556196639514,851,28,,2.8569538702633865
+funding,raw data + latest Cadre Harmonise / IPC,"all funding, within country",current map,base_cur3,0.3893609844937925,0.4841840642978537,851,28,,0.8041590238175841
+funding,raw data + latest Cadre Harmonise / IPC,"all funding, within country",current map,contrib_cur3,0.6997558947871576,0.3734084762104626,851,28,,1.87396896259194
+funding,raw data + latest Cadre Harmonise / IPC,"all funding, across countries",forecast,base_fc3,1.3052850213674312,0.2790525296124634,851,28,,4.677560254265234
+funding,raw data + latest Cadre Harmonise / IPC,"all funding, across countries",forecast,contrib_fc3,0.8525700058471732,0.2934769300267476,851,28,,2.905066526930992
+funding,raw data + latest Cadre Harmonise / IPC,"all funding, across countries",current map,base_cur3,1.2772146549321148,0.2995038064906569,851,28,,4.264435467106352
+funding,raw data + latest Cadre Harmonise / IPC,"all funding, across countries",current map,contrib_cur3,0.3692750759235436,0.3373322735462167,851,28,,1.094692399400529
+funding,raw data + latest Cadre Harmonise / IPC,"food funding, within country",forecast,base_fc3,1.6330489031992648,1.2798486073371451,850,28,,1.2759703716809043
+funding,raw data + latest Cadre Harmonise / IPC,"food funding, within country",forecast,contrib_fc3,2.688320219125136,0.936281296150303,850,28,,2.8712740820292697
+funding,raw data + latest Cadre Harmonise / IPC,"food funding, within country",current map,base_cur3,1.6046914716331302,1.0681222699768256,850,28,,1.5023481082067005
+funding,raw data + latest Cadre Harmonise / IPC,"food funding, within country",current map,contrib_cur3,1.6009467347315915,0.6183499151435085,850,28,,2.5890627547996656
+funding,raw data + latest Cadre Harmonise / IPC,"food funding, across countries",forecast,base_fc3,2.6904351092626606,0.6027069583333341,850,28,,4.463919110379151
+funding,raw data + latest Cadre Harmonise / IPC,"food funding, across countries",forecast,contrib_fc3,1.9135894146951824,0.9135336067518572,850,28,,2.094711568958152
+funding,raw data + latest Cadre Harmonise / IPC,"food funding, across countries",current map,base_cur3,2.83950188567235,0.6855775739159139,850,28,,4.14176599951126
+funding,raw data + latest Cadre Harmonise / IPC,"food funding, across countries",current map,contrib_cur3,0.4775793511774333,0.7957819438392981,850,28,,0.6001384611383903

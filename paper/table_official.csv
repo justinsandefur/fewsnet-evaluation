@@ -1,0 +1,45 @@
+sample,spec,term,coef,se,n,countries
+all areas,official projection only,proj3,0.2195521188078725,0.0572961681351576,6683,14
+all areas,FEWS NET forecast only,fews_fc3,0.3294133113024766,0.0631621414447247,6683,14
+all areas,both,proj3,0.1371623387227788,0.0304844819984027,6683,14
+all areas,both,fews_fc3,0.2386559425365372,0.0476954654629887,6683,14
+all areas,both + last official analysis,proj3,0.0556090941801572,0.0178343073108415,6559,14
+all areas,both + last official analysis,fews_fc3,0.1777693681824484,0.0460886966577713,6559,14
+all areas,both + last official analysis,last3,0.2746745702778537,0.0274618349002199,6559,14
+all areas,both + last analysis + FEWS NET current map,proj3,0.0540247800240543,0.0168343247335075,6559,14
+all areas,both + last analysis + FEWS NET current map,fews_fc3,0.1064361490013027,0.0370457739212357,6559,14
+all areas,both + last analysis + FEWS NET current map,last3,0.2612684221384693,0.024047097827182,6559,14
+all areas,both + last analysis + FEWS NET current map,fews_cur3,0.1265579875213685,0.0562911878630322,6559,14
+not in Crisis at the last analysis,official projection only,proj3,0.1037518699626069,0.0148268976755149,4128,12
+not in Crisis at the last analysis,FEWS NET forecast only,fews_fc3,0.1791371685998771,0.0353842516319782,4128,12
+not in Crisis at the last analysis,both,proj3,0.0542041842243723,0.0144386166573011,4128,12
+not in Crisis at the last analysis,both,fews_fc3,0.1486371616399179,0.0328763512078975,4128,12
+not in Crisis at the last analysis,both + last official analysis,proj3,0.0542041842243723,0.0144386166573011,4128,12
+not in Crisis at the last analysis,both + last official analysis,fews_fc3,0.1486371616399179,0.0328763512078975,4128,12
+not in Crisis at the last analysis,both + last official analysis,last3,0.0,0.0,4128,12
+not in Crisis at the last analysis,both + last analysis + FEWS NET current map,proj3,0.0555284575643207,0.0144237704810879,4128,12
+not in Crisis at the last analysis,both + last analysis + FEWS NET current map,fews_fc3,0.1041904680922368,0.0410785196842565,4128,12
+not in Crisis at the last analysis,both + last analysis + FEWS NET current map,last3,0.0,0.0,4128,12
+not in Crisis at the last analysis,both + last analysis + FEWS NET current map,fews_cur3,0.0939078143565386,0.1099313198453533,4128,12
+Cadre Harmonise,official projection only,proj3,0.278012983070045,0.0355771729169397,4598,8
+Cadre Harmonise,FEWS NET forecast only,fews_fc3,0.3762580241356682,0.0571833975616071,4598,8
+Cadre Harmonise,both,proj3,0.1611759935903834,0.0187800523947581,4598,8
+Cadre Harmonise,both,fews_fc3,0.2622726448923397,0.0484482099213344,4598,8
+Cadre Harmonise,both + last official analysis,proj3,0.0445866573983479,0.0294255668117876,4593,8
+Cadre Harmonise,both + last official analysis,fews_fc3,0.2130043987532372,0.0421908179824437,4593,8
+Cadre Harmonise,both + last official analysis,last3,0.2759753539833301,0.0342924689207395,4593,8
+Cadre Harmonise,both + last analysis + FEWS NET current map,proj3,0.0524778735352571,0.0283001133197116,4593,8
+Cadre Harmonise,both + last analysis + FEWS NET current map,fews_fc3,0.1061635927246737,0.0438599789712946,4593,8
+Cadre Harmonise,both + last analysis + FEWS NET current map,last3,0.2421157399130593,0.0340260291743132,4593,8
+Cadre Harmonise,both + last analysis + FEWS NET current map,fews_cur3,0.1988790897890872,0.0678803664055637,4593,8
+IPC,official projection only,proj3,0.1084645160786189,0.0599706630696682,2085,6
+IPC,FEWS NET forecast only,fews_fc3,0.1520820819372816,0.1054266684119392,2085,6
+IPC,both,proj3,0.0918912943093164,0.0467524146909656,2085,6
+IPC,both,fews_fc3,0.1071182078055535,0.090728381296176,2085,6
+IPC,both + last official analysis,proj3,0.0653057684113139,0.0175431362556911,1966,6
+IPC,both + last official analysis,fews_fc3,0.0720201853494039,0.0730138950374156,1966,6
+IPC,both + last official analysis,last3,0.2430949055448226,0.1157254400798366,1966,6
+IPC,both + last analysis + FEWS NET current map,proj3,0.0634175711239435,0.0188281112334392,1966,6
+IPC,both + last analysis + FEWS NET current map,fews_fc3,0.0533154299374361,0.0954213354691945,1966,6
+IPC,both + last analysis + FEWS NET current map,last3,0.2439505063976169,0.116216524844114,1966,6
+IPC,both + last analysis + FEWS NET current map,fews_cur3,0.0273850273800053,0.0498072564271598,1966,6

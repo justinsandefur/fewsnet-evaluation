@@ -124,32 +124,36 @@ def type2():
     ed = early.value_counts(normalize=True)
     N["tIIearlyEmergency"], N["tIIearlyCrisis"] = pct(ed.get(4, 0)), pct(ed.get(3, 0))
     N["tIIearlyStressed"] = pct(ed.get(2, 0) + ed.get(1, 0))
-    fig, ax = plt.subplots(1, 2, figsize=(6.6, 3.1), gridspec_kw={"width_ratios": [1.5, 1]})
-    a = ax[0]
+    # One panel, with the texture behind the averages: each faint dot is all the areas in one
+    # country whose Emergency began in the same month, at one lead (size = number of areas)
+    N["tIIepisodes"] = f"{m[m.onset].groupby(['country_code', 'month']).ngroups:,}"
+    OR, OR_L, CMP = "#eb6834", "#f5b48f", "#2a78d6"
+    fig, a = plt.subplots(figsize=(6.6, 4.3))
+    rng = np.random.default_rng(3)
+    d = m[m.onset].groupby(["country_code", "month", "lead"]).fc.agg(
+        share=lambda x: (x >= 4).mean(), n="size").reset_index()
+    N["tIIdotsExtreme"] = pct(d[d.n >= 2].share.isin([0, 1]).mean())
+    a.scatter(d.lead + rng.uniform(-0.28, 0.28, len(d)), 100 * d.share, s=4 + 6 * np.sqrt(d.n),
+              color=OR, alpha=0.2, edgecolor="none", zorder=2)
     g = curve[curve.onset].sort_values("lead")
-    a.plot(g.lead, 100 * g.fc3, "o-", color=LBLUE, ms=4, label="Forecast Crisis or worse")
-    a.plot(g.lead, 100 * g.fc4, "o-", color=BLUE, ms=4, label="Forecast Emergency or worse")
     h = curve[~curve.onset].sort_values("lead")
-    a.plot(h.lead, 100 * h.fc4, "o--", color=GREY, ms=3, lw=1,
-           label="Comparison: areas that did not tip\ninto Emergency, forecast Emergency")
-    a.set_xlabel("Months between the forecast and the new Emergency")
-    a.set_ylabel("Share of new Emergencies (%)")
-    a.set_xticks(range(1, 9))
-    a.set_ylim(0, 100)
-    a.invert_xaxis()
-    a.legend(fontsize=7.2, loc="center left", bbox_to_anchor=(0, 0.6))
-    a.set_title("A. Share forecast, by how far ahead")
-    a = ax[1]
-    vals = [ed.get(4, 0), ed.get(3, 0), ed.get(2, 0) + ed.get(1, 0)]
-    labs = ["Emergency\nor worse", "Crisis", "Stressed\nor better"]
-    cols = [BLUE, LBLUE, GREY]
-    a.bar(range(3), [100 * v for v in vals], color=cols)
-    for i, v in enumerate(vals):
-        a.text(i, 100 * v + 1.5, f"{100 * v:.0f}%", ha="center", fontsize=8)
-    a.set_xticks(range(3), labs, fontsize=8)
-    a.set_ylabel("Share of new Emergencies (%)")
-    a.set_ylim(0, 60)
-    a.set_title("B. Most severe forecast\n4-8 months ahead")
+    a.plot(g.lead, 100 * g.fc3, "--", color=OR, lw=1.2, zorder=4)
+    a.plot(g.lead, 100 * g.fc4, "o-", color=OR, lw=2.2, ms=5, zorder=5)
+    a.plot(h.lead, 100 * h.fc4, "o-", color=CMP, lw=1.6, ms=3.5, zorder=5)
+    for k, v in zip(g.lead, g.fc4):
+        a.annotate(f"{100 * v:.0f}%", (k, 100 * v), xytext=(0, 8), textcoords="offset points",
+                   ha="center", fontsize=7.5, color="#333", fontweight="bold", zorder=6)
+    a.text(8.35, 100 * g.fc3.iloc[-1] + 3, "Forecast Crisis or worse", color="#333", fontsize=7.5, ha="left")
+    box = dict(facecolor="white", edgecolor="none", alpha=0.85, pad=1)
+    a.text(4.75, 100 * g.fc4.iloc[4] - 13, "Forecast Emergency or worse", color="#333", fontsize=7.5,
+           ha="left", fontweight="bold", bbox=box)
+    a.text(8.35, 100 * h.fc4.iloc[-1] + 6, "Comparison: areas that did not tip into Emergency,\nforecast Emergency",
+           color="#333", fontsize=7.5, ha="left", va="bottom", bbox=box)
+    a.set_xticks(range(1, 9), [f"{k}" for k in range(1, 9)])
+    a.set_xlim(8.5, 0.6)
+    a.set_ylim(-4, 104)
+    a.set_xlabel("Months between the forecast and the month the Emergency began")
+    a.set_ylabel("Share of new Emergencies forecast (%)")
     fig.tight_layout()
     fig.savefig(FIG / "fig2_type2.pdf")
     plt.close(fig)
@@ -243,23 +247,35 @@ def official():
     N["offFaOfficial"], N["offFaFews"] = pct(old.proj3.mean()), pct((old.fews_fc3 >= 0.5).mean())
     N["offFaEither"] = pct(((old.proj3 == 1) | (old.fews_fc3 >= 0.5)).mean())
     N["offHitOnlyFews"] = pct(((new.proj3 == 0) & (new.fews_fc3 >= 0.5)).mean())
-    fig, ax = plt.subplots(figsize=(5.2, 4.2))
-    for score, lab, c in [("proj_share3", "Official projection (share of population in Crisis+)", RED),
-                          ("fews_fc3", "FEWS NET forecast (share of area forecast in Crisis+)", BLUE)]:
+    OFF, FEW = "#eb6834", "#2a78d6"
+    fig, ax = plt.subplots(figsize=(6.4, 4.6))
+    curves = {}
+    for score, c in [("proj_share3", OFF), ("fews_fc3", FEW)]:
         fpr, tpr, _ = roc_curve(d.next3, d[score])
-        ax.plot(100 * fpr, 100 * (1 - tpr), color=c, lw=1.3, label=lab)
-    pts = [("Official projection classifies\nthe area in Crisis or worse", old.proj3.mean(), 1 - new.proj3.mean(), RED, "o", (10, -12)),
-           ("FEWS NET forecasts Crisis or\nworse for most of the area", (old.fews_fc3 >= 0.5).mean(), 1 - (new.fews_fc3 >= 0.5).mean(), BLUE, "s", (6, 6)),
-           ("Either one warns", ((old.proj3 == 1) | (old.fews_fc3 >= 0.5)).mean(),
-            1 - ((new.proj3 == 1) | (new.fews_fc3 >= 0.5)).mean(), "black", "D", (8, -14))]
-    for lab, x, y, c, mk, off in pts:
-        ax.scatter(100 * x, 100 * y, color=c, marker=mk, s=45, zorder=3)
-        ax.annotate(lab, (100 * x, 100 * y), xytext=off, textcoords="offset points", fontsize=7.5, color=c)
-    ax.set_xlabel("False alarms (Type I): share of areas that stayed below Crisis\nthat were warned about (%)")
-    ax.set_ylabel("Misses (Type II): share of new Crises\nthat were not warned about (%)")
+        curves[score] = (100 * fpr, 100 * (1 - tpr))
+        ax.plot(*curves[score], color=c, lw=1.6, zorder=2)
+    pts = [(old.proj3.mean(), 1 - new.proj3.mean(), OFF, "o"),
+           ((old.fews_fc3 >= 0.5).mean(), 1 - (new.fews_fc3 >= 0.5).mean(), FEW, "s"),
+           (((old.proj3 == 1) | (old.fews_fc3 >= 0.5)).mean(), 1 - ((new.proj3 == 1) | (new.fews_fc3 >= 0.5)).mean(), "#222", "D")]
+    for x, y, c, mk in pts:
+        ax.scatter(100 * x, 100 * y, color=c, marker=mk, s=55, zorder=4, edgecolor="white", linewidth=1.2)
+    (xo, yo, *_), (xf, yf, *_), (xe, ye, *_) = pts
+    kw = dict(fontsize=8, color="#222", textcoords="offset points")
+    ax.annotate("Official IPC / Cadre Harmonis\u00e9\nprojection: area in Crisis or worse", (100 * xo, 100 * yo),
+                xytext=(10, 6), **kw)
+    ax.annotate("FEWS NET forecast: most of\nthe area in Crisis or worse", (100 * xf, 100 * yf),
+                xytext=(1.5, 30), textcoords="data", fontsize=8, color="#222",
+                arrowprops=dict(arrowstyle="-", color="#888", lw=0.8))
+    ax.annotate("Warn if either one warns", (100 * xe, 100 * ye), xytext=(10, -4), **kw)
+    # direct labels for the two threshold curves
+    ax.text(41, 26, "Official projections,\nevery threshold", color=OFF, fontsize=8, fontweight="bold")
+    ax.text(43, 14.5 + 22, "FEWS NET,\nevery threshold", color=FEW, fontsize=8, fontweight="bold")
+    ax.text(59, 97, "Lower and further left is better", ha="right", va="top", fontsize=8, color="#555", style="italic")
+    ax.set_xlabel("False alarms (Type I error): share of areas that stayed out of Crisis\nthat were warned about (%)")
+    ax.set_ylabel("Misses (Type II error): share of new Crises\nthat were not warned about (%)")
     ax.set_xlim(0, 60)
     ax.set_ylim(0, 100)
-    ax.legend(fontsize=7, loc="upper right", title="Lines: every possible warning threshold", title_fontsize=7)
+    fig.tight_layout()
     fig.savefig(FIG / "fig4_official.pdf")
     plt.close(fig)
     R = pd.read_csv(TAB / "official_projections.csv")
@@ -937,9 +953,9 @@ def fig_voi():
         ax.plot(100 * x.index, x.gain, marker="o", ms=4, lw=1.6, color=c, label=labs[rd])
     ax.axhline(0, color=GREY, lw=0.8)
     ax.axvline(38, color=GREY, lw=0.8, ls="--")
-    ax.text(39, ax.get_ylim()[0] + 0.05 * (ax.get_ylim()[1] - ax.get_ylim()[0]), "typical coverage (38%)",
+    ax.text(39, ax.get_ylim()[0] + 0.05 * (ax.get_ylim()[1] - ax.get_ylim()[0]), "38% = average coverage of\ntreatment programmes",
             fontsize=7, color="#555555", va="bottom")
-    ax.set_xlabel("Treatment budget, percent of the season's caseload")
+    ax.set_xlabel("Treatment places available, as a share of all acutely\nmalnourished children in the surveyed zones (%)")
     ax.set_ylabel("Extra deaths averted per season\n(survey-based vs forecast-based planning)")
     ax.legend(fontsize=7.5, loc="upper left")
     ax.grid(axis="y", color="#e6e6e6", lw=0.6); ax.set_axisbelow(True)
