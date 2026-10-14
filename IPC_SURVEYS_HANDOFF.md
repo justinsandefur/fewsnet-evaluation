@@ -15,9 +15,14 @@ evaluation; use this file to start or continue the companion piece in another ch
   - implications (IPC, not FEWS NET).
 - New macro files:
   - `numbers_gaps.tex` (from `side_survey_selection/code/07_numbers_tex.py`);
-  - `numbers_fts.tex` (from `code/71_fts_cluster_shares.py`, FTS funding by cluster 2015–24).
+  - `numbers_fts.tex` (from `code/85_fts_cluster_shares.py`, FTS funding by cluster 2015–24).
 - New figure `fig12_survey_exclusions.pdf` (from `side_survey_selection/code/06_exclusions.py`).
 - Literature on old debates: `references/lit_old_debates.md`. Its 48 new BibTeX entries were appended to `references.bib`. The bib has case-duplicate keys (e.g. `checchi2022sae`/`Checchi2022SAE`); cite the first-defined one.
+- Triggers vs phases (`code/84_triggers_vs_phases.py`, `numbers_triggers.tex`, fig13), Somalia, 2015-26:
+  - Drought, conflict and prices predict GAM and death rates out of sample where the phases predict nothing.
+  - Within a domain, a rainfall deficit raises GAM, CDR and child illness, but the IPC share does not respond to it.
+  - Nothing predicts death rates in an unsurveyed domain.
+  - Next step: the same test outside Somalia (SMART+ with CHIRPS/ACLED).
 - Still open:
   - items 1, 2 and 6 above;
   - Charles wants the "target downstream outcomes / deaths wherever they happen" proposal reviewed by practitioners before it is pushed hard.

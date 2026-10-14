@@ -28,7 +28,7 @@ m = {"ftsYearZero": "2015", "ftsYearOne": "2024",
      "ftsWashTag": f"{100 * pooled_tagged['Water Sanitation Hygiene']:.0f}",
      "ftsNutritionTag": f"{100 * pooled_tagged['Nutrition']:.0f}",
      "ftsUntagged": f"{100 * pooled[['Not specified', 'Multi-sector']].sum():.0f}"}
-lines = ["% Written by code/71_fts_cluster_shares.py -- do not edit by hand"]
+lines = ["% Written by code/85_fts_cluster_shares.py -- do not edit by hand"]
 lines += [f"\\newcommand{{\\{k}}}{{{v}}}" for k, v in m.items()]
 (ROOT / "output" / "cgd_paper" / "numbers_fts.tex").write_text("\n".join(lines) + "\n")
 print("\n".join(lines))

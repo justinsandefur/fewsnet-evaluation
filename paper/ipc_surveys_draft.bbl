@@ -6,6 +6,13 @@ Barrett, C.~B. and D.~G. Maxwell (2005).
 \newblock {\em Food Aid After Fifty Years: Recasting Its Role}.
 \newblock London: Routledge.
 
+\bibitem[\protect\citeauthoryear{Bilukha, Prudhon, Moloney, Hailey, and
+  Doledec}{Bilukha et~al.}{2012}]{bilukha2012surveillance}
+Bilukha, O., C.~Prudhon, G.~Moloney, P.~Hailey, and D.~Doledec (2012).
+\newblock Measuring anthropometric indicators through nutrition surveillance in
+  humanitarian settings: Options, issues, and ways forward.
+\newblock {\em Food and Nutrition Bulletin\/}~{\em 33\/}(2).
+
 \bibitem[\protect\citeauthoryear{Buchanan-Smith, Cocking, and
   Moallin}{Buchanan-Smith et~al.}{2023}]{buchanansmith2023}
 Buchanan-Smith, M., J.~Cocking, and Z.~Moallin (2023).
@@ -287,6 +294,12 @@ Machefer, M., M.~Ronco, A.-C. Thomas, M.~Assouline, M.~Rabier, C.~Corbane, and
   comprehensive analysis and predictive modeling.
 \newblock {\em Scientific Data\/}~{\em 12}, 741.
 \newblock Data: Zenodo 15017473 and the Humanitarian Data Exchange.
+
+\bibitem[\protect\citeauthoryear{Mason, Habicht, Tabatabai, and Valverde}{Mason
+  et~al.}{1984}]{mason1984surveillance}
+Mason, J.~B., J.-P. Habicht, H.~Tabatabai, and V.~Valverde (1984).
+\newblock {\em Nutritional Surveillance}.
+\newblock Geneva: World Health Organization.
 
 \bibitem[\protect\citeauthoryear{Maxwell, Adan, Hailey, Day, Odhiambo, Kaindi,
   Njiru, Venkat, and Marshak}{Maxwell et~al.}{2023}]{maxwell2023hhs}
