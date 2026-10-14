@@ -1238,6 +1238,63 @@ def fig_allocation():
     fig.savefig(FIG / "fig11_allocation.pdf"); plt.close(fig)
 
 
+# ------------------------------------------------------------------ famine (Phase 5) forecasts
+def famine_errors():
+    """Type I and Type II errors at the famine threshold, 4-8 months ahead, by episode."""
+    cs = pd.read_parquet(INP / "fewsnet" / "cs_monthly.parquet")
+    proj = pd.read_parquet(INP / "fewsnet" / "proj_monthly.parquet")
+    cs, proj = cs[cs.month.dt.year <= 2024], proj[proj.report_month.dt.year <= 2024]
+    fc = proj[(proj.lead >= 4) & (proj.lead <= 8)]
+    latest = fc.sort_values("report_month").drop_duplicates(["fnid", "month"], keep="last")[["fnid", "month", "phase"]] \
+        .rename(columns={"phase": "fc"})
+    # Type I: famine forecasts and what followed
+    w = cs.merge(latest, on=["fnid", "month"])
+    w = w[w.fc >= 5]
+    o = np.select([w.phase >= 5, (w.phase == 4) & w.assist_flag, w.phase == 4], ["came", "flag4", "noflag4"], "lower")
+    w = w.assign(o=o, year=w.month.dt.year)
+    N["famWarn"], N["famWarnUnits"] = f"{len(w):,}", str(w.fnid.nunique())
+    sh = pd.Series(o).value_counts(normalize=True)
+    N["famCame"], N["famFlag"], N["famNoFlag"], N["famLower"] = (pct(sh.get(k, 0)) for k in ["came", "flag4", "noflag4", "lower"])
+    # Type II: area-months mapped in famine, and what was forecast 4-8 months earlier (most severe)
+    f5 = cs[cs.phase >= 5][["country_code", "fnid", "month"]]
+    mx = f5.merge(fc.groupby(["fnid", "month"]).phase.max().rename("fcmax").reset_index(), on=["fnid", "month"], how="left")
+    N["famMapped"], N["famMappedUnits"] = f"{len(f5):,}", str(f5.fnid.nunique())
+    N["famForecastFive"] = pct((mx.fcmax >= 5).mean())
+    N["famForecastFour"] = pct((mx.fcmax >= 4).mean())
+    N["famMissed"] = pct(1 - (mx.fcmax >= 5).mean())
+    # episodes: country x year, units mapped in famine, units forecast in famine and what happened
+    ep = w.groupby(["country_code", "year"]).agg(units_fc=("fnid", "nunique"),
+                                                 came=("o", lambda x: (x == "came").mean()),
+                                                 flag=("o", lambda x: (x == "flag4").mean())).reset_index()
+    mp = f5.assign(year=f5.month.dt.year).groupby(["country_code", "year"]).fnid.nunique().rename("units_mapped").reset_index()
+    E = ep.merge(mp, on=["country_code", "year"], how="outer").fillna(0).sort_values(["year", "country_code"])
+    E.to_csv(TAB / "famine_episodes.csv", index=False)
+    names = {"SO": "Somalia", "SS": "South Sudan", "SD": "Sudan", "YE": "Yemen", "ET": "Ethiopia", "NG": "Nigeria"}
+    lines = ["\\begin{tabular}{llrrrr}", "\\toprule",
+             "Country & Year & Units forecast in Famine & Came true & Held back by aid & Units mapped in Famine \\\\", "\\midrule"]
+    for r in E.itertuples():
+        lines.append(f"{names.get(r.country_code, r.country_code)} & {int(r.year)} & {int(r.units_fc)} & "
+                     + (f"{100 * r.came:.0f}\\% & {100 * r.flag:.0f}\\%" if r.units_fc else "-- & --")
+                     + f" & {int(r.units_mapped)} \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    (OUT / "tables" / "famine.tex").write_text("\n".join(lines) + "\n")
+    N["famEpisodes"] = str(len(E))
+    # famine risk raised in FEWS NET's reports before famine was mapped (pilot countries, 52_text_features.py)
+    rep = pd.read_parquet(INP / "reports/reports.parquet")
+    rep["m"] = pd.PeriodIndex(rep.month, freq="M")
+    for cc, onset, tag in [("SO", "2011-07", "So"), ("SD", "2024-06", "Sd")]:
+        on = pd.Period(onset, "M")
+        x = rep[(rep.cc == cc) & (rep.m < on) & (rep.m >= on - 12) & rep.nat_famine_risk_mentioned.fillna(False).astype(bool)]
+        first = x.m.min()
+        N[f"famRisk{tag}"] = first.strftime("%B %Y")
+        N[f"famRiskLead{tag}"] = str((on - first).n)
+    # precise emergency statements for the introduction
+    N["tIfailFlagShare"] = pct(float(N["tIflagged"]) / float(N["tIfailed"])) if float(N["tIfailed"]) else "0"
+    N["tIIearlyMiss"] = pct(1 - float(N["tIIearlyEmergency"]) / 100)
+    N["tIIearlyCrisisPlus"] = pct((float(N["tIIearlyEmergency"]) + float(N["tIIearlyCrisis"])) / 100)
+    N["tIgenuine"] = pct((float(N["tIunflagged"]) + float(N["tIbetter"])) / 100)
+
+
 # ------------------------------------------------------------------ which pieces are worth paying for
 def pieces():
     """Pilot on FEWS NET's reports (53_text_value.py) and the value of price data (55_price_value.py)."""
@@ -1349,4 +1406,5 @@ if __name__ == "__main__":
     fig_foodsec()
     value_margins()
     fig_allocation()
+    famine_errors()
     write_numbers()
