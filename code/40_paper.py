@@ -1176,6 +1176,68 @@ def fig_foodsec():
     N["chCountries"] = str(k["fcs_poor_borderline"]["IPC/CH phase"]["countries"])
 
 
+# ------------------------------------------------------------------ two margins of value (81, 82)
+def value_margins():
+    v = json.loads((TAB / "value_margins.json").read_text())
+    A = json.loads((TAB / "allocation_value_key.json").read_text())
+    N["vmAreas"], N["vmCountries"] = f"{A['areas']:,}", str(A["countries"])
+    N["vmYears"] = f"{A['year_range'][0]}--{A['year_range'][1]}"
+    N["vmFewsCountries"] = str(v["fews_countries"])
+    N["vmCover"] = pct(A["implied_coverage"]["central"])
+    N["vmCoverLo"], N["vmCoverHi"] = pct(A["implied_coverage"]["high"]), pct(A["implied_coverage"]["low"])
+    N["vmFoodAll"] = f"{v['food_per_year_all'] / 1e9:.1f}"
+    N["vmFoodSample"] = f"{v['food_per_year_sample'] / 1e9:.1f}"
+    N["vmScale"] = f"{v['scale_to_all']:.1f}"
+    N["vmNeed"] = f"{v['need_pm_year_sample'] / 1e6:,.0f}"
+    for t, tag in [("random", "Rand"), ("half", "Half"), ("perfect", "Perf")]:
+        x = v[f"realloc_{t}"]
+        N[f"vm{tag}Gain"] = f"{x['gain_pm'] / 1e6:.1f}"
+        N[f"vm{tag}GainAll"] = f"{x['gain_pm_all'] / 1e6:.1f}"
+        N[f"vm{tag}ShareNeed"] = f"{100 * x['share_of_need']:.1f}"
+        N[f"vm{tag}PctMore"] = f"{x['pct_more_reached']:.0f}"
+        N[f"vm{tag}Pub"], N[f"vm{tag}Fews"], N[f"vm{tag}Oracle"] = (pct(x[k]) for k in ["public_share", "fews_share", "oracle_share"])
+        N[f"vm{tag}OracleGain"] = pct(x["share_of_oracle_gain"])
+        N[f"vm{tag}Aid"] = f"{x['aid_equiv'] / 1e6:.0f}"
+        N[f"vm{tag}AidAll"] = f"{x['aid_equiv_all'] / 1e6:.0f}"
+        N[f"vm{tag}Ratio"] = f"{x['ratio']:.1f}"
+        N[f"vm{tag}RatioAll"], N[f"vm{tag}RatioAllLo"], N[f"vm{tag}RatioAllHi"] = (f"{x[k]:.1f}" for k in ["ratio_all", "ratio_all_lo", "ratio_all_hi"])
+        N[f"vm{tag}CostPm"] = f"{x['cost_per_pm']:.0f}"
+    e = v["envelope_share"]
+    N["envShareRaw"], N["envShareIpc"] = pct(e["raw data|symmetric"]), pct(e["raw data + latest Cadre Harmonise / IPC|symmetric"])
+    N["envSharePosRaw"] = pct(e["raw data|one-sided-positive"])
+    N["envBeta"] = f"{100 * v['beta_food']['raw data'] / 10:.0f}"      # percent per 10 points (log points x 10)
+    er, eh = v["envelope_random"], v["envelope_half"]
+    N["envUsdLo"] = f"{er['raw data + latest Cadre Harmonise / IPC|symmetric']['usd'] / 1e6:,.0f}"
+    N["envUsdHi"] = f"{er['raw data|symmetric']['usd'] / 1e6:,.0f}"
+    N["envPmLo"] = f"{er['raw data + latest Cadre Harmonise / IPC|symmetric']['pm'] / 1e6:.1f}"
+    N["envPmHi"] = f"{eh['raw data|symmetric']['pm'] / 1e6:.1f}"
+
+
+def fig_allocation():
+    """Share of a fixed food-aid budget that reaches people in Crisis, by what the planner knows."""
+    v = json.loads((TAB / "value_margins.json").read_text())
+    A = json.loads((TAB / "allocation_value_key.json").read_text())["table"]
+    infos = [("population", "Population only"), ("persist", "Latest official analysis only"),
+             ("public", "Public information"), ("fews", "Public information + FEWS NET"), ("oracle", "Perfect foresight")]
+    fig, ax = plt.subplots(figsize=(6.4, 3.4))
+    for j, (t, lab, col, mk) in enumerate([("random", "Random targeting within areas", C1, "o"),
+                                          ("half", "Halfway to perfect targeting", C2, "s")]):
+        x = A[f"0.3_{t}"]
+        vals = [100 * x[f"{i}_share"] for i, _ in infos]
+        ys = np.arange(len(infos)) + (0.12 if j == 0 else -0.12)
+        ax.scatter(vals, ys, color=col, marker=mk, s=40, zorder=3, label=lab)
+        for vv, yy, (i, _) in zip(vals, ys, infos):
+            if i in ("public", "fews"):
+                ax.text(vv + 0.8, yy, f"{vv:.1f}%", fontsize=7, va="center", color="#333333")
+    ax.set_yticks(range(len(infos)), [l for _, l in infos], fontsize=8)
+    ax.set_xlabel("Share of food aid reaching people who would otherwise be in Crisis or worse (%)")
+    ax.set_xlim(0, 80)
+    ax.grid(axis="x", color="#e6e6e6", lw=0.6); ax.set_axisbelow(True)
+    ax.spines["left"].set_visible(False); ax.tick_params(axis="y", length=0)
+    ax.legend(fontsize=7.5, loc="upper left", frameon=False)
+    fig.savefig(FIG / "fig11_allocation.pdf"); plt.close(fig)
+
+
 # ------------------------------------------------------------------ which pieces are worth paying for
 def pieces():
     """Pilot on FEWS NET's reports (53_text_value.py) and the value of price data (55_price_value.py)."""
@@ -1285,4 +1347,6 @@ if __name__ == "__main__":
     fig_voi()
     fig_phase_singles()
     fig_foodsec()
+    value_margins()
+    fig_allocation()
     write_numbers()

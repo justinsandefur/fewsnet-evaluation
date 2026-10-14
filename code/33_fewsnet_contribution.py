@@ -100,7 +100,10 @@ def overlay(units, o, isos):
 def ipc_history(o):
     o = o.dropna(subset=["phase"]).copy()
     o["ph3"] = (o.phase >= 3).astype(float)
-    oo = o.groupby(["key", "month"]).agg(ph3=("ph3", "max"), share3=("share3", "mean")).reset_index()
+    agg = dict(ph3=("ph3", "max"), share3=("share3", "mean"))
+    if "population" in o:
+        agg["pop"] = ("population", "max")
+    oo = o.groupby(["key", "month"]).agg(**agg).reset_index()
     oo["mi"] = oo.month.astype("int64")
     return oo.sort_values("mi")
 
@@ -152,9 +155,12 @@ def main():
     k = pd.merge_asof(k, oo[["key", "mi", "ph3", "share3"]], on="mi", by="key", direction="backward", tolerance=8) \
         .rename(columns={"ph3": "ipc_last3", "share3": "ipc_last_share3"})
     nxt = oo.assign(mi=oo.mi - 1)
-    k = pd.merge_asof(k.sort_values("mi"), nxt[["key", "mi", "ph3", "share3"]], on="mi", by="key",
-                      direction="forward", tolerance=7).rename(columns={"ph3": "ipc3", "share3": "ipc_share3"})
+    nx_cols = ["key", "mi", "ph3", "share3"] + (["pop"] if "pop" in nxt else [])
+    k = pd.merge_asof(k.sort_values("mi"), nxt[nx_cols], on="mi", by="key",
+                      direction="forward", tolerance=7).rename(columns={"ph3": "ipc3", "share3": "ipc_share3", "pop": "ipc_pop"})
     k = k.dropna(subset=["ipc3", "cur3", "fc3"]).reset_index(drop=True)
+    # saved for the allocation calculation (81_allocation_value.py)
+    k.to_parquet(CACHE / "fewsnet_contribution_ipc_areas.parquet", index=False)
     print("Cadre Harmonise / IPC area-rounds:", len(k), "countries", k.iso3.nunique(), flush=True)
     base = {"raw data": RAW, "raw data + latest Cadre Harmonise / IPC": RAW + ["ipc_last3", "ipc_last_share3"]}
     rows, auc = [], []
