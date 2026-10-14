@@ -1,0 +1,4 @@
+id,field,value,note
+CM2022MIS,excl_other,institutional,"p28: 11 of 41 North-West and 11 of 40 South-West clusters not surveyed for security; coder had flagged reason not stated"
+CM2022MIS,excl_insecure_areas,"North-West and South-West regions (Anglophone crisis): 22 of 81 regional clusters not surveyed",manual check
+PAK_2016,excl_insecure_ex_ante,no,"military cantonments/restricted areas excluded: access restriction, not insecurity (kept in excl_other)"

@@ -1,11 +1,30 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citeauthoryear{Bongassie, Azimi, and Gallagher}{Bongassie
-  et~al.}{2021}]{bongassie2021afg}
-Bongassie, B.~T., S.~M.~Y. Azimi, and M.~L. Gallagher (2021).
-\newblock Calculating wasting caseloads and geographic prioritisation of
-  nutrition services in the context of limited data in {Afghanistan}.
-\newblock {\em Field Exchange\/}~(65).
+\bibitem[\protect\citeauthoryear{Barrett and Maxwell}{Barrett and
+  Maxwell}{2005}]{barrettmaxwell2005}
+Barrett, C.~B. and D.~G. Maxwell (2005).
+\newblock {\em Food Aid After Fifty Years: Recasting Its Role}.
+\newblock London: Routledge.
+
+\bibitem[\protect\citeauthoryear{Buchanan-Smith, Cocking, and
+  Moallin}{Buchanan-Smith et~al.}{2023}]{buchanansmith2023}
+Buchanan-Smith, M., J.~Cocking, and Z.~Moallin (2023).
+\newblock Independent review of the integrated food security phase
+  classification ({IPC}) {Somalia}.
+\newblock Hpg commissioned report, Humanitarian Policy Group, ODI, London.
+
+\bibitem[\protect\citeauthoryear{Buchanan-Smith, Cocking, and
+  Sharp}{Buchanan-Smith et~al.}{2021}]{buchanansmith2021}
+Buchanan-Smith, M., J.~Cocking, and S.~Sharp (2021, September).
+\newblock Independent review of the {IPC} {South Sudan}.
+\newblock Hpg commissioned report, Humanitarian Policy Group, ODI, London.
+
+\bibitem[\protect\citeauthoryear{Checchi et~al.}{Checchi
+  et~al.}{2022}]{Checchi2022SAE}
+Checchi, F. et~al. (2022).
+\newblock A method for small-area estimation of population mortality in
+  settings affected by crises.
+\newblock {\em Population Health Metrics\/}~{\em 20}.
 
 \bibitem[\protect\citeauthoryear{Checchi, Frison, Warsame, Abebe, Achen,
   Ategbo, Ayoya, Kassim, Ndiaye, and Nyawo}{Checchi
@@ -24,12 +43,50 @@ Checchi, F., C.~I. Jarvis, K.~van Zandvoort, and A.~Warsame (2023).
 \newblock {\em Proceedings of the National Academy of Sciences\/}~{\em
   120\/}(30), e2217601120.
 
+\bibitem[\protect\citeauthoryear{Checchi and Roberts}{Checchi and
+  Roberts}{2005}]{checchiroberts2005}
+Checchi, F. and L.~Roberts (2005).
+\newblock Interpreting and using mortality data in humanitarian emergencies: A
+  primer for non-epidemiologists.
+\newblock HPN Network Paper~52, Humanitarian Practice Network, Overseas
+  Development Institute, London.
+
+\bibitem[\protect\citeauthoryear{Checchi and Roberts}{Checchi and
+  Roberts}{2008}]{checchiroberts2008}
+Checchi, F. and L.~Roberts (2008).
+\newblock Documenting mortality in crises: What keeps us from doing better?
+\newblock {\em PLoS Medicine\/}~{\em 5\/}(7), e146.
+
 \bibitem[\protect\citeauthoryear{Checchi and Robinson}{Checchi and
   Robinson}{2013}]{checchi2013}
 Checchi, F. and W.~C. Robinson (2013).
 \newblock Mortality among populations of southern and central {Somalia}
   affected by severe food insecurity and famine during 2010--2012.
 \newblock Technical report, FAO/FSNAU and FEWS NET.
+
+\bibitem[\protect\citeauthoryear{Checchi, Warsame, Treacy-Wong, Polonsky, van
+  Ommeren, and Prudhon}{Checchi et~al.}{2017}]{Checchi2017Lancet}
+Checchi, F., A.~Warsame, V.~Treacy-Wong, J.~Polonsky, M.~van Ommeren, and
+  C.~Prudhon (2017).
+\newblock Public health information in crisis-affected populations: a review of
+  methods and their use for advocacy and action.
+\newblock {\em The Lancet\/}~{\em 390\/}(10109), 2297--2313.
+
+\bibitem[\protect\citeauthoryear{{Claude Opus 5.5}, Kenny, and
+  Sandefur}{{Claude Opus 5.5} et~al.}{2026}]{claude2026fewsnet}
+{Claude Opus 5.5}, C.~Kenny, and J.~Sandefur (2026).
+\newblock How much does early warning improve famine response?
+\newblock Working draft, Center for Global Development.
+
+\bibitem[\protect\citeauthoryear{Coughlan~de Perez, van~den Hurk, van Aalst,
+  Jongman, Klose, and Suarez}{Coughlan~de Perez
+  et~al.}{2015}]{coughlandeperez2015}
+Coughlan~de Perez, E., B.~van~den Hurk, M.~K. van Aalst, B.~Jongman, T.~Klose,
+  and P.~Suarez (2015).
+\newblock Forecast-based financing: an approach for catalyzing humanitarian
+  action based on extreme weather and climate forecasts.
+\newblock {\em Natural Hazards and Earth System Sciences\/}~{\em 15\/}(4),
+  895--904.
 
 \bibitem[\protect\citeauthoryear{Daher, Cassard, Gari, Sauveplane-Stirling,
   Nyawo, and Codjia}{Daher et~al.}{2018}]{daher2018smart}
@@ -38,6 +95,44 @@ Daher, J., F.~Cassard, S.~Gari, V.~Sauveplane-Stirling, M.~Nyawo, and P.~Codjia
 \newblock Implementation of nutrition surveys using {SMART} methodology in
   sub-saharan africa.
 \newblock {\em Field Exchange\/}~(58).
+
+\bibitem[\protect\citeauthoryear{Darcy and Hofmann}{Darcy and
+  Hofmann}{2003}]{DarcyHofmann2003}
+Darcy, J. and C.-A. Hofmann (2003).
+\newblock According to need? {N}eeds assessment and decision-making in the
+  humanitarian sector.
+\newblock HPG Report~15, Overseas Development Institute, Humanitarian Policy
+  Group.
+
+\bibitem[\protect\citeauthoryear{de~Waal}{de~Waal}{1989a}]{dewaal1989popstud}
+de~Waal, A. (1989a).
+\newblock Famine mortality: a case study of {Darfur}, {Sudan} 1984--5.
+\newblock {\em Population Studies\/}~{\em 43\/}(1), 5--24.
+
+\bibitem[\protect\citeauthoryear{de~Waal}{de~Waal}{1989b}]{dewaal1989famine}
+de~Waal, A. (1989b).
+\newblock {\em Famine that Kills: {Darfur}, {Sudan}, 1984--1985}.
+\newblock Oxford: Clarendon Press.
+\newblock Revised edition, Oxford University Press, 2005.
+
+\bibitem[\protect\citeauthoryear{de~Zwarte, de~Waal, and Lumey}{de~Zwarte
+  et~al.}{2026}]{deZwarte2026Lancet}
+de~Zwarte, I., A.~de~Waal, and L.~H. Lumey (2026).
+\newblock Rethinking current famine classification: insights from history.
+\newblock {\em The Lancet\/}.
+\newblock Published 17 February 2026; volume/pages unverified.
+
+\bibitem[\protect\citeauthoryear{Degomme and Guha-Sapir}{Degomme and
+  Guha-Sapir}{2010}]{degomme2010}
+Degomme, O. and D.~Guha-Sapir (2010).
+\newblock Patterns of mortality rates in {Darfur} conflict.
+\newblock {\em The Lancet\/}~{\em 375\/}(9711), 294--300.
+
+\bibitem[\protect\citeauthoryear{{FSIN and Global Network Against Food
+  Crises}}{{FSIN and Global Network Against Food Crises}}{2026}]{GRFC2026}
+{FSIN and Global Network Against Food Crises} (2026).
+\newblock 2026 global report on food crises.
+\newblock Technical report, FSIN, Rome.
 
 \bibitem[\protect\citeauthoryear{{GiveWell}}{{GiveWell}}{2024}]{givewell2024cmam}
 {GiveWell} (2024, March).
@@ -48,6 +143,28 @@ Daher, J., F.~Cassard, S.~Gari, V.~Sauveplane-Stirling, M.~Nyawo, and P.~Codjia
 \newblock Taimaka -- acute malnutrition treatment in {Gombe} state, {Nigeria}
   (november 2024) and program monitoring (march 2025).
 
+\bibitem[\protect\citeauthoryear{Heudtlass, Speybroeck, and
+  Guha-Sapir}{Heudtlass et~al.}{2016}]{heudtlass2016}
+Heudtlass, P., N.~Speybroeck, and D.~Guha-Sapir (2016).
+\newblock Excess mortality in refugees, internally displaced persons and
+  resident populations in complex humanitarian emergencies (1998--2012) --
+  insights from operational data.
+\newblock {\em Conflict and Health\/}~{\em 10}, 15.
+
+\bibitem[\protect\citeauthoryear{Hillbruner and Moloney}{Hillbruner and
+  Moloney}{2012}]{hillbruner2012}
+Hillbruner, C. and G.~Moloney (2012).
+\newblock When early warning is not enough---lessons learned from the 2011
+  {Somalia} famine.
+\newblock {\em Global Food Security\/}~{\em 1\/}(1), 20--28.
+
+\bibitem[\protect\citeauthoryear{Howe and Devereux}{Howe and
+  Devereux}{2004}]{HoweDevereux2004}
+Howe, P. and S.~Devereux (2004).
+\newblock Famine intensity and magnitude scales: a proposal for an instrumental
+  definition of famine.
+\newblock {\em Disasters\/}~{\em 28\/}(4), 353--372.
+
 \bibitem[\protect\citeauthoryear{{IPC Famine Review Committee}}{{IPC Famine
   Review Committee}}{2022}]{ipcfrc2022somaliadec}
 {IPC Famine Review Committee} (2022, December).
@@ -56,8 +173,15 @@ Daher, J., F.~Cassard, S.~Gari, V.~Sauveplane-Stirling, M.~Nyawo, and P.~Codjia
 \newblock Technical report, IPC Global Partners.
 
 \bibitem[\protect\citeauthoryear{{IPC Famine Review Committee}}{{IPC Famine
-  Review Committee}}{2024}]{ipcfrc2024sudandec}
-{IPC Famine Review Committee} (2024, December).
+  Review Committee}}{2024a}]{ipcfrc2024gazajune}
+{IPC Famine Review Committee} (2024a, June).
+\newblock {FEWS NET} gaza analysis: Famine review committee conclusions and
+  recommendations.
+\newblock Technical report, IPC Global Partners.
+
+\bibitem[\protect\citeauthoryear{{IPC Famine Review Committee}}{{IPC Famine
+  Review Committee}}{2024b}]{ipcfrc2024sudandec}
+{IPC Famine Review Committee} (2024b, December).
 \newblock Sudan: Famine review committee report (december 2024).
 \newblock Technical report, IPC Global Partners.
 
@@ -100,11 +224,42 @@ Isanaka, S., C.~T. Andersen, S.~Cousens, M.~Myatt, A.~Briend, J.~Krasevec,
   secondary prevalence and incidence data from 352 sites.
 \newblock {\em BMJ Global Health\/}~{\em 6\/}(3), e004342.
 
+\bibitem[\protect\citeauthoryear{Isanaka, Nombela, Djibo, Poupard,
+  Van~Beckhoven, Gaboulaud, Guerin, and Grais}{Isanaka
+  et~al.}{2009}]{isanaka2009rutf}
+Isanaka, S., N.~Nombela, A.~Djibo, M.~Poupard, D.~Van~Beckhoven, V.~Gaboulaud,
+  P.~J. Guerin, and R.~F. Grais (2009).
+\newblock Effect of preventive supplementation with ready-to-use therapeutic
+  food on the nutritional status, mortality, and morbidity of children aged 6
+  to 60 months in {Niger}: A cluster randomized trial.
+\newblock {\em JAMA\/}~{\em 301\/}(3), 277--285.
+
 \bibitem[\protect\citeauthoryear{Kenny}{Kenny}{2026}]{kenny2026humanitarian}
 Kenny, C. (2026, September).
 \newblock We don't know the impact of humanitarian aid cuts. {We} should fix
   that.
 \newblock Center for Global Development blog, 30 September 2026.
+
+\bibitem[\protect\citeauthoryear{Langendorf, Roederer, de~Pee, Brown, Doyon,
+  Mamaty, et~al.}{Langendorf et~al.}{2014}]{langendorf2014preventing}
+Langendorf, C., T.~Roederer, S.~de~Pee, D.~Brown, S.~Doyon, A.-A. Mamaty,
+  et~al. (2014).
+\newblock Preventing acute malnutrition among young children in crises: a
+  prospective intervention study in {Niger}.
+\newblock {\em PLoS Medicine\/}~{\em 11\/}(9), e1001714.
+
+\bibitem[\protect\citeauthoryear{Lentz, Baylis, and Kim}{Lentz
+  et~al.}{2025}]{Lentz2025undercount}
+Lentz, E., K.~Baylis, and C.~Kim (2025).
+\newblock Official estimates of global food insecurity undercount acute hunger.
+\newblock {\em Nature Food\/}~{\em 6\/}(12).
+
+\bibitem[\protect\citeauthoryear{Lentz, Baylis, Michelson, and Kim}{Lentz
+  et~al.}{2024}]{lentz2024ipcaccuracy}
+Lentz, E., K.~Baylis, H.~Michelson, and C.~Kim (2024).
+\newblock {IPC} accuracy study: Analyzing the internal consistency of the {IPC}
+  {AFI} and {AMN} analyses.
+\newblock Technical report, IPC Global Support Unit.
 
 \bibitem[\protect\citeauthoryear{{London School of Hygiene \& Tropical
   Medicine}, {UNICEF}, and {WHO}}{{London School of Hygiene \& Tropical
@@ -115,12 +270,14 @@ Kenny, C. (2026, September).
 \newblock Technical report, LSHTM, UNICEF, WHO, Federal Government of Somalia,
   FAO-FSNAU, SIMAD University.
 
-\bibitem[\protect\citeauthoryear{Luc, Keita, Houssoube, et~al.}{Luc
-  et~al.}{2023}]{luc2023chad}
-Luc, G., M.~Keita, F.~Houssoube, et~al. (2023).
-\newblock Community clustering of food insecurity and malnutrition associated
-  with systemic drivers in {Chad}.
-\newblock {\em Food and Nutrition Bulletin\/}~{\em 44\/}(2\_suppl), S69--S82.
+\bibitem[\protect\citeauthoryear{Luc, Keita, Bazongo, Diarra, Virchenko, Okley,
+  Seyvet, Ngongang~Mbunang, Molla, Dujanovic, Nur, Marshak, Rahim, and
+  Osman}{Luc et~al.}{2024}]{luc2024fex}
+Luc, G., M.~Keita, B.~Bazongo, B.~Diarra, A.~Virchenko, C.~Okley, T.~Seyvet,
+  Y.~Ngongang~Mbunang, D.~Molla, D.~Dujanovic, A.~Nur, A.~Marshak, A.~Rahim,
+  and A.~M. Osman (2024).
+\newblock Special focus: Wasting patterns in {Somalia}.
+\newblock Field Exchange~72, Emergency Nutrition Network.
 
 \bibitem[\protect\citeauthoryear{Machefer, Ronco, Thomas, Assouline, Rabier,
   Corbane, and Rembold}{Machefer et~al.}{2025}]{machefer2025hfid}
@@ -131,11 +288,56 @@ Machefer, M., M.~Ronco, A.-C. Thomas, M.~Assouline, M.~Rabier, C.~Corbane, and
 \newblock {\em Scientific Data\/}~{\em 12}, 741.
 \newblock Data: Zenodo 15017473 and the Humanitarian Data Exchange.
 
-\bibitem[\protect\citeauthoryear{McDonald}{McDonald}{2017}]{mcdonald2017nca}
-McDonald, C. (2017, March).
-\newblock Nutrition causal analysis in {Niger}: Report of key findings.
-\newblock Technical report, Famine Early Warning Systems Network (FEWS NET),
-  Washington, DC.
+\bibitem[\protect\citeauthoryear{Maxwell, Adan, Hailey, Day, Odhiambo, Kaindi,
+  Njiru, Venkat, and Marshak}{Maxwell et~al.}{2023}]{maxwell2023hhs}
+Maxwell, D., G.~Adan, P.~Hailey, M.~S. Day, S.~B.~J. Odhiambo, L.~Kaindi,
+  J.~Njiru, A.~Venkat, and A.~Marshak (2023).
+\newblock Using the household hunger scale to improve analysis and
+  classification of severe food insecurity in famine-risk conditions: Evidence
+  from three countries.
+\newblock {\em Food Policy\/}~{\em 118}, 102449.
+
+\bibitem[\protect\citeauthoryear{Maxwell and Hailey}{Maxwell and
+  Hailey}{2020}]{maxwell2020pia}
+Maxwell, D. and P.~Hailey (2020).
+\newblock The politics of information and analysis in famines and extreme
+  emergencies: Synthesis of findings from six case studies.
+\newblock Technical report, Feinstein International Center, Tufts University.
+
+\bibitem[\protect\citeauthoryear{Maxwell and Hailey}{Maxwell and
+  Hailey}{2021}]{maxwell2021}
+Maxwell, D. and P.~Hailey (2021).
+\newblock Analysing famine: The politics of information and analysis in food
+  security crises.
+\newblock {\em Journal of Humanitarian Affairs\/}~{\em 3\/}(1), 16--27.
+
+\bibitem[\protect\citeauthoryear{Maxwell, Khalif, Hailey, and Checchi}{Maxwell
+  et~al.}{2020}]{Maxwell2020determining}
+Maxwell, D., A.~Khalif, P.~Hailey, and F.~Checchi (2020).
+\newblock Viewpoint: Determining famine: Multi-dimensional analysis for the
+  twenty-first century.
+\newblock {\em Food Policy\/}~{\em 92}, 101832.
+
+\bibitem[\protect\citeauthoryear{Maxwell, Vaitla, and Coates}{Maxwell
+  et~al.}{2014}]{maxwell2014}
+Maxwell, D., B.~Vaitla, and J.~Coates (2014).
+\newblock How do indicators of household food insecurity measure up? an
+  empirical comparison from {Ethiopia}.
+\newblock {\em Food Policy\/}~{\em 47}, 107--116.
+\newblock DOI not verified: 10.1016/j.foodpol.2014.04.003.
+
+\bibitem[\protect\citeauthoryear{{M{\'e}decins Sans
+  Fronti{\`e}res}}{{M{\'e}decins Sans Fronti{\`e}res}}{1997}]{msf1997}
+{M{\'e}decins Sans Fronti{\`e}res} (1997).
+\newblock {\em Refugee Health: An Approach to Emergency Situations}.
+\newblock London: Macmillan.
+
+\bibitem[\protect\citeauthoryear{Mokyr and {\'O}~Gr{\'a}da}{Mokyr and
+  {\'O}~Gr{\'a}da}{2002}]{mokyr2002}
+Mokyr, J. and C.~{\'O}~Gr{\'a}da (2002).
+\newblock What do people die of during famines: the {Great Irish Famine} in
+  comparative perspective.
+\newblock {\em European Review of Economic History\/}~{\em 6\/}(3), 339--363.
 
 \bibitem[\protect\citeauthoryear{Moradi, Mirzababaei, Mohammadi, et~al.}{Moradi
   et~al.}{2019}]{moradi2019}
@@ -144,6 +346,11 @@ Moradi, S., A.~Mirzababaei, H.~Mohammadi, et~al. (2019).
   children and adolescents: A systematic review and meta-analysis.
 \newblock {\em Nutrition\/}~{\em 62}, 52--60.
 
+\bibitem[\protect\citeauthoryear{{\'O}~Gr{\'a}da}{{\'O}~Gr{\'a}da}{2007}]{ograda2007jel}
+{\'O}~Gr{\'a}da, C. (2007).
+\newblock Making famine history.
+\newblock {\em Journal of Economic Literature\/}~{\em 45\/}(1), 5--38.
+
 \bibitem[\protect\citeauthoryear{Olin et~al.}{Olin et~al.}{2014}]{olin2014sida}
 Olin, E. et~al. (2014).
 \newblock Funding based on needs? {A} study on the use of needs assessment data
@@ -151,14 +358,31 @@ Olin, E. et~al. (2014).
   funds.
 \newblock {\em PLoS Currents Disasters\/}.
 
-\bibitem[\protect\citeauthoryear{Ouchtar, others, and Checchi}{Ouchtar
-  et~al.}{2026}]{ouchtar2026}
-Ouchtar, Y., others, and F.~Checchi (2026).
-\newblock Drought-attributable mortality in {Somalia}, 2015--2024: a
-  retrospective and modelling study.
-\newblock {\em The Lancet Regional Health -- Africa\/}, 100072.
-\newblock Crossref surnames: Ouchtar, Ali, Ahmed, Adam, Dirie, Warsame, Yusuf,
-  Grundy, Watson, Checchi; full text not read.
+\bibitem[\protect\citeauthoryear{Palmer, Alhaffar, Garba, Hassan, Ratnayake,
+  Seal, Jelle, and Checchi}{Palmer et~al.}{2025}]{Palmer2025mortality}
+Palmer, J., M.~Alhaffar, B.~Garba, J.~Hassan, R.~Ratnayake, A.~Seal, M.~Jelle,
+  and F.~Checchi (2025).
+\newblock The politics and challenges of measuring mortality for humanitarian
+  decision-making in {Somalia}, the {Central African Republic} and
+  {Bangladesh}.
+\newblock medRxiv preprint.
+
+\bibitem[\protect\citeauthoryear{Pople, Hill, Dercon, and Brunckhorst}{Pople
+  et~al.}{2026}]{pople2026early}
+Pople, A., R.~Hill, S.~Dercon, and B.~Brunckhorst (2026).
+\newblock The importance of being early? {A}nticipatory cash transfers for
+  flood-affected households.
+\newblock {\em World Bank Economic Review\/}.
+\newblock Advance article; earlier CSAE WPS/2021-07.
+
+\bibitem[\protect\citeauthoryear{Ratnayake, Ouchtar, Ahmed, Mohamoud, Jelle,
+  Seal, Dirie, Palmer, and Checchi}{Ratnayake et~al.}{2025}]{ratnayake2025smed}
+Ratnayake, R., Y.~Ouchtar, Y.~A. Ahmed, J.~H. Mohamoud, M.~Jelle, A.~Seal,
+  N.~I. Dirie, J.~Palmer, and F.~Checchi (2025).
+\newblock The {Somalia Mortality Estimation Database (S-MED)}: a bird's eye
+  view of mortality and its determinants.
+\newblock {\em medRxiv\/}.
+\newblock Preprint, posted 8 September 2025.
 
 \bibitem[\protect\citeauthoryear{Reusken, Coffey, Cruijssen, Melenberg, and van
   Wanrooij}{Reusken et~al.}{2025}]{reusken2025}
@@ -174,6 +398,64 @@ Rogers, E., M.~Myatt, S.~Woodhead, S.~Guerrero, and J.~L. Alvarez (2015).
   programmes in twenty-one countries, 2012--2013.
 \newblock {\em PLoS ONE\/}~{\em 10\/}(6), e0128666.
 
+\bibitem[\protect\citeauthoryear{Salama, Assefa, Talley, Spiegel, van~der Veen,
+  and Gotway}{Salama et~al.}{2001}]{salama2001}
+Salama, P., F.~Assefa, L.~Talley, P.~Spiegel, A.~van~der Veen, and C.~A. Gotway
+  (2001).
+\newblock Malnutrition, measles, mortality, and the humanitarian response
+  during a famine in {Ethiopia}.
+\newblock {\em JAMA\/}~{\em 286\/}(5), 563--571.
+
+\bibitem[\protect\citeauthoryear{Salama, Spiegel, Talley, and Waldman}{Salama
+  et~al.}{2004}]{salama2004}
+Salama, P., P.~Spiegel, L.~Talley, and R.~Waldman (2004).
+\newblock Lessons learned from complex emergencies over past decade.
+\newblock {\em The Lancet\/}~{\em 364\/}(9447), 1801--1813.
+
+\bibitem[\protect\citeauthoryear{Sen}{Sen}{1981}]{sen1981poverty}
+Sen, A. (1981).
+\newblock {\em Poverty and Famines: An Essay on Entitlement and Deprivation}.
+\newblock Oxford: Clarendon Press.
+
+\bibitem[\protect\citeauthoryear{Spiegel, Checchi, Colombo, and Paik}{Spiegel
+  et~al.}{2010}]{spiegel2010}
+Spiegel, P.~B., F.~Checchi, S.~Colombo, and E.~Paik (2010).
+\newblock Health-care needs of people affected by conflict: future trends and
+  changing frameworks.
+\newblock {\em The Lancet\/}~{\em 375\/}(9711), 341--345.
+
+\bibitem[\protect\citeauthoryear{Toole and Waldman}{Toole and
+  Waldman}{1990}]{toole1990}
+Toole, M.~J. and R.~J. Waldman (1990).
+\newblock Prevention of excess mortality in refugee and displaced populations
+  in developing countries.
+\newblock {\em JAMA\/}~{\em 263\/}(24), 3296--3302.
+
+\bibitem[\protect\citeauthoryear{Toole and Waldman}{Toole and
+  Waldman}{1997}]{toole1997}
+Toole, M.~J. and R.~J. Waldman (1997).
+\newblock The public health aspects of complex emergencies and refugee
+  situations.
+\newblock {\em Annual Review of Public Health\/}~{\em 18}, 283--312.
+
+\bibitem[\protect\citeauthoryear{Trommlerov{\'a}, {de Vries Mecheva}, and
+  Rieger}{Trommlerov{\'a} et~al.}{2026}]{trommlerova2026disease}
+Trommlerov{\'a}, S.~K., M.~{de Vries Mecheva}, and M.~Rieger (2026).
+\newblock Disease data and development: Evidence from {DHS} and {MICS} surveys.
+\newblock {\em Journal of Development Studies\/}~{\em 62\/}(10), 1873--1895.
+
+\bibitem[\protect\citeauthoryear{{UNICEF}}{{UNICEF}}{1990}]{unicef1990}
+{UNICEF} (1990).
+\newblock Strategy for improved nutrition of children and women in developing
+  countries.
+\newblock UNICEF Policy Review E/ICEF/1990/L.6, United Nations Children's Fund,
+  New York.
+
+\bibitem[\protect\citeauthoryear{{UNICEF}}{{UNICEF}}{2020}]{unicef2020framework}
+{UNICEF} (2020).
+\newblock {UNICEF} conceptual framework on maternal and child nutrition.
+\newblock United Nations Children's Fund, New York.
+
 \bibitem[\protect\citeauthoryear{{UNICEF} and {Action Against Hunger}}{{UNICEF}
   and {Action Against Hunger}}{2016}]{unicef_aah2016smart}
 {UNICEF} and {Action Against Hunger} (2016).
@@ -181,12 +463,47 @@ Rogers, E., M.~Myatt, S.~Woodhead, S.~Guerrero, and J.~L. Alvarez (2015).
   sub-saharan africa: Analytical report.
 \newblock Technical report, UNICEF ESARO/WCARO and Action Against Hunger.
 
+\bibitem[\protect\citeauthoryear{Vaitla, Coates, Glaeser, Hillbruner, Biswal,
+  and Maxwell}{Vaitla et~al.}{2017}]{vaitla2017}
+Vaitla, B., J.~Coates, L.~Glaeser, C.~Hillbruner, P.~Biswal, and D.~Maxwell
+  (2017).
+\newblock The measurement of household food security: Correlation and latent
+  variable analysis of alternative indicators in a large multi-country dataset.
+\newblock {\em Food Policy\/}~{\em 68}, 193--205.
+
+\bibitem[\protect\citeauthoryear{Venkat, Marshak, Young, and Naumova}{Venkat
+  et~al.}{2023}]{venkat2023seasonality}
+Venkat, A., A.~Marshak, H.~Young, and E.~N. Naumova (2023).
+\newblock Seasonality of acute malnutrition in {African} drylands: Evidence
+  from 15 years of {SMART} surveys.
+\newblock {\em Food and Nutrition Bulletin\/}~{\em 44\/}(2\_suppl).
+
 \bibitem[\protect\citeauthoryear{Warsame, Frison, and Checchi}{Warsame
   et~al.}{2023}]{warsame2023}
 Warsame, A., S.~Frison, and F.~Checchi (2023).
 \newblock Drought, armed conflict and population mortality in {Somalia},
   2014--2018: A statistical analysis.
 \newblock {\em PLOS Global Public Health\/}~{\em 3\/}(4), e0001136.
+
+\bibitem[\protect\citeauthoryear{Young, Borrel, Holland, and Salama}{Young
+  et~al.}{2004}]{young2004public}
+Young, H., A.~Borrel, D.~Holland, and P.~Salama (2004).
+\newblock Public nutrition in complex emergencies.
+\newblock {\em The Lancet\/}~{\em 364\/}(9448), 1899--1909.
+
+\bibitem[\protect\citeauthoryear{Young and Jaspars}{Young and
+  Jaspars}{1995}]{youngjaspars1995assess}
+Young, H. and S.~Jaspars (1995).
+\newblock Nutritional assessments, food security and famine.
+\newblock {\em Disasters\/}~{\em 19\/}(1), 26--36.
+
+\bibitem[\protect\citeauthoryear{Young and Jaspars}{Young and
+  Jaspars}{2006}]{youngjaspars2006}
+Young, H. and S.~Jaspars (2006).
+\newblock The meaning and measurement of acute malnutrition in emergencies: A
+  primer for decision-makers.
+\newblock HPN Network Paper~56, Humanitarian Practice Network, Overseas
+  Development Institute, London.
 
 \bibitem[\protect\citeauthoryear{Young and Jaspars}{Young and
   Jaspars}{2009}]{youngjaspars2009}

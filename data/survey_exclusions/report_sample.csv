@@ -1,0 +1,220 @@
+iso3,year,id,program,name,conf3,bd3,income,set,report_url,have_pdf
+AFG,2015,AF2015DHS,DHS,Afghanistan,1.0,37643.0,Low income,conflict,,False
+AGO,2006,AO2006MIS,DHS,Angola,1.0,25.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS2/MIS2.pdf,True
+AGO,2011,AO2011MIS,DHS,Angola,1.0,25.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS10/MIS10.pdf,True
+BGD,2007,BD2007DHS,DHS,Bangladesh,1.0,119.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR207/FR207[April-10-2009].pdf,True
+BGD,2017,BD2017DHS,DHS,Bangladesh,1.0,88.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR344/FR344.pdf,True
+BFA,2021,BF2021DHS,DHS,Burkina Faso,1.0,1852.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR378/FR378.pdf,True
+BDI,2010,BU2010DHS,DHS,Burundi,1.0,226.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR253/FR253.pdf,True
+BDI,2016,BU2016DHS,DHS,Burundi,1.0,241.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR335/FR335.pdf,True
+KHM,2000,KH2000DHS,DHS,Cambodia,1.0,243.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR124/FR124.pdf,True
+CMR,2018,CM2018DHS,DHS,Cameroon,1.0,1031.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR360/FR360.pdf,True
+CMR,2022,CM2022MIS,DHS,Cameroon,1.0,1416.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS42/MIS42.pdf,True
+TCD,2004,TD2004DHS,DHS,Chad,1.0,383.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR170/FR170-TD04.pdf,True
+COL,2000,CO2000DHS,DHS,Colombia,1.0,4396.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR114/FR114.pdf,True
+COL,2004,CO2005DHS,DHS,Colombia,1.0,6833.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR172/FR172.pdf,True
+COL,2009,CO2010DHS,DHS,Colombia,1.0,927.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR246/FR246.pdf,True
+COL,2015,CO2015DHS,DHS,Colombia,1.0,393.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR334/FR334.pdf,True
+COD,2007,CD2007DHS,DHS,"Congo, Dem. Rep.",1.0,843.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR208/FR208.pdf,True
+COD,2013,CD2013DHS,DHS,"Congo, Dem. Rep.",1.0,2660.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR300/FR300.pdf,True
+COD,2023,CD2023DHS,DHS,"Congo, Dem. Rep.",1.0,3431.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR393/FR393.pdf,True
+CIV,2005,CI2005AIS,DHS,Cote d'Ivoire,1.0,187.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/AIS5/AIS5.pdf,True
+CIV,2011,CI2012DHS,DHS,Cote d'Ivoire,1.0,98.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR272/FR272.pdf,True
+EGY,2000,EG2000DHS,DHS,"Egypt, Arab Rep.",1.0,27.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR117/FR117.pdf,True
+EGY,2014,EG2014DHS,DHS,"Egypt, Arab Rep.",1.0,184.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR302/FR302.pdf,True
+ERI,2002,ER2002DHS,DHS,Eritrea,1.0,1793.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR137/FR137.pdf,True
+ETH,2000,ET2000DHS,DHS,Ethiopia,1.0,80001.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR118/FR118.pdf,True
+ETH,2005,ET2005DHS,DHS,Ethiopia,1.0,183.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR179/FR179[23June2011].pdf,True
+ETH,2010,ET2011DHS,DHS,Ethiopia,1.0,716.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR255/FR255.pdf,True
+ETH,2016,ET2016DHS,DHS,Ethiopia,1.0,124.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR328/FR328.pdf,True
+ETH,2019,ET2019DHS,DHS,Ethiopia,1.0,67.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR363/FR363.pdf,True
+HTI,2005,HT2006DHS,DHS,Haiti,1.0,207.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR192/FR192.pdf,True
+IND,2005,IA2006DHS,DHS,India,1.0,4776.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FRIND3/FRIND3-Vol1AndVol2.pdf,True
+IND,2015,IA2015DHS,DHS,India,1.0,1382.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR339/FR339.pdf,True
+IND,2019,IA2020DHS,DHS,India,1.0,2083.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR375/FR375.pdf,True
+IDN,2002,ID2003DHS,DHS,Indonesia,1.0,1030.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR147/FR147.pdf,True
+IDN,2007,ID2007DHS,DHS,Indonesia,1.0,213.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR218/FR218[27August2010].pdf,True
+JOR,2017,JO2017DHS,DHS,Jordan,1.0,35.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR346/FR346.pdf,True
+KEN,2014,KE2014DHS,DHS,Kenya,1.0,100.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR308/FR308.pdf,True
+KEN,2015,KE2015MIS,DHS,Kenya,1.0,119.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS22/MIS22.pdf,True
+KEN,2020,KE2020MIS,DHS,Kenya,1.0,224.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS36/MIS36.pdf,True
+KEN,2022,KE2022DHS,DHS,Kenya,1.0,241.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR380/FR380.pdf,True
+MLI,2012,ML2012DHS,DHS,Mali,1.0,246.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR286/FR286.pdf,True
+MLI,2015,ML2015MIS,DHS,Mali,1.0,1166.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS24/MIS24.pdf,True
+MLI,2018,ML2018DHS,DHS,Mali,1.0,977.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR358/FR358.pdf,True
+MLI,2021,ML2021MIS,DHS,Mali,1.0,1912.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS40/MIS40.pdf,True
+MLI,2023,ML2023DHS,DHS,Mali,1.0,3404.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR394/FR394.pdf,True
+MOZ,2015,MZ2015AIS,DHS,Mozambique,1.0,72.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/AIS12/AIS12.pdf,True
+MOZ,2018,MZ2018MIS,DHS,Mozambique,1.0,106.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS33/MIS33.pdf,True
+MOZ,2022,MZ2022DHS,DHS,Mozambique,1.0,2184.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR389/FR389.pdf,True
+MMR,2015,MM2016DHS,DHS,Myanmar,1.0,1094.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR324/FR324.pdf,True
+NAM,2000,NM2000DHS,DHS,Namibia,1.0,55.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR141/FR141.pdf,True
+NPL,2001,NP2001DHS,DHS,Nepal,1.0,853.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR132/FR132.pdf,True
+NPL,2006,NP2006DHS,DHS,Nepal,1.0,3441.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR191/FR191.pdf,True
+NER,2021,NI2021MIS,DHS,Niger,1.0,1292.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS39/MIS39.pdf,True
+NGA,2010,NG2010MIS,DHS,Nigeria,1.0,405.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS8/MIS8.pdf,True
+NGA,2013,NG2013DHS,DHS,Nigeria,1.0,2765.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR293/FR293.pdf,True
+NGA,2015,NG2015MIS,DHS,Nigeria,1.0,10085.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS20/MIS20.pdf,True
+NGA,2018,NG2018DHS,DHS,Nigeria,1.0,5543.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR359/FR359.pdf,True
+NGA,2021,NG2021MIS,DHS,Nigeria,1.0,5326.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS41/MIS41.pdf,True
+NGA,2023,NG2024DHS,DHS,Nigeria,1.0,5618.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR395/FR395.pdf,True
+PAK,2006,PK2006DHS,DHS,Pakistan,1.0,888.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR200/FR200.pdf,True
+PAK,2012,PK2012DHS,DHS,Pakistan,1.0,11958.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR290/FR290.pdf,True
+PAK,2017,PK2017DHS,DHS,Pakistan,1.0,3623.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR354/FR354.pdf,True
+PER,2000,PE2000DHS,DHS,Peru,1.0,100.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR120/FR120.pdf,True
+PER,2007,PE2007DHS,DHS,Peru,1.0,32.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR234/FR234.pdf,True
+PER,2009,PE2009DHS,DHS,Peru,1.0,122.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR242/FR242.pdf,True
+PER,2010,PE2010DHS,DHS,Peru,1.0,118.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR250/FR250.pdf,True
+PER,2011,PE2011DHS,DHS,Peru,1.0,78.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR269/FR269.pdf,True
+PER,2012,PE2012DHS,DHS,Peru,1.0,28.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR284/FR284.pdf,True
+PHL,2003,PH2003DHS,DHS,Philippines,1.0,2714.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR156/FR156.pdf,True
+PHL,2008,PH2008DHS,DHS,Philippines,1.0,1280.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR224/FR224.pdf,True
+PHL,2013,PH2013DHS,DHS,Philippines,1.0,1159.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR294/FR294.pdf,True
+PHL,2017,PH2017DHS,DHS,Philippines,1.0,2745.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR347/FR347.pdf,True
+PHL,2022,PH2022DHS,DHS,Philippines,1.0,833.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR381/FR381.pdf,True
+RWA,2000,RW2000DHS,DHS,Rwanda,1.0,1095.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR125/FR125.pdf,True
+SEN,2005,SN2005DHS,DHS,Senegal,1.0,39.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR177/FR177.pdf,True
+SEN,2012,SN2012DHS,DHS,Senegal,1.0,25.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR288/FR288.pdf,True
+LKA,2006,LK2006DHS,DHS,Sri Lanka,1.0,2058.0,Upper middle income,conflict,,False
+TJK,2012,TJ2012DHS,DHS,Tajikistan,1.0,126.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR279/FR279.pdf,True
+TJK,2023,TJ2023DHS,DHS,Tajikistan,1.0,103.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR392/FR392.pdf,True
+TZA,2022,TZ2022DHS,DHS,Tanzania,1.0,25.0,Lower middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR382/FR382.pdf,True
+TUR,2003,TR2003DHS,DHS,Turkiye,1.0,224.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR160/FR160.pdf,True
+TUR,2008,TR2008DHS,DHS,Turkiye,1.0,1190.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR351/FR351.pdf,True
+TUR,2013,TR2013DHS,DHS,Turkiye,1.0,1210.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR352/FR352.pdf,True
+TUR,2018,TR2018DHS,DHS,Turkiye,1.0,2233.0,Upper middle income,conflict,https://www.dhsprogram.com/pubs/pdf/FR372/FR372.pdf,True
+UGA,2000,UG2000DHS,DHS,Uganda,1.0,1453.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR128/FR128.pdf,True
+UGA,2004,UG2004AIS,DHS,Uganda,1.0,2570.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/AIS2/AIS2.pdf,True
+UGA,2006,UG2006DHS,DHS,Uganda,1.0,2023.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR194/FR194.pdf,True
+UGA,2009,UG2009MIS,DHS,Uganda,1.0,91.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/MIS6/MIS6.pdf,True
+YEM,2013,YE2013DHS,DHS,"Yemen, Rep.",1.0,4087.0,Low income,conflict,https://www.dhsprogram.com/pubs/pdf/FR296/FR296.pdf,True
+PAK,2007,PAK_2007,MICS,Pakistan,1.0,1288.0,Lower middle income,conflict,,False
+BGD,2006,BGD_2006,MICS,Bangladesh,1.0,119.0,Lower middle income,conflict,,True
+IRQ,2006,IRQ_2006,MICS,Iraq,1.0,10631.0,Upper middle income,conflict,"['http://www.childinfo.org/files/MICS3_Iraq_FinalReport_2006_eng.pdf', 'http://www.childinfo.org/files/MICS3_Iraq_FinalReport_2006_eng.pdf', 'https://catalog.ihsn.org/index.php/catalog/842/download/32463', 'https://microdata.worldbank.org/index.php/catalog/16/download/160']",True
+GEO,2005,GEO_2005,MICS,Georgia,1.0,27.0,Upper middle income,conflict,"['http://www.childinfo.org/files/MICS3_Georgia_FinalReport_2005_Eng.pdf', 'http://www.childinfo.org/files/MICS3_Georgia_FinalReport_2005_Eng.pdf', 'http://www.childinfo.org/files/MICS3_Georgia_FinalReport_2005_Geo.pdf', 'http://www.childinfo.org/files/MICS3_Georgia_FinalReport_2005_Geo.pdf', 'https://catalog.ihsn.org/index.php/catalog/827/download/32331', 'https://microdata.worldbank.org/index.php/catalog/43/download/448']",True
+KEN,2013,KEN_2013,MICS,Kenya,1.0,60.0,Lower middle income,conflict,"['https://catalog.ihsn.org/index.php/catalog/6668/download/80887', 'https://catalog.ihsn.org/index.php/catalog/6669/download/80891', 'https://catalog.ihsn.org/index.php/catalog/6670/download/80895', 'https://microdata.worldbank.org/index.php/catalog/2657/download/38365', 'https://microdata.worldbank.org/index.php/catalog/2658/download/38372', 'https://microdata.worldbank.org/index.php/catalog/2659/download/38379']",True
+IDN,2000,IDN_2000,MICS,Indonesia,1.0,529.0,Upper middle income,conflict,['http://www.childinfo.org/files/indonesia.pdf'],False
+NGA,2016,NGA_2016,MICS,Nigeria,1.0,10947.0,Lower middle income,conflict,"['https://catalog.ihsn.org/index.php/catalog/7424/download/87468', 'https://microdata.worldbank.org/index.php/catalog/3002/download/41925']",True
+SDN,2014,SDN_2014,MICS,Sudan,1.0,2854.0,Low income,conflict,"['https://catalog.ihsn.org/index.php/catalog/6667/download/80883', 'https://microdata.worldbank.org/index.php/catalog/2656/download/38358']",True
+CIV,2006,CIV_2006,MICS,Cote d'Ivoire,1.0,47.0,Lower middle income,conflict,"['http://www.childinfo.org/files/MICS3_CotedIvoire_FinalReport_2006_Fr.pdf', 'http://www.childinfo.org/files/MICS3_CotedIvoire_FinalReport_2006_Fr.pdf']",True
+AZE,2000,AZE_2000,MICS,Azerbaijan,1.0,34.0,Upper middle income,conflict,['http://www.childinfo.org/files/Azerbaijan.pdf'],False
+IND,2000,IND_2000,MICS,India,1.0,5824.0,Lower middle income,conflict,,False
+PAK,2011,PAK_2011,MICS,Pakistan,1.0,15856.0,Lower middle income,conflict,"['https://catalog.ihsn.org/index.php/catalog/5887/download/70044', 'https://microdata.worldbank.org/index.php/catalog/2211/download/32203']",True
+IRQ,2000,IRQ_2000,MICS,Iraq,1.0,377.0,Upper middle income,conflict,,True
+PAK,2019,PAK_2019,MICS,Pakistan,1.0,1196.0,Lower middle income,conflict,,True
+BGD,2019,BGD_2019,MICS,Bangladesh,1.0,47.0,Lower middle income,conflict,,True
+TCD,2019,TCD_2019,MICS,Chad,1.0,351.0,Low income,conflict,"['https://mics-surveys-prod.s3.amazonaws.com/MICS6/West%20and%20Central%20Africa/Chad/2019/Survey%20findings/Chad%202019%20MICS%20Survey%20Findings%20Report_French.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS6/West%20and%20Central%20Africa/Chad/2019/Survey%20findings/Chad%202019%20MICS%20Survey%20Findings%20Report_French.pdf']",True
+THA,2019,THA_2019,MICS,Thailand,1.0,134.0,Upper middle income,conflict,,True
+TUN,2018,TUN_2018,MICS,Tunisia,1.0,71.0,Lower middle income,conflict,,True
+CAF,2018,CAF_2018,MICS,Central African Republic,1.0,138.0,Low income,conflict,,True
+PAK,2018,PAK_2018,MICS,Pakistan,1.0,1725.0,Lower middle income,conflict,,True
+DZA,2018,DZA_2018,MICS,Algeria,1.0,179.0,Upper middle income,conflict,,True
+COD,2017,COD_2017,MICS,"Congo, Dem. Rep.",1.0,4623.0,Low income,conflict,,True
+THA,2016,THA_2016,MICS,Thailand,1.0,175.0,Upper middle income,conflict,"['https://mics-surveys-prod.s3.amazonaws.com/MICS5/East%20Asia%20and%20the%20Pacific/Thailand%20%2814%20Provinces%29/2016/Final/Thailand%202015-16%20MICS%20%2814%20Provinces%29_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/East%20Asia%20and%20the%20Pacific/Thailand%20%2814%20Provinces%29/2016/Final/Thailand%202015-16%20MICS%20%2814%20Provinces%29_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/East%20Asia%20and%20the%20Pacific/Thailand%20%28Bangkok%20Small%20Community%29/2015-2016/Final/Bangkok%20Small%20Community%20MICS_Thai.pdf']",True
+PAK,2016,PAK_2016,MICS,Pakistan,1.0,6076.0,Lower middle income,conflict,"['https://mics-surveys-prod.s3.amazonaws.com/MICS5/South%20Asia/Pakistan%20%28Gilgit-Baltistan%29/2016-2017/Final/Pakistan%202016-17%20MICS%20%28Gilgit-Baltistan%29_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/South%20Asia/Pakistan%20%28Gilgit-Baltistan%29/2016-2017/Final/Pakistan%202016-17%20MICS%20%28Gilgit-Baltistan%29_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/South%20Asia/Pakistan%20%28Khyber%20Pakhtunkhwa%29/2016-2017/Final/Pakistan%202016-17%20MICS%20%28Khyber%20Pakhtunkhwa%29%20Final%20Report_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/South%20Asia/Pakistan%20%28Khyber%20Pakhtunkhwa%29/2016-2017/Final/Pakistan%202016-17%20MICS%20%28Khyber%20Pakhtunkhwa%29%20Final%20Report_English.pdf']",True
+THA,2015,THA_2015,MICS,Thailand,1.0,314.0,Upper middle income,conflict,"['https://catalog.ihsn.org/index.php/catalog/7239/download/86278', 'https://microdata.worldbank.org/index.php/catalog/5946/download/63884', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/East%20Asia%20and%20the%20Pacific/Thailand%20%28Bangkok%20Small%20Community%29/2015-2016/Final/Bangkok%20Small%20Community%20MICS%20_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/East%20Asia%20and%20the%20Pacific/Thailand%20%28Bangkok%20Small%20Community%29/2015-2016/Final/Bangkok%20Small%20Community%20MICS%20_English.pdf', 'https://catalog.ihsn.org/index.php/catalog/7239/download/86279', 'https://microdata.worldbank.org/index.php/catalog/5946/download/63885', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/East%20Asia%20and%20the%20Pacific/Thailand%20%28Bangkok%20Small%20Community%29/2015-2016/Final/Bangkok%20Small%20Community%20MICS_Thai.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/East%20Asia%20and%20the%20Pacific/Thailand%20%28Bangkok%20Small%20Community%29/2015-2016/Final/Bangkok%20Small%20Community%20MICS_Thai.pdf']",True
+PAK,2014,PAK_2014,MICS,Pakistan,1.0,7989.0,Lower middle income,conflict,"['https://mics-surveys-prod.s3.amazonaws.com/MICS5/South%20Asia/Pakistan%20%28Punjab%29/2014/Final/Pakistan%20%28Punjab%29%202014%20MICS_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/South%20Asia/Pakistan%20%28Punjab%29/2014/Final/Pakistan%20%28Punjab%29%202014%20MICS_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/South%20Asia/Pakistan%20%28Sindh%29/2014/Final/Pakistan%20%28Sindh%29%202014%20MICS_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/South%20Asia/Pakistan%20%28Sindh%29/2014/Final/Pakistan%20%28Sindh%29%202014%20MICS_English.pdf']",True
+LBN,2001,LBN_2001,MICS,Lebanon,1.0,66.0,Lower middle income,conflict,['https://mics-surveys-prod.s3.amazonaws.com/MICS2/Middle%20East%20and%20North%20Africa/Lebanon%20%28Palestinians%29/2001/Final/Lebanon%20%28Palestininans%29%202001%20MICS_English.pdf'],False
+SOM,2000,SOM_2000,MICS,"Somalia, Fed. Rep.",1.0,25.0,Low income,conflict,,False
+THA,2012,THA_2012,MICS,Thailand,1.0,376.0,Upper middle income,conflict,"['https://mics-surveys-prod.s3.amazonaws.com/MICS4/East%20Asia%20and%20the%20Pacific/Thailand/2012-2013/Final/Thailand%202012%20MICS_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS4/East%20Asia%20and%20the%20Pacific/Thailand/2012-2013/Final/Thailand%202012%20MICS_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS4/East%20Asia%20and%20the%20Pacific/Thailand/2012-2013/Final/Thailand%202012%20MICS_Thai.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS4/East%20Asia%20and%20the%20Pacific/Thailand/2012-2013/Final/Thailand%202012%20MICS_Thai.pdf']",True
+SDN,2010,SDN_2010,MICS,Sudan,1.0,2047.0,Low income,conflict,"['https://mics-surveys-prod.s3.amazonaws.com/MICS4/Middle%20East%20and%20North%20Africa/Sudan/2010/Final/Sudan%202010%20MICS_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS4/Middle%20East%20and%20North%20Africa/Sudan/2010/Final/Sudan%202010%20MICS_English.pdf']",True
+AFG,2022,AFG_2022,MICS,Afghanistan,1.0,57179.0,Low income,conflict,,True
+NGA,2021,NGA_2021,MICS,Nigeria,1.0,5326.0,Lower middle income,conflict,,True
+SOM,2006,SOM_2006,MICS,"Somalia, Fed. Rep.",1.0,547.0,Low income,conflict,"['http://www.childinfo.org/files/MICS3_Somalia_FinalReport_2006_eng.pdf', 'http://www.childinfo.org/files/MICS3_Somalia_FinalReport_2006_eng.pdf']",True
+IRQ,2018,IRQ_2018,MICS,Iraq,1.0,21172.0,Upper middle income,conflict,"['https://catalog.ihsn.org/index.php/catalog/8237/download/88890', 'https://catalog.ihsn.org/index.php/catalog/8237/download/88891', 'https://microdata.worldbank.org/index.php/catalog/3495/download/46816', 'https://microdata.worldbank.org/index.php/catalog/3495/download/46817']",True
+UZB,2006,UZB_2006,MICS,Uzbekistan,1.0,37.0,Lower middle income,conflict,"['http://www.childinfo.org/files/MICS3_Uzbekistan_FinalReport_2006_Eng.pdf', 'http://www.childinfo.org/files/MICS3_Uzbekistan_FinalReport_2006_Eng.pdf', 'http://www.childinfo.org/files/MICS3_Uzbekistan_FinalReport_2006_Rus.pdf', 'http://www.childinfo.org/files/MICS3_Uzbekistan_FinalReport_2006_Rus.pdf', 'http://www.childinfo.org/files/MICS3_Uzbekistan_FinalReport_2006_uzb.pdf', 'http://www.childinfo.org/files/MICS3_Uzbekistan_FinalReport_2006_uzb.pdf']",True
+MMR,2000,MMR_2000,MICS,Myanmar,1.0,301.0,Lower middle income,conflict,,True
+UZB,2000,UZB_2000,MICS,Uzbekistan,1.0,347.0,Lower middle income,conflict,['http://www.childinfo.org/files/uzbekistan.pdf'],False
+GNB,2000,GNB_2000,MICS,Guinea-Bissau,1.0,704.0,Low income,conflict,,False
+TJK,2000,TJK_2000,MICS,Tajikistan,1.0,649.0,Lower middle income,conflict,,True
+LSO,2000,LSO_2000,MICS,Lesotho,1.0,78.0,Lower middle income,conflict,,False
+THA,2005,THA_2005,MICS,Thailand,1.0,398.0,Upper middle income,conflict,"['http://www.childinfo.org/files/MICS3_Thailand_FinalReport_2005-06_Eng.pdf', 'http://www.childinfo.org/files/MICS3_Thailand_FinalReport_2005-06_Eng.pdf', 'http://www.childinfo.org/files/MICS3_Thailand_FinalReport_2005-06_Thai.pdf', 'http://www.childinfo.org/files/MICS3_Thailand_FinalReport_2005-06_Thai.pdf']",True
+SDN,2000,SDN_2000,MICS,Sudan,1.0,9140.0,Low income,conflict,,False
+AGO,2001,AGO_2001,MICS,Angola,1.0,4341.0,Lower middle income,conflict,,False
+PAK,2017,PAK_2017,MICS,Pakistan,1.0,3623.0,Lower middle income,conflict,"['https://catalog.ihsn.org/index.php/catalog/8809/download/91401', 'https://microdata.worldbank.org/index.php/catalog/3559/download/47689']",True
+DZA,2000,DZA_2000,MICS,Algeria,1.0,5007.0,Upper middle income,conflict,,False
+DZA,2006,DZA_2006,MICS,Algeria,1.0,869.0,Upper middle income,conflict,['http://www.childinfo.org/files/MICS3_Algeria_FinalReport_2006_Fr.pdf'],False
+AFG,2000,AFG_2000,MICS,Afghanistan,1.0,16120.0,Low income,conflict,,False
+CMR,2014,CMR_2014,MICS,Cameroon,1.0,969.0,Lower middle income,conflict,"['https://catalog.ihsn.org/index.php/catalog/7238/download/86269', 'https://catalog.ihsn.org/index.php/catalog/7238/download/86273', 'https://microdata.worldbank.org/index.php/catalog/2895/download/40773', 'https://catalog.ihsn.org/index.php/catalog/7238/download/86268', 'https://catalog.ihsn.org/index.php/catalog/7238/download/86272', 'https://microdata.worldbank.org/index.php/catalog/2895/download/40772']",True
+BDI,2005,BDI_2005,MICS,Burundi,1.0,1643.0,Low income,conflict,['http://www.childinfo.org/files/MICS3_Burundi_FinalReport_2005_Fr.pdf'],True
+SLE,2000,SLE_2000,MICS,Sierra Leone,1.0,6822.0,Low income,conflict,,True
+MLI,2015,MLI_2015,MICS,Mali,1.0,1166.0,Low income,conflict,"['https://microdata.worldbank.org/index.php/catalog/3421/download/46200', 'https://microdata.worldbank.org/index.php/catalog/3421/download/46201']",True
+AFG,2003,AFG_2003,MICS,Afghanistan,1.0,6632.0,Low income,conflict,,True
+CAF,2006,CAF_2006,MICS,Central African Republic,1.0,46.0,Low income,conflict,['http://www.childinfo.org/files/MICS3_CAR_FinalReport_2006_Fr.pdf'],True
+SEN,2000,SEN_2000,MICS,Senegal,1.0,289.0,Lower middle income,conflict,,False
+PAK,2010,PAK_2010,MICS,Pakistan,1.0,16531.0,Lower middle income,conflict,"['http://www.childinfo.org/files/MICS4_Balochistan_2010_FinalReport.pdf', 'https://catalog.ihsn.org/index.php/catalog/2870/download/43640']",True
+MMR,2009,MMR_2009,MICS,Myanmar,1.0,587.0,Lower middle income,conflict,['http://www.childinfo.org/files/MICS3_Myanmar_FinalReport.pdf'],True
+TCD,2010,TCD_2010,MICS,Chad,1.0,1130.0,Low income,conflict,"['https://catalog.ihsn.org/index.php/catalog/4309/download/56387', 'https://microdata.worldbank.org/index.php/catalog/1969/download/30141']",True
+SOM,2011,SOM_2011,MICS,"Somalia, Fed. Rep.",1.0,5564.0,Low income,conflict,"['https://mics-surveys-prod.s3.amazonaws.com/MICS4/Eastern%20and%20Southern%20Africa/Somalia%20%28Northeast%20Zone%29/2011/Final/Somalia%20%28Northeast%20Zone%29%202011%20MICS_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS4/Eastern%20and%20Southern%20Africa/Somalia%20%28Northeast%20Zone%29/2011/Final/Somalia%20%28Northeast%20Zone%29%202011%20MICS_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS4/Eastern%20and%20Southern%20Africa/Somalia%20%28Somaliland%29/2011/Final/Somalia%20%28Somaliland%29%202011%20MICS_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS4/Eastern%20and%20Southern%20Africa/Somalia%20%28Somaliland%29/2011/Final/Somalia%20%28Somaliland%29%202011%20MICS_English.pdf']",True
+COD,2010,COD_2010,MICS,"Congo, Dem. Rep.",1.0,3028.0,Low income,conflict,"['http://www.childinfo.org/files/MICS-RDC_2010_Final_Report_FR.pdf', 'https://catalog.ihsn.org/index.php/catalog/2871/download/43675', 'http://www.childinfo.org/files/MICS-RDC_2010_Summary_Report_FR.pdf', 'https://catalog.ihsn.org/index.php/catalog/2871/download/43676']",True
+LBN,2000,LBN_2000,MICS,Lebanon,1.0,120.0,Lower middle income,conflict,['http://www.childinfo.org/files/lebanon.pdf'],False
+IRQ,2011,IRQ_2011,MICS,Iraq,1.0,3206.0,Upper middle income,conflict,"['https://catalog.ihsn.org/index.php/catalog/2884/download/43847', 'https://microdata.worldbank.org/index.php/catalog/1989/download/30394']",True
+BDI,2000,BDI_2000,MICS,Burundi,1.0,3153.0,Low income,conflict,,False
+AFG,2010,AFG_2010,MICS,Afghanistan,1.0,18757.0,Low income,conflict,"['http://www.childinfo.org/files/Afghanistan_2001-11_MICS_Final_Report.pdf', 'http://www.childinfo.org/files/Afghanistan_2001-11_MICS_Final_Report.pdf']",True
+CAF,2010,CAF_2010,MICS,Central African Republic,1.0,135.0,Low income,conflict,"['https://catalog.ihsn.org/index.php/catalog/4742/download/59721', 'https://microdata.worldbank.org/index.php/catalog/2000/download/30585']",True
+RWA,2000,RWA_2000,MICS,Rwanda,1.0,1095.0,Low income,conflict,,False
+DZA,2012,DZA_2012,MICS,Algeria,1.0,759.0,Upper middle income,conflict,"['https://catalog.ihsn.org/index.php/catalog/8134/download/88559', 'https://microdata.worldbank.org/index.php/catalog/3482/download/46737']",True
+NGA,2011,NGA_2011,MICS,Nigeria,1.0,730.0,Lower middle income,conflict,,True
+MLI,2009,MLI_2009,MICS,Mali,1.0,277.0,Low income,conflict,,True
+TCD,2000,TCD_2000,MICS,Chad,1.0,1417.0,Low income,conflict,,False
+COD,2001,COD_2001,MICS,"Congo, Dem. Rep.",1.0,5256.0,Low income,conflict,,False
+BOL,2008,BO2008DHS,DHS,Bolivia,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR228/FR228[08Feb2010].pdf,True
+TZA,2004,TZ2004DHS,DHS,Tanzania,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR173/FR173-TZ04-05.pdf,True
+GHA,2014,GH2014DHS,DHS,Ghana,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR307/FR307.pdf,True
+SWZ,2006,SZ2006DHS,DHS,Eswatini,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR202/FR202.pdf,True
+RWA,2007,RW2008DHS,DHS,Rwanda,0.0,0.0,Low income,comparison,,False
+SEN,2008,SN2008MIS,DHS,Senegal,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/MIS5/MIS5[revised30Sep2009].pdf,True
+TGO,2013,TG2013DHS,DHS,Togo,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR301/FR301.pdf,True
+SLE,2013,SL2013DHS,DHS,Sierra Leone,0.0,0.0,Low income,comparison,https://www.dhsprogram.com/pubs/pdf/FR297/FR297.pdf,True
+MDG,2021,MD2021DHS,DHS,Madagascar,0.0,0.0,Low income,comparison,https://www.dhsprogram.com/pubs/pdf/FR376/FR376.pdf,True
+MWI,2015,MW2015DHS,DHS,Malawi,0.0,0.0,Low income,comparison,https://www.dhsprogram.com/pubs/pdf/FR319/FR319.pdf,True
+ZWE,2023,ZW2023DHS,DHS,Zimbabwe,0.0,0.0,Lower middle income,comparison,,False
+UGA,2011,UG2011DHS,DHS,Uganda,0.0,0.0,Low income,comparison,https://www.dhsprogram.com/pubs/pdf/FR264/FR264.pdf,True
+GIN,2005,GN2005DHS,DHS,Guinea,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR162/FR162-GN05.pdf,True
+SEN,2006,SN2006MIS,DHS,Senegal,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/MIS1/MIS1.pdf,True
+RWA,2023,RW2023MIS,DHS,Rwanda,0.0,4.0,Low income,comparison,https://www.dhsprogram.com/pubs/pdf/MIS46/MIS46.pdf,True
+SEN,2014,SN2014DHS,DHS,Senegal,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR305/FR305.pdf,True
+UGA,2011,UG2011AIS,DHS,Uganda,0.0,0.0,Low income,comparison,https://www.dhsprogram.com/pubs/pdf/AIS10/AIS10.pdf,True
+HND,2011,HN2011DHS,DHS,Honduras,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR274/FR274.pdf,True
+KEN,2008,KE2008DHS,DHS,Kenya,0.0,1.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR229/FR229.pdf,True
+MAR,2003,MA2003DHS,DHS,Morocco,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR155/FR155.pdf,True
+GHA,2008,GH2008DHS,DHS,Ghana,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR221/FR221[13Aug2012].pdf,True
+MDG,2003,MD2004DHS,DHS,Madagascar,0.0,0.0,Low income,comparison,https://www.dhsprogram.com/pubs/pdf/FR158/FR158.pdf,True
+MDG,2008,MD2008DHS,DHS,Madagascar,0.0,0.0,Low income,comparison,https://www.dhsprogram.com/pubs/pdf/FR236/FR236.pdf,True
+NGA,2008,NG2008DHS,DHS,Nigeria,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR222/FR222.pdf,True
+SEN,2020,SN2020MIS,DHS,Senegal,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/MIS38/MIS38.pdf,True
+UGA,2016,UG2016DHS,DHS,Uganda,0.0,0.0,Low income,comparison,https://www.dhsprogram.com/pubs/pdf/FR333/FR333.pdf,True
+GHA,2022,GH2022DHS,DHS,Ghana,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR387/FR387.pdf,True
+HTI,2000,HT2000DHS,DHS,Haiti,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR121/FR121.pdf,True
+MWI,2017,MW2017MIS,DHS,Malawi,0.0,0.0,Low income,comparison,https://www.dhsprogram.com/pubs/pdf/MIS28/MIS28.pdf,True
+CMR,2011,CM2011DHS,DHS,Cameroon,0.0,0.0,Lower middle income,comparison,https://www.dhsprogram.com/pubs/pdf/FR260/FR260.pdf,True
+KIR,2018,KIR_2018,MICS,Kiribati,0.0,0.0,Lower middle income,comparison,,True
+PRK,2000,PRK_2000,MICS,"Korea, Dem. People's Rep.",0.0,0.0,Low income,comparison,['https://mics-surveys-prod.s3.amazonaws.com/MICS2/East%20Asia%20and%20the%20Pacific/Korea%2C%20Democratic%20People%27s%20Republic%20of/2000/Final/Korea%2C%20Democratic%20People%27s%20Republic%20of%202000%20MICS_English.pdf'],False
+MRT,2011,MRT_2011,MICS,Mauritania,0.0,1.0,Lower middle income,comparison,['https://catalog.ihsn.org/index.php/catalog/5872/download/78079'],True
+MDG,2012,MDG_2012,MICS,Madagascar,0.0,0.0,Low income,comparison,"['https://catalog.ihsn.org/index.php/catalog/8314/download/89125', 'https://microdata.worldbank.org/index.php/catalog/3484/download/46747']",True
+KEN,2000,KEN_2000,MICS,Kenya,0.0,18.0,Lower middle income,comparison,,True
+LSO,2018,LSO_2018,MICS,Lesotho,0.0,0.0,Lower middle income,comparison,,True
+TUN,2006,TUN_2006,MICS,Tunisia,0.0,0.0,Lower middle income,comparison,,False
+BGD,2012,BGD_2012,MICS,Bangladesh,0.0,0.0,Lower middle income,comparison,"['https://mics-surveys-prod.s3.amazonaws.com/MICS5/South%20Asia/Bangladesh/2012-2013/Final/Bangladesh%202012-13%20MICS%20Final%20Report_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/South%20Asia/Bangladesh/2012-2013/Final/Bangladesh%202012-13%20MICS%20Final%20Report_English.pdf']",True
+GHA,2010,GHA_2010,MICS,Ghana,0.0,0.0,Lower middle income,comparison,"['https://catalog.ihsn.org/index.php/catalog/2890/download/43957', 'https://mics-surveys-prod.s3.amazonaws.com/MICS4/West%20and%20Central%20Africa/Ghana%20%28Accra%29/2010-2011/Final/Ghana%20%28Accra%29%202010-11%20MICS_English.pdf']",True
+GNB,2006,GNB_2006,MICS,Guinea-Bissau,0.0,0.0,Low income,comparison,['http://www.childinfo.org/files/MICS3_GuineaBissau_FinalReport_2006_Fr.pdf'],True
+MWI,2019,MWI_2019,MICS,Malawi,0.0,0.0,Low income,comparison,,True
+PRK,2017,PRK_2017,MICS,"Korea, Dem. People's Rep.",0.0,0.0,Low income,comparison,,False
+LBN,2011,LBN_2011,MICS,Lebanon,0.0,0.0,Lower middle income,comparison,"['https://catalog.ihsn.org/index.php/catalog/4725/download/59620', 'https://microdata.worldbank.org/index.php/catalog/1994/download/30466']",True
+HND,2019,HND_2019,MICS,Honduras,0.0,0.0,Lower middle income,comparison,,False
+SWZ,2000,SWZ_2000,MICS,Eswatini,0.0,0.0,Lower middle income,comparison,,False
+BFA,2006,BFA_2006,MICS,Burkina Faso,0.0,0.0,Low income,comparison,['http://www.childinfo.org/files/MICS3_BurkinaFaso_FinalReport_2006_Fr.pdf'],True
+ZWE,2019,ZWE_2019,MICS,Zimbabwe,0.0,0.0,Lower middle income,comparison,,True
+TJK,2005,TJK_2005,MICS,Tajikistan,0.0,0.0,Lower middle income,comparison,"['http://www.childinfo.org/files/MICS3_Tajikistan_FinalReport_2005_Eng.pdf', 'http://www.childinfo.org/files/MICS3_Tajikistan_FinalReport_2005_Eng.pdf', 'http://www.childinfo.org/files/MICS3_Tajikistan_FinalReport_2005_Rus.pdf', 'http://www.childinfo.org/files/MICS3_Tajikistan_FinalReport_2005_Rus.pdf', 'http://www.childinfo.org/files/MICS3_Tajikistan_FinalReport_2005_Taj.pdf', 'http://www.childinfo.org/files/MICS3_Tajikistan_FinalReport_2005_Taj.pdf']",True
+KGZ,2005,KGZ_2005,MICS,Kyrgyz Republic,0.0,0.0,Lower middle income,comparison,"['http://www.childinfo.org/files/MICS3_Kyrgyzstan_FinalReport_2005-06_Eng.pdf', 'http://www.childinfo.org/files/MICS3_Kyrgyzstan_FinalReport_2005-06_Eng.pdf', 'http://www.childinfo.org/files/MICS3_Kyrgyzstan_FinalReport_2005-06_Rus.pdf', 'https://catalog.ihsn.org/index.php/catalog/2366/download/37374', 'https://microdata.worldbank.org/index.php/catalog/19/download/193']",True
+GNB,2018,GNB_2018,MICS,Guinea-Bissau,0.0,0.0,Low income,comparison,,True
+EGY,2013,EGY_2013,MICS,"Egypt, Arab Rep.",0.0,0.0,Lower middle income,comparison,"['https://mics-surveys-prod.s3.amazonaws.com/MICS5/Middle%20East%20and%20North%20Africa/Egypt%20%28Sub-national%29/2013-2014/Final/Egypt%20%28Sub-national%29%202013-14%20MICS_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS5/Middle%20East%20and%20North%20Africa/Egypt%20%28Sub-national%29/2013-2014/Final/Egypt%20%28Sub-national%29%202013-14%20MICS_English.pdf']",True
+GIN,2016,GIN_2016,MICS,Guinea,0.0,0.0,Lower middle income,comparison,"['https://catalog.ihsn.org/index.php/catalog/8181/download/88725', 'https://microdata.worldbank.org/index.php/catalog/3483/download/46742']",True
+SLE,2005,SLE_2005,MICS,Sierra Leone,0.0,0.0,Low income,comparison,,True
+TUN,2011,TUN_2011,MICS,Tunisia,0.0,0.0,Lower middle income,comparison,,True
+ZWE,2009,ZWE_2009,MICS,Zimbabwe,0.0,0.0,Lower middle income,comparison,"['https://mics-surveys-prod.s3.amazonaws.com/MICS3/Eastern%20and%20Southern%20Africa/Zimbabwe/2009/Final/Zimbabwe%202009%20MICS_English.pdf', 'https://mics-surveys-prod.s3.amazonaws.com/MICS3/Eastern%20and%20Southern%20Africa/Zimbabwe/2009/Final/Zimbabwe%202009%20MICS_English.pdf']",True
+NER,2000,NER_2000,MICS,Niger,0.0,0.0,Low income,comparison,,False
+SYR,2006,SYR_2006,MICS,Syrian Arab Republic,0.0,1.0,Low income,comparison,"['http://www.childinfo.org/files/MICS3_Palestinians_in_Syria_FinalReport_2006_Ar.pdf', 'http://www.childinfo.org/files/MICS3_Syria_FinalReport_2006_Ar.pdf', 'http://www.childinfo.org/files/MICS3_Syria_FinalReport_2006_Ar.pdf', 'http://www.childinfo.org/files/MICS3_Syria_FinalReport_2006_Eng.pdf', 'http://www.childinfo.org/files/MICS3_Syria_FinalReport_2006_Eng.pdf']",True
+CAF,2000,CAF_2000,MICS,Central African Republic,0.0,0.0,Low income,comparison,,False
+GMB,2010,GMB_2010,MICS,"Gambia, The",0.0,0.0,Low income,comparison,['https://catalog.ihsn.org/index.php/catalog/6776/download/81358'],True
+GNB,2014,GNB_2014,MICS,Guinea-Bissau,0.0,0.0,Low income,comparison,"['https://catalog.ihsn.org/index.php/catalog/6980/download/82623', 'https://microdata.worldbank.org/index.php/catalog/2781/download/39540']",True

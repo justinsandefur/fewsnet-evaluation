@@ -4,6 +4,24 @@
 ("How Much Does Early Warning Improve Famine Response?"). That chat now focuses only on the FEWS NET
 evaluation; use this file to start or continue the companion piece in another chat.*
 
+
+## Status, 14 October 2026 (later)
+
+- `output/cgd_paper/ipc_surveys_draft.tex` is now a standalone paper: "Counting Hunger, Missing Deaths: What Food Insecurity Phases Tell Us About Malnutrition and Mortality" (26 pp, compiles clean).
+- New sections:
+  - why the link is weak (health breakdown, what kills);
+  - where surveys don't go (survey timing + exclusions, from `side_survey_selection/`);
+  - old debates;
+  - implications (IPC, not FEWS NET).
+- New macro files:
+  - `numbers_gaps.tex` (from `side_survey_selection/code/07_numbers_tex.py`);
+  - `numbers_fts.tex` (from `code/71_fts_cluster_shares.py`, FTS funding by cluster 2015–24).
+- New figure `fig12_survey_exclusions.pdf` (from `side_survey_selection/code/06_exclusions.py`).
+- Literature on old debates: `references/lit_old_debates.md`. Its 48 new BibTeX entries were appended to `references.bib`. The bib has case-duplicate keys (e.g. `checchi2022sae`/`Checchi2022SAE`); cite the first-defined one.
+- Still open:
+  - items 1, 2 and 6 above;
+  - Charles wants the "target downstream outcomes / deaths wherever they happen" proposal reviewed by practitioners before it is pushed hard.
+
 ## The question
 
 What do IPC / FEWS NET acute food insecurity phases actually measure? We compare them with outcomes measured
