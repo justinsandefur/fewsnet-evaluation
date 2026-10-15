@@ -1,0 +1,795 @@
+name,stata,py_text,status,source
+aidAllFourCurPool,27.03117832520321,27,not in paper,results_06.csv
+aidAllFourCurPoolCi_hi,62.32659806079446,62,not in paper,results_06.csv
+aidAllFourCurPoolCi_lo,-.5897957607292947,-1,not in paper,results_06.csv
+aidAllFourCurWithin,3.709758999175761,4,not in paper,results_06.csv
+aidAllFourCurWithinCi_hi,22.98436662715411,23,not in paper,results_06.csv
+aidAllFourCurWithinCi_lo,-12.54405412132822,-13,not in paper,results_06.csv
+aidAllFourFcWithin,3.877299897648179,4,not in paper,results_06.csv
+aidAllFourFcWithinCi_hi,21.62546394703497,22,not in paper,results_06.csv
+aidAllFourFcWithinCi_lo,-11.28096794989456,-11,not in paper,results_06.csv
+aidAllThreeCurPool,11.11664965449119,11,not in paper,results_06.csv
+aidAllThreeCurPoolCi_hi,25.68319120857381,26,not in paper,results_06.csv
+aidAllThreeCurPoolCi_lo,-1.761645994896877,-2,not in paper,results_06.csv
+aidAllThreeCurWithin,-1.042999088324681,-1,not in paper,results_06.csv
+aidAllThreeCurWithinCi_hi,7.012301170286173,7,not in paper,results_06.csv
+aidAllThreeCurWithinCi_lo,-8.491940437289047,-8,not in paper,results_06.csv
+aidAllThreeFcPool,25.75797879098112,26,not in paper,results_06.csv
+aidAllThreeFcPoolCi_hi,45.73288706028828,46,not in paper,results_06.csv
+aidAllThreeFcPoolCi_lo,8.520935449870827,9,not in paper,results_06.csv
+aidAllThreeFcWithin,10.47681410079975,10,not in paper,results_06.csv
+aidAllThreeFcWithinCi_hi,18.98036679599402,19,not in paper,results_06.csv
+aidAllThreeFcWithinCi_lo,2.581012166400565,3,not in paper,results_06.csv
+aidFoodFourCurPool,38.46205008429664,38,not in paper,results_06.csv
+aidFoodFourCurPoolCi_hi,94.14068339592801,94,not in paper,results_06.csv
+aidFoodFourCurPoolCi_lo,-1.248213521286134,-1,not in paper,results_06.csv
+aidFoodFourCurWithin,6.958682959926676,7,not in paper,results_06.csv
+aidFoodFourCurWithinCi_hi,37.75502127170212,38,not in paper,results_06.csv
+aidFoodFourCurWithinCi_lo,-16.9528649125753,-17,not in paper,results_06.csv
+aidFoodFourFcPool,118.1678017974791,118,not in paper,results_06.csv
+aidFoodFourFcPoolCi_hi,184.4338485942408,184,not in paper,results_06.csv
+aidFoodFourFcPoolCi_lo,67.34010377591846,67,not in paper,results_06.csv
+aidFoodFourFcWithin,4.001014562639904,4,not in paper,results_06.csv
+aidFoodFourFcWithinCi_hi,37.63626816189043,38,not in paper,results_06.csv
+aidFoodFourFcWithinCi_lo,-21.41452849232876,-21,not in paper,results_06.csv
+aidFoodThreeCurPool,19.75478136202962,20,not in paper,results_06.csv
+aidFoodThreeCurPoolCi_hi,42.67183324358805,43,not in paper,results_06.csv
+aidFoodThreeCurPoolCi_lo,.5188433696111883,1,not in paper,results_06.csv
+aidFoodThreeCurWithinCi_hi,11.92498159411888,12,not in paper,results_06.csv
+aidFoodThreeCurWithinCi_lo,-13.77746809298465,-14,not in paper,results_06.csv
+aidFoodThreeFcPool,44.76917913724352,45,not in paper,results_06.csv
+aidFoodThreeFcPoolCi_hi,81.59403039854922,82,not in paper,results_06.csv
+aidFoodThreeFcPoolCi_lo,15.41191735253618,15,not in paper,results_06.csv
+bootOffAllProj,.0135067533766883,0.014,not in paper,results_04.csv
+bootOffNewProj,.0055027513756878,0.006,not in paper,results_04.csv
+contribRawCurSe,.0232891691961798,0.02,not in paper,results_03.csv
+contribRawFcSe,.0191484505376174,0.02,not in paper,results_03.csv
+contribRawIPCCurSe,.0201114797701672,0.02,not in paper,results_03.csv
+contribRawIPCFcSe,.0230847259842721,0.02,not in paper,results_03.csv
+flagIpcPlacebo,.2156547858024493,0.22,not in paper,results_08.csv
+flagIpcSe,.0884666045122438,0.09,not in paper,results_08.csv
+flagOwnSe,.0683330717169111,0.07,not in paper,results_08.csv
+hetAllDiff,-.4879740893731824,-0.49,not in paper,results_06.csv
+hetFoodDiff,-1.799740703232081,-1.80,not in paper,results_06.csv
+ipcGrossMid,561.6128853637728,562,not in paper,results_10.csv
+moneyRawAllBaseCi_hi,17.6336723244541,18,not in paper,results_03.csv
+moneyRawAllBaseCi_lo,-9.592025020219019,-10,not in paper,results_03.csv
+moneyRawFoodBaseCi_hi,46.27857503971835,46,not in paper,results_03.csv
+moneyRawFoodBaseCi_lo,-17.03262510222209,-17,not in paper,results_03.csv
+moneyRawIPCAllBase,6.980073830926559,7,not in paper,results_03.csv
+moneyRawIPCAllBaseCi_hi,20.69429534846325,21,not in paper,results_03.csv
+moneyRawIPCAllBaseCi_lo,-5.175831518567142,-5,not in paper,results_03.csv
+moneyRawIPCAllContrib,10.75519795675923,11,not in paper,results_03.csv
+moneyRawIPCAllContribCi_hi,18.79547969660777,19,not in paper,results_03.csv
+moneyRawIPCAllContribCi_lo,3.259096270067952,3,not in paper,results_03.csv
+moneyRawIPCFoodBase,17.73956114944357,18,not in paper,results_03.csv
+moneyRawIPCFoodBaseCi_hi,51.3091966778652,51,not in paper,results_03.csv
+moneyRawIPCFoodBaseCi_lo,-8.382275737166079,-8,not in paper,results_03.csv
+moneyRawIPCFoodContrib,30.84353341205843,31,not in paper,results_03.csv
+moneyRawIPCFoodContribCi_hi,57.19912942177226,57,not in paper,results_03.csv
+moneyRawIPCFoodContribCi_lo,8.906647884917017,9,not in paper,results_03.csv
+pvEscBase,.7114562429927159,0.711,not in paper,results_05.csv
+pvEscBoth,.7187094590185396,0.719,not in paper,results_05.csv
+pvEscFc,.8230625509503224,0.823,not in paper,results_05.csv
+pvEscFews,.7230562400828987,0.723,not in paper,results_05.csv
+pvEscRaw,.7142117244749907,0.714,not in paper,results_05.csv
+pvEscRawBoth,.7144003928360622,0.714,not in paper,results_05.csv
+pvEscRawMap,.816532373501669,0.817,not in paper,results_05.csv
+pvEscWfp,.7378408495871723,0.738,not in paper,results_05.csv
+pvNewBase,.844366273177256,0.844,not in paper,results_05.csv
+pvNewBoth,.8461687801778764,0.846,not in paper,results_05.csv
+pvNewFc,.9001835820304518,0.900,not in paper,results_05.csv
+pvNewFews,.8454822692047984,0.845,not in paper,results_05.csv
+pvNewWfp,.8437319320886394,0.844,not in paper,results_05.csv
+subSdAidShare,13.74455246396245,14,not in paper,results_09.csv
+subSdAny,-.028466085465677,-0.03,not in paper,results_09.csv
+subSdAnyPct,-2.846608546567701,-3,not in paper,results_09.csv
+subSdAnySe,.030083402844223,0.03,not in paper,results_09.csv
+subSdBase,1.055807948149989,1.06,not in paper,results_09.csv
+subSdBaseSe,.6529070697542909,0.65,not in paper,results_09.csv
+subSdContrib,.0168680016239946,0.02,not in paper,results_09.csv
+subSdContribSe,.2869430901970849,0.29,not in paper,results_09.csv
+subSdFc,-.3249188643472524,-0.32,not in paper,results_09.csv
+subSdFcSe,.3764307421515374,0.38,not in paper,results_09.csv
+subSdFlagAid,-.0019933839193761,-0.002,not in paper,results_09.csv
+subSdFlagAidSe,.0010928558651756,0.001,not in paper,results_09.csv
+subSdFlagMean,14.04188179667823,,not in paper,results_09.csv
+subSdFlagPersistSe,.0407451705334604,0.04,not in paper,results_09.csv
+subSdFlagReach,-.0003686737958358,0.000,not in paper,results_09.csv
+subSdFlagReachPc,3.87406245640e-14,0.000,not in paper,results_09.csv
+subSdFlagReachPcSe,2.11768473001e-13,0.000,not in paper,results_09.csv
+subSdFlagReachSd,.5541953421508446,,not in paper,results_09.csv
+subSdFlagReachSe,.0021709090228934,0.002,not in paper,results_09.csv
+subSdPlac,.1987853183082044,0.20,not in paper,results_09.csv
+subSdPlacSe,.2791109077784695,0.28,not in paper,results_09.csv
+subSdPres,.3859717455770765,0.39,not in paper,results_09.csv
+subSdPresSe,.3959219726882954,0.40,not in paper,results_09.csv
+subSdReach,-.2046009934408994,-0.20,not in paper,results_09.csv
+subSdReachSe,.3826729149518004,0.38,not in paper,results_09.csv
+subSoAny,.0800528059202469,0.08,not in paper,results_09.csv
+subSoAnySe,.0282003545117685,0.03,not in paper,results_09.csv
+subSoFlagAid,.0044093373443192,0.004,not in paper,results_09.csv
+subSoFlagAidSe,.0017282720579611,0.002,not in paper,results_09.csv
+subSoFlagPersist,.276329416818479,0.28,not in paper,results_09.csv
+subSoFlagPersistSe,.0215131528330179,0.02,not in paper,results_09.csv
+subSoFlagReach,.0119196805291517,0.012,not in paper,results_09.csv
+subSoFlagReachPc,.0956629355233918,0.096,not in paper,results_09.csv
+subSoFlagReachPcSe,.0163094446930209,0.016,not in paper,results_09.csv
+subSoFlagReachSe,.0210556849811804,0.021,not in paper,results_09.csv
+subSoPres,.2035261913486804,0.20,not in paper,results_09.csv
+subSoPresSe,.327068493401324,0.33,not in paper,results_09.csv
+vmHalfRatioAllHi,2.808974924738977,2.8,not in paper,results_11.csv
+vmRandRatioAllLo,1.30397944809861,1.3,not in paper,results_11.csv
+bootOffAllFews,.0010005002501251,0.003,p-value noise,results_04.csv
+bootOffNewFews,.0050025012506253,0.006,p-value noise,results_04.csv
+flagOwnP,.4204204204204204,0.43,p-value noise,results_08.csv
+accChanges,55.26348698196733,55,same,results_01.csv
+accForecast,83.73752833572642,84,same,results_01.csv
+accNaive,78.97081485922864,79,same,results_01.csv
+aidAllFourFcPool,76.32143261356931,76,same,results_06.csv
+aidAllFourFcPoolCi_hi,115.4648944612629,115,same,results_06.csv
+aidAllFourFcPoolCi_lo,44.28915520848715,44,same,results_06.csv
+aidFoodThreeCurWithin,-1.763269106250176,-2,same,results_06.csv
+aidFoodThreeFcWithin,24.76938164511158,25,same,results_06.csv
+aidFoodThreeFcWithinCi_hi,47.69611728902683,48,same,results_06.csv
+aidFoodThreeFcWithinCi_lo,5.401542585169206,5,same,results_06.csv
+amnAnyDiag,34.96846531184303,35,same,results_12.csv
+aucEvents,1009,"1,009",same,results_03.csv
+aucN,12776,"12,776",same,results_03.csv
+aucRaw,.7894938584102054,0.79,same,results_03.csv
+aucRawFews,.8512652718547492,0.85,same,results_03.csv
+aucRawFewsPct,85,85,same,results_03.csv
+aucRawIPC,.8420983056965932,0.84,same,results_03.csv
+aucRawIPCFews,.8606216188240036,0.86,same,results_03.csv
+aucRawPct,79,79,same,results_03.csv
+bcBetaOne,10.21521559825916,10,same,results_10.csv
+bcBetaThree,28.32953537059808,28,same,results_10.csv
+bcBudget,45,45,same,results_10.csv
+bcBudgetHigh,65,65,same,results_10.csv
+bcBudgetLow,35,35,same,results_10.csv
+bcDistinctHi,150000,"150,000",same,results_10.csv
+bcDistinctLo,46000,"46,000",same,results_10.csv
+bcFlaggedRounds,11671,"11,671",same,results_10.csv
+bcGrossCons,80.30514468360363,80,same,results_10.csv
+bcGrossCrisis,6.525449717645733,6.5,same,results_10.csv
+bcGrossMid,167.8477278940668,168,same,results_10.csv
+bcGrossUp,273.8175981576605,274,same,results_10.csv
+bcPeople,28.23617400329908,28,same,results_10.csv
+bcPhaseThree,41.57646405772967,42,same,results_10.csv
+bcPhaseTwo,50.40244240910352,50,same,results_10.csv
+bcShareOne,.2715480139869202,0.3,same,results_10.csv
+bcShareThree,.3194157349210974,0.3,same,results_10.csv
+bcShareTwo,.4485824276564329,0.4,same,results_10.csv
+bcSthreeCrisis,33.7597975428835,34,same,results_10.csv
+bcSthreeEmerg,59.58458616150155,60,same,results_10.csv
+bcSthreeStressed,10.08152409130432,10,same,results_10.csv
+calCdrHi,.25,0.25,same,results_10.csv
+calCdrLo,.07,0.07,same,results_10.csv
+calCdrMid,.15,0.15,same,results_10.csv
+calFamHi,1.9,1.9,same,results_10.csv
+calFamLo,.9000000000000001,0.9,same,results_10.csv
+calFamMid,1.5,1.5,same,results_10.csv
+calGamHi,2.5,2.5,same,results_10.csv
+calGamLo,.6,0.6,same,results_10.csv
+calGamMid,1.5,1.5,same,results_10.csv
+caseEtAreas,678,678,same,results_01.csv
+caseEtCurFour,9,9,same,results_01.csv
+caseEtFcFour,26,26,same,results_01.csv
+caseEtFlagShare,15.19174041297935,15,same,results_01.csv
+caseEtFlags,103,103,same,results_01.csv
+caseEtNextFour,24,24,same,results_01.csv
+caseEtRain,-1.093276957622871,-1.1,same,results_01.csv
+caseSoAreas,199,199,same,results_01.csv
+caseSoCurFour,16,16,same,results_01.csv
+caseSoFcFour,26,26,same,results_01.csv
+caseSoFlagShare,47.73869346733669,48,same,results_01.csv
+caseSoFlags,95,95,same,results_01.csv
+caseSoNextFour,29,29,same,results_01.csv
+caseSoRain,-.8429639375104746,-0.8,same,results_01.csv
+contribRawCur,.1266606000543239,0.13,same,results_03.csv
+contribRawFc,.1309577141708852,0.13,same,results_03.csv
+contribRawIPCCur,.1213292705791718,0.12,same,results_03.csv
+contribRawIPCFc,.0820693395187626,0.08,same,results_03.csv
+covCountries,70,70,same,results_01.csv
+covPfour,81.5079966708186,82,same,results_01.csv
+covPost,.0018865943766815,0.002,same,results_07.csv
+covPostSe,.0064179827727937,0.006,same,results_07.csv
+covPre,-.0095297889931838,-0.010,same,results_07.csv
+covPrePhase,.1296458529281945,0.130,same,results_07.csv
+covPrePhaseSe,.0542281732948467,0.054,same,results_07.csv
+covPreSe,.0191982524151334,0.019,same,results_07.csv
+covPthree,69.24947126206605,69,same,results_01.csv
+csAreaMonths,209404,"209,404",same,results_01.csv
+csAreas,16684,"16,684",same,results_01.csv
+csCountries,37,37,same,results_01.csv
+dCostBudgetHi,220000,"220,000",same,results_10.csv
+dCostBudgetLo,36000,"36,000",same,results_10.csv
+dCostCrisisHi,2700,"2,700",same,results_10.csv
+dCostCrisisLo,1600,"1,600",same,results_10.csv
+dCostEmergHi,1100,"1,100",same,results_10.csv
+dCostEmergLo,400,400,same,results_10.csv
+dCostWastHi,910000,"910,000",same,results_10.csv
+dCostWastLo,190000,"190,000",same,results_10.csv
+dCrisisHi,28000,"28,000",same,results_10.csv
+dCrisisLo,17000,"17,000",same,results_10.csv
+dDeathsHi,970,970,same,results_10.csv
+dDeathsLo,290,290,same,results_10.csv
+dEmergHi,110000,"110,000",same,results_10.csv
+dEmergLo,41000,"41,000",same,results_10.csv
+dShareHi,.4485824276564329,0.4,same,results_10.csv
+dShareLo,.2715480139869202,0.3,same,results_10.csv
+dWastHi,240,240,same,results_10.csv
+dWastLo,50,50,same,results_10.csv
+envBeta,28.32953537059808,28,same,results_11.csv
+envPmHi,9.645189226625153,9.6,same,results_11.csv
+envPmLo,4.233093177340833,4.2,same,results_11.csv
+envShareIpc,6.77965688731146,7,same,results_11.csv
+envSharePosRaw,16.18453708597459,16,same,results_11.csv
+envShareRaw,9.162701393026799,9,same,results_11.csv
+envUsdHi,369.994529786365,370,same,results_11.csv
+envUsdLo,273.7659839098019,274,same,results_11.csv
+famFlag,50,50,same,results_01.csv
+famMappedUnits,98,98,same,results_01.csv
+famRiskLeadSd,12,12,same,results_01.csv
+famRiskLeadSo,6,6,same,results_01.csv
+famWarn,6,6,same,results_01.csv
+fdwSlope,3.310249537820856,3.3,same,results_12.csv
+flagIpc,.1475221595990305,0.15,same,results_08.csv
+flagIpcP,.2642642642642642,0.26,same,results_08.csv
+flagOwn,.0852374682378419,0.09,same,results_08.csv
+flagOwnPlacebo,.2023880405689106,0.20,same,results_08.csv
+fsCorrFc,.0965869431844164,0.10,same,results_12.csv
+fsCorrLag,.6568573791501704,0.66,same,results_12.csv
+fsFcsOne,28.37202725355955,28,same,results_12.csv
+fsFcsThree,47.41802813894439,47,same,results_12.csv
+fsFoodCountries,29,29,same,results_12.csv
+fsN,329,329,same,results_12.csv
+ftsShareFews,55.78980062224118,56,same,results_01.csv
+ftsUsFoodShare,51.70249953583922,52,same,results_01.csv
+hetAllDiffSe,.5867603398394694,0.59,same,results_06.csv
+hetAllHigh,7.850581644852173,8,same,results_06.csv
+hetAllLow,13.24393115011859,13,same,results_06.csv
+hetFoodDiffSe,1.309498624729935,1.31,same,results_06.csv
+hetFoodHigh,15.94184940999879,16,same,results_06.csv
+hetFoodLow,38.80399603668741,39,same,results_06.csv
+hetShareHigh,32.19741480611046,32,same,results_06.csv
+ipcDeathsHi,12000,"12,000",same,results_10.csv
+ipcDeathsLo,3100,"3,100",same,results_10.csv
+ipcDistinctHi,15000,"15,000",same,results_10.csv
+ipcDistinctLo,3700,"3,700",same,results_10.csv
+ipcGrossCons,121.3878194176145,121,same,results_10.csv
+ipcGrossUp,819.5741686879379,820,same,results_10.csv
+maskInter,.008884553783043,0.009,same,results_03.csv
+maskInterSe,.0280711808254929,0.028,same,results_03.csv
+maskMappedHigh,.4932935783642257,0.49,same,results_03.csv
+maskMappedLow,.5024149081238183,0.50,same,results_03.csv
+maskNeedHigh,.4880692278013919,0.49,same,results_03.csv
+maskNeedLow,.5148227607324617,0.51,same,results_03.csv
+moneyRawAllBase,3.126243528449146,3,same,results_03.csv
+moneyRawAllContrib,11.8159488225019,12,same,results_03.csv
+moneyRawAllContribCi_hi,20.71234265235067,21,same,results_03.csv
+moneyRawAllContribCi_lo,3.575211418804281,4,same,results_03.csv
+moneyRawFoodBase,10.16510053021806,10,same,results_03.csv
+moneyRawFoodContrib,32.74971851348478,33,same,results_03.csv
+moneyRawFoodContribCi_hi,59.38317600867799,59,same,results_03.csv
+moneyRawFoodContribCi_lo,10.56680012732303,11,same,results_03.csv
+needEarly,-5.734629077612728,-6,same,results_02.csv
+needEarlySe,4.515650912033917,5,same,results_02.csv
+needHeld,54.74764756201882,55,same,results_02.csv
+needHeldSteady,77.890625,78,same,results_02.csv
+needOnsets,2338,"2,338",same,results_02.csv
+ngSlope,2.723411375661374,2.7,same,results_12.csv
+nsEscBase,8.687529191966371,8.7,same,results_05.csv
+obAvgCore,43.867088378,44,same,results_12.csv
+obAvgLong,36.97880446625,37,same,results_12.csv
+obMin,21.87955584,22,same,results_12.csv
+obPeak,63.33377322,63,same,results_12.csv
+obPillarOne,138.682426,139,same,results_12.csv
+offCoefAllFews,.1777693681824484,0.18,same,results_04.csv
+offCoefAllProj,.0556090941801504,0.06,same,results_04.csv
+offCoefNewFews,.1486371616399177,0.15,same,results_04.csv
+offCoefNewProj,.0542041842243732,0.05,same,results_04.csv
+offCountries,12,12,same,results_04.csv
+offCountriesAll,14,14,same,results_04.csv
+offFaEither,14.76544475775442,15,same,results_04.csv
+offFaFews,6.921302230197385,7,same,results_04.csv
+offFaOfficial,12.0225583183799,12,same,results_04.csv
+offHitEither,54.62555066079295,55,same,results_04.csv
+offHitFews,37.00440528634361,37,same,results_04.csv
+offHitOfficial,42.29074889867842,42,same,results_04.csv
+offHitOnlyFews,12.33480176211454,12,same,results_04.csv
+offN,4128,"4,128",same,results_04.csv
+offNall,6683,"6,683",same,results_04.csv
+offNew,227,227,same,results_04.csv
+offYears_hi,2025,2025,same,results_04.csv
+offYears_lo,2014,2014,same,results_04.csv
+outBefore,32,32,same,results_01.csv
+panelAreaRounds,190131,"190,131",same,results_01.csv
+panelAreas,16053,"16,053",same,results_01.csv
+panelCountries,28,28,same,results_01.csv
+prMarketsFews,881,881,same,results_05.csv
+predBaseSd,.2217051291803075,0.22,same,results_03.csv
+predBaseSdWithin,.0996792341970124,0.10,same,results_03.csv
+predContribSd,.1471960277158063,0.15,same,results_03.csv
+predContribSdWithin,.1450421168792772,0.15,same,results_03.csv
+predCountrySeason,61.18268837644271,61,same,results_03.csv
+predShocksWithin,4.755943745328101,5,same,results_03.csv
+pvNewRaw,.7250006847191069,0.725,same,results_05.csv
+pvNewRawBoth,.7272062661800672,0.727,same,results_05.csv
+pvNewRawMap,.900855494707504,0.901,same,results_05.csv
+shareChanges,21.02918514077136,21,same,results_01.csv
+shareWithIndependent,25.18263723432791,25,same,results_01.csv
+shockRsq,2.007887407339504,2.0,same,results_07.csv
+shockRsqRain,.059020517848507,0.06,same,results_07.csv
+spCdrSlope,-.0039303312365056,0.00,same,results_12.csv
+spCdrSlopeIpc,.1661199213041794,0.17,same,results_12.csv
+spSlope,1.760728054040185,1.8,same,results_12.csv
+subSdDistricts,192,192,same,results_09.csv
+subSdFlagPersist,.7185860700567069,0.72,same,results_09.csv
+subSdFlagPres,.0096308741411492,0.010,same,results_09.csv
+subSdFlagPresSe,.0029564309598942,0.003,same,results_09.csv
+subSdIvF,10.19680858964657,10,same,results_09.csv
+subSdPeriods,18,18,same,results_09.csv
+subSoAidShare,12.2031122031122,12,same,results_09.csv
+subSoAnyPct,8.00528059202469,8,same,results_09.csv
+subSoBase,2.816091696905596,2.82,same,results_09.csv
+subSoBaseSe,.6830043868407879,0.68,same,results_09.csv
+subSoContrib,-.0063977802587332,-0.01,same,results_09.csv
+subSoContribSe,.3237616015663516,0.32,same,results_09.csv
+subSoDistricts,74,74,same,results_09.csv
+subSoFc,1.09946495815584,1.10,same,results_09.csv
+subSoFcSe,.3700657733828905,0.37,same,results_09.csv
+subSoFlagMean,19.63901044869345,20,same,results_09.csv
+subSoFlagPres,.0090384354546081,0.009,same,results_09.csv
+subSoFlagPresSe,.0022740289448086,0.002,same,results_09.csv
+subSoFlagReachSd,16.85782442629968,17,same,results_09.csv
+subSoIvF,4.101087893029272,4,same,results_09.csv
+subSoPeriods,33,33,same,results_09.csv
+subSoPlac,.7227994069313026,0.72,same,results_09.csv
+subSoPlacSe,.251408888739134,0.25,same,results_09.csv
+subSoReach,1.687769328110832,1.69,same,results_09.csv
+subSoReachSe,.8052014971203505,0.81,same,results_09.csv
+tIIcontrolEmergency,1.280335774356936,1.3,same,results_01.csv
+tIIdotsExtreme,53.51089588377724,54,same,results_01.csv
+tIIearlyCrisis,42.11221122112211,42,same,results_01.csv
+tIIearlyCrisisPlus,89.24092409240924,89,same,results_01.csv
+tIIearlyEmergency,47.12871287128714,47,same,results_01.csv
+tIIearlyMiss,52.87128712871287,53,same,results_01.csv
+tIIearlyStressed,10.75907590759076,11,same,results_01.csv
+tIIepisodes,93,93,same,results_01.csv
+tIIleadeight,21.62645218945487,22,same,results_01.csv
+tIIleadfour,41.81957186544342,42,same,results_01.csv
+tIIleadfourCrisis,94.80122324159022,95,same,results_01.csv
+tIIleadone,63.06878306878308,63,same,results_01.csv
+tIInoWarning,4.367373153500321,4,same,results_01.csv
+tIIonsets,1562,"1,562",same,results_01.csv
+tIbetter,2.693437806072478,3,same,results_01.csv
+tIcame,46.49853085210578,46,same,results_01.csv
+tIfailFlagShare,56.8421052631579,57,same,results_01.csv
+tIfailed,53.50146914789422,54,same,results_01.csv
+tIflagShareOfCrisis,59.85542168674699,60,same,results_01.csv
+tIflagUnwarnedCrisis,11.8400407107417,12,same,results_01.csv
+tIflagged,30.41136141038198,30,same,results_01.csv
+tIflaggedAlreadyFlagged,48.47020933977456,48,same,results_01.csv
+tIunflagged,20.39666993143976,20,same,results_01.csv
+tIwarnings,4084,"4,084",same,results_01.csv
+tab_benefit_A1_costdeath_central,99000,99000.0,same,results_10.csv
+tab_benefit_A1_costdeath_high,87000,87000.0,same,results_10.csv
+tab_benefit_A1_costdeath_low,150000,150000.0,same,results_10.csv
+tab_benefit_A1_costemerg,1100,1100.0,same,results_10.csv
+tab_benefit_A1_costwast_hi,680000,680000.0,same,results_10.csv
+tab_benefit_A1_costwast_lo,270000,270000.0,same,results_10.csv
+tab_benefit_A1_deaths_central,460,460.0,same,results_10.csv
+tab_benefit_A1_deaths_high,520,520.0,same,results_10.csv
+tab_benefit_A1_deaths_low,290,290.0,same,results_10.csv
+tab_benefit_A1_emerg,41000,41000.0,same,results_10.csv
+tab_benefit_A1_share,.2715480139869202,0.3,same,results_10.csv
+tab_benefit_A1_wast_hi,160,160.0,same,results_10.csv
+tab_benefit_A1_wast_lo,66,66.0,same,results_10.csv
+tab_benefit_A2_costdeath_central,60000,60000.0,same,results_10.csv
+tab_benefit_A2_costdeath_high,46000,46000.0,same,results_10.csv
+tab_benefit_A2_costdeath_low,100000,100000.0,same,results_10.csv
+tab_benefit_A2_costemerg,800,800.0,same,results_10.csv
+tab_benefit_A2_costwast_hi,380000,380000.0,same,results_10.csv
+tab_benefit_A2_costwast_lo,120000,120000.0,same,results_10.csv
+tab_benefit_A2_deaths_central,750,750.0,same,results_10.csv
+tab_benefit_A2_deaths_high,970,970.0,same,results_10.csv
+tab_benefit_A2_deaths_low,440,440.0,same,results_10.csv
+tab_benefit_A2_emerg,56000,56000.0,same,results_10.csv
+tab_benefit_A2_share,.4485824276564329,0.4,same,results_10.csv
+tab_benefit_A2_wast_hi,370,370.0,same,results_10.csv
+tab_benefit_A2_wast_lo,120,120.0,same,results_10.csv
+tab_benefit_A3_costdeath_central,84000,84000.0,same,results_10.csv
+tab_benefit_A3_costdeath_high,120000,120000.0,same,results_10.csv
+tab_benefit_A3_costdeath_low,110000,110000.0,same,results_10.csv
+tab_benefit_A3_costemerg,400,400.0,same,results_10.csv
+tab_benefit_A3_costwast_hi,2800000,2800000.0,same,results_10.csv
+tab_benefit_A3_costwast_lo,750000,750000.0,same,results_10.csv
+tab_benefit_A3_deaths_central,540,540.0,same,results_10.csv
+tab_benefit_A3_deaths_high,380,380.0,same,results_10.csv
+tab_benefit_A3_deaths_low,420,420.0,same,results_10.csv
+tab_benefit_A3_emerg,110000,110000.0,same,results_10.csv
+tab_benefit_A3_share,.3194157349210974,0.3,same,results_10.csv
+tab_benefit_A3_wast_hi,60,60.0,same,results_10.csv
+tab_benefit_A3_wast_lo,16,16.0,same,results_10.csv
+tab_contribution_cur_c1,.2006619909652604,0.201,same,results_03.csv
+tab_contribution_cur_c3,.1266606000543239,0.127,same,results_03.csv
+tab_contribution_cur_c4,.1650118825148268,0.165,same,results_03.csv
+tab_contribution_cur_c6,.1213292705791718,0.121,same,results_03.csv
+tab_contribution_curse_c1,.0149964235710238,0.015,same,results_03.csv
+tab_contribution_curse_c3,.0232891691961798,0.023,same,results_03.csv
+tab_contribution_curse_c4,.0131302901907041,0.013,same,results_03.csv
+tab_contribution_curse_c6,.0201114797701672,0.020,same,results_03.csv
+tab_contribution_fc_c2,.1946164574016444,0.195,same,results_03.csv
+tab_contribution_fc_c3,.1309577141708852,0.131,same,results_03.csv
+tab_contribution_fc_c5,.1422489214041318,0.142,same,results_03.csv
+tab_contribution_fc_c6,.0820693395187626,0.082,same,results_03.csv
+tab_contribution_fcse_c2,.010767437790578,0.011,same,results_03.csv
+tab_contribution_fcse_c3,.0191484505376174,0.019,same,results_03.csv
+tab_contribution_fcse_c5,.016227457135486,0.016,same,results_03.csv
+tab_contribution_fcse_c6,.0230847259842721,0.023,same,results_03.csv
+tab_contribution_g_c1,21,21,same,results_03.csv
+tab_contribution_g_c2,21,21,same,results_03.csv
+tab_contribution_g_c3,21,21,same,results_03.csv
+tab_contribution_g_c4,21,21,same,results_03.csv
+tab_contribution_g_c5,21,21,same,results_03.csv
+tab_contribution_g_c6,21,21,same,results_03.csv
+tab_contribution_n_c1,12764,"12,764",same,results_03.csv
+tab_contribution_n_c2,12764,"12,764",same,results_03.csv
+tab_contribution_n_c3,12764,"12,764",same,results_03.csv
+tab_contribution_n_c4,12764,"12,764",same,results_03.csv
+tab_contribution_n_c5,12764,"12,764",same,results_03.csv
+tab_contribution_n_c6,12764,"12,764",same,results_03.csv
+tab_contribution_q_c1,.4189388648684002,0.42,same,results_03.csv
+tab_contribution_q_c2,.4189069201080127,0.42,same,results_03.csv
+tab_contribution_q_c3,.4392738042784832,0.44,same,results_03.csv
+tab_contribution_q_c4,.6817133687188267,0.68,same,results_03.csv
+tab_contribution_q_c5,.6799723625549224,0.68,same,results_03.csv
+tab_contribution_q_c6,.6801576363416282,0.68,same,results_03.csv
+tab_money_base_raw_all,3.078371705173865,3.1,same,results_06.csv
+tab_money_base_raw_all_se,6.715378608666514,6.7,same,results_06.csv
+tab_money_base_raw_food,9.680996846990366,9.7,same,results_06.csv
+tab_money_base_raw_food_se,14.46595395182614,14.5,same,results_06.csv
+tab_money_base_rawipc_all,6.7472405252431,6.7,same,results_06.csv
+tab_money_base_rawipc_all_se,6.153993504306924,6.2,same,results_06.csv
+tab_money_base_rawipc_food,16.3304890319903,16.3,same,results_06.csv
+tab_money_base_rawipc_food_se,12.7984860727939,12.8,same,results_06.csv
+tab_money_contrib_raw_all,11.16840195005365,11.2,same,results_06.csv
+tab_money_contrib_raw_all_se,3.905927362889036,3.9,same,results_06.csv
+tab_money_contrib_raw_food,28.32953537059818,28.3,same,results_06.csv
+tab_money_contrib_raw_food_se,9.328860987214336,9.3,same,results_06.csv
+tab_money_contrib_rawipc_all,10.21521559825913,10.2,same,results_06.csv
+tab_money_contrib_rawipc_all_se,3.575561966433676,3.6,same,results_06.csv
+tab_money_contrib_rawipc_food,26.88320219125136,26.9,same,results_06.csv
+tab_money_contrib_rawipc_food_se,9.362812961720815,9.4,same,results_06.csv
+tab_money_countries_all,37,37.0,same,results_06.csv
+tab_money_countries_food,37,37.0,same,results_06.csv
+tab_money_countries_raw_all,28,28.0,same,results_06.csv
+tab_money_countries_raw_food,28,28.0,same,results_06.csv
+tab_money_countries_rawipc_all,28,28.0,same,results_06.csv
+tab_money_countries_rawipc_food,28,28.0,same,results_06.csv
+tab_money_cur_all,-1.048476442943377,-1.0,same,results_06.csv
+tab_money_cur_all_se,3.992774005288384,4.0,same,results_06.csv
+tab_money_cur_food,-1.778999887594443,-1.8,same,results_06.csv
+tab_money_cur_food_se,6.655543498291979,6.7,same,results_06.csv
+tab_money_fc_all,9.963548581083771,10.0,same,results_06.csv
+tab_money_fc_all_se,3.783307285381632,3.8,same,results_06.csv
+tab_money_fc_food,22.12969004644876,22.1,same,results_06.csv
+tab_money_fc_food_se,8.60662321017861,8.6,same,results_06.csv
+tab_money_n_all,968,968.0,same,results_06.csv
+tab_money_n_food,967,967.0,same,results_06.csv
+tab_money_n_raw_all,851,851.0,same,results_06.csv
+tab_money_n_raw_food,850,850.0,same,results_06.csv
+tab_money_n_rawipc_all,851,851.0,same,results_06.csv
+tab_money_n_rawipc_food,850,850.0,same,results_06.csv
+tab_official_all_fewscur3_c5,.1265579875213698,0.127,same,results_04.csv
+tab_official_all_fewscur3se_c5,.0563083629016812,0.056,same,results_04.csv
+tab_official_all_fewsfc3_c2,.329413311302466,0.329,same,results_04.csv
+tab_official_all_fewsfc3_c3,.238655942536532,0.239,same,results_04.csv
+tab_official_all_fewsfc3_c4,.1777693681824484,0.178,same,results_04.csv
+tab_official_all_fewsfc3_c5,.1064361490012987,0.106,same,results_04.csv
+tab_official_all_fewsfc3se_c2,.0631668682654201,0.063,same,results_04.csv
+tab_official_all_fewsfc3se_c3,.0477026049683739,0.048,same,results_04.csv
+tab_official_all_fewsfc3se_c4,.0460992420638492,0.046,same,results_04.csv
+tab_official_all_fewsfc3se_c5,.0370570769799041,0.037,same,results_04.csv
+tab_official_all_g_c1,14,14,same,results_04.csv
+tab_official_all_g_c2,14,14,same,results_04.csv
+tab_official_all_g_c3,14,14,same,results_04.csv
+tab_official_all_g_c4,14,14,same,results_04.csv
+tab_official_all_g_c5,14,14,same,results_04.csv
+tab_official_all_last3_c4,.2746745702778626,0.275,same,results_04.csv
+tab_official_all_last3_c5,.2612684221384715,0.261,same,results_04.csv
+tab_official_all_last3se_c4,.0274681183541176,0.027,same,results_04.csv
+tab_official_all_last3se_c5,.0240544348518617,0.024,same,results_04.csv
+tab_official_all_n_c1,6683,"6,683",same,results_04.csv
+tab_official_all_n_c2,6683,"6,683",same,results_04.csv
+tab_official_all_n_c3,6683,"6,683",same,results_04.csv
+tab_official_all_n_c4,6559,"6,559",same,results_04.csv
+tab_official_all_n_c5,6559,"6,559",same,results_04.csv
+tab_official_all_proj3_c1,.2195521188078833,0.220,same,results_04.csv
+tab_official_all_proj3_c3,.1371623387227885,0.137,same,results_04.csv
+tab_official_all_proj3_c4,.0556090941801504,0.056,same,results_04.csv
+tab_official_all_proj3_c5,.05402478002405,0.054,same,results_04.csv
+tab_official_all_proj3se_c1,.0573004559681401,0.057,same,results_04.csv
+tab_official_all_proj3se_c3,.030489045202083,0.030,same,results_04.csv
+tab_official_all_proj3se_c4,.0178383879211928,0.018,same,results_04.csv
+tab_official_all_proj3se_c5,.0168394610645898,0.017,same,results_04.csv
+tab_official_new_fewscur3_c5,.0939078143565428,0.094,same,results_04.csv
+tab_official_new_fewscur3se_c5,.1099712972949506,0.110,same,results_04.csv
+tab_official_new_fewsfc3_c2,.1791371685998862,0.179,same,results_04.csv
+tab_official_new_fewsfc3_c3,.1486371616399177,0.149,same,results_04.csv
+tab_official_new_fewsfc3_c4,.1486371616399177,0.149,same,results_04.csv
+tab_official_new_fewsfc3_c5,.1041904680922352,0.104,same,results_04.csv
+tab_official_new_fewsfc3se_c2,.0353885393328919,0.035,same,results_04.csv
+tab_official_new_fewsfc3se_c3,.0328843202666036,0.033,same,results_04.csv
+tab_official_new_fewsfc3se_c4,.0328843202666036,0.033,same,results_04.csv
+tab_official_new_fewsfc3se_c5,.0410934582336389,0.041,same,results_04.csv
+tab_official_new_g_c1,12,12,same,results_04.csv
+tab_official_new_g_c2,12,12,same,results_04.csv
+tab_official_new_g_c3,12,12,same,results_04.csv
+tab_official_new_g_c4,12,12,same,results_04.csv
+tab_official_new_g_c5,12,12,same,results_04.csv
+tab_official_new_n_c1,4128,"4,128",same,results_04.csv
+tab_official_new_n_c2,4128,"4,128",same,results_04.csv
+tab_official_new_n_c3,4128,"4,128",same,results_04.csv
+tab_official_new_n_c4,4128,"4,128",same,results_04.csv
+tab_official_new_n_c5,4128,"4,128",same,results_04.csv
+tab_official_new_proj3_c1,.1037518699626069,0.104,same,results_04.csv
+tab_official_new_proj3_c3,.0542041842243732,0.054,same,results_04.csv
+tab_official_new_proj3_c4,.0542041842243732,0.054,same,results_04.csv
+tab_official_new_proj3_c5,.0555284575643212,0.056,same,results_04.csv
+tab_official_new_proj3se_c1,.0148286943307987,0.015,same,results_04.csv
+tab_official_new_proj3se_c3,.0144421165038337,0.014,same,results_04.csv
+tab_official_new_proj3se_c4,.0144421165038337,0.014,same,results_04.csv
+tab_official_new_proj3se_c5,.0144290158066076,0.014,same,results_04.csv
+tab_subnat_10_sd,-.0019933839193761,-0.002,same,results_09.csv
+tab_subnat_10_sd_se,.0010928558651756,0.001,same,results_09.csv
+tab_subnat_10_so,.0044093373443192,0.004,same,results_09.csv
+tab_subnat_10_so_se,.0017282720579611,0.002,same,results_09.csv
+tab_subnat_11_sd,.0096308741411492,0.01,same,results_09.csv
+tab_subnat_11_sd_se,.0029564309598942,0.003,same,results_09.csv
+tab_subnat_11_so,.0090384354546081,0.009,same,results_09.csv
+tab_subnat_11_so_se,.0022740289448086,0.002,same,results_09.csv
+tab_subnat_12_sd,-.0003686737958358,-0.0,same,results_09.csv
+tab_subnat_12_sd_se,.0021709090228934,0.002,same,results_09.csv
+tab_subnat_12_so,.0119196805291517,0.012,same,results_09.csv
+tab_subnat_12_so_se,.0210556849811804,0.021,same,results_09.csv
+tab_subnat_13_sd,-.0019566338543552,-0.002,same,results_09.csv
+tab_subnat_13_sd_se,.0011227678313016,0.001,same,results_09.csv
+tab_subnat_13_so,-.0016098321721186,-0.002,same,results_09.csv
+tab_subnat_13_so_se,.0015505275843982,0.002,same,results_09.csv
+tab_subnat_1_sd,-.3249188643472524,-0.325,same,results_09.csv
+tab_subnat_1_sd_se,.3764307421515374,0.376,same,results_09.csv
+tab_subnat_1_so,1.09946495815584,1.099,same,results_09.csv
+tab_subnat_1_so_se,.3700657733828905,0.37,same,results_09.csv
+tab_subnat_2_sd,-.5013892281413368,-0.501,same,results_09.csv
+tab_subnat_2_sd_se,.3788809445993535,0.379,same,results_09.csv
+tab_subnat_2_so,1.103842174823353,1.104,same,results_09.csv
+tab_subnat_2_so_se,.371982338591299,0.372,same,results_09.csv
+tab_subnat_3_sd,-.7792775360849982,-0.779,same,results_09.csv
+tab_subnat_3_sd_se,.4463639489652442,0.446,same,results_09.csv
+tab_subnat_3_so,1.424029834782164,1.424,same,results_09.csv
+tab_subnat_3_so_se,.468752850372617,0.469,same,results_09.csv
+tab_subnat_4_sd,1.055807948149989,1.056,same,results_09.csv
+tab_subnat_4_sd_se,.6529070697542909,0.653,same,results_09.csv
+tab_subnat_4_so,2.816091696905596,2.816,same,results_09.csv
+tab_subnat_4_so_se,.6830043868407879,0.683,same,results_09.csv
+tab_subnat_5_sd,.0168680016239946,0.017,same,results_09.csv
+tab_subnat_5_sd_se,.2869430901970849,0.287,same,results_09.csv
+tab_subnat_5_so,-.0063977802587332,-0.006,same,results_09.csv
+tab_subnat_5_so_se,.3237616015663516,0.324,same,results_09.csv
+tab_subnat_6_sd,.1987853183082044,0.199,same,results_09.csv
+tab_subnat_6_sd_se,.2791109077784695,0.279,same,results_09.csv
+tab_subnat_6_so,.7227994069313026,0.723,same,results_09.csv
+tab_subnat_6_so_se,.251408888739134,0.251,same,results_09.csv
+tab_subnat_7_sd,-.028466085465677,-0.028,same,results_09.csv
+tab_subnat_7_sd_se,.030083402844223,0.03,same,results_09.csv
+tab_subnat_7_so,.0800528059202469,0.08,same,results_09.csv
+tab_subnat_7_so_se,.0282003545117685,0.028,same,results_09.csv
+tab_subnat_8_sd,.3859717455770765,0.386,same,results_09.csv
+tab_subnat_8_sd_se,.3959219726882954,0.396,same,results_09.csv
+tab_subnat_8_so,.2035261913486804,0.204,same,results_09.csv
+tab_subnat_8_so_se,.327068493401324,0.327,same,results_09.csv
+tab_subnat_9_sd,-.2046009934408994,-0.205,same,results_09.csv
+tab_subnat_9_sd_se,.3826729149518004,0.383,same,results_09.csv
+tab_subnat_9_so,1.687769328110832,1.688,same,results_09.csv
+tab_subnat_9_so_se,.8052014971203505,0.805,same,results_09.csv
+tab_subnat_districts_sd,192,192.0,same,results_09.csv
+tab_subnat_districts_so,74,74.0,same,results_09.csv
+tab_subnat_periods_sd,18,18.0,same,results_09.csv
+tab_subnat_periods_so,33,33.0,same,results_09.csv
+tab_text_fc4_c1,.2446249735428148,0.245,same,results_05.csv
+tab_text_fc4_c2,.2422416779375578,0.242,same,results_05.csv
+tab_text_fc4_c3,.2451482724035351,0.245,same,results_05.csv
+tab_text_fc4_c4,.407802974920514,0.408,same,results_05.csv
+tab_text_fc4_c5,.4091828208914594,0.409,same,results_05.csv
+tab_text_fc4_c6,.4056982270547425,0.406,same,results_05.csv
+tab_text_fc4se_c1,.0402235685615508,0.040,same,results_05.csv
+tab_text_fc4se_c2,.0368742169728289,0.037,same,results_05.csv
+tab_text_fc4se_c3,.0361401290344471,0.036,same,results_05.csv
+tab_text_fc4se_c4,.0620966426731757,0.062,same,results_05.csv
+tab_text_fc4se_c5,.0622247011039006,0.062,same,results_05.csv
+tab_text_fc4se_c6,.0597975345509178,0.060,same,results_05.csv
+tab_text_fcflag_c1,.1171409754489298,0.117,same,results_05.csv
+tab_text_fcflag_c2,.1128542917700358,0.113,same,results_05.csv
+tab_text_fcflag_c3,.1142137595682708,0.114,same,results_05.csv
+tab_text_fcflag_c4,.2114990019239752,0.211,same,results_05.csv
+tab_text_fcflag_c5,.2074657665016323,0.207,same,results_05.csv
+tab_text_fcflag_c6,.1974716062108171,0.197,same,results_05.csv
+tab_text_fcflagse_c1,.0193240813131438,0.019,same,results_05.csv
+tab_text_fcflagse_c2,.0184297660857713,0.018,same,results_05.csv
+tab_text_fcflagse_c3,.0190443100027555,0.019,same,results_05.csv
+tab_text_fcflagse_c4,.0438622668799222,0.044,same,results_05.csv
+tab_text_fcflagse_c5,.0460551729173006,0.046,same,results_05.csv
+tab_text_fcflagse_c6,.0467525819453364,0.047,same,results_05.csv
+tab_text_flag_c1,.0329728093553866,0.033,same,results_05.csv
+tab_text_flag_c2,.0329938960644478,0.033,same,results_05.csv
+tab_text_flag_c3,.0350483179319366,0.035,same,results_05.csv
+tab_text_flag_c4,.2525602020086304,0.253,same,results_05.csv
+tab_text_flag_c5,.2498931415266746,0.250,same,results_05.csv
+tab_text_flag_c6,.24177970247983,0.242,same,results_05.csv
+tab_text_flagse_c1,.0326930575607592,0.033,same,results_05.csv
+tab_text_flagse_c2,.0357354454775256,0.036,same,results_05.csv
+tab_text_flagse_c3,.0364039108995523,0.036,same,results_05.csv
+tab_text_flagse_c4,.0357065415483304,0.036,same,results_05.csv
+tab_text_flagse_c5,.0365496986330773,0.037,same,results_05.csv
+tab_text_flagse_c6,.0362638158972786,0.036,same,results_05.csv
+tab_text_gany_c3,.0080164247224066,0.008,same,results_05.csv
+tab_text_gany_c6,-.0170313757351181,-0.017,same,results_05.csv
+tab_text_ganyse_c3,.0135492633398827,0.014,same,results_05.csv
+tab_text_ganyse_c6,.0261865080762768,0.026,same,results_05.csv
+tab_text_n_c1,8564,"8,564",same,results_05.csv
+tab_text_n_c2,8564,"8,564",same,results_05.csv
+tab_text_n_c3,8564,"8,564",same,results_05.csv
+tab_text_n_c4,8564,"8,564",same,results_05.csv
+tab_text_n_c5,8564,"8,564",same,results_05.csv
+tab_text_n_c6,8564,"8,564",same,results_05.csv
+tab_text_sany_c3,.0913029422223633,0.091,same,results_05.csv
+tab_text_sany_c6,.1267017315442013,0.127,same,results_05.csv
+tab_text_sanyse_c3,.029185991113387,0.029,same,results_05.csv
+tab_text_sanyse_c6,.0280981855474399,0.028,same,results_05.csv
+tab_text_sgam15_c3,-.1045707371944457,-0.105,same,results_05.csv
+tab_text_sgam15_c6,-.0443907989469698,-0.044,same,results_05.csv
+tab_text_sgam15se_c3,.0264725196696799,0.026,same,results_05.csv
+tab_text_sgam15se_c6,.0353652653951977,0.035,same,results_05.csv
+tab_text_smort_c3,.0718250813920488,0.072,same,results_05.csv
+tab_text_smort_c6,.040656422470734,0.041,same,results_05.csv
+tab_text_smortse_c3,.0402088336971969,0.040,same,results_05.csv
+tab_text_smortse_c6,.0493385752859286,0.049,same,results_05.csv
+tab_text_taccess_c2,.0670804311358067,0.067,same,results_05.csv
+tab_text_taccess_c3,.0586666429436266,0.059,same,results_05.csv
+tab_text_taccess_c5,.0369157004583715,0.037,same,results_05.csv
+tab_text_taccess_c6,.0312564092526456,0.031,same,results_05.csv
+tab_text_taccessse_c2,.0243567175772277,0.024,same,results_05.csv
+tab_text_taccessse_c3,.0222139431656296,0.022,same,results_05.csv
+tab_text_taccessse_c5,.0347596705905507,0.035,same,results_05.csv
+tab_text_taccessse_c6,.0299288571045526,0.030,same,results_05.csv
+tab_text_taiddown_c2,.0599914936436576,0.060,same,results_05.csv
+tab_text_taiddown_c3,.049903723830545,0.050,same,results_05.csv
+tab_text_taiddown_c5,.0633806785061281,0.063,same,results_05.csv
+tab_text_taiddown_c6,.0496455374313338,0.050,same,results_05.csv
+tab_text_taiddownse_c2,.0301404039114609,0.030,same,results_05.csv
+tab_text_taiddownse_c3,.0270455932057327,0.027,same,results_05.csv
+tab_text_taiddownse_c5,.0286376726553986,0.029,same,results_05.csv
+tab_text_taiddownse_c6,.0263071055801655,0.026,same,results_05.csv
+tab_text_tconflict_c2,-.015378511170612,-0.015,same,results_05.csv
+tab_text_tconflict_c3,-.0100589658502512,-0.010,same,results_05.csv
+tab_text_tconflict_c5,.0056901223788859,0.006,same,results_05.csv
+tab_text_tconflict_c6,.0104478632146484,0.010,same,results_05.csv
+tab_text_tconflictse_c2,.0162234317065039,0.016,same,results_05.csv
+tab_text_tconflictse_c3,.0158180646310636,0.016,same,results_05.csv
+tab_text_tconflictse_c5,.0190427126443396,0.019,same,results_05.csv
+tab_text_tconflictse_c6,.0207871171033403,0.021,same,results_05.csv
+tab_text_tdet_c2,-.0249288130746995,-0.025,same,results_05.csv
+tab_text_tdet_c3,-.0259505153810969,-0.026,same,results_05.csv
+tab_text_tdet_c5,-.0393015556499479,-0.039,same,results_05.csv
+tab_text_tdet_c6,-.0348531323998762,-0.035,same,results_05.csv
+tab_text_tdetse_c2,.0188989933107759,0.019,same,results_05.csv
+tab_text_tdetse_c3,.0187652719196978,0.019,same,results_05.csv
+tab_text_tdetse_c5,.031073819293594,0.031,same,results_05.csv
+tab_text_tdetse_c6,.0319385582532989,0.032,same,results_05.csv
+tab_text_tmention_c2,-.0590273781790098,-0.059,same,results_05.csv
+tab_text_tmention_c3,-.0706408027554966,-0.071,same,results_05.csv
+tab_text_tmention_c5,-.0805983978466986,-0.081,same,results_05.csv
+tab_text_tmention_c6,-.0979200428030831,-0.098,same,results_05.csv
+tab_text_tmentionse_c2,.0497173976115996,0.050,same,results_05.csv
+tab_text_tmentionse_c3,.0493847149341151,0.049,same,results_05.csv
+tab_text_tmentionse_c5,.0476994072553739,0.048,same,results_05.csv
+tab_text_tmentionse_c6,.0453848508560067,0.045,same,results_05.csv
+tab_text_tprices_c2,.0211733602232671,0.021,same,results_05.csv
+tab_text_tprices_c3,.0197102062759874,0.020,same,results_05.csv
+tab_text_tprices_c5,.0030258273461724,0.003,same,results_05.csv
+tab_text_tprices_c6,.0036721161536384,0.004,same,results_05.csv
+tab_text_tpricesse_c2,.0202018323536135,0.020,same,results_05.csv
+tab_text_tpricesse_c3,.0199390534832809,0.020,same,results_05.csv
+tab_text_tpricesse_c5,.0264379016617105,0.026,same,results_05.csv
+tab_text_tpricesse_c6,.0271989625878971,0.027,same,results_05.csv
+tab_text_tproj4_c2,.0016410576170608,0.002,same,results_05.csv
+tab_text_tproj4_c3,-.000655280185281,-0.001,same,results_05.csv
+tab_text_tproj4_c5,.0030614305186127,0.003,same,results_05.csv
+tab_text_tproj4_c6,-.0011673746936988,-0.001,same,results_05.csv
+tab_text_tproj4se_c2,.0303540289429131,0.030,same,results_05.csv
+tab_text_tproj4se_c3,.0313434544353726,0.031,same,results_05.csv
+tab_text_tproj4se_c5,.0326089262821434,0.033,same,results_05.csv
+tab_text_tproj4se_c6,.0307648421248428,0.031,same,results_05.csv
+tab_text_train_c2,-.0028776850449267,-0.003,same,results_05.csv
+tab_text_train_c3,.0038256980259327,0.004,same,results_05.csv
+tab_text_train_c5,-.0049753468003159,-0.005,same,results_05.csv
+tab_text_train_c6,.0046836843195543,0.005,same,results_05.csv
+tab_text_trainse_c2,.0337111071728702,0.034,same,results_05.csv
+tab_text_trainse_c3,.0311203707646069,0.031,same,results_05.csv
+tab_text_trainse_c5,.0320815114924052,0.032,same,results_05.csv
+tab_text_trainse_c6,.032471902814413,0.032,same,results_05.csv
+tab_text_tuncert_c2,-.0075055285300615,-0.008,same,results_05.csv
+tab_text_tuncert_c3,-.0148387751119927,-0.015,same,results_05.csv
+tab_text_tuncert_c5,.027197123327968,0.027,same,results_05.csv
+tab_text_tuncert_c6,.0140715511083773,0.014,same,results_05.csv
+tab_text_tuncertse_c2,.0255124212663212,0.026,same,results_05.csv
+tab_text_tuncertse_c3,.0247711455233761,0.025,same,results_05.csv
+tab_text_tuncertse_c5,.05028060811568,0.050,same,results_05.csv
+tab_text_tuncertse_c6,.0532722478727203,0.053,same,results_05.csv
+tab_text_tworst4_c2,.0004034501426154,0.000,same,results_05.csv
+tab_text_tworst4_c3,-.0005418006722869,-0.001,same,results_05.csv
+tab_text_tworst4_c5,-.0016902127557494,-0.002,same,results_05.csv
+tab_text_tworst4_c6,-.0067516039997676,-0.007,same,results_05.csv
+tab_text_tworst4se_c2,.0206794005266737,0.021,same,results_05.csv
+tab_text_tworst4se_c3,.0204511349873734,0.020,same,results_05.csv
+tab_text_tworst4se_c5,.0293604516183649,0.029,same,results_05.csv
+tab_text_tworst4se_c6,.0302273405106836,0.030,same,results_05.csv
+txtAccess,6.708043113580674,7,same,results_05.csv
+txtAidDown,5.999149364365758,6,same,results_05.csv
+txtAucMap,.602536403762066,0.60,same,results_05.csv
+txtAucMapText,.5906946105931855,0.59,same,results_05.csv
+txtAucNeed,.7084448575271539,0.71,same,results_05.csv
+txtAucNeedText,.7280948005671208,0.73,same,results_05.csv
+txtEscEvents,744,744,same,results_05.csv
+txtEscFcFour,31.85483870967742,32,same,results_05.csv
+txtEscN,8564,"8,564",same,results_05.csv
+txtMatch,90.6832298136646,91,same,results_05.csv
+txtMatchN,322,322,same,results_05.csv
+txtOutlooks,135,135,same,results_05.csv
+txtReports,502,502,same,results_05.csv
+vmAreas,1803,"1,803",same,results_11.csv
+vmCountries,24,24,same,results_11.csv
+vmCover,31.91084191310859,32,same,results_11.csv
+vmCoverHi,35.89969715224717,36,same,results_11.csv
+vmCoverLo,28.71975772179773,29,same,results_11.csv
+vmFewsCountries,37,37,same,results_11.csv
+vmFoodAll,4.038050722333333,4.0,same,results_11.csv
+vmFoodSample,2.4845233995,2.5,same,results_11.csv
+vmHalfAid,54.44145675325647,54,same,results_11.csv
+vmHalfAidAll,88.48271012927776,88,same,results_11.csv
+vmHalfCostPm,11.44291351972251,11,same,results_11.csv
+vmHalfFews,58.65404489206137,59,same,results_11.csv
+vmHalfGain,2.419620300144732,2.4,same,results_11.csv
+vmHalfGainAll,3.932564894634567,3.9,same,results_11.csv
+vmHalfOracleGain,16.87611319273275,17,same,results_11.csv
+vmHalfPctMore,4.138242441851146,4,same,results_11.csv
+vmHalfPub,56.32325216628531,56,same,results_11.csv
+vmHalfRatio,1.209810150072366,1.2,same,results_11.csv
+vmHalfRatioAll,1.966282447317284,2.0,same,results_11.csv
+vmHalfRatioAllLo,1.210019967579867,1.2,same,results_11.csv
+vmHalfShareNeed,.6992378177328191,0.7,same,results_11.csv
+vmNeed,346.0368187736202,346,same,results_11.csv
+vmRandAid,58.66890021061576,59,same,results_11.csv
+vmRandAidAll,95.35349714221086,95,same,results_11.csv
+vmRandCostPm,10.61838349242661,11,same,results_11.csv
+vmRandFews,34.79051528971149,35,same,results_11.csv
+vmRandGain,2.607506676027367,2.6,same,results_11.csv
+vmRandGainAll,4.237933206320482,4.2,same,results_11.csv
+vmRandOracleGain,20.35605407848391,20,same,results_11.csv
+vmRandPctMore,7.781536768630596,8,same,results_11.csv
+vmRandPub,32.27873375418148,32,same,results_11.csv
+vmRandRatio,1.303753338013683,1.3,same,results_11.csv
+vmRandRatioAll,2.118966603160241,2.1,same,results_11.csv
+vmRandRatioAllHi,3.027095147371773,3.0,same,results_11.csv
+vmRandShareNeed,.753534460659002,0.8,same,results_11.csv
+vmScale,1.625281823928877,1.6,same,results_11.csv
+vmYears_hi,2024,2024,same,results_11.csv
+vmYears_lo,2013,2013,same,results_11.csv
+wholeHi,1900,"1,900",same,results_10.csv
+wholeLo,350,350,same,results_10.csv
+wzCdrZone,.1191233691182677,0.12,same,results_12.csv
+wzCdrZoneSeason,.0806452180029373,0.08,same,results_12.csv
+wzGamZone,.8297159439459253,0.8,same,results_12.csv
+wzGamZoneSeason,.5493734190282912,0.5,same,results_12.csv

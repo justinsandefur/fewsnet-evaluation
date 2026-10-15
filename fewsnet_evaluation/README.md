@@ -39,7 +39,7 @@ These inputs cannot be downloaded again, so they are kept with the code (in the 
 2. Run the analysis scripts in numerical order.
 3. `40_paper.py` writes every number in the paper to `output/cgd_paper/numbers.tex`; `41_paper_tables.py` writes the tables. Then compile the paper (pdflatex, bibtex, pdflatex twice).
 
-Stata: Not yet ported. See `STATA_PORT.md`.
+Stata: `stata/` re-estimates every number printed in the paper and its tables (670 identical at the paper's rounding, 3 bootstrap p-values within draw noise, none different). Run `code/90_export_stata.py`, then `stata/00_master.do`; see `stata/README.md`.
 
 ## Scripts
 
@@ -101,6 +101,7 @@ Stata: Not yet ported. See `STATA_PORT.md`.
 | `66_foodsec_surveys.py` | Do acute food insecurity (AFI) phases track survey-measured household food insecurity? |
 | `81_allocation_value.py` | What is FEWS NET's information worth to a planner who allocates a fixed food-aid budget well? |
 | `82_value_margins.py` | FEWS NET's value on two margins, in person-months of Crisis averted. |
+| `90_export_stata.py` | Export analysis-ready CSVs (modules in `code/export_stata/`) and the paper's printed values for the Stata replication in `stata/`. |
 
 **Paper numbers, tables and figures**
 

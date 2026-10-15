@@ -31,6 +31,7 @@ STYLE = {"font.family": "sans-serif", "font.size": 9, "axes.spines.top": False,
 plt.rcParams.update(STYLE)
 BLUE, LBLUE, GREY, RED, ORANGE = "#1f4e79", "#9ecae1", "#9e9e9e", "#c0392b", "#e6862e"
 N = {}
+RAW = {}          # unrounded shares, for numbers derived from other numbers
 
 
 def load(name, file):
@@ -123,6 +124,7 @@ def type2():
     N["tIIcontrolEmergency"] = pct(curve[~curve.onset].fc4.mean(), 1)
     ed = early.value_counts(normalize=True)
     N["tIIearlyEmergency"], N["tIIearlyCrisis"] = pct(ed.get(4, 0)), pct(ed.get(3, 0))
+    RAW["early4"], RAW["early3"] = ed.get(4, 0), ed.get(3, 0)
     N["tIIearlyStressed"] = pct(ed.get(2, 0) + ed.get(1, 0))
     # One panel, with the texture behind the averages: each faint dot is all the areas in one
     # country whose Emergency began in the same month, at one lead (size = number of areas)
@@ -176,6 +178,7 @@ def type1():
     N["tIcame"], N["tIflagged"] = pct(cats["came"]), pct(cats["flag3"])
     N["tIunflagged"], N["tIbetter"] = pct(cats["noflag3"]), pct(cats["better"])
     N["tIfailed"] = pct(1 - cats["came"])
+    RAW.update(came=cats["came"], flag3=cats["flag3"], noflag3=cats["noflag3"], better=cats["better"])
     f3 = w[(w.phase == 3)]
     N["tIflagShareOfCrisis"] = pct(f3.assist_flag.mean())
     unw3 = m[(m.fc < 4) & (m.phase == 3)]
@@ -289,6 +292,7 @@ def contribution():
     get = lambda b, m: a[(a.baseline == b) & (a.model == m)].auc.iloc[0]
     for b, k in [("raw data", "Raw"), ("raw data + latest Cadre Harmonise / IPC", "RawIPC")]:
         N[f"auc{k}"] = f"{get(b, 'baseline'):.2f}"
+        RAW[f"auc{k}"], RAW[f"auc{k}Fews"] = get(b, "baseline"), get(b, "baseline + FEWS NET")
         N[f"auc{k}Fews"] = f"{get(b, 'baseline + FEWS NET'):.2f}"
     N["aucEvents"] = f"{int(a.events.iloc[0]):,}"
     N["aucN"] = f"{int(a.n.iloc[0]):,}"
@@ -1307,11 +1311,12 @@ def famine_errors():
         N[f"famRisk{tag}"] = first.strftime("%B %Y")
         N[f"famRiskLead{tag}"] = str((on - first).n)
     # precise emergency statements for the introduction
-    N["tIfailFlagShare"] = pct(float(N["tIflagged"]) / float(N["tIfailed"])) if float(N["tIfailed"]) else "0"
-    N["tIIearlyMiss"] = pct(1 - float(N["tIIearlyEmergency"]) / 100)
-    N["aucRawPct"], N["aucRawFewsPct"] = f"{100 * float(N['aucRaw']):.0f}", f"{100 * float(N['aucRawFews']):.0f}"
-    N["tIIearlyCrisisPlus"] = pct((float(N["tIIearlyEmergency"]) + float(N["tIIearlyCrisis"])) / 100)
-    N["tIgenuine"] = pct((float(N["tIunflagged"]) + float(N["tIbetter"])) / 100)
+    # from unrounded shares (dividing the printed percentages gave 56 instead of 57)
+    N["tIfailFlagShare"] = pct(RAW["flag3"] / (1 - RAW["came"])) if RAW["came"] < 1 else "0"
+    N["tIIearlyMiss"] = pct(1 - RAW["early4"])
+    N["aucRawPct"], N["aucRawFewsPct"] = f"{100 * RAW['aucRaw']:.0f}", f"{100 * RAW['aucRawFews']:.0f}"
+    N["tIIearlyCrisisPlus"] = pct(RAW["early4"] + RAW["early3"])
+    N["tIgenuine"] = pct(RAW["noflag3"] + RAW["better"])
 
 
 # ------------------------------------------------------------------ which pieces are worth paying for
