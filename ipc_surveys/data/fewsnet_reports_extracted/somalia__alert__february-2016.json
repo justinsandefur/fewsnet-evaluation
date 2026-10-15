@@ -1,0 +1,109 @@
+{
+ "name": "somalia__alert__february-2016",
+ "period_covered": "through April 2016 and beyond",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "not_stated",
+  "aid_assumption_text": "Scale-up of humanitarian assistance necessary to avert Crisis in northern Somalia",
+  "people_in_need_crisis_plus": 146200,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "average",
+  "season_status_text": "Poor 2015 rainfall in north; average Gu expected April"
+ },
+ "areas": [
+  {
+   "location": "Guban Pastoral",
+   "admin1": "Awdal; Woqooyi Galbeed",
+   "admin2": null,
+   "livelihood_zone": "Guban Pastoral",
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": 3,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": 13300,
+   "drivers": [
+    "rain_deficit",
+    "livestock"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Northwestern Agropastoral",
+   "admin1": "Awdal; Woqooyi Galbeed",
+   "admin2": null,
+   "livelihood_zone": "Northwestern Agropastoral",
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": 3,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": 62900,
+   "drivers": [
+    "harvest_poor",
+    "rain_deficit"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Northern Inland Pastoral",
+   "admin1": "Bari; Sanaag; Nugaal",
+   "admin2": null,
+   "livelihood_zone": "Northern Inland Pastoral",
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": 3,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": 20,
+   "price_change_basis": "five_year_avg",
+   "terms_of_trade_text": "goat-to-rice ToT down 31% vs 2014 and 38% vs five-year average",
+   "people_in_need": 70000,
+   "drivers": [
+    "rain_deficit",
+    "livestock",
+    "prices_high"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "field_visit",
+  "remote_sensing_rain"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

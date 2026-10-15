@@ -1,0 +1,141 @@
+{
+ "name": "sudan__alert__november-2011",
+ "period_covered": "January-March 2012",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "assumed_reduced",
+  "aid_assumption_text": "GoS restricts humanitarian access to IDPs; little to no assistance in SPLA-N-controlled areas; minimal GoS assistance in SAF areas.",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "not_stated",
+  "season_status_text": "Main season harvests below average, 20-30 percent of normal in parts of South Kordofan and Blue Nile"
+ },
+ "areas": [
+  {
+   "location": "South Kordofan and Blue Nile conflict areas",
+   "admin1": "South Kordofan; Blue Nile",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": 4,
+   "projected_period": "early 2012 (January-March)",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "access_constraint",
+    "harvest_poor",
+    "prices_high",
+    "displacement"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": true
+  },
+  {
+   "location": "Nuba Mountains IDPs",
+   "admin1": "South Kordofan",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": "IDPs",
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "displacement",
+    "access_constraint"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Blue Nile refugees in Ethiopia (Kurmuk, Guba, Sharkole)",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": "refugees",
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": "staple prices raised 30-100 percent",
+   "people_in_need": null,
+   "drivers": [
+    "displacement",
+    "prices_high"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "Blue Nile refugees in Kurmuk, Guba, Sharkole (Ethiopia)",
+   "admin1": null,
+   "admin2": null,
+   "population_group": "refugees",
+   "survey_type": "other",
+   "fieldwork": "2011",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "assessment of about 9,000 refugees; unwilling to relocate to camps",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "key_informants",
+  "displacement_tracking"
+ ],
+ "data_gaps": [
+  {
+   "location": "South Kordofan; Blue Nile",
+   "admin1": "South Kordofan; Blue Nile",
+   "what": "access",
+   "text": "SPLA-N controlled areas (Kouda, Delami, Talodi, Heiban, Qessan) inaccessible for assessment; population movements difficult to verify."
+  },
+  {
+   "location": "South Kordofan; Blue Nile",
+   "admin1": null,
+   "what": "displacement",
+   "text": "Unknown number of IDPs hiding in Nuba Mountains."
+  }
+ ],
+ "remote_monitoring": false
+}

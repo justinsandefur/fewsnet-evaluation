@@ -1,0 +1,55 @@
+afi_bin,amn_bin,n,share_of_afi_row,comparison,row,corr,spearman,exact_agree,phase,gam_mean,gam_lo,gam_hi,crit_share
+2,1,33,0.1542056074766355,AMN explicit,crosstab,,,,,,,,
+2,2,137,0.6401869158878505,AMN explicit,crosstab,,,,,,,,
+2,3,27,0.1261682242990654,AMN explicit,crosstab,,,,,,,,
+2,4+,17,0.0794392523364486,AMN explicit,crosstab,,,,,,,,
+3,1,87,0.23138297872340424,AMN explicit,crosstab,,,,,,,,
+3,2,149,0.3962765957446808,AMN explicit,crosstab,,,,,,,,
+3,3,107,0.2845744680851064,AMN explicit,crosstab,,,,,,,,
+3,4+,33,0.08776595744680851,AMN explicit,crosstab,,,,,,,,
+4+,2,2,0.2,AMN explicit,crosstab,,,,,,,,
+4+,3,1,0.1,AMN explicit,crosstab,,,,,,,,
+4+,4+,7,0.7,AMN explicit,crosstab,,,,,,,,
+,,600,,AMN explicit,summary,0.1263916904064023,0.10437706947606346,0.41833333333333333,,,,,
+1,1,20,0.22988505747126436,AMN derived from GAM,crosstab,,,,,,,,
+1,2,30,0.3448275862068966,AMN derived from GAM,crosstab,,,,,,,,
+1,3,26,0.2988505747126437,AMN derived from GAM,crosstab,,,,,,,,
+1,4+,11,0.12643678160919541,AMN derived from GAM,crosstab,,,,,,,,
+2,1,40,0.11396011396011396,AMN derived from GAM,crosstab,,,,,,,,
+2,2,124,0.35327635327635326,AMN derived from GAM,crosstab,,,,,,,,
+2,3,128,0.3646723646723647,AMN derived from GAM,crosstab,,,,,,,,
+2,4+,59,0.16809116809116809,AMN derived from GAM,crosstab,,,,,,,,
+3,1,44,0.09843400447427293,AMN derived from GAM,crosstab,,,,,,,,
+3,2,124,0.27740492170022374,AMN derived from GAM,crosstab,,,,,,,,
+3,3,125,0.2796420581655481,AMN derived from GAM,crosstab,,,,,,,,
+3,4+,154,0.34451901565995524,AMN derived from GAM,crosstab,,,,,,,,
+4+,2,6,0.35294117647058826,AMN derived from GAM,crosstab,,,,,,,,
+4+,3,3,0.17647058823529413,AMN derived from GAM,crosstab,,,,,,,,
+4+,4+,8,0.47058823529411764,AMN derived from GAM,crosstab,,,,,,,,
+,,902,,AMN derived from GAM,summary,0.1963866497557823,0.19938676390574167,0.3070953436807095,,,,,
+1,1,20,0.22988505747126436,AMN any,crosstab,,,,,,,,
+1,2,30,0.3448275862068966,AMN any,crosstab,,,,,,,,
+1,3,26,0.2988505747126437,AMN any,crosstab,,,,,,,,
+1,4+,11,0.12643678160919541,AMN any,crosstab,,,,,,,,
+2,1,70,0.12658227848101267,AMN any,crosstab,,,,,,,,
+2,2,253,0.45750452079566006,AMN any,crosstab,,,,,,,,
+2,3,155,0.28028933092224234,AMN any,crosstab,,,,,,,,
+2,4+,75,0.13562386980108498,AMN any,crosstab,,,,,,,,
+3,1,130,0.16971279373368145,AMN any,crosstab,,,,,,,,
+3,2,259,0.3381201044386423,AMN any,crosstab,,,,,,,,
+3,3,215,0.28067885117493474,AMN any,crosstab,,,,,,,,
+3,4+,162,0.21148825065274152,AMN any,crosstab,,,,,,,,
+4+,2,6,0.2857142857142857,AMN any,crosstab,,,,,,,,
+4+,3,4,0.19047619047619047,AMN any,crosstab,,,,,,,,
+4+,4+,11,0.5238095238095238,AMN any,crosstab,,,,,,,,
+,,1427,,AMN any,summary,0.09801954711002062,0.0932772842046558,0.3496846531184303,,,,,
+,,87,,GAM by AFI phase,gam_by_phase,,,,1,9.577011494252874,8.192302694878999,10.96172029362675,0.12643678160919541
+,,351,,GAM by AFI phase,gam_by_phase,,,,2,10.551367521367522,10.035415017265638,11.067320025469407,0.16809116809116809
+,,447,,GAM by AFI phase,gam_by_phase,,,,3,12.629149888143175,12.023686274544488,13.234613501741862,0.34451901565995524
+,,17,,GAM by AFI phase,gam_by_phase,,,,4+,14.28235294117647,11.1100724302288,17.45463345212414,0.47058823529411764
+,,902,,GAM by AFI phase,gam_by_phase,,,,all,11.557383592017736,11.160516915256387,11.954250268779084,0.2572062084257206
+,,112,,GAM by FEWS NET current phase,gam_by_phase,,,,1,9.024107142857144,7.893907134895944,10.154307150818344,0.13392857142857142
+,,324,,GAM by FEWS NET current phase,gam_by_phase,,,,2,11.448549382716049,10.811362476626773,12.085736288805325,0.25617283950617287
+,,218,,GAM by FEWS NET current phase,gam_by_phase,,,,3,13.902431192660552,13.06708788743738,14.737774497883725,0.42660550458715596
+,,10,,GAM by FEWS NET current phase,gam_by_phase,,,,4+,17.47,12.52007399202327,22.419926007976727,0.6
+,,664,,GAM by FEWS NET current phase,gam_by_phase,,,,all,11.935933734939761,11.454718846541109,12.417148623338413,0.29668674698795183

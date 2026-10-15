@@ -1,0 +1,13 @@
+group,n,averted,countries,onset,warning_defn
+no warning,1433,0.6545708304256804,19,Emergency,forecast phase
+late warning (1-3 months),150,0.18,7,Emergency,forecast phase
+early warning (4-8 months),755,0.41721854304635764,12,Emergency,forecast phase
+no warning,1117,0.5729632945389436,18,Emergency,forecast need (phase + flag)
+late warning (1-3 months),284,0.6126760563380281,10,Emergency,forecast need (phase + flag)
+early warning (4-8 months),937,0.4973319103521878,12,Emergency,forecast need (phase + flag)
+no warning,3645,0.3478737997256516,23,Crisis,forecast phase
+late warning (1-3 months),1198,0.0642737896494157,20,Crisis,forecast phase
+early warning (4-8 months),5165,0.08286544046466603,23,Crisis,forecast phase
+no warning,3211,0.281532232949237,23,Crisis,forecast need (phase + flag)
+late warning (1-3 months),1348,0.1795252225519288,21,Crisis,forecast need (phase + flag)
+early warning (4-8 months),5449,0.11506698476784731,24,Crisis,forecast need (phase + flag)

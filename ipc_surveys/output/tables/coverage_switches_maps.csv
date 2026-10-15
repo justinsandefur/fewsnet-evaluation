@@ -1,0 +1,61 @@
+iso3,country,year,direction
+AGO,Angola,2022,on
+AGO,Angola,2025,off
+AGO,Angola,2026,on
+BDI,Burundi,2020,on
+BFA,Burkina Faso,2018,off
+BFA,Burkina Faso,2020,on
+CAF,Central African Republic,2020,on
+CAF,Central African Republic,2025,off
+CAF,Central African Republic,2026,on
+CIV,Côte d’Ivoire,2026,on
+CMR,Cameroon,2020,on
+COD,Democratic Republic of the Congo,2016,on
+COL,Colombia,2026,on
+DJI,Djibouti,2016,off
+GIN,Guinea,2015,on
+GIN,Guinea,2018,off
+HND,Honduras,2020,on
+HND,Honduras,2025,off
+HND,Honduras,2026,on
+LBN,Lebanon,2024,on
+LBN,Lebanon,2025,off
+LBN,Lebanon,2026,on
+LBR,Liberia,2015,on
+LBR,Liberia,2018,off
+LKA,Sri Lanka,2026,on
+LSO,Lesotho,2020,on
+LSO,Lesotho,2025,off
+LSO,Lesotho,2026,on
+MDG,Madagascar,2016,on
+MRT,Mauritania,2019,off
+MRT,Mauritania,2020,on
+MRT,Mauritania,2025,off
+NIC,Nicaragua,2020,on
+NIC,Nicaragua,2025,off
+NPL,Nepal,2026,on
+PAK,Pakistan,2026,on
+RWA,Rwanda,2011,on
+RWA,Rwanda,2015,off
+RWA,Rwanda,2020,on
+RWA,Rwanda,2024,off
+SDN,Sudan,2010,on
+SLE,Sierra Leone,2015,on
+SLE,Sierra Leone,2018,off
+SLV,El Salvador,2020,on
+SLV,El Salvador,2025,off
+SLV,El Salvador,2026,on
+SYR,Syria,2026,on
+TGO,Togo,2024,on
+TGO,Togo,2025,off
+TGO,Togo,2026,on
+TZA,Tanzania,2012,off
+UGA,Uganda,2025,off
+UGA,Uganda,2026,on
+UKR,Ukraine,2026,on
+VEN,Venezuela,2023,on
+VEN,Venezuela,2025,off
+VEN,Venezuela,2026,on
+YEM,Yemen,2014,on
+ZMB,Zambia,2018,off
+ZMB,Zambia,2026,on

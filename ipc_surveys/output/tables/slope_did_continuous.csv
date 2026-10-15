@@ -1,0 +1,13 @@
+sample,outcome,spec,dryness,se,dryness_x_cov,se_x,n,countries
+all pre-2025,phase3,common slope,0.0094,0.0088,-0.0008,0.0101,25475,42
+all pre-2025,phase3,country slopes (15 switchers),,,-0.0356,0.0221,25475,42
+all pre-2025,share3,common slope,0.0031,0.0035,-0.0018,0.0041,25475,42
+all pre-2025,share3,country slopes (15 switchers),,,-0.0173,0.0111,25475,42
+CH pre-2025,phase3,common slope,0.0047,0.0088,0.0033,0.0106,16202,17
+CH pre-2025,phase3,country slopes (11 switchers),,,-0.0346,0.0229,16202,17
+CH pre-2025,share3,common slope,0.0038,0.0044,-0.0034,0.005,16202,17
+CH pre-2025,share3,country slopes (11 switchers),,,-0.0176,0.0115,16202,17
+IPC pre-2025,phase3,common slope,0.0265,0.0191,-0.0166,0.0209,9273,25
+IPC pre-2025,phase3,country slopes (4 switchers),,,-0.1106,0.0519,9273,25
+IPC pre-2025,share3,common slope,0.0008,0.0018,0.0025,0.0046,9273,25
+IPC pre-2025,share3,country slopes (4 switchers),,,-0.0005,0.0177,9273,25

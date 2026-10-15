@@ -1,0 +1,172 @@
+{
+ "name": "sudan__alert__august-2024",
+ "period_covered": "June-October 2024",
+ "national": {
+  "famine_risk_mentioned": true,
+  "worst_case_described": true,
+  "worst_case_text": "Risk of Famine across rest of Al Fasher (800,000 people) if siege prevents migration; Famine may extend into harvest and post-harvest beyond October absent aid and end of conflict.",
+  "aid_assumption": "assumed_reduced",
+  "aid_assumption_text": "No humanitarian food deliveries to Al Fasher area since April; access constrained by siege.",
+  "people_in_need_crisis_plus": 20000000,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "not_stated",
+  "season_status_text": "Lean season"
+ },
+ "areas": [
+  {
+   "location": "Zamzam IDP camp, Al Fasher locality, North Darfur",
+   "admin1": "North Darfur",
+   "admin2": "Al Fasher",
+   "livelihood_zone": null,
+   "population_group": "IDPs",
+   "current_phase": 5,
+   "projected_phase": 5,
+   "projected_period": "through at least October 2024",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "deteriorate",
+   "nutrition_class": "MUAC GAM 23.1 percent (Jan 2024)",
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "access_constraint",
+    "displacement",
+    "prices_high"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Abu Shouk and Al Salam IDP camps, Al Fasher",
+   "admin1": "North Darfur",
+   "admin2": "Al Fasher",
+   "livelihood_zone": null,
+   "population_group": "IDPs",
+   "current_phase": 5,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "access_constraint"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": true
+  },
+  {
+   "location": "Rest of Al Fasher locality",
+   "admin1": "North Darfur",
+   "admin2": "Al Fasher",
+   "livelihood_zone": null,
+   "population_group": "residents",
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": 170,
+   "price_change_basis": "other",
+   "terms_of_trade_text": "sorghum and millet 160-180 percent above three-year average",
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "access_constraint",
+    "prices_high"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Other IDP populations in Greater Darfur",
+   "admin1": "Darfur",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": "IDPs",
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "access_constraint"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": true
+  }
+ ],
+ "surveys": [
+  {
+   "location": "Zamzam IDP camp (MSF)",
+   "admin1": "North Darfur",
+   "admin2": null,
+   "population_group": "IDPs",
+   "survey_type": "mortality",
+   "fieldwork": "January 2024",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": 23.1,
+   "cdr": 1.9,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "non-trauma CDR 1.9 (95% CI 1.5-2.4); MUAC GAM above Famine threshold",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "conflict_data",
+  "displacement_tracking",
+  "market_prices_other",
+  "mortality_survey",
+  "key_informants",
+  "remote_sensing_vegetation"
+ ],
+ "data_gaps": [
+  {
+   "location": "Al Fasher",
+   "admin1": "North Darfur",
+   "what": "general",
+   "text": "Siege prevented collection of representative data on food consumption and livelihood change."
+  },
+  {
+   "location": "Al Fasher IDP camps",
+   "admin1": "North Darfur",
+   "what": "mortality",
+   "text": "Evidence limited for Abu Shouk and Al Salam; mortality inferred from indirect evidence."
+  }
+ ],
+ "remote_monitoring": false
+}

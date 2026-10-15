@@ -1,0 +1,11 @@
+cell,n,flag
+"Warned, Emergency happened
+(realised Phase 4+)",2362,0.04487722269263336
+"Warned, did not happen:
+realised Crisis (3)",2146,0.592264678471575
+"Not warned,
+realised Crisis (3)",26886,0.10470133154801756
+"Warned, did not happen:
+realised Stressed or better",110,0.6
+"Not warned,
+realised Stressed or better",96044,0.040543917371204864

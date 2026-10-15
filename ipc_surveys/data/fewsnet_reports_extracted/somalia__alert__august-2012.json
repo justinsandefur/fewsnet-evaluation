@@ -1,0 +1,122 @@
+{
+ "name": "somalia__alert__august-2012",
+ "period_covered": "August - December 2012",
+ "national": {
+  "famine_risk_mentioned": true,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "assumed_continued",
+  "aid_assumption_text": "Assistance necessary between now and Deyr harvest in January; improvements attributed to sustained humanitarian interventions.",
+  "people_in_need_crisis_plus": 2120000,
+  "headline_direction": "improve",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": "Mild/moderate El Nino expected to bring average to above average Oct-Dec Deyr rains, though flooding risk in riverine areas.",
+  "rain_forecast": "above",
+  "season_status_text": "Gu harvest significantly below average due to late start, poor rains and pests; offset by exceptional Jan 2012 Deyr harvest stocks."
+ },
+ "areas": [
+  {
+   "location": "Southern and central agropastoral areas",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": 3,
+   "projected_period": "August - December 2012",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "stable",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_poor",
+    "livestock"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Coastal areas and coastal plains along Gulf of Aden and Indian Ocean, northern and central regions",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Riverine areas",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "flood"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "national",
+   "admin1": null,
+   "admin2": null,
+   "population_group": null,
+   "survey_type": "admissions",
+   "fieldwork": "August 2012",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "236,000 children severely malnourished, 70 percent in South; 27 percent reduction in children needing treatment since January",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "joint_assessment_ipc",
+  "humanitarian_distribution_data",
+  "market_prices_other"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

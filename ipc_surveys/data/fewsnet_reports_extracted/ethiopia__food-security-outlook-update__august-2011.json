@@ -1,0 +1,224 @@
+{
+ "name": "ethiopia__food-security-outlook-update__august-2011",
+ "period_covered": "August-December 2011",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": true,
+  "worst_case_text": "If pasture/water regeneration is slow, transhumant herds suffer losses, or Meher performs poorly or is late, outcomes would remain Phase 4 into October-December.",
+  "aid_assumption": "not_stated",
+  "aid_assumption_text": null,
+  "people_in_need_crisis_plus": 4800000,
+  "headline_direction": "improve",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": "Outcomes expected to improve significantly after September lean-season peak with normal Deyr rains, return of transhumants, Meher inflows.",
+  "rain_forecast": "not_stated",
+  "season_status_text": "Kiremt rains on time in highlands but 3 weeks late and erratic in eastern lowlands."
+ },
+ "areas": [
+  {
+   "location": "Southern and southeastern pastoral and agropastoral areas",
+   "admin1": "Somali; Oromia",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 4,
+   "projected_phase": 3,
+   "projected_period": "October-December 2011 (could stay Phase 4)",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "improve",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "livestock",
+    "rain_deficit",
+    "displacement"
+   ],
+   "aid_status": "present",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": true
+  },
+  {
+   "location": "Dolo Odo (Liben Zone) and Dolo Ado refugee camps",
+   "admin1": "Somali",
+   "admin2": "Liben",
+   "livelihood_zone": null,
+   "population_group": "refugees",
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": 120000,
+   "drivers": [
+    "displacement",
+    "disease_outbreak"
+   ],
+   "aid_status": "present",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Dry midlands/lowlands of Gamo Gofa, Segen (Konso, Derashe), South Omo",
+   "admin1": "SNNPR",
+   "admin2": "Gamo Gofa; Segen; South Omo",
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": "Konso admissions 80-150 percent higher than last year",
+   "price_change_pct": 250,
+   "price_change_basis": "yoy",
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_poor",
+    "prices_high",
+    "rain_deficit"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Eastern Meher cropping areas (West Arsi, East and West Hararghe lowlands)",
+   "admin1": "Oromia",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Gode Zone / Shebelle River",
+   "admin1": "Somali",
+   "admin2": "Gode",
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "flood",
+    "livestock"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "Kobe and Hilaweyn refugee camps, Dolo Ado",
+   "admin1": "Somali",
+   "admin2": "Liben",
+   "population_group": "refugees",
+   "survey_type": "other",
+   "fieldwork": "August 2011",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "Measles outbreak aggravating acute malnutrition and under-five mortality; no rates given",
+   "planned_not_done": false
+  },
+  {
+   "location": "Konso",
+   "admin1": "SNNPR",
+   "admin2": null,
+   "population_group": null,
+   "survey_type": "admissions",
+   "fieldwork": "August 2011",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "Admissions 80 to 150 percent higher than last year",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "field_visit",
+  "key_informants",
+  "humanitarian_distribution_data",
+  "market_prices_other",
+  "admissions_data"
+ ],
+ "data_gaps": [
+  {
+   "location": "national",
+   "admin1": null,
+   "what": "nutrition",
+   "text": "Data on malnutrition prevalence, mortality and morbidity missing."
+  },
+  {
+   "location": "national",
+   "admin1": null,
+   "what": "prices",
+   "text": "Unskilled wage rates and Somali region market functioning information missing."
+  },
+  {
+   "location": "Somali Region",
+   "admin1": "Somali",
+   "what": "assistance",
+   "text": "Actual food distributed, particularly in Somali region, unknown."
+  },
+  {
+   "location": "national",
+   "admin1": null,
+   "what": "general",
+   "text": "Poor access to information in Phase 4 areas; household livestock holdings and mortality unknown."
+  }
+ ],
+ "remote_monitoring": false
+}

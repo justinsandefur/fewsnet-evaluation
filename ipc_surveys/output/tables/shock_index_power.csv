@@ -1,0 +1,17 @@
+fe,outcome,shocks,within_r2
+area + country x month FE,share3,rainfall,0.0005902051784892892
+area + country x month FE,share3,conflict,0.01816466346845924
+area + country x month FE,share3,food prices,0.0016986381530724737
+area + country x month FE,share3,all three,0.020078874073399144
+area + country x month FE,phase3,rainfall,0.0005636142760969687
+area + country x month FE,phase3,conflict,0.009890915708104964
+area + country x month FE,phase3,food prices,0.00010898181993124201
+area + country x month FE,phase3,all three,0.01046629862882631
+area + month FE,share3,rainfall,0.005195925513862276
+area + month FE,share3,conflict,0.019391154465103755
+area + month FE,share3,food prices,0.005371984226247406
+area + month FE,share3,all three,0.02986134688318043
+area + month FE,phase3,rainfall,0.004245391921156361
+area + month FE,phase3,conflict,0.011214411419039672
+area + month FE,phase3,food prices,0.0008286669463529739
+area + month FE,phase3,all three,0.016333657927510292

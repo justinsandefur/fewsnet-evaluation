@@ -1,0 +1,113 @@
+{
+ "name": "ethiopia__alert__may-2022",
+ "period_covered": "2022 into 2023",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": true,
+  "worst_case_text": "Risk of more extreme outcomes with Extremely Critical acute malnutrition and high hunger-related mortality without sustained large-scale assistance; possible unprecedented five-season drought.",
+  "aid_assumption": "assumed_reduced",
+  "aid_assumption_text": "Needs significantly outpacing assistance; Tigray reach 1.5 million Oct 2021-May 2022 vs 2.9 million per month prior year; Somali rations reduced for funding.",
+  "people_in_need_crisis_plus": 12500000,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "below",
+  "season_status_text": "Gu/genna 2022 extremely poor, fourth consecutive poor season; deyr forecast below average."
+ },
+ "areas": [
+  {
+   "location": "Tigray and northern Ethiopia",
+   "admin1": "Tigray; Afar; Amhara",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 4,
+   "projected_phase": 4,
+   "projected_period": "2022",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": "Critical to Extremely Critical",
+   "price_change_pct": 135,
+   "price_change_basis": "yoy",
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "prices_high",
+    "access_constraint",
+    "trade_border"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Southern and southeastern pastoral areas",
+   "admin1": "Oromia; Somali; SNNPR",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": "pastoralists",
+   "current_phase": 3,
+   "projected_phase": 4,
+   "projected_period": "mid- to late-2022",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": "Critical to Extremely Critical",
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": "Goat-to-maize terms of trade in Gode down 65 percent vs March 2020",
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "livestock",
+    "displacement"
+   ],
+   "aid_status": "present",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Belg-cropping areas, southern and central",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "harvest_poor"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "remote_sensing_rain",
+  "humanitarian_distribution_data",
+  "market_prices_fewsnet",
+  "livestock_data"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

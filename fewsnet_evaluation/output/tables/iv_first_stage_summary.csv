@@ -1,0 +1,13 @@
+label,F,sign
+"Competing natural disasters (funding-based), monthly",0.1438562218866174,expected
+"Competing natural disasters (EM-DAT deaths), monthly",0.1252322882982022,expected
+"Competing disasters incl. war onsets, monthly",0.995676631446086,expected
+"Competing disasters, within-year shifts, lags 1-2 qtrs",0.140052644394835,expected
+Donor exchange rates,0.1337040617558071,expected
+"Donor budgets elsewhere (leave-out), all sectors",3.04461579083453,reallocation
+"Donor budgets elsewhere (leave-out), food & nutrition",4.691663083178922,reallocation
+US fiscal-year timing x US share,3.323424179853805,unexpected
+UN Security Council seat,3.382994673700029,unexpected
+Oil price x Gulf donor share,5.219622733868259,unexpected
+2025 US cut x US share (36 FEWS NET countries),4.984492345404691,expected
+2025 US cut x US share (58 recipients),12.414054665495163,expected

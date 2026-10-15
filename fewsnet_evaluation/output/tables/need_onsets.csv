@@ -1,0 +1,13 @@
+onset,warning_defn,term,coef,se,n,countries
+Emergency,forecast phase,early,-0.16810434529306803,0.06622140485598536,2323,18.0
+Emergency,forecast phase,late,-0.12746173767964844,0.07012301928025874,2323,18.0
+Emergency,forecast need (phase + flag),early,-0.057346290776127316,0.04513705768324438,2323,18.0
+Emergency,forecast need (phase + flag),late,-0.04014065935702614,0.021404549182162586,2323,18.0
+Emergency,early warnings: forecast already flagged,share averted | flagged forecast,0.7027027027027027,,407,
+Emergency,early warnings: forecast of the level itself,share averted | unflagged forecast,0.33962264150943394,,530,
+Crisis,forecast phase,early,-0.11568130945929983,0.03654553206106008,9966,24.0
+Crisis,forecast phase,late,-0.21223796316206803,0.06931720344628832,9966,24.0
+Crisis,forecast need (phase + flag),early,-0.05582541438031441,0.02623427262297218,9966,24.0
+Crisis,forecast need (phase + flag),late,-0.10079939114298253,0.03475901654459431,9966,24.0
+Crisis,early warnings: forecast already flagged,share averted | flagged forecast,0.6010230179028133,,391,
+Crisis,early warnings: forecast of the level itself,share averted | unflagged forecast,0.077500988533017,,5058,

@@ -1,0 +1,698 @@
+{
+ "fews_panel": {
+  "countries": 44,
+  "units": 19162,
+  "unit_months": 227801,
+  "first": "2011-01",
+  "last": "2026-07",
+  "share_unit_months_3plus": 0.19078054969029987,
+  "share_unit_months_4plus": 0.022554773684048797,
+  "unit_months_phase5": 106,
+  "share_assist_flag": 0.05270828486266522
+ },
+ "grfc": [
+  {
+   "window": "all years 2016-2025",
+   "country_years": 526,
+   "countries": 70,
+   "share_cy_fews": 0.42,
+   "share_p3_fews": 0.695,
+   "share_p4_fews": 0.812,
+   "share_p3_dhs_same_year": 0.122,
+   "share_p3_fews_and_dhs_same_year": 0.098,
+   "share_p4_fews_and_dhs_same_year": 0.047,
+   "share_p4_countries_with_any_dhs_since_2011": 0.44
+  },
+  {
+   "window": "2016-2024 (pre-cut)",
+   "country_years": 485,
+   "countries": 70,
+   "share_cy_fews": 0.416,
+   "share_p3_fews": 0.692,
+   "share_p4_fews": 0.815,
+   "share_p3_dhs_same_year": 0.139,
+   "share_p3_fews_and_dhs_same_year": 0.112,
+   "share_p4_fews_and_dhs_same_year": 0.054,
+   "share_p4_countries_with_any_dhs_since_2011": 0.446
+  }
+ ],
+ "holes_top": [
+  {
+   "name": "Yemen",
+   "share_of_all_p4plus": 0.151,
+   "fews": true
+  },
+  {
+   "name": "Afghanistan",
+   "share_of_all_p4plus": 0.145,
+   "fews": true
+  },
+  {
+   "name": "Sudan",
+   "share_of_all_p4plus": 0.115,
+   "fews": true
+  },
+  {
+   "name": "South Sudan",
+   "share_of_all_p4plus": 0.073,
+   "fews": true
+  },
+  {
+   "name": "Somalia",
+   "share_of_all_p4plus": 0.029,
+   "fews": true
+  },
+  {
+   "name": "Palestine - Gaza Strip",
+   "share_of_all_p4plus": 0.018,
+   "fews": false
+  },
+  {
+   "name": "Central African Republic",
+   "share_of_all_p4plus": 0.017,
+   "fews": true
+  },
+  {
+   "name": "Palestine",
+   "share_of_all_p4plus": 0.004,
+   "fews": false
+  }
+ ],
+ "dhs": {
+  "surveys_anthro_in_fews_countries_2011on": 60,
+  "with_gps_and_fews_data": 32,
+  "countries": 19,
+  "children_measured": 284139,
+  "est_children_in_phase3plus_units": 38138,
+  "est_children_in_phase4plus_units": 2096,
+  "surveys_with_any_phase4plus": 8,
+  "surveys_with_phase3plus_share_over_10pct": 15,
+  "est_children_stunting_cohort": 187655,
+  "areas_3plus_during_fieldwork": 1578,
+  "areas_4plus_during_fieldwork": 144,
+  "areas_during_fieldwork": 8060,
+  "median_share_with_ml1": 1.0,
+  "median_share_with_ml2": 0.9994892747701736
+ },
+ "self_consistency": [
+  {
+   "scenario": "ML2",
+   "n": 199460,
+   "accuracy": 0.842,
+   "naive_accuracy": 0.789,
+   "within_one_phase": 0.994,
+   "accuracy_when_actual_3plus": 0.717,
+   "accuracy_when_actual_4plus": 0.668,
+   "n_new_crises": 10636,
+   "share_new_crises_forecast": 0.577,
+   "false_alarm_rate": 0.028,
+   "share_under_predicted": 0.491
+  }
+ ],
+ "fts_flows": 245678,
+ "funding": [
+  {
+   "year": 2011,
+   "total_bn": 12.662,
+   "share_to_fews_countries": 0.574,
+   "share_food_nutrition": 0.241,
+   "us_share_of_food_to_fews": 0.489,
+   "share_sector_unspecified": 0.437,
+   "share_with_decision_date": 0.98
+  },
+  {
+   "year": 2012,
+   "total_bn": 12.367,
+   "share_to_fews_countries": 0.567,
+   "share_food_nutrition": 0.253,
+   "us_share_of_food_to_fews": 0.529,
+   "share_sector_unspecified": 0.409,
+   "share_with_decision_date": 0.972
+  },
+  {
+   "year": 2013,
+   "total_bn": 13.434,
+   "share_to_fews_countries": 0.525,
+   "share_food_nutrition": 0.22,
+   "us_share_of_food_to_fews": 0.498,
+   "share_sector_unspecified": 0.304,
+   "share_with_decision_date": 0.975
+  },
+  {
+   "year": 2014,
+   "total_bn": 22.488,
+   "share_to_fews_countries": 0.47,
+   "share_food_nutrition": 0.1,
+   "us_share_of_food_to_fews": 0.442,
+   "share_sector_unspecified": 0.38,
+   "share_with_decision_date": 0.987
+  },
+  {
+   "year": 2015,
+   "total_bn": 19.823,
+   "share_to_fews_countries": 0.497,
+   "share_food_nutrition": 0.102,
+   "us_share_of_food_to_fews": 0.334,
+   "share_sector_unspecified": 0.425,
+   "share_with_decision_date": 0.986
+  },
+  {
+   "year": 2016,
+   "total_bn": 21.992,
+   "share_to_fews_countries": 0.483,
+   "share_food_nutrition": 0.142,
+   "us_share_of_food_to_fews": 0.549,
+   "share_sector_unspecified": 0.412,
+   "share_with_decision_date": 0.966
+  },
+  {
+   "year": 2017,
+   "total_bn": 19.795,
+   "share_to_fews_countries": 0.574,
+   "share_food_nutrition": 0.154,
+   "us_share_of_food_to_fews": 0.465,
+   "share_sector_unspecified": 0.424,
+   "share_with_decision_date": 0.766
+  },
+  {
+   "year": 2018,
+   "total_bn": 21.351,
+   "share_to_fews_countries": 0.643,
+   "share_food_nutrition": 0.26,
+   "us_share_of_food_to_fews": 0.49,
+   "share_sector_unspecified": 0.328,
+   "share_with_decision_date": 0.737
+  },
+  {
+   "year": 2019,
+   "total_bn": 21.696,
+   "share_to_fews_countries": 0.588,
+   "share_food_nutrition": 0.329,
+   "us_share_of_food_to_fews": 0.574,
+   "share_sector_unspecified": 0.283,
+   "share_with_decision_date": 0.803
+  },
+  {
+   "year": 2020,
+   "total_bn": 26.437,
+   "share_to_fews_countries": 0.508,
+   "share_food_nutrition": 0.261,
+   "us_share_of_food_to_fews": 0.601,
+   "share_sector_unspecified": 0.282,
+   "share_with_decision_date": 0.809
+  },
+  {
+   "year": 2021,
+   "total_bn": 29.165,
+   "share_to_fews_countries": 0.592,
+   "share_food_nutrition": 0.318,
+   "us_share_of_food_to_fews": 0.558,
+   "share_sector_unspecified": 0.319,
+   "share_with_decision_date": 0.835
+  },
+  {
+   "year": 2022,
+   "total_bn": 38.27,
+   "share_to_fews_countries": 0.639,
+   "share_food_nutrition": 0.372,
+   "us_share_of_food_to_fews": 0.606,
+   "share_sector_unspecified": 0.166,
+   "share_with_decision_date": 0.924
+  },
+  {
+   "year": 2023,
+   "total_bn": 32.977,
+   "share_to_fews_countries": 0.567,
+   "share_food_nutrition": 0.305,
+   "us_share_of_food_to_fews": 0.538,
+   "share_sector_unspecified": 0.166,
+   "share_with_decision_date": 0.972
+  },
+  {
+   "year": 2024,
+   "total_bn": 32.934,
+   "share_to_fews_countries": 0.583,
+   "share_food_nutrition": 0.333,
+   "us_share_of_food_to_fews": 0.565,
+   "share_sector_unspecified": 0.141,
+   "share_with_decision_date": 0.992
+  },
+  {
+   "year": 2025,
+   "total_bn": 23.228,
+   "share_to_fews_countries": 0.463,
+   "share_food_nutrition": 0.302,
+   "us_share_of_food_to_fews": 0.38,
+   "share_sector_unspecified": 0.158,
+   "share_with_decision_date": 0.944
+  }
+ ],
+ "mega_emergencies": [
+  {
+   "year": 2005,
+   "emergency": "INDIAN OCEAN - Earthquake/Tsunami - December 2004",
+   "amount_usd": 5546984237,
+   "share_of_year": 0.451
+  },
+  {
+   "year": 2005,
+   "emergency": "SOUTH ASIA - Earthquake - October 2005",
+   "amount_usd": 992747158,
+   "share_of_year": 0.081
+  },
+  {
+   "year": 2006,
+   "emergency": "Lebanon Crisis July 2006",
+   "amount_usd": 548266521,
+   "share_of_year": 0.077
+  },
+  {
+   "year": 2008,
+   "emergency": "MYANMAR - Tropical Cyclone Nargis - May 2008",
+   "amount_usd": 563429961,
+   "share_of_year": 0.051
+  },
+  {
+   "year": 2010,
+   "emergency": "HAITI - Earthquakes - January 2010",
+   "amount_usd": 3199373926,
+   "share_of_year": 0.217
+  },
+  {
+   "year": 2010,
+   "emergency": "PAKISTAN - Floods - July 2010",
+   "amount_usd": 2589774952,
+   "share_of_year": 0.176
+  },
+  {
+   "year": 2011,
+   "emergency": "JAPAN - Earthquake and Tsunami - March 2011",
+   "amount_usd": 735547114,
+   "share_of_year": 0.058
+  },
+  {
+   "year": 2012,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 1177155355,
+   "share_of_year": 0.095
+  },
+  {
+   "year": 2013,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 4199038784,
+   "share_of_year": 0.313
+  },
+  {
+   "year": 2014,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 4453184446,
+   "share_of_year": 0.198
+  },
+  {
+   "year": 2014,
+   "emergency": "Ebola Virus Outbreak - WEST AFRICA - April 2014",
+   "amount_usd": 3576811773,
+   "share_of_year": 0.159
+  },
+  {
+   "year": 2015,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 5608151084,
+   "share_of_year": 0.283
+  },
+  {
+   "year": 2016,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 5880667072,
+   "share_of_year": 0.267
+  },
+  {
+   "year": 2017,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 4843199956,
+   "share_of_year": 0.245
+  },
+  {
+   "year": 2018,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 4122162899,
+   "share_of_year": 0.193
+  },
+  {
+   "year": 2019,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 4249532120,
+   "share_of_year": 0.196
+  },
+  {
+   "year": 2020,
+   "emergency": "Coronavirus disease Outbreak - COVID -19",
+   "amount_usd": 5767584979,
+   "share_of_year": 0.218
+  },
+  {
+   "year": 2020,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 4164584266,
+   "share_of_year": 0.158
+  },
+  {
+   "year": 2021,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 3455862358,
+   "share_of_year": 0.118
+  },
+  {
+   "year": 2022,
+   "emergency": "Ukraine Crisis 2022",
+   "amount_usd": 5657053557,
+   "share_of_year": 0.148
+  },
+  {
+   "year": 2022,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 3171677195,
+   "share_of_year": 0.083
+  },
+  {
+   "year": 2023,
+   "emergency": "Ukraine Crisis 2022",
+   "amount_usd": 3351998051,
+   "share_of_year": 0.102
+  },
+  {
+   "year": 2023,
+   "emergency": "Sudan Complex Emergency 2023",
+   "amount_usd": 2718108135,
+   "share_of_year": 0.082
+  },
+  {
+   "year": 2024,
+   "emergency": "oPt Complex Emergency 2023-24",
+   "amount_usd": 3083311281,
+   "share_of_year": 0.094
+  },
+  {
+   "year": 2024,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 2594293309,
+   "share_of_year": 0.079
+  },
+  {
+   "year": 2025,
+   "emergency": "oPt Complex Emergency 2023-24",
+   "amount_usd": 3880189754,
+   "share_of_year": 0.167
+  },
+  {
+   "year": 2025,
+   "emergency": "Syrian Arab Republic - Civil Unrest (from 2012)",
+   "amount_usd": 1752151889,
+   "share_of_year": 0.075
+  }
+ ],
+ "news_per_person_us": [
+  {
+   "iso2": "CD",
+   "articles": 29633,
+   "per_100k_p3": 15.5
+  },
+  {
+   "iso2": "MW",
+   "articles": 11417,
+   "per_100k_p3": 31.3
+  },
+  {
+   "iso2": "BI",
+   "articles": 4635,
+   "per_100k_p3": 31.6
+  },
+  {
+   "iso2": "NG",
+   "articles": 51943,
+   "per_100k_p3": 35.1
+  },
+  {
+   "iso2": "CF",
+   "articles": 7334,
+   "per_100k_p3": 37.5
+  },
+  {
+   "iso2": "ZM",
+   "articles": 9626,
+   "per_100k_p3": 41.7
+  },
+  {
+   "iso2": "CM",
+   "articles": 10812,
+   "per_100k_p3": 46.3
+  },
+  {
+   "iso2": "BF",
+   "articles": 9850,
+   "per_100k_p3": 54.4
+  },
+  {
+   "iso2": "AF",
+   "articles": 80170,
+   "per_100k_p3": 56.3
+  },
+  {
+   "iso2": "NE",
+   "articles": 14856,
+   "per_100k_p3": 69.1
+  },
+  {
+   "iso2": "MG",
+   "articles": 10747,
+   "per_100k_p3": 70.9
+  },
+  {
+   "iso2": "SD",
+   "articles": 97190,
+   "per_100k_p3": 82.8
+  },
+  {
+   "iso2": "MR",
+   "articles": 4377,
+   "per_100k_p3": 85.5
+  },
+  {
+   "iso2": "AO",
+   "articles": 5232,
+   "per_100k_p3": 92.3
+  },
+  {
+   "iso2": "SS",
+   "articles": 61633,
+   "per_100k_p3": 97.7
+  },
+  {
+   "iso2": "HT",
+   "articles": 36711,
+   "per_100k_p3": 98.0
+  },
+  {
+   "iso2": "YE",
+   "articles": 146583,
+   "per_100k_p3": 98.7
+  },
+  {
+   "iso2": "GT",
+   "articles": 29633,
+   "per_100k_p3": 111.3
+  },
+  {
+   "iso2": "SY",
+   "articles": 91017,
+   "per_100k_p3": 116.5
+  },
+  {
+   "iso2": "VE",
+   "articles": 12618,
+   "per_100k_p3": 135.7
+  },
+  {
+   "iso2": "HN",
+   "articles": 25536,
+   "per_100k_p3": 151.1
+  },
+  {
+   "iso2": "TZ",
+   "articles": 12850,
+   "per_100k_p3": 205.7
+  },
+  {
+   "iso2": "SO",
+   "articles": 75023,
+   "per_100k_p3": 215.5
+  },
+  {
+   "iso2": "KE",
+   "articles": 68385,
+   "per_100k_p3": 245.6
+  },
+  {
+   "iso2": "DJ",
+   "articles": 9244,
+   "per_100k_p3": 567.3
+  },
+  {
+   "iso2": "NI",
+   "articles": 15746,
+   "per_100k_p3": 1192.9
+  }
+ ],
+ "outage": {
+  "countries_before": 32,
+  "dark_months": [
+   "2025-01",
+   "2025-02",
+   "2025-03",
+   "2025-04",
+   "2025-05",
+   "2025-06",
+   "2025-07"
+  ],
+  "restart_aug25": [
+   "BI",
+   "GT",
+   "KE",
+   "MG",
+   "MW",
+   "MZ"
+  ],
+  "n_restart_aug25": 6,
+  "n_oct25": 21,
+  "restored_later": {
+   "TG": "2026-06",
+   "UG": "2026-06",
+   "MR": "not yet",
+   "LS": "2026-06",
+   "AO": "2026-06",
+   "SV": "2026-02",
+   "CF": "2026-02",
+   "HN": "2026-02",
+   "VE": "2026-02",
+   "LB": "2026-02",
+   "NI": "not yet"
+  },
+  "coverage_switches_2011_2026": 58
+ },
+ "survey_tiers": [
+  {
+   "tier": "DHS (GPS)",
+   "surveys_in_family": 101,
+   "countries_in_family": 51,
+   "share_p3_any_since_2011": 0.593,
+   "share_p4_any_since_2011": 0.44,
+   "share_p4_within_a_year": 0.091
+  },
+  {
+   "tier": "+ LSMS (GPS)",
+   "surveys_in_family": 13,
+   "countries_in_family": 4,
+   "share_p3_any_since_2011": 0.593,
+   "share_p4_any_since_2011": 0.44,
+   "share_p4_within_a_year": 0.108
+  },
+  {
+   "tier": "+ MICS (region)",
+   "surveys_in_family": 118,
+   "countries_in_family": 69,
+   "share_p3_any_since_2011": 0.773,
+   "share_p4_any_since_2011": 0.746,
+   "share_p4_within_a_year": 0.204
+  },
+  {
+   "tier": "+ UNHCR camps",
+   "surveys_in_family": 19,
+   "countries_in_family": 8,
+   "share_p3_any_since_2011": 0.809,
+   "share_p4_any_since_2011": 0.819,
+   "share_p4_within_a_year": 0.218
+  }
+ ],
+ "survey_family_counts": [
+  {
+   "family": "DHS (GPS)",
+   "surveys": 101,
+   "countries": 51
+  },
+  {
+   "family": "LSMS (GPS)",
+   "surveys": 13,
+   "countries": 4
+  },
+  {
+   "family": "MICS (region)",
+   "surveys": 118,
+   "countries": 69
+  },
+  {
+   "family": "UNHCR camps",
+   "surveys": 19,
+   "countries": 8
+  }
+ ],
+ "fieldwork_all": {
+  "surveys": 66,
+  "by_family": {
+   "DHS (GPS)": 32,
+   "MICS (region)": 14,
+   "UNHCR camps": 12,
+   "LSMS (GPS)": 8
+  },
+  "approx_dates": 6,
+  "areas3_by_family": {
+   "DHS (GPS)": 1578,
+   "LSMS (GPS)": 986,
+   "MICS (region)": 804,
+   "UNHCR camps": 328
+  },
+  "surveys_share3_over_10pct_by_family": {
+   "DHS (GPS)": 15,
+   "MICS (region)": 5,
+   "LSMS (GPS)": 4,
+   "UNHCR camps": 4
+  },
+  "surveys_any4_by_family": {
+   "DHS (GPS)": 8,
+   "UNHCR camps": 5,
+   "MICS (region)": 4,
+   "LSMS (GPS)": 4
+  }
+ },
+ "coverage_same_year": {
+  "FEWS NET, and a DHS (or LSMS) survey in the field": {
+   "p3": 0.122,
+   "p4": 0.064
+  },
+  "FEWS NET, and a MICS survey in the field": {
+   "p3": 0.026,
+   "p4": 0.039
+  },
+  "FEWS NET, and a UNHCR camp survey in the field": {
+   "p3": 0.01,
+   "p4": 0.006
+  },
+  "FEWS NET only, no survey measuring children": {
+   "p3": 0.538,
+   "p4": 0.702
+  },
+  "Not covered by FEWS NET": {
+   "p3": 0.305,
+   "p4": 0.188
+  }
+ },
+ "coverage_switches_classified": {
+  "API only (after mid-2023)": 32,
+  "API gap (maps show coverage)": 14,
+  "real": 12
+ },
+ "coverage_switches_maps_2010_2023": 45,
+ "coverage_countries_maps": 31,
+ "coverage_switches_combined_2010_2026": 60,
+ "coverage_switches_combined_pre2025": 32,
+ "coverage_countries_ever": 47
+}

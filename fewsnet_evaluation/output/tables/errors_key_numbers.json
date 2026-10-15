@@ -1,0 +1,94 @@
+{
+ "type2": {
+  "onsets": 1761,
+  "onsets_with_forecasts": 1753,
+  "share_warned_emergency_any_lead": 0.607529948659441,
+  "share_warned_crisis_only": 0.35367940673131776,
+  "share_no_warning_at_all": 0.0387906446092413,
+  "share_onsets_from_phase3": 0.8654173764906303,
+  "median_earliest_lead": 4.0,
+  "onset_years": {
+   "2011": 153,
+   "2012": 3,
+   "2014": 17,
+   "2015": 70,
+   "2016": 55,
+   "2017": 96,
+   "2018": 29,
+   "2019": 57,
+   "2020": 49,
+   "2021": 77,
+   "2022": 314,
+   "2023": 302,
+   "2024": 340,
+   "2026": 199
+  }
+ },
+ "type2_ipc": [
+  {
+   "onset": false,
+   "n": 1396,
+   "share_fc4": 0.122,
+   "share_fc3": 0.703
+  },
+  {
+   "onset": true,
+   "n": 23,
+   "share_fc4": 0.348,
+   "share_fc3": 1.0
+  }
+ ],
+ "type1": {
+  "warnings": 4618,
+  "false_alarm_share": 0.4885231702035513,
+  "false_alarms_realised_3": 0.46470333477695974,
+  "flag": [
+   {
+    "cell": "Warned, Emergency happened (realised Phase 4+)",
+    "n": 2362,
+    "flag": 0.045
+   },
+   {
+    "cell": "Warned, did not happen: realised Crisis (3)",
+    "n": 2146,
+    "flag": 0.592
+   },
+   {
+    "cell": "Not warned, realised Crisis (3)",
+    "n": 26886,
+    "flag": 0.105
+   },
+   {
+    "cell": "Warned, did not happen: realised Stressed or better",
+    "n": 110,
+    "flag": 0.6
+   },
+   {
+    "cell": "Not warned, realised Stressed or better",
+    "n": 96044,
+    "flag": 0.041
+   }
+  ]
+ },
+ "type1_funding": {
+  "fund_all_dm": {
+   "slope": -0.024,
+   "ci": [
+    -0.219,
+    0.154
+   ],
+   "n": 127,
+   "countries": 15
+  },
+  "fund_food_dm": {
+   "slope": 0.014,
+   "ci": [
+    -0.093,
+    0.114
+   ],
+   "n": 127,
+   "countries": 15
+  }
+ },
+ "type1_episode_count": 127
+}

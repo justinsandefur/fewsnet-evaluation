@@ -1,0 +1,33 @@
+{
+ "SOM": {
+  "iso": "SOM",
+  "districts": 74,
+  "periods": 33,
+  "share_with_aid": 0.12203112203112203,
+  "mean_aid_usd": 46191.32501515152,
+  "annual_n": 222,
+  "annual_years": [
+   2022,
+   2023,
+   2024
+  ],
+  "flag_mean_annual": 0.19639010448693453,
+  "reach_any": 0.9324324324324325
+ },
+ "SDN": {
+  "iso": "SDN",
+  "districts": 192,
+  "periods": 18,
+  "share_with_aid": 0.13744552463962453,
+  "mean_aid_usd": 41840.43436473349,
+  "annual_n": 642,
+  "annual_years": [
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "flag_mean_annual": 0.14041881796678235,
+  "reach_any": 0.9595015576323987
+ }
+}

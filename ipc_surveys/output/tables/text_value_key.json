@@ -1,0 +1,42 @@
+{
+ "areas_rounds": 48040,
+ "rounds_with_text": 47362,
+ "auc_next4_map": 0.6025364037620659,
+ "auc_next4_text": 0.5906946105931854,
+ "auc_next4_textdata": 0.5787304402827049,
+ "auc_need4_map": 0.7084448575271542,
+ "auc_need4_text": 0.7280948005671206,
+ "auc_need4_textdata": 0.7235560925886088,
+ "esc_n": 8564,
+ "esc_events": 744,
+ "esc_fc4_share": 0.3185483870967742,
+ "esc_text_share": 0.7526881720430108,
+ "nonesc_text_share": 0.48427109974424554,
+ "new_survey_groups": {
+  "escalated_unforecast": {
+   "n": 507,
+   "share_new_survey": 0.2485207100591716
+  },
+  "escalated_forecast": {
+   "n": 237,
+   "share_new_survey": 0.1518987341772152
+  },
+  "no_escalation": {
+   "n": 7820,
+   "share_new_survey": 0.05741687979539642
+  }
+ },
+ "extract_match": 0.906832298136646,
+ "extract_match_n": 322,
+ "survey_n": 117,
+ "survey_crit": 101,
+ "survey_miss": 0.38613861386138615,
+ "survey_miss_crisis": 0.19801980198019797,
+ "survey_false_alarm": 0.06060606060606055,
+ "surveys_total": 263,
+ "surveys_by_country": {
+  "SO": 188,
+  "ET": 52,
+  "SD": 23
+ }
+}

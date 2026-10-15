@@ -1,0 +1,103 @@
+{
+ "name": "somalia__alert__august-2022",
+ "period_covered": "October - December 2022",
+ "national": {
+  "famine_risk_mentioned": true,
+  "worst_case_described": true,
+  "worst_case_text": "Famine (IPC Phase 5) projected in Baidoa and Burhakaba districts and Baidoa IDPs, Bay Region, October-December in absence of significant humanitarian assistance reaching people in need.",
+  "aid_assumption": "assumed_reduced",
+  "aid_assumption_text": "Minimal assistance expected in Bay in November-December due to funding constraints; assistance failing to keep pace with need",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "below",
+  "season_status_text": "Gu harvest failed in Bay (<20% of average); below-average Deyr forecast, fifth consecutive poor season"
+ },
+ "areas": [
+  {
+   "location": "Baidoa and Burhakaba agropastoral",
+   "admin1": "Bay",
+   "admin2": "Baidoa; Burhakaba",
+   "livelihood_zone": null,
+   "population_group": "residents",
+   "current_phase": 4,
+   "projected_phase": 5,
+   "projected_period": "October-December 2022",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "deteriorate",
+   "nutrition_class": "Emergency-level acute malnutrition and mortality",
+   "price_change_pct": 234,
+   "price_change_basis": "five_year_avg",
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "harvest_poor",
+    "prices_high",
+    "conflict",
+    "aid_reduction"
+   ],
+   "aid_status": "reduced_or_ending",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Baidoa town IDPs",
+   "admin1": "Bay",
+   "admin2": "Baidoa",
+   "livelihood_zone": null,
+   "population_group": "IDPs",
+   "current_phase": 4,
+   "projected_phase": 5,
+   "projected_period": "October-December 2022",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 5,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "displacement",
+    "aid_reduction"
+   ],
+   "aid_status": "reduced_or_ending",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "Baidoa and Burhakaba, Baidoa IDPs",
+   "admin1": "Bay",
+   "admin2": null,
+   "population_group": null,
+   "survey_type": "SMART",
+   "fieldwork": "June-July 2022",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "integrated food security, nutrition, mortality surveys; indicate Emergency (Phase 4) levels",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "smart_nutrition",
+  "mortality_survey",
+  "joint_assessment_ipc",
+  "market_prices_fewsnet"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

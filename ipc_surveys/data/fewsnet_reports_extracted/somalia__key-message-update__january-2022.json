@@ -1,0 +1,133 @@
+{
+ "name": "somalia__key-message-update__january-2022",
+ "period_covered": "February-June 2022",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": true,
+  "worst_case_text": "If 2022 Gu rains perform more poorly than forecast (delayed start, severe deficits, erratic), outcomes could be more severe than projected.",
+  "aid_assumption": "not_stated",
+  "aid_assumption_text": "Feb-June projections do not factor in food assistance (plans unavailable); assistance averaged 2.4 million/month Jul-Dec 2021 vs 1.6 million Jan-Jun.",
+  "people_in_need_crisis_plus": 4100000,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": 3700000,
+  "upside_scenario_text": null,
+  "rain_forecast": "below",
+  "season_status_text": "2021 Deyr 40-60 percent below average; Gu 2022 forecast moderately below average"
+ },
+ "areas": [
+  {
+   "location": "Rural pastoral, agropastoral and riverine areas",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "harvest_poor",
+    "livestock",
+    "conflict"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "IDPs",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": "IDPs",
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "displacement"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Areas of concern: Riverine Middle/Lower Shabelle, Gedo, Juba; Juba Cattle Pastoral; Gedo Pastoral and Agropastoral; Bay agropastoral; Hawd and Addun Pastoral; IDPs in Mogadishu, Baidoa, Dolow, Dhusamareb, Bosaaso, Galkacyo",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": "Critical GAM (projected)",
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "Somalia (39 surveys, national median)",
+   "admin1": null,
+   "admin2": null,
+   "population_group": null,
+   "survey_type": "SMART",
+   "fieldwork": "November-December 2021",
+   "gam_pct": 13,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "1.4 million children acutely malnourished expected in 2022; 329,500 severe",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "smart_nutrition",
+  "joint_assessment_ipc",
+  "household_survey",
+  "humanitarian_distribution_data",
+  "crop_assessment"
+ ],
+ "data_gaps": [
+  {
+   "location": "national",
+   "admin1": null,
+   "what": "assistance",
+   "text": "Information on planned and funded food and cash assistance through mid-2022 not available at time of analysis."
+  }
+ ],
+ "remote_monitoring": false
+}

@@ -1,0 +1,29 @@
+{
+ "n_rows": 30496,
+ "drought_rate": 0.06436909758656872,
+ "share_covered": 0.7628869359916055,
+ "switch_countries": [
+  "BDI",
+  "BFA",
+  "CAF",
+  "CMR",
+  "GIN",
+  "KEN",
+  "LBR",
+  "MDG",
+  "MLI",
+  "MOZ",
+  "MRT",
+  "NER",
+  "SDN",
+  "SLE",
+  "SLV",
+  "SOM",
+  "TCD",
+  "TGO",
+  "UGA",
+  "YEM",
+  "ZMB"
+ ],
+ "mean_share3": 0.1623318550452499
+}

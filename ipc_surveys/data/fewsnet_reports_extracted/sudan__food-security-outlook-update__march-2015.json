@@ -1,0 +1,189 @@
+{
+"name": "sudan__food-security-outlook-update__march-2015",
+"period_covered": "January - June 2015",
+"national": {
+"famine_risk_mentioned": false,
+"worst_case_described": false,
+"worst_case_text": null,
+"aid_assumption": "assumed_continued",
+"aid_assumption_text": "Assumptions in January-June 2015 Outlook unchanged; households in conflict areas have little or no access to humanitarian assistance.",
+"people_in_need_crisis_plus": null,
+"headline_direction": "stable",
+"aid_assumption_changes": null,
+"people_stressed": null,
+"upside_scenario_text": null,
+"rain_forecast": "not_stated",
+"season_status_text": null
+},
+"areas": [
+{
+"location": "Conflict-affected areas of South Kordofan, Darfur and Blue Nile",
+"admin1": "South Kordofan; Darfur; Blue Nile",
+"admin2": null,
+"livelihood_zone": null,
+"population_group": "IDPs",
+"current_phase": 3,
+"projected_phase": 3,
+"projected_period": "through June 2015",
+"projected_phase_2": null,
+"projected_period_2": null,
+"aid_flag_or_held_back": false,
+"worst_case_phase": null,
+"direction": "stable",
+"nutrition_class": null,
+"price_change_pct": null,
+"price_change_basis": null,
+"terms_of_trade_text": null,
+"people_in_need": null,
+"drivers": [
+"conflict",
+"displacement",
+"access_constraint"
+],
+"aid_status": "access_blocked",
+"aid_coverage_pct_of_need": null,
+"uncertainty_language": false
+},
+{
+"location": "Nuba Mountains",
+"admin1": "South Kordofan",
+"admin2": null,
+"livelihood_zone": null,
+"population_group": null,
+"current_phase": null,
+"projected_phase": null,
+"projected_period": null,
+"projected_phase_2": null,
+"projected_period_2": null,
+"aid_flag_or_held_back": false,
+"worst_case_phase": null,
+"direction": "deteriorate",
+"nutrition_class": null,
+"price_change_pct": null,
+"price_change_basis": null,
+"terms_of_trade_text": null,
+"people_in_need": null,
+"drivers": [
+"conflict",
+"displacement",
+"access_constraint"
+],
+"aid_status": "access_blocked",
+"aid_coverage_pct_of_need": null,
+"uncertainty_language": false
+},
+{
+"location": "Jebel Marra",
+"admin1": "South Darfur; Central Darfur",
+"admin2": null,
+"livelihood_zone": null,
+"population_group": null,
+"current_phase": null,
+"projected_phase": null,
+"projected_period": null,
+"projected_phase_2": null,
+"projected_period_2": null,
+"aid_flag_or_held_back": false,
+"worst_case_phase": null,
+"direction": "deteriorate",
+"nutrition_class": null,
+"price_change_pct": null,
+"price_change_basis": null,
+"terms_of_trade_text": null,
+"people_in_need": null,
+"drivers": [
+"conflict",
+"displacement",
+"access_constraint"
+],
+"aid_status": "access_blocked",
+"aid_coverage_pct_of_need": null,
+"uncertainty_language": false
+},
+{
+"location": "Nyala market",
+"admin1": "South Darfur",
+"admin2": null,
+"livelihood_zone": null,
+"population_group": null,
+"current_phase": null,
+"projected_phase": null,
+"projected_period": null,
+"projected_phase_2": null,
+"projected_period_2": null,
+"aid_flag_or_held_back": false,
+"worst_case_phase": null,
+"direction": "not_stated",
+"nutrition_class": null,
+"price_change_pct": 12,
+"price_change_basis": "other",
+"terms_of_trade_text": null,
+"people_in_need": null,
+"drivers": [
+"prices_high"
+],
+"aid_status": "not_stated",
+"aid_coverage_pct_of_need": null,
+"uncertainty_language": false
+},
+{
+"location": "El Obied market",
+"admin1": "North Kordofan",
+"admin2": null,
+"livelihood_zone": null,
+"population_group": null,
+"current_phase": null,
+"projected_phase": null,
+"projected_period": null,
+"projected_phase_2": null,
+"projected_period_2": null,
+"aid_flag_or_held_back": false,
+"worst_case_phase": null,
+"direction": "not_stated",
+"nutrition_class": null,
+"price_change_pct": 6,
+"price_change_basis": "other",
+"terms_of_trade_text": null,
+"people_in_need": null,
+"drivers": [
+"prices_high"
+],
+"aid_status": "not_stated",
+"aid_coverage_pct_of_need": null,
+"uncertainty_language": false
+}
+],
+"surveys": [
+{
+"location": "North Darfur (Tawila, Um Baru, rural El Fasher) and South Darfur (Gereida, Kass)",
+"admin1": null,
+"admin2": null,
+"population_group": null,
+"survey_type": "MUAC_screening",
+"fieldwork": "February 2015",
+"gam_pct": null,
+"sam_pct": 1,
+"gam_muac_pct": 10,
+"cdr": null,
+"u5dr": null,
+"fcs_poor_pct": null,
+"other": "26,300 children screened",
+"planned_not_done": false
+}
+],
+"data_sources_cited": [
+"market_prices_fewsnet",
+"displacement_tracking",
+"humanitarian_distribution_data",
+"conflict_data"
+],
+"data_gaps": [
+{
+"location": "Jebel Marra",
+"admin1": "Darfur",
+"what": "access",
+"text": "Newly displaced populations trapped in Jebel Mara are inaccessible to humanitarian agencies due to insecurity."
+}
+],
+"remote_monitoring": false
+}

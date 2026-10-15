@@ -1,0 +1,23 @@
+outcome,info,r2,n,seasons
+gam,"Base (population type, season)",-0.061666491755852704,105,20
+gam,"Phases (IPC share 3+, FEWS NET map and forecast)",-0.004588335665289822,105,20
+gam,"Triggers (rain, conflict, prices)",-0.07293605933140723,105,20
+gam,Phases + triggers,0.1325552693507226,105,20
+gam,Previous survey,0.0478402857480178,57,10
+gam,Previous survey + triggers,-0.07448121652656403,57,10
+sam,"Base (population type, season)",-0.05235303668960212,105,20
+sam,"Phases (IPC share 3+, FEWS NET map and forecast)",-0.028165573253494447,105,20
+sam,"Triggers (rain, conflict, prices)",-0.09937210320538803,105,20
+sam,Phases + triggers,0.028979177423653857,105,20
+cdr,"Base (population type, season)",-0.11410815521792994,105,20
+cdr,"Phases (IPC share 3+, FEWS NET map and forecast)",-0.17251869091041905,105,20
+cdr,"Triggers (rain, conflict, prices)",-0.24107063740580004,105,20
+cdr,Phases + triggers,-0.34895210835103807,105,20
+cdr,Previous survey,0.07016171708951169,57,10
+cdr,Previous survey + triggers,-0.5680612520960169,57,10
+u5dr,"Base (population type, season)",-0.07256522821112998,105,20
+u5dr,"Phases (IPC share 3+, FEWS NET map and forecast)",-0.19708498807931996,105,20
+u5dr,"Triggers (rain, conflict, prices)",-0.2095695002909841,105,20
+u5dr,Phases + triggers,-0.36277744473270257,105,20
+u5dr,Previous survey,-0.12496221502192673,57,10
+u5dr,Previous survey + triggers,-0.6767562760795316,57,10

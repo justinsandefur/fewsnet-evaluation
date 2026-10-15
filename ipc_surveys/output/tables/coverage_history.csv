@@ -1,0 +1,847 @@
+iso3,year,api,maps,maps_n,covered,country
+-99,2009,False,True,1.0,True,
+-99,2010,False,True,4.0,True,
+-99,2011,False,True,4.0,True,
+-99,2012,False,True,4.0,True,
+-99,2013,False,True,4.0,True,
+-99,2014,False,True,4.0,True,
+-99,2015,False,True,4.0,True,
+-99,2016,False,True,3.0,True,
+-99,2017,False,True,3.0,True,
+-99,2018,False,True,3.0,True,
+-99,2019,False,True,3.0,True,
+-99,2020,False,True,3.0,True,
+-99,2021,False,True,3.0,True,
+-99,2022,False,True,3.0,True,
+-99,2023,False,,0.0,False,
+-99,2024,False,,0.0,False,
+-99,2025,False,,0.0,False,
+-99,2026,False,,0.0,False,
+AFG,2009,False,True,2.0,True,Afghanistan
+AFG,2010,False,True,4.0,True,Afghanistan
+AFG,2011,True,True,4.0,True,Afghanistan
+AFG,2012,True,True,4.0,True,Afghanistan
+AFG,2013,True,True,4.0,True,Afghanistan
+AFG,2014,True,True,4.0,True,Afghanistan
+AFG,2015,True,True,4.0,True,Afghanistan
+AFG,2016,True,True,3.0,True,Afghanistan
+AFG,2017,True,True,3.0,True,Afghanistan
+AFG,2018,True,True,3.0,True,Afghanistan
+AFG,2019,True,True,3.0,True,Afghanistan
+AFG,2020,True,True,2.0,True,Afghanistan
+AFG,2021,True,True,2.0,True,Afghanistan
+AFG,2022,True,,0.0,True,Afghanistan
+AFG,2023,True,,0.0,True,Afghanistan
+AFG,2024,True,,0.0,True,Afghanistan
+AFG,2025,True,,0.0,True,Afghanistan
+AFG,2026,True,,0.0,True,Afghanistan
+AGO,2009,False,False,0.0,False,Angola
+AGO,2010,False,False,0.0,False,Angola
+AGO,2011,False,False,0.0,False,Angola
+AGO,2012,False,False,0.0,False,Angola
+AGO,2013,False,False,0.0,False,Angola
+AGO,2014,False,False,0.0,False,Angola
+AGO,2015,False,False,0.0,False,Angola
+AGO,2016,False,False,0.0,False,Angola
+AGO,2017,False,False,0.0,False,Angola
+AGO,2018,False,False,0.0,False,Angola
+AGO,2019,False,False,0.0,False,Angola
+AGO,2020,False,False,0.0,False,Angola
+AGO,2021,False,False,0.0,False,Angola
+AGO,2022,True,False,0.0,True,Angola
+AGO,2023,True,,0.0,True,Angola
+AGO,2024,True,,0.0,True,Angola
+AGO,2025,False,,0.0,False,Angola
+AGO,2026,True,,0.0,True,Angola
+BDI,2009,False,False,0.0,False,Burundi
+BDI,2010,False,False,0.0,False,Burundi
+BDI,2011,False,False,0.0,False,Burundi
+BDI,2012,False,False,0.0,False,Burundi
+BDI,2013,False,False,0.0,False,Burundi
+BDI,2014,False,False,0.0,False,Burundi
+BDI,2015,False,False,0.0,False,Burundi
+BDI,2016,False,False,0.0,False,Burundi
+BDI,2017,False,False,0.0,False,Burundi
+BDI,2018,False,False,0.0,False,Burundi
+BDI,2019,False,False,0.0,False,Burundi
+BDI,2020,True,True,3.0,True,Burundi
+BDI,2021,True,True,3.0,True,Burundi
+BDI,2022,True,True,3.0,True,Burundi
+BDI,2023,True,,0.0,True,Burundi
+BDI,2024,True,,0.0,True,Burundi
+BDI,2025,True,,0.0,True,Burundi
+BDI,2026,True,,0.0,True,Burundi
+BFA,2009,False,True,2.0,True,Burkina Faso
+BFA,2010,False,True,4.0,True,Burkina Faso
+BFA,2011,True,True,4.0,True,Burkina Faso
+BFA,2012,True,True,4.0,True,Burkina Faso
+BFA,2013,True,True,4.0,True,Burkina Faso
+BFA,2014,True,True,4.0,True,Burkina Faso
+BFA,2015,True,True,4.0,True,Burkina Faso
+BFA,2016,True,True,3.0,True,Burkina Faso
+BFA,2017,True,True,3.0,True,Burkina Faso
+BFA,2018,False,False,0.0,False,Burkina Faso
+BFA,2019,False,False,0.0,False,Burkina Faso
+BFA,2020,True,False,0.0,True,Burkina Faso
+BFA,2021,True,True,2.0,True,Burkina Faso
+BFA,2022,True,True,3.0,True,Burkina Faso
+BFA,2023,True,,0.0,True,Burkina Faso
+BFA,2024,True,,0.0,True,Burkina Faso
+BFA,2025,True,,0.0,True,Burkina Faso
+BFA,2026,True,,0.0,True,Burkina Faso
+CAF,2009,False,False,0.0,False,Central African Republic
+CAF,2010,False,False,0.0,False,Central African Republic
+CAF,2011,False,False,0.0,False,Central African Republic
+CAF,2012,False,False,0.0,False,Central African Republic
+CAF,2013,False,False,0.0,False,Central African Republic
+CAF,2014,False,False,0.0,False,Central African Republic
+CAF,2015,False,False,0.0,False,Central African Republic
+CAF,2016,False,False,0.0,False,Central African Republic
+CAF,2017,False,False,0.0,False,Central African Republic
+CAF,2018,False,False,0.0,False,Central African Republic
+CAF,2019,False,False,0.0,False,Central African Republic
+CAF,2020,True,False,0.0,True,Central African Republic
+CAF,2021,True,False,0.0,True,Central African Republic
+CAF,2022,True,False,0.0,True,Central African Republic
+CAF,2023,True,,0.0,True,Central African Republic
+CAF,2024,True,,0.0,True,Central African Republic
+CAF,2025,False,,0.0,False,Central African Republic
+CAF,2026,True,,0.0,True,Central African Republic
+CIV,2009,False,False,0.0,False,Côte d’Ivoire
+CIV,2010,False,False,0.0,False,Côte d’Ivoire
+CIV,2011,False,False,0.0,False,Côte d’Ivoire
+CIV,2012,False,False,0.0,False,Côte d’Ivoire
+CIV,2013,False,False,0.0,False,Côte d’Ivoire
+CIV,2014,False,False,0.0,False,Côte d’Ivoire
+CIV,2015,False,False,0.0,False,Côte d’Ivoire
+CIV,2016,False,False,0.0,False,Côte d’Ivoire
+CIV,2017,False,False,0.0,False,Côte d’Ivoire
+CIV,2018,False,False,0.0,False,Côte d’Ivoire
+CIV,2019,False,False,0.0,False,Côte d’Ivoire
+CIV,2020,False,False,0.0,False,Côte d’Ivoire
+CIV,2021,False,False,0.0,False,Côte d’Ivoire
+CIV,2022,False,False,0.0,False,Côte d’Ivoire
+CIV,2023,False,,0.0,False,Côte d’Ivoire
+CIV,2024,False,,0.0,False,Côte d’Ivoire
+CIV,2025,False,,0.0,False,Côte d’Ivoire
+CIV,2026,True,,0.0,True,Côte d’Ivoire
+CMR,2009,False,False,0.0,False,Cameroon
+CMR,2010,False,False,0.0,False,Cameroon
+CMR,2011,False,False,0.0,False,Cameroon
+CMR,2012,False,False,0.0,False,Cameroon
+CMR,2013,False,False,0.0,False,Cameroon
+CMR,2014,False,False,0.0,False,Cameroon
+CMR,2015,False,False,0.0,False,Cameroon
+CMR,2016,False,False,0.0,False,Cameroon
+CMR,2017,False,False,0.0,False,Cameroon
+CMR,2018,False,False,0.0,False,Cameroon
+CMR,2019,False,False,0.0,False,Cameroon
+CMR,2020,True,True,3.0,True,Cameroon
+CMR,2021,True,True,3.0,True,Cameroon
+CMR,2022,True,True,3.0,True,Cameroon
+CMR,2023,True,,0.0,True,Cameroon
+CMR,2024,True,,0.0,True,Cameroon
+CMR,2025,True,,0.0,True,Cameroon
+CMR,2026,True,,0.0,True,Cameroon
+COD,2009,False,False,0.0,False,Democratic Republic of the Congo
+COD,2010,False,False,0.0,False,Democratic Republic of the Congo
+COD,2011,False,False,0.0,False,Democratic Republic of the Congo
+COD,2012,False,False,0.0,False,Democratic Republic of the Congo
+COD,2013,False,False,0.0,False,Democratic Republic of the Congo
+COD,2014,False,False,0.0,False,Democratic Republic of the Congo
+COD,2015,False,False,0.0,False,Democratic Republic of the Congo
+COD,2016,False,True,1.0,True,Democratic Republic of the Congo
+COD,2017,False,True,3.0,True,Democratic Republic of the Congo
+COD,2018,True,True,3.0,True,Democratic Republic of the Congo
+COD,2019,True,True,3.0,True,Democratic Republic of the Congo
+COD,2020,True,True,3.0,True,Democratic Republic of the Congo
+COD,2021,True,True,3.0,True,Democratic Republic of the Congo
+COD,2022,True,True,3.0,True,Democratic Republic of the Congo
+COD,2023,True,,0.0,True,Democratic Republic of the Congo
+COD,2024,True,,0.0,True,Democratic Republic of the Congo
+COD,2025,True,,0.0,True,Democratic Republic of the Congo
+COD,2026,True,,0.0,True,Democratic Republic of the Congo
+COL,2009,False,False,0.0,False,Colombia
+COL,2010,False,False,0.0,False,Colombia
+COL,2011,False,False,0.0,False,Colombia
+COL,2012,False,False,0.0,False,Colombia
+COL,2013,False,False,0.0,False,Colombia
+COL,2014,False,False,0.0,False,Colombia
+COL,2015,False,False,0.0,False,Colombia
+COL,2016,False,False,0.0,False,Colombia
+COL,2017,False,False,0.0,False,Colombia
+COL,2018,False,False,0.0,False,Colombia
+COL,2019,False,False,0.0,False,Colombia
+COL,2020,False,False,0.0,False,Colombia
+COL,2021,False,False,0.0,False,Colombia
+COL,2022,False,False,0.0,False,Colombia
+COL,2023,False,,0.0,False,Colombia
+COL,2024,False,,0.0,False,Colombia
+COL,2025,False,,0.0,False,Colombia
+COL,2026,True,,0.0,True,Colombia
+DJI,2009,False,True,2.0,True,Djibouti
+DJI,2010,False,True,4.0,True,Djibouti
+DJI,2011,True,True,4.0,True,Djibouti
+DJI,2012,True,True,2.0,True,Djibouti
+DJI,2013,True,True,3.0,True,Djibouti
+DJI,2014,True,True,4.0,True,Djibouti
+DJI,2015,True,True,2.0,True,Djibouti
+DJI,2016,False,False,0.0,False,Djibouti
+DJI,2017,False,False,0.0,False,Djibouti
+DJI,2018,False,False,0.0,False,Djibouti
+DJI,2019,False,False,0.0,False,Djibouti
+DJI,2020,False,False,0.0,False,Djibouti
+DJI,2021,False,False,0.0,False,Djibouti
+DJI,2022,False,False,0.0,False,Djibouti
+DJI,2023,False,,0.0,False,Djibouti
+DJI,2024,False,,0.0,False,Djibouti
+DJI,2025,False,,0.0,False,Djibouti
+DJI,2026,False,,0.0,False,Djibouti
+ETH,2009,False,True,2.0,True,Ethiopia
+ETH,2010,False,True,4.0,True,Ethiopia
+ETH,2011,True,True,4.0,True,Ethiopia
+ETH,2012,True,True,4.0,True,Ethiopia
+ETH,2013,True,True,4.0,True,Ethiopia
+ETH,2014,True,True,4.0,True,Ethiopia
+ETH,2015,True,True,4.0,True,Ethiopia
+ETH,2016,True,True,3.0,True,Ethiopia
+ETH,2017,True,True,3.0,True,Ethiopia
+ETH,2018,True,True,3.0,True,Ethiopia
+ETH,2019,True,True,3.0,True,Ethiopia
+ETH,2020,True,True,3.0,True,Ethiopia
+ETH,2021,True,True,3.0,True,Ethiopia
+ETH,2022,True,True,3.0,True,Ethiopia
+ETH,2023,True,,0.0,True,Ethiopia
+ETH,2024,True,,0.0,True,Ethiopia
+ETH,2025,True,,0.0,True,Ethiopia
+ETH,2026,True,,0.0,True,Ethiopia
+GIN,2009,False,False,0.0,False,Guinea
+GIN,2010,False,False,0.0,False,Guinea
+GIN,2011,False,False,0.0,False,Guinea
+GIN,2012,False,False,0.0,False,Guinea
+GIN,2013,False,False,0.0,False,Guinea
+GIN,2014,False,False,0.0,False,Guinea
+GIN,2015,False,True,1.0,True,Guinea
+GIN,2016,False,True,3.0,True,Guinea
+GIN,2017,False,True,1.0,True,Guinea
+GIN,2018,False,False,0.0,False,Guinea
+GIN,2019,False,False,0.0,False,Guinea
+GIN,2020,False,False,0.0,False,Guinea
+GIN,2021,False,False,0.0,False,Guinea
+GIN,2022,False,False,0.0,False,Guinea
+GIN,2023,False,,0.0,False,Guinea
+GIN,2024,False,,0.0,False,Guinea
+GIN,2025,False,,0.0,False,Guinea
+GIN,2026,False,,0.0,False,Guinea
+GTM,2009,False,True,2.0,True,Guatemala
+GTM,2010,False,True,4.0,True,Guatemala
+GTM,2011,True,True,4.0,True,Guatemala
+GTM,2012,True,True,4.0,True,Guatemala
+GTM,2013,True,True,4.0,True,Guatemala
+GTM,2014,True,True,4.0,True,Guatemala
+GTM,2015,True,True,4.0,True,Guatemala
+GTM,2016,True,True,3.0,True,Guatemala
+GTM,2017,True,True,3.0,True,Guatemala
+GTM,2018,True,True,3.0,True,Guatemala
+GTM,2019,True,True,3.0,True,Guatemala
+GTM,2020,True,True,3.0,True,Guatemala
+GTM,2021,True,True,3.0,True,Guatemala
+GTM,2022,True,True,3.0,True,Guatemala
+GTM,2023,True,,0.0,True,Guatemala
+GTM,2024,True,,0.0,True,Guatemala
+GTM,2025,True,,0.0,True,Guatemala
+GTM,2026,True,,0.0,True,Guatemala
+HND,2009,False,False,0.0,False,Honduras
+HND,2010,False,False,0.0,False,Honduras
+HND,2011,False,False,0.0,False,Honduras
+HND,2012,False,False,0.0,False,Honduras
+HND,2013,False,False,0.0,False,Honduras
+HND,2014,False,False,0.0,False,Honduras
+HND,2015,False,False,0.0,False,Honduras
+HND,2016,False,False,0.0,False,Honduras
+HND,2017,False,False,0.0,False,Honduras
+HND,2018,False,False,0.0,False,Honduras
+HND,2019,False,False,0.0,False,Honduras
+HND,2020,True,False,0.0,True,Honduras
+HND,2021,True,False,0.0,True,Honduras
+HND,2022,True,False,0.0,True,Honduras
+HND,2023,True,,0.0,True,Honduras
+HND,2024,True,,0.0,True,Honduras
+HND,2025,False,,0.0,False,Honduras
+HND,2026,True,,0.0,True,Honduras
+HTI,2009,False,True,2.0,True,Haiti
+HTI,2010,False,True,4.0,True,Haiti
+HTI,2011,True,True,4.0,True,Haiti
+HTI,2012,True,True,3.0,True,Haiti
+HTI,2013,True,True,4.0,True,Haiti
+HTI,2014,True,True,4.0,True,Haiti
+HTI,2015,True,True,4.0,True,Haiti
+HTI,2016,False,True,3.0,True,Haiti
+HTI,2017,False,True,3.0,True,Haiti
+HTI,2018,True,True,3.0,True,Haiti
+HTI,2019,True,True,3.0,True,Haiti
+HTI,2020,True,True,3.0,True,Haiti
+HTI,2021,True,True,3.0,True,Haiti
+HTI,2022,True,True,3.0,True,Haiti
+HTI,2023,True,,0.0,True,Haiti
+HTI,2024,True,,0.0,True,Haiti
+HTI,2025,True,,0.0,True,Haiti
+HTI,2026,True,,0.0,True,Haiti
+KEN,2009,False,True,2.0,True,Kenya
+KEN,2010,False,True,4.0,True,Kenya
+KEN,2011,True,True,4.0,True,Kenya
+KEN,2012,True,True,4.0,True,Kenya
+KEN,2013,True,True,4.0,True,Kenya
+KEN,2014,True,True,4.0,True,Kenya
+KEN,2015,True,True,4.0,True,Kenya
+KEN,2016,True,True,3.0,True,Kenya
+KEN,2017,True,True,3.0,True,Kenya
+KEN,2018,True,True,3.0,True,Kenya
+KEN,2019,True,True,3.0,True,Kenya
+KEN,2020,True,True,3.0,True,Kenya
+KEN,2021,True,True,3.0,True,Kenya
+KEN,2022,True,True,3.0,True,Kenya
+KEN,2023,True,,0.0,True,Kenya
+KEN,2024,True,,0.0,True,Kenya
+KEN,2025,True,,0.0,True,Kenya
+KEN,2026,True,,0.0,True,Kenya
+LBN,2009,False,False,0.0,False,Lebanon
+LBN,2010,False,False,0.0,False,Lebanon
+LBN,2011,False,False,0.0,False,Lebanon
+LBN,2012,False,False,0.0,False,Lebanon
+LBN,2013,False,False,0.0,False,Lebanon
+LBN,2014,False,False,0.0,False,Lebanon
+LBN,2015,False,False,0.0,False,Lebanon
+LBN,2016,False,False,0.0,False,Lebanon
+LBN,2017,False,False,0.0,False,Lebanon
+LBN,2018,False,False,0.0,False,Lebanon
+LBN,2019,False,False,0.0,False,Lebanon
+LBN,2020,False,False,0.0,False,Lebanon
+LBN,2021,False,False,0.0,False,Lebanon
+LBN,2022,False,False,0.0,False,Lebanon
+LBN,2023,False,,0.0,False,Lebanon
+LBN,2024,True,,0.0,True,Lebanon
+LBN,2025,False,,0.0,False,Lebanon
+LBN,2026,True,,0.0,True,Lebanon
+LBR,2009,False,False,0.0,False,Liberia
+LBR,2010,False,False,0.0,False,Liberia
+LBR,2011,False,False,0.0,False,Liberia
+LBR,2012,False,False,0.0,False,Liberia
+LBR,2013,False,False,0.0,False,Liberia
+LBR,2014,False,False,0.0,False,Liberia
+LBR,2015,True,True,1.0,True,Liberia
+LBR,2016,True,True,3.0,True,Liberia
+LBR,2017,True,True,1.0,True,Liberia
+LBR,2018,False,False,0.0,False,Liberia
+LBR,2019,False,False,0.0,False,Liberia
+LBR,2020,False,False,0.0,False,Liberia
+LBR,2021,False,False,0.0,False,Liberia
+LBR,2022,False,False,0.0,False,Liberia
+LBR,2023,False,,0.0,False,Liberia
+LBR,2024,False,,0.0,False,Liberia
+LBR,2025,False,,0.0,False,Liberia
+LBR,2026,False,,0.0,False,Liberia
+LKA,2009,False,False,0.0,False,Sri Lanka
+LKA,2010,False,False,0.0,False,Sri Lanka
+LKA,2011,False,False,0.0,False,Sri Lanka
+LKA,2012,False,False,0.0,False,Sri Lanka
+LKA,2013,False,False,0.0,False,Sri Lanka
+LKA,2014,False,False,0.0,False,Sri Lanka
+LKA,2015,False,False,0.0,False,Sri Lanka
+LKA,2016,False,False,0.0,False,Sri Lanka
+LKA,2017,False,False,0.0,False,Sri Lanka
+LKA,2018,False,False,0.0,False,Sri Lanka
+LKA,2019,False,False,0.0,False,Sri Lanka
+LKA,2020,False,False,0.0,False,Sri Lanka
+LKA,2021,False,False,0.0,False,Sri Lanka
+LKA,2022,False,False,0.0,False,Sri Lanka
+LKA,2023,False,,0.0,False,Sri Lanka
+LKA,2024,False,,0.0,False,Sri Lanka
+LKA,2025,False,,0.0,False,Sri Lanka
+LKA,2026,True,,0.0,True,Sri Lanka
+LSO,2009,False,False,0.0,False,Lesotho
+LSO,2010,False,False,0.0,False,Lesotho
+LSO,2011,False,False,0.0,False,Lesotho
+LSO,2012,False,False,0.0,False,Lesotho
+LSO,2013,False,False,0.0,False,Lesotho
+LSO,2014,False,False,0.0,False,Lesotho
+LSO,2015,False,False,0.0,False,Lesotho
+LSO,2016,False,False,0.0,False,Lesotho
+LSO,2017,False,False,0.0,False,Lesotho
+LSO,2018,False,False,0.0,False,Lesotho
+LSO,2019,False,False,0.0,False,Lesotho
+LSO,2020,True,False,0.0,True,Lesotho
+LSO,2021,True,False,0.0,True,Lesotho
+LSO,2022,True,False,0.0,True,Lesotho
+LSO,2023,True,,0.0,True,Lesotho
+LSO,2024,True,,0.0,True,Lesotho
+LSO,2025,False,,0.0,False,Lesotho
+LSO,2026,True,,0.0,True,Lesotho
+MDG,2009,False,False,0.0,False,Madagascar
+MDG,2010,False,False,0.0,False,Madagascar
+MDG,2011,False,False,0.0,False,Madagascar
+MDG,2012,False,False,0.0,False,Madagascar
+MDG,2013,False,False,0.0,False,Madagascar
+MDG,2014,False,False,0.0,False,Madagascar
+MDG,2015,False,False,0.0,False,Madagascar
+MDG,2016,True,True,3.0,True,Madagascar
+MDG,2017,True,True,3.0,True,Madagascar
+MDG,2018,True,True,3.0,True,Madagascar
+MDG,2019,True,True,3.0,True,Madagascar
+MDG,2020,True,True,3.0,True,Madagascar
+MDG,2021,True,True,3.0,True,Madagascar
+MDG,2022,True,True,3.0,True,Madagascar
+MDG,2023,True,,0.0,True,Madagascar
+MDG,2024,True,,0.0,True,Madagascar
+MDG,2025,True,,0.0,True,Madagascar
+MDG,2026,True,,0.0,True,Madagascar
+MLI,2009,False,True,2.0,True,Mali
+MLI,2010,False,True,4.0,True,Mali
+MLI,2011,True,True,3.0,True,Mali
+MLI,2012,True,True,4.0,True,Mali
+MLI,2013,True,True,4.0,True,Mali
+MLI,2014,True,True,4.0,True,Mali
+MLI,2015,True,True,4.0,True,Mali
+MLI,2016,True,True,3.0,True,Mali
+MLI,2017,True,True,3.0,True,Mali
+MLI,2018,True,True,3.0,True,Mali
+MLI,2019,True,True,3.0,True,Mali
+MLI,2020,True,True,3.0,True,Mali
+MLI,2021,True,True,3.0,True,Mali
+MLI,2022,True,True,3.0,True,Mali
+MLI,2023,True,,0.0,True,Mali
+MLI,2024,True,,0.0,True,Mali
+MLI,2025,True,,0.0,True,Mali
+MLI,2026,True,,0.0,True,Mali
+MOZ,2009,False,True,2.0,True,Mozambique
+MOZ,2010,False,True,4.0,True,Mozambique
+MOZ,2011,True,True,4.0,True,Mozambique
+MOZ,2012,True,True,4.0,True,Mozambique
+MOZ,2013,True,True,4.0,True,Mozambique
+MOZ,2014,True,True,4.0,True,Mozambique
+MOZ,2015,True,True,4.0,True,Mozambique
+MOZ,2016,True,True,3.0,True,Mozambique
+MOZ,2017,True,True,3.0,True,Mozambique
+MOZ,2018,True,True,3.0,True,Mozambique
+MOZ,2019,True,True,3.0,True,Mozambique
+MOZ,2020,True,True,3.0,True,Mozambique
+MOZ,2021,True,True,3.0,True,Mozambique
+MOZ,2022,True,True,3.0,True,Mozambique
+MOZ,2023,True,,0.0,True,Mozambique
+MOZ,2024,True,,0.0,True,Mozambique
+MOZ,2025,True,,0.0,True,Mozambique
+MOZ,2026,True,,0.0,True,Mozambique
+MRT,2009,False,True,2.0,True,Mauritania
+MRT,2010,False,True,4.0,True,Mauritania
+MRT,2011,True,True,4.0,True,Mauritania
+MRT,2012,True,True,4.0,True,Mauritania
+MRT,2013,True,True,4.0,True,Mauritania
+MRT,2014,True,True,4.0,True,Mauritania
+MRT,2015,True,True,4.0,True,Mauritania
+MRT,2016,True,True,3.0,True,Mauritania
+MRT,2017,True,True,3.0,True,Mauritania
+MRT,2018,True,True,2.0,True,Mauritania
+MRT,2019,False,False,0.0,False,Mauritania
+MRT,2020,True,False,0.0,True,Mauritania
+MRT,2021,True,False,0.0,True,Mauritania
+MRT,2022,True,False,0.0,True,Mauritania
+MRT,2023,True,,0.0,True,Mauritania
+MRT,2024,True,,0.0,True,Mauritania
+MRT,2025,False,,0.0,False,Mauritania
+MRT,2026,False,,0.0,False,Mauritania
+MWI,2009,False,True,2.0,True,Malawi
+MWI,2010,False,True,4.0,True,Malawi
+MWI,2011,True,True,4.0,True,Malawi
+MWI,2012,True,True,3.0,True,Malawi
+MWI,2013,True,True,4.0,True,Malawi
+MWI,2014,True,True,4.0,True,Malawi
+MWI,2015,True,True,4.0,True,Malawi
+MWI,2016,True,True,3.0,True,Malawi
+MWI,2017,True,True,3.0,True,Malawi
+MWI,2018,True,True,3.0,True,Malawi
+MWI,2019,True,True,3.0,True,Malawi
+MWI,2020,True,True,3.0,True,Malawi
+MWI,2021,True,True,3.0,True,Malawi
+MWI,2022,True,True,3.0,True,Malawi
+MWI,2023,True,,0.0,True,Malawi
+MWI,2024,True,,0.0,True,Malawi
+MWI,2025,True,,0.0,True,Malawi
+MWI,2026,True,,0.0,True,Malawi
+NER,2009,False,True,2.0,True,Niger
+NER,2010,False,True,4.0,True,Niger
+NER,2011,True,True,4.0,True,Niger
+NER,2012,True,True,4.0,True,Niger
+NER,2013,True,True,4.0,True,Niger
+NER,2014,True,True,4.0,True,Niger
+NER,2015,True,True,4.0,True,Niger
+NER,2016,True,True,3.0,True,Niger
+NER,2017,True,True,3.0,True,Niger
+NER,2018,True,True,3.0,True,Niger
+NER,2019,True,True,3.0,True,Niger
+NER,2020,True,True,3.0,True,Niger
+NER,2021,True,True,3.0,True,Niger
+NER,2022,True,True,3.0,True,Niger
+NER,2023,True,,0.0,True,Niger
+NER,2024,True,,0.0,True,Niger
+NER,2025,True,,0.0,True,Niger
+NER,2026,True,,0.0,True,Niger
+NGA,2009,False,True,2.0,True,Nigeria
+NGA,2010,False,True,4.0,True,Nigeria
+NGA,2011,True,True,4.0,True,Nigeria
+NGA,2012,True,True,4.0,True,Nigeria
+NGA,2013,True,True,4.0,True,Nigeria
+NGA,2014,True,True,4.0,True,Nigeria
+NGA,2015,True,True,4.0,True,Nigeria
+NGA,2016,True,True,3.0,True,Nigeria
+NGA,2017,True,True,3.0,True,Nigeria
+NGA,2018,True,True,3.0,True,Nigeria
+NGA,2019,True,True,3.0,True,Nigeria
+NGA,2020,True,True,3.0,True,Nigeria
+NGA,2021,True,True,3.0,True,Nigeria
+NGA,2022,True,True,3.0,True,Nigeria
+NGA,2023,True,,0.0,True,Nigeria
+NGA,2024,True,,0.0,True,Nigeria
+NGA,2025,True,,0.0,True,Nigeria
+NGA,2026,True,,0.0,True,Nigeria
+NIC,2009,False,False,0.0,False,Nicaragua
+NIC,2010,False,False,0.0,False,Nicaragua
+NIC,2011,False,False,0.0,False,Nicaragua
+NIC,2012,False,False,0.0,False,Nicaragua
+NIC,2013,False,False,0.0,False,Nicaragua
+NIC,2014,False,False,0.0,False,Nicaragua
+NIC,2015,False,False,0.0,False,Nicaragua
+NIC,2016,False,False,0.0,False,Nicaragua
+NIC,2017,False,False,0.0,False,Nicaragua
+NIC,2018,False,False,0.0,False,Nicaragua
+NIC,2019,False,False,0.0,False,Nicaragua
+NIC,2020,True,False,0.0,True,Nicaragua
+NIC,2021,True,False,0.0,True,Nicaragua
+NIC,2022,True,False,0.0,True,Nicaragua
+NIC,2023,True,,0.0,True,Nicaragua
+NIC,2024,True,,0.0,True,Nicaragua
+NIC,2025,False,,0.0,False,Nicaragua
+NIC,2026,False,,0.0,False,Nicaragua
+NPL,2009,False,False,0.0,False,Nepal
+NPL,2010,False,False,0.0,False,Nepal
+NPL,2011,False,False,0.0,False,Nepal
+NPL,2012,False,False,0.0,False,Nepal
+NPL,2013,False,False,0.0,False,Nepal
+NPL,2014,False,False,0.0,False,Nepal
+NPL,2015,False,False,0.0,False,Nepal
+NPL,2016,False,False,0.0,False,Nepal
+NPL,2017,False,False,0.0,False,Nepal
+NPL,2018,False,False,0.0,False,Nepal
+NPL,2019,False,False,0.0,False,Nepal
+NPL,2020,False,False,0.0,False,Nepal
+NPL,2021,False,False,0.0,False,Nepal
+NPL,2022,False,False,0.0,False,Nepal
+NPL,2023,False,,0.0,False,Nepal
+NPL,2024,False,,0.0,False,Nepal
+NPL,2025,False,,0.0,False,Nepal
+NPL,2026,True,,0.0,True,Nepal
+PAK,2009,False,False,0.0,False,Pakistan
+PAK,2010,False,False,0.0,False,Pakistan
+PAK,2011,False,False,0.0,False,Pakistan
+PAK,2012,False,False,0.0,False,Pakistan
+PAK,2013,False,False,0.0,False,Pakistan
+PAK,2014,False,False,0.0,False,Pakistan
+PAK,2015,False,False,0.0,False,Pakistan
+PAK,2016,False,False,0.0,False,Pakistan
+PAK,2017,False,False,0.0,False,Pakistan
+PAK,2018,False,False,0.0,False,Pakistan
+PAK,2019,False,False,0.0,False,Pakistan
+PAK,2020,False,False,0.0,False,Pakistan
+PAK,2021,False,False,0.0,False,Pakistan
+PAK,2022,False,False,0.0,False,Pakistan
+PAK,2023,False,,0.0,False,Pakistan
+PAK,2024,False,,0.0,False,Pakistan
+PAK,2025,False,,0.0,False,Pakistan
+PAK,2026,True,,0.0,True,Pakistan
+RWA,2009,False,False,0.0,False,Rwanda
+RWA,2010,False,False,0.0,False,Rwanda
+RWA,2011,True,True,3.0,True,Rwanda
+RWA,2012,True,True,4.0,True,Rwanda
+RWA,2013,True,True,4.0,True,Rwanda
+RWA,2014,True,True,4.0,True,Rwanda
+RWA,2015,False,False,0.0,False,Rwanda
+RWA,2016,False,False,0.0,False,Rwanda
+RWA,2017,False,False,0.0,False,Rwanda
+RWA,2018,False,False,0.0,False,Rwanda
+RWA,2019,False,False,0.0,False,Rwanda
+RWA,2020,True,False,0.0,True,Rwanda
+RWA,2021,True,False,0.0,True,Rwanda
+RWA,2022,True,False,0.0,True,Rwanda
+RWA,2023,True,,0.0,True,Rwanda
+RWA,2024,False,,0.0,False,Rwanda
+RWA,2025,False,,0.0,False,Rwanda
+RWA,2026,False,,0.0,False,Rwanda
+SDN,2009,False,False,0.0,False,Sudan
+SDN,2010,False,True,2.0,True,Sudan
+SDN,2011,False,True,4.0,True,Sudan
+SDN,2012,False,True,4.0,True,Sudan
+SDN,2013,False,True,4.0,True,Sudan
+SDN,2014,False,True,4.0,True,Sudan
+SDN,2015,False,True,4.0,True,Sudan
+SDN,2016,False,True,3.0,True,Sudan
+SDN,2017,False,True,3.0,True,Sudan
+SDN,2018,True,True,3.0,True,Sudan
+SDN,2019,True,True,3.0,True,Sudan
+SDN,2020,True,True,3.0,True,Sudan
+SDN,2021,True,True,3.0,True,Sudan
+SDN,2022,True,True,3.0,True,Sudan
+SDN,2023,True,,0.0,True,Sudan
+SDN,2024,True,,0.0,True,Sudan
+SDN,2025,True,,0.0,True,Sudan
+SDN,2026,True,,0.0,True,Sudan
+SLE,2009,False,False,0.0,False,Sierra Leone
+SLE,2010,False,False,0.0,False,Sierra Leone
+SLE,2011,False,False,0.0,False,Sierra Leone
+SLE,2012,False,False,0.0,False,Sierra Leone
+SLE,2013,False,False,0.0,False,Sierra Leone
+SLE,2014,False,False,0.0,False,Sierra Leone
+SLE,2015,True,True,1.0,True,Sierra Leone
+SLE,2016,True,True,3.0,True,Sierra Leone
+SLE,2017,False,True,1.0,True,Sierra Leone
+SLE,2018,False,False,0.0,False,Sierra Leone
+SLE,2019,False,False,0.0,False,Sierra Leone
+SLE,2020,False,False,0.0,False,Sierra Leone
+SLE,2021,False,False,0.0,False,Sierra Leone
+SLE,2022,False,False,0.0,False,Sierra Leone
+SLE,2023,False,,0.0,False,Sierra Leone
+SLE,2024,False,,0.0,False,Sierra Leone
+SLE,2025,False,,0.0,False,Sierra Leone
+SLE,2026,False,,0.0,False,Sierra Leone
+SLV,2009,False,False,0.0,False,El Salvador
+SLV,2010,False,False,0.0,False,El Salvador
+SLV,2011,False,False,0.0,False,El Salvador
+SLV,2012,False,False,0.0,False,El Salvador
+SLV,2013,False,False,0.0,False,El Salvador
+SLV,2014,False,False,0.0,False,El Salvador
+SLV,2015,False,False,0.0,False,El Salvador
+SLV,2016,False,False,0.0,False,El Salvador
+SLV,2017,False,False,0.0,False,El Salvador
+SLV,2018,False,False,0.0,False,El Salvador
+SLV,2019,False,False,0.0,False,El Salvador
+SLV,2020,True,False,0.0,True,El Salvador
+SLV,2021,True,False,0.0,True,El Salvador
+SLV,2022,True,False,0.0,True,El Salvador
+SLV,2023,True,,0.0,True,El Salvador
+SLV,2024,True,,0.0,True,El Salvador
+SLV,2025,False,,0.0,False,El Salvador
+SLV,2026,True,,0.0,True,El Salvador
+SOM,2009,False,True,1.0,True,Somalia
+SOM,2010,False,True,4.0,True,Somalia
+SOM,2011,True,True,4.0,True,Somalia
+SOM,2012,True,True,4.0,True,Somalia
+SOM,2013,True,True,4.0,True,Somalia
+SOM,2014,True,True,4.0,True,Somalia
+SOM,2015,True,True,4.0,True,Somalia
+SOM,2016,True,True,3.0,True,Somalia
+SOM,2017,True,True,3.0,True,Somalia
+SOM,2018,True,True,3.0,True,Somalia
+SOM,2019,True,True,3.0,True,Somalia
+SOM,2020,True,True,3.0,True,Somalia
+SOM,2021,True,True,3.0,True,Somalia
+SOM,2022,True,True,3.0,True,Somalia
+SOM,2023,True,,0.0,True,Somalia
+SOM,2024,True,,0.0,True,Somalia
+SOM,2025,True,,0.0,True,Somalia
+SOM,2026,True,,0.0,True,Somalia
+SSD,2009,False,True,2.0,True,South Sudan
+SSD,2010,False,True,3.0,True,South Sudan
+SSD,2011,True,True,4.0,True,South Sudan
+SSD,2012,True,True,4.0,True,South Sudan
+SSD,2013,True,True,4.0,True,South Sudan
+SSD,2014,True,True,2.0,True,South Sudan
+SSD,2015,True,True,4.0,True,South Sudan
+SSD,2016,True,True,3.0,True,South Sudan
+SSD,2017,True,True,3.0,True,South Sudan
+SSD,2018,True,True,3.0,True,South Sudan
+SSD,2019,True,True,3.0,True,South Sudan
+SSD,2020,True,True,2.0,True,South Sudan
+SSD,2021,True,False,0.0,True,South Sudan
+SSD,2022,True,True,3.0,True,South Sudan
+SSD,2023,True,,0.0,True,South Sudan
+SSD,2024,True,,0.0,True,South Sudan
+SSD,2025,True,,0.0,True,South Sudan
+SSD,2026,True,,0.0,True,South Sudan
+SYR,2009,False,False,0.0,False,Syria
+SYR,2010,False,False,0.0,False,Syria
+SYR,2011,False,False,0.0,False,Syria
+SYR,2012,False,False,0.0,False,Syria
+SYR,2013,False,False,0.0,False,Syria
+SYR,2014,False,False,0.0,False,Syria
+SYR,2015,False,False,0.0,False,Syria
+SYR,2016,False,False,0.0,False,Syria
+SYR,2017,False,False,0.0,False,Syria
+SYR,2018,False,False,0.0,False,Syria
+SYR,2019,False,False,0.0,False,Syria
+SYR,2020,False,False,0.0,False,Syria
+SYR,2021,False,False,0.0,False,Syria
+SYR,2022,False,False,0.0,False,Syria
+SYR,2023,False,,0.0,False,Syria
+SYR,2024,False,,0.0,False,Syria
+SYR,2025,False,,0.0,False,Syria
+SYR,2026,True,,0.0,True,Syria
+TCD,2009,False,True,2.0,True,Chad
+TCD,2010,False,True,4.0,True,Chad
+TCD,2011,True,True,4.0,True,Chad
+TCD,2012,True,True,4.0,True,Chad
+TCD,2013,True,True,4.0,True,Chad
+TCD,2014,True,True,4.0,True,Chad
+TCD,2015,True,True,4.0,True,Chad
+TCD,2016,True,True,3.0,True,Chad
+TCD,2017,True,True,3.0,True,Chad
+TCD,2018,True,True,3.0,True,Chad
+TCD,2019,True,True,3.0,True,Chad
+TCD,2020,True,True,3.0,True,Chad
+TCD,2021,True,True,3.0,True,Chad
+TCD,2022,True,True,3.0,True,Chad
+TCD,2023,True,,0.0,True,Chad
+TCD,2024,True,,0.0,True,Chad
+TCD,2025,True,,0.0,True,Chad
+TCD,2026,True,,0.0,True,Chad
+TGO,2009,False,False,0.0,False,Togo
+TGO,2010,False,False,0.0,False,Togo
+TGO,2011,False,False,0.0,False,Togo
+TGO,2012,False,False,0.0,False,Togo
+TGO,2013,False,False,0.0,False,Togo
+TGO,2014,False,False,0.0,False,Togo
+TGO,2015,False,False,0.0,False,Togo
+TGO,2016,False,False,0.0,False,Togo
+TGO,2017,False,False,0.0,False,Togo
+TGO,2018,False,False,0.0,False,Togo
+TGO,2019,False,False,0.0,False,Togo
+TGO,2020,False,False,0.0,False,Togo
+TGO,2021,False,False,0.0,False,Togo
+TGO,2022,False,False,0.0,False,Togo
+TGO,2023,False,,0.0,False,Togo
+TGO,2024,True,,0.0,True,Togo
+TGO,2025,False,,0.0,False,Togo
+TGO,2026,True,,0.0,True,Togo
+TZA,2009,False,True,2.0,True,Tanzania
+TZA,2010,False,True,4.0,True,Tanzania
+TZA,2011,False,True,2.0,True,Tanzania
+TZA,2012,False,False,0.0,False,Tanzania
+TZA,2013,False,False,0.0,False,Tanzania
+TZA,2014,False,False,0.0,False,Tanzania
+TZA,2015,False,False,0.0,False,Tanzania
+TZA,2016,False,False,0.0,False,Tanzania
+TZA,2017,False,False,0.0,False,Tanzania
+TZA,2018,False,False,0.0,False,Tanzania
+TZA,2019,False,False,0.0,False,Tanzania
+TZA,2020,False,False,0.0,False,Tanzania
+TZA,2021,False,False,0.0,False,Tanzania
+TZA,2022,False,False,0.0,False,Tanzania
+TZA,2023,False,,0.0,False,Tanzania
+TZA,2024,False,,0.0,False,Tanzania
+TZA,2025,False,,0.0,False,Tanzania
+TZA,2026,False,,0.0,False,Tanzania
+UGA,2009,False,True,2.0,True,Uganda
+UGA,2010,False,True,4.0,True,Uganda
+UGA,2011,True,True,4.0,True,Uganda
+UGA,2012,True,True,2.0,True,Uganda
+UGA,2013,True,True,4.0,True,Uganda
+UGA,2014,True,True,4.0,True,Uganda
+UGA,2015,True,True,4.0,True,Uganda
+UGA,2016,True,True,3.0,True,Uganda
+UGA,2017,True,True,3.0,True,Uganda
+UGA,2018,True,True,3.0,True,Uganda
+UGA,2019,True,True,3.0,True,Uganda
+UGA,2020,True,True,3.0,True,Uganda
+UGA,2021,True,True,3.0,True,Uganda
+UGA,2022,True,True,3.0,True,Uganda
+UGA,2023,True,,0.0,True,Uganda
+UGA,2024,True,,0.0,True,Uganda
+UGA,2025,False,,0.0,False,Uganda
+UGA,2026,True,,0.0,True,Uganda
+UKR,2009,False,False,0.0,False,Ukraine
+UKR,2010,False,False,0.0,False,Ukraine
+UKR,2011,False,False,0.0,False,Ukraine
+UKR,2012,False,False,0.0,False,Ukraine
+UKR,2013,False,False,0.0,False,Ukraine
+UKR,2014,False,False,0.0,False,Ukraine
+UKR,2015,False,False,0.0,False,Ukraine
+UKR,2016,False,False,0.0,False,Ukraine
+UKR,2017,False,False,0.0,False,Ukraine
+UKR,2018,False,False,0.0,False,Ukraine
+UKR,2019,False,False,0.0,False,Ukraine
+UKR,2020,False,False,0.0,False,Ukraine
+UKR,2021,False,False,0.0,False,Ukraine
+UKR,2022,False,False,0.0,False,Ukraine
+UKR,2023,False,,0.0,False,Ukraine
+UKR,2024,False,,0.0,False,Ukraine
+UKR,2025,False,,0.0,False,Ukraine
+UKR,2026,True,,0.0,True,Ukraine
+VEN,2009,False,False,0.0,False,Venezuela
+VEN,2010,False,False,0.0,False,Venezuela
+VEN,2011,False,False,0.0,False,Venezuela
+VEN,2012,False,False,0.0,False,Venezuela
+VEN,2013,False,False,0.0,False,Venezuela
+VEN,2014,False,False,0.0,False,Venezuela
+VEN,2015,False,False,0.0,False,Venezuela
+VEN,2016,False,False,0.0,False,Venezuela
+VEN,2017,False,False,0.0,False,Venezuela
+VEN,2018,False,False,0.0,False,Venezuela
+VEN,2019,False,False,0.0,False,Venezuela
+VEN,2020,False,False,0.0,False,Venezuela
+VEN,2021,False,False,0.0,False,Venezuela
+VEN,2022,False,False,0.0,False,Venezuela
+VEN,2023,True,,0.0,True,Venezuela
+VEN,2024,True,,0.0,True,Venezuela
+VEN,2025,False,,0.0,False,Venezuela
+VEN,2026,True,,0.0,True,Venezuela
+YEM,2009,False,False,0.0,False,Yemen
+YEM,2010,False,False,0.0,False,Yemen
+YEM,2011,False,False,0.0,False,Yemen
+YEM,2012,False,False,0.0,False,Yemen
+YEM,2013,False,False,0.0,False,Yemen
+YEM,2014,True,True,1.0,True,Yemen
+YEM,2015,True,True,4.0,True,Yemen
+YEM,2016,True,True,3.0,True,Yemen
+YEM,2017,True,True,2.0,True,Yemen
+YEM,2018,True,True,3.0,True,Yemen
+YEM,2019,True,True,3.0,True,Yemen
+YEM,2020,True,True,3.0,True,Yemen
+YEM,2021,True,True,2.0,True,Yemen
+YEM,2022,True,True,3.0,True,Yemen
+YEM,2023,True,,0.0,True,Yemen
+YEM,2024,True,,0.0,True,Yemen
+YEM,2025,True,,0.0,True,Yemen
+YEM,2026,True,,0.0,True,Yemen
+ZMB,2009,False,True,2.0,True,Zambia
+ZMB,2010,False,True,4.0,True,Zambia
+ZMB,2011,True,True,4.0,True,Zambia
+ZMB,2012,True,True,4.0,True,Zambia
+ZMB,2013,True,True,4.0,True,Zambia
+ZMB,2014,True,True,4.0,True,Zambia
+ZMB,2015,True,True,4.0,True,Zambia
+ZMB,2016,True,True,3.0,True,Zambia
+ZMB,2017,True,True,3.0,True,Zambia
+ZMB,2018,False,False,0.0,False,Zambia
+ZMB,2019,False,False,0.0,False,Zambia
+ZMB,2020,False,False,0.0,False,Zambia
+ZMB,2021,False,False,0.0,False,Zambia
+ZMB,2022,False,False,0.0,False,Zambia
+ZMB,2023,False,,0.0,False,Zambia
+ZMB,2024,False,,0.0,False,Zambia
+ZMB,2025,False,,0.0,False,Zambia
+ZMB,2026,True,,0.0,True,Zambia
+ZWE,2009,False,True,2.0,True,Zimbabwe
+ZWE,2010,False,True,4.0,True,Zimbabwe
+ZWE,2011,True,True,4.0,True,Zimbabwe
+ZWE,2012,True,True,4.0,True,Zimbabwe
+ZWE,2013,True,True,3.0,True,Zimbabwe
+ZWE,2014,True,True,4.0,True,Zimbabwe
+ZWE,2015,True,True,4.0,True,Zimbabwe
+ZWE,2016,True,True,3.0,True,Zimbabwe
+ZWE,2017,True,True,3.0,True,Zimbabwe
+ZWE,2018,True,True,3.0,True,Zimbabwe
+ZWE,2019,True,True,3.0,True,Zimbabwe
+ZWE,2020,True,True,3.0,True,Zimbabwe
+ZWE,2021,True,True,3.0,True,Zimbabwe
+ZWE,2022,True,True,3.0,True,Zimbabwe
+ZWE,2023,True,,0.0,True,Zimbabwe
+ZWE,2024,True,,0.0,True,Zimbabwe
+ZWE,2025,True,,0.0,True,Zimbabwe
+ZWE,2026,True,,0.0,True,Zimbabwe

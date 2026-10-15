@@ -1,0 +1,101 @@
+task,sample,model,n,events,auc
+new crisis,all,base,157597,9746,0.844366273177256
+new crisis,all,+WFP prices,157597,9746,0.8437319320886394
+new crisis,all,+FEWS NET prices,157597,9746,0.8454822692047983
+new crisis,all,+both,157597,9746,0.8461687801778764
+new crisis,all,+forecast,157597,9746,0.9001835820304518
+new crisis,all,raw,157597,9746,0.725000684719107
+new crisis,all,raw +WFP prices,157597,9746,0.7291727032557527
+new crisis,all,raw +FEWS NET prices,157597,9746,0.7250423376262148
+new crisis,all,raw +both,157597,9746,0.7272062661800672
+new crisis,all,raw +FEWS NET map and forecast,157597,9746,0.900855494707504
+new crisis,both,base,76482,5650,0.8281852072759475
+new crisis,both,+WFP prices,76482,5650,0.8269167540394722
+new crisis,both,+FEWS NET prices,76482,5650,0.8281469602259666
+new crisis,both,+both,76482,5650,0.8297157589390125
+new crisis,both,+forecast,76482,5650,0.8836633347559525
+new crisis,both,raw,76482,5650,0.7067737945551333
+new crisis,both,raw +WFP prices,76482,5650,0.7010894868276125
+new crisis,both,raw +FEWS NET prices,76482,5650,0.7011139020711603
+new crisis,both,raw +both,76482,5650,0.697650610643457
+new crisis,both,raw +FEWS NET map and forecast,76482,5650,0.8844436892679876
+new crisis,WFP only,base,37603,1680,0.8790774961127172
+new crisis,WFP only,+WFP prices,37603,1680,0.8817631759994592
+new crisis,WFP only,+FEWS NET prices,37603,1680,0.882993220950101
+new crisis,WFP only,+both,37603,1680,0.8818741027435666
+new crisis,WFP only,+forecast,37603,1680,0.9329565933352156
+new crisis,WFP only,raw,37603,1680,0.8144937982430676
+new crisis,WFP only,raw +WFP prices,37603,1680,0.8163146985682339
+new crisis,WFP only,raw +FEWS NET prices,37603,1680,0.8206862180749036
+new crisis,WFP only,raw +both,37603,1680,0.8145777575846751
+new crisis,WFP only,raw +FEWS NET map and forecast,37603,1680,0.932979592262816
+new crisis,FEWS only,base,25586,1604,0.8265794238654884
+new crisis,FEWS only,+WFP prices,25586,1604,0.8156015182625539
+new crisis,FEWS only,+FEWS NET prices,25586,1604,0.8181000541553297
+new crisis,FEWS only,+both,25586,1604,0.8228907159380341
+new crisis,FEWS only,+forecast,25586,1604,0.8906608780359169
+new crisis,FEWS only,raw,25586,1604,0.6195009801615551
+new crisis,FEWS only,raw +WFP prices,25586,1604,0.6277255349034635
+new crisis,FEWS only,raw +FEWS NET prices,25586,1604,0.6287005232103628
+new crisis,FEWS only,raw +both,25586,1604,0.6362512948718189
+new crisis,FEWS only,raw +FEWS NET map and forecast,25586,1604,0.8961816307159713
+new crisis,none,base,17926,812,0.8513341567500695
+new crisis,none,+WFP prices,17926,812,0.8621350969534347
+new crisis,none,+FEWS NET prices,17926,812,0.869472771982262
+new crisis,none,+both,17926,812,0.8627839621984363
+new crisis,none,+forecast,17926,812,0.9081779400496582
+new crisis,none,raw,17926,812,0.7284206431400904
+new crisis,none,raw +WFP prices,17926,812,0.7575622268750096
+new crisis,none,raw +FEWS NET prices,17926,812,0.7520677047743011
+new crisis,none,raw +both,17926,812,0.7656054358169585
+new crisis,none,raw +FEWS NET map and forecast,17926,812,0.9046289702608588
+escalation,all,base,29360,1329,0.7114562429927159
+escalation,all,+WFP prices,29360,1329,0.7378408495871723
+escalation,all,+FEWS NET prices,29360,1329,0.7230562400828986
+escalation,all,+both,29360,1329,0.7187094590185397
+escalation,all,+forecast,29360,1329,0.8230625509503224
+escalation,all,raw,29360,1329,0.7142117244749908
+escalation,all,raw +WFP prices,29360,1329,0.7218075151076286
+escalation,all,raw +FEWS NET prices,29360,1329,0.7296303063798628
+escalation,all,raw +both,29360,1329,0.7144003928360623
+escalation,all,raw +FEWS NET map and forecast,29360,1329,0.816532373501669
+escalation,both,base,18116,843,0.6718228223767385
+escalation,both,+WFP prices,18116,843,0.7024790780446502
+escalation,both,+FEWS NET prices,18116,843,0.6869368529481107
+escalation,both,+both,18116,843,0.6735852188486079
+escalation,both,+forecast,18116,843,0.8136778654472016
+escalation,both,raw,18116,843,0.6795969051596856
+escalation,both,raw +WFP prices,18116,843,0.6919842602972199
+escalation,both,raw +FEWS NET prices,18116,843,0.6994678094893538
+escalation,both,raw +both,18116,843,0.676812438917038
+escalation,both,raw +FEWS NET map and forecast,18116,843,0.801819727151839
+escalation,WFP only,base,4740,227,0.7296947340575586
+escalation,WFP only,+WFP prices,4740,227,0.7685584766865375
+escalation,WFP only,+FEWS NET prices,4740,227,0.7303877881909433
+escalation,WFP only,+both,4740,227,0.7613892709363357
+escalation,WFP only,+forecast,4740,227,0.8189137401398406
+escalation,WFP only,raw,4740,227,0.7358053240223299
+escalation,WFP only,raw +WFP prices,4740,227,0.7248126069475259
+escalation,WFP only,raw +FEWS NET prices,4740,227,0.7425440553037677
+escalation,WFP only,raw +both,4740,227,0.7418222052592071
+escalation,WFP only,raw +FEWS NET map and forecast,4740,227,0.7908343102793594
+escalation,FEWS only,base,4490,164,0.8259989231307014
+escalation,FEWS only,+WFP prices,4490,164,0.8372919556171983
+escalation,FEWS only,+FEWS NET prices,4490,164,0.8370755950971438
+escalation,FEWS only,+both,4490,164,0.8333150096410811
+escalation,FEWS only,+forecast,4490,164,0.8614672485143713
+escalation,FEWS only,raw,4490,164,0.8387409368199091
+escalation,FEWS only,raw +WFP prices,4490,164,0.8408347710384177
+escalation,FEWS only,raw +FEWS NET prices,4490,164,0.852110889347451
+escalation,FEWS only,raw +both,4490,164,0.8462303936492902
+escalation,FEWS only,raw +FEWS NET map and forecast,4490,164,0.901294498381877
+escalation,none,base,2014,95,0.7577877732371575
+escalation,none,+WFP prices,2014,95,0.761040563890184
+escalation,none,+FEWS NET prices,2014,95,0.7650558130605304
+escalation,none,+both,2014,95,0.7579413620032363
+escalation,none,+forecast,2014,95,0.8320561696058802
+escalation,none,raw,2014,95,0.6869778667617454
+escalation,none,raw +WFP prices,2014,95,0.6803653218507447
+escalation,none,raw +FEWS NET prices,2014,95,0.6842160116288637
+escalation,none,raw +both,2014,95,0.67555744494117
+escalation,none,raw +FEWS NET map and forecast,2014,95,0.8132360604481501

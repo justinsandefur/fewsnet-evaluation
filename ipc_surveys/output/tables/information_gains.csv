@@ -1,0 +1,22 @@
+group,label,task,gain,lo,hi
+"Starting from public data
+(country, season, rainfall, conflict)",WFP prices,new crisis,0.004172018536645727,-0.004315205110337913,0.013023209857057017
+"Starting from public data
+(country, season, rainfall, conflict)",WFP prices,escalation,0.007595790632637822,-0.0246976106350792,0.03316609654648548
+"Starting from public data
+(country, season, rainfall, conflict)",FEWS NET's own prices,new crisis,4.1652907107891934e-05,-0.014428597381461976,0.011256331815037043
+"Starting from public data
+(country, season, rainfall, conflict)",FEWS NET's own prices,escalation,0.015418581904871997,-0.0065292448008936,0.041297211829210735
+"Starting from public data
+(country, season, rainfall, conflict)",Both price sources,new crisis,0.002205581460960282,-0.011428670770177618,0.014276039622953146
+"Starting from public data
+(country, season, rainfall, conflict)",Both price sources,escalation,0.00018866836107145346,-0.024275313402682068,0.021004038579507063
+"Starting from public data
+(country, season, rainfall, conflict)",FEWS NET's map and forecast,new crisis,0.1758548099883971,0.14511593922909097,0.2034229862543052
+"Starting from public data
+(country, season, rainfall, conflict)",FEWS NET's map and forecast,escalation,0.10232064902667815,0.04933131413907719,0.15742799468879498
+Starting from FEWS NET's current maps,Both price sources,new crisis,0.0018025070006204569,-0.0039015556189596124,0.00720277327195647
+Starting from FEWS NET's current maps,Both price sources,escalation,0.007253216025823739,-0.022466670148822553,0.032746448868737
+Starting from FEWS NET's current maps,FEWS NET's forecast,new crisis,0.0558173088531958,0.04336214872768581,0.06910505903206737
+Starting from FEWS NET's current maps,FEWS NET's forecast,escalation,0.11160630795760651,0.051963067867485876,0.17509222658656542
+Starting from FEWS NET's current maps,Report text (pilot: 3 countries),escalation,-0.011841793168880455,-0.047438765311809426,0.023751397162096104

@@ -1,0 +1,44 @@
+country,report,outcome,all,food
+AF,2018-06,Did not come true (most warned areas stayed below),0.05698933209537316,-0.5091192167305518
+AF,2025-10,Came true (most warned areas reached Emergency),-0.7812805132456404,-1.0983645661437045
+BF,2021-10,Came true (most warned areas reached Emergency),-0.04117828890937503,0.1750082115775946
+BF,2026-02,Did not come true (most warned areas stayed below),-0.7065448273755965,-1.2457879342459055
+CD,2020-06,Did not come true (most warned areas stayed below),-0.10785874863469047,0.15801659773968169
+ET,2015-10,Came true (most warned areas reached Emergency),1.256961053347645,2.384131464098191
+ET,2017-02,Came true (most warned areas reached Emergency),-0.3363136272990985,-0.3820468149192173
+ET,2021-06,Came true (most warned areas reached Emergency),0.27255675242835053,0.2959818111932364
+ET,2023-10,Came true (most warned areas reached Emergency),-0.6914820456571675,-0.7974991459516936
+ET,2025-10,Came true (most warned areas reached Emergency),0.436635917126452,0.039449410778075844
+HT,2022-10,Came true (most warned areas reached Emergency),0.8266714393929,0.23243942668807982
+HT,2025-10,Came true (most warned areas reached Emergency),0.7270387111478627,-0.2412894492325961
+KE,2022-06,Did not come true (most warned areas stayed below),-0.07994816636288249,-0.4253026432532643
+MG,2016-06,Did not come true (most warned areas stayed below),0.02539840508778113,-0.4890914530965862
+MG,2021-06,Did not come true (most warned areas stayed below),-0.8098841659186071,-1.5932257143349364
+MG,2022-02,Did not come true (most warned areas stayed below),0.24576183367385696,0.465595719638209
+ML,2023-02,Came true (most warned areas reached Emergency),-0.20425743255076512,-0.7809924053335315
+ML,2024-02,Came true (most warned areas reached Emergency),0.31803105568377177,0.9643234644144432
+ML,2025-10,Did not come true (most warned areas stayed below),-0.19041617534482214,-0.5647465337260229
+MW,2016-10,Did not come true (most warned areas stayed below),-0.9565361949258584,-1.3246731216061765
+NG,2016-06,Came true (most warned areas reached Emergency),0.46720048958682625,-1.1424765381142272
+NG,2020-10,Came true (most warned areas reached Emergency),-0.19191071239293578,-0.40562666988302
+NG,2021-06,Came true (most warned areas reached Emergency),0.3406067860314721,0.4678307900302805
+NG,2023-02,Came true (most warned areas reached Emergency),0.27508393614171567,0.16531330316174575
+NG,2025-10,Came true (most warned areas reached Emergency),0.26071163063603464,-1.2125847313260394
+SD,2019-02,Did not come true (most warned areas stayed below),0.44228450579054623,0.9516554245800144
+SD,2020-02,Did not come true (most warned areas stayed below),0.47226635046157384,0.6974130161109144
+SD,2023-02,Did not come true (most warned areas stayed below),-0.1004566289341895,-0.640676503387148
+SD,2025-10,Came true (most warned areas reached Emergency),-0.10679619860711043,-1.5120178428874098
+SO,2017-02,Did not come true (most warned areas stayed below),0.9513166406402007,2.1167326154867077
+SO,2021-10,Did not come true (most warned areas stayed below),-0.7412581296895766,-0.7346975748592897
+SO,2025-10,Came true (most warned areas reached Emergency),-0.7129932941388368,-1.2121314470379883
+SS,2015-10,Did not come true (most warned areas stayed below),-0.3744104371258601,-1.3825479584088285
+SS,2016-10,Did not come true (most warned areas stayed below),0.05714799662635528,0.5330858503981943
+SS,2017-06,Came true (most warned areas reached Emergency),-0.3309840392966805,-0.5454843169428596
+SS,2025-10,Came true (most warned areas reached Emergency),-0.15658067097236383,-0.730671742944029
+YE,2015-10,Came true (most warned areas reached Emergency),0.46863506975818225,0.10249357867618158
+YE,2016-10,Did not come true (most warned areas stayed below),-0.0968709701414916,-0.262257757499782
+YE,2019-02,Came true (most warned areas reached Emergency),-0.8747646279555994,-0.3546794664776165
+YE,2022-06,Came true (most warned areas reached Emergency),-0.2692299789598209,0.08254661080288983
+YE,2024-02,Came true (most warned areas reached Emergency),-0.518307488410084,0.20819920142645998
+YE,2025-10,Came true (most warned areas reached Emergency),-1.228102710764162,-0.5272722761594473
+ZW,2016-10,Did not come true (most warned areas stayed below),-0.22873343416876324,-1.842376029068479

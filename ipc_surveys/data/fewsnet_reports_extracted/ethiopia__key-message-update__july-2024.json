@@ -1,0 +1,221 @@
+{
+ "name": "ethiopia__key-message-update__july-2024",
+ "period_covered": "July 2024 - early 2025",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": true,
+  "worst_case_text": "If late-2024 deyr/hageya rainfall deficits are poor, livestock impacts would be severe and food insecurity could deteriorate rapidly in Jan-Feb 2025; risk of more extreme outcomes in Tigray and NE Amhara until meher.",
+  "aid_assumption": "assumed_continued",
+  "aid_assumption_text": "Large-scale food assistance partially mitigates deficits in some northern areas (marked with !); insufficient elsewhere",
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "mixed",
+  "aid_assumption_changes": "Aid sufficient to hold outcomes one phase better in parts of north; insufficient in hard-to-reach areas",
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "below",
+  "season_status_text": "Kiremt/karma generally favorable; Oct-Dec deyr/hageya forecast below average (La Nina)"
+ },
+ "areas": [
+  {
+   "location": "Northern Ethiopia areas with large-scale assistance",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": true,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "macro",
+    "livestock"
+   ],
+   "aid_status": "present",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Northern Ethiopia hard-to-reach areas with insufficient assistance",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": 4,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "access_constraint"
+   ],
+   "aid_status": "access_blocked",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Tigray and northeastern Amhara",
+   "admin1": "Tigray; Amhara",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "stable",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "conflict",
+    "access_constraint"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": true
+  },
+  {
+   "location": "Afar",
+   "admin1": "Afar",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": 4,
+   "projected_period": "Sept/Oct onward",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "livestock",
+    "conflict"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Southern and southeastern pastoral areas",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": 3,
+   "projected_period": "into early 2025",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "livestock",
+    "rain_deficit"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "South Omo, Gofa, East Shewa",
+   "admin1": "South Ethiopia; Oromia",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "flood"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "National TFP",
+   "admin1": null,
+   "admin2": null,
+   "population_group": null,
+   "survey_type": "admissions",
+   "fieldwork": "May 2024",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "over 54,000 SAM admissions; 15% lower than a year earlier",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "humanitarian_distribution_data",
+  "displacement_tracking",
+  "admissions_data",
+  "crop_assessment"
+ ],
+ "data_gaps": [
+  {
+   "location": "Amhara",
+   "admin1": "Amhara",
+   "what": "displacement",
+   "text": "Many areas inaccessible; displacement likely higher than reported."
+  },
+  {
+   "location": "national",
+   "admin1": null,
+   "what": "access",
+   "text": "Admissions declines may reflect poor reporting rates, inadequate screening and inaccessibility."
+  }
+ ],
+ "remote_monitoring": false
+}

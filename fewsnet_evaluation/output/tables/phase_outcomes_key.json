@@ -1,0 +1,823 @@
+{
+ "surveys": {
+  "FDW": {
+   "BF": {
+    "n": 161,
+    "years": "2003-2017"
+   },
+   "MR": {
+    "n": 228,
+    "years": "2007-2018"
+   }
+  },
+  "SMART+": {
+   "AO": {
+    "n": 3,
+    "years": "2025-2025"
+   },
+   "BF": {
+    "n": 1,
+    "years": "2026-2026"
+   },
+   "CD": {
+    "n": 3,
+    "years": "2026-2026"
+   },
+   "CM": {
+    "n": 1,
+    "years": "2026-2026"
+   },
+   "ET": {
+    "n": 51,
+    "years": "2023-2026"
+   },
+   "GN": {
+    "n": 1,
+    "years": "2025-2025"
+   },
+   "KE": {
+    "n": 2,
+    "years": "2022-2024"
+   },
+   "MZ": {
+    "n": 37,
+    "years": "2024-2026"
+   },
+   "NG": {
+    "n": 112,
+    "years": "2023-2026"
+   },
+   "NP": {
+    "n": 1,
+    "years": "2024-2024"
+   },
+   "PG": {
+    "n": 1,
+    "years": "2024-2024"
+   },
+   "PS": {
+    "n": 3,
+    "years": "2026-2026"
+   },
+   "SO": {
+    "n": 3,
+    "years": "2024-2025"
+   },
+   "SS": {
+    "n": 6,
+    "years": "2022-2025"
+   },
+   "SY": {
+    "n": 14,
+    "years": "2025-2025"
+   },
+   "ZM": {
+    "n": 7,
+    "years": "2024-2024"
+   }
+  }
+ },
+ "match": {
+  "SMART+ all": {
+   "n": 246,
+   "fews_unit": 241,
+   "fews_cur": 167,
+   "fews_fc": 164,
+   "ipc_ch": 142,
+   "with_cdr": 181
+  },
+  "SMART+ ad hoc": {
+   "n": 156,
+   "fews_unit": 151,
+   "fews_cur": 114,
+   "fews_fc": 112,
+   "ipc_ch": 69,
+   "with_cdr": 91
+  },
+  "SMART+ Nigeria rounds": {
+   "n": 90,
+   "fews_unit": 90,
+   "fews_cur": 53,
+   "fews_fc": 52,
+   "ipc_ch": 73,
+   "with_cdr": 90
+  },
+  "FDW (BF, MR)": {
+   "n": 389,
+   "fews_unit": 389,
+   "fews_cur": 332,
+   "fews_fc": 332,
+   "ipc_ch": 261,
+   "with_cdr": 0
+  }
+ },
+ "corr": {
+  "SMART+ all": {
+   "fews_cur": {
+    "n": 167,
+    "gam": 0.3163735597680605,
+    "crit": 0.2653474253627537,
+    "cdr": -0.06317654063792941
+   },
+   "fews_fc": {
+    "n": 164,
+    "gam": 0.3412856292419494,
+    "crit": 0.2947356078350751,
+    "cdr": -0.00037924681215209175
+   },
+   "ipc_ch": {
+    "n": 142,
+    "gam": 0.04474474184961926,
+    "crit": 0.21314191285576084,
+    "cdr": 0.23699063907721973
+   }
+  },
+  "SMART+ ad hoc": {
+   "fews_cur": {
+    "n": 114,
+    "gam": 0.3233487675318803,
+    "crit": 0.30034679359588323,
+    "cdr": -0.04942204927320944
+   },
+   "fews_fc": {
+    "n": 112,
+    "gam": 0.35053600087529435,
+    "crit": 0.327874588574421,
+    "cdr": -0.02168237575623256
+   },
+   "ipc_ch": {
+    "n": 69,
+    "gam": 0.069383082664175,
+    "crit": 0.3944303920894715,
+    "cdr": 0.2095080064474609
+   }
+  },
+  "SMART+ Nigeria rounds": {
+   "fews_cur": {
+    "n": 53,
+    "gam": 0.31771497372564295,
+    "crit": 0.07513241409364685,
+    "cdr": 0.09163860858940608
+   },
+   "fews_fc": {
+    "n": 52,
+    "gam": 0.3344389413399419,
+    "crit": 0.13134979230330512,
+    "cdr": 0.26031644406666193
+   },
+   "ipc_ch": {
+    "n": 73,
+    "gam": 0.3061894162197103,
+    "crit": 0.11310348208971606,
+    "cdr": 0.3661209493458483
+   }
+  },
+  "FDW (BF, MR)": {
+   "fews_cur": {
+    "n": 332,
+    "gam": 0.4017980830946426,
+    "crit": 0.40452792015761213,
+    "cdr": null
+   },
+   "fews_fc": {
+    "n": 332,
+    "gam": 0.4009194998357971,
+    "crit": 0.4031122841920402,
+    "cdr": null
+   },
+   "ipc_ch": {
+    "n": 261,
+    "gam": 0.6459063955171951,
+    "crit": 0.5199918220131469,
+    "cdr": null
+   }
+  }
+ },
+ "ols": {
+  "SMART+ all": {
+   "fews_cur": {
+    "gam_pooled": {
+     "coef": 2.307961300555124,
+     "se": 0.6622224414608211,
+     "n": 167,
+     "clusters": 37
+    },
+    "gam_country_year_fe": {
+     "coef": 1.760728054040185,
+     "se": 0.5145536012822141,
+     "n": 161,
+     "clusters": 33
+    },
+    "cdr_pooled": {
+     "coef": -0.019989175368473777,
+     "se": 0.047077574374133686,
+     "n": 130,
+     "clusters": 26
+    },
+    "cdr_country_year_fe": {
+     "coef": -0.003930331236505564,
+     "se": 0.038122042052629146,
+     "n": 126,
+     "clusters": 25
+    }
+   },
+   "fews_fc": {
+    "gam_pooled": {
+     "coef": 2.420136928251117,
+     "se": 0.6666852549240381,
+     "n": 164,
+     "clusters": 36
+    },
+    "gam_country_year_fe": {
+     "coef": 2.0415971306058713,
+     "se": 0.5041377392009735,
+     "n": 159,
+     "clusters": 33
+    },
+    "cdr_pooled": {
+     "coef": -0.00011792242233993333,
+     "se": 0.05349114079813408,
+     "n": 127,
+     "clusters": 25
+    },
+    "cdr_country_year_fe": {
+     "coef": 0.013393533323963973,
+     "se": 0.04261916676236181,
+     "n": 126,
+     "clusters": 25
+    }
+   },
+   "ipc_ch": {
+    "gam_pooled": {
+     "coef": 0.3971852449223538,
+     "se": 1.3782834469864969,
+     "n": 142,
+     "clusters": 29
+    },
+    "gam_country_year_fe": {
+     "coef": 1.8782879947950182,
+     "se": 0.7437250560958112,
+     "n": 136,
+     "clusters": 24
+    },
+    "cdr_pooled": {
+     "coef": 0.0945302757475081,
+     "se": 0.054798464465438464,
+     "n": 102,
+     "clusters": 19
+    },
+    "cdr_country_year_fe": {
+     "coef": 0.16611992130417938,
+     "se": 0.04514383897096779,
+     "n": 99,
+     "clusters": 17
+    }
+   }
+  },
+  "SMART+ ad hoc": {
+   "fews_cur": {
+    "gam_pooled": {
+     "coef": 2.3147773710482586,
+     "se": 0.7041673045250301,
+     "n": 114,
+     "clusters": 32
+    },
+    "gam_country_year_fe": {
+     "coef": 1.7845156653929473,
+     "se": 0.4556146178010864,
+     "n": 109,
+     "clusters": 29
+    },
+    "cdr_pooled": {
+     "coef": -0.013273582530949238,
+     "se": 0.04746840318364984,
+     "n": 77,
+     "clusters": 21
+    },
+    "cdr_country_year_fe": {
+     "coef": -0.013227253599359601,
+     "se": 0.04480751569235596,
+     "n": 74,
+     "clusters": 21
+    }
+   },
+   "fews_fc": {
+    "gam_pooled": {
+     "coef": 2.4323957912943173,
+     "se": 0.6949330368910435,
+     "n": 112,
+     "clusters": 32
+    },
+    "gam_country_year_fe": {
+     "coef": 1.9449574051405358,
+     "se": 0.42895009918838045,
+     "n": 107,
+     "clusters": 29
+    },
+    "cdr_pooled": {
+     "coef": -0.005691495762711991,
+     "se": 0.04783819377043291,
+     "n": 75,
+     "clusters": 21
+    },
+    "cdr_country_year_fe": {
+     "coef": -0.00504384960845829,
+     "se": 0.04443531139006736,
+     "n": 74,
+     "clusters": 21
+    }
+   },
+   "ipc_ch": {
+    "gam_pooled": {
+     "coef": 0.6675463786530919,
+     "se": 1.8865776161136723,
+     "n": 69,
+     "clusters": 23
+    },
+    "gam_country_year_fe": {
+     "coef": 0.259196182077935,
+     "se": 0.9183722794546321,
+     "n": 63,
+     "clusters": 18
+    },
+    "cdr_pooled": {
+     "coef": 0.06033534974093266,
+     "se": 0.035165366963512176,
+     "n": 29,
+     "clusters": 13
+    },
+    "cdr_country_year_fe": {
+     "coef": 0.10225433627342892,
+     "se": 0.0334810219184738,
+     "n": 26,
+     "clusters": 11
+    }
+   }
+  },
+  "SMART+ Nigeria rounds": {
+   "fews_cur": {
+    "gam_pooled": {
+     "coef": 2.708170744680847,
+     "se": 1.2528439715181467,
+     "n": 53,
+     "clusters": 8
+    },
+    "gam_country_year_fe": {
+     "coef": 1.9391336677226332,
+     "se": 1.2575439770133345,
+     "n": 52,
+     "clusters": 7
+    },
+    "cdr_pooled": {
+     "coef": 0.04224315957446786,
+     "se": 0.05242245138574844,
+     "n": 53,
+     "clusters": 8
+    },
+    "cdr_country_year_fe": {
+     "coef": 0.062015957233368536,
+     "se": 0.055949375974958256,
+     "n": 52,
+     "clusters": 7
+    }
+   },
+   "fews_fc": {
+    "gam_pooled": {
+     "coef": 2.761467814569542,
+     "se": 1.5012734370311183,
+     "n": 52,
+     "clusters": 7
+    },
+    "gam_country_year_fe": {
+     "coef": 3.099998690778169,
+     "se": 1.4873118150088853,
+     "n": 52,
+     "clusters": 7
+    },
+    "cdr_pooled": {
+     "coef": 0.11861994834437112,
+     "se": 0.09393033630763746,
+     "n": 52,
+     "clusters": 7
+    },
+    "cdr_country_year_fe": {
+     "coef": 0.11282275026593568,
+     "se": 0.0896542063737255,
+     "n": 52,
+     "clusters": 7
+    }
+   },
+   "ipc_ch": {
+    "gam_pooled": {
+     "coef": 2.5149920321637698,
+     "se": 0.8911191713442553,
+     "n": 73,
+     "clusters": 9
+    },
+    "gam_country_year_fe": {
+     "coef": 2.7234113756613754,
+     "se": 0.8028234351124169,
+     "n": 73,
+     "clusters": 9
+    },
+    "cdr_pooled": {
+     "coef": 0.17653149488304248,
+     "se": 0.05865037164617307,
+     "n": 73,
+     "clusters": 9
+    },
+    "cdr_country_year_fe": {
+     "coef": 0.18827529698642737,
+     "se": 0.06661144788592413,
+     "n": 73,
+     "clusters": 9
+    }
+   }
+  },
+  "FDW (BF, MR)": {
+   "fews_cur": {
+    "gam_pooled": {
+     "coef": 4.225066652264114,
+     "se": 0.531585208894828,
+     "n": 332,
+     "clusters": 23
+    },
+    "gam_country_year_fe": {
+     "coef": 3.310249537820857,
+     "se": 1.0553487296925639,
+     "n": 332,
+     "clusters": 23
+    },
+    "cdr_pooled": {
+     "coef": NaN,
+     "se": NaN,
+     "n": 0,
+     "clusters": 0
+    },
+    "cdr_country_year_fe": {
+     "coef": NaN,
+     "se": NaN,
+     "n": 0,
+     "clusters": 0
+    }
+   },
+   "fews_fc": {
+    "gam_pooled": {
+     "coef": 4.368072305379716,
+     "se": 0.6319590113892479,
+     "n": 332,
+     "clusters": 23
+    },
+    "gam_country_year_fe": {
+     "coef": 3.197799669870151,
+     "se": 0.8809036075118412,
+     "n": 332,
+     "clusters": 23
+    },
+    "cdr_pooled": {
+     "coef": NaN,
+     "se": NaN,
+     "n": 0,
+     "clusters": 0
+    },
+    "cdr_country_year_fe": {
+     "coef": NaN,
+     "se": NaN,
+     "n": 0,
+     "clusters": 0
+    }
+   },
+   "ipc_ch": {
+    "gam_pooled": {
+     "coef": 5.8029189180831064,
+     "se": 0.7143684217265824,
+     "n": 261,
+     "clusters": 23
+    },
+    "gam_country_year_fe": {
+     "coef": 4.386115948472353,
+     "se": 1.315337232210582,
+     "n": 261,
+     "clusters": 23
+    },
+    "cdr_pooled": {
+     "coef": NaN,
+     "se": NaN,
+     "n": 0,
+     "clusters": 0
+    },
+    "cdr_country_year_fe": {
+     "coef": NaN,
+     "se": NaN,
+     "n": 0,
+     "clusters": 0
+    }
+   }
+  }
+ },
+ "amn": {
+  "areas": 1565,
+  "areas_with_afi": 1431,
+  "by_country": {
+   "AFG": {
+    "n": 68,
+    "with_afi": 31,
+    "files": 2,
+    "explicit_amn": 0
+   },
+   "CAF": {
+    "n": 127,
+    "with_afi": 114,
+    "files": 2,
+    "explicit_amn": 0
+   },
+   "CMR": {
+    "n": 76,
+    "with_afi": 59,
+    "files": 1,
+    "explicit_amn": 0
+   },
+   "COD": {
+    "n": 519,
+    "with_afi": 508,
+    "files": 1,
+    "explicit_amn": 519
+   },
+   "MLI": {
+    "n": 120,
+    "with_afi": 95,
+    "files": 2,
+    "explicit_amn": 0
+   },
+   "MOZ": {
+    "n": 46,
+    "with_afi": 42,
+    "files": 1,
+    "explicit_amn": 0
+   },
+   "NGA": {
+    "n": 494,
+    "with_afi": 484,
+    "files": 5,
+    "explicit_amn": 13
+   },
+   "SOM": {
+    "n": 18,
+    "with_afi": 18,
+    "files": 1,
+    "explicit_amn": 0
+   },
+   "SSD": {
+    "n": 80,
+    "with_afi": 80,
+    "files": 1,
+    "explicit_amn": 80
+   },
+   "YEM": {
+    "n": 17,
+    "with_afi": 0,
+    "files": 1,
+    "explicit_amn": 0
+   }
+  },
+  "AMN explicit": {
+   "n": 600,
+   "countries": [
+    "COD",
+    "NGA",
+    "SSD"
+   ],
+   "corr": 0.1263916904064023,
+   "spearman": 0.10437706947606346,
+   "exact_agree": 0.41833333333333333,
+   "amn_worse": 0.13166666666666665,
+   "afi3_amn3": 148,
+   "afi3": 386,
+   "amn3": 192,
+   "by_country": {
+    "COD": {
+     "n": 508,
+     "corr": -0.05089619483012683,
+     "exact_agree": 0.41929133858267714,
+     "mean_afi": 2.6161417322834644,
+     "mean_amn": 2.09251968503937
+    },
+    "NGA": {
+     "n": 12,
+     "corr": -0.42026153786799086,
+     "exact_agree": 0.5,
+     "mean_afi": 2.4288524774723395,
+     "mean_amn": 2.0
+    },
+    "SSD": {
+     "n": 80,
+     "corr": 0.48026103166611706,
+     "exact_agree": 0.4,
+     "mean_afi": 2.975,
+     "mean_amn": 3.05
+    }
+   }
+  },
+  "AMN derived from GAM": {
+   "n": 902,
+   "countries": [
+    "AFG",
+    "CAF",
+    "CMR",
+    "MLI",
+    "MOZ",
+    "NGA",
+    "SOM",
+    "SSD"
+   ],
+   "corr": 0.1963866497557823,
+   "spearman": 0.19938676390574167,
+   "exact_agree": 0.3070953436807095,
+   "amn_worse": 0.4523281596452328,
+   "afi3_amn3": 290,
+   "afi3": 464,
+   "amn3": 514,
+   "by_country": {
+    "AFG": {
+     "n": 31,
+     "corr": 0.29354352395090366,
+     "exact_agree": 0.1935483870967742,
+     "mean_afi": 2.903225806451613,
+     "mean_amn": 3.4838709677419355
+    },
+    "CAF": {
+     "n": 114,
+     "corr": 0.0986363572007599,
+     "exact_agree": 0.34210526315789475,
+     "mean_afi": 2.9649122807017543,
+     "mean_amn": 2.3333333333333335
+    },
+    "CMR": {
+     "n": 56,
+     "corr": 0.24571221762251794,
+     "exact_agree": 0.5,
+     "mean_afi": 1.8392857142857142,
+     "mean_amn": 1.3392857142857142
+    },
+    "MLI": {
+     "n": 95,
+     "corr": 0.2444667050371107,
+     "exact_agree": 0.1368421052631579,
+     "mean_afi": 1.4210526315789473,
+     "mean_amn": 2.7578947368421054
+    },
+    "MOZ": {
+     "n": 41,
+     "corr": 0.1538405348190023,
+     "exact_agree": 0.024390243902439025,
+     "mean_afi": 2.902439024390244,
+     "mean_amn": 1.2195121951219512
+    },
+    "NGA": {
+     "n": 472,
+     "corr": 0.31047382850553756,
+     "exact_agree": 0.3305084745762712,
+     "mean_afi": 2.446392374024293,
+     "mean_amn": 2.98728813559322
+    },
+    "SOM": {
+     "n": 18,
+     "corr": 0.4718637160873921,
+     "exact_agree": 0.2777777777777778,
+     "mean_afi": 2.425449115185291,
+     "mean_amn": 3.1666666666666665
+    },
+    "SSD": {
+     "n": 75,
+     "corr": 0.4239194456560703,
+     "exact_agree": 0.38666666666666666,
+     "mean_afi": 2.92,
+     "mean_amn": 2.973333333333333
+    }
+   }
+  },
+  "AMN any": {
+   "n": 1427,
+   "countries": [
+    "AFG",
+    "CAF",
+    "CMR",
+    "COD",
+    "MLI",
+    "MOZ",
+    "NGA",
+    "SOM",
+    "SSD"
+   ],
+   "corr": 0.09801954711002062,
+   "spearman": 0.0932772842046558,
+   "exact_agree": 0.3496846531184303,
+   "amn_worse": 0.32305536089698667,
+   "afi3_amn3": 392,
+   "afi3": 787,
+   "amn3": 659,
+   "by_country": {
+    "AFG": {
+     "n": 31,
+     "corr": 0.29354352395090366,
+     "exact_agree": 0.1935483870967742,
+     "mean_afi": 2.903225806451613,
+     "mean_amn": 3.4838709677419355
+    },
+    "CAF": {
+     "n": 114,
+     "corr": 0.0986363572007599,
+     "exact_agree": 0.34210526315789475,
+     "mean_afi": 2.9649122807017543,
+     "mean_amn": 2.3333333333333335
+    },
+    "CMR": {
+     "n": 56,
+     "corr": 0.24571221762251794,
+     "exact_agree": 0.5,
+     "mean_afi": 1.8392857142857142,
+     "mean_amn": 1.3392857142857142
+    },
+    "COD": {
+     "n": 508,
+     "corr": -0.05089619483012683,
+     "exact_agree": 0.41929133858267714,
+     "mean_afi": 2.6161417322834644,
+     "mean_amn": 2.09251968503937
+    },
+    "MLI": {
+     "n": 95,
+     "corr": 0.2444667050371107,
+     "exact_agree": 0.1368421052631579,
+     "mean_afi": 1.4210526315789473,
+     "mean_amn": 2.7578947368421054
+    },
+    "MOZ": {
+     "n": 41,
+     "corr": 0.1538405348190023,
+     "exact_agree": 0.024390243902439025,
+     "mean_afi": 2.902439024390244,
+     "mean_amn": 1.2195121951219512
+    },
+    "NGA": {
+     "n": 484,
+     "corr": 0.30003681124270076,
+     "exact_agree": 0.3347107438016529,
+     "mean_afi": 2.445957500556063,
+     "mean_amn": 2.9628099173553717
+    },
+    "SOM": {
+     "n": 18,
+     "corr": 0.4718637160873921,
+     "exact_agree": 0.2777777777777778,
+     "mean_afi": 2.425449115185291,
+     "mean_amn": 3.1666666666666665
+    },
+    "SSD": {
+     "n": 80,
+     "corr": 0.48026103166611706,
+     "exact_agree": 0.4,
+     "mean_afi": 2.975,
+     "mean_amn": 3.05
+    }
+   }
+  },
+  "corr_GAM by AFI phase": {
+   "n": 902,
+   "corr": 0.1995891184918392
+  },
+  "ols_GAM by AFI phase": {
+   "pooled": {
+    "coef": 1.7620440673132092,
+    "se": 0.8488614894014783,
+    "n": 902,
+    "clusters": 73
+   },
+   "file_fe": {
+    "coef": 2.5781355930747116,
+    "se": 0.4547813126510287,
+    "n": 902,
+    "clusters": 73
+   }
+  },
+  "corr_GAM by FEWS NET current phase": {
+   "n": 664,
+   "corr": 0.30732548953043626
+  },
+  "ols_GAM by FEWS NET current phase": {
+   "pooled": {
+    "coef": 2.8388402559642376,
+    "se": 0.7965077578400799,
+    "n": 664,
+    "clusters": 62
+   },
+   "file_fe": {
+    "coef": 1.531572119134884,
+    "se": 0.7061743812739293,
+    "n": 664,
+    "clusters": 62
+   }
+  }
+ },
+ "notes": "SMART+ surveys are mostly ad hoc (fielded when and where someone is worried); Nigeria NFSS/SOKAZA/BENSS are numbered recurring rounds. FDW (BF, MR) are national SMART rounds; FDW Ethiopia values are not served anonymously. AMN 'derived' phases apply IPC GAM thresholds to (often combined WHZ/MUAC) GAM in the HDX files. Phase bins round the area mean phase; 4+ pools 4 and 5."
+}

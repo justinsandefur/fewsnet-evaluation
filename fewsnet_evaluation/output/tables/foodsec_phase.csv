@@ -1,0 +1,351 @@
+group,indicator,phase_measure,phase,n,areas,mean,sd,median
+"independent, all WFP sources",fcs_mean,FEWS NET current,1,47,28,51.16376255319149,4.727929054454415,50.14286
+"independent, all WFP sources",fcs_mean,FEWS NET current,2,154,42,54.4631977922078,9.064890122496086,52.471665
+"independent, all WFP sources",fcs_mean,FEWS NET current,3,868,50,45.584343980414744,6.803780251340326,45.391975
+"independent, all WFP sources",fcs_mean,FEWS NET current,4+,110,21,46.39122095454544,6.754131363390626,45.96028
+"independent, all WFP sources",fcs_mean,"FEWS NET current, sub-national maps",1,47,28,51.16376255319149,4.727929054454415,50.14286
+"independent, all WFP sources",fcs_mean,"FEWS NET current, sub-national maps",2,154,42,54.4631977922078,9.064890122496086,52.471665
+"independent, all WFP sources",fcs_mean,"FEWS NET current, sub-national maps",3,868,50,45.584343980414744,6.803780251340326,45.391975
+"independent, all WFP sources",fcs_mean,"FEWS NET current, sub-national maps",4+,110,21,46.39122095454544,6.754131363390626,45.96028
+"independent, all WFP sources",fcs_mean,FEWS NET forecast,1,40,23,51.148027,4.954740646924225,51.096605
+"independent, all WFP sources",fcs_mean,FEWS NET forecast,2,141,45,54.223591702127656,9.305572285627475,52.28571
+"independent, all WFP sources",fcs_mean,FEWS NET forecast,3,693,58,46.09522891774891,6.686719608070686,45.89435
+"independent, all WFP sources",fcs_mean,FEWS NET forecast,4+,252,24,45.90699371031746,6.091025352775214,44.821085
+"independent, all WFP sources",fcs_mean,IPC/CH phase,1,45,20,51.79904955555556,5.535942532084369,52.04147
+"independent, all WFP sources",fcs_mean,IPC/CH phase,2,101,52,48.29675138613861,6.113086703657658,49.30769
+"independent, all WFP sources",fcs_mean,IPC/CH phase,3,188,55,46.500896728723404,8.82462367821517,46.6212375
+"independent, all WFP sources",fcs_mean,IPC/CH phase,4+,21,9,31.474059047619047,7.920233281952562,29.95739
+"independent, all WFP sources",fcs_poor,FEWS NET current,1,47,28,12.214808510638298,6.344615281577783,11.34
+"independent, all WFP sources",fcs_poor,FEWS NET current,2,154,42,10.908392857142857,6.49909187144466,10.732
+"independent, all WFP sources",fcs_poor,FEWS NET current,3,868,50,21.990956797235025,13.176943299999703,20.04
+"independent, all WFP sources",fcs_poor,FEWS NET current,4+,110,21,20.62451818181818,9.702259202273806,21.015500000000003
+"independent, all WFP sources",fcs_poor,"FEWS NET current, sub-national maps",1,47,28,12.214808510638298,6.344615281577783,11.34
+"independent, all WFP sources",fcs_poor,"FEWS NET current, sub-national maps",2,154,42,10.908392857142857,6.49909187144466,10.732
+"independent, all WFP sources",fcs_poor,"FEWS NET current, sub-national maps",3,868,50,21.990956797235025,13.176943299999703,20.04
+"independent, all WFP sources",fcs_poor,"FEWS NET current, sub-national maps",4+,110,21,20.62451818181818,9.702259202273806,21.015500000000003
+"independent, all WFP sources",fcs_poor,FEWS NET forecast,1,40,23,12.11,6.779079594889423,10.4665
+"independent, all WFP sources",fcs_poor,FEWS NET forecast,2,141,45,10.892336879432625,6.14104323399315,10.905000000000001
+"independent, all WFP sources",fcs_poor,FEWS NET forecast,3,693,59,21.145161616161616,12.360973143167039,19.355
+"independent, all WFP sources",fcs_poor,FEWS NET forecast,4+,252,24,21.037305555555555,9.972271393164807,20.988
+"independent, all WFP sources",fcs_poor,IPC/CH phase,1,45,20,8.729955555555556,7.758102456480742,6.311999999999999
+"independent, all WFP sources",fcs_poor,IPC/CH phase,2,101,52,14.617168316831679,8.088915073196537,12.903
+"independent, all WFP sources",fcs_poor,IPC/CH phase,3,188,55,17.79908510638298,15.982936354733324,14.638
+"independent, all WFP sources",fcs_poor,IPC/CH phase,4+,21,9,47.86519047619048,27.326045834732565,55.681999999999995
+"independent, all WFP sources",fcs_poor_borderline,FEWS NET current,1,3653,244,29.200686791508964,18.283433014480256,24.15
+"independent, all WFP sources",fcs_poor_borderline,FEWS NET current,2,4212,292,34.737483747014885,21.605838139486668,30.35545007746706
+"independent, all WFP sources",fcs_poor_borderline,FEWS NET current,3,4211,222,45.01935538623153,22.164437914160658,43.82363374771609
+"independent, all WFP sources",fcs_poor_borderline,FEWS NET current,4+,255,35,54.04465961162516,23.413689546947857,52.041000000000004
+"independent, all WFP sources",fcs_poor_borderline,"FEWS NET current, sub-national maps",1,3653,244,29.200686791508964,18.283433014480256,24.15
+"independent, all WFP sources",fcs_poor_borderline,"FEWS NET current, sub-national maps",2,3874,258,35.88172039529914,21.70023396805371,31.346398525853303
+"independent, all WFP sources",fcs_poor_borderline,"FEWS NET current, sub-national maps",3,3640,161,48.55369554166143,21.179743005675363,47.30918771854523
+"independent, all WFP sources",fcs_poor_borderline,"FEWS NET current, sub-national maps",4+,247,34,54.91166205939379,23.264794631593794,52.42570522853306
+"independent, all WFP sources",fcs_poor_borderline,FEWS NET forecast,1,3625,221,28.3826120143105,17.54665013734601,23.65377192343435
+"independent, all WFP sources",fcs_poor_borderline,FEWS NET forecast,2,4104,273,32.77505296941787,22.830523469860566,28.398121422593302
+"independent, all WFP sources",fcs_poor_borderline,FEWS NET forecast,3,3578,190,46.47394471982371,22.35770111172907,45.6175
+"independent, all WFP sources",fcs_poor_borderline,FEWS NET forecast,4+,528,55,52.2881574766398,20.701509367600366,51.846000000000004
+"independent, all WFP sources",fcs_poor_borderline,IPC/CH phase,1,1560,184,37.02681845837847,18.778508044802415,35.0
+"independent, all WFP sources",fcs_poor_borderline,IPC/CH phase,2,3227,320,37.63510600661607,22.046551331607347,32.98553516018774
+"independent, all WFP sources",fcs_poor_borderline,IPC/CH phase,3,2745,242,47.869997524756705,24.573254079599536,44.952328364054374
+"independent, all WFP sources",fcs_poor_borderline,IPC/CH phase,4+,227,34,49.73366356441154,23.38076354797359,46.25415856497628
+"independent, all WFP sources",hdds_mean,FEWS NET current,1,46,9,7.329334130434782,0.6485133977869904,7.2483249999999995
+"independent, all WFP sources",hdds_mean,FEWS NET current,2,4,2,7.19088,0.2376954444942797,7.148625
+"independent, all WFP sources",hdds_mean,FEWS NET current,3,26,16,5.964537307692309,0.339382217006816,5.8746100000000006
+"independent, all WFP sources",hdds_mean,FEWS NET current,4+,8,7,6.084580000000001,0.37909621059265974,6.20096
+"independent, all WFP sources",hdds_mean,"FEWS NET current, sub-national maps",1,46,9,7.329334130434782,0.6485133977869904,7.2483249999999995
+"independent, all WFP sources",hdds_mean,"FEWS NET current, sub-national maps",2,4,2,7.19088,0.2376954444942797,7.148625
+"independent, all WFP sources",hdds_mean,"FEWS NET current, sub-national maps",3,26,16,5.964537307692309,0.339382217006816,5.8746100000000006
+"independent, all WFP sources",hdds_mean,"FEWS NET current, sub-national maps",4+,8,7,6.084580000000001,0.37909621059265974,6.20096
+"independent, all WFP sources",hdds_mean,FEWS NET forecast,1,42,7,7.358289285714288,0.6662763760482322,7.300795
+"independent, all WFP sources",hdds_mean,FEWS NET forecast,2,5,5,7.146748,0.21131298758003486,7.25
+"independent, all WFP sources",hdds_mean,FEWS NET forecast,3,10,10,5.9612300000000005,0.4054744682467689,5.790285
+"independent, all WFP sources",hdds_mean,FEWS NET forecast,4+,8,8,6.15200375,0.3501311300452812,6.146095
+"independent, all WFP sources",hdds_mean,IPC/CH phase,1,3,2,6.947633333333333,0.2692312337626031,6.85903
+"independent, all WFP sources",hdds_mean,IPC/CH phase,2,1,1,6.52822,,6.52822
+"independent, all WFP sources",hdds_mean,IPC/CH phase,3,2,2,6.996095,0.4898482226669803,6.996095
+"independent, all WFP sources",rcsi_19plus,FEWS NET current,1,3661,175,29.639547206689148,12.846720948297671,29.67837079366047
+"independent, all WFP sources",rcsi_19plus,FEWS NET current,2,4082,234,32.188897571171346,15.067766338432882,30.352602793580736
+"independent, all WFP sources",rcsi_19plus,FEWS NET current,3,3967,179,44.00974461655493,15.359123727566955,46.38069768105783
+"independent, all WFP sources",rcsi_19plus,FEWS NET current,4+,235,27,39.62461457027047,18.64675990047774,40.3846
+"independent, all WFP sources",rcsi_19plus,"FEWS NET current, sub-national maps",1,3661,175,29.639547206689148,12.846720948297671,29.67837079366047
+"independent, all WFP sources",rcsi_19plus,"FEWS NET current, sub-national maps",2,3744,189,33.81650223338604,14.23810954810933,32.10301162248017
+"independent, all WFP sources",rcsi_19plus,"FEWS NET current, sub-national maps",3,3396,118,45.94843641326655,15.214349627500109,48.962754558308916
+"independent, all WFP sources",rcsi_19plus,"FEWS NET current, sub-national maps",4+,227,26,40.6502548341054,18.136682412294576,42.1429
+"independent, all WFP sources",rcsi_19plus,FEWS NET forecast,1,3598,171,29.45105681893191,12.82596212785105,29.261592197418203
+"independent, all WFP sources",rcsi_19plus,FEWS NET forecast,2,3997,214,32.64696695497612,14.477491457107044,31.04052639007567
+"independent, all WFP sources",rcsi_19plus,FEWS NET forecast,3,3463,146,44.143096668200265,15.715127526555362,46.91938273111979
+"independent, all WFP sources",rcsi_19plus,FEWS NET forecast,4+,451,40,43.30573579974378,16.827633758584753,45.901599999999995
+"independent, all WFP sources",rcsi_19plus,IPC/CH phase,1,1434,118,22.7640361374068,12.211283363255205,20.91661158289227
+"independent, all WFP sources",rcsi_19plus,IPC/CH phase,2,3074,244,27.18322829048852,13.828538369655115,26.537684840540727
+"independent, all WFP sources",rcsi_19plus,IPC/CH phase,3,2620,179,36.37227596960466,15.205950786774348,37.74852414490074
+"independent, all WFP sources",rcsi_19plus,IPC/CH phase,4+,202,20,47.21431122435906,17.04729805466827,45.94995522652903
+"independent, all WFP sources",rcsi_mean,FEWS NET current,1,302,57,15.441851572847684,5.830278858297963,14.856670000000001
+"independent, all WFP sources",rcsi_mean,FEWS NET current,2,258,60,14.514285775193798,5.817900053071984,14.14986
+"independent, all WFP sources",rcsi_mean,FEWS NET current,3,911,60,20.09650675082327,4.643256824412965,20.66429
+"independent, all WFP sources",rcsi_mean,FEWS NET current,4+,110,21,18.28821986363636,4.822083156817645,18.807344999999998
+"independent, all WFP sources",rcsi_mean,"FEWS NET current, sub-national maps",1,302,57,15.441851572847684,5.830278858297963,14.856670000000001
+"independent, all WFP sources",rcsi_mean,"FEWS NET current, sub-national maps",2,258,60,14.514285775193798,5.817900053071984,14.14986
+"independent, all WFP sources",rcsi_mean,"FEWS NET current, sub-national maps",3,911,60,20.09650675082327,4.643256824412965,20.66429
+"independent, all WFP sources",rcsi_mean,"FEWS NET current, sub-national maps",4+,110,21,18.28821986363636,4.822083156817645,18.807344999999998
+"independent, all WFP sources",rcsi_mean,FEWS NET forecast,1,187,54,15.916835802139039,7.326364340354601,17.85405
+"independent, all WFP sources",rcsi_mean,FEWS NET forecast,2,220,63,13.691886545454546,6.221029113664187,13.56549
+"independent, all WFP sources",rcsi_mean,FEWS NET forecast,3,758,66,20.03533721635884,4.463457950903344,20.721625
+"independent, all WFP sources",rcsi_mean,FEWS NET forecast,4+,252,24,18.98610910714286,4.043136638796515,19.296765
+"independent, all WFP sources",rcsi_mean,IPC/CH phase,1,48,22,13.399181875000002,2.838504346109885,13.34487
+"independent, all WFP sources",rcsi_mean,IPC/CH phase,2,100,53,10.3160665,4.770180122065649,9.6853
+"independent, all WFP sources",rcsi_mean,IPC/CH phase,3,185,54,15.204247324324324,6.250197746437752,15.6421
+"independent, all WFP sources",rcsi_mean,IPC/CH phase,4+,21,9,20.01042095238095,7.558282606237282,23.67045
+ch_hdx (IPC input),fcs_poor,FEWS NET current,1,835,409,14.031616766467065,18.417164516335863,7.6
+ch_hdx (IPC input),fcs_poor,FEWS NET current,2,678,410,8.73834808259587,11.430355743468098,5.5
+ch_hdx (IPC input),fcs_poor,FEWS NET current,3,201,110,16.544776119402986,20.942463682065366,8.5
+ch_hdx (IPC input),fcs_poor,FEWS NET current,4+,12,8,17.275000000000002,19.320978941884057,11.05
+ch_hdx (IPC input),fcs_poor,"FEWS NET current, sub-national maps",1,835,409,14.031616766467065,18.417164516335863,7.6
+ch_hdx (IPC input),fcs_poor,"FEWS NET current, sub-national maps",2,678,410,8.73834808259587,11.430355743468098,5.5
+ch_hdx (IPC input),fcs_poor,"FEWS NET current, sub-national maps",3,200,109,16.624000000000002,20.964799979750698,8.75
+ch_hdx (IPC input),fcs_poor,"FEWS NET current, sub-national maps",4+,12,8,17.275000000000002,19.320978941884057,11.05
+ch_hdx (IPC input),fcs_poor,FEWS NET forecast,1,796,484,13.818592964824122,18.767507878778844,7.0
+ch_hdx (IPC input),fcs_poor,FEWS NET forecast,2,713,458,9.112762973352034,11.552375470549757,5.2
+ch_hdx (IPC input),fcs_poor,FEWS NET forecast,3,208,110,16.371153846153845,20.484013670506855,8.5
+ch_hdx (IPC input),fcs_poor,FEWS NET forecast,4+,16,13,17.76875,16.49002602585373,14.05
+ch_hdx (IPC input),fcs_poor,IPC/CH phase,1,1168,693,8.178167808219179,16.799915158697246,3.0
+ch_hdx (IPC input),fcs_poor,IPC/CH phase,2,1328,754,9.971460843373492,11.413431859076452,6.4
+ch_hdx (IPC input),fcs_poor,IPC/CH phase,3,303,179,21.672937293729372,19.128287544631238,17.0
+ch_hdx (IPC input),fcs_poor,IPC/CH phase,4+,6,6,39.833333333333336,30.843454194799044,35.6
+ch_hdx (IPC input),fcs_poor_borderline,FEWS NET current,1,835,409,38.76706586826347,24.361407648728974,35.0
+ch_hdx (IPC input),fcs_poor_borderline,FEWS NET current,2,678,410,39.63790560471976,21.922268876918363,35.0
+ch_hdx (IPC input),fcs_poor_borderline,FEWS NET current,3,201,110,49.71641791044776,23.810633740085073,48.0
+ch_hdx (IPC input),fcs_poor_borderline,FEWS NET current,4+,12,8,47.258333333333326,20.90343418211612,42.5
+ch_hdx (IPC input),fcs_poor_borderline,"FEWS NET current, sub-national maps",1,835,409,38.76706586826347,24.361407648728974,35.0
+ch_hdx (IPC input),fcs_poor_borderline,"FEWS NET current, sub-national maps",2,678,410,39.63790560471976,21.922268876918363,35.0
+ch_hdx (IPC input),fcs_poor_borderline,"FEWS NET current, sub-national maps",3,200,109,49.91799999999999,23.69781653534168,48.2
+ch_hdx (IPC input),fcs_poor_borderline,"FEWS NET current, sub-national maps",4+,12,8,47.258333333333326,20.90343418211612,42.5
+ch_hdx (IPC input),fcs_poor_borderline,FEWS NET forecast,1,796,484,39.47613065326633,24.68959158597564,34.0
+ch_hdx (IPC input),fcs_poor_borderline,FEWS NET forecast,2,713,458,38.140252454417954,21.504097295584742,35.0
+ch_hdx (IPC input),fcs_poor_borderline,FEWS NET forecast,3,208,110,50.41586538461539,23.802208078084252,49.0
+ch_hdx (IPC input),fcs_poor_borderline,FEWS NET forecast,4+,16,13,52.5,16.05536255170423,46.45
+ch_hdx (IPC input),fcs_poor_borderline,IPC/CH phase,1,1168,693,28.267123287671232,23.593528035323498,22.5
+ch_hdx (IPC input),fcs_poor_borderline,IPC/CH phase,2,1328,754,39.350903614457835,22.8225175847022,37.0
+ch_hdx (IPC input),fcs_poor_borderline,IPC/CH phase,3,303,179,54.095379537953804,23.406895565999204,53.0
+ch_hdx (IPC input),fcs_poor_borderline,IPC/CH phase,4+,6,6,63.23333333333334,27.146540602195827,55.8
+ch_hdx (IPC input),hdds_phase3plus,FEWS NET current,1,669,289,14.518385650224214,14.040915609832163,11.0
+ch_hdx (IPC input),hdds_phase3plus,FEWS NET current,2,436,258,15.486009174311926,17.25856939609757,9.0
+ch_hdx (IPC input),hdds_phase3plus,FEWS NET current,3,187,101,21.19090909090909,20.51522311057419,15.0
+ch_hdx (IPC input),hdds_phase3plus,FEWS NET current,4+,5,4,30.7,23.539753609585638,24.0
+ch_hdx (IPC input),hdds_phase3plus,"FEWS NET current, sub-national maps",1,669,289,14.518385650224214,14.040915609832163,11.0
+ch_hdx (IPC input),hdds_phase3plus,"FEWS NET current, sub-national maps",2,436,258,15.486009174311926,17.25856939609757,9.0
+ch_hdx (IPC input),hdds_phase3plus,"FEWS NET current, sub-national maps",3,186,100,21.30483870967742,20.51119215178285,15.0
+ch_hdx (IPC input),hdds_phase3plus,"FEWS NET current, sub-national maps",4+,5,4,30.7,23.539753609585638,24.0
+ch_hdx (IPC input),hdds_phase3plus,FEWS NET forecast,1,582,316,14.908419243986256,14.75339855509506,11.05
+ch_hdx (IPC input),hdds_phase3plus,FEWS NET forecast,2,511,283,14.663013698630136,15.591006140350256,9.0
+ch_hdx (IPC input),hdds_phase3plus,FEWS NET forecast,3,203,105,21.398029556650247,21.215235886548477,15.0
+ch_hdx (IPC input),hdds_phase3plus,FEWS NET forecast,4+,9,9,26.555555555555557,19.27550979294135,27.0
+ch_hdx (IPC input),hdds_phase3plus,IPC/CH phase,1,743,454,12.147644683714672,21.08453379137717,4.0
+ch_hdx (IPC input),hdds_phase3plus,IPC/CH phase,2,1100,586,18.205636363636366,20.26533603110581,12.0
+ch_hdx (IPC input),hdds_phase3plus,IPC/CH phase,3,295,173,27.433220338983052,23.414183622244522,23.0
+ch_hdx (IPC input),hdds_phase3plus,IPC/CH phase,4+,4,4,49.525000000000006,18.43174345162895,54.75
+ch_hdx (IPC input),hhs_3plus,FEWS NET current,1,538,264,10.894052044609666,13.845702058293911,6.0
+ch_hdx (IPC input),hhs_3plus,FEWS NET current,2,360,254,23.760555555555552,22.289440639816476,16.0
+ch_hdx (IPC input),hhs_3plus,FEWS NET current,3,157,102,28.702547770700637,23.375647390032903,26.1
+ch_hdx (IPC input),hhs_3plus,FEWS NET current,4+,9,7,65.94444444444444,28.70945450157104,77.8
+ch_hdx (IPC input),hhs_3plus,"FEWS NET current, sub-national maps",1,538,264,10.894052044609666,13.845702058293911,6.0
+ch_hdx (IPC input),hhs_3plus,"FEWS NET current, sub-national maps",2,360,254,23.760555555555552,22.289440639816476,16.0
+ch_hdx (IPC input),hhs_3plus,"FEWS NET current, sub-national maps",3,156,101,28.886538461538464,23.33660308237507,26.35
+ch_hdx (IPC input),hhs_3plus,"FEWS NET current, sub-national maps",4+,9,7,65.94444444444444,28.70945450157104,77.8
+ch_hdx (IPC input),hhs_3plus,FEWS NET forecast,1,498,297,13.25160642570281,17.035920372180733,7.0
+ch_hdx (IPC input),hhs_3plus,FEWS NET forecast,2,391,274,20.27237851662404,20.81891655152676,13.4
+ch_hdx (IPC input),hhs_3plus,FEWS NET forecast,3,169,104,26.0,22.71071962123362,21.0
+ch_hdx (IPC input),hhs_3plus,FEWS NET forecast,4+,12,11,60.85,24.56914176915277,55.0
+ch_hdx (IPC input),hhs_3plus,IPC/CH phase,1,580,397,10.453448275862069,16.66950320094249,3.0
+ch_hdx (IPC input),hhs_3plus,IPC/CH phase,2,923,568,21.515167930660887,20.967741147216387,14.8
+ch_hdx (IPC input),hhs_3plus,IPC/CH phase,3,226,151,31.825663716814162,23.918367758360702,28.45
+ch_hdx (IPC input),hhs_3plus,IPC/CH phase,4+,4,4,58.825,20.233367655105432,55.0
+ch_hdx (IPC input),hhs_4plus,FEWS NET current,1,538,264,0.6500000000000001,2.2083155018429097,0.0
+ch_hdx (IPC input),hhs_4plus,FEWS NET current,2,360,254,1.3372222222222223,5.082500761384787,0.0
+ch_hdx (IPC input),hhs_4plus,FEWS NET current,3,157,102,1.5273885350318472,2.8960984246486388,0.0
+ch_hdx (IPC input),hhs_4plus,FEWS NET current,4+,9,7,11.155555555555557,16.96696135958875,4.0
+ch_hdx (IPC input),hhs_4plus,"FEWS NET current, sub-national maps",1,538,264,0.6500000000000001,2.2083155018429097,0.0
+ch_hdx (IPC input),hhs_4plus,"FEWS NET current, sub-national maps",2,360,254,1.3372222222222223,5.082500761384787,0.0
+ch_hdx (IPC input),hhs_4plus,"FEWS NET current, sub-national maps",3,156,101,1.5371794871794873,2.902817717849396,0.0
+ch_hdx (IPC input),hhs_4plus,"FEWS NET current, sub-national maps",4+,9,7,11.155555555555557,16.96696135958875,4.0
+ch_hdx (IPC input),hhs_4plus,FEWS NET forecast,1,498,297,0.8596385542168675,3.1939702795674347,0.0
+ch_hdx (IPC input),hhs_4plus,FEWS NET forecast,2,391,274,1.0281329923273657,4.217220659994946,0.0
+ch_hdx (IPC input),hhs_4plus,FEWS NET forecast,3,169,104,1.4207100591715978,2.7964236458556475,0.0
+ch_hdx (IPC input),hhs_4plus,FEWS NET forecast,4+,12,11,8.941666666666668,15.032477466734445,3.5
+ch_hdx (IPC input),hhs_4plus,IPC/CH phase,1,580,397,1.1851724137931037,3.9586446981094183,0.0
+ch_hdx (IPC input),hhs_4plus,IPC/CH phase,2,923,568,1.295124593716143,3.4295968503663934,0.0
+ch_hdx (IPC input),hhs_4plus,IPC/CH phase,3,226,151,1.995132743362832,5.455111627747848,0.0
+ch_hdx (IPC input),hhs_4plus,IPC/CH phase,4+,4,4,22.0,21.646246787838304,15.9
+ch_hdx (IPC input),lcs_crisis_plus,FEWS NET current,1,820,396,23.994146341463416,23.14330552979563,17.3
+ch_hdx (IPC input),lcs_crisis_plus,FEWS NET current,2,679,411,31.70677466863034,21.076565326294883,27.7
+ch_hdx (IPC input),lcs_crisis_plus,FEWS NET current,3,202,111,31.0579207920792,18.643397765227796,29.0
+ch_hdx (IPC input),lcs_crisis_plus,FEWS NET current,4+,12,8,63.19166666666666,36.201945159526076,80.25
+ch_hdx (IPC input),lcs_crisis_plus,"FEWS NET current, sub-national maps",1,820,396,23.994146341463416,23.14330552979563,17.3
+ch_hdx (IPC input),lcs_crisis_plus,"FEWS NET current, sub-national maps",2,679,411,31.70677466863034,21.076565326294883,27.7
+ch_hdx (IPC input),lcs_crisis_plus,"FEWS NET current, sub-national maps",3,201,110,31.208955223880597,18.565646215604378,29.0
+ch_hdx (IPC input),lcs_crisis_plus,"FEWS NET current, sub-national maps",4+,12,8,63.19166666666666,36.201945159526076,80.25
+ch_hdx (IPC input),lcs_crisis_plus,FEWS NET forecast,1,781,484,29.301920614596675,26.34421376451787,20.5
+ch_hdx (IPC input),lcs_crisis_plus,FEWS NET forecast,2,714,459,25.772969187675073,17.21223057054592,22.299999999999997
+ch_hdx (IPC input),lcs_crisis_plus,FEWS NET forecast,3,209,111,29.03397129186603,19.295591465886776,26.400000000000002
+ch_hdx (IPC input),lcs_crisis_plus,FEWS NET forecast,4+,16,13,59.68125,30.880181751408134,67.85
+ch_hdx (IPC input),lcs_crisis_plus,IPC/CH phase,1,1148,699,25.05156794425087,25.677135711057474,14.0
+ch_hdx (IPC input),lcs_crisis_plus,IPC/CH phase,2,1324,752,28.014728096676738,20.701897459639152,23.0
+ch_hdx (IPC input),lcs_crisis_plus,IPC/CH phase,3,303,180,37.12046204620462,20.95347045930859,35.3
+ch_hdx (IPC input),lcs_crisis_plus,IPC/CH phase,4+,6,6,56.449999999999996,35.152681263311905,58.9
+ch_hdx (IPC input),rcsi_19plus,FEWS NET current,1,831,405,10.297232250300842,13.422076924114172,4.0
+ch_hdx (IPC input),rcsi_19plus,FEWS NET current,2,679,411,21.519293078055966,17.250513106843425,20.0
+ch_hdx (IPC input),rcsi_19plus,FEWS NET current,3,202,111,18.094554455445543,15.90753506018609,16.0
+ch_hdx (IPC input),rcsi_19plus,FEWS NET current,4+,12,8,54.449999999999996,26.670838688793353,59.3
+ch_hdx (IPC input),rcsi_19plus,"FEWS NET current, sub-national maps",1,831,405,10.297232250300842,13.422076924114172,4.0
+ch_hdx (IPC input),rcsi_19plus,"FEWS NET current, sub-national maps",2,679,411,21.519293078055966,17.250513106843425,20.0
+ch_hdx (IPC input),rcsi_19plus,"FEWS NET current, sub-national maps",3,201,110,18.18457711442786,15.89558778231474,16.0
+ch_hdx (IPC input),rcsi_19plus,"FEWS NET current, sub-national maps",4+,12,8,54.449999999999996,26.670838688793353,59.3
+ch_hdx (IPC input),rcsi_19plus,FEWS NET forecast,1,792,484,14.185732323232324,16.780282691303697,6.6
+ch_hdx (IPC input),rcsi_19plus,FEWS NET forecast,2,714,459,16.959243697478993,15.506496127368743,13.9
+ch_hdx (IPC input),rcsi_19plus,FEWS NET forecast,3,209,111,16.322488038277516,16.085606966235748,12.9
+ch_hdx (IPC input),rcsi_19plus,FEWS NET forecast,4+,16,13,46.056250000000006,27.84621982124923,48.0
+ch_hdx (IPC input),rcsi_19plus,IPC/CH phase,1,1173,698,15.141261722080136,17.002752310141137,7.0
+ch_hdx (IPC input),rcsi_19plus,IPC/CH phase,2,1333,755,14.39542385596399,15.011179069653464,9.0
+ch_hdx (IPC input),rcsi_19plus,IPC/CH phase,3,304,180,18.27828947368421,17.371293484610458,14.0
+ch_hdx (IPC input),rcsi_19plus,IPC/CH phase,4+,6,6,44.85,24.4461653434644,48.0
+independent (mvam_hdx),fcs_mean,FEWS NET current,1,47,28,51.16376255319148,4.727929054454414,50.14286
+independent (mvam_hdx),fcs_mean,FEWS NET current,2,156,43,54.2902235897436,9.135204583705967,52.36532
+independent (mvam_hdx),fcs_mean,FEWS NET current,3,869,51,45.58444795742233,6.799860584443498,45.40339
+independent (mvam_hdx),fcs_mean,FEWS NET current,4+,110,21,46.391220954545446,6.754131363390627,45.96028
+independent (mvam_hdx),fcs_mean,"FEWS NET current, sub-national maps",1,47,28,51.16376255319148,4.727929054454414,50.14286
+independent (mvam_hdx),fcs_mean,"FEWS NET current, sub-national maps",2,156,43,54.2902235897436,9.135204583705967,52.36532
+independent (mvam_hdx),fcs_mean,"FEWS NET current, sub-national maps",3,869,51,45.58444795742233,6.799860584443498,45.40339
+independent (mvam_hdx),fcs_mean,"FEWS NET current, sub-national maps",4+,110,21,46.391220954545446,6.754131363390627,45.96028
+independent (mvam_hdx),fcs_mean,FEWS NET forecast,1,40,23,51.148027,4.954740646924225,51.096605
+independent (mvam_hdx),fcs_mean,FEWS NET forecast,2,141,45,54.22359170212767,9.305572285627475,52.28571
+independent (mvam_hdx),fcs_mean,FEWS NET forecast,3,696,59,46.079900517241384,6.678288965458334,45.88216
+independent (mvam_hdx),fcs_mean,FEWS NET forecast,4+,252,24,45.90699371031746,6.091025352775214,44.821085
+independent (mvam_hdx),fcs_mean,IPC/CH phase,1,45,20,51.799049555555555,5.53594253208437,52.04147
+independent (mvam_hdx),fcs_mean,IPC/CH phase,2,102,53,48.212333921568636,6.1422075989123766,49.267215
+independent (mvam_hdx),fcs_mean,IPC/CH phase,3,189,56,46.49652531746031,8.801327819916784,46.554475
+independent (mvam_hdx),fcs_mean,IPC/CH phase,4+,22,10,31.96415863636363,8.063950347048863,30.633525
+independent (mvam_hdx),fcs_poor,FEWS NET current,1,47,28,12.214808510638298,6.344615281577783,11.34
+independent (mvam_hdx),fcs_poor,FEWS NET current,2,156,43,10.920105769230771,6.467270541837672,10.732
+independent (mvam_hdx),fcs_poor,FEWS NET current,3,869,51,21.986447065592635,13.170021696979957,20.025000000000002
+independent (mvam_hdx),fcs_poor,FEWS NET current,4+,110,21,20.624518181818182,9.702259202273805,21.015500000000003
+independent (mvam_hdx),fcs_poor,"FEWS NET current, sub-national maps",1,47,28,12.214808510638298,6.344615281577783,11.34
+independent (mvam_hdx),fcs_poor,"FEWS NET current, sub-national maps",2,156,43,10.920105769230771,6.467270541837672,10.732
+independent (mvam_hdx),fcs_poor,"FEWS NET current, sub-national maps",3,869,51,21.986447065592635,13.170021696979957,20.025000000000002
+independent (mvam_hdx),fcs_poor,"FEWS NET current, sub-national maps",4+,110,21,20.624518181818182,9.702259202273805,21.015500000000003
+independent (mvam_hdx),fcs_poor,FEWS NET forecast,1,40,23,12.11,6.779079594889423,10.4665
+independent (mvam_hdx),fcs_poor,FEWS NET forecast,2,141,45,10.892336879432625,6.14104323399315,10.905000000000001
+independent (mvam_hdx),fcs_poor,FEWS NET forecast,3,696,59,21.113955459770114,12.34601233321214,19.326
+independent (mvam_hdx),fcs_poor,FEWS NET forecast,4+,252,24,21.037305555555555,9.972271393164807,20.988
+independent (mvam_hdx),fcs_poor,IPC/CH phase,1,45,20,8.729955555555556,7.758102456480741,6.311999999999999
+independent (mvam_hdx),fcs_poor,IPC/CH phase,2,102,53,14.619882352941172,8.048817999802388,12.903
+independent (mvam_hdx),fcs_poor,IPC/CH phase,3,189,56,17.8005291005291,15.940384229396654,14.689
+independent (mvam_hdx),fcs_poor,IPC/CH phase,4+,22,10,46.08722727272726,27.941016424794743,54.829499999999996
+independent (mvam_hdx),fcs_poor_borderline,FEWS NET current,1,32,14,37.41346875,10.788320186692868,36.6245
+independent (mvam_hdx),fcs_poor_borderline,FEWS NET current,2,94,10,26.654521276595744,12.823464766296421,24.915
+independent (mvam_hdx),fcs_poor_borderline,FEWS NET current,3,810,21,48.82089135802469,14.763190444000706,48.931
+independent (mvam_hdx),fcs_poor_borderline,FEWS NET current,4+,92,9,44.79934239130436,13.091374726108485,45.4155
+independent (mvam_hdx),fcs_poor_borderline,"FEWS NET current, sub-national maps",1,32,14,37.41346875,10.788320186692868,36.6245
+independent (mvam_hdx),fcs_poor_borderline,"FEWS NET current, sub-national maps",2,94,10,26.654521276595744,12.823464766296421,24.915
+independent (mvam_hdx),fcs_poor_borderline,"FEWS NET current, sub-national maps",3,810,21,48.82089135802469,14.763190444000706,48.931
+independent (mvam_hdx),fcs_poor_borderline,"FEWS NET current, sub-national maps",4+,92,9,44.79934239130436,13.091374726108485,45.4155
+independent (mvam_hdx),fcs_poor_borderline,FEWS NET forecast,1,23,8,35.83213043478261,10.732394743800606,31.503999999999998
+independent (mvam_hdx),fcs_poor_borderline,FEWS NET forecast,2,71,11,24.76070422535211,12.515225392233672,24.057000000000002
+independent (mvam_hdx),fcs_poor_borderline,FEWS NET forecast,3,645,27,47.31001395348838,14.322595039244463,47.509
+independent (mvam_hdx),fcs_poor_borderline,FEWS NET forecast,4+,236,12,48.02654025423728,13.095268207203144,49.726
+independent (mvam_hdx),fcs_poor_borderline,IPC/CH phase,1,20,9,41.83945,11.267929167962077,40.89
+independent (mvam_hdx),fcs_poor_borderline,IPC/CH phase,2,27,10,43.21966666666667,17.180949590932215,40.172000000000004
+independent (mvam_hdx),fcs_poor_borderline,IPC/CH phase,3,118,14,44.93278389830508,19.84372713393703,41.24025
+independent (mvam_hdx),fcs_poor_borderline,IPC/CH phase,4+,13,2,88.20384615384616,6.605830566579721,89.773
+independent (mvam_hdx),hdds_mean,FEWS NET current,1,46,9,7.3293341304347805,0.6485133977869904,7.2483249999999995
+independent (mvam_hdx),hdds_mean,FEWS NET current,2,4,2,7.19088,0.2376954444942797,7.148625
+independent (mvam_hdx),hdds_mean,FEWS NET current,3,26,16,5.964537307692309,0.3393822170068159,5.8746100000000006
+independent (mvam_hdx),hdds_mean,FEWS NET current,4+,8,7,6.08458,0.3790962105926598,6.20096
+independent (mvam_hdx),hdds_mean,"FEWS NET current, sub-national maps",1,46,9,7.3293341304347805,0.6485133977869904,7.2483249999999995
+independent (mvam_hdx),hdds_mean,"FEWS NET current, sub-national maps",2,4,2,7.19088,0.2376954444942797,7.148625
+independent (mvam_hdx),hdds_mean,"FEWS NET current, sub-national maps",3,26,16,5.964537307692309,0.3393822170068159,5.8746100000000006
+independent (mvam_hdx),hdds_mean,"FEWS NET current, sub-national maps",4+,8,7,6.08458,0.3790962105926598,6.20096
+independent (mvam_hdx),hdds_mean,FEWS NET forecast,1,42,7,7.358289285714285,0.6662763760482322,7.300795
+independent (mvam_hdx),hdds_mean,FEWS NET forecast,2,5,5,7.146748,0.21131298758003486,7.25
+independent (mvam_hdx),hdds_mean,FEWS NET forecast,3,10,10,5.961229999999999,0.4054744682467689,5.790285
+independent (mvam_hdx),hdds_mean,FEWS NET forecast,4+,8,8,6.15200375,0.3501311300452812,6.146095
+independent (mvam_hdx),hdds_mean,IPC/CH phase,1,3,2,6.947633333333333,0.2692312337626031,6.85903
+independent (mvam_hdx),hdds_mean,IPC/CH phase,2,1,1,6.52822,,6.52822
+independent (mvam_hdx),hdds_mean,IPC/CH phase,3,2,2,6.996095,0.4898482226669803,6.996095
+independent (mvam_hdx),rcsi_mean,FEWS NET current,1,302,57,15.44185157284768,5.830278858297963,14.856670000000001
+independent (mvam_hdx),rcsi_mean,FEWS NET current,2,260,61,14.458420961538463,5.830191405677629,14.13497
+independent (mvam_hdx),rcsi_mean,FEWS NET current,3,911,60,20.09650675082327,4.643256824412965,20.66429
+independent (mvam_hdx),rcsi_mean,FEWS NET current,4+,110,21,18.288219863636368,4.822083156817645,18.807344999999998
+independent (mvam_hdx),rcsi_mean,"FEWS NET current, sub-national maps",1,302,57,15.44185157284768,5.830278858297963,14.856670000000001
+independent (mvam_hdx),rcsi_mean,"FEWS NET current, sub-national maps",2,260,61,14.458420961538463,5.830191405677629,14.13497
+independent (mvam_hdx),rcsi_mean,"FEWS NET current, sub-national maps",3,911,60,20.09650675082327,4.643256824412965,20.66429
+independent (mvam_hdx),rcsi_mean,"FEWS NET current, sub-national maps",4+,110,21,18.288219863636368,4.822083156817645,18.807344999999998
+independent (mvam_hdx),rcsi_mean,FEWS NET forecast,1,187,54,15.916835802139039,7.326364340354601,17.85405
+independent (mvam_hdx),rcsi_mean,FEWS NET forecast,2,220,63,13.691886545454544,6.221029113664186,13.56549
+independent (mvam_hdx),rcsi_mean,FEWS NET forecast,3,760,66,20.001696486842103,4.505504944535279,20.71208
+independent (mvam_hdx),rcsi_mean,FEWS NET forecast,4+,252,24,18.98610910714286,4.043136638796515,19.296765
+independent (mvam_hdx),rcsi_mean,IPC/CH phase,1,48,22,13.399181875000002,2.838504346109885,13.34487
+independent (mvam_hdx),rcsi_mean,IPC/CH phase,2,101,54,10.287973960396037,4.7546588186642955,9.67568
+independent (mvam_hdx),rcsi_mean,IPC/CH phase,3,185,54,15.204247324324324,6.250197746437752,15.6421
+independent (mvam_hdx),rcsi_mean,IPC/CH phase,4+,22,10,19.420174545454547,7.878570327056703,23.374229999999997
+independent (wfp_lit),fcs_poor_borderline,FEWS NET current,1,350,169,26.962054,12.889724069865741,25.5726
+independent (wfp_lit),fcs_poor_borderline,FEWS NET current,2,258,100,35.918405038759694,17.636348911913064,33.8435
+independent (wfp_lit),fcs_poor_borderline,FEWS NET current,3,553,52,48.78703707052441,13.784275880544477,49.723800000000004
+independent (wfp_lit),fcs_poor_borderline,FEWS NET current,4+,73,11,46.96701369863014,11.859592196875854,46.391799999999996
+independent (wfp_lit),fcs_poor_borderline,"FEWS NET current, sub-national maps",1,350,169,26.962054,12.889724069865741,25.5726
+independent (wfp_lit),fcs_poor_borderline,"FEWS NET current, sub-national maps",2,258,100,35.918405038759694,17.636348911913064,33.8435
+independent (wfp_lit),fcs_poor_borderline,"FEWS NET current, sub-national maps",3,553,52,48.78703707052441,13.784275880544477,49.723800000000004
+independent (wfp_lit),fcs_poor_borderline,"FEWS NET current, sub-national maps",4+,73,11,46.96701369863014,11.859592196875854,46.391799999999996
+independent (wfp_lit),fcs_poor_borderline,FEWS NET forecast,1,302,151,26.686908278145694,14.513976303321789,24.571399999999997
+independent (wfp_lit),fcs_poor_borderline,FEWS NET forecast,2,186,91,38.30613010752688,19.60605118559221,36.6485
+independent (wfp_lit),fcs_poor_borderline,FEWS NET forecast,3,454,54,46.76930132158589,13.324392137246127,47.926950000000005
+independent (wfp_lit),fcs_poor_borderline,FEWS NET forecast,4+,199,21,46.96994371859297,12.76500519084387,46.4968
+independent (wfp_lit),fcs_poor_borderline,IPC/CH phase,1,228,133,27.507694298245614,13.709017216175765,26.9388
+independent (wfp_lit),fcs_poor_borderline,IPC/CH phase,2,211,150,35.23416303317535,16.6141085235714,33.1
+independent (wfp_lit),fcs_poor_borderline,IPC/CH phase,3,98,78,47.75415408163265,20.573657824064348,46.75
+independent (wfp_lit),fcs_poor_borderline,IPC/CH phase,4+,13,13,73.69145384615385,28.305460653573995,82.6
+independent (wfp_lit),rcsi_19plus,FEWS NET current,1,385,78,37.81361090909091,23.97220613395085,41.0884
+independent (wfp_lit),rcsi_19plus,FEWS NET current,2,218,31,47.86520779816513,15.966524341308535,50.3286
+independent (wfp_lit),rcsi_19plus,FEWS NET current,3,572,35,52.87588199300699,12.14680318869008,55.252900000000004
+independent (wfp_lit),rcsi_19plus,FEWS NET current,4+,71,9,46.54856901408451,10.928847141887402,45.8904
+independent (wfp_lit),rcsi_19plus,"FEWS NET current, sub-national maps",1,385,78,37.81361090909091,23.97220613395085,41.0884
+independent (wfp_lit),rcsi_19plus,"FEWS NET current, sub-national maps",2,218,31,47.86520779816513,15.966524341308535,50.3286
+independent (wfp_lit),rcsi_19plus,"FEWS NET current, sub-national maps",3,572,35,52.87588199300699,12.14680318869008,55.252900000000004
+independent (wfp_lit),rcsi_19plus,"FEWS NET current, sub-national maps",4+,71,9,46.54856901408451,10.928847141887402,45.8904
+independent (wfp_lit),rcsi_19plus,FEWS NET forecast,1,294,75,37.912750680272104,26.69952835668199,42.8305
+independent (wfp_lit),rcsi_19plus,FEWS NET forecast,2,149,35,39.880760402684565,17.220042095808832,33.3333
+independent (wfp_lit),rcsi_19plus,FEWS NET forecast,3,551,40,53.2227278584392,11.589528851040091,55.454499999999996
+independent (wfp_lit),rcsi_19plus,FEWS NET forecast,4+,194,16,47.611640463917524,11.395863121785274,47.03385
+independent (wfp_lit),rcsi_19plus,IPC/CH phase,1,119,43,16.649097899159663,16.719311266697815,9.0
+independent (wfp_lit),rcsi_19plus,IPC/CH phase,2,82,50,21.43051585365853,13.898458265386267,19.23
+independent (wfp_lit),rcsi_19plus,IPC/CH phase,3,28,13,23.97592857142857,11.546623885501232,23.6
+independent (wfp_lit),rcsi_19plus,IPC/CH phase,4+,1,1,70.0,,70.0
+independent (wfp_rt),fcs_poor_borderline,FEWS NET current,1,3276,149,29.363752396026328,18.784430693741488,23.63934338477349
+independent (wfp_rt),fcs_poor_borderline,FEWS NET current,2,3864,228,34.85344726770877,21.96652530303156,30.143173709992436
+independent (wfp_rt),fcs_poor_borderline,FEWS NET current,3,3395,175,43.8909796945575,23.272179804363898,41.8434819867534
+independent (wfp_rt),fcs_poor_borderline,FEWS NET current,4+,164,20,57.413544952957196,26.894214742275498,55.707908199679466
+independent (wfp_rt),fcs_poor_borderline,"FEWS NET current, sub-national maps",1,3276,149,29.363752396026328,18.784430693741488,23.63934338477349
+independent (wfp_rt),fcs_poor_borderline,"FEWS NET current, sub-national maps",2,3526,183,36.121731001528325,22.09216225214008,31.193184493836895
+independent (wfp_rt),fcs_poor_borderline,"FEWS NET current, sub-national maps",3,2824,114,48.21842149548489,22.45344743610701,45.94520402723744
+independent (wfp_rt),fcs_poor_borderline,"FEWS NET current, sub-national maps",4+,156,19,58.9590621794284,26.64966329141668,58.3514334770941
+independent (wfp_rt),fcs_poor_borderline,FEWS NET forecast,1,3304,151,28.48667050601561,17.811320452398714,23.328698011623906
+independent (wfp_rt),fcs_poor_borderline,FEWS NET forecast,2,3848,209,32.65820815657249,23.063639181791164,28.111714701498702
+independent (wfp_rt),fcs_poor_borderline,FEWS NET forecast,3,2912,140,46.40905053986179,23.686416255603607,44.985227092619866
+independent (wfp_rt),fcs_poor_borderline,FEWS NET forecast,4+,257,35,55.9022063618732,25.640926816326154,54.09188744329637
+independent (wfp_rt),fcs_poor_borderline,IPC/CH phase,1,1315,91,38.60682874149842,19.118960871177663,37.258225250244145
+independent (wfp_rt),fcs_poor_borderline,IPC/CH phase,2,2992,214,37.7597309770555,22.399959271821736,32.86413205464681
+independent (wfp_rt),fcs_poor_borderline,IPC/CH phase,3,2592,167,47.87158799498737,24.65965894268744,44.90239858187836
+independent (wfp_rt),fcs_poor_borderline,IPC/CH phase,4+,201,19,45.69603347821602,20.42415945557317,42.28370412190755
+independent (wfp_rt),rcsi_19plus,FEWS NET current,1,3276,149,28.67892006217612,10.40582558962656,29.24541835784912
+independent (wfp_rt),rcsi_19plus,FEWS NET current,2,3864,228,31.304468060435156,14.521671199279307,29.493041006724035
+independent (wfp_rt),rcsi_19plus,FEWS NET current,3,3395,175,42.51595063147965,15.34135519444225,44.6666279454385
+independent (wfp_rt),rcsi_19plus,FEWS NET current,4+,164,20,36.62704892691194,20.443545092620386,36.82076337260584
+independent (wfp_rt),rcsi_19plus,"FEWS NET current, sub-national maps",1,3276,149,28.67892006217612,10.40582558962656,29.24541835784912
+independent (wfp_rt),rcsi_19plus,"FEWS NET current, sub-national maps",2,3526,183,32.94792089103725,13.660413480233528,31.209484684851862
+independent (wfp_rt),rcsi_19plus,"FEWS NET current, sub-national maps",3,2824,114,44.54528525476389,15.389665561792167,47.558927299862816
+independent (wfp_rt),rcsi_19plus,"FEWS NET current, sub-national maps",4+,156,19,37.96576568808925,20.062029977609946,38.13895882124541
+independent (wfp_rt),rcsi_19plus,FEWS NET forecast,1,3304,151,28.69810948381265,10.438937343018013,29.11559942790439
+independent (wfp_rt),rcsi_19plus,FEWS NET forecast,2,3848,209,32.36686424611215,14.28994826705166,30.640898554006476
+independent (wfp_rt),rcsi_19plus,FEWS NET forecast,3,2912,140,42.42507579394832,15.804324186352833,45.155301094055176
+independent (wfp_rt),rcsi_19plus,FEWS NET forecast,4+,257,35,40.05536418554258,19.36995753478852,44.15335515340169
+independent (wfp_rt),rcsi_19plus,IPC/CH phase,1,1315,91,23.317403171894565,11.568237007744976,21.200209648378422
+independent (wfp_rt),rcsi_19plus,IPC/CH phase,2,2992,214,27.340889527059396,13.795207796208851,26.75164144474973
+independent (wfp_rt),rcsi_19plus,IPC/CH phase,3,2592,167,36.50618712977014,15.187222860495881,37.917261044697085
+independent (wfp_rt),rcsi_19plus,IPC/CH phase,4+,201,19,47.10094958865936,17.01336444210455,45.79705896685201

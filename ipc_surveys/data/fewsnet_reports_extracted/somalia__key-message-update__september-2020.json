@@ -1,0 +1,130 @@
+{
+ "name": "somalia__key-message-update__september-2020",
+ "period_covered": "through December 2020 / August 2021",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": true,
+  "worst_case_text": "Below-average Deyr could trigger drought and worsening if the 2021 Gu rains are also delayed or poor.",
+  "aid_assumption": "assumed_reduced",
+  "aid_assumption_text": "Projections do not factor in food assistance; planned and funded assistance through December not available. Assistance reached 1.85 million/month April-August.",
+  "people_in_need_crisis_plus": 2100000,
+  "headline_direction": "deteriorate",
+  "aid_assumption_changes": null,
+  "people_stressed": 3000000,
+  "upside_scenario_text": null,
+  "rain_forecast": "below",
+  "season_status_text": "2020 Gu erratic with floods; Deyr forecast below average to average"
+ },
+ "areas": [
+  {
+   "location": "Guban, East Golis, Togdheer Agropastoral, Coastal Deeh, Bay Bakool Low Potential, riverine Hiiraan/Middle Shabelle/Juba",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": 3,
+   "projected_period": "October-December 2020",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "flood",
+    "harvest_poor",
+    "livestock",
+    "other"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "IDP settlements",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": "IDPs",
+   "current_phase": null,
+   "projected_phase": 3,
+   "projected_period": "October-December 2020",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "deteriorate",
+   "nutrition_class": "Critical in several IDP groups",
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "East Golis Pastoral; Hiran rural; Shabelle Riverine; Juba Riverine",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": "Critical GAM (area of concern)",
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "Somalia (37 surveys, national median)",
+   "admin1": null,
+   "admin2": null,
+   "population_group": null,
+   "survey_type": "SMART",
+   "fieldwork": "July-August 2020",
+   "gam_pct": 11.8,
+   "sam_pct": null,
+   "gam_muac_pct": null,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "849,900 children acutely malnourished expected; 143,400 severe",
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "smart_nutrition",
+  "joint_assessment_ipc",
+  "humanitarian_distribution_data",
+  "crop_assessment"
+ ],
+ "data_gaps": [
+  {
+   "location": "national",
+   "admin1": null,
+   "what": "assistance",
+   "text": "Information on planned and funded food and cash assistance through December 2020 not available at time of analysis."
+  }
+ ],
+ "remote_monitoring": false
+}

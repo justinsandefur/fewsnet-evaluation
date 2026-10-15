@@ -1,0 +1,197 @@
+{
+ "name": "ethiopia__food-security-outlook-update__september-2011",
+ "period_covered": "September - December 2011",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": true,
+  "worst_case_text": "If developing La Nina brings poor Oct-Dec rains, Emergency levels of food insecurity would continue in the south/southeast.",
+  "aid_assumption": "not_stated",
+  "aid_assumption_text": null,
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "improve",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": "Near-average Oct-Dec forecast expected to improve conditions in focus areas.",
+  "rain_forecast": "average",
+  "season_status_text": "Kiremt poor June to mid-July then improved; Oct-Dec rains forecast near average (La Nina risk)."
+ },
+ "areas": [
+  {
+   "location": "Southern Somali, Borena, Guji and Bale lowlands",
+   "admin1": "Somali; Oromia",
+   "admin2": "Borena; Guji; Bale",
+   "livelihood_zone": null,
+   "population_group": "pastoralists",
+   "current_phase": 4,
+   "projected_phase": null,
+   "projected_period": "October-December 2011",
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": 4,
+   "direction": "improve",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "rain_deficit",
+    "livestock",
+    "prices_high",
+    "access_constraint"
+   ],
+   "aid_status": "present",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Dolo Odo refugee camps, Liben",
+   "admin1": "Somali",
+   "admin2": "Liben",
+   "livelihood_zone": null,
+   "population_group": "refugees",
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "improve",
+   "nutrition_class": "GAM 24-49 percent by MUAC across camps",
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": 124000,
+   "drivers": [
+    "displacement",
+    "disease_outbreak"
+   ],
+   "aid_status": "present",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Western surplus-producing areas (East Wellega, South Shewa, western Tigray, northwestern Amhara)",
+   "admin1": "Oromia; Tigray; Amhara",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "stable",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_good",
+    "rain_deficit"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [
+  {
+   "location": "Hiloweyn camp, Dolo Odo",
+   "admin1": "Somali",
+   "admin2": "Liben",
+   "population_group": "refugees",
+   "survey_type": "MUAC_screening",
+   "fieldwork": "early September 2011",
+   "gam_pct": null,
+   "sam_pct": 19,
+   "gam_muac_pct": 49,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "SAM range 7-19 percent across camps; highest in Hiloweyn and Kobe",
+   "planned_not_done": false
+  },
+  {
+   "location": "Kobe camp, Dolo Odo",
+   "admin1": "Somali",
+   "admin2": "Liben",
+   "population_group": "refugees",
+   "survey_type": "MUAC_screening",
+   "fieldwork": "early September 2011",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": 37,
+   "cdr": 2.1,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": "CDR fell to 2.1/10,000/day mid-September from 4-5 two weeks earlier",
+   "planned_not_done": false
+  },
+  {
+   "location": "Melkedida camp, Dolo Odo",
+   "admin1": "Somali",
+   "admin2": "Liben",
+   "population_group": "refugees",
+   "survey_type": "MUAC_screening",
+   "fieldwork": "early September 2011",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": 33,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": null,
+   "planned_not_done": false
+  },
+  {
+   "location": "Bokolomayo camp, Dolo Odo",
+   "admin1": "Somali",
+   "admin2": "Liben",
+   "population_group": "refugees",
+   "survey_type": "MUAC_screening",
+   "fieldwork": "early September 2011",
+   "gam_pct": null,
+   "sam_pct": null,
+   "gam_muac_pct": 24,
+   "cdr": null,
+   "u5dr": null,
+   "fcs_poor_pct": null,
+   "other": null,
+   "planned_not_done": false
+  }
+ ],
+ "data_sources_cited": [
+  "field_visit",
+  "key_informants",
+  "humanitarian_distribution_data",
+  "market_prices_other",
+  "remote_sensing_rain"
+ ],
+ "data_gaps": [
+  {
+   "location": "national",
+   "admin1": null,
+   "what": "nutrition",
+   "text": "Data on malnutrition prevalence and health in drought-affected southern and southeastern areas missing."
+  },
+  {
+   "location": "national",
+   "admin1": null,
+   "what": "prices",
+   "text": "Unskilled wage prices and market functioning data missing."
+  },
+  {
+   "location": "Somali Region",
+   "admin1": "Somali",
+   "what": "general",
+   "text": "Household livestock holdings, animal mortality and remittance flows information lacking."
+  }
+ ],
+ "remote_monitoring": false
+}

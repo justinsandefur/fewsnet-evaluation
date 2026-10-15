@@ -1,0 +1,2306 @@
+{
+ "independent, all WFP sources": {
+  "fcs_mean": {
+   "FEWS NET current": {
+    "n": 1179,
+    "areas": 93,
+    "countries": 5,
+    "corr": -0.28233346484540384,
+    "spearman": -0.2563496309645788,
+    "corr_within_country": -0.33430127095232726,
+    "corr_within_area": 0.024489349289966877,
+    "sign_if_tracking": -1,
+    "by_country": {
+     "COD": {
+      "n": 30,
+      "areas": 2,
+      "corr": 0.31301891006060906
+     },
+     "MWI": {
+      "n": 39,
+      "areas": 10,
+      "corr": -0.10687828073772182
+     },
+     "NGA": {
+      "n": 151,
+      "areas": 56,
+      "corr": -0.5011144023077487
+     },
+     "YEM": {
+      "n": 944,
+      "areas": 20,
+      "corr": -0.3389838181506443
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1179,
+    "areas": 93,
+    "countries": 5,
+    "corr": -0.28233346484540384,
+    "spearman": -0.2563496309645788,
+    "corr_within_country": -0.33430127095232726,
+    "corr_within_area": 0.024489349289966877,
+    "sign_if_tracking": -1
+   },
+   "FEWS NET forecast": {
+    "n": 1126,
+    "areas": 93,
+    "countries": 5,
+    "corr": -0.27283927681595543,
+    "spearman": -0.23969523145636135,
+    "corr_within_country": -0.34346068977965144,
+    "corr_within_area": -0.08175103216135421,
+    "sign_if_tracking": -1
+   },
+   "IPC/CH phase": {
+    "n": 355,
+    "areas": 96,
+    "countries": 7,
+    "corr": -0.3486698632964153,
+    "spearman": -0.3203965900752419,
+    "corr_within_country": -0.2560695196506892,
+    "corr_within_area": 0.02608224730697005,
+    "sign_if_tracking": -1
+   },
+   "IPC/CH share 3+": {
+    "n": 355,
+    "corr": -0.23809906244509624,
+    "corr_within_country": -0.3128279926142781
+   },
+   "same_sample": {
+    "n": 301,
+    "corr_fews": -0.32129923953487605,
+    "corr_ipc": -0.31521093780887005,
+    "corr_fews_ipc": 0.622048293523629,
+    "within_country_fews": -0.46233908270318363,
+    "within_country_ipc": -0.24016033394835404
+   }
+  },
+  "fcs_poor": {
+   "FEWS NET current": {
+    "n": 1179,
+    "areas": 94,
+    "countries": 5,
+    "corr": 0.22475906873924872,
+    "spearman": 0.2784146824636503,
+    "corr_within_country": 0.22086875360086627,
+    "corr_within_area": 0.05602555080812837,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "COD": {
+      "n": 30,
+      "areas": 2,
+      "corr": -0.3143392884578421
+     },
+     "MWI": {
+      "n": 39,
+      "areas": 10,
+      "corr": 0.1431967112207745
+     },
+     "NGA": {
+      "n": 151,
+      "areas": 57,
+      "corr": 0.4581459607460796
+     },
+     "YEM": {
+      "n": 944,
+      "areas": 20,
+      "corr": 0.22149170105707652
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1179,
+    "areas": 94,
+    "countries": 5,
+    "corr": 0.22475906873924872,
+    "spearman": 0.2784146824636503,
+    "corr_within_country": 0.22086875360086627,
+    "corr_within_area": 0.05602555080812837,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1126,
+    "areas": 94,
+    "countries": 5,
+    "corr": 0.23218946107728028,
+    "spearman": 0.26248066487540733,
+    "corr_within_country": 0.21566084839890398,
+    "corr_within_area": 0.10966771555463145,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 355,
+    "areas": 97,
+    "countries": 7,
+    "corr": 0.34297026521262547,
+    "spearman": 0.31704654616749794,
+    "corr_within_country": 0.18984450331689923,
+    "corr_within_area": 0.01857624880108996,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 355,
+    "corr": 0.2378383837497201,
+    "corr_within_country": 0.13390865717059655
+   },
+   "same_sample": {
+    "n": 301,
+    "corr_fews": 0.2066303567635017,
+    "corr_ipc": 0.3288555835975873,
+    "corr_fews_ipc": 0.6220482935236289,
+    "within_country_fews": 0.3605305993886274,
+    "within_country_ipc": 0.16656532822668574
+   }
+  },
+  "fcs_poor_borderline": {
+   "FEWS NET current": {
+    "n": 12331,
+    "areas": 474,
+    "countries": 29,
+    "corr": 0.3187867791055605,
+    "spearman": 0.3342681515968856,
+    "corr_within_country": 0.2610469077709442,
+    "corr_within_area": 0.2037082265323943,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "AFG": {
+      "n": 34,
+      "areas": 34,
+      "corr": 0.3916435905279197
+     },
+     "AGO": {
+      "n": 221,
+      "areas": 17,
+      "corr": 0.05737031742953404
+     },
+     "BFA": {
+      "n": 455,
+      "areas": 13,
+      "corr": 0.5533911703272962
+     },
+     "CMR": {
+      "n": 270,
+      "areas": 10,
+      "corr": 0.7476225202895628
+     },
+     "COD": {
+      "n": 630,
+      "areas": 28,
+      "corr": 0.03370338099981154
+     },
+     "ETH": {
+      "n": 244,
+      "areas": 11,
+      "corr": 0.6326634151763816
+     },
+     "GTM": {
+      "n": 770,
+      "areas": 22,
+      "corr": 0.18468310554698525
+     },
+     "HND": {
+      "n": 272,
+      "areas": 16,
+      "corr": -0.013865543436115926
+     },
+     "HTI": {
+      "n": 320,
+      "areas": 10,
+      "corr": 0.49041137471578333
+     },
+     "KEN": {
+      "n": 1785,
+      "areas": 47,
+      "corr": 0.24620359182503532
+     },
+     "MDG": {
+      "n": 228,
+      "areas": 6,
+      "corr": 0.5235427198307288
+     },
+     "MLI": {
+      "n": 389,
+      "areas": 9,
+      "corr": 0.45744959131382246
+     },
+     "MOZ": {
+      "n": 286,
+      "areas": 11,
+      "corr": 0.27281087013905814
+     },
+     "MRT": {
+      "n": 233,
+      "areas": 13,
+      "corr": 0.4251319481207824
+     },
+     "MWI": {
+      "n": 1264,
+      "areas": 38,
+      "corr": 0.2655898699386568
+     },
+     "NER": {
+      "n": 328,
+      "areas": 8,
+      "corr": 0.19476609990075638
+     },
+     "NGA": {
+      "n": 869,
+      "areas": 28,
+      "corr": 0.1684357044806218
+     },
+     "SOM": {
+      "n": 756,
+      "areas": 18,
+      "corr": 0.4536740942789788
+     },
+     "TCD": {
+      "n": 26,
+      "areas": 23,
+      "corr": -0.2745251482539397
+     },
+     "UGA": {
+      "n": 33,
+      "areas": 4,
+      "corr": 0.17704351454390568
+     },
+     "YEM": {
+      "n": 2315,
+      "areas": 41,
+      "corr": 0.2674246358242807
+     },
+     "ZWE": {
+      "n": 400,
+      "areas": 10,
+      "corr": 0.1565202372852938
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 11414,
+    "areas": 424,
+    "countries": 25,
+    "corr": 0.38173980483242653,
+    "spearman": 0.4091934863137749,
+    "corr_within_country": 0.28929379497021557,
+    "corr_within_area": 0.20843188048461964,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 11835,
+    "areas": 409,
+    "countries": 28,
+    "corr": 0.35373538156822626,
+    "spearman": 0.3736590199664742,
+    "corr_within_country": 0.2732685252899346,
+    "corr_within_area": 0.17574096440707146,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 7759,
+    "areas": 550,
+    "countries": 45,
+    "corr": 0.21364339452269906,
+    "spearman": 0.20214377225785962,
+    "corr_within_country": 0.2769457787751267,
+    "corr_within_area": 0.23106211310070593,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 7750,
+    "corr": 0.21405019819479032,
+    "corr_within_country": 0.2534934177030219
+   },
+   "same_sample": {
+    "n": 5819,
+    "corr_fews": 0.29866814376478923,
+    "corr_ipc": 0.19899761192116622,
+    "corr_fews_ipc": 0.6575192563410043,
+    "within_country_fews": 0.3011864332693919,
+    "within_country_ipc": 0.2929527041581357
+   }
+  },
+  "hdds_mean": {
+   "FEWS NET current": {
+    "n": 84,
+    "areas": 28,
+    "countries": 3,
+    "corr": -0.7469860742028637,
+    "spearman": -0.7742703854020803,
+    "corr_within_country": -0.29433868412291603,
+    "corr_within_area": -0.154120217311247,
+    "sign_if_tracking": -1,
+    "by_country": {
+     "YEM": {
+      "n": 38,
+      "areas": 19,
+      "corr": -0.4670755486790189
+     },
+     "ZMB": {
+      "n": 40,
+      "areas": 5,
+      "corr": -0.25751282636162953
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 84,
+    "areas": 28,
+    "countries": 3,
+    "corr": -0.7469860742028637,
+    "spearman": -0.7742703854020803,
+    "corr_within_country": -0.29433868412291603,
+    "corr_within_area": -0.154120217311247,
+    "sign_if_tracking": -1
+   },
+   "FEWS NET forecast": {
+    "n": 65,
+    "areas": 28,
+    "countries": 3,
+    "corr": -0.669646905313197,
+    "spearman": -0.6569937152700153,
+    "corr_within_country": -0.07914750688576917,
+    "corr_within_area": 0.0710532076889065,
+    "sign_if_tracking": -1
+   },
+   "IPC/CH phase": {
+    "n": 6,
+    "areas": 4,
+    "countries": 1,
+    "corr": 0.08899418737383581,
+    "spearman": -0.09258200997725516,
+    "corr_within_country": 0.08899418737383591,
+    "corr_within_area": 0.6965378865460512,
+    "sign_if_tracking": -1
+   },
+   "IPC/CH share 3+": {
+    "n": 6,
+    "corr": 0.2545700079832569,
+    "corr_within_country": 0.25457000798325696
+   }
+  },
+  "rcsi_19plus": {
+   "FEWS NET current": {
+    "n": 11945,
+    "areas": 337,
+    "countries": 21,
+    "corr": 0.3737375711843824,
+    "spearman": 0.3836151476007205,
+    "corr_within_country": 0.2712157837248865,
+    "corr_within_area": 0.16392702232926018,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "AGO": {
+      "n": 221,
+      "areas": 17,
+      "corr": 0.0068337168357094375
+     },
+     "BFA": {
+      "n": 455,
+      "areas": 13,
+      "corr": 0.7296099862703781
+     },
+     "CMR": {
+      "n": 270,
+      "areas": 10,
+      "corr": 0.6352829836489113
+     },
+     "COD": {
+      "n": 600,
+      "areas": 26,
+      "corr": -0.1800586763400781
+     },
+     "ETH": {
+      "n": 234,
+      "areas": 9,
+      "corr": 0.6555664241360355
+     },
+     "GTM": {
+      "n": 770,
+      "areas": 22,
+      "corr": 0.43126193612889524
+     },
+     "HND": {
+      "n": 272,
+      "areas": 16,
+      "corr": 0.2688478841944895
+     },
+     "HTI": {
+      "n": 320,
+      "areas": 10,
+      "corr": 0.40534969888179073
+     },
+     "KEN": {
+      "n": 1739,
+      "areas": 47,
+      "corr": 0.3962741486032523
+     },
+     "MDG": {
+      "n": 244,
+      "areas": 6,
+      "corr": 0.7090291107248057
+     },
+     "MLI": {
+      "n": 389,
+      "areas": 9,
+      "corr": 0.44970119432212946
+     },
+     "MOZ": {
+      "n": 286,
+      "areas": 11,
+      "corr": 0.3170701840636506
+     },
+     "MWI": {
+      "n": 1525,
+      "areas": 28,
+      "corr": 0.38441983558109943
+     },
+     "NER": {
+      "n": 324,
+      "areas": 8,
+      "corr": 0.11348265818513663
+     },
+     "NGA": {
+      "n": 861,
+      "areas": 28,
+      "corr": 0.242548712145126
+     },
+     "SOM": {
+      "n": 756,
+      "areas": 18,
+      "corr": -0.1906860135331765
+     },
+     "YEM": {
+      "n": 1993,
+      "areas": 21,
+      "corr": 0.2453301685553645
+     },
+     "ZWE": {
+      "n": 390,
+      "areas": 10,
+      "corr": 0.05281884692610258
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 11028,
+    "areas": 274,
+    "countries": 16,
+    "corr": 0.4232628876053401,
+    "spearman": 0.4319098290972841,
+    "corr_within_country": 0.31957451085194866,
+    "corr_within_area": 0.16744781528751798,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 11509,
+    "areas": 287,
+    "countries": 21,
+    "corr": 0.38476898447273494,
+    "spearman": 0.3919129127093938,
+    "corr_within_country": 0.29599318859912466,
+    "corr_within_area": 0.13795929181521507,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 7330,
+    "areas": 365,
+    "countries": 27,
+    "corr": 0.41472005980839766,
+    "spearman": 0.4056630341401269,
+    "corr_within_country": 0.2487068807336398,
+    "corr_within_area": 0.026376998075648583,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 7321,
+    "corr": 0.4426541979221879,
+    "corr_within_country": 0.24172594309603423
+   },
+   "same_sample": {
+    "n": 5555,
+    "corr_fews": 0.30658369246187095,
+    "corr_ipc": 0.44761232890148095,
+    "corr_fews_ipc": 0.6510201104085693,
+    "within_country_fews": 0.22532406236582841,
+    "within_country_ipc": 0.2690007898923045
+   }
+  },
+  "rcsi_mean": {
+   "FEWS NET current": {
+    "n": 1581,
+    "areas": 130,
+    "countries": 10,
+    "corr": 0.3248315731017002,
+    "spearman": 0.3111310220555537,
+    "corr_within_country": 0.27989692081854406,
+    "corr_within_area": 0.07232956595166025,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "COD": {
+      "n": 30,
+      "areas": 2,
+      "corr": -0.18693116046293815
+     },
+     "MWI": {
+      "n": 209,
+      "areas": 13,
+      "corr": 0.25986669306075194
+     },
+     "NGA": {
+      "n": 144,
+      "areas": 57,
+      "corr": 0.30365997988983484
+     },
+     "SLE": {
+      "n": 64,
+      "areas": 8,
+      "corr": 0.24048823560270746
+     },
+     "YEM": {
+      "n": 944,
+      "areas": 20,
+      "corr": 0.32179543233131214
+     },
+     "ZMB": {
+      "n": 45,
+      "areas": 5,
+      "corr": 0.6158683027166769
+     },
+     "ZWE": {
+      "n": 78,
+      "areas": 10,
+      "corr": 0.2955390775250283
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1581,
+    "areas": 130,
+    "countries": 10,
+    "corr": 0.3248315731017002,
+    "spearman": 0.3111310220555537,
+    "corr_within_country": 0.27989692081854406,
+    "corr_within_area": 0.07232956595166025,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1417,
+    "areas": 130,
+    "countries": 10,
+    "corr": 0.29849337327687253,
+    "spearman": 0.24085083848861927,
+    "corr_within_country": 0.14501212194475208,
+    "corr_within_area": -0.04356525074043273,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 354,
+    "areas": 101,
+    "countries": 8,
+    "corr": 0.2915685936513301,
+    "spearman": 0.2974063471325237,
+    "corr_within_country": 0.14926532262883896,
+    "corr_within_area": -0.06594687459936982,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 354,
+    "corr": 0.48222080911085713,
+    "corr_within_country": 0.2772044629064772
+   },
+   "same_sample": {
+    "n": 300,
+    "corr_fews": 0.2918595027682256,
+    "corr_ipc": 0.3867333696500007,
+    "corr_fews_ipc": 0.6235256915805523,
+    "within_country_fews": 0.3032517261316324,
+    "within_country_ipc": 0.11293462143249888
+   }
+  }
+ },
+ "ch_hdx (IPC input)": {
+  "fcs_poor": {
+   "FEWS NET current": {
+    "n": 1726,
+    "areas": 685,
+    "countries": 6,
+    "corr": -0.034300626954883284,
+    "spearman": -0.06336747802597402,
+    "corr_within_country": 0.001938273750069829,
+    "corr_within_area": -0.18192405779698984,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "BFA": {
+      "n": 89,
+      "areas": 45,
+      "corr": 0.4422531194217962
+     },
+     "CMR": {
+      "n": 232,
+      "areas": 58,
+      "corr": 0.19194622517954363
+     },
+     "MLI": {
+      "n": 127,
+      "areas": 50,
+      "corr": 0.21586929140255784
+     },
+     "NER": {
+      "n": 218,
+      "areas": 67,
+      "corr": 0.356385737095317
+     },
+     "NGA": {
+      "n": 785,
+      "areas": 396,
+      "corr": -0.24090432052592928
+     },
+     "TCD": {
+      "n": 275,
+      "areas": 69,
+      "corr": 0.08882480804135556
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1725,
+    "areas": 684,
+    "countries": 6,
+    "corr": -0.033556331168689384,
+    "spearman": -0.06221393431084585,
+    "corr_within_country": 0.0029846381866409093,
+    "corr_within_area": -0.18192405779698984,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1733,
+    "areas": 689,
+    "countries": 7,
+    "corr": -0.014361246907346926,
+    "spearman": -0.039805712676357116,
+    "corr_within_country": 0.004831211304878223,
+    "corr_within_area": -0.1875386171575171,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 2805,
+    "areas": 1175,
+    "countries": 18,
+    "corr": 0.2261921693349414,
+    "spearman": 0.35333539808833625,
+    "corr_within_country": 0.15819218916600394,
+    "corr_within_area": 0.1219107288843165,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 2805,
+    "corr": 0.2557878161202105,
+    "corr_within_country": 0.20006331369429559
+   },
+   "same_sample": {
+    "n": 1726,
+    "corr_fews": -0.034300626954883284,
+    "corr_ipc": 0.18689249708765496,
+    "corr_fews_ipc": 0.4318059326806594,
+    "within_country_fews": 0.001938273750069829,
+    "within_country_ipc": 0.13034766640668988
+   }
+  },
+  "fcs_poor_borderline": {
+   "FEWS NET current": {
+    "n": 1726,
+    "areas": 685,
+    "countries": 6,
+    "corr": 0.11120054935094177,
+    "spearman": 0.1166211600658078,
+    "corr_within_country": 0.11060165167544632,
+    "corr_within_area": -0.11755139556726575,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "BFA": {
+      "n": 89,
+      "areas": 45,
+      "corr": 0.23966114125854265
+     },
+     "CMR": {
+      "n": 232,
+      "areas": 58,
+      "corr": 0.2581857953194095
+     },
+     "MLI": {
+      "n": 127,
+      "areas": 50,
+      "corr": 0.18025686450070327
+     },
+     "NER": {
+      "n": 218,
+      "areas": 67,
+      "corr": 0.15627448950837092
+     },
+     "NGA": {
+      "n": 785,
+      "areas": 396,
+      "corr": 0.023464660115564525
+     },
+     "TCD": {
+      "n": 275,
+      "areas": 69,
+      "corr": 0.1506911141116284
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1725,
+    "areas": 684,
+    "countries": 6,
+    "corr": 0.11287128130686967,
+    "spearman": 0.1182269303013437,
+    "corr_within_country": 0.1122246184641795,
+    "corr_within_area": -0.11755139556726574,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1733,
+    "areas": 689,
+    "countries": 7,
+    "corr": 0.1098949371351443,
+    "spearman": 0.11032596442600076,
+    "corr_within_country": 0.10874045656413911,
+    "corr_within_area": -0.12194684874033603,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 2805,
+    "areas": 1175,
+    "countries": 18,
+    "corr": 0.3310917133523705,
+    "spearman": 0.35660769372280926,
+    "corr_within_country": 0.2867755606651073,
+    "corr_within_area": 0.1364543004080007,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 2805,
+    "corr": 0.3343472200691802,
+    "corr_within_country": 0.28184577244521425
+   },
+   "same_sample": {
+    "n": 1726,
+    "corr_fews": 0.11120054935094177,
+    "corr_ipc": 0.286442323200249,
+    "corr_fews_ipc": 0.4318059326806594,
+    "within_country_fews": 0.11060165167544632,
+    "within_country_ipc": 0.25934015572275165
+   }
+  },
+  "hdds_phase3plus": {
+   "FEWS NET current": {
+    "n": 1297,
+    "areas": 492,
+    "countries": 6,
+    "corr": 0.11948996731612344,
+    "spearman": 0.0805401734847751,
+    "corr_within_country": 0.14248774311937415,
+    "corr_within_area": 0.025908816544420746,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "BFA": {
+      "n": 90,
+      "areas": 45,
+      "corr": 0.4071084770147543
+     },
+     "CMR": {
+      "n": 232,
+      "areas": 58,
+      "corr": 0.043564681071516974
+     },
+     "MLI": {
+      "n": 127,
+      "areas": 50,
+      "corr": 0.15219057466209063
+     },
+     "NER": {
+      "n": 216,
+      "areas": 67,
+      "corr": 0.24976718117216168
+     },
+     "NGA": {
+      "n": 357,
+      "areas": 203,
+      "corr": 0.13821564662815689
+     },
+     "TCD": {
+      "n": 275,
+      "areas": 69,
+      "corr": -0.08351833755344645
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1296,
+    "areas": 491,
+    "countries": 6,
+    "corr": 0.12112240759853468,
+    "spearman": 0.0826745841447329,
+    "corr_within_country": 0.14367291623983747,
+    "corr_within_area": 0.025908816544420746,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1305,
+    "areas": 496,
+    "countries": 7,
+    "corr": 0.11299649895949339,
+    "spearman": 0.06776674625800988,
+    "corr_within_country": 0.15365498912580866,
+    "corr_within_area": -0.00873962750393813,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 2142,
+    "areas": 882,
+    "countries": 16,
+    "corr": 0.22999941466690563,
+    "spearman": 0.3270223245307724,
+    "corr_within_country": 0.2370483761535418,
+    "corr_within_area": 0.15294324252249178,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 2142,
+    "corr": 0.19697913878604176,
+    "corr_within_country": 0.22489164661928057
+   },
+   "same_sample": {
+    "n": 1297,
+    "corr_fews": 0.11948996731612344,
+    "corr_ipc": 0.3276204011160176,
+    "corr_fews_ipc": 0.5055558005687694,
+    "within_country_fews": 0.14248774311937415,
+    "within_country_ipc": 0.2499211671704928
+   }
+  },
+  "hhs_3plus": {
+   "FEWS NET current": {
+    "n": 1064,
+    "areas": 481,
+    "countries": 6,
+    "corr": 0.39683803771425735,
+    "spearman": 0.38776918200910865,
+    "corr_within_country": 0.21484734188148782,
+    "corr_within_area": 0.10579078493405926,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "BFA": {
+      "n": 90,
+      "areas": 45,
+      "corr": 0.6491722056325141
+     },
+     "CMR": {
+      "n": 174,
+      "areas": 58,
+      "corr": 0.31012037930078107
+     },
+     "MLI": {
+      "n": 98,
+      "areas": 50,
+      "corr": 0.23486378105850836
+     },
+     "NER": {
+      "n": 200,
+      "areas": 67,
+      "corr": -0.04504726400452911
+     },
+     "NGA": {
+      "n": 296,
+      "areas": 192,
+      "corr": 0.19441714208841723
+     },
+     "TCD": {
+      "n": 206,
+      "areas": 69,
+      "corr": 0.29075014298372237
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1063,
+    "areas": 480,
+    "countries": 6,
+    "corr": 0.39914573352201926,
+    "spearman": 0.39092475385839137,
+    "corr_within_country": 0.21621937038205782,
+    "corr_within_area": 0.10579078493405926,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1070,
+    "areas": 485,
+    "countries": 7,
+    "corr": 0.2993456255158483,
+    "spearman": 0.28614113749595754,
+    "corr_within_country": 0.17318793937199295,
+    "corr_within_area": 0.011868584488312774,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 1733,
+    "areas": 866,
+    "countries": 15,
+    "corr": 0.339091861113359,
+    "spearman": 0.3867455755907818,
+    "corr_within_country": 0.34894399765372225,
+    "corr_within_area": 0.26561552592438514,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 1733,
+    "corr": 0.3719911768055173,
+    "corr_within_country": 0.38496059042907715
+   },
+   "same_sample": {
+    "n": 1064,
+    "corr_fews": 0.39683803771425735,
+    "corr_ipc": 0.3642001429199062,
+    "corr_fews_ipc": 0.5052336578918487,
+    "within_country_fews": 0.21484734188148782,
+    "within_country_ipc": 0.35268351448593366
+   }
+  },
+  "hhs_4plus": {
+   "FEWS NET current": {
+    "n": 1064,
+    "areas": 481,
+    "countries": 6,
+    "corr": 0.15320466610842004,
+    "spearman": 0.1514517916157268,
+    "corr_within_country": 0.11450905580585993,
+    "corr_within_area": 0.0764117904090114,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "BFA": {
+      "n": 90,
+      "areas": 45,
+      "corr": 0.515769038662403
+     },
+     "CMR": {
+      "n": 174,
+      "areas": 58,
+      "corr": 0.10175366421866991
+     },
+     "MLI": {
+      "n": 98,
+      "areas": 50,
+      "corr": 0.1045257288825457
+     },
+     "NER": {
+      "n": 200,
+      "areas": 67,
+      "corr": 0.08923978998801835
+     },
+     "NGA": {
+      "n": 296,
+      "areas": 192,
+      "corr": -0.011783102339981916
+     },
+     "TCD": {
+      "n": 206,
+      "areas": 69,
+      "corr": 0.07779758104931048
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1063,
+    "areas": 480,
+    "countries": 6,
+    "corr": 0.15393166002961087,
+    "spearman": 0.15259356638260008,
+    "corr_within_country": 0.11552878952841288,
+    "corr_within_area": 0.07641179040901143,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1070,
+    "areas": 485,
+    "countries": 7,
+    "corr": 0.10900870162623633,
+    "spearman": 0.12847700851138474,
+    "corr_within_country": 0.08265354805101793,
+    "corr_within_area": -0.060991199247993656,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 1733,
+    "areas": 866,
+    "countries": 15,
+    "corr": 0.0892510502604183,
+    "spearman": 0.14420075182079534,
+    "corr_within_country": 0.12857962952322824,
+    "corr_within_area": 0.04133196464660562,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 1733,
+    "corr": 0.14808854622765175,
+    "corr_within_country": 0.2126338132266377
+   },
+   "same_sample": {
+    "n": 1064,
+    "corr_fews": 0.15320466610842004,
+    "corr_ipc": 0.1579121554604617,
+    "corr_fews_ipc": 0.5052336578918487,
+    "within_country_fews": 0.11450905580585993,
+    "within_country_ipc": 0.15524974814581083
+   }
+  },
+  "lcs_crisis_plus": {
+   "FEWS NET current": {
+    "n": 1713,
+    "areas": 685,
+    "countries": 6,
+    "corr": 0.18044339485614047,
+    "spearman": 0.23331590145455677,
+    "corr_within_country": 0.02493799983593222,
+    "corr_within_area": -0.16061900963220935,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "BFA": {
+      "n": 90,
+      "areas": 45,
+      "corr": 0.6557454639658529
+     },
+     "CMR": {
+      "n": 232,
+      "areas": 58,
+      "corr": 0.5214773310507356
+     },
+     "MLI": {
+      "n": 127,
+      "areas": 50,
+      "corr": 0.17443361251869408
+     },
+     "NER": {
+      "n": 218,
+      "areas": 67,
+      "corr": 0.051871578301782614
+     },
+     "NGA": {
+      "n": 771,
+      "areas": 396,
+      "corr": -0.20325227525861073
+     },
+     "TCD": {
+      "n": 275,
+      "areas": 69,
+      "corr": 0.0865256010039014
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1712,
+    "areas": 684,
+    "countries": 6,
+    "corr": 0.18210836471362266,
+    "spearman": 0.23522232634452445,
+    "corr_within_country": 0.025998093257687975,
+    "corr_within_area": -0.16061900963220938,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1720,
+    "areas": 689,
+    "countries": 7,
+    "corr": 0.017790438274235508,
+    "spearman": 0.06606544097591856,
+    "corr_within_country": -0.07180984749809924,
+    "corr_within_area": -0.35744947622914974,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 2781,
+    "areas": 1180,
+    "countries": 18,
+    "corr": 0.14825517617339895,
+    "spearman": 0.20628295999482818,
+    "corr_within_country": 0.22824212934855664,
+    "corr_within_area": 0.22534173510070687,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 2781,
+    "corr": 0.2312963068400489,
+    "corr_within_country": 0.26755686967863523
+   },
+   "same_sample": {
+    "n": 1713,
+    "corr_fews": 0.18044339485614047,
+    "corr_ipc": 0.06160746979356718,
+    "corr_fews_ipc": 0.43052820159411004,
+    "within_country_fews": 0.02493799983593222,
+    "within_country_ipc": 0.17253482094486905
+   }
+  },
+  "rcsi_19plus": {
+   "FEWS NET current": {
+    "n": 1724,
+    "areas": 685,
+    "countries": 6,
+    "corr": 0.30294145034093295,
+    "spearman": 0.3263984607998197,
+    "corr_within_country": 0.15041753718666614,
+    "corr_within_area": 0.07704162632180443,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "BFA": {
+      "n": 90,
+      "areas": 45,
+      "corr": 0.6822363504440803
+     },
+     "CMR": {
+      "n": 232,
+      "areas": 58,
+      "corr": 0.34892357502336385
+     },
+     "MLI": {
+      "n": 127,
+      "areas": 50,
+      "corr": 0.15086382778914897
+     },
+     "NER": {
+      "n": 218,
+      "areas": 67,
+      "corr": 0.13312728722393943
+     },
+     "NGA": {
+      "n": 782,
+      "areas": 396,
+      "corr": 0.057256225803214954
+     },
+     "TCD": {
+      "n": 275,
+      "areas": 69,
+      "corr": 0.18433773791842104
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1723,
+    "areas": 684,
+    "countries": 6,
+    "corr": 0.3044402695627916,
+    "spearman": 0.3282548280490252,
+    "corr_within_country": 0.15117650049986078,
+    "corr_within_area": 0.07704162632180442,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1731,
+    "areas": 689,
+    "countries": 7,
+    "corr": 0.12979616086507098,
+    "spearman": 0.1405238626176872,
+    "corr_within_country": 0.05817032289355789,
+    "corr_within_area": -0.11392902637854219,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 2816,
+    "areas": 1179,
+    "countries": 18,
+    "corr": 0.04455886059996414,
+    "spearman": 0.08116215301139536,
+    "corr_within_country": 0.1555815717426448,
+    "corr_within_area": 0.13357189110049203,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 2816,
+    "corr": 0.16630021105250567,
+    "corr_within_country": 0.20679952833869397
+   },
+   "same_sample": {
+    "n": 1724,
+    "corr_fews": 0.30294145034093295,
+    "corr_ipc": -0.042995388566791255,
+    "corr_fews_ipc": 0.4323188180360993,
+    "within_country_fews": 0.15041753718666614,
+    "within_country_ipc": 0.11427315182229776
+   }
+  }
+ },
+ "independent (mvam_hdx)": {
+  "fcs_mean": {
+   "FEWS NET current": {
+    "n": 1182,
+    "areas": 94,
+    "countries": 5,
+    "corr": -0.2796826773179844,
+    "spearman": -0.2523718247395718,
+    "corr_within_country": -0.332318388181725,
+    "corr_within_area": 0.026487953210547754,
+    "sign_if_tracking": -1,
+    "by_country": {
+     "COD": {
+      "n": 30,
+      "areas": 2,
+      "corr": 0.313018910060609
+     },
+     "MWI": {
+      "n": 39,
+      "areas": 10,
+      "corr": -0.10687828073772178
+     },
+     "NGA": {
+      "n": 154,
+      "areas": 57,
+      "corr": -0.488916582936824
+     },
+     "YEM": {
+      "n": 944,
+      "areas": 20,
+      "corr": -0.33898381815064416
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1182,
+    "areas": 94,
+    "countries": 5,
+    "corr": -0.2796826773179844,
+    "spearman": -0.2523718247395718,
+    "corr_within_country": -0.332318388181725,
+    "corr_within_area": 0.026487953210547754,
+    "sign_if_tracking": -1
+   },
+   "FEWS NET forecast": {
+    "n": 1129,
+    "areas": 94,
+    "countries": 5,
+    "corr": -0.2725867860624916,
+    "spearman": -0.2391420136938695,
+    "corr_within_country": -0.344124861522025,
+    "corr_within_area": -0.08171555353566136,
+    "sign_if_tracking": -1
+   },
+   "IPC/CH phase": {
+    "n": 358,
+    "areas": 97,
+    "countries": 7,
+    "corr": -0.34741294965158387,
+    "spearman": -0.3208269089675323,
+    "corr_within_country": -0.25391940035870836,
+    "corr_within_area": 0.03300876745209388,
+    "sign_if_tracking": -1
+   },
+   "IPC/CH share 3+": {
+    "n": 358,
+    "corr": -0.2370567017606086,
+    "corr_within_country": -0.3108377051236556
+   },
+   "same_sample": {
+    "n": 304,
+    "corr_fews": -0.316787426030744,
+    "corr_ipc": -0.31287551725527346,
+    "corr_fews_ipc": 0.6131642125536523,
+    "within_country_fews": -0.45490955454477106,
+    "within_country_ipc": -0.2378940771597625
+   }
+  },
+  "fcs_poor": {
+   "FEWS NET current": {
+    "n": 1182,
+    "areas": 94,
+    "countries": 5,
+    "corr": 0.22585013855356806,
+    "spearman": 0.2800501462884869,
+    "corr_within_country": 0.2213305304893776,
+    "corr_within_area": 0.05867444930659103,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "COD": {
+      "n": 30,
+      "areas": 2,
+      "corr": -0.31433928845784204
+     },
+     "MWI": {
+      "n": 39,
+      "areas": 10,
+      "corr": 0.14319671122077451
+     },
+     "NGA": {
+      "n": 154,
+      "areas": 57,
+      "corr": 0.46061652446238316
+     },
+     "YEM": {
+      "n": 944,
+      "areas": 20,
+      "corr": 0.22149170105707644
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1182,
+    "areas": 94,
+    "countries": 5,
+    "corr": 0.22585013855356806,
+    "spearman": 0.2800501462884869,
+    "corr_within_country": 0.2213305304893776,
+    "corr_within_area": 0.05867444930659103,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1129,
+    "areas": 94,
+    "countries": 5,
+    "corr": 0.23213413800208965,
+    "spearman": 0.26246281944646704,
+    "corr_within_country": 0.21516103183952434,
+    "corr_within_area": 0.10961022915597353,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 358,
+    "areas": 97,
+    "countries": 7,
+    "corr": 0.33805166688035104,
+    "spearman": 0.3109317840566023,
+    "corr_within_country": 0.18021769091927095,
+    "corr_within_area": 0.004283454503981688,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 358,
+    "corr": 0.23473961946365038,
+    "corr_within_country": 0.12625923097049502
+   },
+   "same_sample": {
+    "n": 304,
+    "corr_fews": 0.20794614600619227,
+    "corr_ipc": 0.32289270908221085,
+    "corr_fews_ipc": 0.6131642125536523,
+    "within_country_fews": 0.36244637600463425,
+    "within_country_ipc": 0.15578932835985015
+   }
+  },
+  "fcs_poor_borderline": {
+   "FEWS NET current": {
+    "n": 1028,
+    "areas": 37,
+    "countries": 4,
+    "corr": 0.2415976101297988,
+    "spearman": 0.22028708998050014,
+    "corr_within_country": 0.260222617283717,
+    "corr_within_area": -0.04689128740358276,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "COD": {
+      "n": 30,
+      "areas": 2,
+      "corr": -0.25786211912901463
+     },
+     "MWI": {
+      "n": 39,
+      "areas": 10,
+      "corr": -0.018023744090716
+     },
+     "YEM": {
+      "n": 944,
+      "areas": 20,
+      "corr": 0.27405787446044
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1028,
+    "areas": 37,
+    "countries": 4,
+    "corr": 0.2415976101297988,
+    "spearman": 0.22028708998050014,
+    "corr_within_country": 0.260222617283717,
+    "corr_within_area": -0.04689128740358276,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 975,
+    "areas": 37,
+    "countries": 4,
+    "corr": 0.26388693801916885,
+    "spearman": 0.23169395944573837,
+    "corr_within_country": 0.2829651238823043,
+    "corr_within_area": 0.05059514473485402,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 178,
+    "areas": 31,
+    "countries": 5,
+    "corr": 0.2500684603783655,
+    "spearman": 0.18452008198413467,
+    "corr_within_country": 0.07864247848718077,
+    "corr_within_area": 0.003154053095436048,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 178,
+    "corr": 0.11100272530827912,
+    "corr_within_country": 0.17601613850763914
+   },
+   "same_sample": {
+    "n": 151,
+    "corr_fews": 0.25008397812812394,
+    "corr_ipc": 0.3290219310470653,
+    "corr_fews_ipc": 0.8234722607679277,
+    "within_country_fews": 0.42725284404707786,
+    "within_country_ipc": -0.017505613852305528
+   }
+  },
+  "hdds_mean": {
+   "FEWS NET current": {
+    "n": 84,
+    "areas": 28,
+    "countries": 3,
+    "corr": -0.7469860742028637,
+    "spearman": -0.7742703854020803,
+    "corr_within_country": -0.2943386841229161,
+    "corr_within_area": -0.15412021731124703,
+    "sign_if_tracking": -1,
+    "by_country": {
+     "YEM": {
+      "n": 38,
+      "areas": 19,
+      "corr": -0.46707554867901874
+     },
+     "ZMB": {
+      "n": 40,
+      "areas": 5,
+      "corr": -0.25751282636162953
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 84,
+    "areas": 28,
+    "countries": 3,
+    "corr": -0.7469860742028637,
+    "spearman": -0.7742703854020803,
+    "corr_within_country": -0.2943386841229161,
+    "corr_within_area": -0.15412021731124703,
+    "sign_if_tracking": -1
+   },
+   "FEWS NET forecast": {
+    "n": 65,
+    "areas": 28,
+    "countries": 3,
+    "corr": -0.669646905313197,
+    "spearman": -0.6569937152700153,
+    "corr_within_country": -0.07914750688576917,
+    "corr_within_area": 0.07105320768890645,
+    "sign_if_tracking": -1
+   },
+   "IPC/CH phase": {
+    "n": 6,
+    "areas": 4,
+    "countries": 1,
+    "corr": 0.08899418737383581,
+    "spearman": -0.09258200997725516,
+    "corr_within_country": 0.08899418737383591,
+    "corr_within_area": 0.6965378865460512,
+    "sign_if_tracking": -1
+   },
+   "IPC/CH share 3+": {
+    "n": 6,
+    "corr": 0.2545700079832569,
+    "corr_within_country": 0.25457000798325696
+   }
+  },
+  "rcsi_mean": {
+   "FEWS NET current": {
+    "n": 1583,
+    "areas": 130,
+    "countries": 10,
+    "corr": 0.3254695904797899,
+    "spearman": 0.3123904005100731,
+    "corr_within_country": 0.28008459236961136,
+    "corr_within_area": 0.07050753347604202,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "COD": {
+      "n": 30,
+      "areas": 2,
+      "corr": -0.18693116046293812
+     },
+     "MWI": {
+      "n": 209,
+      "areas": 13,
+      "corr": 0.25986669306075194
+     },
+     "NGA": {
+      "n": 146,
+      "areas": 57,
+      "corr": 0.3058146594899291
+     },
+     "SLE": {
+      "n": 64,
+      "areas": 8,
+      "corr": 0.24048823560270752
+     },
+     "YEM": {
+      "n": 944,
+      "areas": 20,
+      "corr": 0.32179543233131197
+     },
+     "ZMB": {
+      "n": 45,
+      "areas": 5,
+      "corr": 0.6158683027166769
+     },
+     "ZWE": {
+      "n": 78,
+      "areas": 10,
+      "corr": 0.2955390775250283
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1583,
+    "areas": 130,
+    "countries": 10,
+    "corr": 0.3254695904797899,
+    "spearman": 0.3123904005100731,
+    "corr_within_country": 0.28008459236961136,
+    "corr_within_area": 0.07050753347604202,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1419,
+    "areas": 130,
+    "countries": 10,
+    "corr": 0.2969428606960307,
+    "spearman": 0.24008435131062605,
+    "corr_within_country": 0.14453058992311688,
+    "corr_within_area": -0.043548322113884284,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 356,
+    "areas": 101,
+    "countries": 8,
+    "corr": 0.2848076564489779,
+    "spearman": 0.28979023923136976,
+    "corr_within_country": 0.1442570690039116,
+    "corr_within_area": -0.06589091616022831,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 356,
+    "corr": 0.47621697712822963,
+    "corr_within_country": 0.2710981810598224
+   },
+   "same_sample": {
+    "n": 302,
+    "corr_fews": 0.2953159812607679,
+    "corr_ipc": 0.3786873900184295,
+    "corr_fews_ipc": 0.6149362168844997,
+    "within_country_fews": 0.3044826153064061,
+    "within_country_ipc": 0.10762439260645856
+   }
+  }
+ },
+ "independent (wfp_lit)": {
+  "fcs_poor_borderline": {
+   "FEWS NET current": {
+    "n": 1234,
+    "areas": 282,
+    "countries": 18,
+    "corr": 0.5318558213900163,
+    "spearman": 0.5511552702798201,
+    "corr_within_country": 0.2219612947194538,
+    "corr_within_area": 0.03672994507018644,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "AFG": {
+      "n": 34,
+      "areas": 34,
+      "corr": 0.39164359052791964
+     },
+     "GTM": {
+      "n": 22,
+      "areas": 22,
+      "corr": 4.5047811719247105e-17
+     },
+     "KEN": {
+      "n": 46,
+      "areas": 46,
+      "corr": -0.08042272341916534
+     },
+     "MLI": {
+      "n": 74,
+      "areas": 9,
+      "corr": 0.026061260880516416
+     },
+     "MRT": {
+      "n": 89,
+      "areas": 13,
+      "corr": 0.26505060329838154
+     },
+     "MWI": {
+      "n": 163,
+      "areas": 28,
+      "corr": 0.0956267170198175
+     },
+     "NGA": {
+      "n": 64,
+      "areas": 16,
+      "corr": 0.42616554878294177
+     },
+     "TCD": {
+      "n": 26,
+      "areas": 23,
+      "corr": -0.2745251482539397
+     },
+     "UGA": {
+      "n": 33,
+      "areas": 4,
+      "corr": 0.1770435145439058
+     },
+     "YEM": {
+      "n": 607,
+      "areas": 19,
+      "corr": 0.24824201002876536
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1234,
+    "areas": 282,
+    "countries": 18,
+    "corr": 0.5318558213900163,
+    "spearman": 0.5511552702798201,
+    "corr_within_country": 0.2219612947194538,
+    "corr_within_area": 0.03672994507018644,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1141,
+    "areas": 245,
+    "countries": 16,
+    "corr": 0.4740593724662334,
+    "spearman": 0.4787153260426735,
+    "corr_within_country": 0.14104001721050202,
+    "corr_within_area": -0.07371904370793865,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 550,
+    "areas": 330,
+    "countries": 33,
+    "corr": 0.46975377032671267,
+    "spearman": 0.38640530630624315,
+    "corr_within_country": 0.2857066715062443,
+    "corr_within_area": 0.29693492078948563,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 550,
+    "corr": 0.5036580270866704,
+    "corr_within_country": 0.24702543515217307
+   },
+   "same_sample": {
+    "n": 384,
+    "corr_fews": 0.49644932627332566,
+    "corr_ipc": 0.5537246737024579,
+    "corr_fews_ipc": 0.6878560173433443,
+    "within_country_fews": 0.17608987997428477,
+    "within_country_ipc": 0.3098345208799355
+   }
+  },
+  "rcsi_19plus": {
+   "FEWS NET current": {
+    "n": 1246,
+    "areas": 103,
+    "countries": 7,
+    "corr": 0.30573281219227405,
+    "spearman": 0.23377693712082,
+    "corr_within_country": 0.21210233816428045,
+    "corr_within_area": 0.22745490076630584,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "GTM": {
+      "n": 22,
+      "areas": 22,
+      "corr": -4.5047811719247105e-17
+     },
+     "MLI": {
+      "n": 74,
+      "areas": 9,
+      "corr": 0.09286341140774815
+     },
+     "MWI": {
+      "n": 459,
+      "areas": 27,
+      "corr": 0.23870827853004153
+     },
+     "NGA": {
+      "n": 56,
+      "areas": 16,
+      "corr": 0.2456391003239852
+     },
+     "YEM": {
+      "n": 607,
+      "areas": 19,
+      "corr": 0.1781862072879257
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 1246,
+    "areas": 103,
+    "countries": 7,
+    "corr": 0.30573281219227405,
+    "spearman": 0.23377693712082,
+    "corr_within_country": 0.21210233816428045,
+    "corr_within_area": 0.22745490076630584,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 1188,
+    "areas": 103,
+    "countries": 7,
+    "corr": 0.26956984122755734,
+    "spearman": 0.1613095105149113,
+    "corr_within_country": -0.024304848582379357,
+    "corr_within_area": -0.11031281852467395,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 230,
+    "areas": 100,
+    "countries": 8,
+    "corr": 0.2032956918290292,
+    "spearman": 0.1903198588369218,
+    "corr_within_country": 0.22030458918557816,
+    "corr_within_area": -0.19495398471303924,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 230,
+    "corr": 0.15950723700244057,
+    "corr_within_country": 0.18995332442287943
+   },
+   "same_sample": {
+    "n": 208,
+    "corr_fews": 0.4562534817270421,
+    "corr_ipc": 0.18593422918783659,
+    "corr_fews_ipc": 0.580755983701306,
+    "within_country_fews": 0.3173164029460982,
+    "within_country_ipc": 0.18173815263329435
+   }
+  }
+ },
+ "independent (wfp_rt)": {
+  "fcs_poor_borderline": {
+   "FEWS NET current": {
+    "n": 10699,
+    "areas": 337,
+    "countries": 21,
+    "corr": 0.2885619291850463,
+    "spearman": 0.29451551808836646,
+    "corr_within_country": 0.24292456772703047,
+    "corr_within_area": 0.2065496548061308,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "AGO": {
+      "n": 221,
+      "areas": 17,
+      "corr": 0.057370317429534065
+     },
+     "BFA": {
+      "n": 455,
+      "areas": 13,
+      "corr": 0.5533911703272962
+     },
+     "CMR": {
+      "n": 270,
+      "areas": 10,
+      "corr": 0.7476225202895627
+     },
+     "COD": {
+      "n": 600,
+      "areas": 26,
+      "corr": -0.17728996344775014
+     },
+     "ETH": {
+      "n": 234,
+      "areas": 9,
+      "corr": 0.6643590971913662
+     },
+     "GTM": {
+      "n": 748,
+      "areas": 22,
+      "corr": 0.29315579151324916
+     },
+     "HND": {
+      "n": 272,
+      "areas": 16,
+      "corr": -0.01386554343611592
+     },
+     "HTI": {
+      "n": 320,
+      "areas": 10,
+      "corr": 0.4904113747157833
+     },
+     "KEN": {
+      "n": 1739,
+      "areas": 47,
+      "corr": 0.23937303381982225
+     },
+     "MDG": {
+      "n": 228,
+      "areas": 6,
+      "corr": 0.5235427198307285
+     },
+     "MLI": {
+      "n": 315,
+      "areas": 9,
+      "corr": 0.32485632793327435
+     },
+     "MOZ": {
+      "n": 286,
+      "areas": 11,
+      "corr": 0.272810870139058
+     },
+     "MWI": {
+      "n": 1066,
+      "areas": 28,
+      "corr": 0.372305018433914
+     },
+     "NER": {
+      "n": 312,
+      "areas": 8,
+      "corr": 0.1547682890469226
+     },
+     "NGA": {
+      "n": 805,
+      "areas": 28,
+      "corr": 0.14031735365433393
+     },
+     "SOM": {
+      "n": 756,
+      "areas": 18,
+      "corr": 0.4536740942789785
+     },
+     "YEM": {
+      "n": 1386,
+      "areas": 21,
+      "corr": 0.11017960092110328
+     },
+     "ZWE": {
+      "n": 390,
+      "areas": 10,
+      "corr": 0.09273025330986885
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 9782,
+    "areas": 274,
+    "countries": 16,
+    "corr": 0.3637619672808433,
+    "spearman": 0.3825055831797171,
+    "corr_within_country": 0.2778599617487209,
+    "corr_within_area": 0.2221412768933278,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 10321,
+    "areas": 287,
+    "countries": 21,
+    "corr": 0.3358237235690066,
+    "spearman": 0.33865859900996276,
+    "corr_within_country": 0.2451077833975638,
+    "corr_within_area": 0.14644416257163745,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 7100,
+    "areas": 320,
+    "countries": 24,
+    "corr": 0.18333978333435286,
+    "spearman": 0.17611838960309234,
+    "corr_within_country": 0.2866795019738653,
+    "corr_within_area": 0.233974460512831,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 7091,
+    "corr": 0.18535137605850271,
+    "corr_within_country": 0.2579392168992885
+   },
+   "same_sample": {
+    "n": 5347,
+    "corr_fews": 0.2734544750515645,
+    "corr_ipc": 0.15623076713747108,
+    "corr_fews_ipc": 0.6422200608921939,
+    "within_country_fews": 0.2792483324792254,
+    "within_country_ipc": 0.31287954312085664
+   }
+  },
+  "rcsi_19plus": {
+   "FEWS NET current": {
+    "n": 10699,
+    "areas": 337,
+    "countries": 21,
+    "corr": 0.37394595585750146,
+    "spearman": 0.3711659074269443,
+    "corr_within_country": 0.27693702570992906,
+    "corr_within_area": 0.11027377574408545,
+    "sign_if_tracking": 1,
+    "by_country": {
+     "AGO": {
+      "n": 221,
+      "areas": 17,
+      "corr": 0.006833716835709441
+     },
+     "BFA": {
+      "n": 455,
+      "areas": 13,
+      "corr": 0.7296099862703783
+     },
+     "CMR": {
+      "n": 270,
+      "areas": 10,
+      "corr": 0.6352829836489114
+     },
+     "COD": {
+      "n": 600,
+      "areas": 26,
+      "corr": -0.18005867634007808
+     },
+     "ETH": {
+      "n": 234,
+      "areas": 9,
+      "corr": 0.6555664241360356
+     },
+     "GTM": {
+      "n": 748,
+      "areas": 22,
+      "corr": 0.42106250958305247
+     },
+     "HND": {
+      "n": 272,
+      "areas": 16,
+      "corr": 0.2688478841944896
+     },
+     "HTI": {
+      "n": 320,
+      "areas": 10,
+      "corr": 0.4053496988817908
+     },
+     "KEN": {
+      "n": 1739,
+      "areas": 47,
+      "corr": 0.39627414860325216
+     },
+     "MDG": {
+      "n": 228,
+      "areas": 6,
+      "corr": 0.7574439372087715
+     },
+     "MLI": {
+      "n": 315,
+      "areas": 9,
+      "corr": 0.31150555396852486
+     },
+     "MOZ": {
+      "n": 286,
+      "areas": 11,
+      "corr": 0.31707018406365073
+     },
+     "MWI": {
+      "n": 1066,
+      "areas": 28,
+      "corr": 0.5695827575458705
+     },
+     "NER": {
+      "n": 312,
+      "areas": 8,
+      "corr": 0.05570219495788713
+     },
+     "NGA": {
+      "n": 805,
+      "areas": 28,
+      "corr": 0.24628728696609334
+     },
+     "SOM": {
+      "n": 756,
+      "areas": 18,
+      "corr": -0.19068601353317646
+     },
+     "YEM": {
+      "n": 1386,
+      "areas": 21,
+      "corr": 0.31212607782017077
+     },
+     "ZWE": {
+      "n": 390,
+      "areas": 10,
+      "corr": 0.05281884692610262
+     }
+    }
+   },
+   "FEWS NET current, sub-national maps": {
+    "n": 9782,
+    "areas": 274,
+    "countries": 16,
+    "corr": 0.4298025582907531,
+    "spearman": 0.42297294578984873,
+    "corr_within_country": 0.3358821991148441,
+    "corr_within_area": 0.10925726191569653,
+    "sign_if_tracking": 1
+   },
+   "FEWS NET forecast": {
+    "n": 10321,
+    "areas": 287,
+    "countries": 21,
+    "corr": 0.36995382167248764,
+    "spearman": 0.3613539506611471,
+    "corr_within_country": 0.31390149037442217,
+    "corr_within_area": 0.07980839449266347,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH phase": {
+    "n": 7100,
+    "areas": 320,
+    "countries": 24,
+    "corr": 0.41044675996132857,
+    "spearman": 0.4048794781284745,
+    "corr_within_country": 0.250188003852527,
+    "corr_within_area": -0.004374838401220794,
+    "sign_if_tracking": 1
+   },
+   "IPC/CH share 3+": {
+    "n": 7091,
+    "corr": 0.4416054265548891,
+    "corr_within_country": 0.24399642092344379
+   },
+   "same_sample": {
+    "n": 5347,
+    "corr_fews": 0.28456479802787216,
+    "corr_ipc": 0.4403656855986812,
+    "corr_fews_ipc": 0.6422200608921939,
+    "within_country_fews": 0.20976508832479737,
+    "within_country_ipc": 0.2747943023976741
+   }
+  }
+ },
+ "coverage": {
+  "indicator_rows": 59423,
+  "area_periods": 24042,
+  "by_source": {
+   "wfp_lit": {
+    "rows": 4091,
+    "countries": 70,
+    "area_periods": 2979,
+    "matched_fews_cs": 1613,
+    "matched_fews_fc": 1489,
+    "matched_ipc": 562,
+    "matched_both": 396
+   },
+   "wfp_rt": {
+    "rows": 32650,
+    "countries": 33,
+    "area_periods": 16325,
+    "matched_fews_cs": 10699,
+    "matched_fews_fc": 10321,
+    "matched_ipc": 7100,
+    "matched_both": 5347
+   },
+   "mvam_hdx": {
+    "rows": 5867,
+    "countries": 15,
+    "area_periods": 1900,
+    "matched_fews_cs": 1601,
+    "matched_fews_fc": 1437,
+    "matched_ipc": 364,
+    "matched_both": 310
+   },
+   "ch_hdx": {
+    "rows": 16815,
+    "countries": 18,
+    "area_periods": 2838,
+    "matched_fews_cs": 1728,
+    "matched_fews_fc": 1735,
+    "matched_ipc": 2838,
+    "matched_both": 1728
+   }
+  },
+  "geo_unmatched_areas": 161,
+  "geo_unmatched": [
+   "CH|GW03",
+   "CH|TG01",
+   "MVAM|COD|Buleusa",
+   "MVAM|COD|Eringeti",
+   "MVAM|COD|Kalinga",
+   "MVAM|COD|Kalunga",
+   "MVAM|COD|Kibirizi",
+   "MVAM|COD|Kibua",
+   "MVAM|COD|Kilimani",
+   "MVAM|COD|Lushebere",
+   "MVAM|COD|Mbau",
+   "MVAM|COD|Mugunga 3",
+   "MVAM|GIN|Lower",
+   "MVAM|GIN|Middle",
+   "MVAM|GIN|Upper",
+   "MVAM|IRQ|Abu Ghraib",
+   "MVAM|IRQ|Akre",
+   "MVAM|IRQ|Akre-Shikhan",
+   "MVAM|IRQ|Al Hamdaniya",
+   "MVAM|IRQ|Al Karkh",
+   "MVAM|IRQ|Al Resafa",
+   "MVAM|IRQ|Al-Ayadhya",
+   "MVAM|IRQ|Al-Muqdadiya",
+   "MVAM|IRQ|Al-Qayyarah",
+   "MVAM|IRQ|Al-Qayyarah Center",
+   "MVAM|IRQ|Al-Shikhan",
+   "MVAM|IRQ|Al-muhalabya",
+   "MVAM|IRQ|Al-shimal",
+   "MVAM|IRQ|Al-shura",
+   "MVAM|IRQ|AliAl-Gharbi",
+   "MVAM|IRQ|Alqosh",
+   "MVAM|IRQ|Alqush",
+   "MVAM|IRQ|Anbar",
+   "MVAM|IRQ|Ba'quba",
+   "MVAM|IRQ|Baasheqa",
+   "MVAM|IRQ|Babil-Najaf",
+   "MVAM|IRQ|Babylon-Hilla",
+   "MVAM|IRQ|Baghdad Center",
+   "MVAM|IRQ|Balad",
+   "MVAM|IRQ|Baladrooz",
+   "MVAM|IRQ|Bartalla",
+   "MVAM|IRQ|Basrah",
+   "MVAM|IRQ|Basrah-Shatt Al-Arab",
+   "MVAM|IRQ|Batnaya",
+   "MVAM|IRQ|Daquq",
+   "MVAM|IRQ|Daquq-Tooz",
+   "MVAM|IRQ|Duhok",
+   "MVAM|IRQ|Erbil",
+   "MVAM|IRQ|Falluja",
+   "MVAM|IRQ|Gogjali",
+   "MVAM|IRQ|Haji Ali",
+   "MVAM|IRQ|Hamam Al-alel",
+   "MVAM|IRQ|Hamdaniya",
+   "MVAM|IRQ|Kalar",
+   "MVAM|IRQ|Kandinawa",
+   "MVAM|IRQ|Kerbala",
+   "MVAM|IRQ|Khanaqin",
+   "MVAM|IRQ|Khanaqin-Kifri",
+   "MVAM|IRQ|Kifri",
+   "MVAM|IRQ|Kirkuk",
+   "MVAM|IRQ|Makhmur",
+   "MVAM|IRQ|Missan",
+   "MVAM|IRQ|Missan-Wassit",
+   "MVAM|IRQ|Mosul",
+   "MVAM|IRQ|Mosul City",
+   "MVAM|IRQ|Muqdadiya",
+   "MVAM|IRQ|Muqdadiya-Ba'quba",
+   "MVAM|IRQ|Muthanna",
+   "MVAM|IRQ|Muthanna-Qadissiya",
+   "MVAM|IRQ|Muthanna-Rumaitha",
+   "MVAM|IRQ|Najaf",
+   "MVAM|IRQ|Nassriya",
+   "MVAM|IRQ|Ninewa",
+   "MVAM|IRQ|Qadissiya",
+   "MVAM|IRQ|Qadissiya-Diwaniya",
+   "MVAM|IRQ|Qayara",
+   "MVAM|IRQ|Qayrawan",
+   "MVAM|IRQ|Rabia",
+   "MVAM|IRQ|Salah al-Din",
+   "MVAM|IRQ|Samarra",
+   "MVAM|IRQ|Samarra-Balad",
+   "MVAM|IRQ|Samawa",
+   "MVAM|IRQ|Shura",
+   "MVAM|IRQ|Sinjar",
+   "MVAM|IRQ|Sinjar-Telafar",
+   "MVAM|IRQ|Tel Aswad",
+   "MVAM|IRQ|Telafar",
+   "MVAM|IRQ|Telisqof",
+   "MVAM|IRQ|Thi-Qar",
+   "MVAM|IRQ|Tikrit",
+   "MVAM|IRQ|Tilkaif",
+   "MVAM|IRQ|Tilkaif City",
+   "MVAM|IRQ|Tooz",
+   "MVAM|IRQ|Wassit-Kut",
+   "MVAM|IRQ|Zaylakan",
+   "MVAM|IRQ|Zummar",
+   "MVAM|IRQ|rabeaa",
+   "MVAM|IRQ|zummar)",
+   "MVAM|LBR|Southeast w/o Bassa",
+   "MVAM|LBR|Western",
+   "MVAM|MWI|Kasungu Lilongwe Plain",
+   "MVAM|MWI|Mzimba Self Sufficient",
+   "MVAM|MWI|Rift Valley Escarpment",
+   "MVAM|MWI|Shire Highlands",
+   "MVAM|MWI|Urban",
+   "MVAM|NGA|ADAMAWA CENTRAL",
+   "MVAM|NGA|ADAMAWA NORTH",
+   "MVAM|NGA|ADAMAWA SOUTH",
+   "MVAM|NGA|Adamawa Central",
+   "MVAM|NGA|Adamawa North",
+   "MVAM|NGA|Adamawa South",
+   "MVAM|NGA|BORNO CENTRAL",
+   "MVAM|NGA|BORNO NORTH",
+   "MVAM|NGA|BORNO SOUTH",
+   "MVAM|NGA|Borno Central",
+   "MVAM|NGA|Borno North",
+   "MVAM|NGA|Borno South",
+   "MVAM|NGA|YOBE EAST",
+   "MVAM|NGA|YOBE NORTH",
+   "MVAM|NGA|YOBE SOUTH",
+   "MVAM|NGA|Yobe East",
+   "MVAM|NGA|Yobe North",
+   "MVAM|NGA|Yobe South",
+   "MVAM|SYR|ACC",
+   "MVAM|SYR|Al-Hasakeh HTR",
+   "MVAM|SYR|Aleppo City",
+   "MVAM|SYR|Aleppo Urban",
+   "MVAM|SYR|Aleppo and Idleb HTR",
+   "MVAM|SYR|As-Sweida",
+   "MVAM|SYR|Deir-ez-Zor and Raqqa",
+   "MVAM|SYR|Hama Suburban",
+   "MVAM|SYR|Hama Urban",
+   "MVAM|SYR|Homs",
+   "MVAM|SYR|Homs Urban",
+   "MVAM|SYR|Homs and Hama HTR",
+   "MVAM|SYR|Isolated Govt Control",
+   "MVAM|SYR|Lattakia Suburban",
+   "MVAM|SYR|Lattakia Urban",
+   "MVAM|SYR|Rural Dam BSG",
+   "MVAM|SYR|Rural Dam HTR",
+   "MVAM|SYR|Rural Damascus",
+   "MVAM|SYR|Rural Damascus Suburban",
+   "MVAM|SYR|Rural Damascus Urban",
+   "MVAM|SYR|Southern Battle Line",
+   "MVAM|SYR|Southern HTR",
+   "MVAM|SYR|Tartous Suburban",
+   "MVAM|SYR|Tartous Urban",
+   "MVAM|SYR|YPG Control",
+   "MVAM|TCD|Belom",
+   "MVAM|TCD|Goz Amir",
+   "MVAM|YEM|Aden",
+   "MVAM|YEM|Aljanad",
+   "MVAM|YEM|Sana'a City",
+   "MVAM|YEM|Sheba",
+   "MVAM|YEM|Tahamh",
+   "MVAM|ZWE|Lake Kariba",
+   "MVAM|ZWE|Manicaland North",
+   "MVAM|ZWE|Manicaland South",
+   "MVAM|ZWE|Matabeleland North-Central",
+   "MVAM|ZWE|Midlands North",
+   "MVAM|ZWE|Midlands South"
+  ]
+ }
+}

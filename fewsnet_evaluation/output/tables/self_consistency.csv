@@ -1,0 +1,2 @@
+scenario,n,accuracy,naive_accuracy,within_one_phase,accuracy_when_actual_3plus,accuracy_when_actual_4plus,n_new_crises,share_new_crises_forecast,false_alarm_rate,share_under_predicted
+ML2,199460,0.8420334904241452,0.7890654767873257,0.994018850897423,0.717075398211072,0.6684424150177575,10636,0.5771906731854081,0.028420784413649817,0.49104989209089756

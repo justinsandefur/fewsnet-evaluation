@@ -1,0 +1,59 @@
+iso3,country,year,direction,classification,maps_prev,maps_now
+AGO,Angola,2022,on,API gap (maps show coverage),False,False
+AGO,Angola,2025,off,API only (after mid-2023),,
+AGO,Angola,2026,on,API only (after mid-2023),,
+BDI,Burundi,2020,on,real,False,True
+BFA,Burkina Faso,2018,off,real,True,False
+BFA,Burkina Faso,2020,on,API gap (maps show coverage),False,False
+CAF,Central African Republic,2020,on,API gap (maps show coverage),False,False
+CAF,Central African Republic,2025,off,API only (after mid-2023),,
+CAF,Central African Republic,2026,on,API only (after mid-2023),,
+CIV,Côte d’Ivoire,2026,on,API only (after mid-2023),,
+CMR,Cameroon,2020,on,real,False,True
+COD,Democratic Republic of the Congo,2018,on,API gap (maps show coverage),True,True
+COL,Colombia,2026,on,API only (after mid-2023),,
+DJI,Djibouti,2016,off,real,True,False
+HND,Honduras,2020,on,API gap (maps show coverage),False,False
+HND,Honduras,2025,off,API only (after mid-2023),,
+HND,Honduras,2026,on,API only (after mid-2023),,
+HTI,Haiti,2016,off,API gap (maps show coverage),True,True
+HTI,Haiti,2018,on,API gap (maps show coverage),True,True
+LBN,Lebanon,2024,on,API only (after mid-2023),,
+LBN,Lebanon,2025,off,API only (after mid-2023),,
+LBN,Lebanon,2026,on,API only (after mid-2023),,
+LBR,Liberia,2015,on,real,False,True
+LBR,Liberia,2018,off,real,True,False
+LKA,Sri Lanka,2026,on,API only (after mid-2023),,
+LSO,Lesotho,2020,on,API gap (maps show coverage),False,False
+LSO,Lesotho,2025,off,API only (after mid-2023),,
+LSO,Lesotho,2026,on,API only (after mid-2023),,
+MDG,Madagascar,2016,on,real,False,True
+MRT,Mauritania,2019,off,real,True,False
+MRT,Mauritania,2020,on,API gap (maps show coverage),False,False
+MRT,Mauritania,2025,off,API only (after mid-2023),,
+NIC,Nicaragua,2020,on,API gap (maps show coverage),False,False
+NIC,Nicaragua,2025,off,API only (after mid-2023),,
+NPL,Nepal,2026,on,API only (after mid-2023),,
+PAK,Pakistan,2026,on,API only (after mid-2023),,
+RWA,Rwanda,2015,off,real,True,False
+RWA,Rwanda,2020,on,API gap (maps show coverage),False,False
+RWA,Rwanda,2024,off,API only (after mid-2023),,
+SDN,Sudan,2018,on,API gap (maps show coverage),True,True
+SLE,Sierra Leone,2015,on,real,False,True
+SLE,Sierra Leone,2017,off,API gap (maps show coverage),True,True
+SLV,El Salvador,2020,on,API gap (maps show coverage),False,False
+SLV,El Salvador,2025,off,API only (after mid-2023),,
+SLV,El Salvador,2026,on,API only (after mid-2023),,
+SYR,Syria,2026,on,API only (after mid-2023),,
+TGO,Togo,2024,on,API only (after mid-2023),,
+TGO,Togo,2025,off,API only (after mid-2023),,
+TGO,Togo,2026,on,API only (after mid-2023),,
+UGA,Uganda,2025,off,API only (after mid-2023),,
+UGA,Uganda,2026,on,API only (after mid-2023),,
+UKR,Ukraine,2026,on,API only (after mid-2023),,
+VEN,Venezuela,2023,on,API only (after mid-2023),False,
+VEN,Venezuela,2025,off,API only (after mid-2023),,
+VEN,Venezuela,2026,on,API only (after mid-2023),,
+YEM,Yemen,2014,on,real,False,True
+ZMB,Zambia,2018,off,real,True,False
+ZMB,Zambia,2026,on,API only (after mid-2023),,

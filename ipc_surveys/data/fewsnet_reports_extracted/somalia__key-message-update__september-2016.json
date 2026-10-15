@@ -1,0 +1,106 @@
+{
+ "name": "somalia__key-message-update__september-2016",
+ "period_covered": "not stated",
+ "national": {
+  "famine_risk_mentioned": false,
+  "worst_case_described": false,
+  "worst_case_text": null,
+  "aid_assumption": "not_stated",
+  "aid_assumption_text": null,
+  "people_in_need_crisis_plus": null,
+  "headline_direction": "mixed",
+  "aid_assumption_changes": null,
+  "people_stressed": null,
+  "upside_scenario_text": null,
+  "rain_forecast": "not_stated",
+  "season_status_text": null
+ },
+ "areas": [
+  {
+   "location": "Northwestern Agropastoral livelihood zone",
+   "admin1": null,
+   "admin2": null,
+   "livelihood_zone": "Northwestern Agropastoral",
+   "population_group": null,
+   "current_phase": 2,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "improve",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_good",
+    "prices_falling"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Southern Rainfed Agropastoral livelihood zone (Middle and Lower Juba, Lower Shabelle)",
+   "admin1": "Middle Juba; Lower Juba; Lower Shabelle",
+   "admin2": null,
+   "livelihood_zone": "Southern Rainfed Agropastoral",
+   "population_group": null,
+   "current_phase": 3,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": null,
+   "price_change_basis": null,
+   "terms_of_trade_text": null,
+   "people_in_need": null,
+   "drivers": [
+    "harvest_poor"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  },
+  {
+   "location": "Bay surplus-producing market",
+   "admin1": "Bay",
+   "admin2": null,
+   "livelihood_zone": null,
+   "population_group": null,
+   "current_phase": null,
+   "projected_phase": null,
+   "projected_period": null,
+   "projected_phase_2": null,
+   "projected_period_2": null,
+   "aid_flag_or_held_back": false,
+   "worst_case_phase": null,
+   "direction": "not_stated",
+   "nutrition_class": null,
+   "price_change_pct": 3,
+   "price_change_basis": "other",
+   "terms_of_trade_text": "sorghum up 3 percent June to August vs typical 10 percent seasonal decline",
+   "people_in_need": null,
+   "drivers": [
+    "prices_high",
+    "harvest_poor"
+   ],
+   "aid_status": "not_stated",
+   "aid_coverage_pct_of_need": null,
+   "uncertainty_language": false
+  }
+ ],
+ "surveys": [],
+ "data_sources_cited": [
+  "market_prices_other"
+ ],
+ "data_gaps": [],
+ "remote_monitoring": false
+}

@@ -1,0 +1,137 @@
+outcome                                 spec           var    b  se     p    n
+  s_any                           (1) Pooled      ln_gdppc -5.6 0.8 0.000 4794
+  s_any                           (1) Pooled         minor -3.2 2.1 0.129 4794
+  s_any                           (1) Pooled           war -6.7 3.3 0.045 4794
+  s_any                           (1) Pooled      downturn -3.9 1.4 0.006 4794
+  s_any (2) Pooled + region, need, stability      ln_gdppc -3.8 1.3 0.004 3873
+  s_any (2) Pooled + region, need, stability       ln_u5mr  2.1 1.8 0.235 3873
+  s_any (2) Pooled + region, need, stability         minor -3.6 2.3 0.113 3873
+  s_any (2) Pooled + region, need, stability           war -8.2 3.9 0.038 3873
+  s_any (2) Pooled + region, need, stability      downturn -4.1 1.8 0.022 3873
+  s_any (2) Pooled + region, need, stability wgi_stability -0.1 1.4 0.970 3873
+  s_any                   (3) Within country      ln_gdppc  0.3 2.2 0.884 4794
+  s_any                   (3) Within country         minor -5.5 2.2 0.014 4794
+  s_any                   (3) Within country           war -6.8 3.3 0.040 4794
+  s_any                   (3) Within country      downturn -2.2 1.2 0.085 4794
+  s_any        (5) Within country, intensity         ln_bd -2.7 0.9 0.002 4794
+  s_any        (5) Within country, intensity      ln_gdppc  0.2 2.2 0.931 4794
+  s_any        (5) Within country, intensity      downturn -1.9 1.3 0.130 4794
+  s_any    (4) Within country, lagged shocks      ln_gdppc  0.5 2.3 0.843 4653
+  s_any    (4) Within country, lagged shocks         L_war -4.8 3.6 0.186 4653
+  s_any    (4) Within country, lagged shocks    L_downturn -2.9 1.5 0.054 4653
+  s_DHS                           (1) Pooled      ln_gdppc -3.9 0.7 0.000 4794
+  s_DHS                           (1) Pooled         minor -2.8 1.7 0.097 4794
+  s_DHS                           (1) Pooled           war -5.7 2.5 0.022 4794
+  s_DHS                           (1) Pooled      downturn -3.0 1.0 0.002 4794
+  s_DHS (2) Pooled + region, need, stability      ln_gdppc -2.3 1.0 0.024 3873
+  s_DHS (2) Pooled + region, need, stability       ln_u5mr  1.8 1.1 0.113 3873
+  s_DHS (2) Pooled + region, need, stability         minor -2.8 1.8 0.128 3873
+  s_DHS (2) Pooled + region, need, stability           war -4.9 2.9 0.096 3873
+  s_DHS (2) Pooled + region, need, stability      downturn -2.9 1.1 0.007 3873
+  s_DHS (2) Pooled + region, need, stability wgi_stability  1.4 1.0 0.154 3873
+  s_DHS                   (3) Within country      ln_gdppc  0.3 0.9 0.778 4794
+  s_DHS                   (3) Within country         minor -4.5 1.6 0.005 4794
+  s_DHS                   (3) Within country           war -3.9 2.0 0.050 4794
+  s_DHS                   (3) Within country      downturn -2.2 0.9 0.011 4794
+  s_DHS        (5) Within country, intensity         ln_bd -1.5 0.5 0.002 4794
+  s_DHS        (5) Within country, intensity      ln_gdppc  0.2 0.9 0.792 4794
+  s_DHS        (5) Within country, intensity      downturn -2.0 0.9 0.018 4794
+  s_DHS    (4) Within country, lagged shocks      ln_gdppc  0.3 1.0 0.767 4653
+  s_DHS    (4) Within country, lagged shocks         L_war -3.0 2.4 0.202 4653
+  s_DHS    (4) Within country, lagged shocks    L_downturn -2.1 1.0 0.040 4653
+ s_MICS                           (1) Pooled      ln_gdppc -1.2 0.4 0.008 4794
+ s_MICS                           (1) Pooled         minor  0.3 1.3 0.808 4794
+ s_MICS                           (1) Pooled           war  0.2 1.8 0.930 4794
+ s_MICS                           (1) Pooled      downturn  0.3 1.0 0.743 4794
+ s_MICS (2) Pooled + region, need, stability      ln_gdppc  0.2 1.0 0.857 3873
+ s_MICS (2) Pooled + region, need, stability       ln_u5mr  1.6 1.4 0.254 3873
+ s_MICS (2) Pooled + region, need, stability         minor -0.7 1.6 0.678 3873
+ s_MICS (2) Pooled + region, need, stability           war -3.0 2.4 0.206 3873
+ s_MICS (2) Pooled + region, need, stability      downturn  0.0 1.4 0.983 3873
+ s_MICS (2) Pooled + region, need, stability wgi_stability -1.6 1.0 0.110 3873
+ s_MICS                   (3) Within country      ln_gdppc -1.3 1.1 0.235 4794
+ s_MICS                   (3) Within country         minor -1.0 1.2 0.409 4794
+ s_MICS                   (3) Within country           war -2.9 2.3 0.217 4794
+ s_MICS                   (3) Within country      downturn  0.8 1.0 0.426 4794
+ s_MICS        (5) Within country, intensity         ln_bd -1.2 0.6 0.055 4794
+ s_MICS        (5) Within country, intensity      ln_gdppc -1.4 1.1 0.190 4794
+ s_MICS        (5) Within country, intensity      downturn  0.9 1.0 0.371 4794
+ s_MICS    (4) Within country, lagged shocks      ln_gdppc -1.3 1.2 0.285 4653
+ s_MICS    (4) Within country, lagged shocks         L_war -2.3 2.3 0.323 4653
+ s_MICS    (4) Within country, lagged shocks    L_downturn  0.2 0.9 0.850 4653
+ s_LSMS                           (1) Pooled      ln_gdppc -1.1 0.5 0.018 4794
+ s_LSMS                           (1) Pooled         minor -1.6 1.2 0.165 4794
+ s_LSMS                           (1) Pooled           war -0.4 2.2 0.840 4794
+ s_LSMS                           (1) Pooled      downturn -1.7 0.5 0.001 4794
+ s_LSMS (2) Pooled + region, need, stability      ln_gdppc -1.7 1.0 0.085 3873
+ s_LSMS (2) Pooled + region, need, stability       ln_u5mr -0.8 1.0 0.472 3873
+ s_LSMS (2) Pooled + region, need, stability         minor -1.2 1.2 0.329 3873
+ s_LSMS (2) Pooled + region, need, stability           war  0.4 2.6 0.893 3873
+ s_LSMS (2) Pooled + region, need, stability      downturn -1.4 0.6 0.022 3873
+ s_LSMS (2) Pooled + region, need, stability wgi_stability  0.0 0.7 0.946 3873
+ s_LSMS                   (3) Within country      ln_gdppc  0.9 1.8 0.610 4794
+ s_LSMS                   (3) Within country         minor -0.0 1.5 0.975 4794
+ s_LSMS                   (3) Within country           war  1.7 2.5 0.488 4794
+ s_LSMS                   (3) Within country      downturn -1.0 0.4 0.024 4794
+ s_LSMS        (5) Within country, intensity         ln_bd  0.3 0.6 0.571 4794
+ s_LSMS        (5) Within country, intensity      ln_gdppc  0.9 1.8 0.628 4794
+ s_LSMS        (5) Within country, intensity      downturn -1.0 0.4 0.025 4794
+ s_LSMS    (4) Within country, lagged shocks      ln_gdppc  0.8 1.9 0.664 4653
+ s_LSMS    (4) Within country, lagged shocks         L_war  2.3 2.3 0.323 4653
+ s_LSMS    (4) Within country, lagged shocks    L_downturn -2.1 0.8 0.010 4653
+
+Logit AME (any survey):
+                dy/dx  Std. Err.  ...  Conf. Int. Low  Cont. Int. Hi.
+ln_gdppc      -0.048      0.014  ...          -0.074          -0.021
+ln_gdppc_sq   -0.028      0.009  ...          -0.044          -0.011
+ln_pop         0.029      0.007  ...           0.016           0.042
+ln_u5mr        0.016      0.018  ...          -0.020           0.052
+minor         -0.034      0.020  ...          -0.072           0.004
+war           -0.076      0.036  ...          -0.147          -0.006
+downturn      -0.054      0.023  ...          -0.099          -0.009
+wgi_stability -0.007      0.012  ...          -0.031           0.017
+
+[8 rows x 6 columns]
+
+FEWS NET:
+ outcome           spec      b    se     p   n  countries
+  s_any         Pooled -0.096 0.111 0.388 559         43
+  s_any Within country -0.017 0.173 0.920 559         43
+  s_DHS         Pooled -0.094 0.074 0.203 559         43
+  s_DHS Within country -0.082 0.130 0.525 559         43
+ s_MICS         Pooled -0.010 0.068 0.884 559         43
+ s_MICS Within country  0.051 0.083 0.538 559         43
+ s_LSMS         Pooled -0.040 0.061 0.507 559         43
+ s_LSMS Within country  0.021 0.052 0.695 559         43
+
+Event study:
+    k      b    se
+-3.5  0.000 0.000
+-1.0  0.137 0.068
+ 0.0 -0.123 0.058
+ 1.0 -0.105 0.050
+ 2.0  0.029 0.060
+ 3.0 -0.046 0.055
+ 4.0 -0.028 0.063
+ 5.0  0.081 0.066
+
+Stale (countries):
+ grp   In conflict that year  Not in conflict
+year                                        
+2000                  0.034            0.348
+2010                  0.050            0.331
+2020                  0.281            0.413
+Stale (low/LMIC):
+ grp   In conflict that year  Not in conflict
+year                                        
+2000                  0.000            0.224
+2010                  0.000            0.121
+2020                  0.227            0.312
+
+FEWS bins:
+                rate    n
+bin                     
+None       0.229917  361
+Up to 10%  0.395062   81
+10-25%     0.276923   65
+Over 25%   0.153846   52
