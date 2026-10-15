@@ -129,6 +129,41 @@ for y in OUTCOMES:
 lodo = pd.DataFrame(lrows)
 lodo.to_csv(TAB / "triggers_lodo_r2.csv", index=False)
 
+# ------------------------------------------------------------------ Nigeria (NFSS rounds, 2023-26)
+NG = INP / "panel" / "nga_domain_panel.parquet"
+ng_rows = []
+if NG.exists():
+    g = pd.read_parquet(NG)
+    g["ptype"] = "rural"
+    g["deyr"] = 0
+    g["season_rank"] = g.groupby("round_id").ngroup()
+    g["lp_cereal"], g["lp_goat"] = g.dp12.fillna(0), 0.0
+    for c in ["fews_cs", "fews_fc"]:
+        g[c] = g[c].fillna(g.groupby("round_id")[c].transform("mean")).fillna(g[c].mean())
+    NSETS = {"Base (population type, season)": [],
+             "Phases (IPC share 3+, FEWS NET map and forecast)": ["need_p3", "fews_cs", "fews_fc"],
+             "Triggers (rain, conflict, prices)": ["rain_z", "rain12_z", "log_fat", "lp_cereal"],
+             "Phases + triggers": ["need_p3", "fews_cs", "fews_fc", "rain_z", "rain12_z", "log_fat", "lp_cereal"],
+             "Previous survey": ["L_{y}"],
+             "Previous survey + triggers": ["L_{y}", "rain_z", "rain12_z", "log_fat", "lp_cereal"]}
+    for y in OUTCOMES:
+        for lab, xs in NSETS.items():
+            xs = [x.format(y=y) for x in xs]
+            need = [y] + (["L_gam", "L_cdr", "L_u5dr"] if "Previous" in lab else [])
+            if any(x.startswith("L_") and x not in g.columns for x in xs):
+                continue
+            d = g.dropna(subset=[y] + [x for x in xs if x.startswith("L_")]).copy()
+            d = d.reset_index(drop=True)
+            BASE_SAVE = BASE[:]
+            BASE[:] = []
+            try:
+                r2v = oos_r2(d.assign(dummy=1), y, xs if xs else ["dummy"])
+            finally:
+                BASE[:] = BASE_SAVE
+            ng_rows.append(dict(outcome=y, info=lab, r2=r2v, n=len(d), seasons=d.season_rank.nunique()))
+ngr = pd.DataFrame(ng_rows)
+ngr.to_csv(TAB / "triggers_oos_r2_nga.csv", index=False)
+
 # ------------------------------------------------------------------ within-domain regressions
 z = p.copy()
 z["trend"] = z.year - 2020
@@ -219,6 +254,16 @@ for y, Y in [("gam", "Gam"), ("sam", "Sam"), ("cdr", "Cdr"), ("u5dr", "Ufive"), 
     m[f"tw{Y}Dry"] = f"{-r.b:.{dig}f}".replace("-", "\\textminus{}")
     m[f"tw{Y}DrySe"] = f"{r.se:.{dig}f}"
 m["tpDry"] = f"{-100 * phase_on.loc['z_rain12_z', 'b']:.1f}".replace("-", "\\textminus{}")
+for r in ngr.itertuples():
+    Y = {"gam": "Gam", "sam": "Sam", "cdr": "Cdr", "u5dr": "Ufive"}[r.outcome]
+    L = {"Base (population type, season)": "Base", "Phases (IPC share 3+, FEWS NET map and forecast)": "Phase",
+         "Triggers (rain, conflict, prices)": "Trig", "Phases + triggers": "PhaseTrig", "Previous survey": "Last",
+         "Previous survey + triggers": "LastTrig"}[r.info]
+    m[f"ng{Y}{L}"] = f2(r.r2)
+if len(ngr):
+    m["ngN"] = f"{int(ngr[(ngr.outcome == 'gam') & (ngr['info'].str.startswith('Base'))].n.iloc[0])}"
+    m["ngNlast"] = f"{int(ngr[(ngr.outcome == 'gam') & (ngr['info'] == 'Previous survey')].n.iloc[0])}"
+    m["ngRounds"] = f"{int(ngr.seasons.max())}"
 lines = ["% Written by code/84_triggers_vs_phases.py -- do not edit by hand"]
 lines += [f"\\newcommand{{\\{k}}}{{{v}}}" for k, v in m.items()]
 (PAPER / "numbers_triggers.tex").write_text("\n".join(lines) + "\n")
@@ -226,6 +271,7 @@ lines += [f"\\newcommand{{\\{k}}}{{{v}}}" for k, v in m.items()]
 pd.set_option("display.width", 220)
 print(r2.pivot(index="info", columns="outcome", values="r2").round(3)[OUTCOMES])
 print(r2.groupby("outcome")[["n", "seasons"]].first())
+print("NIGERIA\n", ngr.pivot(index="info", columns="outcome", values="r2").round(3) if len(ngr) else "none", ngr.groupby("info").n.first() if len(ngr) else "")
 print(lodo.pivot(index="info", columns="outcome", values="r2").round(3)[OUTCOMES])
 print(co[co.spec == "both"].assign(b=lambda x: x.b.round(3), se=lambda x: x.se.round(3), p=lambda x: x.p.round(3))
       [["outcome", "var", "b", "se", "p", "n", "mean"]].to_string(index=False))
