@@ -165,11 +165,12 @@ SETS = {
     "Survey outcomes + triggers": ["gam", "sam", "cdr", "u5dr", "rain_z", "rain12_z", "log_fat", "lp_cereal"],
 }
 AIDS = {"usd": "Pooled-fund dollars", "partners": "Partners present", "reach": "People reached"}
+SCALE = {"usd": 1, "partners": 1e5, "reach": 1e3}     # US$ per person; partners per 100,000; reached per 1,000
 
 
 def prep(D, aid):
     d = D.copy()
-    d["y"] = np.log1p(d[aid] / d["pop"] * (1e3 if aid != "usd" else 1))
+    d["y"] = np.log1p(d[aid] / d["pop"] * SCALE[aid])
     d["y"] = d.y - d.groupby("period").y.transform("mean")      # which districts get more this season
     d["lpop"] = np.log(d["pop"])
     for c in ["need_p3", "fews_cs", "fews_fc", "rain_z", "rain12_z", "log_fat", "lp_cereal", "gam", "sam", "cdr", "u5dr"]:
@@ -258,7 +259,25 @@ def main():
                 cov_type="cluster", cov_kwds={"groups": d.unit.astype("category").cat.codes})
             for c in ["need_p3", "gam", "cdr", "u5dr"]:
                 hr.append(dict(country=cty, aid=aid, var=c, b=m.params[c], se=m.bse[c], p=m.pvalues[c], n=int(m.nobs)))
+    # within-location version: location and season effects (does aid move when a place's phase or
+    # measured outcomes change, relative to its own average?)
+    for cty, g in D.groupby("country"):
+        for aid in AIDS:
+            d = g.dropna(subset=[aid, "pop", "need_p3", "gam", "cdr", "u5dr"]).copy()
+            d = d[d["pop"] > 0]
+            if len(d) < 30 or d.unit.nunique() < 10:
+                continue
+            d["y"] = np.log1p(d[aid] / d["pop"] * SCALE[aid])
+            d["lpop"] = np.log(d["pop"])
+            for c in ["need_p3", "gam", "cdr", "u5dr"]:
+                d[c] = (d[c] - d[c].mean()) / d[c].std()
+            m = smf.ols("y ~ lpop + need_p3 + gam + cdr + u5dr + C(unit) + C(period)", d).fit(
+                cov_type="cluster", cov_kwds={"groups": d.unit.astype("category").cat.codes})
+            for c in ["need_p3", "gam", "cdr", "u5dr"]:
+                hr.append(dict(country=cty, aid=aid, var=c, b=m.params[c], se=m.bse[c], p=m.pvalues[c], n=int(m.nobs),
+                               spec="within"))
     HR = pd.DataFrame(hr)
+    HR["spec"] = HR.get("spec", pd.Series(index=HR.index, dtype=object)).fillna("between")
     HR.to_csv(TAB / "aidneed_horserace.csv", index=False)
     figures(R, DS)
     numbers(R, DS, HR, D)
@@ -292,7 +311,8 @@ def figures(R, DS):
     ax.set_ylim(-0.06, max(0.5, R.r2.max() + 0.15))
     fig.savefig(PAPER / "figures" / "fig14_aid_r2.pdf", bbox_inches="tight"); plt.close(fig)
 
-    # allocation: share of aid that would move to match each need measure
+    return
+    # allocation figure dropped (numbers reported in the text)
     M = DS.groupby(["country", "aid"])[["p3", "deaths", "u5deaths", "malnourished"]].mean()
     labs = {"p3": "People in Phase 3+", "deaths": "Expected deaths", "u5deaths": "Expected under-five deaths",
             "malnourished": "Acutely malnourished children"}
@@ -335,7 +355,10 @@ def numbers(R, DS, HR, D):
             if pd.notna(r[need]):
                 m[f"dis{C[c]}{A[a]}{nm}"] = f"{100 * r[need]:.0f}"
     for r in HR.itertuples():
-        m[f"hr{C[r.country]}{A[r.aid]}{ {'need_p3': 'Pthree', 'gam': 'Gam', 'cdr': 'Cdr', 'u5dr': 'Ufive'}[r.var] }"] = f2(r.b)
+        V = {'need_p3': 'Pthree', 'gam': 'Gam', 'cdr': 'Cdr', 'u5dr': 'Ufive'}[r.var]
+        W = "" if r.spec == "between" else "W"
+        m[f"hr{W}{C[r.country]}{A[r.aid]}{V}"] = f2(r.b)
+        m[f"hr{W}{C[r.country]}{A[r.aid]}{V}Se"] = f"{r.se:.2f}"
     lines = ["% Written by code/87_aid_vs_need.py -- do not edit by hand"]
     lines += [f"\\newcommand{{\\{k}}}{{{v}}}" for k, v in m.items()]
     (PAPER / "numbers_aidneed.tex").write_text("\n".join(lines) + "\n")

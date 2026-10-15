@@ -153,34 +153,46 @@ summary = dict(aid_pc_mean=float(p.aid_pc.mean()), aid_pc_median=float(p.aid_pc.
                nat_pc=float(nat_pc.median()),
                flag_mean=float(p.flag.mean()), scale_median=float(scale.median()))
 
-# --- figure: R2 of phases vs previous survey vs triggers as assumed aid effectiveness rises (GAM and U5DR)
-fig, ax = plt.subplots(figsize=(7.5, 4.6))
+# --- figure: two stacked panels, malnutrition (cost per case averted) and under-five deaths (cost per death)
 xs = [c for c in COSTS if np.isfinite(c)]
-# shade the cost range of the best-evidenced life-saving treatment (community treatment of SAM, $4-7k)
+xpos = list(range(len(xs) + 1))
+
+
 def xpos_of(c):                       # position of cost c on the categorical axis (log-interpolated)
     for i in range(len(xs) - 1):
         hi, lo = xs[i], xs[i + 1]
         if lo <= c <= hi:
             return i + 1 + (np.log(hi) - np.log(c)) / (np.log(hi) - np.log(lo))
-ax.axvspan(xpos_of(7000), xpos_of(4000), color="#e4e3df", alpha=0.7, lw=0)
-ax.text((xpos_of(7000) + xpos_of(4000)) / 2, 0.40, "best-evidenced\ntreatment,\n$4,000-7,000", fontsize=7, color="#52514e", ha="center", va="top")
-xpos = list(range(len(xs) + 1))
-labels = ["No effect"] + [f"${int(c):,}" for c in xs]
+
+
 sty = {"Phases": ("#e34948", "o"), "Triggers": ("#2a78d6", "s"), "Previous survey": ("#1baf7a", "^")}
-for y, ls in [("gam", "-"), ("u5dr", "--")]:
+LBL = {"Phases": "Phases (IPC share 3+, FEWS NET map and forecast)", "Triggers": "Triggers (rain, conflict, prices)",
+       "Previous survey": "Previous survey"}
+fig, axes = plt.subplots(2, 1, figsize=(7, 9.2))
+panels = [("gam", "A. Acute malnutrition", "Assumed cost per case of acute malnutrition averted by all humanitarian aid",
+           CASES_PER_DEATH, "best-evidenced\ntreatment,\n$400-700 per case"),
+          ("u5dr", "B. Under-five death rate", "Assumed cost per death averted by all humanitarian aid", 1,
+           "best-evidenced\ntreatment,\n$4,000-7,000 per death")]
+for ax, (y, ttl, xl, div, band) in zip(axes, panels):
+    ax.axvspan(xpos_of(7000), xpos_of(4000), color="#e4e3df", alpha=0.8, lw=0)
+    ax.text((xpos_of(7000) + xpos_of(4000)) / 2, 0.47, band, fontsize=7.5, color="#52514e", ha="center", va="top")
     d = B[(B.version == "dose") & (B.outcome == y)]
     for lab, (col, mk) in sty.items():
         v = [d[(d.cost == c) & (d["info"] == lab)].r2.iloc[0] for c in COSTS]
-        ax.plot(xpos, v, ls, color=col, marker=mk, ms=4, lw=1.6,
-                label=f"{lab}, {'acute malnutrition' if y == 'gam' else 'under-five deaths'}")
-ax.set_xticks(xpos); ax.set_xticklabels(labels, rotation=35, ha="right", fontsize=8)
-ax.set_xlabel("Assumed cost per death averted by all humanitarian aid")
-ax.set_ylabel("Out-of-sample $R^2$, counterfactual outcomes")
-ax.axhline(0, color="#52514e", lw=0.8)
-for s in ["top", "right"]:
-    ax.spines[s].set_visible(False)
-ax.grid(axis="y", color="#e4e3df", lw=0.6); ax.set_axisbelow(True)
-ax.legend(frameon=False, fontsize=7.5, ncol=2, loc="upper center", bbox_to_anchor=(0.5, -0.32))
+        ax.plot(xpos, v, "-", color=col, marker=mk, ms=5, lw=1.8, label=LBL[lab])
+    ax.set_xticks(xpos)
+    ax.set_xticklabels(["No effect"] + [f"${int(c / div):,}" for c in xs], rotation=30, ha="right", fontsize=8.5)
+    ax.set_xlabel(xl, fontsize=9)
+    ax.set_ylabel("Out-of-sample $R^2$, outcomes without aid")
+    ax.set_title(ttl, loc="left", fontsize=10.5)
+    ax.axhline(0, color="#52514e", lw=0.8)
+    ax.set_ylim(-0.12, 0.5)
+    for sp in ["top", "right"]:
+        ax.spines[sp].set_visible(False)
+    ax.grid(axis="y", color="#e4e3df", lw=0.6); ax.set_axisbelow(True)
+fig.tight_layout(h_pad=2.5, rect=(0, 0.05, 1, 1))
+h, l = axes[0].get_legend_handles_labels()
+fig.legend(h, l, frameon=False, fontsize=8.5, loc="lower center", ncol=1, bbox_to_anchor=(0.5, -0.01))
 fig.savefig(PAPER / "figures" / "fig16_bounds.pdf", bbox_inches="tight"); plt.close(fig)
 
 
