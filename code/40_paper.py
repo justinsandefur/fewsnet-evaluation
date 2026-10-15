@@ -428,6 +428,8 @@ def appendix():
     for samp, k in [("pre-2025", "Pre"), ("2025-26 (shutdown and restoration)", "Post")]:
         r = S[(S.outcome == "share3") & (S["sample"] == samp) & (S.spec.str.startswith("country-specific")) & (S.term == "index x FEWS NET covering")].iloc[0]
         N[f"cov{k}"], N[f"cov{k}Se"] = sg(r.coef, 3), f"{r.se:.3f}"
+    r = S[(S.outcome == "phase3") & (S["sample"] == "pre-2025") & (S.spec.str.startswith("country-specific")) & (S.term == "index x FEWS NET covering")].iloc[0]
+    N["covPrePhase"], N["covPrePhaseSe"] = sg(r.coef, 3), f"{r.se:.3f}"
     # need-defined emergencies: how many held back by aid were flag switches in steady Phase 3 areas
     E = pd.read_parquet(INP / "panel" / "need_onsets.parquet")
     E = E[E.onset == "Emergency"]

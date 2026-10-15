@@ -7,7 +7,11 @@ Shocks for an analysis of area a in month t (all measured before t):
             20-year normal), and a drought flag (24_area_rainfall.py)
   conflict  log(1 + ACLED political violence events) and log(1 + fatalities)
             in months t-6..t-1, and the change against the same window a year
-            earlier. Matched to areas by district name, else by region.
+            earlier. ACLED districts are placed on OCHA boundaries by district
+            code (as in 32_forecast_value.py) and apportioned to each area by
+            the share of the district's area inside it; areas less than half
+            covered by placed districts fall back to matching by district
+            name, else by region.
   prices    mean 12-month and 3-month log change in retail cereal and tuber
             prices across WFP markets in the area (markets placed by
             coordinates; else markets in the same region), months t-3..t-1.
@@ -102,6 +106,47 @@ def conflict_shocks(p, a):
     c = pd.DataFrame(rows)
     c["ln_ev6"] = np.log1p(c.ev6)
     c["ln_fat6"] = np.log1p(c.fat6)
+    c["d_ln_ev6"] = c.ln_ev6 - np.log1p(c.ev6_prev)
+    return c
+
+def conflict_overlay(p, a, geo):
+    """Events and fatalities in t-6..t-1 apportioned from ACLED districts (placed by district code)
+    to analysis areas by area share. Returns rows only for areas at least half covered."""
+    spec = importlib.util.spec_from_file_location("fv", ROOT / "code" / "32_forecast_value.py")
+    FV = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(FV)
+    a = a[a["Admin2 Pcode"].notna()]
+    D = FV.districts(a).to_crs(6933)
+    D["geometry"] = D.geometry.buffer(0)
+    D["darea"] = D.area
+    keys = p.drop_duplicates("key")[["key", "iso3"]]
+    g = gpd.GeoDataFrame(geo.merge(keys, on="key"), crs=4326).to_crs(6933)
+    g["geometry"] = g.geometry.buffer(0)
+    g["uarea"] = g.area
+    W = []
+    for iso in sorted(set(g.iso3) & set(D.iso3)):
+        x = gpd.overlay(D[D.iso3 == iso][["Admin2 Pcode", "darea", "geometry"]], g[g.iso3 == iso][["key", "uarea", "geometry"]],
+                        how="intersection", keep_geom_type=True)
+        x["w"], x["ucov"] = x.area / x.darea, x.area / x.uarea
+        W.append(x[["Admin2 Pcode", "key", "w", "ucov"]])
+    W = pd.concat(W)
+    covered = W.groupby("key").ucov.sum().loc[lambda v: v > 0.5].index
+    W = W[W.key.isin(covered)]
+    ev = a.groupby(["Admin2 Pcode", "month"])[["Events", "Fatalities"]].sum().reset_index().merge(W[["Admin2 Pcode", "key", "w"]], on="Admin2 Pcode")
+    ev["Events"], ev["Fatalities"] = ev.Events * ev.w, ev.Fatalities * ev.w
+    ev = ev.groupby(["key", "month"])[["Events", "Fatalities"]].sum()
+    allm = pd.period_range(a.month.min(), pd.Period("2026-09", "M"), freq="M")
+    E = ev.Events.unstack().reindex(index=covered, columns=allm, fill_value=0).fillna(0)
+    F = ev.Fatalities.unstack().reindex(index=covered, columns=allm, fill_value=0).fillna(0)
+    r6e = E.T.rolling(6, min_periods=1).sum().shift(1).T
+    r6f = F.T.rolling(6, min_periods=1).sum().shift(1).T
+    q = p[p.key.isin(covered)][["key", "month"]].drop_duplicates()
+    q = q[q.month.isin(allm[12:])]
+    c = pd.DataFrame({"key": q.key.values, "month": q.month.values, "conf_level": "district (overlay)",
+                      "ev6": [r6e.at[k, m] for k, m in zip(q.key, q.month)],
+                      "fat6": [r6f.at[k, m] for k, m in zip(q.key, q.month)],
+                      "ev6_prev": [r6e.at[k, m - 12] for k, m in zip(q.key, q.month)]})
+    c["ln_ev6"], c["ln_fat6"] = np.log1p(c.ev6), np.log1p(c.fat6)
     c["d_ln_ev6"] = c.ln_ev6 - np.log1p(c.ev6_prev)
     return c
 
@@ -222,10 +267,12 @@ def main():
     outcomes = pd.read_parquet(INP / "panel" / "outcomes.parquet")
     geo, _ = RAIN.area_geometries(outcomes)
     a = acled()
-    c = conflict_shocks(p, a)
+    co = conflict_overlay(p, a, geo)
+    cn = conflict_shocks(p, a)
+    c = pd.concat([co, cn[~cn.key.isin(set(co.key))]])
     m = wfp_prices()
     pr = price_shocks(p, m, geo)
-    c = c.sort_values("conf_level").drop_duplicates(["key", "month"])     # district match preferred
+    c = c.sort_values("conf_level").drop_duplicates(["key", "month"])     # overlay, then district name, then region
     pr = pr.sort_values("price_level").drop_duplicates(["key", "month"])  # area match preferred
     p = p.merge(c, on=["key", "month"], how="left").merge(pr, on=["key", "month"], how="left")
     p["dry6"], p["dry12"] = -p.rain_z6.clip(-4, 4), -p.rain_z12.clip(-4, 4)
