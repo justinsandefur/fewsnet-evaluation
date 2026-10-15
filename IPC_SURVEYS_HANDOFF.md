@@ -7,7 +7,7 @@ evaluation; use this file to start or continue the companion piece in another ch
 
 ## Status, 14 October 2026 (later)
 
-- `output/cgd_paper/ipc_surveys_draft.tex` is now a standalone paper: "Counting Hunger, Missing Deaths: What Food Insecurity Phases Tell Us About Malnutrition and Mortality" (26 pp, compiles clean).
+- `output/cgd_paper/ipc_surveys_draft.tex` is now a standalone paper: "Hunger and Death in Humanitarian Crises" (placeholder title) (26 pp, compiles clean).
 - New sections:
   - why the link is weak (health breakdown, what kills);
   - where surveys don't go (survey timing + exclusions, from `side_survey_selection/`);
@@ -23,6 +23,11 @@ evaluation; use this file to start or continue the companion piece in another ch
   - Within a domain, a rainfall deficit raises GAM, CDR and child illness, but the IPC share does not respond to it.
   - Nothing predicts death rates in an unsurveyed domain.
   - Next step: the same test outside Somalia (SMART+ with CHIRPS/ACLED).
+- 15 Oct: where the money goes (`code/87`, `89`), Nigeria panels (`88`), aid bounds (`90`).
+  - **Findings:**
+    - Aid follows Phase 3+ counts more than deaths in Somalia and across countries, but not in Nigeria.
+    - Phases match surveys at predicting no-aid death rates only if all aid averts deaths at about $2.5–5k each.
+  - **Possible bug flagged by the Nigeria agent:** `27_shock_index.py`'s name-based ACLED match falls back to state totals for Abadam, Maiduguri, Wamako and Gulani. `88` matches on P-codes instead.
 - Still open:
   - items 1, 2 and 6 above;
   - Charles wants the "target downstream outcomes / deaths wherever they happen" proposal reviewed by practitioners before it is pushed hard.
