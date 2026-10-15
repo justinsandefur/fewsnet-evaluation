@@ -15,6 +15,7 @@ Writes stata/data/*.csv:
   foodsec.csv            WFP household indicators matched to FEWS NET's phase (as in 40_paper._foodsec)
   ch_inputs.csv          Cadre Harmonise input indicators and the CH phase (66)
   diem.csv               FAO DIEM household indicators matched to FEWS NET and IPC/CH phases (66, 92)
+  ch_class.csv           Cadre Harmonise analyses 2021-2023: indicator shares, indicator/dimension/area phases (93)
   newsurvey.csv          area-rounds for the new-survey regression (53.new_measurement)
   coverage.csv           area-rounds for survey coverage of Emergency areas (53.data_tables)
   report_surveys.csv     survey results quoted in FEWS NET's reports (53.survey_validation)
@@ -91,6 +92,20 @@ def foodsec():
     write(c, "ch_inputs.csv")
     dm = m[m.source == "fao_diem"][["area_id", "iso3", "month", "indicator", "value", "fews_cs", "ipc_phase"]]
     write(dm.assign(month=dm.month.astype(str)), "diem.csv")
+
+
+# ------------------------------------------------------------------ 93: the Cadre Harmonise's chain of evidence
+def ch_class():
+    d = pd.read_excel(INP / "foodsec_surveys" / "ch_hdx" / "cadre_harmonise_caf_ipc_mars26.xlsx")
+    d = d[d.chtype.str.lower().eq("current") & d.usethisperiod.eq("Y") & d.adm0_pcod3.ne("CAF")
+          & d.reference_year.between(2021, 2023)]
+    cols = ["adm0_pcod3", "phase_class", "foodconsumption_phase", "livelihoods_phase", "nutrition_phase",
+            "mortality_phase", "FCG_Poor", "FCG_Borderline", "FCG_Acceptable", "FCG_finalphase"]
+    cols += [f"HDDS_Phase{i}" for i in range(1, 6)] + ["HDDS_finalphase"]
+    cols += [f"HHS_Phase{i}" for i in range(1, 6)] + ["HHS_finalphase"]
+    cols += ["rCSI_Phase1", "rCSI_Phase2", "rCSI_Phase3", "rCSI_finalphase", "LhHCSCat_NoStrategies",
+             "LhHCSCat_StressStrategies", "LhHCSCat_CrisisStategies", "LhHCSCat_EmergencyStrategies", "LhHCSCat_finalphase"]
+    write(d[cols], "ch_class.csv")
 
 
 # ------------------------------------------------------------------ 53: surveys in FEWS NET's reports
@@ -215,5 +230,5 @@ def numbers():
 
 
 if __name__ == "__main__":
-    for f in [fsnau, smartplus, foodsec, reports, triggers, money, bounds, voi, gaps, numbers]:
+    for f in [fsnau, smartplus, foodsec, ch_class, reports, triggers, money, bounds, voi, gaps, numbers]:
         f()

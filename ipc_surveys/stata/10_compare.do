@@ -1,5 +1,5 @@
-* 09_compare.do
-* Lines up every number estimated in 01-08 with the value the Python pipeline wrote into the paper
+* 10_compare.do
+* Lines up every number estimated in 01-09 with the value the Python pipeline wrote into the paper
 * (output/cgd_paper/numbers*.tex, exported to data/python_numbers.csv by code/91_export_stata.py).
 *
 * status:
@@ -10,7 +10,7 @@
 
 do _setup.do
 cap log close
-log using "$OUT/09_compare.log", replace text
+log using "$OUT/10_compare.log", replace text
 
 clear
 local files : dir "$OUT" files "results_*.csv"

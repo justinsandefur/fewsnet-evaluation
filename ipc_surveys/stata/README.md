@@ -36,7 +36,8 @@ These do-files re-estimate every number in `output/cgd_paper/ipc_surveys_draft.p
 | `06_bounds.do` | §9, eq 5, Fig 9 | `90` | Counterfactual outcomes without aid, the breakdown cost per death, and the FEWS NET flag version. |
 | `07_survey_value.do` | §9, Fig 10 | `65`, `59` | The treatment-allocation model (greedy allocation, in Mata): extra deaths averted and the cost per death. |
 | `08_survey_gaps.do` | §10, Fig 11 | `side_survey_selection/code/03`, `06` | Survey timing on conflict and downturns (country and year effects), the conflict-onset event study, and what survey reports leave out. |
-| `09_compare.do` | – | – | Lines up every Stata number with the value printed in the paper. Writes `output/compare.csv`. |
+| `09_ch_classification.do` | §6, Table 1 | `93` | The Cadre Harmonisé's chain of evidence. The 20 percent rule against the analysts' phase for each indicator; the dimension against its indicators; the area phase by food consumption × livelihoods; and what nutrition and mortality phases add. |
+| `10_compare.do` | – | – | Lines up every Stata number with the value printed in the paper. Writes `output/compare.csv`. |
 
 **Helpers in `_setup.do`:**
 - `res` records an estimate under the paper's macro name, and `res_save` writes the recorded estimates to file.
@@ -46,7 +47,7 @@ These do-files re-estimate every number in `output/cgd_paper/ipc_surveys_draft.p
 
 ## How well it matches
 
-All 245 numbers the draft prints are identical at the paper's rounding. Another 342 estimates are computed but not printed in the current draft; `compare.csv` lists them as "not printed".
+All 265 numbers the draft prints are identical at the paper's rounding. Another 380 estimates are computed but not printed in the current draft; `compare.csv` lists them as "not printed".
 
 Three Stata choices produce standard errors that differ slightly from the Python code, but none shows at the paper's rounding:
 - **Somalia within-zone slopes and the SMART+ slopes:** `reghdfe` cluster-robust standard errors include degrees-of-freedom factors that the Python code leaves out.

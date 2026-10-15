@@ -43,7 +43,7 @@ These inputs cannot be downloaded again, so they are kept with the code (in the 
 2. Run the analysis scripts in numerical order.
 3. Scripts `84`–`90` write the `numbers_*.tex` files; `side_survey_selection/code/06`–`07` write the survey-gap figure and `numbers_gaps.tex`; `40_paper.py` writes the shared `numbers.tex`. Then compile `ipc_surveys_draft.tex`.
 
-4. Stata replication: `../.venv/bin/python code/91_export_stata.py`, then `do 00_master.do` from `stata/`. All 245 numbers the draft prints replicate at the paper's rounding; see `stata/README.md`.
+4. Stata replication: `../.venv/bin/python code/91_export_stata.py`, then `do 00_master.do` from `stata/`. All 265 numbers the draft prints replicate at the paper's rounding; see `stata/README.md`.
 
 **Population cache.** The value-of-information numbers depend on `input/panel/fnid_population.parquet`. That cache is shared with the other two papers. `code/36_benefit_cost.py` used to overwrite it with only the units requested; this paper's copy now adds to it instead. On 15 Oct 2026 the cache was rebuilt as a superset of all FEWS NET units (see `stata/README.md`).
 
@@ -120,6 +120,7 @@ These inputs cannot be downloaded again, so they are kept with the code (in the 
 | `89_cross_country_aid.py` | Across countries: does humanitarian funding follow people in Phase 3+, or deaths? |
 | `90_aid_bounds.py` | Bounding the survey-vs-phase horse race for the effect of aid. |
 | `92_diem_numbers.py` | FAO DIEM household surveys against FEWS NET and IPC/CH phases: the DIEM-only numbers (`numbers_diem.tex`). |
+| `93_ch_classification.py` | What it takes to be classified in Crisis: the Cadre Harmonisé's chain from indicators to indicator, dimension and area phases, 2021–2023 (`numbers_ch.tex`, Table 1). |
 | `91_export_stata.py` | Exports analysis-ready CSVs and the paper's numbers for the Stata replication (`stata/`). |
 
 **Paper numbers, tables and figures**

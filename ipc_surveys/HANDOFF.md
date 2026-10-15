@@ -34,6 +34,12 @@ evaluation; use this file to start or continue the companion piece in another ch
   - **Figures 1–2:** now show DIEM as green triangles.
   - **Pooled numbers changed:** food consumption correlation 0.41 → 0.34; the share of Phase 1–2 areas over the 20% line 71 → 73%.
   - **Not geographically matched:** 142 of 746 DIEM areas, mostly countries FEWS NET doesn't cover, plus Pakistan's districts.
+- **Cadre Harmonisé chain of evidence (`93`, Table 1 in §6), 15 Oct.**
+  - **Indicators:** analysts follow the 20% rule for dietary diversity, household hunger, reduced coping and livelihood coping, but use a milder threshold for food consumption.
+  - **Food consumption dimension:** usually takes the least severe of its indicators.
+  - **Area phase:** equals the food consumption phase in 82% of cases.
+  - **Nutrition and mortality:** add about 2 points of explained variation.
+  - **Correction:** an earlier chat-only estimate ("food consumption implies Phase 3+ in 70% of areas") used the wrong food-consumption threshold. It was never put in the paper.
 - Still open:
   - items 1, 2 and 6 above;
   - Charles wants the "target downstream outcomes / deaths wherever they happen" proposal reviewed by practitioners before it is pushed hard.
