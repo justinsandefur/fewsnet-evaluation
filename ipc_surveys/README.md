@@ -19,7 +19,7 @@ Every path in the code is relative to this folder, so the paper replicates on it
 ## Requirements
 
 - Python 3.9 with the packages in `requirements.txt` (the project's virtual environment is `../.venv`). Run scripts from this folder, e.g. `../.venv/bin/python code/40_paper.py`.
-- Stata 19 (StataNow MP), with `reghdfe` and `boottest` from SSC.
+- Stata 19 (StataNow MP), with `reghdfe` and `ftools` from SSC.
 - LaTeX (pdflatex, bibtex).
 
 ## Data
@@ -41,7 +41,9 @@ These inputs cannot be downloaded again, so they are kept with the code (in the 
 2. Run the analysis scripts in numerical order.
 3. Scripts `84`–`90` write the `numbers_*.tex` files; `side_survey_selection/code/06`–`07` write the survey-gap figure and `numbers_gaps.tex`; `40_paper.py` writes the shared `numbers.tex`. Then compile `ipc_surveys_draft.tex`.
 
-Stata: Not yet ported. See `STATA_PORT.md`.
+4. Stata replication: `../.venv/bin/python code/91_export_stata.py`, then `do 00_master.do` from `stata/`. All 222 numbers the draft prints replicate at the paper's rounding; see `stata/README.md`.
+
+**Population cache.** The value-of-information numbers depend on `input/panel/fnid_population.parquet`. That cache is shared with the other two papers. `code/36_benefit_cost.py` used to overwrite it with only the units requested; this paper's copy now adds to it instead. On 15 Oct 2026 the cache was rebuilt as a superset of all FEWS NET units (see `stata/README.md`).
 
 ## Scripts
 
@@ -95,7 +97,7 @@ Stata: Not yet ported. See `STATA_PORT.md`.
 | `32_forecast_value.py` | Does FEWS NET know something the public data don't, and does money follow it? |
 | `33_fewsnet_contribution.py` | What would donors know without FEWS NET? FEWS NET's contribution over raw data and other assessments. |
 | `34_official_projections.py` | FEWS NET's forecasts against the official multi-agency projections. |
-| `36_benefit_cost.py` | A crude benefit-cost calculation for FEWS NET. |
+| `36_benefit_cost.py` | A crude benefit-cost calculation for FEWS NET. Also builds the FEWS NET unit population cache, adding missing units only. |
 | `53_text_value.py` | Pilot: does the text of FEWS NET's reports carry information its maps don't, and where is FEWS NET short of data? Somalia, Ethiopia, Sudan, 2011-2024. |
 | `55_price_value.py` | How much do market prices help forecast food crises, and does price coverage matter? |
 | `57_fsnau_value.py` | Do scheduled survey results improve forecasts of measured malnutrition? Somalia, FSNAU seasonal assessments (post-Gu and post-Deyr), 2011-2024. |
@@ -115,6 +117,7 @@ Stata: Not yet ported. See `STATA_PORT.md`.
 | `87_aid_vs_need.py` | Where does humanitarian aid go: where the phases are, or where children are malnourished and dying? |
 | `89_cross_country_aid.py` | Across countries: does humanitarian funding follow people in Phase 3+, or deaths? |
 | `90_aid_bounds.py` | Bounding the survey-vs-phase horse race for the effect of aid. |
+| `91_export_stata.py` | Exports analysis-ready CSVs and the paper's numbers for the Stata replication (`stata/`). |
 
 **Paper numbers, tables and figures**
 

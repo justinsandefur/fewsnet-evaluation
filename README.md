@@ -10,7 +10,7 @@ Replication code, Stata files and paper source for two papers. Each sits in its 
 Each folder contains:
 
 - `code/`: Python, numbered in run order. It covers fetching data, building panels, the analysis, the paper's numbers (as LaTeX macros) and the figures.
-- `stata/`: the Stata replication of the core estimates. It is in progress; see `STATA_PORT.md`.
+- `stata/`: the Stata replication of the core estimates (done for `ipc_surveys/`; in progress for `fewsnet_evaluation/`, see its `STATA_PORT.md`).
 - `data/`: hand-built inputs that cannot be downloaded again: LLM-extracted report records, transcribed survey tables and crosswalks.
 - `output/`: tables, figures and the paper source and PDF (`output/cgd_paper/`).
 - `references/`: source notes and literature reviews.

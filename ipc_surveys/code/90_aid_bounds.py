@@ -93,6 +93,8 @@ p["nat_pc"] = p.t.apply(lambda t: nat_pc.get(t.year, nat_pc.median()))
 rel = p.need_p3 / p.groupby("season_id").need_p3.transform("mean")
 p["aid_pc"] = p.nat_pc * rel
 
+p.drop(columns=["dists", "fnids"], errors="ignore").assign(t=p.t.astype(str)).to_csv(
+    TAB / "aidbounds_panel.csv", index=False)                       # analysis panel, for the Stata port
 SETS = {"Phases": ["need_p3", "fews_cs", "fews_fc"], "Triggers": T.TRIG,
         "Previous survey": ["L_{y}", "L_morbidity", "L_measles"]}
 OUT = ["gam", "cdr", "u5dr"]

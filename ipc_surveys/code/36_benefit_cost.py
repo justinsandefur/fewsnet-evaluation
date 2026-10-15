@@ -105,10 +105,12 @@ def flagged_rounds():
 
 def populations(fnids):
     f = INP / "panel" / "fnid_population.parquet"
-    if f.exists():
-        p = pd.read_parquet(f)
-        if set(fnids) <= set(p.fnid):
-            return p
+    have = pd.read_parquet(f) if f.exists() else pd.DataFrame(columns=["fnid", "pop"])
+    if set(fnids) <= set(have.fnid):
+        return have
+    # compute only the missing units and ADD them to the shared cache (it used to be rewritten with
+    # exactly the requested units, which dropped units other scripts and papers rely on)
+    fnids = sorted(set(fnids) - set(have.fnid))
     units = FV.unit_geoms(fnids)
     codes = pd.DataFrame(json.loads((INP / "fewsnet" / "countries.json").read_text()))
     i23 = dict(zip(codes.iso3166a2, codes.iso3166a3))
@@ -129,7 +131,8 @@ def populations(fnids):
                 except Exception:
                     rows.append((fn, np.nan))
         print("population", iso, len(g), flush=True)
-    p = pd.DataFrame(rows, columns=["fnid", "pop"])
+    p = pd.concat([have, pd.DataFrame(rows, columns=["fnid", "pop"])], ignore_index=True)
+    p = p.drop_duplicates("fnid", keep="last")
     p.to_parquet(f, index=False)
     return p
 

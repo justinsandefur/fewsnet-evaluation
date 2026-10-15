@@ -1,6 +1,6 @@
 """Humanitarian funding by global cluster (destination), OCHA Financial Tracking Service, 2015-2024.
 Writes shares of all reported funding (including untagged) as LaTeX macros to
-output/cgd_paper/numbers_fts.tex and the table to output/tables/fts_cluster_shares.csv."""
+output/cgd_paper/numbers_fts.tex and the table to output/tables/fts_cluster_shares.csv (and amounts to fts_cluster_funding.csv)."""
 import json, subprocess
 from pathlib import Path
 import pandas as pd
@@ -18,6 +18,7 @@ d = pd.DataFrame(rows)
 tot = d.groupby("year").funding.sum()
 share = d.pivot_table(index="year", columns="cluster", values="funding", aggfunc="sum").fillna(0).div(tot, axis=0)
 share.to_csv(ROOT / "output" / "tables" / "fts_cluster_shares.csv")
+d.to_csv(ROOT / "output" / "tables" / "fts_cluster_funding.csv", index=False)     # amounts, for the Stata port
 pooled = d.groupby("cluster").funding.sum() / d.funding.sum()
 tagged = d[~d.cluster.isin(["Not specified", "Multi-sector", "Other"])]
 pooled_tagged = tagged.groupby("cluster").funding.sum() / tagged.funding.sum()

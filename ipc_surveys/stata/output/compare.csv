@@ -1,0 +1,527 @@
+name,stata,py_text,status,note,source
+amnAnyDiag,34.96846531184303,35,same,,results_01.csv
+amnAnyN,1427,"1,427",same,,results_01.csv
+arNgaPrtBase,.0016212886898102,0.00,not printed,,results_05.csv
+arNgaPrtN,138,138,not printed,,results_05.csv
+arNgaPrtPeriods,10,10,not printed,,results_05.csv
+arNgaPrtPhase,.0502849159603108,0.05,same,,results_05.csv
+arNgaPrtPhaseTrig,-.051316201302428,-0.05,not printed,,results_05.csv
+arNgaPrtSurv,.093222551212464,0.09,same,,results_05.csv
+arNgaPrtSurvTrig,.0999114331478648,0.10,not printed,,results_05.csv
+arNgaPrtTrig,-.0784340924193496,-0.08,not printed,,results_05.csv
+arNgaPrtUnits,62,62,not printed,,results_05.csv
+arNgaUsdBase,-.0013982072579228,-0.00,not printed,,results_05.csv
+arNgaUsdN,394,394,not printed,,results_05.csv
+arNgaUsdPeriods,16,16,not printed,,results_05.csv
+arNgaUsdPhase,.0558515506196433,0.06,not printed,,results_05.csv
+arNgaUsdPhaseTrig,-.204621414437997,-0.20,not printed,,results_05.csv
+arNgaUsdSurv,.0083717956043916,0.01,not printed,,results_05.csv
+arNgaUsdSurvTrig,-.0336552178575986,-0.03,not printed,,results_05.csv
+arNgaUsdTrig,-.0961154339545789,-0.10,not printed,,results_05.csv
+arNgaUsdUnits,181,181,same,,results_05.csv
+arSomPrtBase,.2047641606477166,0.20,same,,results_05.csv
+arSomPrtN,767,767,not printed,,results_05.csv
+arSomPrtPeriods,16,16,not printed,,results_05.csv
+arSomPrtPhase,.2510144713374083,0.25,not printed,,results_05.csv
+arSomPrtPhaseTrig,.2684640970183003,0.27,not printed,,results_05.csv
+arSomPrtSurv,.1963382446121101,0.20,not printed,,results_05.csv
+arSomPrtSurvTrig,.2634242675303945,0.26,not printed,,results_05.csv
+arSomPrtTrig,.2502412713737153,0.25,not printed,,results_05.csv
+arSomPrtUnits,67,67,same,,results_05.csv
+arSomRchBase,-.0008276611386493,-0.00,not printed,,results_05.csv
+arSomRchN,375,375,not printed,,results_05.csv
+arSomRchPeriods,9,9,not printed,,results_05.csv
+arSomRchPhase,.0349235882536205,0.03,not printed,,results_05.csv
+arSomRchPhaseTrig,.0424832209797076,0.04,not printed,,results_05.csv
+arSomRchSurv,-.0530206299287452,-0.05,not printed,,results_05.csv
+arSomRchSurvTrig,-.0185387014597425,-0.02,not printed,,results_05.csv
+arSomRchTrig,.0193093461819497,0.02,not printed,,results_05.csv
+arSomRchUnits,61,61,not printed,,results_05.csv
+arSomUsdBase,.0002378230834801,0.00,not printed,,results_05.csv
+arSomUsdN,926,926,not printed,,results_05.csv
+arSomUsdPeriods,19,19,same,,results_05.csv
+arSomUsdPhase,-.000886649794134,-0.00,not printed,,results_05.csv
+arSomUsdPhaseTrig,-.0079010216682911,-0.01,not printed,,results_05.csv
+arSomUsdSurv,.004772571801678,0.00,not printed,,results_05.csv
+arSomUsdSurvTrig,-.002820826917183,-0.00,not printed,,results_05.csv
+arSomUsdTrig,-.0061237464313808,-0.01,not printed,,results_05.csv
+arSomUsdUnits,68,68,not printed,,results_05.csv
+bdBreakCdrLast,2500,"2,500",same,,results_06.csv
+bdBreakCdrTrig,5000,"5,000",not printed,,results_06.csv
+bdBreakGamLast,20000,"20,000",same,,results_06.csv
+bdBreakGamTrig,20000,"20,000",not printed,,results_06.csv
+bdBreakUfiveLast,5000,"5,000",same,,results_06.csv
+bdBreakUfiveTrig,5000,"5,000",not printed,,results_06.csv
+bdCdrFivekLast,.0312520896937519,0.03,not printed,,results_06.csv
+bdCdrFivekPhase,.0179450747183758,0.02,not printed,,results_06.csv
+bdCdrFivekTrig,.0120764908279996,0.01,not printed,,results_06.csv
+bdCdrFlagBLast,.1296512318790515,0.13,not printed,,results_06.csv
+bdCdrFlagBPhase,-.0108527721448639,-0.01,not printed,,results_06.csv
+bdCdrFlagBTrig,.1115122907845114,0.11,not printed,,results_06.csv
+bdCdrFlagWLast,.1750769117952896,0.18,not printed,,results_06.csv
+bdCdrFlagWPhase,-.0285380932371699,-0.03,not printed,,results_06.csv
+bdCdrFlagWTrig,.1145965464899786,0.11,not printed,,results_06.csv
+bdCdrNoneLast,.1772261883028015,0.18,not printed,,results_06.csv
+bdCdrNonePhase,-.0325634017403986,-0.03,not printed,,results_06.csv
+bdCdrNoneTrig,.0988642387034809,0.10,not printed,,results_06.csv
+bdCdrOnekLast,-.0573500224413828,-0.06,not printed,,results_06.csv
+bdCdrOnekPhase,.2189281271386952,0.22,not printed,,results_06.csv
+bdCdrOnekTrig,-.0737653271533629,-0.07,not printed,,results_06.csv
+bdFlag,14.13225167384974,14,same,,results_06.csv
+bdGamFivekLast,-.0305915696058743,-0.03,not printed,,results_06.csv
+bdGamFivekPhase,.2675201766408781,0.27,not printed,,results_06.csv
+bdGamFivekTrig,-.0477363794955576,-0.05,not printed,,results_06.csv
+bdGamFlagBLast,.3401975974159875,0.34,same,,results_06.csv
+bdGamFlagBPhase,.0401740957164262,0.04,same,,results_06.csv
+bdGamFlagBTrig,.1975486967937985,0.20,not printed,,results_06.csv
+bdGamFlagWLast,.4021036801744198,0.40,not printed,,results_06.csv
+bdGamFlagWPhase,.0369950895175881,0.04,not printed,,results_06.csv
+bdGamFlagWTrig,.2128540988669158,0.21,not printed,,results_06.csv
+bdGamNoneLast,.4028077685161159,0.40,not printed,,results_06.csv
+bdGamNonePhase,.0362498746911236,0.04,not printed,,results_06.csv
+bdGamNoneTrig,.2090032979996042,0.21,not printed,,results_06.csv
+bdGamOnekLast,-.0547019196729066,-0.05,not printed,,results_06.csv
+bdGamOnekPhase,.2927528155194058,0.29,not printed,,results_06.csv
+bdGamOnekTrig,-.07695137112263,-0.08,not printed,,results_06.csv
+bdNatPc,25.04951243360041,25,same,,results_06.csv
+bdUfiveFivekLast,.0168228299429707,0.02,not printed,,results_06.csv
+bdUfiveFivekPhase,.0559216268836598,0.06,not printed,,results_06.csv
+bdUfiveFivekTrig,.0509403566166545,0.05,not printed,,results_06.csv
+bdUfiveFlagBLast,.0742426851718357,0.07,same,,results_06.csv
+bdUfiveFlagBPhase,-.0550589385116176,-0.06,same,,results_06.csv
+bdUfiveFlagBTrig,.1172737966009064,0.12,not printed,,results_06.csv
+bdUfiveFlagWLast,.1418038921274443,0.14,not printed,,results_06.csv
+bdUfiveFlagWPhase,-.0466571263778297,-0.05,not printed,,results_06.csv
+bdUfiveFlagWTrig,.1808102613750161,0.18,not printed,,results_06.csv
+bdUfiveNoneLast,.1546756615891213,0.15,not printed,,results_06.csv
+bdUfiveNonePhase,-.0358068527412108,-0.04,not printed,,results_06.csv
+bdUfiveNoneTrig,.1864959793744128,0.19,not printed,,results_06.csv
+bdUfiveOnekLast,-.0547398247634374,-0.05,not printed,,results_06.csv
+bdUfiveOnekPhase,.2401906937006945,0.24,not printed,,results_06.csv
+bdUfiveOnekTrig,-.0631656673467424,-0.06,not printed,,results_06.csv
+chCountries,18,18,same,,results_02.csv
+chFcsCorr,.3310917133523694,0.33,same,,results_02.csv
+chHhsCorr,.339091861113359,0.34,same,,results_02.csv
+chLcsCorr,.1482551761733994,0.15,same,,results_02.csv
+chN,2805,"2,805",same,,results_02.csv
+chRcsiCorr,.0445588605999642,0.04,same,,results_02.csv
+disNgaPrtDeaths,24.06520862281848,24,same,,results_05.csv
+disNgaPrtMaln,27.69983889081821,28,not printed,,results_05.csv
+disNgaPrtPop,25.81017911568865,26,not printed,,results_05.csv
+disNgaPrtPthree,22.75067335927397,23,same,,results_05.csv
+disNgaPrtUfive,28.10490298142044,28,not printed,,results_05.csv
+disNgaUsdDeaths,74.98343802596207,75,not printed,,results_05.csv
+disNgaUsdMaln,71.65555365026056,72,not printed,,results_05.csv
+disNgaUsdPop,76.66862888818316,77,not printed,,results_05.csv
+disNgaUsdPthree,71.87515988165769,72,not printed,,results_05.csv
+disNgaUsdUfive,77.44100185343866,77,not printed,,results_05.csv
+disSomPrtDeaths,37.69666003990573,38,same,,results_05.csv
+disSomPrtMaln,30.12621961230008,30,same,,results_05.csv
+disSomPrtPop,29.14736165087154,29,same,,results_05.csv
+disSomPrtPthree,28.91148884982621,29,same,,results_05.csv
+disSomPrtUfive,44.04870808135476,44,same,,results_05.csv
+disSomRchDeaths,45.45320047497722,45,same,,results_05.csv
+disSomRchMaln,37.8299209223435,38,same,,results_05.csv
+disSomRchPop,37.25876385655031,37,same,,results_05.csv
+disSomRchPthree,32.56809650588492,33,same,,results_05.csv
+disSomRchUfive,52.32948957569334,52,same,,results_05.csv
+disSomUsdDeaths,72.67757365097816,73,not printed,,results_05.csv
+disSomUsdMaln,70.71855491898555,71,not printed,,results_05.csv
+disSomUsdPop,72.25420034849411,72,not printed,,results_05.csv
+disSomUsdPthree,74.59869772243965,75,not printed,,results_05.csv
+disSomUsdUfive,71.16077285777197,71,not printed,,results_05.csv
+exCalm,23.07692307692308,23,same,,results_08.csv
+exCampsIn,10,10,same,,results_08.csv
+exCampsOut,4,4,same,,results_08.csv
+exCampsSilent,91.76470588235294,92,same,,results_08.csv
+exDesignConflict,18.9873417721519,19,not printed,,results_08.csv
+exDisplQ,6,6,same,,results_08.csv
+exMinor,46.83544303797468,47,same,,results_08.csv
+exReports,170,170,same,,results_08.csv
+exWar,65.38461538461539,65,same,,results_08.csv
+fdwN,389,389,same,,results_01.csv
+fdwSlope,3.310249537820856,3.3,same,,results_01.csv
+fdwSlopeSe,1.07333427860087,1.1,not printed,,results_01.csv
+fsAll,1248,"1,248",same,,results_01.csv
+fsAucFc,.4678899082568807,0.47,same,,results_01.csv
+fsAucLag,.752001668056715,0.75,same,,results_01.csv
+fsCorrAfter,.0881758213546379,0.09,same,,results_01.csv
+fsCorrFc,.0965869431844164,0.10,same,,results_01.csv
+fsCorrLag,.6568573791501704,0.66,same,,results_01.csv
+fsCrit,33.1306990881459,33,same,,results_01.csv
+fsFcOnLag,.0872044897563981,0.09,same,,results_01.csv
+fsFcOnLagSe,.0477393066053426,0.05,same,,results_01.csv
+fsFcsCorr,.4070230425241504,0.41,same,,results_02.csv
+fsFcsCorrArea,.1456895764913995,0.15,same,,results_02.csv
+fsFcsCorrCty,.2659199198079188,0.27,same,,results_02.csv
+fsFcsFour,45.86721435178839,46,same,,results_02.csv
+fsFcsHighUnder,5.090909090909091,5,same,,results_02.csv
+fsFcsLowOver,71.3015873015873,71,same,,results_02.csv
+fsFcsOne,28.37202725355955,28,same,,results_02.csv
+fsFcsThree,47.41802813894439,47,same,,results_02.csv
+fsFcsTwo,34.98132027215895,35,same,,results_02.csv
+fsFoodAreas,478,478,same,,results_02.csv
+fsFoodCountries,29,29,same,,results_02.csv
+fsGam,13.41823708206687,13,same,,results_01.csv
+fsGamFour,15.33536585365854,15,same,,results_01.csv
+fsGamThree,12.74299065420561,13,same,,results_01.csv
+fsGamTwo,13.38314917127072,13,same,,results_01.csv
+fsLead,3,3,same,,results_01.csv
+fsMortFc,-.0712421029585024,-0.07,same,,results_01.csv
+fsMortLag,.2047641561306496,0.20,same,,results_01.csv
+fsN,329,329,same,,results_01.csv
+fsRcsiCorr,.3514722770952469,0.35,same,,results_02.csv
+fsRcsiCorrArea,.2469275308612102,0.25,same,,results_02.csv
+fsRcsiCorrCty,.2496620620517302,0.25,same,,results_02.csv
+fsRcsiFour,45.13939343260724,45,same,,results_02.csv
+fsRcsiHighUnder,3.557692307692307,4,same,,results_02.csv
+fsRcsiLowOver,78.46260387811634,78,same,,results_02.csv
+fsRcsiOne,33.49140721172862,33,same,,results_02.csv
+fsRcsiThree,48.59369065977415,49,same,,results_02.csv
+fsRcsiTwo,35.32334213077868,35,same,,results_02.csv
+fsRtwoBoth,.4119436120825316,0.41,same,,results_01.csv
+fsRtwoFc,-.1025119636992304,-0.10,same,,results_01.csv
+fsRtwoLag,.4160977205066884,0.42,same,,results_01.csv
+fsSeasons,28,28,same,,results_01.csv
+fsZones,29,29,same,,results_01.csv
+ftsFood,26.52742452888506,27,same,,results_05.csv
+ftsFoodTag,38.45202842277047,38,not printed,,results_05.csv
+ftsHealth,9.992334625197433,10,same,,results_05.csv
+ftsHealthTag,14.48408738660444,14,not printed,,results_05.csv
+ftsNutrition,4.325015493314401,4,same,,results_05.csv
+ftsNutritionTag,6.269195808916991,6,not printed,,results_05.csv
+ftsUntagged,29.94215964554275,30,same,,results_05.csv
+ftsWash,3.829622714926781,4,same,,results_05.csv
+ftsWashTag,5.551114143120368,6,not printed,,results_05.csv
+ftsYearOne,2024,2024,same,,results_05.csv
+ftsYearZero,2015,2015,same,,results_05.csv
+gapAnyDown,2.150336056340197,2.2,same,,results_08.csv
+gapAnyDownSe,1.24696879554823,1.2,same,,results_08.csv
+gapAnyMinor,5.493192813992483,5.5,same,,results_08.csv
+gapAnyMinorSe,2.243065671542055,2.2,same,,results_08.csv
+gapAnyWar,6.76720621527446,6.8,same,,results_08.csv
+gapAnyWarSe,3.30272121630602,3.3,same,,results_08.csv
+gapBase,15.75483340189223,16,same,,results_08.csv
+gapBaseDhs,7.363225010283833,7.4,same,,results_08.csv
+gapCountries,143,143,same,,results_08.csv
+gapDhsDown,2.167299370866919,2.2,same,,results_08.csv
+gapDhsDownSe,.8557283492773857,0.9,same,,results_08.csv
+gapDhsMinor,4.488411229206155,4.5,same,,results_08.csv
+gapDhsMinorSe,1.580239350182076,1.6,same,,results_08.csv
+gapDhsWar,3.883397341093983,3.9,same,,results_08.csv
+gapDhsWarSe,1.982936913359514,2.0,same,,results_08.csv
+gapMicsDown,-.8074361450456301,-0.8,not printed,,results_08.csv
+gapMicsDownSe,1.014574528591641,1.0,not printed,,results_08.csv
+gapMicsMinor,1.031684529529061,1.0,not printed,,results_08.csv
+gapMicsMinorSe,1.248796368644515,1.2,not printed,,results_08.csv
+gapMicsWar,2.868008253443924,2.9,not printed,,results_08.csv
+gapMicsWarSe,2.321254355972643,2.3,not printed,,results_08.csv
+gapOnsetDrop,12.32813143583478,12,same,,results_08.csv
+gapOnsetDropSe,5.77141426103401,6,not printed,,results_08.csv
+gapOnsets,54,54,same,,results_08.csv
+gapYearOne,2023,2023,same,,results_08.csv
+gapYearZero,1990,1990,same,,results_08.csv
+hrNgaPrtCdr,.2618700830325684,0.26,not printed,,results_05.csv
+hrNgaPrtCdrSe,.0846352768901605,0.08,not printed,,results_05.csv
+hrNgaPrtGam,.1044205862490482,0.10,not printed,,results_05.csv
+hrNgaPrtGamSe,.0779796905045234,0.08,not printed,,results_05.csv
+hrNgaPrtPthree,.0850174558553459,0.09,not printed,,results_05.csv
+hrNgaPrtPthreeSe,.0810864146964827,0.08,not printed,,results_05.csv
+hrNgaPrtUfive,-.1714888959545269,-0.17,not printed,,results_05.csv
+hrNgaPrtUfiveSe,.0613961592312104,0.06,not printed,,results_05.csv
+hrNgaUsdCdr,.1337017905781863,0.13,not printed,,results_05.csv
+hrNgaUsdCdrSe,.0526131138185974,0.05,not printed,,results_05.csv
+hrNgaUsdGam,.0047456814839482,0.00,not printed,,results_05.csv
+hrNgaUsdGamSe,.0195723332052976,0.02,not printed,,results_05.csv
+hrNgaUsdPthree,.0870873679881316,0.09,not printed,,results_05.csv
+hrNgaUsdPthreeSe,.0314428561779692,0.03,not printed,,results_05.csv
+hrNgaUsdUfive,-.0423769806012351,-0.04,not printed,,results_05.csv
+hrNgaUsdUfiveSe,.0251882067955434,0.03,not printed,,results_05.csv
+hrSomPrtCdr,-.0173878137677154,-0.02,not printed,,results_05.csv
+hrSomPrtCdrSe,.0408293893673962,0.04,not printed,,results_05.csv
+hrSomPrtGam,.0488641884419009,0.05,not printed,,results_05.csv
+hrSomPrtGamSe,.0390777064493605,0.04,not printed,,results_05.csv
+hrSomPrtPthree,.1632402746169664,0.16,same,,results_05.csv
+hrSomPrtPthreeSe,.0315085112400819,0.03,same,,results_05.csv
+hrSomPrtUfive,-.0566902409064876,-0.06,same,,results_05.csv
+hrSomPrtUfiveSe,.0606281812451944,0.06,same,,results_05.csv
+hrSomRchCdr,-.0302104465496793,-0.03,not printed,,results_05.csv
+hrSomRchCdrSe,.1367258693956711,0.14,not printed,,results_05.csv
+hrSomRchGam,.0444504057613985,0.04,not printed,,results_05.csv
+hrSomRchGamSe,.1300269054961977,0.13,not printed,,results_05.csv
+hrSomRchPthree,.3944165972688071,0.39,same,,results_05.csv
+hrSomRchPthreeSe,.0878525941403173,0.09,same,,results_05.csv
+hrSomRchUfive,-.3064150599527946,-0.31,same,,results_05.csv
+hrSomRchUfiveSe,.1715963409931029,0.17,same,,results_05.csv
+hrSomUsdCdr,.0191104896016547,0.02,not printed,,results_05.csv
+hrSomUsdCdrSe,.0343018347237477,0.03,not printed,,results_05.csv
+hrSomUsdGam,.0782452568331262,0.08,not printed,,results_05.csv
+hrSomUsdGamSe,.025345854795314,0.03,not printed,,results_05.csv
+hrSomUsdPthree,.0390775827340926,0.04,not printed,,results_05.csv
+hrSomUsdPthreeSe,.0264522751231157,0.03,not printed,,results_05.csv
+hrSomUsdUfive,-.0181831755592565,-0.02,not printed,,results_05.csv
+hrSomUsdUfiveSe,.0326380290887801,0.03,not printed,,results_05.csv
+hrWNgaPrtCdr,-.0026228383708594,-0.00,not printed,,results_05.csv
+hrWNgaPrtCdrSe,.0553281260557228,0.06,not printed,,results_05.csv
+hrWNgaPrtGam,.0755109055126657,0.08,not printed,,results_05.csv
+hrWNgaPrtGamSe,.0697090925892487,0.07,not printed,,results_05.csv
+hrWNgaPrtPthree,-.01863560810622,-0.02,not printed,,results_05.csv
+hrWNgaPrtPthreeSe,.0663314846770074,0.07,not printed,,results_05.csv
+hrWNgaPrtUfive,-.0053408626255866,-0.01,not printed,,results_05.csv
+hrWNgaPrtUfiveSe,.0449200221868562,0.04,not printed,,results_05.csv
+hrWNgaUsdCdr,-.0288735082790852,-0.03,not printed,,results_05.csv
+hrWNgaUsdCdrSe,.0588209851894348,0.06,not printed,,results_05.csv
+hrWNgaUsdGam,-.1878065076082833,-0.19,not printed,,results_05.csv
+hrWNgaUsdGamSe,.0844505509177323,0.08,not printed,,results_05.csv
+hrWNgaUsdPthree,.0934454188800515,0.09,not printed,,results_05.csv
+hrWNgaUsdPthreeSe,.0973808503228322,0.10,not printed,,results_05.csv
+hrWNgaUsdUfive,-.0127724807429964,-0.01,not printed,,results_05.csv
+hrWNgaUsdUfiveSe,.055766063479045,0.06,not printed,,results_05.csv
+hrWSomPrtCdr,.0361199111414108,0.04,not printed,,results_05.csv
+hrWSomPrtCdrSe,.0214938526152569,0.02,not printed,,results_05.csv
+hrWSomPrtGam,.0552472244304227,0.06,same,,results_05.csv
+hrWSomPrtGamSe,.0198002179666684,0.02,same,,results_05.csv
+hrWSomPrtPthree,.071897044783446,0.07,same,,results_05.csv
+hrWSomPrtPthreeSe,.0190472205012158,0.02,same,,results_05.csv
+hrWSomPrtUfive,-.0724953527526973,-0.07,same,,results_05.csv
+hrWSomPrtUfiveSe,.0166951785397633,0.02,same,,results_05.csv
+hrWSomRchCdr,.0819538733213737,0.08,not printed,,results_05.csv
+hrWSomRchCdrSe,.123426713823021,0.12,not printed,,results_05.csv
+hrWSomRchGam,.1383553545682802,0.14,not printed,,results_05.csv
+hrWSomRchGamSe,.0801881273686805,0.08,not printed,,results_05.csv
+hrWSomRchPthree,.1805781074148864,0.18,same,,results_05.csv
+hrWSomRchPthreeSe,.0767100125018578,0.08,same,,results_05.csv
+hrWSomRchUfive,-.2660184470447527,-0.27,not printed,,results_05.csv
+hrWSomRchUfiveSe,.1621323008398078,0.16,not printed,,results_05.csv
+hrWSomUsdCdr,.0316677621560292,0.03,not printed,,results_05.csv
+hrWSomUsdCdrSe,.0428115318751306,0.04,not printed,,results_05.csv
+hrWSomUsdGam,.1030565928943623,0.10,same,,results_05.csv
+hrWSomUsdGamSe,.0411004690110111,0.04,same,,results_05.csv
+hrWSomUsdPthree,-.0189206248173611,-0.02,not printed,,results_05.csv
+hrWSomUsdPthreeSe,.0327618912396548,0.03,not printed,,results_05.csv
+hrWSomUsdUfive,-.0274517356957321,-0.03,not printed,,results_05.csv
+hrWSomUsdUfiveSe,.0465074948730953,0.05,not printed,,results_05.csv
+ldCdrBase,-.0774424347123681,-0.08,not printed,,results_04.csv
+ldCdrConf,-.1003217316720468,-0.10,not printed,,results_04.csv
+ldCdrPhase,-.1139748598819308,-0.11,not printed,,results_04.csv
+ldCdrPhaseTrig,-.0976402747269469,-0.10,not printed,,results_04.csv
+ldCdrTrig,-.0542895847378104,-0.05,same,,results_04.csv
+ldGamBase,-.0655303291750327,-0.07,not printed,,results_04.csv
+ldGamConf,.1007685552198366,0.10,not printed,,results_04.csv
+ldGamPhase,-.0822812646998403,-0.08,not printed,,results_04.csv
+ldGamPhaseTrig,.0826158497826992,0.08,not printed,,results_04.csv
+ldGamTrig,.0962744363464406,0.10,same,,results_04.csv
+ldSamBase,-.054913964428529,-0.05,not printed,,results_04.csv
+ldSamConf,.1326302294452114,0.13,not printed,,results_04.csv
+ldSamPhase,-.0697661556442584,-0.07,not printed,,results_04.csv
+ldSamPhaseTrig,.1344927596616496,0.13,not printed,,results_04.csv
+ldSamTrig,.1501266946327403,0.15,same,,results_04.csv
+ldUfiveBase,-.0875981461547934,-0.09,not printed,,results_04.csv
+ldUfiveConf,.0122343373784615,0.01,not printed,,results_04.csv
+ldUfivePhase,-.0809465748421621,-0.08,not printed,,results_04.csv
+ldUfivePhaseTrig,-.0095146522678833,-0.01,not printed,,results_04.csv
+ldUfiveTrig,.0144792030610772,0.01,same,,results_04.csv
+ngCdrBase,-.1141081552179302,-0.11,not printed,,results_04.csv
+ngCdrLast,.0701617170895116,0.07,not printed,,results_04.csv
+ngCdrLastTrig,-.5680612520960162,-0.57,not printed,,results_04.csv
+ngCdrPhase,-.1725186909104206,-0.17,not printed,,results_04.csv
+ngCdrPhaseTrig,-.3489521083510381,-0.35,not printed,,results_04.csv
+ngCdrTrig,-.2410706374057996,-0.24,not printed,,results_04.csv
+ngGamBase,-.0616664917558531,-0.06,not printed,,results_04.csv
+ngGamLast,.0478402857480181,0.05,not printed,,results_04.csv
+ngGamLastTrig,-.0744812165265647,-0.07,not printed,,results_04.csv
+ngGamPhase,-.00458833566529,-0.00,not printed,,results_04.csv
+ngGamPhaseTrig,.1325552693507207,0.13,not printed,,results_04.csv
+ngGamTrig,-.0729360593314072,-0.07,not printed,,results_04.csv
+ngN,105,105,same,,results_04.csv
+ngNlast,57,57,not printed,,results_04.csv
+ngRounds,20,20,not printed,,results_04.csv
+ngSamBase,-.0523530366896021,-0.05,not printed,,results_04.csv
+ngSamPhase,-.028165573253494,-0.03,not printed,,results_04.csv
+ngSamPhaseTrig,.0289791774236536,0.03,not printed,,results_04.csv
+ngSamTrig,-.099372103205388,-0.10,not printed,,results_04.csv
+ngSlope,2.723411375661374,2.7,same,,results_01.csv
+ngSlopeSe,.8200904306227478,0.8,not printed,,results_01.csv
+ngUfiveBase,-.0725652282111302,-0.07,not printed,,results_04.csv
+ngUfiveLast,-.1249622150219265,-0.12,not printed,,results_04.csv
+ngUfiveLastTrig,-.6767562760795307,-0.68,not printed,,results_04.csv
+ngUfivePhase,-.1970849880793208,-0.20,not printed,,results_04.csv
+ngUfivePhaseTrig,-.3627774447327008,-0.36,not printed,,results_04.csv
+ngUfiveTrig,-.2095695002909832,-0.21,not printed,,results_04.csv
+nsCritUp,11.90604011821215,11.9,same,,results_03.csv
+nsOkUp,14.80435468646046,14.8,same,,results_03.csv
+nsUp,8.804124323923118,8.8,same,,results_03.csv
+nsUpBase,10.22315048917226,10,same,,results_03.csv
+nsUpSe,3.06642839142257,3.1,same,,results_03.csv
+spCdrFour,.30957425,0.31,same,,results_01.csv
+spCdrOne,.3228320714285715,0.32,same,,results_01.csv
+spCdrSlope,-.0039303312365056,0.00,same,,results_01.csv
+spCdrSlopeIpc,.1661199213041794,0.17,same,,results_01.csv
+spCdrSlopeIpcSe,.0465926714835477,0.05,same,,results_01.csv
+spCdrSlopeSe,.0395732909408133,0.04,same,,results_01.csv
+spCdrThree,.3970575490196079,0.40,same,,results_01.csv
+spCdrTwo,.4501463469387755,0.45,same,,results_01.csv
+spGamFour,17.68104375,18,same,,results_01.csv
+spGamOne,8.922381250000001,9,same,,results_01.csv
+spGamThree,10.85051571428571,11,same,,results_01.csv
+spGamTwo,9.806486153846153,10,same,,results_01.csv
+spN,246,246,same,,results_01.csv
+spNfews,167,167,same,,results_01.csv
+spSlope,1.760728054040185,1.8,same,,results_01.csv
+spSlopeSe,.5368240275576911,0.5,same,,results_01.csv
+svEmergET,67.46611053180396,67,same,,results_03.csv
+svEmergSD,14.28571428571428,14,same,,results_03.csv
+svEmergSO,54.44785276073619,54,same,,results_03.csv
+svTotal,263,263,same,,results_03.csv
+svvRound,235384.6153846154,"240,000",same,a,results_07.csv
+sysCh,9442,"9,442",not printed,,results_05.csv
+sysClass,30324,"30,324",same,,results_05.csv
+sysIpc,20882,"20,882",not printed,,results_05.csv
+sysMort,150,150,same,,results_05.csv
+sysMortCountries,6,6,same,,results_05.csv
+sysYearOne,2025,2025,same,,results_05.csv
+sysYearZero,2022,2022,same,,results_05.csv
+tpCereal,1.391479618785447,1.4,not printed,,results_04.csv
+tpCerealSe,.6647513946918089,0.7,not printed,,results_04.csv
+tpDry,-.7557323931433785,-0.8,same,,results_04.csv
+tpFat,2.092930636508638,2.1,same,,results_04.csv
+tpFatSe,.8021751950845615,0.8,same,,results_04.csv
+tpRain,-.3454270868795195,-0.3,not printed,,results_04.csv
+tpRainSe,.6278765538180383,0.6,not printed,,results_04.csv
+tpRainyr,.7557323931433785,0.8,not printed,,results_04.csv
+tpRainyrSe,.6628211773275063,0.7,same,,results_04.csv
+trCdrBase,.016549226394528,0.02,not printed,,results_04.csv
+trCdrLast,.1772261883028015,0.18,not printed,,results_04.csv
+trCdrLastTrig,.1986956118784743,0.20,not printed,,results_04.csv
+trCdrPhase,-.0325634017403986,-0.03,not printed,,results_04.csv
+trCdrPhaseTrig,.0651118938582959,0.07,not printed,,results_04.csv
+trCdrTrig,.0988642387034809,0.10,not printed,,results_04.csv
+trGamBase,.0594871549427164,0.06,not printed,,results_04.csv
+trGamLast,.4028077685161159,0.40,same,,results_04.csv
+trGamLastTrig,.39873536281457,0.40,not printed,,results_04.csv
+trGamPhase,.0362498746911236,0.04,same,,results_04.csv
+trGamPhaseTrig,.2014124453822093,0.20,not printed,,results_04.csv
+trGamTrig,.2090032979996043,0.21,same,,results_04.csv
+trN,458,458,same,,results_04.csv
+trSamBase,.0522439580482058,0.05,not printed,,results_04.csv
+trSamLast,.2962923114005099,0.30,not printed,,results_04.csv
+trSamLastTrig,.3169533080731054,0.32,not printed,,results_04.csv
+trSamPhase,.0258142243159967,0.03,not printed,,results_04.csv
+trSamPhaseTrig,.20656356941222,0.21,not printed,,results_04.csv
+trSamTrig,.2383069050167386,0.24,not printed,,results_04.csv
+trSeasons,19,19,not printed,,results_04.csv
+trSingleConfCdr,.0178001349135518,0.02,not printed,,results_04.csv
+trSingleConfGam,.200393785392753,0.20,same,,results_04.csv
+trSingleConfSam,.2209726318091502,0.22,not printed,,results_04.csv
+trSingleConfUfive,.1375140701835422,0.14,same,,results_04.csv
+trUfiveBase,.0339198989527276,0.03,not printed,,results_04.csv
+trUfiveLast,.1546756615891213,0.15,same,,results_04.csv
+trUfiveLastTrig,.2149336129563942,0.21,same,,results_04.csv
+trUfivePhase,-.0358068527412108,-0.04,same,,results_04.csv
+trUfivePhaseTrig,.1383205324323941,0.14,not printed,,results_04.csv
+trUfiveTrig,.1864959793744128,0.19,same,,results_04.csv
+trYearOne,2026,2026,same,,results_04.csv
+trYearZero,2015,2015,same,,results_04.csv
+twCdrCereal,.0126805912162805,0.013,not printed,,results_04.csv
+twCdrCerealSe,.0160698514479297,0.016,not printed,,results_04.csv
+twCdrDry,.0318439769098672,0.032,same,,results_04.csv
+twCdrDrySe,.0136390812686011,0.014,same,,results_04.csv
+twCdrFat,.0282753018783002,0.028,not printed,,results_04.csv
+twCdrFatSe,.0192470149423996,0.019,not printed,,results_04.csv
+twCdrPthree,.0513954989569363,0.051,same,,results_04.csv
+twCdrPthreeSe,.0173197647662562,0.017,same,,results_04.csv
+twCdrRain,.0005641911261396,0.001,not printed,,results_04.csv
+twCdrRainSe,.0165138300042423,0.017,not printed,,results_04.csv
+twCdrRainyr,-.0318439769098672,-0.032,not printed,,results_04.csv
+twCdrRainyrSe,.0136390812686011,0.014,not printed,,results_04.csv
+twGamCereal,.158203985539247,0.16,not printed,,results_04.csv
+twGamCerealSe,.1948853397639231,0.19,not printed,,results_04.csv
+twGamDry,1.020153776640918,1.0,same,,results_04.csv
+twGamDrySe,.2530441963863375,0.3,same,,results_04.csv
+twGamFat,.1953247076801229,0.20,not printed,,results_04.csv
+twGamFatSe,.2853114838529145,0.29,not printed,,results_04.csv
+twGamPthree,.1769852220823174,0.18,not printed,,results_04.csv
+twGamPthreeSe,.1489138584238522,0.15,not printed,,results_04.csv
+twGamRain,.4589796557081557,0.46,not printed,,results_04.csv
+twGamRainSe,.2180521495865589,0.22,not printed,,results_04.csv
+twGamRainyr,-1.020153776640918,-1.02,not printed,,results_04.csv
+twGamRainyrSe,.2530441963863375,0.25,not printed,,results_04.csv
+twMorbCereal,-.3147349506167689,-0.31,not printed,,results_04.csv
+twMorbCerealSe,.5372957997609136,0.54,not printed,,results_04.csv
+twMorbDry,1.343447959714126,1.3,same,,results_04.csv
+twMorbDrySe,.5449230807470719,0.5,same,,results_04.csv
+twMorbFat,1.475672188728037,1.48,not printed,,results_04.csv
+twMorbFatSe,.9566352993245331,0.96,not printed,,results_04.csv
+twMorbPthree,.2103386781897225,0.21,not printed,,results_04.csv
+twMorbPthreeSe,.6204726607065491,0.62,not printed,,results_04.csv
+twMorbRain,1.205678979127203,1.21,not printed,,results_04.csv
+twMorbRainSe,.4985320763956241,0.50,not printed,,results_04.csv
+twMorbRainyr,-1.343447959714126,-1.34,not printed,,results_04.csv
+twMorbRainyrSe,.5449230807470719,0.54,not printed,,results_04.csv
+twSamCereal,.0821930566665973,0.08,not printed,,results_04.csv
+twSamCerealSe,.0754881324870015,0.08,not printed,,results_04.csv
+twSamDry,.2375996429236616,0.2,same,,results_04.csv
+twSamDrySe,.0791473022315859,0.1,same,,results_04.csv
+twSamFat,-.0096102584375428,-0.01,not printed,,results_04.csv
+twSamFatSe,.0980407190077901,0.10,not printed,,results_04.csv
+twSamPthree,.1406206455926009,0.14,not printed,,results_04.csv
+twSamPthreeSe,.0565024738221016,0.06,not printed,,results_04.csv
+twSamRain,.1477966185329983,0.15,not printed,,results_04.csv
+twSamRainSe,.0690898858285473,0.07,not printed,,results_04.csv
+twSamRainyr,-.2375996429236616,-0.24,not printed,,results_04.csv
+twSamRainyrSe,.0791473022315859,0.08,not printed,,results_04.csv
+twUfiveCereal,.0253628174518688,0.025,not printed,,results_04.csv
+twUfiveCerealSe,.0202037648571561,0.020,not printed,,results_04.csv
+twUfiveDry,.0366942959318692,0.037,not printed,,results_04.csv
+twUfiveDrySe,.0280535234563058,0.028,not printed,,results_04.csv
+twUfiveFat,.0481449738127366,0.048,not printed,,results_04.csv
+twUfiveFatSe,.0463810570383671,0.046,not printed,,results_04.csv
+twUfivePthree,.1178047123611299,0.118,not printed,,results_04.csv
+twUfivePthreeSe,.0524091905021635,0.052,not printed,,results_04.csv
+twUfiveRain,-.0337864520434457,-0.034,not printed,,results_04.csv
+twUfiveRainSe,.0263496966150039,0.026,not printed,,results_04.csv
+twUfiveRainyr,-.0366942959318692,-0.037,not printed,,results_04.csv
+twUfiveRainyrSe,.0280535234563058,0.028,not printed,,results_04.csv
+voiBase,5650.50723602345,"5,651",same,a,results_07.csv
+voiCostFull,1932.356946581555,"1,900",same,a,results_07.csv
+voiCostZero,1404.195164850739,"1,400",same,a,results_07.csv
+voiGainFull,121.812181647404,122,same,a,results_07.csv
+voiGainZero,167.6295583952078,168,same,a,results_07.csv
+voiOracleFull,26.86963866347897,27,same,a,results_07.csv
+voiOracleZero,13.26766720116118,13,same,a,results_07.csv
+voiRangeHi,2187.658997456622,"2,200",same,a,results_07.csv
+voiRangeLo,1246.829192428045,"1,200",same,a,results_07.csv
+voiSamShare,16.39713470277452,16,same,a,results_07.csv
+voiSeasons,26,26,same,a,results_07.csv
+voiZones,11.76923076923077,12,same,a,results_07.csv
+wzCdrZone,.1191233691182677,0.12,same,,results_01.csv
+wzCdrZoneSe,.0301136924555277,0.03,same,,results_01.csv
+wzCdrZoneSeason,.0806452180029373,0.08,not printed,,results_01.csv
+wzCdrZoneSeasonSe,.0386153265233759,0.04,not printed,,results_01.csv
+wzGamZone,.8297159439459253,0.8,same,,results_01.csv
+wzGamZoneSe,.2972739638262816,0.3,same,,results_01.csv
+wzGamZoneSeason,.5493734190282912,0.5,same,,results_01.csv
+wzGamZoneSeasonSe,.3348881088267829,0.3,not printed,,results_01.csv
+wzUfiveZone,.2505752752552509,0.25,not printed,,results_01.csv
+wzUfiveZoneSe,.0657156999288485,0.07,not printed,,results_01.csv
+wzUfiveZoneSeason,.1366900763482916,0.14,not printed,,results_01.csv
+wzUfiveZoneSeasonSe,.0790207204950897,0.08,not printed,,results_01.csv
+xcCountries,67,67,same,,results_05.csv
+xcDisBattle,61.13305284816173,61,not printed,,results_05.csv
+xcDisPop,53.80813510037292,54,not printed,,results_05.csv
+xcDisPthree,37.03869834060286,37,same,,results_05.csv
+xcDisUfive,56.64040475498957,57,same,,results_05.csv
+xcElastBattle,.2787634193533914,0.28,same,,results_05.csv
+xcElastBattleSe,.0427901831990172,0.04,same,,results_05.csv
+xcElastPthree,.4642799574112157,0.46,same,,results_05.csv
+xcElastPthreeSe,.0940927271389595,0.09,same,,results_05.csv
+xcElastUfive,-.2149067992641543,-0.21,same,,results_05.csv
+xcElastUfiveSe,.1391555702921608,0.14,same,,results_05.csv
+xcN,468,468,not printed,,results_05.csv
+xcRtwoAll,.606510838809917,0.61,not printed,,results_05.csv
+xcRtwoBattle,.5402426188312173,0.54,not printed,,results_05.csv
+xcRtwoPop,.3080964595226418,0.31,not printed,,results_05.csv
+xcRtwoPthree,.4761918867756356,0.48,not printed,,results_05.csv
+xcRtwoUfive,.3056307032956495,0.31,not printed,,results_05.csv
+xcYearOne,2024,2024,same,,results_05.csv
+xcYearZero,2016,2016,same,,results_05.csv
