@@ -1,0 +1,9 @@
+baseline,sample,model,auc,events,n
+raw data,all areas,baseline,0.8680862486644654,5968,21410
+raw data,all areas,baseline + FEWS NET,0.9080745812923425,5968,21410
+raw data,areas not in Crisis at last analysis,baseline,0.7894938584101967,1009,12776
+raw data,areas not in Crisis at last analysis,baseline + FEWS NET,0.8512652718547434,1009,12776
+raw data + latest Cadre Harmonise / IPC,all areas,baseline,0.9052308248143274,5968,21410
+raw data + latest Cadre Harmonise / IPC,all areas,baseline + FEWS NET,0.9211484694261983,5968,21410
+raw data + latest Cadre Harmonise / IPC,areas not in Crisis at last analysis,baseline,0.8420983056965934,1009,12776
+raw data + latest Cadre Harmonise / IPC,areas not in Crisis at last analysis,baseline + FEWS NET,0.8606216188239725,1009,12776

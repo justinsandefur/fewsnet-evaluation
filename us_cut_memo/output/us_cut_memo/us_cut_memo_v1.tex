@@ -1,0 +1,382 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.9in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{newpxtext,newpxmath}
+\usepackage[scaled=0.9]{helvet}
+\usepackage{microtype,graphicx,xcolor,enumitem,caption,float,booktabs,tabularx,array}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
+\definecolor{navy}{HTML}{1F4E79}
+\captionsetup{font=small,labelfont={bf,sf},justification=raggedright,singlelinecheck=false}
+\setlength{\parskip}{4pt}\setlength{\parindent}{0pt}
+\setlist{itemsep=1pt,topsep=2pt,leftmargin=1.2em}
+\newcommand{\hd}[1]{\par\medskip{\sffamily\large\bfseries\color{navy}#1}\par}
+\newcommand{\sh}[1]{\par\smallskip{\sffamily\bfseries #1}\par}
+\input{numbers.tex}
+\input{numbers_aiddep.tex}
+\input{numbers_need.tex}
+\input{numbers_fs.tex}
+\input{numbers_ipc.tex}
+\input{numbers_nga.tex}
+\input{numbers_dlv.tex}
+\input{numbers_mkt.tex}
+\input{numbers_eth.tex}
+
+\begin{document}
+{\sffamily{\small\color{navy}RESEARCH MEMO \textbullet{} \today}\\[3pt]{\Large\bfseries The 2025 US aid cut and humanitarian outcomes:\\ evidence from Somalia, Nigeria and Ethiopia}}
+
+\medskip
+This memo asks whether places that lost more aid when the US withdrew in 2025 saw child malnutrition, mortality or food insecurity worsen more than places that lost less. Somalia has the best data: seasonal nutrition surveys of the same zones since 2010, and monthly district records of food, cash and nutrition aid delivered. Nigeria has annual nutrition surveillance on fixed zones. Ethiopia has delivery records and FEWS NET classifications but no usable nutrition outcomes. The analysis is framed as instrumental variables: pre-cut exposure should predict a fall in delivered aid (the first stage) before a zero effect on outcomes means anything. Code: \texttt{code/68}--\texttt{76}.
+
+\hd{Bottom line}
+\textbf{What the evidence supports:} in all three countries, we do not detect that places losing more aid deteriorated more, on the outcomes available. \textbf{What it does not support:} a conclusion that the cut caused no meaningful harm. Where we can measure a fall in delivered aid, the confidence intervals still allow several points of extra child wasting, and harm spread evenly across places is invisible to this design.
+\begin{enumerate}
+  \item \textbf{The shock was large.} US humanitarian funding fell \nUsDrop\% in Somalia (\$\nUsTwentyFour{}M to \$\nUsTwentyFive{}M) and from \$\nngUsTf{}M to \$\nngUsTv{}M in Nigeria. In Somalia food and cash reach fell \ndvFscDrop\%, cash recipients halved, food distributions to newly displaced people went from \ndpFoodPre\% of sites to about \ndpFoodTsix\% by 2026, and funding per person in IPC Phase 3+ fell \nPerPDrop\%.
+  \item \textbf{Records of which partners worked where do not show where the cut landed.} In Somalia and Nigeria, partners funded by the US were no more likely to disappear than others, and US reliance does not predict partner loss. About half of all humanitarian money, and most of WFP's and UNICEF's, was American, so the cut reached everyone.
+  \item \textbf{Delivered aid does show a location-specific first stage, in food and cash} (Section 5). In Somalia, aid-dependent districts lost the most food and cash in January--June 2025 (F $\approx$ \ndvFFscLIdxGu), and US-reliant districts lost the largest proportion of cash (F $\approx$ \nfsFLogUs). In Ethiopia, zones served by the USAID-funded JEOP food programme lost food activity (F $\approx$ \netFFoodJeop). Nutrition treatment fell roughly evenly, with no first stage in any country.
+  \item \textbf{Scaled by that first stage, effects on wasting are not pinned down.} In Somalia, at the average loss of food and cash the two-stage estimate is \ndvIvAtFscLIdxGamGu{} points of wasting (95\% interval \ndvIvAtLoFscLIdxGamGu{} to \ndvIvAtHiFscLIdxGamGu); at the average loss of cash recipients, \nivAtMeanReachIdxGam{} (\nivAtMeanLoReachIdxGam{} to \nivAtMeanHiReachIdxGam). Against a 13\% baseline, a one-point increase cannot be excluded.
+  \item \textbf{Reduced forms are small and imprecise everywhere.} Somalia: \nbPredGam{} points of wasting per 10 points of US reliance (interval \nloPredGam{} to \nhiPredGam), \nbIdxGam{} per s.d.\ of aid dependence. Nigeria: \nngBUsGam{} per s.d.\ of US reliance. IPC, Cadre Harmonis\'e and FEWS NET food-insecurity classifications show no detectable effect either.
+  \item \textbf{A few signals, none decisive.} Somalia: effects are larger in the second post-cut season, larger where food insecurity was already high (for US reliance only), and drought- and hunger-related displacement out of districts rose more where cash fell more (\ndpBOutCash{} per 1,000 per \$10, $p=\ndpPOutCash$). Nigeria: zones that lost more partners had more severe wasting (\nngBLossSam{} per s.d., $p=\nngPLossSam$) and higher death rates. Allowing exposure-specific pre-trends pushes Somalia estimates toward harm.
+  \item \textbf{The surveys did not lose sight of affected places} (37 of 38 Somali domains surveyed in 2024 were surveyed again in 2025), and wasting fell almost everywhere in Nigeria in 2025 after a severe 2024.
+  \item \textbf{Exploratory:} in Somalia, wasting became much more tightly tied to food insecurity in 2024--25 (Section 4), a trend that began before the cut.
+\end{enumerate}
+
+\hd{1. Design}
+\textbf{Outcome.} FSNAU SMART surveys, 2015--2025: \nRows{} survey results in \nDomains{} domains (\nDomRural{} rural livelihood zones, \nDomIdp{} displaced-people sites, \nDomUrban{} towns) across \nRegions{} regions. \nPostRows{} results in \nPostDomains{} domains come after the cut (post-Gu 2025, around June--July, and post-Deyr 2025/26, around November--December). The primary outcome is child wasting (weight-for-height, the standard measure, \nYmeanPredGam\% on average before 2025). Secondary outcomes are severe wasting, wasting by arm circumference, stunting, underweight, recent illness, death rates, and two services: measles vaccination and vitamin A supplementation. Ad hoc surveys fielded by individual NGOs are excluded, since their timing is chosen.
+
+\textbf{Exposure, measured two ways.}
+\begin{itemize}
+  \item \emph{Predicted reliance} is fixed before the cut. OCHA's 2024 who-works-where records (\nDonorRows{} activity rows) name the donor of each activity. We score each partner--sector--district as US-funded (USAID, BHA, State) $=1$; funded through a UN agency $=$ that agency's US share in Somalia in 2023--24 (WFP \nWfpUs\%, UNICEF \nUnicefUs\%, UNHCR \nUnhcrUs\%); other donors $=0$. Where a row has no usable donor (\nDonorInfo\% do), we use the organisation's own average; only \nUnitsImputed\% of \nUnits{} partner units need a type-average guess. A district's reliance is the US-funded share of its partners in nutrition, health, food security and water/sanitation. It ranges from \nEpredMin\% to \nEpredMax\% across \nDistricts{} districts.
+  \item \emph{Actual partner loss} is the fall in the average number of partners reporting in those sectors, April--October 2025 versus April--October 2024 (median district: \nElossMed\%).
+\end{itemize}
+Domains take the population-weighted average of their districts (rural zones via FEWS NET's livelihood units; camps and towns via their district).
+
+\textbf{Model.} Wasting in domain $i$ and season $t$ depends on a domain effect, a season effect specific to rural, camp or town populations, and exposure $\times$ post-2025, controlling for rainfall over the previous six months and conflict deaths. This is a difference-in-differences across places with continuous treatment. Standard errors are clustered by region; with only \nRegions{} regions we report wild-bootstrap $p$-values.
+
+\hd{2. Results}
+\begin{table}[H]\centering\small
+\caption{Change after the 2025 cut per 10 percentage points of exposure}
+\begin{tabular}{@{}lccccccc@{}}
+\toprule
+& Mean & \multicolumn{2}{c}{Predicted reliance} & \multicolumn{2}{c}{Actual partner loss} & \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Outcome (children 6--59 months) & before & Estimate (s.e.) & $p$ & Estimate (s.e.) & $p$ & $N$/post\\
+\midrule
+\multicolumn{7}{@{}l}{\emph{Acute malnutrition (\%)}}\\
+\quad Wasting, weight-for-height & \nymPredGam & \nbPredGam{} (\nsePredGam) & \npPredGam & \nbLossGam{} (\nseLossGam) & \npLossGam & \nnPredGam/\npostPredGam \\
+\quad Severe wasting, weight-for-height & \nymPredSam & \nbPredSam{} (\nsePredSam) & \npPredSam & \nbLossSam{} (\nseLossSam) & \npLossSam & \nnPredSam/\npostPredSam \\
+\quad Wasting, arm circumference & \nymPredMuac & \nbPredMuac{} (\nsePredMuac) & \npPredMuac & \nbLossMuac{} (\nseLossMuac) & \npLossMuac & \nnPredMuac/\npostPredMuac \\
+\quad Severe wasting, arm circumference & \nymPredMuacSam & \nbPredMuacSam{} (\nsePredMuacSam) & \npPredMuacSam & \nbLossMuacSam{} (\nseLossMuacSam) & \npLossMuacSam & \nnPredMuacSam/\npostPredMuacSam \\
+\multicolumn{7}{@{}l}{\emph{Chronic malnutrition and illness (\%)}}\\
+\quad Stunting & \nymPredStunt & \nbPredStunt{} (\nsePredStunt) & \npPredStunt & \nbLossStunt{} (\nseLossStunt) & \npLossStunt & \nnPredStunt/\npostPredStunt \\
+\quad Underweight & \nymPredUwt & \nbPredUwt{} (\nsePredUwt) & \npPredUwt & \nbLossUwt{} (\nseLossUwt) & \npLossUwt & \nnPredUwt/\npostPredUwt \\
+\quad Ill in past two weeks & \nymPredMorb & \nbPredMorb{} (\nsePredMorb) & \npPredMorb & \nbLossMorb{} (\nseLossMorb) & \npLossMorb & \nnPredMorb/\npostPredMorb \\
+\multicolumn{7}{@{}l}{\emph{Mortality (deaths per 10,000 per day)}}\\
+\quad Crude death rate & \nymPredCdr & \nbPredCdr{} (\nsePredCdr) & \npPredCdr & \nbLossCdr{} (\nseLossCdr) & \npLossCdr & \nnPredCdr/\npostPredCdr \\
+\quad Under-5 death rate & \nymPredUfive & \nbPredUfive{} (\nsePredUfive) & \npPredUfive & \nbLossUfive{} (\nseLossUfive) & \npLossUfive & \nnPredUfive/\npostPredUfive \\
+\multicolumn{7}{@{}l}{\emph{Services received (\%)}}\\
+\quad Measles vaccination & \nymPredMeas & \nbPredMeas{} (\nsePredMeas) & \npPredMeas & \nbLossMeas{} (\nseLossMeas) & \npLossMeas & \nnPredMeas/\npostPredMeas \\
+\quad Vitamin A supplement & \nymPredVita & \nbPredVita{} (\nsePredVita) & \npPredVita & \nbLossVita{} (\nseLossVita) & \npLossVita & \nnPredVita/\npostPredVita \\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize $p$-values from a restricted wild cluster bootstrap by region (Webb weights). Domain and population-type$\times$season effects; rainfall and conflict controls. $N$/post: survey results in total and after the cut. Stunting and underweight are not reported for 2018--2023 (stunting returns in Deyr 2024; underweight only in Gu 2025), so their pre-cut comparison rests mostly on 2015--2017.
+\end{table}
+
+\textbf{Acute malnutrition} points slightly worse where exposure was higher, but no single estimate is clearly different from zero. The four wasting measures respond to actual partner loss with $p$ between \npLossMuac{} and \npLossGam. \textbf{Chronic malnutrition does not move}: stunting is if anything lower where more partners left (\nbLossStunt, $p=\npLossStunt$), as expected for a measure that builds over years; underweight has too little recent data to say anything. \textbf{Child illness} rises \nbLossMorb{} points per 10 points of partner loss ($p=\npLossMorb$). \textbf{Mortality is flat.}
+
+\textbf{Services} give the clearest sign of a mechanism, though still imprecise. Where more partners were lost, fewer children had received measles vaccination (\nbLossMeas{} points, $p=\npLossMeas$) or a vitamin A supplement (\nbLossVita{} points, $p=\npLossVita$). Predicted reliance shows no such pattern, consistent with its lack of link to actual partner loss. With 11 outcomes and two exposures, a couple of $p$-values near 0.05--0.10 are what chance alone would produce.
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.92\textwidth]{../figures/som_uscut_event.pdf}
+\caption{Year-by-year differences by exposure, relative to 2024 (95\% intervals). Before 2025 the coefficients bounce around zero (joint test $p=\nPreP$ and $\nPrePLoss$), and 2025 is at or just above the top of the earlier range.}
+\end{figure}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.62\textwidth]{../figures/som_uscut_raw.pdf}
+\caption{Average wasting in domains above and below the median of predicted reliance. More-reliant places were consistently \emph{better off} before 2025. From 2024 to 2025 wasting rose \nRawHigh{} points in the more-reliant group and \nRawLow{} in the less-reliant one.}
+\end{figure}
+
+\hd{3. Treating the cut as a shock to all humanitarian aid}
+Sections 1--2 looked for places hit harder because \emph{their} partners were US-funded. That premise looks wrong for Somalia: about half of all humanitarian money and roughly \nWfpUs\% of WFP's was American, and every channel was cut. The alternative is to treat 2025 as a shock to aid as a whole and ask whether places that \emph{depended more on aid} did worse (\texttt{code/69\_somalia\_aid\_dependence.py}).
+
+\textbf{Aid dependence} is measured per person in each district in 2024, before the cut, three ways from OCHA's records: cash and in-kind transfers (\$\nAdUsd{}M reported), people reached per month in food, nutrition, health and water, and partners present. The three agree closely (correlations \nAdCorrUsReach, \nAdCorrUsdPartners{} and \nAdCorrReachPartners), and they line up with FEWS NET's 2023 flag for areas where aid was holding the situation up by at least one phase (about \nAdCorrFlag). Unlike US reliance, this is a coherent definition of ``treated''. The main measure is the average of the three, standardised. It does not predict which districts lost partners in 2025 either ($r=\nAdCorrLoss$), another sign the presence records are a poor guide to where the cut bit.
+
+\textbf{Two tests.} (1) The difference-in-differences of Section 1 with dependence in place of US reliance, now also controlling for local cereal and goat prices and a 12-month rainfall anomaly. (2) A prediction test. For each year from 2017 to 2025, a model fitted on the other pre-2025 years predicts each domain's outcome from its own average, the season, a trend, rainfall, conflict and prices. If the cut hurt aid-dependent places, their 2025 outcomes should fall short of prediction by more than other places', and by more than in earlier years.
+
+\begin{table}[H]\centering\small
+\caption{Aid dependence: difference-in-differences and prediction gaps}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+& \multicolumn{2}{c}{Change after cut, per s.d.} & \multicolumn{4}{c}{2025 prediction error (actual minus predicted)}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-7}
+Outcome & Estimate (s.e.) & $p$ & More dep. & Less dep. & Gap & Earlier years $\geq$ \\
+\midrule
+Wasting, weight-for-height (\%) & \nbIdxGam{} (\nseIdxGam) & \npIdxGam & \ngapHiGam & \ngapLoGam & \ngapGapGam & \ngapGapRankGam/\ngapN \\
+Severe wasting (\%) & \nbIdxSam{} (\nseIdxSam) & \npIdxSam & \ngapHiSam & \ngapLoSam & \ngapGapSam & \ngapGapRankSam/\ngapN \\
+Wasting, arm circumference (\%) & \nbIdxMuac{} (\nseIdxMuac) & \npIdxMuac & \ngapHiMuac & \ngapLoMuac & \ngapGapMuac & \ngapGapRankMuac/\ngapN \\
+Stunting (\%) & \nbIdxStunt{} (\nseIdxStunt) & \npIdxStunt & -- & -- & -- & -- \\
+Ill in past two weeks (\%) & \nbIdxMorb{} (\nseIdxMorb) & \npIdxMorb & -- & -- & -- & -- \\
+Crude death rate & \nbIdxCdr{} (\nseIdxCdr) & \npIdxCdr & \ngapHiCdr & \ngapLoCdr & \ngapGapCdr & \ngapGapRankCdr/\ngapN \\
+Under-5 death rate & \nbIdxUfive{} (\nseIdxUfive) & \npIdxUfive & \ngapHiUfive & \ngapLoUfive & \ngapGapUfive & \ngapGapRankUfive/\ngapN \\
+Measles vaccination (\%) & \nbIdxMeas{} (\nseIdxMeas) & \npIdxMeas & \ngapHiMeas & \ngapLoMeas & \ngapGapMeas & \ngapGapRankMeas/\ngapN \\
+Vitamin A supplement (\%) & \nbIdxVita{} (\nseIdxVita) & \npIdxVita & \ngapHiVita & \ngapLoVita & \ngapGapVita & \ngapGapRankVita/\ngapN \\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize Left: season effects common to all domains, so camps versus villages count as variation in dependence; season effects specific to rural, camp and town populations give the same answers. Right: domains above and below the median of dependence; ``Earlier years $\geq$'' counts the years 2017--2024 in which the gap was at least as large in absolute value (a placebo-in-time test: a 2025 gap larger than all \ngapN{} would be the strongest result this design can give).
+\end{table}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.92\textwidth]{../figures/som_aiddep_gaps.pdf}
+\caption{Wasting relative to the rainfall--conflict--price prediction, by year. Both groups were above prediction in 2025 (by \ngapHiGam{} and \ngapLoGam{} points), but less so than in 2017 or 2022, and the gap between them is the smallest of any year since 2017.}
+\end{figure}
+
+\textbf{Results.}
+\begin{itemize}
+  \item \textbf{Wasting: no detectable difference.} Per standard deviation of dependence the change is \nbIdxGam{} points ($p=\npIdxGam$). Each component alone gives the same: dollars \nbUsdGam, reach \nbReachGam, partners \nbPartGam, FEWS NET's flag \nbFlagGam; displaced-people sites versus everyone else \nbIdpGam{} ($p=\npIdpGam$). The standard error, \nseIdxGam{} points per s.d., rules out effects much above 1--1.5 points.
+  \item \textbf{Countrywide, 2025 was above prediction but not unusually so.} Wasting ran \ngapMeanGam{} points above prediction; \ngapMeanRankGam{} of the \ngapN{} earlier years missed by as much.
+  \item \textbf{Death rates are the one hint, and it is weak.} Crude deaths rise \nbIdxCdr{} per 10,000 per day per s.d.\ of dependence ($p=\npIdxCdr$; the pre-cut mean is \nymIdxCdr), under-5 deaths \nbIdxUfive{} ($p=\npIdxUfive$). But death rates were \emph{below} prediction everywhere in 2025, and the gap between more- and less-dependent places was already as large in 2023--24 as in 2025.
+  \item \textbf{Services did not fall.} Measles vaccination ran \ngapMeanMeas{} points \emph{above} prediction countrywide in 2025 (more than in any earlier year) and vitamin A \ngapMeanVita{} points above. That looks like a vaccination campaign or a change in how the question is asked, not a collapse in services, and it argues against reading Section 2's partner-loss results as a services channel.
+\end{itemize}
+
+\textbf{What this adds.} ``More aid-dependent'' is well defined and stable across measures, and places that were more aid-dependent did not see wasting rise more in 2025. That weakens the simple story in which every previously aid-dependent place deteriorated. It is not evidence that the cut did no harm: harm could have been spread evenly, aid could have been redirected toward the places most likely to deteriorate, or it could appear in outcomes or seasons these surveys miss. Section 5 asks how much aid these places actually lost, which is what is needed to read these estimates as bounds.
+
+\hd{4. Need, response and suffering}
+This section asks how big the response was, and how much suffering there was, for a given level of need, before and after the cut (\texttt{code/70\_somalia\_need\_response.py}). \textbf{Need} is measured two ways: people in IPC Phase 3+ (the official food-insecurity classification, summed from IPC areas to \nNeedDistricts{} districts) and people in need from the annual humanitarian needs overview. \textbf{Response} is humanitarian funding (national), cash and voucher transfers by district (Cash Working Group, which reports districts the same way in 2024 and 2025), partners present, and people reached. \textbf{Suffering} is survey-measured wasting and death rates.
+
+\sh{Scale}
+\begin{table}[H]\centering\small
+\caption{Need and response, Somalia}
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+& 2022 & 2023 & 2024 & 2025 & 2026\\
+\midrule
+Humanitarian funding (\$M) & \nFundTtwo & \nFundTthree & \nFundTfour & \nFundTfive & partial\\
+People in IPC Phase 3+ (M, mean of rounds) & \nPthreeMTtwo & \nPthreeMTthree & \nPthreeMTfour & \nPthreeMTfive & --\\
+People in need (M, needs overview) & -- & -- & \nPinMTfour & \nPinMTfive & \nPinMTsix\\
+Funding per person in Phase 3+ (\$) & \nPerPTtwo & \nPerPTthree & \nPerPTfour & \nPerPTfive & \\
+Funding per person in need (\$) & -- & -- & \nPerPinTfour & \nPerPinTfive & \\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize Funding: FTS commitments and payments to Somalia by decision date. Phase 3+: official IPC area classifications.
+\end{table}
+Funding fell \nFundDrop\% from 2024 to 2025 while the number of people in Phase 3+ changed by \nPthreeChange\%, so funding per person in Phase 3+ fell \nPerPDrop\%. (Per person it had already fallen sharply after the 2022 drought response.) Cash transfers reached \nCashReachTfour{} million people a month in January--June 2024 and \nCashReachTfive{} million in January--June 2025 (down \nCashReachDrop\%).
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.85\textwidth]{../figures/som_need_national.pdf}
+\caption{Humanitarian funding to Somalia by donor, and funding per person in IPC Phase 3+.}
+\end{figure}
+
+\sh{Where the cut fell, relative to need}
+Districts are grouped into thirds by the share of their population in Phase 3+. Figure~\ref{fig:targeting} shows each group's response per person in Phase 3+, relative to the national average.
+\begin{itemize}
+  \item \textbf{Cash.} Per person in Phase 3+, January--June cash fell from \$\nCashPerLowTfour{} to \$\nCashPerLowTfive{} in the least food-insecure third of districts (down \nCashPerDropLow\%), and from \$\nCashPerHighTfour{} to \$\nCashPerHighTfive{} in the most food-insecure third (down \nCashPerDropHigh\%). Across districts, cash tracked the number of people in Phase 3+ more closely after the cut (elasticity \nelCashPthreeFour{} in 2024, \nelCashPthreeFive{} in 2025). The cut was absorbed partly by trimming less needy places. But the most food-insecure districts still received the least per person in need, before and after.
+  \item \textbf{Partners and people reached} show the same direction. The low-need third's share of partners per person in need fell from \nloPartPthreeFour{} to \nloPartPthreeSix{} times the national average by 2026, and its share of people reached from \nloReachPthreeFour{} to \nloReachPthreeSix. (People reached comes from different monitoring systems in 2024 and 2026, so only shares are compared.)
+  \item \textbf{A location-specific US shock does show up in cash.} The fall in a district's share of cash correlates with its 2024 US-funded share of partners ($r=\nCorrCashUs$) and with partner loss ($r=\nCorrCashPart$), but not with need ($r=\nCorrCashNeed$). Used as the exposure in the difference-in-differences of Section 1, cash loss predicts no change in wasting (\ndaCashGam{} points per s.d., $p=\ndapCashGam$) or deaths. Partner loss in the same April--June window gives \ndaPartGam{} ($p=\ndapPartGam$) for wasting and \ndaPartSam{} ($p=\ndapPartSam$) for severe wasting.
+\end{itemize}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.95\textwidth]{../figures/som_need_targeting.pdf}
+\caption{Response per person in IPC Phase 3+ by district need tercile, relative to the national average for that year ($=1$). Cash: 2024 vs January--June 2025. Partners: April--June each year. People reached: 2024 (OCHA 3W) vs January--March 2026 (HNRP monitoring).}\label{fig:targeting}
+\end{figure}
+
+\sh{Suffering conditional on need (exploratory)}
+If aid had been holding malnutrition down where food insecurity was worst, removing it should make wasting rise more in places with more people in Phase 3+. Within each year, we relate survey wasting to the share of the domain's population in Phase 3+ at the IPC round before the survey (Figure~\ref{fig:slopeyear}).
+\begin{itemize}
+  \item \textbf{Before 2024 the relationship was flat or negative.} Places classified as more food-insecure did not have more wasting (average \nAllSlopePreFirst{} points per 10 percentage points of Phase 3+, 2018--2023). Aid targeted at those places may have held wasting down, or the two scales simply measure different things.
+  \item \textbf{It turned positive in 2024 and steep in 2025}: \nsyAllGamtf{} points per 10 points in 2024 and \nsyAllGamtv{} in 2025, the highest of any year. Main-season (Gu) surveys alone, matched to the February round that does not use their results, give \nsyGuGamtv. Pooled, the post-2025 steepening is \nscIpcGam{} points per 10 points ($p=\nscpIpcGam$); severe wasting \nscIpcSam{} ($p=\nscpIpcSam$). Death rates show no such change.
+  \item \textbf{Need measured from rainfall, conflict and prices} instead of IPC classifications shows no clear steepening (Section 3's prediction model).
+\end{itemize}
+This is the pattern one would expect if aid had been buffering the most food-insecure places and the cut removed some of that buffer. But it started in 2024, before the cut, while aid per person in need was already falling after the 2022 drought response, so it is better read as a trend that 2025 extended than as a clean effect of the cut. IPC methods could also have changed in ways that link the food-insecurity classification more closely to nutrition data. Gu 2026 surveys will show whether the slope keeps rising.
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.62\textwidth]{../figures/som_need_slope_year.pdf}
+\caption{Within-year relationship between wasting and the share of the population in IPC Phase 3+, 2018--2025 (95\% intervals; 2022 has too few Gu surveys with a prior round to show separately).}\label{fig:slopeyear}
+\end{figure}
+
+\hd{5. First stage: did exposure predict a fall in delivered aid?}
+An external review pointed out that a zero reduced form says little unless exposure predicts an actual fall in aid. We therefore frame the analysis as instrumental variables. Pre-cut exposure (aid dependence, or US reliance) is the instrument; the fall in aid delivered is the endogenous variable; survey outcomes are the result (\texttt{code/71\_somalia\_first\_stage.py}). The only delivered-aid measure we have for 2024 and 2025 on the same basis is the Cash Working Group's district data. January--June 2025 is exactly the window before the Gu 2025 surveys, so the two-stage estimates use Gu 2025 as the post-cut season.
+
+\sh{First stage}
+Cash per resident in January--June fell from \$\nfsCashPopTfour{} to \$\nfsCashPopTfive{} (population-weighted). Across \nNeedDistricts{} districts:
+\begin{itemize}
+  \item \textbf{Absolute loss.} Aid dependence predicts dollars lost per resident (F $\approx$ \nfsFAbsIdx, clustered by region) and cash recipients lost per resident (F $\approx$ \nfsFReachIdx). Places that had more aid lost more, largely because they had more to lose.
+  \item \textbf{Proportional loss.} US reliance predicts the proportional fall in cash (F $\approx$ \nfsFLogUs; \nfsFLogUsW{} population-weighted) but not the absolute fall (F $\approx$ \nfsFAbsUs).
+\end{itemize}
+These answer different questions, so both are carried forward. At the level of survey domains, which average several districts, two combinations keep strong first stages: aid dependence $\rightarrow$ cash recipients lost (F $\approx$ \nivFReachIdxGam) and US reliance $\rightarrow$ proportional cash loss (F $\approx$ \nivFLogUsGam). Aid dependence $\rightarrow$ dollars lost weakens to F $\approx$ \nivFAbsIdxGam{} and is reported only with weak-instrument-robust intervals.
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth]{../figures/som_fs_firststage.pdf}
+\caption{First stage across districts. Left: aid dependence in 2024 and cash lost per resident, January--June 2025 vs 2024. Right: US-funded share of partners in 2024 and the proportional fall in cash. Marker size = population.}
+\end{figure}
+
+\sh{Two-stage estimates}
+\begin{table}[H]\centering\small
+\caption{Effect of lost cash on outcomes, Gu 2025 (two-stage least squares)}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+& Recipients lost & Proportional & Dollars lost \\
+& per 100 residents & cash loss & per \$10/resident \\
+Instrument & aid dependence & US reliance & aid dependence \\
+First-stage F (domains) & \nivFReachIdxGam & \nivFLogUsGam & \nivFAbsIdxGam \\
+\midrule
+Wasting (\%) & \nivBReachIdxGam{} [\nivLoReachIdxGam, \nivHiReachIdxGam] & \nivBLogUsGam{} [\nivLoLogUsGam, \nivHiLogUsGam] & \nivBAbsIdxGam{} [\nivLoAbsIdxGam, \nivHiAbsIdxGam] \\
+Severe wasting (\%) & \nivBReachIdxSam{} [\nivLoReachIdxSam, \nivHiReachIdxSam] & \nivBLogUsSam{} [\nivLoLogUsSam, \nivHiLogUsSam] & \nivBAbsIdxSam{} [\nivLoAbsIdxSam, \nivHiAbsIdxSam] \\
+Wasting, arm circumference (\%) & \nivBReachIdxMuac{} [\nivLoReachIdxMuac, \nivHiReachIdxMuac] & \nivBLogUsMuac{} [\nivLoLogUsMuac, \nivHiLogUsMuac] & \nivBAbsIdxMuac{} [\nivLoAbsIdxMuac, \nivHiAbsIdxMuac] \\
+Crude death rate & \nivBReachIdxCdr{} [\nivLoReachIdxCdr, \nivHiReachIdxCdr] & \nivBLogUsCdr{} [\nivLoLogUsCdr, \nivHiLogUsCdr] & \nivBAbsIdxCdr{} [\nivLoAbsIdxCdr, \nivHiAbsIdxCdr] \\
+Under-5 death rate & \nivBReachIdxUfive{} [\nivLoReachIdxUfive, \nivHiReachIdxUfive] & \nivBLogUsUfive{} [\nivLoLogUsUfive, \nivHiLogUsUfive] & \nivBAbsIdxUfive{} [\nivLoAbsIdxUfive, \nivHiAbsIdxUfive] \\
+\midrule
+Average loss, Gu 2025 domains & \nivXmeanReachIdxGam{} per 100 & \nivXmeanLogUsGam\% fall & \$\nivXmeanAbsIdxGam{} per resident \\
+Wasting at the average loss & \nivAtMeanReachIdxGam{} [\nivAtMeanLoReachIdxGam, \nivAtMeanHiReachIdxGam] & \nivAtMeanLogUsGam{} [\nivAtMeanLoLogUsGam, \nivAtMeanHiLogUsGam] & \\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize Brackets: Anderson--Rubin 95\% intervals, valid however weak the instrument ($\pm\infty$ = unbounded). Domain and population-type$\times$season effects; rainfall and conflict controls (prices are left out because the cut may move them). \nivNReachIdxGam{} survey results, \nivPostReachIdxGam{} in Gu 2025; 15 region clusters. Proportional loss is minus the log change in cash per resident; coefficients are per unit (a 63\% fall).
+\end{table}
+
+\begin{itemize}
+  \item \textbf{The intervals are wide.} At the average loss of cash recipients the estimate is \nivAtMeanReachIdxGam{} points of wasting (\nivAtMeanLoReachIdxGam{} to \nivAtMeanHiReachIdxGam). At the average proportional loss it is \nivAtMeanLogUsGam{} (\nivAtMeanLoLogUsGam{} to \nivAtMeanHiLogUsGam). Against a 13\% baseline, both admit increases of several points. A one-point increase, our benchmark for a meaningful effect, cannot be excluded.
+  \item \textbf{Death rates are no better pinned down.} At the average loss the crude death rate estimate is \nivAtMeanReachIdxCdr{} per 10,000 per day (up to \nivAtMeanHiReachIdxCdr) with the first instrument and \nivAtMeanLogUsCdr{} (up to \nivAtMeanHiLogUsCdr) with the second, against a baseline of about 0.35. The upper bounds are a large fraction of the baseline. These recall-based rates are noisy and cover only the 90 days before the survey.
+  \item \textbf{Cash is one channel.} Exposure surely reduced food, nutrition and health services too, so these estimates attribute the whole effect of lost aid to cash. Per dollar of all aid lost, effects would be smaller. Section 5's food-and-cash series gives a broader first stage.
+\end{itemize}
+
+\sh{A more proximate outcome: current food insecurity}
+Cash should affect household food consumption before it affects wasting. The closest outcome available for both years is the IPC classification (\texttt{code/72\_somalia\_ipc\_outcome.py}). We use the share of each district's population in Phase 3+ in the August 2025 and January 2026 rounds, relative to 2019--2024 (the February 2025 round, which describes January--March, is dropped).
+\begin{itemize}
+  \item \textbf{No detectable effect, wide intervals.} Aid dependence does not predict a rise in the Phase 3+ share (reduced form \nipRhoReachPthree{} points, $p=\nipRhoPReachPthree$). Two-stage, at the average loss of cash recipients the change is \nipAtMeanReachPthree{} points (\nipAtMeanLoReachPthree{} to \nipAtMeanHiReachPthree; first-stage F \nipFReachPthree). Through US reliance and proportional cash loss it is \nipAtMeanLogPthree{} points at the average loss (\nipAtMeanLoLogPthree{} to \nipAtMeanHiLogPthree; F \nipFLogPthree). The baseline share is about \nipYmeanReachPthree\%.
+  \item \textbf{Round by round, US-reliant districts rise in 2025--26}, by \nieUstvog{} points per s.d.\ in August 2025 and \nieUstsoi{} in January 2026, relative to August 2024 (Figure~\ref{fig:ipcevent}). But the same districts were 1--4 points higher in every round from 2019 to 2023 and dipped in early 2024, so this looks like a return to their earlier level rather than a break.
+  \item \textbf{Countrywide}, the Phase 3+ share was flat through August 2025 (\nipNatAugTfour\% in August 2024, \nipNatAugTfive\% in August 2025) and jumped to \nipNatJanTsix\% in January 2026 after poor Deyr rains.
+\end{itemize}
+IPC classifications are a weak test: they are sticky, and they are built partly from assumptions about the assistance households receive. Local prices and displacement, which respond to cash more directly, follow below. REACH's household assessments (2023--2025) measure food consumption and coping but sample different districts and seasons each year, so they do not form a usable panel.
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth]{../figures/som_ipc_event.pdf}
+\caption{Share of district population in IPC Phase 3+, by round, per standard deviation of exposure, relative to August 2024 (95\% intervals). F = February/January round, A = August round. Dotted line: the cut.}\label{fig:ipcevent}
+\end{figure}
+
+\sh{A fuller first stage: food, cash and nutrition delivered, by month}
+Two monthly district series measured the same way in 2024 and 2025 were recovered from public dashboards and folders (\texttt{code/75\_somalia\_delivery.py}; sources in \texttt{references/firststage\_sources.md}). The Food Security Cluster reports people reached with emergency food and cash, about 85--90\% of it delivered by WFP: \ndvFscTf{} million person-months in 2024 and \ndvFscTv{} million in 2025 (down \ndvFscDrop\%). The Nutrition Cluster's site reports give treatment sites and admissions: an average of \ndvOtpTf{} sites offering severe-malnutrition treatment each month in 2024 and \ndvOtpTv{} in 2025.
+\begin{itemize}
+  \item \textbf{Food and cash: a strong first stage, concentrated in January--June 2025.} Aid-dependent districts lost the most food and cash reach in January--June (F $\approx$ \ndvFFscLIdxGu; \ndvBsdFscLIdxGu{} fewer people reached per 100 residents per month per s.d.). US-reliant districts lost the largest proportion (F $\approx$ \ndvFFscGUsGu). In July--November the 2025 losses relative to 2024 are small on average, because 2024 had already been scaled down from October (first stage F $\approx$ \ndvFFscLIdxDy), so the Deyr 2025 surveys add little identifying variation.
+  \item \textbf{Activities named as US-funded (BHA/USAID as donor in 2024) do not predict food and cash loss} (F $\approx$ \ndvFFscLBhaGu): food and cash run mainly through WFP, so what mattered was dependence on aid, not on partners with US grants.
+  \item \textbf{Nutrition treatment: no first stage.} Sites offering treatment fell nationally, but not differentially by aid dependence (F $\approx$ \ndvFOtpLIdxGu) or US reliance (F $\approx$ \ndvFOtpLUsGu). The nutrition response contracted roughly evenly, so a comparison of places cannot use it.
+  \item \textbf{Two-stage, Gu 2025, food and cash as the endogenous variable} (domain-level first-stage F \ndvIvFFscLIdxGamGu): at the average loss, \ndvIvXmFscLIdxGamGu{} fewer people reached per 100 residents per month, wasting changes by \ndvIvAtFscLIdxGamGu{} points (Anderson--Rubin 95\% interval \ndvIvAtLoFscLIdxGamGu{} to \ndvIvAtHiFscLIdxGamGu); severe wasting \ndvIvAtFscLIdxSamGu{} (\ndvIvAtLoFscLIdxSamGu{} to \ndvIvAtHiFscLIdxSamGu); crude death rate \ndvIvAtFscLIdxCdrGu{} (up to \ndvIvAtHiFscLIdxCdrGu). With the proportional loss instrumented by US reliance (F \ndvIvFFscGUsGamGu) the upper bound is effectively unbounded.
+\end{itemize}
+The fuller first stage confirms the cash result and extends it to food: aid fell most in aid-dependent places, and nutrition outcomes in those places did not detectably worsen, but the intervals still include harms of several points of wasting.
+
+\begin{figure}[H]\centering
+\includegraphics[width=\textwidth]{../figures/som_dlv_firststage.pdf}
+\caption{Delivered aid. Left: national food and cash reach (blue) and sites offering severe-malnutrition treatment (orange), by month. Middle and right: monthly coefficients on exposure (per s.d.), relative to 2024, with district and month effects (95\% intervals).}
+\end{figure}
+
+\sh{Outcomes closer to the money: prices and displacement}
+\begin{itemize}
+  \item \textbf{Local food prices} (WFP, \nmkMarkets{} markets, \texttt{code/73}). If cash fell more in some places, local food should get cheaper there relative to imported food, which is priced off world markets. Within each market and month, local relative to imported prices change by \nmkBRelCash\% per \$10 of cash lost per resident ($p=\nmkPRelCash$; two-stage \nmkIvRel, interval \nmkIvLoRel{} to \nmkIvHiRel). The quarterly pattern dips after the cut, but the pre-period is not flat. We cannot confirm a local demand effect.
+  \item \textbf{Displacement} (IOM tracking of new arrivals at IDP sites, weekly, October 2023--2026; \ndpDistricts{} districts monitored before and after). Displacement \emph{out of} a district for reasons other than conflict and floods (drought, hunger, loss of livelihoods) rose more after the cut where cash fell more: \ndpBOutCash{} people per 1,000 residents per month per \$10 of cash lost ($p=\ndpPOutCash$), and \ndpBOutUs{} per s.d.\ of US reliance ($p=\ndpPOutUs$). This is suggestive: 11 region clusters, and monitoring coverage varies by month.
+  \item \textbf{Assistance to the newly displaced collapsed nationally.} The share of site assessments where new arrivals received a food distribution was \ndpFoodPre\% in 2024, \ndpFoodPost\% in February--December 2025, \ndpFoodLate\% in November--December 2025 and \ndpFoodTsix\% in 2026. This is a national first stage, not a district one: it did not fall more where cash fell more.
+\end{itemize}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.75\textwidth]{../figures/som_mkt_event.pdf}\\[4pt]
+\includegraphics[width=0.85\textwidth]{../figures/som_disp_event.pdf}
+\caption{Top: local relative to imported food prices (and goat prices), per \$10 of cash lost per resident, by quarter relative to 2024Q4 (95\% intervals). Bottom left: new arrivals at IDP sites (bars) and the share of site assessments where new arrivals received a food distribution (line), nationally. Bottom right: the food-distribution coefficient on exposure, by quarter.}
+\end{figure}
+
+\hd{6. Further checks requested by the review}
+\begin{itemize}
+  \item \textbf{The two post-cut seasons.} Effects are larger in Deyr 2025 (around November--December) than in Gu 2025 (June--July). Per standard deviation of US reliance, wasting rises \nssBUsGamGu{} in Gu ($p=\nssPUsGamGu$) and \nssBUsGamDeyr{} in Deyr ($p=\nssPUsGamDeyr$). For actual partner loss the figures are \nssBLossGamGu{} and \nssBLossGamDeyr{} ($p=\nssPLossGamDeyr$), and severe wasting in Deyr \nssBLossSamDeyr{} ($p=\nssPLossSamDeyr$). This fits aid in the pipeline carrying places through mid-2025, but no single estimate is decisive. Aid dependence shows nothing in either season for wasting; its death-rate coefficient is \nssBIdxCdrDeyr{} in Deyr ($p=\nssPIdxCdrDeyr$).
+  \item \textbf{Exposure $\times$ prior food insecurity.} Did equally exposed places fare worse when they were already under stress (2024 share in Phase 3+, standardised)? For US reliance, yes: the triple interaction is \nsiBUsGamZS{} points of wasting ($p=\nsiPUsGamZS$) and \nsiBUsSamZS{} for severe wasting ($p=\nsiPUsSamZS$). For aid dependence the sign reverses (\nsiBIdxGamZS, $p=\nsiPIdxGamZS$). With 15 clusters and several tests, we read this as inconclusive.
+  \item \textbf{Who was surveyed.} Of \natTfour{} domains surveyed in 2024, \natObs{} were surveyed again in 2025. The other domains in the panel stopped being surveyed before the cut. Restricting to domains surveyed in both years leaves the estimates unchanged (US reliance \nrbBUsBal{} per s.d., aid dependence \nrbBIdxBal).
+  \item \textbf{Price controls.} Dropping or adding local cereal and goat prices changes little (US reliance \nrbBUsMain{} without, \nrbBUsPrices{} with; aid dependence \nrbBIdxMain{} and \nrbBIdxPrices).
+  \item \textbf{Pre-trends.} Allowing each exposure its own linear trend before 2025 \emph{raises} every estimate: US reliance \nrbBUsTrend{} per s.d.\ ($p=\nrbPUsTrend$), partner loss \nrbBLossTrend{} ($p=\nrbPLossTrend$), aid dependence \nrbBIdxTrend{} ($p=\nrbPIdxTrend$). A bound in the spirit of Rambachan and Roth lets the 2025 deviation from parallel trends be as large as the biggest year-to-year change before 2024. It puts US reliance at \nrmLoOneUs{} to \nrmHiOneUs{} points per s.d.\ and aid dependence at \nrmLoOneIdx{} to \nrmHiOneIdx. The pre-period is noisy, so trend assumptions matter, and they push toward harm rather than away from it.
+\end{itemize}
+
+\hd{7. Nigeria}
+Nigeria offers a cleaner outcome series than Somalia but a weaker exposure measure (\texttt{code/74\_nigeria\_us\_cut.py}). US humanitarian funding fell from \$\nngUsTf{}M in 2024 to \$\nngUsTv{}M in 2025; other donors from \$\nngOtTf{}M to \$\nngOtTv{}M.
+
+\textbf{Outcomes.} UNICEF and the National Bureau of Statistics run nutrition surveillance on fixed zones every August--September: \nngZonesNe{} zones in Borno, Yobe and Adamawa (north-east, 2023--2026) and zones in Sokoto, Katsina and Zamfara (north-west, 2024--2026). The 2025 round falls seven to eight months after the cut and the 2026 round about 19 months after. Each zone is a defined list of local government areas (LGAs), which lets us attach exposure.
+
+\textbf{Exposure.} OCHA's who-works-where records cover only the north-east. Unlike Somalia, US award records in Nigeria name most recipients, so organisations can be flagged as US-funded directly (\nngOrgsUs{} of \nngOrgs{} partners in nutrition, health, food and water in 2024; UN agencies at their US funding share). We measure each zone's US-funded share of 2024 partners, its partner loss from April--June 2024 to April--June 2025, and partner density per child.
+
+\textbf{First stage: none in the presence data.} US reliance does not predict which LGAs lost partners (F $\approx$ \nngFsF), and US-funded organisations were \emph{more} likely than others to still be reporting in 2025 (\nngOrgSurvUs\% vs \nngOrgSurvNon\%). As in Somalia, the cut reached partners through channels these records do not capture. There is no Nigeria equivalent of the Somalia cash data.
+
+\textbf{Results (north-east, 10 zones, wild-bootstrap $p$-values by zone):}
+\begin{itemize}
+  \item \textbf{US reliance}: no relationship with wasting after the cut (\nngBUsGam{} points per s.d., $p=\nngPUsGam$).
+  \item \textbf{Actual partner loss}: zones that lost more partners had more severe wasting (\nngBLossSam{} points per s.d., $p=\nngPLossSam$) and higher crude death rates (\nngBLossCdr{} per 10,000 per day, $p=\nngPLossCdr$) after the cut; wasting \nngBLossGam{} ($p=\nngPLossGam$; \nngBLossGamTf{} in 2025 alone, $p=\nngPLossGamTf$). With 10 zones and several outcomes these are fragile, and partner loss is not instrumented (partners may leave places that are deteriorating).
+  \item \textbf{WFP's footprint}: WFP, about half US-funded in Nigeria, suspended food assistance to roughly 1.3 million people in the north-east in mid-2025, just before the 2025 survey round. Zones where more children lived in LGAs with WFP food assistance in 2024 show no clear change in wasting (\nngBWfpGam{} per s.d., $p=\nngPWfpGam$; \nngBWfpGamTf{} in 2025 alone) and a rise in under-5 deaths over 2025--26 (\nngBWfpUfive, $p=\nngPWfpUfive$) that does not appear in 2025 alone.
+  \item \textbf{North-east vs north-west}: after the cut the aid-dependent north-east worsened relative to the north-west in wasting (\nngBNeGam{} points, $p=\nngPNeGam$) and under-5 deaths (\nngBNeUfive, $p=\nngPNeUfive$). But stunting (\nngBNeStunt) and underweight (\nngBNeUwt) ``worsen'' even more, which aid cannot do within a year. The north-west had an exceptional crisis in 2024 and recovered in 2025, with only one pre-cut round to check trends. We do not treat this contrast as credible.
+  \item \textbf{Food insecurity} (Cadre Harmonis\'e Phase 3+ share by LGA, November 2025 vs 2019--2024 rounds): no detectable effect of US reliance (\nchBUs{} points per s.d., $p=\nchPUs$) or partner loss (\nchBLoss, $p=\nchPLoss$), and the pre-period is not flat.
+\end{itemize}
+Wasting fell almost everywhere in 2025 after a severe 2024 (north-east average \nngNeGamCACE\% in 2024, \nngNeGamCACF\% in 2025, \nngNeGamCACG\% in 2026), so a simple before--after comparison says little. Nigeria adds one suggestive result, partner loss and severe wasting and deaths, and otherwise mirrors Somalia: no detectable gradient by US reliance, and no first stage in the presence data.
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.92\textwidth]{../figures/nga_results.pdf}
+\caption{Nigeria. Left: wasting by zone group (north-east zones split at the median of US reliance; north-west zones surveyed in 2024). Right: Cadre Harmonis\'e Phase 3+ share in north-east LGAs per s.d.\ of US reliance, relative to November 2024 (95\% intervals).}
+\end{figure}
+
+\hd{8. Ethiopia}
+Ethiopia is the weakest of the three cases for outcomes (\texttt{code/76\_ethiopia\_us\_cut.py}; data assembled in \texttt{code/77\_ethiopia\_assemble.py}, sources in \texttt{references/ethiopia\_sources.md}). Malnutrition-treatment admissions stop in public data in mid-2023, and only eight nutrition surveys in 2025--26 cover a handful of zones not surveyed in 2024. The only area-level outcome on both sides of the cut is FEWS NET's woreda classification (October 2024, then October 2025, February and June 2026; FEWS NET published nothing on Ethiopia February--May 2025).
+\begin{itemize}
+  \item \textbf{Exposure.} OCHA's 4W records name the donor of each activity; in 2024 an average zone had \netUsMean\% of activities with a US donor. The food records also name the operator in each woreda: the USAID-funded JEOP consortium served \netJeopZones{} zones in 2024. JEOP paused for one month in February 2025, then resumed and took over WFP's northern woredas.
+  \item \textbf{First stage.} Zones served by JEOP in 2024 lost food-assistance activity in 2025 (F $\approx$ \netFFoodJeop). The overall US-donor share predicts no loss of activity (F $\approx$ \netFAllUs), and nothing predicts loss of nutrition activity (F $\approx$ \netFNutUs).
+  \item \textbf{Outcome.} The share of woredas in Phase 3+ is \emph{lower} after the cut in JEOP zones, relative to before, by \netDPthreeJeopSs{} points per s.d.\ in same-season comparisons ($p=\netDpPthreeJeopSs$). But these zones (mostly Tigray and Amhara) had far higher food insecurity in 2023--24 and improved sharply by October 2024. October to October, they were 12 points higher in 2023 and 3 points higher in 2025 than in 2024 (Figure~\ref{fig:eth}). We read this as recovery dynamics, not an effect of the cut either way.
+\end{itemize}
+Nationally the share of woredas in Phase 3+ rose from \netNatOctTf\% in October 2024 to \netNatOctTv\% in October 2025. Ethiopia shows a real first stage in one channel (JEOP food) and no usable outcome evidence. A nutrition test would need ENCU/UNICEF woreda admissions for 2023--25.
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.92\textwidth]{../figures/eth_results.pdf}
+\caption{Ethiopia. Left: US-donor share of 2024 activities and the change in activities, 2025 vs 2024, by zone. Right: share of woredas in Phase 3+ (FEWS NET), per s.d.\ of exposure, relative to October 2024 (95\% intervals). Only \netZoneMatch\% of FEWS NET zone codes match OCHA's current zones; the rest are dropped.}\label{fig:eth}
+\end{figure}
+
+\hd{9. What this can and cannot show}
+\begin{itemize}
+  \item \textbf{Power.} The smallest effect we could reliably detect is about \nmdePredGam{} points of wasting per 10 percentage points of reliance, about a tenth of the average level of wasting. Effects of that size would matter for lives, so the honest conclusion is ``no large, concentrated effect'', not ``no effect''.
+  \item \textbf{The cut was not concentrated.} About two-thirds of WFP's and UNICEF's Somalia funding was American, so the cut reached partners that never listed USAID as a donor. That is consistent with the absence of any link between predicted reliance and partner loss. Places differ in the \emph{degree} of exposure, not in exposure versus none.
+  \item \textbf{Presence is not volume.} The who-works-where records show whether an organisation reported activity in a district, not how many children it treated. A partner that cut its caseload by half still counts as present.
+  \item \textbf{More-reliant places were different.} They had lower wasting throughout (Figure 2), possibly because US-funded partners concentrated in safer, more accessible districts. Adding each domain's 2019--24 average wasting $\times$ post raises the estimate to \nbPredGamBase{} ($p=\npPredGamBase$); restricting to 2019 onwards gives \nbPredGamSince{} ($p=\npPredGamSince$). The appendix lists all variants. None changes the picture: positive, imprecise.
+  \item \textbf{Two seasons only.} Wasting responds within months, but supply stocks and pipeline money carried some programmes into mid-2025. Gu 2026 (fieldwork mid-2026) will add a third season once FSNAU publishes it.
+\end{itemize}
+
+\hd{10. Possible next steps}
+\begin{enumerate}
+  \item \textbf{Child mortality from birth histories.} Recall-based death rates in nutrition surveys are too noisy for this question. Births and deaths reported in MICS7 and any revived DHS surveys in 2026--28 will measure 2025 child mortality across countries, and the US-share first stage is strong at the country level.
+  \item \textbf{Nutrition treatment data for Ethiopia and Nigeria.} ENCU/UNICEF woreda admissions (Ethiopia, 2023--25) and Nigeria nutrition-sector site data would give nutrition first stages and admissions-based outcomes. These need requests to the clusters.
+  \item \textbf{Follow-up surveys.} Somalia Gu and Deyr 2026 and Nigeria's 2026 round (already in, Section 7) extend the post period; the delayed-effects pattern in Somalia's Deyr 2025 is worth watching.
+  \item \textbf{Record-level 2025 4W data} from OCHA Somalia and Nigeria, and the list of terminated versus retained awards, would let the exposure measure follow actual terminations rather than pre-cut US shares.
+  \item \textbf{Harm spread evenly.} The national before--after comparisons here (wasting slightly above rainfall-and-conflict predictions in Somalia in 2025, Phase 3+ up in Ethiopia) cannot separate the cut from weather and conflict. A cross-country comparison of 2025 changes against country-level US dependence, using survey outcomes as they become available, is the natural complement.
+\end{enumerate}
+
+\clearpage
+\hd{Appendix}
+\begin{table}[H]\centering\small
+\caption{Wasting: robustness (per 10 percentage points of exposure)}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+& \multicolumn{2}{c}{Predicted reliance} & \multicolumn{2}{c}{Actual partner loss}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Specification & Estimate (s.e.) & $p$ & Estimate (s.e.) & $p$\\
+\midrule
+Main & \nbPredGam{} (\nsePredGam) & \npPredGam & \nbLossGam{} (\nseLossGam) & \npLossGam \\
+No rainfall/conflict controls & \nbPredGamNoCtl{} (\nsePredGamNoCtl) & \npPredGamNoCtl & \nbLossGamNoCtl{} (\nseLossGamNoCtl) & \npLossGamNoCtl \\
+Baseline wasting $\times$ post & \nbPredGamBase{} (\nsePredGamBase) & \npPredGamBase & \nbLossGamBase{} (\nseLossGamBase) & \npLossGamBase \\
+Rural zones only & \nbPredGamRural{} (\nsePredGamRural) & \npPredGamRural & \nbLossGamRural{} (\nseLossGamRural) & \npLossGamRural \\
+Camps and towns only & \nbPredGamTowns{} (\nsePredGamTowns) & \npPredGamTowns & \nbLossGamTowns{} (\nseLossGamTowns) & \npLossGamTowns \\
+Drop Mogadishu & \nbPredGamNoBan{} (\nsePredGamNoBan) & \npPredGamNoBan & \nbLossGamNoBan{} (\nseLossGamNoBan) & \npLossGamNoBan \\
+2019--2025 only & \nbPredGamSince{} (\nsePredGamSince) & \npPredGamSince & \nbLossGamSince{} (\nseLossGamSince) & \npLossGamSince \\
+No imputed donors & \nbPredGamNoImp{} (\nsePredGamNoImp) & \npPredGamNoImp & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.5\textwidth]{../figures/som_uscut_firststage.pdf}
+\caption{Districts: US-funded share of 2024 partners against partners lost by 2025 (marker size = number of 2024 partners). No relationship ($r=\nCorrPredLoss$).}
+\end{figure}
+
+\sh{Construction notes}
+\begin{itemize}
+  \item Who-works-where: OCHA Somalia 3W, harmonised by \texttt{code/62\_tidy\_3w.py} (organisation-level table added for this memo). Banadir's 17 districts, reported separately from 2025, are merged into one unit for both years.
+  \item UN agency US shares: FTS flows to Somalia by decision date, 2023--24. FTS hides many US grants to NGOs as ``International NGOs (Confidential)'', and USAspending lists about half of US awards in Somalia as ``Miscellaneous Foreign Awardees''. That is why the donor field in the 3W, not either funding database, is used to identify US-funded partners.
+  \item Surveys: FSNAU seasonal SMART results transcribed in \texttt{code/56}; rural zones matched to FEWS NET livelihood units with the rules in \texttt{code/57}; camp and town surveys matched to districts by name. Several surveys of one domain in one season are averaged.
+  \item Controls: CHIRPS rainfall, six-month total as a z-score against 1991--2020; ACLED conflict deaths in the domain's districts over six months (log).
+  \item National check: for each year 2017--2025, a model fitted on the other pre-2025 years (domain effects, season, trend, rainfall, conflict) predicts wasting. The 2025 prediction error is compared with the errors in earlier years.
+\end{itemize}
+\end{document}

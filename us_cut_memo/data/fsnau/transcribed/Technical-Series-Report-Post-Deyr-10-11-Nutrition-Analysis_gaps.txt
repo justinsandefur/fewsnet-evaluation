@@ -1,0 +1,8 @@
+Gaps / areas not surveyed: Technical-Series-Report-Post-Deyr-10-11-Nutrition-Analysis.pdf (Deyr 2010/11)
+p28 | Bakool region (all livelihoods: pastoral, agro-pastoral) | no representative nutrition survey: "Due to the increased civil insecurity and lack of access to most of the area in the region, it was not possible to conduct a representative nutrition survey in any of Bakool's livelihood zones." (only rapid MUAC; IMC pulled out of Elberde, no functional health facilities/feeding data)
+p33 | Middle Shabelle region | no comprehensive survey: "In Middle Shabelle region, there was no comprehensive nutrition survey conducted due to lack of access, therefore there is no conclusive phase classification for the region." (rapid MUAC only, rated poor quality R3)
+p34 | Lower Shabelle agro-pastoral and riverine | rapid MUAC only (10 sites, N=1100 each), "poor tallying, therefore the data also had a low reliability (R3)"; no anthropometric survey reported
+p38 | Hiran region (pastoral, agro-pastoral, riverine) | "Due to security constraints FSNAU staff were unable to travel and conduct the preferred nutrition surveys"; rapid MUAC in 10 villages per livelihood instead
+p36 | Banadir/Mogadishu | no anthropometric survey (Table 10 shows '-' for GAM/SAM); rapid MUAC only (six district sites)
+p25/p26 | Kismayo IDPs (Lower Juba) | rapid MUAC only (Table 25 p67); no survey
+p43 | Central region Cowpea Belt agro-pastoral and Coastal Deeh | MUAC measurements only (7 sites), no anthropometric survey

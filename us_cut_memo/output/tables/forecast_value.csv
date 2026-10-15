@@ -1,0 +1,23 @@
+block,sample,outcome,term,coef,se,n,countries,t
+accuracy,all areas,FEWS NET next map (mapped),pub3,0.8557403694448301,0.0203067923090498,190130,28,42.14059790543414
+accuracy,all areas,FEWS NET next map (mapped),added3,0.4764495025093714,0.024026110314301723,190130,28,19.83048842599217
+accuracy,all areas,FEWS NET next map (need: +1 if aid flag),pub3,0.930077879463659,0.024718603188230277,190130,28,37.62663579253192
+accuracy,all areas,FEWS NET next map (need: +1 if aid flag),added3,0.48394721390708356,0.024739213835369395,190130,28,19.56194797165257
+accuracy,areas below Crisis now,FEWS NET next map (mapped),pub3,0.6438142075338218,0.041677300720238855,157594,28,15.447598486654874
+accuracy,areas below Crisis now,FEWS NET next map (mapped),added3,0.4545911225987941,0.03015934851044071,157594,28,15.072975546584553
+accuracy,areas below Crisis now,FEWS NET next map (need: +1 if aid flag),pub3,0.9201717604900681,0.061447581465394294,157594,28,14.974906067023733
+accuracy,areas below Crisis now,FEWS NET next map (need: +1 if aid flag),added3,0.4821344286264885,0.031730059277065015,157594,28,15.194879543606236
+accuracy,all areas,Cadre Harmonise / IPC next analysis,pub3,0.32741806875766444,0.03974312119295299,16348,23,8.238358209664726
+accuracy,all areas,Cadre Harmonise / IPC next analysis,added3,0.10261648462126832,0.02891126199306546,16348,23,3.5493602681848166
+accuracy,areas below Crisis now,Cadre Harmonise / IPC next analysis,pub3,0.3089909733040506,0.05497193331170176,12764,21,5.620886053834245
+accuracy,areas below Crisis now,Cadre Harmonise / IPC next analysis,added3,0.07234179213775173,0.029770197475790253,12764,21,2.4300071303383723
+funding,within country (country + time FE),"all funding, next 6 months",pub3,0.8953915764168973,0.49836305484776505,851,28,1.7966652377359964
+funding,within country (country + time FE),"all funding, next 6 months",added3,0.9568686665719318,0.4129517751553814,851,28,2.3171438510268922
+funding,across countries (time FE),"all funding, next 6 months",pub3,1.1982290111735732,0.23889883040036144,851,28,5.015633643603474
+funding,across countries (time FE),"all funding, next 6 months",added3,1.0732323936787225,0.42442323794455755,851,28,2.5286843361270406
+funding,within country (country + time FE),"food funding, next 6 months",pub3,2.29776550577041,0.9592411391157797,850,28,2.395399250587262
+funding,within country (country + time FE),"food funding, next 6 months",added3,2.5032368208619977,1.1858636170940802,850,28,2.1108977329080196
+funding,across countries (time FE),"food funding, next 6 months",pub3,2.489436570610222,0.5618744418284265,850,28,4.430592291240743
+funding,across countries (time FE),"food funding, next 6 months",added3,2.4274275778730656,1.3058831950828187,850,28,1.8588397392763132
+masking,all areas,mapped,added x funding surprise,0.008884553783485717,0.028070959360289676,190130,28,0.31650338947995377
+masking,all areas,need,added x funding surprise,0.009109513887439273,0.027238935858488966,190130,28,0.3344298740143444

@@ -1,0 +1,123 @@
+{
+ "un_us_share": {
+  "wfp": 0.534,
+  "unicef": 0.333,
+  "iom": 0.651,
+  "unhcr": 0.804,
+  "fao": 0.368,
+  "who": 0.259,
+  "unfpa": 0.418
+ },
+ "fts_nga": {
+  "2019": {
+   "us": 177.3,
+   "other": 331.1
+  },
+  "2020": {
+   "us": 298.2,
+   "other": 342.5
+  },
+  "2021": {
+   "us": 290.9,
+   "other": 291.5
+  },
+  "2022": {
+   "us": 319.4,
+   "other": 252.0
+  },
+  "2023": {
+   "us": 300.4,
+   "other": 255.5
+  },
+  "2024": {
+   "us": 320.9,
+   "other": 234.7
+  },
+  "2025": {
+   "us": 81.5,
+   "other": 178.1
+  }
+ },
+ "orgs_2024": 105,
+ "orgs_us": 15,
+ "orgs_us_list": [
+  " Grassroots Initiative for Strengthening Community Resilience (GISCOR) ",
+  "Action Against Hunger",
+  "Catholic Relief Services",
+  "Christain Aid",
+  "Danish Refugee Council",
+  "FHI360",
+  "Grassroots Initiative for Strengthening Community Resilience (GISCOR)",
+  "International Medical Corps",
+  "International Rescue Committee",
+  "MERCY CORPS",
+  "Norwegian Refugee Council",
+  "Premiere Urgence Internationale",
+  "Save The Children International",
+  "Society for Family Health",
+  "Solidarites International"
+ ],
+ "org_survival": {
+  "us": 0.6875,
+  "nonus": 0.4166666666666667
+ },
+ "survival": {
+  "us": 0.2818181818181818,
+  "nonus": 0.25170068027210885,
+  "n_us": 220,
+  "n_nonus": 441
+ },
+ "wfp_lgas_2024": 26,
+ "lga_match": 0.96875,
+ "lga_unmatched": [
+  "adamawa|toungo",
+  "yobe|postiskum"
+ ],
+ "fs_lga": {
+  "b": -0.26253403300470024,
+  "se": 0.4749123941491955,
+  "F": 0.30559357046360935,
+  "n": 64,
+  "corr": -0.09999414970898031
+ },
+ "fs_lga_density_corr": -0.28187041716632244,
+ "zones": {
+  "NE": 10,
+  "NW": 26
+ },
+ "zone_years": {
+  "2023": {
+   "NE": 10,
+   "NW": 0
+  },
+  "2024": {
+   "NE": 10,
+   "NW": 15
+  },
+  "2025": {
+   "NE": 10,
+   "NW": 23
+  },
+  "2026": {
+   "NE": 10,
+   "NW": 8
+  }
+ },
+ "zones_unmatched_exposure": [],
+ "ch_rounds": [
+  "2019-03",
+  "2019-11",
+  "2020-03",
+  "2020-11",
+  "2021-03",
+  "2021-11",
+  "2022-03",
+  "2022-11",
+  "2023-03",
+  "2023-11",
+  "2024-03",
+  "2024-11",
+  "2025-11"
+ ],
+ "ch_lgas_matched": 63
+}

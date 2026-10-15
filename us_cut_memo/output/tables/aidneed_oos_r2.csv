@@ -1,0 +1,31 @@
+country,aid,info,r2,n,periods,units
+Nigeria,usd,Base (population),-0.0013982072579228344,394,16,181
+Nigeria,usd,"Phases (IPC/CH share 3+, FEWS NET map and forecast)",0.05585155061964353,394,16,181
+Nigeria,usd,"Triggers (rain, conflict, prices)",-0.09611543395457867,394,16,181
+Nigeria,usd,Phases + triggers,-0.20462141443799697,394,16,181
+Nigeria,usd,"Survey outcomes (malnutrition, deaths)",0.008371795604391608,394,16,181
+Nigeria,usd,Survey outcomes + triggers,-0.03365521785759906,394,16,181
+Nigeria,partners,Base (population),0.001621288689810041,138,10,62
+Nigeria,partners,"Phases (IPC/CH share 3+, FEWS NET map and forecast)",0.050284915960310705,138,10,62
+Nigeria,partners,"Triggers (rain, conflict, prices)",-0.07843409241934829,138,10,62
+Nigeria,partners,Phases + triggers,-0.05131620130242842,138,10,62
+Nigeria,partners,"Survey outcomes (malnutrition, deaths)",0.09322255121246192,138,10,62
+Nigeria,partners,Survey outcomes + triggers,0.09991143314786399,138,10,62
+Somalia,usd,Base (population),0.00023782308348041514,926,19,68
+Somalia,usd,"Phases (IPC/CH share 3+, FEWS NET map and forecast)",-0.0008866497941337759,926,19,68
+Somalia,usd,"Triggers (rain, conflict, prices)",-0.006123746431380805,926,19,68
+Somalia,usd,Phases + triggers,-0.007901021668290875,926,19,68
+Somalia,usd,"Survey outcomes (malnutrition, deaths)",0.00477257180167856,926,19,68
+Somalia,usd,Survey outcomes + triggers,-0.0028208269171825506,926,19,68
+Somalia,partners,Base (population),0.20476416064771674,767,16,67
+Somalia,partners,"Phases (IPC/CH share 3+, FEWS NET map and forecast)",0.2510144713374083,767,16,67
+Somalia,partners,"Triggers (rain, conflict, prices)",0.2502412713737153,767,16,67
+Somalia,partners,Phases + triggers,0.26846409701830043,767,16,67
+Somalia,partners,"Survey outcomes (malnutrition, deaths)",0.19633824461211014,767,16,67
+Somalia,partners,Survey outcomes + triggers,0.2634242675303946,767,16,67
+Somalia,reach,Base (population),-0.0008276611386490718,375,9,61
+Somalia,reach,"Phases (IPC/CH share 3+, FEWS NET map and forecast)",0.03492358825362063,375,9,61
+Somalia,reach,"Triggers (rain, conflict, prices)",0.019309346181949683,375,9,61
+Somalia,reach,Phases + triggers,0.04248322097970747,375,9,61
+Somalia,reach,"Survey outcomes (malnutrition, deaths)",-0.05302062992874479,375,9,61
+Somalia,reach,Survey outcomes + triggers,-0.01853870145974179,375,9,61

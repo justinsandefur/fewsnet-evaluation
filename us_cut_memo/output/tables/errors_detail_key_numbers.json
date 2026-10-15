@@ -1,0 +1,149 @@
+{
+ "t2_rows": 1725,
+ "t1_by_country": [
+  {
+   "country_code": "MG",
+   "came": 0.0,
+   "flag": 0.792,
+   "noflag": 0.208
+  },
+  {
+   "country_code": "KE",
+   "came": 0.18,
+   "flag": 0.421,
+   "noflag": 0.4
+  },
+  {
+   "country_code": "SO",
+   "came": 0.307,
+   "flag": 0.433,
+   "noflag": 0.26
+  },
+  {
+   "country_code": "YE",
+   "came": 0.469,
+   "flag": 0.414,
+   "noflag": 0.117
+  },
+  {
+   "country_code": "SS",
+   "came": 0.51,
+   "flag": 0.195,
+   "noflag": 0.295
+  },
+  {
+   "country_code": "BF",
+   "came": 0.548,
+   "flag": 0.214,
+   "noflag": 0.238
+  },
+  {
+   "country_code": "AF",
+   "came": 0.644,
+   "flag": 0.111,
+   "noflag": 0.244
+  },
+  {
+   "country_code": "ET",
+   "came": 0.661,
+   "flag": 0.295,
+   "noflag": 0.044
+  },
+  {
+   "country_code": "NG",
+   "came": 0.694,
+   "flag": 0.065,
+   "noflag": 0.242
+  },
+  {
+   "country_code": "SD",
+   "came": 0.725,
+   "flag": 0.033,
+   "noflag": 0.242
+  }
+ ],
+ "flag_over_time": [
+  {
+   "rel": -8,
+   "group": "came",
+   "n": 1885,
+   "p4": 0.447,
+   "flag": 0.213,
+   "p3flag": 0.178
+  },
+  {
+   "rel": -8,
+   "group": "not",
+   "n": 2069,
+   "p4": 0.292,
+   "flag": 0.345,
+   "p3flag": 0.321
+  },
+  {
+   "rel": -4,
+   "group": "came",
+   "n": 2362,
+   "p4": 0.724,
+   "flag": 0.11,
+   "p3flag": 0.066
+  },
+  {
+   "rel": -4,
+   "group": "not",
+   "n": 2256,
+   "p4": 0.323,
+   "flag": 0.391,
+   "p3flag": 0.376
+  },
+  {
+   "rel": 0,
+   "group": "came",
+   "n": 2362,
+   "p4": 1.0,
+   "flag": 0.045,
+   "p3flag": 0.0
+  },
+  {
+   "rel": 0,
+   "group": "not",
+   "n": 2256,
+   "p4": 0.0,
+   "flag": 0.593,
+   "p3flag": 0.563
+  },
+  {
+   "rel": 4,
+   "group": "came",
+   "n": 1711,
+   "p4": 0.61,
+   "flag": 0.288,
+   "p3flag": 0.227
+  },
+  {
+   "rel": 4,
+   "group": "not",
+   "n": 1953,
+   "p4": 0.126,
+   "flag": 0.477,
+   "p3flag": 0.403
+  }
+ ],
+ "t1_onset_episodes": {
+  "First forecast 5-8 months ahead": 47,
+  "Never forecast as Emergency": 28,
+  "First forecast 1-4 months ahead": 22
+ },
+ "t1_onset_prewindow_mean": {
+  "First forecast 1-4 months ahead": 1.034,
+  "First forecast 5-8 months ahead": 1.026,
+  "Never forecast as Emergency": 1.025
+ },
+ "t1_warning_episodes": {
+  "Forecast came true (most warned areas in Emergency)": 67,
+  "Forecast did not come true (most warned areas better than Emergency)": 60
+ },
+ "t1_warning_prewindow_mean": {
+  "Forecast came true (most warned areas in Emergency)": 1.085,
+  "Forecast did not come true (most warned areas better than Emergency)": 1.043
+ }
+}

@@ -1,0 +1,650 @@
+{
+ "sudden_share_of_dollars": 0.137,
+ "big_sudden_events": 447,
+ "first_stage": [
+  {
+   "spec": "FEWS NET countries",
+   "instrument": "z_fund",
+   "outcome": "ln_aid3",
+   "coef_per_sd": -0.0353,
+   "se": 0.0932,
+   "t": -0.3793,
+   "F": 0.1439,
+   "n": 7392,
+   "countries": 44
+  },
+  {
+   "spec": "FEWS NET countries",
+   "instrument": "z_dis",
+   "outcome": "ln_aid3",
+   "coef_per_sd": -0.0232,
+   "se": 0.0655,
+   "t": -0.3539,
+   "F": 0.1252,
+   "n": 7392,
+   "countries": 44
+  },
+  {
+   "spec": "FEWS NET countries",
+   "instrument": "z_fund_war",
+   "outcome": "ln_aid3",
+   "coef_per_sd": -0.1094,
+   "se": 0.1096,
+   "t": -0.9978,
+   "F": 0.9957,
+   "n": 7392,
+   "countries": 44
+  },
+  {
+   "spec": "FEWS NET countries, food and nutrition",
+   "instrument": "z_fund",
+   "outcome": "ln_food3",
+   "coef_per_sd": -0.0391,
+   "se": 0.0906,
+   "t": -0.4312,
+   "F": 0.1859,
+   "n": 7392,
+   "countries": 44
+  },
+  {
+   "spec": "FEWS NET countries, + country x calendar month FE",
+   "instrument": "z_fund",
+   "outcome": "ln_aid3",
+   "coef_per_sd": -0.0338,
+   "se": 5.6481,
+   "t": -0.006,
+   "F": 0.0,
+   "n": 7392,
+   "countries": 44
+  },
+  {
+   "spec": "All recipients",
+   "instrument": "z_fund",
+   "outcome": "ln_aid3",
+   "coef_per_sd": -0.0163,
+   "se": 0.0431,
+   "t": -0.3782,
+   "F": 0.143,
+   "n": 15288,
+   "countries": 91
+  },
+  {
+   "spec": "All recipients",
+   "instrument": "z_dis",
+   "outcome": "ln_aid3",
+   "coef_per_sd": -0.0599,
+   "se": 0.0319,
+   "t": -1.8738,
+   "F": 3.5112,
+   "n": 15288,
+   "countries": 91
+  },
+  {
+   "spec": "All recipients",
+   "instrument": "z_fund_war",
+   "outcome": "ln_aid3",
+   "coef_per_sd": -0.0649,
+   "se": 0.0549,
+   "t": -1.1839,
+   "F": 1.4017,
+   "n": 15288,
+   "countries": 91
+  },
+  {
+   "spec": "All recipients, food and nutrition",
+   "instrument": "z_fund",
+   "outcome": "ln_food3",
+   "coef_per_sd": -0.0345,
+   "se": 0.0416,
+   "t": -0.8286,
+   "F": 0.6866,
+   "n": 15288,
+   "countries": 91
+  },
+  {
+   "spec": "All recipients, + country x calendar month FE",
+   "instrument": "z_fund",
+   "outcome": "ln_aid3",
+   "coef_per_sd": -0.025,
+   "se": NaN,
+   "t": NaN,
+   "F": NaN,
+   "n": 15288,
+   "countries": 91
+  }
+ ],
+ "n_fews_countries_with_shares": 44,
+ "donor_propensity_top": {
+  "Private (individuals & organizations)": 0.886,
+  "Qatar, Government of": 0.883,
+  "China, Government of": 0.819,
+  "T\u00fcrkiye, Government of": 0.799,
+  "Other": 0.588,
+  "Saudi Arabia (Kingdom of), Government of": 0.549,
+  "Kuwait, Government of": 0.547,
+  "Austria, Government of": 0.546,
+  "Asian Development Bank": 0.404,
+  "Korea, Republic of, Government of": 0.384
+ },
+ "donor_level": [
+  {
+   "outcome": "lny",
+   "regressors": "same quarter",
+   "fixed_effects": "recipient x quarter, donor x recipient",
+   "term": "lnG",
+   "coef": 0.1368,
+   "se": 0.0274,
+   "t": 4.9927,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "lny",
+   "regressors": "same quarter",
+   "fixed_effects": "+ donor x year",
+   "term": "lnG",
+   "coef": 0.1101,
+   "se": 0.0259,
+   "t": 4.2561,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "lny",
+   "regressors": "with two lags",
+   "fixed_effects": "recipient x quarter, donor x recipient",
+   "term": "lnG",
+   "coef": 0.1367,
+   "se": 0.0274,
+   "t": 4.9974,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "lny",
+   "regressors": "with two lags",
+   "fixed_effects": "recipient x quarter, donor x recipient",
+   "term": "lnG_l1",
+   "coef": 0.0053,
+   "se": 0.0139,
+   "t": 0.3841,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "lny",
+   "regressors": "with two lags",
+   "fixed_effects": "recipient x quarter, donor x recipient",
+   "term": "lnG_l2",
+   "coef": -0.01,
+   "se": 0.0091,
+   "t": -1.1019,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "lny",
+   "regressors": "with two lags",
+   "fixed_effects": "+ donor x year",
+   "term": "lnG",
+   "coef": 0.1032,
+   "se": 0.0242,
+   "t": 4.2563,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "lny",
+   "regressors": "with two lags",
+   "fixed_effects": "+ donor x year",
+   "term": "lnG_l1",
+   "coef": -0.0187,
+   "se": 0.01,
+   "t": -1.8615,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "lny",
+   "regressors": "with two lags",
+   "fixed_effects": "+ donor x year",
+   "term": "lnG_l2",
+   "coef": -0.0328,
+   "se": 0.0086,
+   "t": -3.8014,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "any",
+   "regressors": "same quarter",
+   "fixed_effects": "recipient x quarter, donor x recipient",
+   "term": "lnG",
+   "coef": 0.0575,
+   "se": 0.0106,
+   "t": 5.4244,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "any",
+   "regressors": "same quarter",
+   "fixed_effects": "+ donor x year",
+   "term": "lnG",
+   "coef": 0.0442,
+   "se": 0.0099,
+   "t": 4.4458,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "any",
+   "regressors": "with two lags",
+   "fixed_effects": "recipient x quarter, donor x recipient",
+   "term": "lnG",
+   "coef": 0.0569,
+   "se": 0.0103,
+   "t": 5.5226,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "any",
+   "regressors": "with two lags",
+   "fixed_effects": "recipient x quarter, donor x recipient",
+   "term": "lnG_l1",
+   "coef": 0.0041,
+   "se": 0.0069,
+   "t": 0.5931,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "any",
+   "regressors": "with two lags",
+   "fixed_effects": "recipient x quarter, donor x recipient",
+   "term": "lnG_l2",
+   "coef": 0.0006,
+   "se": 0.005,
+   "t": 0.1161,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "any",
+   "regressors": "with two lags",
+   "fixed_effects": "+ donor x year",
+   "term": "lnG",
+   "coef": 0.0414,
+   "se": 0.0093,
+   "t": 4.4583,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "any",
+   "regressors": "with two lags",
+   "fixed_effects": "+ donor x year",
+   "term": "lnG_l1",
+   "coef": -0.0091,
+   "se": 0.0042,
+   "t": -2.1513,
+   "n": 61600,
+   "donors": 25
+  },
+  {
+   "outcome": "any",
+   "regressors": "with two lags",
+   "fixed_effects": "+ donor x year",
+   "term": "lnG_l2",
+   "coef": -0.012,
+   "se": 0.0034,
+   "t": -3.5492,
+   "n": 61600,
+   "donors": 25
+  }
+ ],
+ "windows": [
+  {
+   "window_months": 3,
+   "instrument_lag_months": 0,
+   "coef_per_sd": -0.0353,
+   "se": 0.0932,
+   "F": 0.1439
+  },
+  {
+   "window_months": 3,
+   "instrument_lag_months": 3,
+   "coef_per_sd": -0.0249,
+   "se": 0.0904,
+   "F": 0.0757
+  },
+  {
+   "window_months": 3,
+   "instrument_lag_months": 6,
+   "coef_per_sd": -0.0304,
+   "se": 0.0862,
+   "F": 0.1241
+  },
+  {
+   "window_months": 6,
+   "instrument_lag_months": 0,
+   "coef_per_sd": -0.0461,
+   "se": 0.1018,
+   "F": 0.2052
+  },
+  {
+   "window_months": 6,
+   "instrument_lag_months": 3,
+   "coef_per_sd": -0.0306,
+   "se": 0.0964,
+   "F": 0.1007
+  },
+  {
+   "window_months": 6,
+   "instrument_lag_months": 6,
+   "coef_per_sd": -0.055,
+   "se": 0.0919,
+   "F": 0.358
+  },
+  {
+   "window_months": 12,
+   "instrument_lag_months": 0,
+   "coef_per_sd": -0.0569,
+   "se": 0.1079,
+   "F": 0.2784
+  },
+  {
+   "window_months": 12,
+   "instrument_lag_months": 3,
+   "coef_per_sd": -0.0407,
+   "se": 0.1044,
+   "F": 0.1521
+  },
+  {
+   "window_months": 12,
+   "instrument_lag_months": 6,
+   "coef_per_sd": -0.0578,
+   "se": 0.0974,
+   "F": 0.3517
+  }
+ ],
+ "mega_events_post_1to6": {
+  "Haiti earthquake": 0.252,
+  "Japan tsunami": -0.265,
+  "Nepal earthquake": 0.05,
+  "Pakistan floods": 0.271,
+  "Typhoon Haiyan": 0.021,
+  "T\u00fcrkiye-Syria earthquake": -0.335,
+  "Ukraine invasion": 0.269
+ },
+ "country_quarterly": [
+  {
+   "spec": "levels, same quarter",
+   "term": "lnG_w",
+   "coef_per_sd": -0.0081,
+   "se": 0.0861,
+   "joint_F_excluded_lags": 0.0088,
+   "n": 2464,
+   "countries": 44
+  },
+  {
+   "spec": "levels, lags 1-2",
+   "term": "lnG_l1_w",
+   "coef_per_sd": -0.0262,
+   "se": 0.0595,
+   "joint_F_excluded_lags": 0.1014,
+   "n": 2464,
+   "countries": 44
+  },
+  {
+   "spec": "levels, lags 1-2",
+   "term": "lnG_l2_w",
+   "coef_per_sd": -0.0182,
+   "se": 0.0685,
+   "joint_F_excluded_lags": 0.1014,
+   "n": 2464,
+   "countries": 44
+  },
+  {
+   "spec": "within-year shifts, lags 1-2",
+   "term": "shift_l1_w",
+   "coef_per_sd": -0.01,
+   "se": 0.0221,
+   "joint_F_excluded_lags": 0.1401,
+   "n": 2464,
+   "countries": 44
+  },
+  {
+   "spec": "within-year shifts, lags 1-2",
+   "term": "shift_l2_w",
+   "coef_per_sd": -0.0116,
+   "se": 0.028,
+   "joint_F_excluded_lags": 0.1401,
+   "n": 2464,
+   "countries": 44
+  },
+  {
+   "spec": "within-year shifts, lags 0-2",
+   "term": "shift_w",
+   "coef_per_sd": 0.0122,
+   "se": 0.0247,
+   "joint_F_excluded_lags": 0.1072,
+   "n": 2464,
+   "countries": 44
+  },
+  {
+   "spec": "within-year shifts, lags 0-2",
+   "term": "shift_l1_w",
+   "coef_per_sd": -0.0099,
+   "se": 0.0221,
+   "joint_F_excluded_lags": 0.1072,
+   "n": 2464,
+   "countries": 44
+  },
+  {
+   "spec": "within-year shifts, lags 0-2",
+   "term": "shift_l2_w",
+   "coef_per_sd": -0.008,
+   "se": 0.0291,
+   "joint_F_excluded_lags": 0.1072,
+   "n": 2464,
+   "countries": 44
+  }
+ ],
+ "fx": [
+  {
+   "lag_quarters": 0,
+   "coef_per_sd": 0.1318,
+   "se": 0.3604,
+   "F": 0.1337,
+   "n": 2464,
+   "countries": 44
+  },
+  {
+   "lag_quarters": 1,
+   "coef_per_sd": 0.119,
+   "se": 0.3457,
+   "F": 0.1184,
+   "n": 2420,
+   "countries": 44
+  },
+  {
+   "lag_quarters": 2,
+   "coef_per_sd": 0.0922,
+   "se": 0.3337,
+   "F": 0.0764,
+   "n": 2376,
+   "countries": 44
+  },
+  {
+   "lag_quarters": 4,
+   "coef_per_sd": 0.0264,
+   "se": 0.3103,
+   "F": 0.0072,
+   "n": 2288,
+   "countries": 44
+  }
+ ],
+ "fx_nonusd_share": {
+  "count": 44.0,
+  "mean": 0.641,
+  "std": 0.209,
+  "min": 0.265,
+  "25%": 0.48,
+  "50%": 0.693,
+  "75%": 0.803,
+  "max": 0.958
+ },
+ "us_cut": [
+  {
+   "sample": "All recipients",
+   "outcome": "all donors",
+   "coef": -1.5923,
+   "se": 0.4519,
+   "F": 12.4141,
+   "n": 58
+  },
+  {
+   "sample": "All recipients",
+   "outcome": "non-US donors",
+   "coef": 0.4526,
+   "se": 0.3406,
+   "F": 1.7658,
+   "n": 58
+  },
+  {
+   "sample": "FEWS NET countries",
+   "outcome": "all donors",
+   "coef": -0.9781,
+   "se": 0.4381,
+   "F": 4.9845,
+   "n": 36
+  },
+  {
+   "sample": "FEWS NET countries",
+   "outcome": "non-US donors",
+   "coef": 0.2827,
+   "se": 0.5821,
+   "F": 0.2358,
+   "n": 36
+  }
+ ],
+ "unsc_country_years": 33,
+ "alternatives": [
+  {
+   "instrument": "A. donor budget shocks (leave-out)",
+   "outcome": "all sectors",
+   "sample": "2011-2024",
+   "coef_per_sd": -0.5944,
+   "se": 0.3407,
+   "F": 3.0446,
+   "n": 616,
+   "countries": 44,
+   "frequency": "annual"
+  },
+  {
+   "instrument": "A. donor budget shocks (leave-out)",
+   "outcome": "all sectors",
+   "sample": "2011-2019 (before COVID)",
+   "coef_per_sd": -0.3303,
+   "se": 0.483,
+   "F": 0.4676,
+   "n": 396,
+   "countries": 44,
+   "frequency": "annual"
+  },
+  {
+   "instrument": "A. donor budget shocks (leave-out)",
+   "outcome": "food and nutrition",
+   "sample": "2011-2024",
+   "coef_per_sd": -0.646,
+   "se": 0.2982,
+   "F": 4.6917,
+   "n": 616,
+   "countries": 44,
+   "frequency": "annual"
+  },
+  {
+   "instrument": "A. donor budget shocks (leave-out)",
+   "outcome": "food and nutrition",
+   "sample": "2011-2019 (before COVID)",
+   "coef_per_sd": -0.4862,
+   "se": 0.4375,
+   "F": 1.2353,
+   "n": 396,
+   "countries": 44,
+   "frequency": "annual"
+  },
+  {
+   "instrument": "B. US fiscal calendar (US share x US spending timing)",
+   "outcome": "all sectors",
+   "sample": "2011-2024",
+   "coef_per_sd": -0.0513,
+   "se": 0.0282,
+   "F": 3.3234,
+   "n": 2408,
+   "countries": 44,
+   "frequency": "quarterly"
+  },
+  {
+   "instrument": "C. UN Security Council elected membership",
+   "outcome": "all sectors",
+   "sample": "2011-2024",
+   "coef_per_sd": -0.4697,
+   "se": 0.2554,
+   "F": 3.383,
+   "n": 616,
+   "countries": 44,
+   "frequency": "annual (coefficient is for membership, not per SD)"
+  },
+  {
+   "instrument": "E. oil price x Gulf donor share (Werker et al. 2009)",
+   "outcome": "all donors",
+   "sample": "2011-2024",
+   "coef_per_sd": -1.0366,
+   "se": 0.4537,
+   "F": 5.2196,
+   "n": 616,
+   "countries": 44,
+   "frequency": "annual"
+  },
+  {
+   "instrument": "E. oil price x Gulf donor share (Werker et al. 2009)",
+   "outcome": "Gulf donors only",
+   "sample": "2011-2024",
+   "coef_per_sd": -2.075,
+   "se": 0.8257,
+   "F": 6.3159,
+   "n": 616,
+   "countries": 44,
+   "frequency": "annual"
+  }
+ ],
+ "us_cut_reduced_form_ipc": [
+  {
+   "sample": "All IPC countries",
+   "coef_us_share": 0.0514,
+   "se": 0.0515,
+   "n": 40,
+   "mean_change_pp": -1.825
+  },
+  {
+   "sample": "FEWS NET countries",
+   "coef_us_share": 0.1034,
+   "se": 0.0855,
+   "n": 30,
+   "mean_change_pp": -1.4667
+  }
+ ],
+ "gulf_share_pre": {
+  "YEM": 0.558,
+  "MRT": 0.299,
+  "SYR": 0.259,
+  "LBN": 0.223,
+  "DJI": 0.176,
+  "TGO": 0.141,
+  "PAK": 0.105,
+  "RWA": 0.102
+ }
+}

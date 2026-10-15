@@ -1,0 +1,1326 @@
+dist,org,cluster,type,u,imputed
+SO1101,concern worldwide,food_security,INGO,0.0,False
+SO1101,food and agriculture organization,food_security,UN,0.9791666666666666,False
+SO1101,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1101,save the children international,nutrition,INGO,0.7273567805800286,False
+SO1101,save the children international,wash,INGO,0.6666666666666666,False
+SO1101,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1101,taakulo,wash,NNGO,0.0,False
+SO1101,welthhungerrhilfe,food_security,INGO,0.0,False
+SO1101,world food programme,food_security,UN,0.4318362689363453,False
+SO1101,world vision international,nutrition,INGO,0.7065349451888959,False
+SO1102,concern worldwide,food_security,INGO,0.0,False
+SO1102,save the children international,wash,INGO,1.0,False
+SO1102,taakulo,wash,NNGO,0.0,False
+SO1102,world food programme,food_security,UN,0.4318362689363453,False
+SO1102,world vision international,nutrition,INGO,0.7022417237619409,False
+SO1103,food and agriculture organization,food_security,UN,1.0,False
+SO1103,save the children international,nutrition,INGO,0.7554457876574133,False
+SO1103,save the children international,wash,INGO,0.3333333333333333,False
+SO1103,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1103,world food programme,food_security,UN,0.4318362689363453,False
+SO1103,world vision international,nutrition,INGO,0.7030350364169218,False
+SO1104,food and agriculture organization,food_security,UN,1.0,False
+SO1104,save the children international,nutrition,INGO,0.7376514716168815,False
+SO1104,save the children international,wash,INGO,0.75,False
+SO1104,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1104,world food programme,food_security,UN,0.4318362689363453,False
+SO1104,world vision international,nutrition,INGO,0.7065349451888959,False
+SO1201,african network for the prevention and protection against child abuse and neglect,nutrition,NNGO,0.7065349451888959,False
+SO1201,alight american refugee committee,health,INGO,0.0,False
+SO1201,alight american refugee committee,nutrition,INGO,0.7065349451888959,False
+SO1201,barwaaqo voluntary organization,food_security,NNGO,0.0,False
+SO1201,food and agriculture organization,food_security,UN,1.0,False
+SO1201,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1201,ministry of humanitarian and development,nutrition,GOVERNMENT,0.7852800628900277,True
+SO1201,save the children international,nutrition,INGO,0.7309903664231546,False
+SO1201,save the children international,wash,INGO,1.0,False
+SO1201,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1201,sos childrens villages somalia,food_security,NNGO,0.0,False
+SO1201,world food programme,food_security,UN,0.4318362689363453,False
+SO1201,world vision international,wash,INGO,0.6666666666666666,False
+SO1201,zamzam foundation,wash,NNGO,0.0,False
+SO1202,african network for the prevention and protection against child abuse and neglect,nutrition,NNGO,0.7065349451888959,False
+SO1202,mercy usa for aid and development,wash,INGO,0.0,False
+SO1202,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1202,qatar charity,food_security,OTHERS,0.0,False
+SO1202,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1202,world food programme,food_security,UN,0.4318362689363453,False
+SO1202,world vision international,food_security,INGO,0.0,False
+SO1202,world vision international,wash,INGO,1.0,False
+SO1203,african network for the prevention and protection against child abuse and neglect,nutrition,NNGO,0.7065349451888959,False
+SO1203,alight american refugee committee,health,INGO,0.0,False
+SO1203,alight american refugee committee,nutrition,INGO,0.7065349451888959,False
+SO1203,concern worldwide,food_security,INGO,0.0,False
+SO1203,food and agriculture organization,food_security,UN,1.0,False
+SO1203,save the children international,nutrition,INGO,0.7065349451888959,False
+SO1203,save the children international,wash,INGO,0.25,False
+SO1203,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1203,welthhungerrhilfe,food_security,INGO,0.0,False
+SO1203,world food programme,food_security,UN,0.4318362689363453,False
+SO1203,world vision international,food_security,INGO,0.0,False
+SO1203,world vision international,nutrition,INGO,0.7907627010656785,False
+SO1203,world vision international,wash,INGO,1.0,False
+SO1301,african network for the prevention and protection against child abuse and neglect,nutrition,NNGO,0.7065349451888959,False
+SO1301,agricultural development organization,wash,NNGO,0.0,False
+SO1301,barwaaqo voluntary organization,food_security,NNGO,0.0,False
+SO1301,candlelight for environment education and health,food_security,NNGO,0.0,False
+SO1301,care international,wash,INGO,1.0,False
+SO1301,food and agriculture organization,food_security,UN,1.0,False
+SO1301,islamic relief worldwide,wash,INGO,0.0,False
+SO1301,mandher relief and development organization,health,NNGO,0.3532674725944479,False
+SO1301,mercy usa for aid and development,health,INGO,0.3532674725944479,False
+SO1301,norwegian refugee council,food_security,INGO,0.0,False
+SO1301,oxfam,wash,INGO,0.0,False
+SO1301,save the children international,health,INGO,0.3532674725944479,False
+SO1301,save the children international,nutrition,INGO,0.7059251125998398,False
+SO1301,save the children international,wash,INGO,0.0,False
+SO1301,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1301,sos childrens villages somalia,food_security,NNGO,0.0,False
+SO1301,welthhungerrhilfe,food_security,INGO,0.0,False
+SO1301,world food programme,food_security,UN,0.0,False
+SO1301,world vision international,food_security,INGO,0.0,False
+SO1301,world vision international,nutrition,INGO,1.0,False
+SO1301,world vision international,wash,INGO,1.0,False
+SO1302,african network for the prevention and protection against child abuse and neglect,nutrition,NNGO,0.7065349451888959,False
+SO1302,alight american refugee committee,nutrition,INGO,0.6931186282296616,False
+SO1302,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1302,save the children international,wash,INGO,0.0,False
+SO1302,world food programme,food_security,UN,0.4318362689363453,False
+SO1302,world vision international,nutrition,INGO,1.0,False
+SO1303,african network for the prevention and protection against child abuse and neglect,nutrition,NNGO,0.7065349451888959,False
+SO1303,candlelight for environment education and health,food_security,NNGO,0.0,False
+SO1303,care international,wash,INGO,1.0,False
+SO1303,food and agriculture organization,food_security,UN,1.0,False
+SO1303,mercy usa for aid and development,health,INGO,0.3532674725944479,False
+SO1303,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1303,save the children international,health,INGO,0.3532674725944479,False
+SO1303,save the children international,wash,INGO,0.0,False
+SO1303,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1303,taakulo,wash,NNGO,0.0,False
+SO1303,world food programme,food_security,UN,0.4318362689363453,False
+SO1303,world vision international,nutrition,INGO,1.0,False
+SO1303,world vision international,wash,INGO,1.0,False
+SO1304,african network for the prevention and protection against child abuse and neglect,nutrition,NNGO,0.7065349451888959,False
+SO1304,food and agriculture organization,food_security,UN,1.0,False
+SO1304,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1304,world food programme,food_security,UN,0.4318362689363453,False
+SO1304,world vision international,wash,INGO,0.75,False
+SO1401,action against hunger,health,INGO,0.0,False
+SO1401,action against hunger,nutrition,INGO,0.0,False
+SO1401,alight american refugee committee,health,INGO,1.0,False
+SO1401,alight american refugee committee,nutrition,INGO,0.7607211231560258,False
+SO1401,alight american refugee committee,wash,INGO,1.0,False
+SO1401,care international,food_security,INGO,1.0,False
+SO1401,care international,health,INGO,1.0,False
+SO1401,care international,nutrition,INGO,0.7309903664231546,False
+SO1401,care international,wash,INGO,1.0,False
+SO1401,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO1401,food and agriculture organization,food_security,UN,1.0,False
+SO1401,islamic relief worldwide,food_security,INGO,0.0,False
+SO1401,islamic relief worldwide,wash,INGO,0.0,False
+SO1401,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1401,oxfam,wash,INGO,0.0,False
+SO1401,save the children international,health,INGO,0.0,False
+SO1401,save the children international,nutrition,INGO,0.7065349451888959,False
+SO1401,world food programme,food_security,UN,0.4318362689363453,False
+SO1401,world vision international,health,INGO,1.0,False
+SO1402,alight american refugee committee,wash,INGO,1.0,False
+SO1402,care international,food_security,INGO,1.0,False
+SO1402,care international,health,INGO,1.0,False
+SO1402,care international,nutrition,INGO,0.7765471296518633,False
+SO1402,care international,wash,INGO,0.8301863998620561,False
+SO1402,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO1402,food and agriculture organization,food_security,UN,1.0,False
+SO1402,save the children international,nutrition,INGO,0.7031808659490874,False
+SO1402,save the children international,wash,INGO,0.0,False
+SO1402,taakulo,wash,NNGO,0.0,False
+SO1402,welthhungerrhilfe,food_security,INGO,0.0,False
+SO1402,world food programme,food_security,UN,0.4318362689363453,False
+SO1403,alight american refugee committee,health,INGO,1.0,False
+SO1403,alight american refugee committee,nutrition,INGO,0.7765471296518633,False
+SO1403,care international,food_security,INGO,1.0,False
+SO1403,care international,health,INGO,1.0,False
+SO1403,care international,nutrition,INGO,0.7799012088916719,False
+SO1403,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO1403,food and agriculture organization,food_security,UN,1.0,False
+SO1403,international rescue committee,health,INGO,1.0,False
+SO1403,islamic relief worldwide,wash,INGO,0.0,False
+SO1403,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1403,qatar red crescent society,wash,OTHERS,0.0434782608695652,False
+SO1403,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1403,world food programme,food_security,UN,0.4318362689363453,False
+SO1404,alight american refugee committee,nutrition,INGO,0.7065349451888959,False
+SO1404,care international,food_security,INGO,1.0,False
+SO1404,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1404,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1404,world food programme,food_security,UN,0.4318362689363453,False
+SO1501,agricultural development organization,wash,NNGO,0.0,False
+SO1501,care international,food_security,INGO,1.0,False
+SO1501,care international,health,INGO,1.0,False
+SO1501,care international,nutrition,INGO,0.7310791724736635,False
+SO1501,care international,wash,INGO,0.8301863998620561,False
+SO1501,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO1501,food and agriculture organization,food_security,UN,1.0,False
+SO1501,health education agro pastoralist liaison,nutrition,NNGO,0.7045619574007732,False
+SO1501,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1501,oxfam netherlands,food_security,INGO,0.0,False
+SO1501,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1501,taakulo somaliland community,food_security,NNGO,0.0,False
+SO1501,world food programme,food_security,UN,0.4318362689363453,False
+SO1502,alight american refugee committee,wash,INGO,1.0,False
+SO1502,care international,food_security,INGO,1.0,False
+SO1502,care international,health,INGO,1.0,False
+SO1502,care international,nutrition,INGO,0.7484585244476251,False
+SO1502,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO1502,food and agriculture organization,food_security,UN,1.0,False
+SO1502,health education agro pastoralist liaison,nutrition,NNGO,0.6975907338827397,False
+SO1502,international organization for migration,nutrition,UN,0.7065349451888959,False
+SO1502,oxfam netherlands,food_security,INGO,0.0,False
+SO1502,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1502,taakulo,wash,NNGO,0.0,False
+SO1502,taakulo somaliland community,food_security,NNGO,0.0,False
+SO1502,world food programme,food_security,UN,0.4318362689363453,False
+SO1503,care international,food_security,INGO,1.0,False
+SO1503,care international,health,INGO,1.0,False
+SO1503,care international,nutrition,INGO,0.7198742658621279,False
+SO1503,care international,wash,INGO,1.0,False
+SO1503,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO1503,food and agriculture organization,food_security,UN,1.0,False
+SO1503,islamic relief worldwide,food_security,INGO,0.0,False
+SO1503,islamic relief worldwide,wash,INGO,0.0,False
+SO1503,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1503,save the children international,nutrition,INGO,0.7065349451888959,False
+SO1503,world food programme,food_security,UN,0.4318362689363453,False
+SO1601,care international,health,INGO,1.0,False
+SO1601,care international,nutrition,INGO,0.7198742658621279,False
+SO1601,care international,wash,INGO,1.0,False
+SO1601,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO1601,food and agriculture organization,food_security,UN,1.0,False
+SO1601,integrated services for displaced population,nutrition,NNGO,0.7016962734986804,False
+SO1601,international organization for migration,health,UN,0.5,False
+SO1601,norwegian refugee council,wash,INGO,0.0,False
+SO1601,save the children international,health,INGO,0.0,False
+SO1601,save the children international,nutrition,INGO,0.7065349451888959,False
+SO1601,save the children international,wash,INGO,0.25,False
+SO1601,united nations childrens fund,wash,UN,1.0,False
+SO1601,wardi relief and development initiatives,health,NNGO,0.0,False
+SO1601,world food programme,food_security,UN,0.4318362689363453,False
+SO1602,horn of africa aid and development organization,nutrition,NNGO,0.6931186282296616,False
+SO1602,islamic relief worldwide,food_security,INGO,0.0,False
+SO1602,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1602,save the children international,food_security,INGO,1.0,False
+SO1602,save the children international,nutrition,INGO,0.7065349451888959,False
+SO1602,save the children international,wash,INGO,1.0,False
+SO1602,world food programme,food_security,UN,0.4318362689363453,False
+SO1603,horn of africa aid and development organization,nutrition,NNGO,0.6931186282296616,False
+SO1603,integrated services for displaced population,nutrition,NNGO,0.6931186282296616,False
+SO1603,save the children international,health,INGO,0.0,False
+SO1603,save the children international,nutrition,INGO,0.7065349451888959,False
+SO1603,save the children international,wash,INGO,0.4141506079866346,False
+SO1603,world food programme,food_security,UN,0.4318362689363453,False
+SO1604,horn of africa aid and development organization,nutrition,NNGO,0.6931186282296616,False
+SO1604,islamic relief worldwide,food_security,INGO,0.0,False
+SO1604,islamic relief worldwide,wash,INGO,0.0,False
+SO1604,puntland water development agency,wash,GOVERNMENT,1.0,False
+SO1604,save the children international,food_security,INGO,1.0,False
+SO1604,save the children international,health,INGO,0.0,False
+SO1604,save the children international,nutrition,INGO,0.7065349451888959,False
+SO1604,save the children international,wash,INGO,0.8571428571428571,False
+SO1604,world food programme,food_security,UN,0.4318362689363453,False
+SO1605,integrated services for displaced population,nutrition,NNGO,0.6931186282296616,False
+SO1605,save the children international,health,INGO,0.0,False
+SO1605,save the children international,nutrition,INGO,0.7065349451888959,False
+SO1605,save the children international,wash,INGO,0.4141506079866346,False
+SO1605,world food programme,food_security,UN,0.4318362689363453,False
+SO1605,world health organization,health,UN,0.0,False
+SO1606,food and agriculture organization,food_security,UN,1.0,False
+SO1606,horn of africa aid and development organization,nutrition,NNGO,0.6931186282296616,False
+SO1606,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1606,norwegian refugee council,wash,INGO,0.0,False
+SO1606,save the children international,food_security,INGO,1.0,False
+SO1606,save the children international,nutrition,INGO,0.7065349451888959,False
+SO1606,save the children international,wash,INGO,0.975,False
+SO1606,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1606,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO1606,world food programme,food_security,UN,0.4318362689363453,False
+SO1701,care international,nutrition,INGO,0.7065349451888959,False
+SO1701,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO1701,food and agriculture organization,food_security,UN,1.0,False
+SO1701,international organization for migration,health,UN,0.3163265306122449,False
+SO1701,international organization for migration,nutrition,UN,0.7065349451888958,False
+SO1701,international rescue committee,health,INGO,0.5,False
+SO1701,norwegian refugee council,wash,INGO,0.0,False
+SO1701,qatar red crescent society,wash,OTHERS,0.0434782608695652,False
+SO1701,save the children international,food_security,INGO,1.0,False
+SO1701,save the children international,nutrition,INGO,0.4141506079866346,False
+SO1701,save the children international,wash,INGO,1.0,False
+SO1701,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1701,somali women association,wash,NNGO,0.3938284960295317,True
+SO1701,veterinaires sans frontieres,food_security,INGO,0.0,False
+SO1701,world food programme,food_security,UN,0.4318362689363453,False
+SO1701,world vision international,nutrition,INGO,0.6943382934077739,False
+SO1702,care international,nutrition,INGO,0.7219804743894803,False
+SO1702,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO1702,food and agriculture organization,food_security,UN,1.0,False
+SO1702,international rescue committee,nutrition,INGO,0.7065349451888959,False
+SO1702,islamic relief worldwide,food_security,INGO,0.0,False
+SO1702,islamic relief worldwide,wash,INGO,0.0,False
+SO1702,save the children international,nutrition,INGO,0.7065349451888959,False
+SO1702,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1702,veterinaires sans frontieres,food_security,INGO,0.0,False
+SO1702,world food programme,food_security,UN,0.4318362689363453,False
+SO1702,world vision international,nutrition,INGO,0.6931186282296616,False
+SO1703,care international,nutrition,INGO,0.7065349451888959,False
+SO1703,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO1703,food and agriculture organization,food_security,UN,1.0,False
+SO1703,international rescue committee,wash,INGO,0.0,False
+SO1703,norwegian church aid,wash,INGO,0.0,False
+SO1703,puntland water development agency,wash,GOVERNMENT,1.0,False
+SO1703,save the children international,food_security,INGO,1.0,False
+SO1703,save the children international,wash,INGO,1.0,False
+SO1703,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1703,world food programme,food_security,UN,0.4318362689363453,False
+SO1703,world vision international,nutrition,INGO,0.3713135508373187,False
+SO1801,adventist development and relief agency,wash,INGO,0.0,False
+SO1801,agency for community integration and empowerment,wash,NNGO,0.3938284960295317,True
+SO1801,arche nova,wash,INGO,0.0,False
+SO1801,care international,food_security,INGO,1.0,False
+SO1801,care international,health,INGO,0.0,False
+SO1801,care international,nutrition,INGO,0.7065349451888959,False
+SO1801,care international,wash,INGO,0.0,False
+SO1801,centre for peace and democracy,wash,NNGO,0.0,False
+SO1801,concern worldwide,health,INGO,0.7065349451888959,False
+SO1801,danish refugee council,wash,INGO,0.4,False
+SO1801,fayadhowr orientation organization,wash,NNGO,0.0,False
+SO1801,food and agriculture organization,food_security,UN,1.0,False
+SO1801,horn care trust organization,health,NNGO,0.3938284960295317,True
+SO1801,international medical corps,health,INGO,1.0,False
+SO1801,international medical corps,nutrition,INGO,0.6985912934508615,False
+SO1801,international medical corps,wash,INGO,0.8888888888888888,False
+SO1801,international organization for migration,wash,UN,1.0,False
+SO1801,international rescue committee,health,INGO,0.0,False
+SO1801,international rescue committee,nutrition,INGO,0.7065349451888959,False
+SO1801,international rescue committee,wash,INGO,0.0,False
+SO1801,kaah relief and development organization,health,NNGO,0.0,False
+SO1801,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1801,ministry of health,wash,GOVERNMENT,0.7065349451888959,False
+SO1801,muslim aid uk somalia,health,INGO,0.7065349451888959,False
+SO1801,polish humanitarian action,wash,INGO,0.0,False
+SO1801,puntland minority women development organization,wash,NNGO,0.0379229987819754,False
+SO1801,qatar charity,wash,OTHERS,0.0,False
+SO1801,save the children international,nutrition,INGO,0.4141506079866346,False
+SO1801,save the children international,wash,INGO,0.4141506079866346,False
+SO1801,skills active forward united kingdom,health,INGO,0.7065349451888959,False
+SO1801,skills active forward united kingdom,nutrition,INGO,0.7065349451888959,False
+SO1801,somali aid mission,wash,NNGO,0.0,False
+SO1801,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1801,somali vision development group,nutrition,NNGO,0.6931186282296616,False
+SO1801,trocaire,health,INGO,0.1638952592620501,False
+SO1801,united nations childrens fund,wash,UN,1.0,False
+SO1801,vision corps initiative,health,NNGO,0.0,False
+SO1801,wajir south development association,health,NNGO,0.0,False
+SO1801,welthhungerrhilfe,wash,INGO,0.0,False
+SO1801,world food programme,food_security,UN,0.4318362689363453,False
+SO1801,world health organization,health,UN,0.0,False
+SO1801,world vision international,health,INGO,0.0,False
+SO1801,world vision international,nutrition,INGO,0.1752921046013005,False
+SO1801,ypeer somalia,food_security,NNGO,0.3938284960295317,True
+SO1802,care international,food_security,INGO,1.0,False
+SO1802,care international,nutrition,INGO,0.7065349451888959,False
+SO1802,food and agriculture organization,food_security,UN,1.0,False
+SO1802,international rescue committee,health,INGO,0.0,False
+SO1802,international rescue committee,nutrition,INGO,0.42153276509378,False
+SO1802,international rescue committee,wash,INGO,0.0,False
+SO1802,mercy usa for aid and development,health,INGO,0.0,False
+SO1802,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1802,save the children international,health,INGO,0.0,False
+SO1802,save the children international,nutrition,INGO,0.4141506079866346,False
+SO1802,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1802,world food programme,food_security,UN,0.4318362689363453,False
+SO1802,world vision international,nutrition,INGO,0.2340209465119392,False
+SO1803,arche nova,wash,INGO,0.0,False
+SO1803,care international,food_security,INGO,1.0,False
+SO1803,deh relief and development organization,nutrition,NNGO,0.6931186282296616,False
+SO1803,development and empowerment for humanity,nutrition,NNGO,0.6931186282296616,False
+SO1803,food and agriculture organization,food_security,UN,0.96,False
+SO1803,horn care trust organization,health,NNGO,0.3938284960295317,True
+SO1803,international medical corps,nutrition,INGO,0.853267472594448,False
+SO1803,international medical corps,wash,INGO,1.0,False
+SO1803,mandher relief and development organization,health,NNGO,0.3532674725944479,False
+SO1803,mercy usa for aid and development,health,INGO,0.3532674725944479,False
+SO1803,mercy usa for aid and development,nutrition,INGO,0.6931186282296616,False
+SO1803,ministry of health,wash,GOVERNMENT,0.7065349451888959,False
+SO1803,muslim aid uk somalia,health,INGO,0.3330839252868127,False
+SO1803,somali relief center,nutrition,NNGO,0.7065349451888959,False
+SO1803,trocaire,health,INGO,0.1638952592620501,False
+SO1803,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO1803,world food programme,food_security,UN,0.4318362689363453,False
+SO1803,world health organization,health,UN,0.0,False
+SO1803,world vision international,health,INGO,0.4587205596491346,False
+SO1803,world vision international,nutrition,INGO,0.7020628395358178,False
+SO1804,care international,food_security,INGO,1.0,False
+SO1804,care international,nutrition,INGO,0.7065349451888959,False
+SO1804,care international,wash,INGO,1.0,False
+SO1804,food and agriculture organization,food_security,UN,1.0,False
+SO1804,international medical corps,nutrition,INGO,0.73321358653536,False
+SO1804,international medical corps,wash,INGO,1.0,False
+SO1804,mercy usa for aid and development,nutrition,INGO,0.6931186282296616,False
+SO1804,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO1804,skills active forward united kingdom,nutrition,INGO,0.7065349451888959,False
+SO1804,somali red crescent society,nutrition,NNGO,0.7065349451888959,False
+SO1804,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO1804,world food programme,food_security,UN,0.4318362689363453,False
+SO1804,world vision international,nutrition,INGO,0.4212377037214906,False
+SO1805,deh relief and development organization,health,NNGO,0.0,False
+SO1805,deh relief and development organization,nutrition,NNGO,0.6931186282296616,False
+SO1805,development and empowerment for humanity,nutrition,NNGO,0.6931186282296616,False
+SO1805,horn care trust organization,health,NNGO,0.3938284960295317,True
+SO1805,international organization for migration,wash,UN,0.5155566522322239,False
+SO1805,mercy corps,wash,INGO,0.6092948980685544,False
+SO1805,muslim aid uk somalia,health,INGO,0.3330839252868127,False
+SO1805,organization for somalis protection and development,health,NNGO,0.0,False
+SO1805,save the children international,health,INGO,0.9565217391304348,False
+SO1805,skills active forward united kingdom,health,INGO,1.0,False
+SO1805,somali relief center,nutrition,NNGO,0.7065349451888959,False
+SO1805,world food programme,food_security,UN,0.4318362689363453,False
+SO1805,world vision international,health,INGO,1.0,False
+SO1901,action against hunger,health,INGO,0.2018671271968274,False
+SO1901,care international,food_security,INGO,1.0,False
+SO1901,care international,health,INGO,1.0,False
+SO1901,care international,nutrition,INGO,0.7652279561511167,False
+SO1901,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO1901,centre for peace and democracy,wash,NNGO,0.0,False
+SO1901,comitato internazionale per lo sviluppo dei popoli,health,INGO,0.0,False
+SO1901,comitato internazionale per lo sviluppo dei popoli,nutrition,INGO,0.6962147013741002,False
+SO1901,food and agriculture organization,food_security,UN,1.0,False
+SO1901,horn care trust organization,health,NNGO,0.3938284960295317,True
+SO1901,international organization for migration,wash,UN,1.0,False
+SO1901,international rescue committee,health,INGO,0.0,False
+SO1901,international rescue committee,nutrition,INGO,0.4710232967925973,False
+SO1901,international rescue committee,wash,INGO,0.0,False
+SO1901,kaah relief and development organization,nutrition,NNGO,0.7065349451888959,False
+SO1901,mercy usa for aid and development,health,INGO,0.3532674725944479,False
+SO1901,ministry of energy and water resources,wash,GOVERNMENT,1.0,False
+SO1901,new ways organisation,health,NNGO,0.0,False
+SO1901,new ways organisation,wash,NNGO,0.7065349451888959,False
+SO1901,polish humanitarian action,wash,INGO,0.0153594553301933,False
+SO1901,qatar charity,health,OTHERS,0.0,False
+SO1901,save the children international,health,INGO,0.0,False
+SO1901,united nations childrens fund,wash,UN,0.7065349451888959,False
+SO1901,welthhungerrhilfe,wash,INGO,0.0,False
+SO1901,world food programme,food_security,UN,0.4318362689363453,False
+SO1901,world health organization,health,UN,0.0,False
+SO1901,zamzam foundation,wash,NNGO,0.0,False
+SO1902,action against hunger,health,INGO,0.1124330636801935,False
+SO1902,active in development aid,health,NNGO,0.0588779120990746,False
+SO1902,care international,food_security,INGO,1.0,False
+SO1902,care international,health,INGO,1.0,False
+SO1902,care international,nutrition,INGO,0.7484585244476251,False
+SO1902,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO1902,centre for peace and democracy,wash,NNGO,0.0,False
+SO1902,food and agriculture organization,food_security,UN,1.0,False
+SO1902,himilo organization for development,wash,NNGO,0.0,False
+SO1902,himilo relief and development association,nutrition,NNGO,0.7065349451888959,False
+SO1902,horn care trust organization,health,NNGO,0.3938284960295317,True
+SO1902,international organization for migration,wash,UN,1.0,False
+SO1902,international rescue committee,health,INGO,0.0,False
+SO1902,international rescue committee,nutrition,INGO,0.0,False
+SO1902,mercy usa for aid and development,health,INGO,0.3532674725944479,False
+SO1902,mercy usa for aid and development,nutrition,INGO,0.6931186282296616,False
+SO1902,ministry of energy and water resources,wash,GOVERNMENT,1.0,False
+SO1902,nomadic assistance for peace and development,wash,NNGO,0.0,False
+SO1902,polish humanitarian action,wash,INGO,0.0153594553301933,False
+SO1902,qatar charity,wash,OTHERS,0.0,False
+SO1902,save the children international,health,INGO,0.0294389560495373,False
+SO1902,save the children international,nutrition,INGO,0.7065349451888959,False
+SO1902,somali advocacy and relief organization,wash,NNGO,0.3938284960295317,True
+SO1902,somali releif and development association,wash,NNGO,0.3938284960295317,True
+SO1902,sos childrens villages somalia,health,NNGO,0.0,False
+SO1902,welthhungerrhilfe,wash,INGO,0.0,False
+SO1902,world food programme,food_security,UN,0.4318362689363453,False
+SO1903,alight american refugee committee,health,INGO,1.0,False
+SO1903,care international,food_security,INGO,1.0,False
+SO1903,centre for peace and democracy,wash,NNGO,0.0,False
+SO1903,food and agriculture organization,food_security,UN,1.0,False
+SO1903,horn care trust organization,health,NNGO,0.3938284960295317,True
+SO1903,horseed relief and development organization,nutrition,NNGO,0.6931186282296616,False
+SO1903,international organization for migration,wash,UN,1.0,False
+SO1903,kaah relief and development organization,nutrition,NNGO,0.7065349451888959,False
+SO1903,ministry of energy and water resources,wash,GOVERNMENT,1.0,False
+SO1903,norwegian refugee council,wash,INGO,0.2522446620075062,False
+SO1903,polish humanitarian action,wash,INGO,0.0,False
+SO1903,save the children international,health,INGO,0.2659574468085106,False
+SO1903,save the children international,nutrition,INGO,0.7065349451888959,False
+SO1903,tanaad relief development organization,wash,NNGO,0.434790735500859,False
+SO1903,welthhungerrhilfe,wash,INGO,0.0,False
+SO1903,world food programme,food_security,UN,0.4318362689363453,False
+SO1903,world health organization,health,UN,0.0,False
+SO1904,comitato internazionale per lo sviluppo dei popoli,nutrition,INGO,0.6931186282296616,False
+SO1904,deh relief and development organization,health,NNGO,0.0,False
+SO1904,geeska afrika social development organization,nutrition,NNGO,0.3938284960295317,True
+SO1904,kaah relief and development organization,health,NNGO,0.7065349451888959,False
+SO1904,kaah relief and development organization,nutrition,NNGO,0.7065349451888959,False
+SO1904,solutions for humanity international,health,NNGO,0.7065349451888959,False
+SO1904,vision corps initiative,health,NNGO,0.7065349451888959,False
+SO1904,world food programme,food_security,UN,0.4318362689363453,False
+SO1905,deh relief and development organization,health,NNGO,0.0,False
+SO1905,save the children international,health,INGO,1.0,False
+SO1905,somali relief center,nutrition,NNGO,0.7065349451888959,False
+SO1905,world food programme,food_security,UN,0.4318362689363453,False
+SO2001,action against disasters somalia,nutrition,NNGO,0.6931186282296616,False
+SO2001,action against disasters somalia,wash,NNGO,0.0,False
+SO2001,action against hunger,health,INGO,0.0,False
+SO2001,action against hunger,wash,INGO,0.0,False
+SO2001,action aid international,wash,INGO,0.4695276650692781,True
+SO2001,alight american refugee committee,health,INGO,1.0,False
+SO2001,caa somalia,wash,NNGO,0.3938284960295317,True
+SO2001,care international,wash,INGO,0.8301863998620561,False
+SO2001,centre for rural prosperity and development,wash,NNGO,0.0,False
+SO2001,danish refugee council,wash,INGO,0.4,False
+SO2001,dhaah foundation,wash,NNGO,0.3938284960295317,True
+SO2001,diakonie katastrophenhilfe,wash,INGO,0.0,False
+SO2001,food and agriculture organization,food_security,UN,0.4532871972318339,False
+SO2001,horn aid for development and human right,food_security,NNGO,0.0,False
+SO2001,horn international relief development organization,nutrition,NNGO,0.7065349451888959,False
+SO2001,human development concern,health,NNGO,0.4966730802813031,False
+SO2001,humanitarian integrity for women action,wash,NNGO,0.0,False
+SO2001,international organization for migration,health,UN,0.2903225806451613,False
+SO2001,international organization for migration,nutrition,UN,0.7065349451888959,False
+SO2001,international organization for migration,wash,UN,1.0,False
+SO2001,international rescue committee,wash,INGO,0.0,False
+SO2001,islamic relief worldwide,wash,INGO,0.0,False
+SO2001,kaalo aid and development organization,wash,NNGO,0.0,False
+SO2001,livelihood relief development organization,wash,NNGO,0.0,False
+SO2001,mercy usa for aid and development,nutrition,INGO,0.7065349451888959,False
+SO2001,muslim aid uk somalia,health,INGO,0.3330839252868127,False
+SO2001,organization for somalis protection and development,health,NNGO,0.0,False
+SO2001,puntland minority women development organization,wash,NNGO,0.0379229987819754,False
+SO2001,qatar charity,food_security,OTHERS,0.0,False
+SO2001,qatar charity,wash,OTHERS,0.0154226034823873,False
+SO2001,qatar red crescent society,wash,OTHERS,1.0,False
+SO2001,resilience hope foundation,wash,NNGO,0.3938284960295317,True
+SO2001,save the children international,food_security,INGO,1.0,False
+SO2001,save the children international,health,INGO,0.3104575163398693,False
+SO2001,save the children international,nutrition,INGO,0.7154278256377172,False
+SO2001,save the children international,wash,INGO,0.8181818181818182,False
+SO2001,somali awareness and social development organization,food_security,NNGO,0.0,False
+SO2001,sos childrens villages somalia,health,NNGO,1.0,False
+SO2001,united nations childrens fund,wash,UN,0.2355116483962986,False
+SO2001,wardi relief and development initiatives,food_security,NNGO,0.0,False
+SO2001,wardi relief and development initiatives,health,NNGO,0.0,False
+SO2001,wardi relief and development initiatives,nutrition,NNGO,0.7050974826575495,False
+SO2001,wardi relief and development initiatives,wash,NNGO,0.6449285144584367,False
+SO2001,welthhungerrhilfe,wash,INGO,0.0,False
+SO2001,womens association for relief development actions,wash,NNGO,0.8125,False
+SO2001,world food programme,food_security,UN,0.4318362689363453,False
+SO2001,world health organization,health,UN,0.0,False
+SO2001,world vision international,health,INGO,0.0,False
+SO2001,worth vision,wash,INGO,0.5,False
+SO2001,zamzam foundation,wash,NNGO,0.0,False
+SO2002,action against hunger,health,INGO,0.0,False
+SO2002,action against hunger,wash,INGO,0.0,False
+SO2002,aden abdulle osman foundation,health,NNGO,0.0,False
+SO2002,agency for minority rights and development,food_security,NNGO,0.0,False
+SO2002,aid vision,health,NNGO,0.0,False
+SO2002,alight american refugee committee,health,INGO,1.0,False
+SO2002,care international,wash,INGO,0.8301863998620561,False
+SO2002,food and agriculture organization,food_security,UN,1.0,False
+SO2002,geeska afrika social development organization,nutrition,NNGO,0.3938284960295317,True
+SO2002,horn aid for development and human right,food_security,NNGO,0.0,False
+SO2002,human development concern,health,NNGO,0.4966730802813031,False
+SO2002,international organization for migration,health,UN,0.0,False
+SO2002,mercy usa for aid and development,nutrition,INGO,0.7065349451888959,False
+SO2002,mercy usa for aid and development,wash,INGO,0.3306193561808381,False
+SO2002,qatar red crescent society,wash,OTHERS,0.0434782608695652,False
+SO2002,save the children international,food_security,INGO,1.0,False
+SO2002,save the children international,health,INGO,0.4363636363636363,False
+SO2002,save the children international,nutrition,INGO,0.7532097348308743,False
+SO2002,somali awareness and social development organization,food_security,NNGO,0.0,False
+SO2002,trocaire,health,INGO,0.1638952592620501,False
+SO2002,united nations childrens fund,wash,UN,1.0,False
+SO2002,wardi relief and development initiatives,food_security,NNGO,0.0,False
+SO2002,wardi relief and development initiatives,health,NNGO,0.0,False
+SO2002,wardi relief and development initiatives,wash,NNGO,0.8333333333333334,False
+SO2002,world food programme,food_security,UN,0.4318362689363453,False
+SO2002,zamzam foundation,health,NNGO,0.0,False
+SO2002,zamzam foundation,nutrition,NNGO,0.0,False
+SO2003,action against hunger,health,INGO,0.0,False
+SO2003,agency for peace initiatives and inclusive development,wash,NNGO,0.3938284960295317,True
+SO2003,alight american refugee committee,health,INGO,0.0,False
+SO2003,food and agriculture organization,food_security,UN,0.0,False
+SO2003,galgaduud relief and development organisation,wash,NNGO,0.3938284960295317,True
+SO2003,hidig relief and development organization,health,NNGO,0.7065349451888959,False
+SO2003,hidig relief and development organization,nutrition,NNGO,0.7065349451888959,False
+SO2003,horn aid for development and human right,food_security,NNGO,0.0,False
+SO2003,international medical corps,health,INGO,1.0,False
+SO2003,mercy usa for aid and development,wash,INGO,0.3306193561808381,False
+SO2003,save the children international,health,INGO,1.0,False
+SO2003,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO2003,wardi relief and development initiatives,health,NNGO,0.0,False
+SO2003,wardi relief and development initiatives,wash,NNGO,1.0,False
+SO2003,womens association for relief development actions,wash,NNGO,0.8125,False
+SO2003,world food programme,food_security,UN,0.4318362689363453,False
+SO2101,action against hunger,food_security,INGO,0.0,False
+SO2101,action against hunger,wash,INGO,0.0,False
+SO2101,action contre lafeim,food_security,INGO,0.0,False
+SO2101,action for relief and development,nutrition,NNGO,0.0,False
+SO2101,african relief and development,nutrition,NNGO,0.0,False
+SO2101,african social empowerment network,wash,NNGO,0.0,False
+SO2101,agency for minority rights and development,wash,NNGO,0.0,False
+SO2101,aid vision,health,NNGO,0.0,False
+SO2101,alight american refugee committee,health,INGO,0.0,False
+SO2101,centre for rural prosperity and development,wash,NNGO,0.0,False
+SO2101,food and agriculture organization,food_security,UN,0.5737704918032787,False
+SO2101,gurmad for sustainable aid,wash,NNGO,0.0,False
+SO2101,iimaan relief and development organisation,wash,NNGO,0.0,False
+SO2101,international medical corps,health,INGO,1.0,False
+SO2101,international medical corps,nutrition,INGO,0.7183881633968688,False
+SO2101,international medical corps,wash,INGO,0.7352941176470589,False
+SO2101,international organization for migration,health,UN,0.2777777777777778,False
+SO2101,intersom relief and development organization,wash,NNGO,0.0,False
+SO2101,kaah relief and development organization,health,NNGO,1.0,False
+SO2101,marginalized communities advocacy network,wash,NNGO,0.285436000463485,False
+SO2101,mercy usa for aid and development,health,INGO,0.0,False
+SO2101,nolol awareness and social development organization,nutrition,NNGO,0.7065349451888959,False
+SO2101,norwegian refugee council,wash,INGO,0.0,False
+SO2101,peace and development action,nutrition,NNGO,0.6742004023126944,False
+SO2101,polish humanitarian action,wash,INGO,0.0153594553301933,False
+SO2101,qatar red crescent society,wash,OTHERS,0.0434782608695652,False
+SO2101,rajo relief and development organization,wash,NNGO,0.3938284960295317,True
+SO2101,sahan research and development organisation,wash,NNGO,0.3938284960295317,True
+SO2101,save the children international,health,INGO,0.0,False
+SO2101,skills active forward united kingdom,health,INGO,1.0,False
+SO2101,somali awareness and social development organization,food_security,NNGO,0.0,False
+SO2101,somali children development asociation,wash,NNGO,0.3938284960295317,True
+SO2101,somali community concern,wash,NNGO,0.0,False
+SO2101,somali observatory for humanitarian action,wash,NNGO,0.3938284960295317,True
+SO2101,somali releif and development association,wash,NNGO,0.3938284960295317,True
+SO2101,somali relief center,health,NNGO,0.0,False
+SO2101,sos childrens villages somalia,health,NNGO,0.0,False
+SO2101,support international rescue foundation,wash,NNGO,0.3938284960295317,True
+SO2101,united nations childrens fund,wash,UN,0.0,False
+SO2101,wardi relief and development initiatives,health,NNGO,0.0,False
+SO2101,world food programme,food_security,UN,0.4318362689363453,False
+SO2101,world health organization,health,UN,0.0,False
+SO2101,world vision international,health,INGO,0.0,False
+SO2101,world vision international,nutrition,INGO,0.4587205596491346,False
+SO2101,world vision international,wash,INGO,0.4587205596491346,False
+SO2101,worth vision,wash,INGO,0.5,False
+SO2101,zamzam foundation,wash,NNGO,0.0,False
+SO2102,african social empowerment network,wash,NNGO,0.0,False
+SO2102,aid vision,nutrition,NNGO,0.6975907338827397,False
+SO2102,aid vision,wash,NNGO,0.466770695083285,False
+SO2102,alight american refugee committee,health,INGO,0.0,False
+SO2102,alight american refugee committee,nutrition,INGO,0.6931186282296616,False
+SO2102,dignity first somalia,food_security,NNGO,0.0,False
+SO2102,international medical corps,nutrition,INGO,1.0,False
+SO2102,international medical corps,wash,INGO,1.0,False
+SO2102,international rescue committee,health,INGO,1.0,False
+SO2102,mercy usa for aid and development,health,INGO,0.0,False
+SO2102,save the children international,health,INGO,1.0,False
+SO2102,trocaire,health,INGO,0.1638952592620501,False
+SO2102,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO2102,wardi relief and development initiatives,health,NNGO,0.2585608173990509,False
+SO2103,access development and relief org,food_security,NNGO,0.0,False
+SO2103,agency for minority rights and development,food_security,NNGO,0.0,False
+SO2103,aid vision,health,NNGO,0.0,False
+SO2103,aid vision,nutrition,NNGO,0.7065349451888959,False
+SO2103,alight american refugee committee,health,INGO,0.0,False
+SO2103,alight american refugee committee,nutrition,INGO,0.462079085486441,False
+SO2103,alight american refugee committee,wash,INGO,1.0,False
+SO2103,concern worldwide,health,INGO,0.0,False
+SO2103,food and agriculture organization,food_security,UN,1.0,False
+SO2103,integrated community action network,wash,NNGO,0.0,False
+SO2103,islamic relief worldwide,health,INGO,0.0,False
+SO2103,kaah relief and development organization,health,NNGO,1.0,False
+SO2103,medair,health,INGO,0.8189958967163137,False
+SO2103,medair,nutrition,INGO,1.0,False
+SO2103,mercy usa for aid and development,health,INGO,0.0,False
+SO2103,qatar charity,food_security,OTHERS,0.0,False
+SO2103,qatar charity,wash,OTHERS,0.0,False
+SO2103,qatar red crescent society,wash,OTHERS,0.0434782608695652,False
+SO2103,somali awareness and social development organization,food_security,NNGO,0.0,False
+SO2103,sos childrens villages somalia,health,NNGO,0.0701754385964912,False
+SO2103,sos childrens villages somalia,nutrition,NNGO,0.759892227881824,False
+SO2103,sos childrens villages somalia,wash,NNGO,1.0,False
+SO2103,trocaire,health,INGO,0.1638952592620501,False
+SO2103,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO2103,world food programme,food_security,UN,0.4318362689363453,False
+SO2104,aid vision,nutrition,NNGO,0.7065349451888959,False
+SO2104,alight american refugee committee,health,INGO,0.0,False
+SO2104,food and agriculture organization,food_security,UN,1.0,False
+SO2104,international medical corps,nutrition,INGO,0.7065349451888958,False
+SO2104,kaah relief and development organization,health,NNGO,1.0,False
+SO2104,medair,health,INGO,0.8189958967163137,False
+SO2104,medair,nutrition,INGO,0.8849194855861231,False
+SO2104,mercy usa for aid and development,health,INGO,0.0,False
+SO2104,qatar charity,wash,OTHERS,0.0,False
+SO2104,save the children international,health,INGO,1.0,False
+SO2104,wardi relief and development initiatives,health,NNGO,0.2585608173990509,False
+SO2104,world food programme,food_security,UN,0.4318362689363453,False
+SO22,aamin organziation,health,NNGO,0.0,False
+SO22,action against disasters somalia,nutrition,NNGO,0.5198389711722462,False
+SO22,action against hunger,health,INGO,0.3451276690784468,False
+SO22,action against hunger,nutrition,INGO,0.5836593025473489,False
+SO22,action against hunger,wash,INGO,0.0,False
+SO22,aden abdulle osman foundation,health,NNGO,0.0,False
+SO22,agency for minority rights and development,food_security,NNGO,0.0,False
+SO22,agency for technical cooperation and development,wash,INGO,1.0,False
+SO22,aid vision,health,NNGO,0.0,False
+SO22,aid vision,nutrition,NNGO,0.6931186282296616,False
+SO22,alight american refugee committee,health,INGO,0.9411764705882352,False
+SO22,alight american refugee committee,nutrition,INGO,0.7257189281468293,False
+SO22,alight american refugee committee,wash,INGO,1.0,False
+SO22,comitato internazionale per lo sviluppo dei popoli,nutrition,INGO,0.7017434034177408,False
+SO22,concern worldwide,food_security,INGO,0.0,False
+SO22,concern worldwide,health,INGO,0.2332755955697596,False
+SO22,concern worldwide,nutrition,INGO,0.6479138847135687,False
+SO22,concern worldwide,wash,INGO,0.1547377746135168,False
+SO22,cooperazione e sviluppo fondazione onlus,nutrition,INGO,0.7065349451888959,False
+SO22,danish refugee council,wash,INGO,0.0,False
+SO22,daryeel bulsho guud,wash,NNGO,0.0,False
+SO22,food and agriculture organization,food_security,UN,1.0,False
+SO22,horn aid for development and human right,food_security,NNGO,0.0,False
+SO22,horn international relief development organization,nutrition,NNGO,0.7065349451888959,False
+SO22,human appeal,food_security,INGO,0.0,False
+SO22,human development concern,health,NNGO,0.0,False
+SO22,humanitarian relief foundation,food_security,INGO,0.0,False
+SO22,humanitarian relief organization,food_security,NNGO,0.0,False
+SO22,international medical corps,health,INGO,1.0,False
+SO22,international medical corps,nutrition,INGO,0.7192942953980743,False
+SO22,international medical corps,wash,INGO,1.0,False
+SO22,international organization for migration,health,UN,0.5,False
+SO22,international rescue committee,health,INGO,0.0,False
+SO22,international rescue committee,nutrition,INGO,0.7065349451888959,False
+SO22,islamic relief,health,INGO,0.2332755955697596,False
+SO22,islamic relief worldwide,food_security,INGO,0.0,False
+SO22,islamic relief worldwide,health,INGO,0.0,False
+SO22,juba light organization,food_security,NNGO,0.0,False
+SO22,livelihood relief development organization,wash,NNGO,0.0,False
+SO22,marginalized communities advocacy network,wash,NNGO,0.0,False
+SO22,medair,health,INGO,0.8189958967163137,False
+SO22,medair,nutrition,INGO,0.7907627010656785,False
+SO22,mercy usa for aid and development,health,INGO,0.0,False
+SO22,mercy usa for aid and development,nutrition,INGO,0.7065349451888959,False
+SO22,munazzamat al dawa,nutrition,NNGO,0.6931186282296616,False
+SO22,muslim aid uk somalia,health,INGO,0.1166377977848798,False
+SO22,new ways organisation,health,NNGO,1.0,False
+SO22,nolol awareness and social development organization,nutrition,NNGO,0.7065349451888959,False
+SO22,nolol awareness and social development organization,wash,NNGO,0.7065349451888959,False
+SO22,nomadic assistance for peace and development,wash,NNGO,0.0,False
+SO22,organization for somalis protection and development,health,NNGO,0.5,False
+SO22,peace and development action,nutrition,NNGO,0.6931186282296616,False
+SO22,physicians across continent,health,INGO,0.7065349451888959,False
+SO22,polish humanitarian action,wash,INGO,0.0,False
+SO22,puntland minority women development organization,wash,NNGO,0.0379229987819754,False
+SO22,qatar charity,food_security,OTHERS,0.0,False
+SO22,qatar charity,health,OTHERS,0.0154226034823873,False
+SO22,qatar charity,nutrition,OTHERS,0.4710232967925973,False
+SO22,qatar red crescent society,food_security,OTHERS,0.0,False
+SO22,save somali women and children,wash,NNGO,0.5645666334478158,False
+SO22,save the children international,health,INGO,0.1027671414334778,False
+SO22,save the children international,nutrition,INGO,0.7059982925105266,False
+SO22,save the children international,wash,INGO,1.0,False
+SO22,solutions for humanity international,health,NNGO,0.7065349451888959,False
+SO22,somali advocacy and relief organization,wash,NNGO,0.3938284960295317,True
+SO22,somali awareness and social development organization,food_security,NNGO,0.0,False
+SO22,somali awareness and social development organization,health,NNGO,0.1514644840989507,False
+SO22,somali releif and development association,wash,NNGO,0.3938284960295317,True
+SO22,somali relief rehabilitation and development organization,nutrition,NNGO,0.7065349451888959,False
+SO22,somali young doctors association,nutrition,NNGO,0.0,False
+SO22,somali young doctors association,wash,NNGO,0.0,False
+SO22,somalia conservation organization,health,NNGO,0.2332755955697595,False
+SO22,sos childrens villages somalia,health,NNGO,0.3417721518987341,False
+SO22,sos childrens villages somalia,nutrition,NNGO,0.839928151921216,False
+SO22,sos childrens villages somalia,wash,NNGO,1.0,False
+SO22,united nations childrens fund,wash,UN,1.0,False
+SO22,wajir south development association,health,NNGO,0.0,False
+SO22,wardi relief and development initiatives,health,NNGO,0.0,False
+SO22,wardi relief and development initiatives,nutrition,NNGO,0.4665511911395192,False
+SO22,wardi relief and development initiatives,wash,NNGO,0.1389840796671735,False
+SO22,world food programme,food_security,UN,0.4318362689363453,False
+SO22,world health organization,health,UN,0.0,False
+SO22,youthlink,nutrition,NNGO,0.7065349451888959,False
+SO22,ypeer somalia,food_security,NNGO,0.3938284960295317,True
+SO22,zamzam foundation,wash,NNGO,0.0,False
+SO2301,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2301,alight american refugee committee,health,INGO,0.0,False
+SO2301,ayuub ngo,nutrition,NNGO,0.7028759496545592,False
+SO2301,food and agriculture organization,food_security,UN,0.9523809523809524,False
+SO2301,gargaar relief and development organization,health,NNGO,1.0,False
+SO2301,gargaar relief and development organization,nutrition,NNGO,1.0,False
+SO2301,marginalized communities advocacy network,wash,NNGO,0.285436000463485,False
+SO2301,ministry of energy and water resources,wash,GOVERNMENT,0.8571428571428571,False
+SO2301,muslim aid uk somalia,health,INGO,0.0,False
+SO2301,new ways organisation,health,NNGO,0.0623413186931378,False
+SO2301,new ways organisation,nutrition,NNGO,0.6931186282296616,False
+SO2301,samawada rehabilitation and development organization,wash,NNGO,0.7065349451888959,False
+SO2301,save the children international,health,INGO,1.0,False
+SO2301,serving together for social development,nutrition,NNGO,0.7065349451888959,False
+SO2301,serving together for social development,wash,NNGO,0.0,False
+SO2301,somali awareness and social development organization,food_security,NNGO,0.0,False
+SO2301,sts international solidarity,nutrition,NNGO,0.0,False
+SO2301,sts international solidarity,wash,NNGO,0.0,False
+SO2301,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO2301,world food programme,food_security,UN,0.4318362689363453,False
+SO2302,action against hunger,health,INGO,0.0,False
+SO2302,action against hunger,nutrition,INGO,0.0,False
+SO2302,agency for minority rights and development,food_security,NNGO,0.0,False
+SO2302,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2302,agency for technical cooperation and development,wash,INGO,1.0,False
+SO2302,agro pastoral charity organization,nutrition,NNGO,0.6358814506700063,False
+SO2302,aid vision,health,NNGO,0.0,False
+SO2302,ayuub ngo,wash,NNGO,0.0,False
+SO2302,concern worldwide,health,INGO,0.2332755955697596,False
+SO2302,food and agriculture organization,food_security,UN,0.7428571428571429,False
+SO2302,horn aid for development and human right,food_security,NNGO,0.0,False
+SO2302,juba foundation,health,NNGO,0.0,False
+SO2302,kaah relief and development organization,health,NNGO,0.0,False
+SO2302,medair,health,INGO,0.8189958967163137,False
+SO2302,medair,nutrition,INGO,1.0,False
+SO2302,munazzamat al dawa,nutrition,NNGO,1.0,False
+SO2302,muslim aid uk somalia,health,INGO,0.3330839252868127,False
+SO2302,new ways organisation,health,NNGO,0.0,False
+SO2302,organization for somalis protection and development,health,NNGO,0.0466551191139519,False
+SO2302,physicians across continent,health,INGO,0.7065349451888959,False
+SO2302,physicians across continent,nutrition,INGO,0.7065349451888959,False
+SO2302,qatar charity,food_security,OTHERS,0.0,False
+SO2302,qatar charity,health,OTHERS,0.2332755955697596,False
+SO2302,qatar red crescent society,wash,OTHERS,0.0434782608695652,False
+SO2302,serving together for social development,wash,NNGO,0.0,False
+SO2302,shabelle community development organization,nutrition,NNGO,0.0,False
+SO2302,somali advocacy and relief organization,wash,NNGO,0.3938284960295317,True
+SO2302,somali awareness and social development organization,food_security,NNGO,0.0,False
+SO2302,somali awareness and social development organization,health,NNGO,0.2332755955697596,False
+SO2302,somali young doctors association,nutrition,NNGO,0.6931186282296616,False
+SO2302,sos childrens villages somalia,health,NNGO,0.0,False
+SO2302,sts international solidarity,wash,NNGO,0.0,False
+SO2302,trocaire,health,INGO,0.1638952592620501,False
+SO2302,united nations childrens fund,wash,UN,0.5,False
+SO2302,wardi relief and development initiatives,food_security,NNGO,0.0,False
+SO2302,world food programme,food_security,UN,0.4318362689363453,False
+SO2302,ypeer somalia,food_security,NNGO,0.3938284960295317,True
+SO2303,action against hunger,health,INGO,0.0,False
+SO2303,action against hunger,nutrition,INGO,0.0,False
+SO2303,action for relief and development,health,NNGO,0.0,False
+SO2303,alight american refugee committee,health,INGO,0.0,False
+SO2303,ayuub ngo,nutrition,NNGO,0.6931186282296616,False
+SO2303,gargaar relief and development organization,health,NNGO,1.0,False
+SO2303,gargaar relief and development organization,nutrition,NNGO,1.0,False
+SO2303,integrated community action network,wash,NNGO,0.0,False
+SO2303,juba foundation,health,NNGO,0.0,False
+SO2303,juba foundation,nutrition,NNGO,0.1470588235294117,False
+SO2303,new ways organisation,health,NNGO,0.081523262906411,False
+SO2303,new ways organisation,nutrition,NNGO,0.7065349451888959,False
+SO2303,save the children international,health,INGO,0.7878787878787878,False
+SO2303,umbrella for relief and rehabilitation organization,health,NNGO,0.0,False
+SO2303,wadajir rural development organization,wash,NNGO,0.3938284960295317,True
+SO2303,wardi relief and development initiatives,health,NNGO,1.0,False
+SO2303,world food programme,food_security,UN,0.4318362689363453,False
+SO2303,world vision international,health,INGO,1.0,False
+SO2304,ayuub ngo,nutrition,NNGO,0.6931186282296616,False
+SO2304,new ways organisation,nutrition,NNGO,0.7065349451888959,False
+SO2304,somali awareness and social development organization,food_security,NNGO,0.0,False
+SO2304,world food programme,food_security,UN,0.4318362689363453,False
+SO2305,ayuub ngo,nutrition,NNGO,0.7065349451888959,False
+SO2305,care international,health,INGO,1.0,False
+SO2305,gargaar relief and development organization,health,NNGO,1.0,False
+SO2305,gargaar relief and development organization,nutrition,NNGO,1.0,False
+SO2305,gargaar relief and development organization,wash,NNGO,0.752906976744186,False
+SO2305,international rescue committee,health,INGO,1.0,False
+SO2305,new ways organisation,nutrition,NNGO,0.6931186282296616,False
+SO2305,save the children international,health,INGO,1.0,False
+SO2305,somali awareness and social development organization,food_security,NNGO,0.0,False
+SO2305,somali awareness and social development organization,health,NNGO,0.1514644840989507,False
+SO2305,trocaire,health,INGO,0.1638952592620501,False
+SO2305,world food programme,food_security,UN,0.4318362689363453,False
+SO2307,ayuub ngo,health,NNGO,0.2258973430921487,False
+SO2307,concern worldwide,health,INGO,0.2332755955697596,False
+SO2307,food and agriculture organization,food_security,UN,1.0,False
+SO2307,gargaar relief and development organization,health,NNGO,1.0,False
+SO2307,gargaar relief and development organization,nutrition,NNGO,1.0,False
+SO2307,muslim aid uk somalia,health,INGO,0.0,False
+SO2307,new ways organisation,health,NNGO,0.1514003453976205,False
+SO2307,new ways organisation,nutrition,NNGO,0.7065349451888959,False
+SO2307,samawada rehabilitation and development organization,wash,NNGO,0.7065349451888959,False
+SO2307,save the children international,health,INGO,1.0,False
+SO2307,shabelle community development organization,nutrition,NNGO,0.0,False
+SO2307,somali awareness and social development organization,health,NNGO,0.2332755955697596,False
+SO2307,somalia conservation organization,health,NNGO,0.2332755955697595,False
+SO2307,sos childrens villages somalia,health,NNGO,0.2332755955697596,False
+SO2307,trocaire,health,INGO,0.1638952592620501,False
+SO2307,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO2307,world food programme,food_security,UN,0.4318362689363453,False
+SO2401,action against hunger,health,INGO,0.017776405679051,False
+SO2401,action against hunger,nutrition,INGO,0.0,False
+SO2401,action against hunger,wash,INGO,0.0,False
+SO2401,action contre lafeim,food_security,INGO,0.0,False
+SO2401,active in development aid,wash,NNGO,0.0588779120990746,False
+SO2401,agency for minority rights and development,food_security,NNGO,0.0,False
+SO2401,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2401,agency for technical cooperation and development,wash,INGO,0.5,False
+SO2401,care international,food_security,INGO,1.0,False
+SO2401,care international,wash,INGO,0.8301863998620561,False
+SO2401,catholic relief services,wash,INGO,0.4695276650692781,True
+SO2401,community empowerment social development organization,wash,NNGO,0.0,False
+SO2401,concern worldwide,food_security,INGO,0.0,False
+SO2401,concern worldwide,health,INGO,0.3482842562342957,False
+SO2401,concern worldwide,nutrition,INGO,0.7065349451888959,False
+SO2401,cooperazione internazionale,food_security,INGO,0.0,False
+SO2401,cooperazione internazionale,wash,INGO,0.0,False
+SO2401,danish refugee council,wash,INGO,0.4074074074074074,False
+SO2401,deeg roor medical organization,health,NNGO,0.7065349451888959,False
+SO2401,deeg roor medical organization,nutrition,NNGO,0.7065349451888959,False
+SO2401,deeg roor medical organization,wash,NNGO,0.7024079887333532,False
+SO2401,dignity first somalia,food_security,NNGO,0.0,False
+SO2401,food and agriculture organization,food_security,UN,0.9844961240310076,False
+SO2401,gargaar relief and development organization,health,NNGO,1.0,False
+SO2401,gargaar relief and development organization,nutrition,NNGO,1.0,False
+SO2401,global resilience research network,wash,NNGO,0.0,False
+SO2401,help action network,wash,NNGO,0.3938284960295317,True
+SO2401,hidig relief and development organization,health,NNGO,0.0,False
+SO2401,hidig relief and development organization,nutrition,NNGO,0.0,False
+SO2401,international medical corps,health,INGO,1.0,False
+SO2401,international medical corps,nutrition,INGO,0.7133597139054332,False
+SO2401,international medical corps,wash,INGO,1.0,False
+SO2401,international organization for migration,health,UN,0.3103448275862069,False
+SO2401,international organization for migration,nutrition,UN,0.7065349451888959,False
+SO2401,international organization for migration,wash,UN,0.5155566522322239,False
+SO2401,international rescue committee,wash,INGO,0.2222222222222222,False
+SO2401,islamic relief worldwide,wash,INGO,0.0,False
+SO2401,mandher relief and development organization,health,NNGO,0.6274025533782706,False
+SO2401,mandher relief and development organization,nutrition,NNGO,0.7191559866085889,False
+SO2401,marginalized communities advocacy network,wash,NNGO,0.0,False
+SO2401,marginalized inclusion network,food_security,NNGO,0.0,False
+SO2401,mercy corps,wash,INGO,0.6092948980685544,False
+SO2401,mercy usa for aid and development,health,INGO,0.0,False
+SO2401,ministry of energy and water resources,wash,GOVERNMENT,1.0,False
+SO2401,muslim aid uk somalia,health,INGO,0.0,False
+SO2401,new ways organisation,health,NNGO,0.0333333333333333,False
+SO2401,new ways organisation,wash,NNGO,0.0,False
+SO2401,organization for somalis protection and development,health,NNGO,0.853267472594448,False
+SO2401,plan international,food_security,INGO,0.0,False
+SO2401,qatar charity,wash,OTHERS,0.0,False
+SO2401,qatar red crescent society,wash,OTHERS,0.0434782608695652,False
+SO2401,rural education and agriculture development organization,nutrition,NNGO,0.0,False
+SO2401,rural education and agriculture development organization,wash,NNGO,0.0,False
+SO2401,salama medical agency,health,NNGO,0.0,False
+SO2401,salama medical agency,nutrition,NNGO,0.7065349451888959,False
+SO2401,save the children international,food_security,INGO,1.0,False
+SO2401,save the children international,health,INGO,0.9856144580974948,False
+SO2401,save the children international,nutrition,INGO,0.7291091801743654,False
+SO2401,save the children international,wash,INGO,1.0,False
+SO2401,somali awareness and social development organization,health,NNGO,1.0,False
+SO2401,somali youth education and development organization,nutrition,NNGO,0.7065349451888959,False
+SO2401,sos childrens villages somalia,health,NNGO,0.2588235294117647,False
+SO2401,sos childrens villages somalia,nutrition,NNGO,0.7953700321386034,False
+SO2401,sos childrens villages somalia,wash,NNGO,0.3855048124609816,False
+SO2401,taakulo somaliland community,food_security,NNGO,0.0,False
+SO2401,trocaire,health,INGO,0.1638952592620501,False
+SO2401,united nations childrens fund,wash,UN,0.4,False
+SO2401,volunteers for relief and developmen,health,NNGO,0.0,False
+SO2401,wajir south development association,wash,NNGO,0.0,False
+SO2401,wardi relief and development initiatives,health,NNGO,0.0,False
+SO2401,world food programme,food_security,UN,0.4318362689363453,False
+SO2401,world health organization,health,UN,0.0,False
+SO2401,world vision international,food_security,INGO,0.0,False
+SO2401,world vision international,health,INGO,0.0,False
+SO2401,world vision international,nutrition,INGO,0.7065349451888959,False
+SO2401,world vision international,wash,INGO,0.0833333333333333,False
+SO2401,worth vision,wash,INGO,0.0,False
+SO2402,action against hunger,health,INGO,0.1124330636801935,False
+SO2402,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2402,burhakaba town section committee,nutrition,NNGO,0.7065349451888959,False
+SO2402,concern worldwide,health,INGO,1.0,False
+SO2402,food and agriculture organization,food_security,UN,1.0,False
+SO2402,gargaar relief and development organization,health,NNGO,1.0,False
+SO2402,gargaar relief and development organization,nutrition,NNGO,1.0,False
+SO2402,muslim aid uk somalia,health,INGO,1.0,False
+SO2402,peace action society organisation for somalia,food_security,NNGO,0.0,False
+SO2402,qatar charity,health,OTHERS,0.0154226034823873,False
+SO2402,save the children international,health,INGO,1.0,False
+SO2402,somalia relief and devlopment soceity,nutrition,NNGO,0.3532674725944479,False
+SO2402,sos childrens villages somalia,health,NNGO,0.0,False
+SO2402,sos childrens villages somalia,nutrition,NNGO,0.7065349451888959,False
+SO2402,trocaire,health,INGO,0.1638952592620501,False
+SO2402,world food programme,food_security,UN,0.4318362689363453,False
+SO2402,world health organization,health,UN,0.0,False
+SO2402,worth vision,wash,INGO,1.0,False
+SO2403,alight american refugee committee,health,INGO,1.0,False
+SO2403,food and agriculture organization,food_security,UN,0.9705882352941176,False
+SO2403,gargaar relief and development organization,health,NNGO,1.0,False
+SO2403,gargaar relief and development organization,nutrition,NNGO,1.0,False
+SO2403,islamic relief worldwide,wash,INGO,0.0,False
+SO2403,mandher relief and development organization,nutrition,NNGO,0.7065349451888959,False
+SO2403,muslim aid uk somalia,health,INGO,1.0,False
+SO2403,new ways organisation,health,NNGO,1.0,False
+SO2403,save the children international,food_security,INGO,1.0,False
+SO2403,save the children international,health,INGO,1.0,False
+SO2403,world food programme,food_security,UN,0.4318362689363453,False
+SO2404,action against hunger,health,INGO,0.1124330636801935,False
+SO2404,aridlife development agency,nutrition,NNGO,0.7065349451888959,False
+SO2404,centre for research and integrated development,wash,NNGO,1.0,False
+SO2404,food and agriculture organization,food_security,UN,0.9705882352941176,False
+SO2404,kaah relief and development organization,wash,NNGO,0.0,False
+SO2404,mandher relief and development organization,nutrition,NNGO,0.6931186282296616,False
+SO2404,solutions for humanity international,health,NNGO,0.7065349451888959,False
+SO2404,umbrella for relief and rehabilitation organization,health,NNGO,0.7065349451888959,False
+SO2404,umbrella for relief and rehabilitation organization,nutrition,NNGO,0.7065349451888959,False
+SO2404,world food programme,food_security,UN,0.4318362689363453,False
+SO2404,world vision international,food_security,INGO,1.0,False
+SO2404,world vision international,nutrition,INGO,0.853267472594448,False
+SO2501,action against hunger,health,INGO,0.0,False
+SO2501,action against hunger,nutrition,INGO,0.0,False
+SO2501,action against hunger,wash,INGO,0.0,False
+SO2501,action contre lafeim,food_security,INGO,0.0,False
+SO2501,african social empowerment network,wash,NNGO,0.0,False
+SO2501,agency for minority rights and development,wash,NNGO,0.0,False
+SO2501,agency for technical cooperation and development,wash,INGO,1.0,False
+SO2501,care international,food_security,INGO,1.0,False
+SO2501,care international,wash,INGO,0.8301863998620561,False
+SO2501,comitato internazionale per lo sviluppo dei popoli,health,INGO,0.07613556409087,False
+SO2501,food and agriculture organization,food_security,UN,1.0,False
+SO2501,gargaar relief and development organization,nutrition,NNGO,0.0,False
+SO2501,hidig relief and development organization,nutrition,NNGO,0.7065349451888959,False
+SO2501,international organization for migration,health,UN,0.3235294117647059,False
+SO2501,international organization for migration,nutrition,UN,0.7065349451888959,False
+SO2501,international rescue committee,health,INGO,0.42153276509378,False
+SO2501,juba foundation,health,NNGO,1.0,False
+SO2501,mandher relief and development organization,health,NNGO,0.853267472594448,False
+SO2501,mandher relief and development organization,nutrition,NNGO,0.7428939116742552,False
+SO2501,marginalized communities advocacy network,wash,NNGO,0.285436000463485,False
+SO2501,muslim aid uk somalia,health,INGO,0.853267472594448,False
+SO2501,new ways organisation,health,NNGO,1.0,False
+SO2501,organization for somalis protection and development,health,NNGO,0.853267472594448,False
+SO2501,save the children international,health,INGO,0.4141506079866346,False
+SO2501,sos childrens villages somalia,health,NNGO,1.0,False
+SO2501,sos childrens villages somalia,nutrition,NNGO,0.853267472594448,False
+SO2501,united nations childrens fund,wash,UN,0.0,False
+SO2501,world food programme,food_security,UN,0.4318362689363453,False
+SO2501,world health organization,health,UN,0.0,False
+SO2502,action against hunger,health,INGO,0.0,False
+SO2502,action against hunger,nutrition,INGO,0.5102752381919804,False
+SO2502,action against hunger,wash,INGO,0.1,False
+SO2502,action contre lafeim,food_security,INGO,0.0,False
+SO2502,action for relief and development,nutrition,NNGO,0.6931186282296616,False
+SO2502,agency for minority rights and development,food_security,NNGO,0.0,False
+SO2502,agency for minority rights and development,wash,NNGO,0.0,False
+SO2502,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2502,mandher relief and development organization,nutrition,NNGO,0.6931186282296616,False
+SO2502,marginalized inclusion network,wash,NNGO,0.0,False
+SO2502,save the children international,health,INGO,0.4141506079866346,False
+SO2502,united nations childrens fund,wash,UN,1.0,False
+SO2502,world food programme,food_security,UN,0.4318362689363453,False
+SO2502,world vision international,wash,INGO,0.4587205596491346,False
+SO2503,global resilience research network,nutrition,NNGO,0.7065349451888959,False
+SO2503,golweyne relief and rehabilitation,nutrition,NNGO,0.7065349451888959,False
+SO2503,integrated community action network,wash,NNGO,0.0,False
+SO2504,action against hunger,health,INGO,0.0,False
+SO2504,action against hunger,nutrition,INGO,0.5046678179920685,False
+SO2504,action against hunger,wash,INGO,0.0,False
+SO2504,action contre lafeim,food_security,INGO,0.0,False
+SO2504,action for relief and development,nutrition,NNGO,0.7042988923623569,False
+SO2504,african relief and development,wash,NNGO,0.0,False
+SO2504,agency for minority rights and development,food_security,NNGO,0.0,False
+SO2504,agency for minority rights and development,wash,NNGO,0.0,False
+SO2504,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2504,dignity first somalia,food_security,NNGO,0.0,False
+SO2504,food and agriculture organization,food_security,UN,1.0,False
+SO2504,integrated community action network,wash,NNGO,0.0,False
+SO2504,irrdo,nutrition,NNGO,0.7065349451888959,False
+SO2504,mandher relief and development organization,nutrition,NNGO,0.6931186282296616,False
+SO2504,save the children international,health,INGO,0.4141506079866346,False
+SO2504,united nations childrens fund,wash,UN,0.0,False
+SO2504,world food programme,food_security,UN,0.4318362689363453,False
+SO2504,world vision international,wash,INGO,0.4587205596491346,False
+SO2505,action against hunger,health,INGO,0.032258064516129,False
+SO2505,action against hunger,nutrition,INGO,0.309109038520142,False
+SO2505,action against hunger,wash,INGO,0.0,False
+SO2505,action for relief and development,nutrition,NNGO,0.6931186282296616,False
+SO2505,food and agriculture organization,food_security,UN,0.8571428571428571,False
+SO2505,gargaar relief and development organization,health,NNGO,1.0,False
+SO2505,gargaar relief and development organization,nutrition,NNGO,1.0,False
+SO2505,juba foundation,health,NNGO,1.0,False
+SO2505,kaah relief and development organization,health,NNGO,0.2625390922548447,False
+SO2505,save the children international,health,INGO,1.0,False
+SO2505,world food programme,food_security,UN,0.4318362689363453,False
+SO2601,action against hunger,health,INGO,0.3532674725944479,False
+SO2601,adventist development and relief agency,wash,INGO,0.0,False
+SO2601,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2601,deeg roor medical organization,health,NNGO,0.3532674725944479,False
+SO2601,food and agriculture organization,food_security,UN,0.7777777777777778,False
+SO2601,gedo women development organization,nutrition,NNGO,0.7065349451888959,False
+SO2601,himilo relief and development association,nutrition,NNGO,0.6931186282296616,False
+SO2601,international rescue committee,wash,INGO,0.42153276509378,False
+SO2601,islamic relief,health,INGO,1.0,False
+SO2601,rain water association of somalia,nutrition,NNGO,0.7031808659490874,False
+SO2601,sos childrens villages somalia,health,NNGO,1.0,False
+SO2601,trocaire,health,INGO,0.5262377219385708,False
+SO2601,trocaire,nutrition,INGO,0.6984851550133554,False
+SO2601,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO2601,world food programme,food_security,UN,0.4318362689363453,False
+SO2602,action against hunger,health,INGO,0.0,False
+SO2602,action for social and economic progress,wash,NNGO,0.0,False
+SO2602,active in development aid,wash,NNGO,0.0588779120990746,False
+SO2602,agency for minority rights and development,food_security,NNGO,0.0,False
+SO2602,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2602,agency for technical cooperation and development,wash,INGO,1.0,False
+SO2602,care international,food_security,INGO,1.0,False
+SO2602,care international,wash,INGO,0.8301863998620561,False
+SO2602,concern worldwide,food_security,INGO,0.0,False
+SO2602,concern worldwide,health,INGO,0.2332755955697595,False
+SO2602,concern worldwide,nutrition,INGO,0.2649506044458359,False
+SO2602,concern worldwide,wash,INGO,0.0,False
+SO2602,food and agriculture organization,food_security,UN,0.0841121495327102,False
+SO2602,gargaar relief and development organization,nutrition,NNGO,0.0,False
+SO2602,himilo relief and development association,nutrition,NNGO,0.7027616060441113,False
+SO2602,himilo relief and development association,wash,NNGO,0.5686274509803921,False
+SO2602,human appeal,food_security,INGO,0.0,False
+SO2602,human development concern,health,NNGO,0.4006125977875183,False
+SO2602,international organization for migration,health,UN,0.2884615384615384,False
+SO2602,international organization for migration,nutrition,UN,0.7065349451888959,False
+SO2602,international organization for migration,wash,UN,0.0,False
+SO2602,islamic relief worldwide,wash,INGO,0.0,False
+SO2602,lifeline gedo organization,food_security,NNGO,0.0,False
+SO2602,lifeline gedo organization,wash,NNGO,0.0,False
+SO2602,muslim aid uk somalia,health,INGO,0.2332755955697596,False
+SO2602,organization for somalis protection and development,health,NNGO,0.2332755955697596,False
+SO2602,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO2602,vision corps initiative,health,NNGO,0.7065349451888959,False
+SO2602,wajir south development association,health,NNGO,0.7065349451888959,False
+SO2602,world food programme,food_security,UN,0.4318362689363453,False
+SO2602,world health organization,health,UN,0.0,False
+SO2603,action against hunger,health,INGO,0.289037023031821,False
+SO2603,action for social and economic progress,wash,NNGO,0.0,False
+SO2603,active in development aid,health,NNGO,0.0588779120990746,False
+SO2603,arche nova,wash,INGO,0.0,False
+SO2603,community development and humanitarian netork,wash,NNGO,0.3938284960295317,True
+SO2603,concern worldwide,food_security,INGO,0.0,False
+SO2603,concern worldwide,wash,INGO,0.0,False
+SO2603,danish refugee council,wash,INGO,0.6190476190476191,False
+SO2603,food and agriculture organization,food_security,UN,0.9807692307692308,False
+SO2603,himilo relief and development association,nutrition,NNGO,0.7039794562442798,False
+SO2603,human development concern,health,NNGO,0.4966730802813031,False
+SO2603,international organization for migration,wash,UN,0.0,False
+SO2603,lifeline gedo organization,food_security,NNGO,0.0,False
+SO2603,lifeline gedo organization,wash,NNGO,0.0,False
+SO2603,marginalized communities advocacy network,wash,NNGO,0.0,False
+SO2603,nomadic assistance for peace and development,wash,NNGO,0.0,False
+SO2603,norwegian church aid,food_security,INGO,0.0,False
+SO2603,norwegian church aid,wash,INGO,0.0,False
+SO2603,save the children international,health,INGO,1.0,False
+SO2603,sos childrens villages somalia,health,NNGO,0.0,False
+SO2603,trocaire,health,INGO,0.2241464779955683,False
+SO2603,trocaire,nutrition,INGO,0.5495271795913635,False
+SO2603,trocaire,wash,INGO,1.0,False
+SO2603,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO2603,world food programme,food_security,UN,0.4318362689363453,False
+SO2604,action against hunger,health,INGO,0.0371860497467839,False
+SO2604,action against hunger,nutrition,INGO,0.0,False
+SO2604,action against hunger,wash,INGO,0.1124330636801935,False
+SO2604,active in development aid,health,NNGO,0.7065349451888959,False
+SO2604,active in development aid,nutrition,NNGO,0.7065349451888959,False
+SO2604,active in development aid,wash,NNGO,0.0,False
+SO2604,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2604,arda,wash,NNGO,0.3938284960295317,True
+SO2604,aridlife development agency,nutrition,NNGO,0.7065349451888959,False
+SO2604,himilo relief and development association,nutrition,NNGO,0.6931186282296616,False
+SO2604,human development concern,health,NNGO,0.7065349451888959,False
+SO2604,lifeline gedo organization,nutrition,NNGO,0.0,False
+SO2604,qatar charity,health,OTHERS,0.0,False
+SO2604,save the children international,health,INGO,0.7065349451888959,False
+SO2604,trocaire,health,INGO,0.0,False
+SO2604,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO2604,wadani relief organization,nutrition,NNGO,1.0,False
+SO2604,wajir south development association,health,NNGO,0.7065349451888959,False
+SO2604,world food programme,food_security,UN,0.4318362689363453,False
+SO2605,action against hunger,health,INGO,0.06972384327522,False
+SO2605,action against hunger,nutrition,INGO,0.0,False
+SO2605,alight american refugee committee,health,INGO,1.0,False
+SO2605,community development and humanitarian netork,wash,NNGO,0.3938284960295317,True
+SO2605,community empowernment development action,nutrition,NNGO,0.7065349451888959,False
+SO2605,concern worldwide,food_security,INGO,0.0,False
+SO2605,concern worldwide,health,INGO,0.7065349451888959,False
+SO2605,cooperazione internazionale,food_security,INGO,0.0,False
+SO2605,cooperazione internazionale,wash,INGO,0.0,False
+SO2605,diakonie katastrophenhilfe,food_security,INGO,0.0,False
+SO2605,food and agriculture organization,food_security,UN,0.8454545454545455,False
+SO2605,himilo organization for development,wash,NNGO,0.0,False
+SO2605,human development concern,health,NNGO,0.7065349451888958,False
+SO2605,international organization for migration,health,UN,0.3421052631578947,False
+SO2605,international organization for migration,nutrition,UN,0.7065349451888959,False
+SO2605,international organization for migration,wash,UN,0.0,False
+SO2605,juba foundation,food_security,NNGO,0.0,False
+SO2605,muslim aid uk somalia,health,INGO,0.0,False
+SO2605,nomadic assistance for peace and development,food_security,NNGO,0.0,False
+SO2605,nomadic assistance for peace and development,wash,NNGO,0.0,False
+SO2605,norwegian church aid,food_security,INGO,0.0,False
+SO2605,norwegian church aid,wash,INGO,0.0,False
+SO2605,qatar charity,wash,OTHERS,0.0,False
+SO2605,save the children international,health,INGO,0.0,False
+SO2605,somali humanitarian relief action,wash,NNGO,1.0,False
+SO2605,trocaire,food_security,INGO,0.0,False
+SO2605,trocaire,health,INGO,0.2191738272292157,False
+SO2605,trocaire,nutrition,INGO,0.6944421131410848,False
+SO2605,trocaire,wash,INGO,1.0,False
+SO2605,united nations childrens fund,wash,UN,0.7065349451888959,False
+SO2605,world food programme,food_security,UN,0.4318362689363453,False
+SO2605,world vision international,food_security,INGO,0.0,False
+SO2605,world vision international,health,INGO,0.0,False
+SO2605,world vision international,nutrition,INGO,1.0,False
+SO2605,world vision international,wash,INGO,1.0,False
+SO2606,action against hunger,health,INGO,0.0,False
+SO2606,action for social and economic progress,wash,NNGO,0.0,False
+SO2606,active in development aid,health,NNGO,0.0,False
+SO2606,active in development aid,wash,NNGO,0.0588779120990746,False
+SO2606,agency for minority rights and development,food_security,NNGO,0.0,False
+SO2606,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2606,agency for technical cooperation and development,wash,INGO,0.7248092786682541,False
+SO2606,alight american refugee committee,health,INGO,0.0,False
+SO2606,centre for research and integrated development,wash,NNGO,0.0,False
+SO2606,elbon development and relief organization,nutrition,NNGO,0.7065349451888959,False
+SO2606,food and agriculture organization,food_security,UN,0.575,False
+SO2606,gargaar relief and development organization,nutrition,NNGO,0.0,False
+SO2606,himilo organization for development,food_security,NNGO,0.0,False
+SO2606,himilo organization for development,wash,NNGO,0.0,False
+SO2606,international medical corps,health,INGO,0.3532674725944479,False
+SO2606,mandher relief and development organization,health,NNGO,0.3532674725944479,False
+SO2606,norwegian church aid,wash,INGO,0.0,False
+SO2606,save the children international,health,INGO,0.0,False
+SO2606,somali humanitarian relief action,wash,NNGO,1.0,False
+SO2606,sos childrens villages somalia,health,NNGO,1.0,False
+SO2606,trocaire,food_security,INGO,0.0,False
+SO2606,trocaire,health,INGO,0.1138368549415166,False
+SO2606,trocaire,nutrition,INGO,0.518803475815348,False
+SO2606,trocaire,wash,INGO,1.0,False
+SO2606,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO2606,united somali women roots organization,nutrition,NNGO,0.7065349451888959,False
+SO2606,wajir south development association,health,NNGO,0.0,False
+SO2606,wardi relief and development initiatives,health,NNGO,0.0,False
+SO2606,world food programme,food_security,UN,0.4318362689363453,False
+SO2606,world health organization,health,UN,0.0,False
+SO2606,world vision international,food_security,INGO,0.0952380952380952,False
+SO2606,world vision international,nutrition,INGO,1.0,False
+SO2606,world vision international,wash,INGO,0.4117647058823529,False
+SO2606,worth vision,wash,INGO,0.5,False
+SO2801,action against hunger,health,INGO,0.0,False
+SO2801,action against hunger,nutrition,INGO,0.0,False
+SO2801,action against hunger,wash,INGO,0.0,False
+SO2801,action for relief and development,health,NNGO,0.0,False
+SO2801,active in development aid,health,NNGO,0.0588779120990746,False
+SO2801,active in development aid,wash,NNGO,0.0588779120990746,False
+SO2801,agency for technical cooperation and development,wash,INGO,1.0,False
+SO2801,alight american refugee committee,health,INGO,0.7619047619047619,False
+SO2801,alight american refugee committee,nutrition,INGO,0.7905495665444568,False
+SO2801,alight american refugee committee,wash,INGO,0.9241419688895848,False
+SO2801,association of volunteers in international service,food_security,INGO,0.0,False
+SO2801,association of volunteers in international service,wash,INGO,0.0,False
+SO2801,care international,health,INGO,0.5252333908996034,False
+SO2801,care international,nutrition,INGO,0.6514589598051903,False
+SO2801,care somalia,nutrition,NNGO,0.9583333333333334,False
+SO2801,food and agriculture organization,food_security,UN,0.7272727272727273,False
+SO2801,himilo foundation,nutrition,NNGO,0.703851681797049,False
+SO2801,human development concern,health,NNGO,0.7065349451888959,False
+SO2801,international organization for migration,health,UN,0.3125,False
+SO2801,international organization for migration,nutrition,UN,0.7065349451888959,False
+SO2801,international organization for migration,wash,UN,0.0,False
+SO2801,intersom relief and development organization,wash,NNGO,0.0,False
+SO2801,marginalized communities advocacy network,wash,NNGO,0.285436000463485,False
+SO2801,medair,health,INGO,0.8189958967163137,False
+SO2801,medair,nutrition,INGO,0.5,False
+SO2801,ministry of energy and water resources,wash,GOVERNMENT,1.0,False
+SO2801,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO2801,ministry of health,wash,GOVERNMENT,0.7065349451888959,False
+SO2801,muslim aid uk somalia,health,INGO,0.3330839252868127,False
+SO2801,norwegian refugee council,wash,INGO,0.0,False
+SO2801,qatar charity,food_security,OTHERS,0.0,False
+SO2801,qatar red crescent society,food_security,OTHERS,0.0,False
+SO2801,save the children international,health,INGO,0.0,False
+SO2801,save the children international,nutrition,INGO,0.7065349451888959,False
+SO2801,save the children international,wash,INGO,0.4141506079866346,False
+SO2801,secours islamique france,wash,INGO,0.0,False
+SO2801,social life and agricultural development organisation,wash,NNGO,0.3938284960295317,True
+SO2801,social rural development initiative,nutrition,NNGO,0.0,False
+SO2801,solutions for humanity international,health,NNGO,0.0,False
+SO2801,somali aid,health,NNGO,0.3938284960295317,True
+SO2801,somali lifeline organization,health,NNGO,0.0266616960448639,False
+SO2801,somali lifeline organization,nutrition,NNGO,0.7065349451888959,False
+SO2801,somali red crescent society puntland,nutrition,NNGO,0.3938284960295317,True
+SO2801,somali young doctors association,nutrition,NNGO,0.0,False
+SO2801,trocaire,health,INGO,0.1638952592620501,False
+SO2801,trocaire,wash,INGO,0.1638952592620501,False
+SO2801,united nations childrens fund,wash,UN,0.0,False
+SO2801,vision corps initiative,health,NNGO,0.0,False
+SO2801,vision corps initiative,nutrition,NNGO,1.0,False
+SO2801,wajir south development association,health,NNGO,0.0,False
+SO2801,wajir south development association,nutrition,NNGO,0.0,False
+SO2801,wajir south development association,wash,NNGO,1.0,False
+SO2801,wardi relief and development initiatives,health,NNGO,0.6666666666666666,False
+SO2801,womens association for relief development actions,nutrition,NNGO,0.8125,False
+SO2801,world food programme,food_security,UN,0.4318362689363453,False
+SO2801,world health organization,health,UN,0.0,False
+SO2801,world vision international,health,INGO,0.4587205596491346,False
+SO2801,ypeer somalia,food_security,NNGO,0.3938284960295317,True
+SO2801,zamzam foundation,health,NNGO,0.0,False
+SO2801,zamzam foundation,wash,NNGO,0.0,False
+SO2802,action against hunger,health,INGO,0.1124330636801935,False
+SO2802,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2802,agency for technical cooperation and development,wash,INGO,1.0,False
+SO2802,alight american refugee committee,health,INGO,1.0,False
+SO2802,alight american refugee committee,nutrition,INGO,0.8043566301259307,False
+SO2802,association of volunteers in international service,food_security,INGO,0.0,False
+SO2802,association of volunteers in international service,wash,INGO,0.0,False
+SO2802,food and agriculture organization,food_security,UN,1.0,False
+SO2802,international medical corps,health,INGO,1.0,False
+SO2802,international organization for migration,health,UN,0.3269230769230769,False
+SO2802,international organization for migration,nutrition,UN,0.7065349451888959,False
+SO2802,international organization for migration,wash,UN,1.0,False
+SO2802,juba foundation,wash,NNGO,0.1470588235294117,False
+SO2802,norwegian refugee council,wash,INGO,0.0,False
+SO2802,qatar charity,wash,OTHERS,0.0,False
+SO2802,save the children international,health,INGO,0.1044776119402985,False
+SO2802,save the children international,nutrition,INGO,0.7065349451888959,False
+SO2802,somali advocacy and relief organization,wash,NNGO,0.3938284960295317,True
+SO2802,trocaire,health,INGO,0.1638952592620501,False
+SO2802,united nations childrens fund,wash,UN,0.6466146236399822,False
+SO2802,vision corps initiative,nutrition,NNGO,0.82035207572068,False
+SO2802,wajir south development association,health,NNGO,0.9661016949152542,False
+SO2802,wajir south development association,nutrition,NNGO,1.0,False
+SO2802,wamo relief and rehabilitation services,nutrition,NNGO,0.7065349451888959,False
+SO2802,wardi relief and development initiatives,health,NNGO,0.2,False
+SO2802,womens association for relief development actions,nutrition,NNGO,0.7272727272727273,False
+SO2802,world food programme,food_security,UN,0.4318362689363453,False
+SO2803,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2803,alight american refugee committee,health,INGO,1.0,False
+SO2803,alight american refugee committee,nutrition,INGO,0.7498556555910656,False
+SO2803,association of volunteers in international service,wash,INGO,0.0,False
+SO2803,care international,health,INGO,1.0,False
+SO2803,food and agriculture organization,food_security,UN,1.0,False
+SO2803,medair,health,INGO,0.8189958967163137,False
+SO2803,medair,nutrition,INGO,0.5416666666666666,False
+SO2803,save the children international,health,INGO,1.0,False
+SO2803,somali advocacy and relief organization,wash,NNGO,0.3938284960295317,True
+SO2803,somali aid,health,NNGO,0.3938284960295317,True
+SO2803,trocaire,health,INGO,0.1638952592620501,False
+SO2803,vision corps initiative,health,NNGO,0.82035207572068,False
+SO2803,vision corps initiative,nutrition,NNGO,1.0,False
+SO2803,wajir south development association,health,NNGO,1.0,False
+SO2803,wajir south development association,nutrition,NNGO,1.0,False
+SO2803,wardi relief and development initiatives,health,NNGO,1.0,False
+SO2803,womens association for relief development actions,nutrition,NNGO,1.0,False
+SO2803,world food programme,food_security,UN,0.4318362689363453,False
+SO2804,agency for technical cooperation and development,food_security,INGO,1.0,False
+SO2804,alight american refugee committee,health,INGO,0.0,False
+SO2804,association of volunteers in international service,food_security,INGO,0.0,False
+SO2804,association of volunteers in international service,wash,INGO,0.0,False
+SO2804,food and agriculture organization,food_security,UN,1.0,False
+SO2804,himilo foundation,nutrition,NNGO,0.6931186282296616,False
+SO2804,ministry of health,nutrition,GOVERNMENT,0.7065349451888959,False
+SO2804,muslim aid uk somalia,health,INGO,0.3330839252868127,False
+SO2804,social environmental agency,wash,NNGO,0.0,False
+SO2804,somali emergency aid,wash,NNGO,0.0,False
+SO2804,trocaire,health,INGO,0.1638952592620501,False
+SO2804,wajir south development association,health,NNGO,0.0,False
+SO2804,world food programme,food_security,UN,0.4318362689363453,False
+SO2804,world vision international,health,INGO,0.4587205596491346,False

@@ -1,0 +1,9 @@
+instrument,outcome,sample,coef_per_sd,se,F,n,countries,frequency
+A. donor budget shocks (leave-out),all sectors,2011-2024,-0.5944343777790709,0.3406729648578411,3.04461579083453,616,44,annual
+A. donor budget shocks (leave-out),all sectors,2011-2019 (before COVID),-0.3302872012778776,0.4830276595658334,0.4675623030119416,396,44,annual
+A. donor budget shocks (leave-out),food and nutrition,2011-2024,-0.6459924615589893,0.298238730104093,4.691663083178922,616,44,annual
+A. donor budget shocks (leave-out),food and nutrition,2011-2019 (before COVID),-0.486226708516437,0.4374666172719872,1.2353436470669277,396,44,annual
+B. US fiscal calendar (US share x US spending timing),all sectors,2011-2024,-0.0513372805994956,0.0281604747491268,3.323424179853805,2408,44,quarterly
+C. UN Security Council elected membership,all sectors,2011-2024,-0.4696955635299897,0.2553676036402665,3.382994673700029,616,44,"annual (coefficient is for membership, not per SD)"
+E. oil price x Gulf donor share (Werker et al. 2009),all donors,2011-2024,-1.0366090610695844,0.4537278567432469,5.219622733868259,616,44,annual
+E. oil price x Gulf donor share (Werker et al. 2009),Gulf donors only,2011-2024,-2.0750262786785263,0.8256666175894236,6.315936428890397,616,44,annual
