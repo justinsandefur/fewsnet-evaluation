@@ -1122,7 +1122,7 @@ def fig_phase_singles():
 
 
 def _foodsec():
-    """Independent WFP food security indicators matched to FEWS NET's map phase (66_foodsec_surveys.py).
+    """Independent WFP and FAO DIEM food security indicators matched to FEWS NET's map phase (66_foodsec_surveys.py).
     Survey rounds (WFP's compilation; mVAM files where the compilation has no value for the area-month) and
     WFP's monthly phone monitoring, averaged to area-years so that repeated months do not dominate."""
     m = pd.read_parquet(INP / "foodsec_surveys/matched.parquet")
@@ -1133,8 +1133,10 @@ def _foodsec():
     rounds = m[m.source.isin(["wfp_lit", "mvam_hdx"])].assign(group="WFP survey rounds")
     rt = m[m.source == "wfp_rt"].groupby(["area_id", "iso3", "year", "indicator"]).agg(
         value=("value", "mean"), fews_cs=("fews_cs", "mean")).reset_index().assign(group="WFP phone monitoring (area-years)")
+    diem = m[m.source == "fao_diem"].assign(group="FAO DIEM surveys")        # area-rounds, 2023-2026
     d = pd.concat([rounds[["area_id", "iso3", "indicator", "value", "fews_cs", "group"]],
-                   rt[["area_id", "iso3", "indicator", "value", "fews_cs", "group"]]], ignore_index=True)
+                   rt[["area_id", "iso3", "indicator", "value", "fews_cs", "group"]],
+                   diem[["area_id", "iso3", "indicator", "value", "fews_cs", "group"]]], ignore_index=True)
     d["phase"] = d.fews_cs
     if d.value.max() <= 1.5:
         d["value"] = 100 * d.value
@@ -1143,8 +1145,8 @@ def _foodsec():
 
 def fig_foodsec():
     d, m = _foodsec()
-    groups = ["WFP survey rounds", "WFP phone monitoring (area-years)"]
-    cols, mks = dict(zip(groups, [C1, C2])), dict(zip(groups, ["o", "s"]))
+    groups = ["WFP survey rounds", "WFP phone monitoring (area-years)", "FAO DIEM surveys"]
+    cols, mks = dict(zip(groups, [C1, C2, C3])), dict(zip(groups, ["o", "s", "^"]))
     for ind, fname, ylab in [("fcs_poor_borderline", "fig9g_phase_fcs.pdf", "Households with poor or borderline\nfood consumption (%)"),
                              ("rcsi_19plus", "fig9h_phase_rcsi.pdf", "Households using severe\ncoping strategies (%)")]:
         x0 = d[d.indicator == ind].dropna(subset=["value", "phase"])
@@ -1152,7 +1154,7 @@ def fig_foodsec():
         rng = np.random.default_rng(5)
         for i, g in enumerate(groups):
             x = x0[x0.group == g]
-            ax.scatter(x.phase.round().clip(1, 4) + (i - 0.5) * 0.24 + rng.uniform(-0.09, 0.09, len(x)), x.value,
+            ax.scatter(x.phase.round().clip(1, 4) + (i - 1) * 0.24 + rng.uniform(-0.08, 0.08, len(x)), x.value,
                        s=7, alpha=0.35, color=cols[g], marker=mks[g], linewidths=0, label=f"{g} (n={len(x):,})", zorder=2)
         mm = x0.assign(ph=x0.phase.round().clip(1, 4)).groupby("ph").value.agg(["mean", "std", "size"])
         ax.errorbar(mm.index, mm["mean"], yerr=1.96 * mm["std"] / np.sqrt(mm["size"]), fmt="D", color="#222222", ms=6,

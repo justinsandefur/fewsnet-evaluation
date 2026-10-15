@@ -29,7 +29,7 @@ These do-files re-estimate every number in `output/cgd_paper/ipc_surveys_draft.p
 | File | Paper | Python | What it estimates |
 |---|---|---|---|
 | `01_phase_outcomes.do` | §5–6, Figs 3–4, appendix | `57`, `58` | **Somalia's scheduled surveys:** means by forecast phase, correlations, leave-one-season-out R² and AUC, within-zone slopes, and whether the forecast uses the last survey. **SMART+ and national rounds:** means by phase and slopes with country-by-year effects. **The IPC's two scales:** how often they agree. |
-| `02_foodsec.do` | §4, Figs 1–2 | `66`, `40` | Household food consumption and coping by FEWS NET phase: correlations pooled, within country and within area. The IPC's 20 percent rule. The Cadre Harmonisé's own inputs against its phase. |
+| `02_foodsec.do` | §4, Figs 1–2 | `66`, `40`, `92` | Household food consumption and coping by FEWS NET phase: correlations pooled, within country and within area. The IPC's 20 percent rule. The Cadre Harmonisé's own inputs against its phase. FAO DIEM surveys on their own, against FEWS NET's and the official phase (`92`). |
 | `03_report_surveys.do` | §9 | `53` | Survey coverage of Emergency areas. Whether a new survey moves FEWS NET's next map (cell fixed effects, clustered by region). |
 | `04_triggers.do` | §9, Fig 8, eqs 2–3 | `84` | Triggers against phases: out-of-sample R² leaving one season out (the same folds), leaving one domain out, within-domain regressions, and whether the IPC share responds to the triggers. The Nigeria replication. |
 | `05_money.do` | §1, §7–8, eq 4 | `85`, `86`, `87`, `89` | Funding by cluster. Classifications against public mortality surveys. Which information predicts where aid goes, the horse race between and within locations, and how much aid would have to move. The cross-country funding regression. |
@@ -46,7 +46,7 @@ These do-files re-estimate every number in `output/cgd_paper/ipc_surveys_draft.p
 
 ## How well it matches
 
-All 222 numbers the draft prints are identical at the paper's rounding. Another 304 estimates are computed but not printed in the current draft; `compare.csv` lists them as "not printed".
+All 245 numbers the draft prints are identical at the paper's rounding. Another 342 estimates are computed but not printed in the current draft; `compare.csv` lists them as "not printed".
 
 Three Stata choices produce standard errors that differ slightly from the Python code, but none shows at the paper's rounding:
 - **Somalia within-zone slopes and the SMART+ slopes:** `reghdfe` cluster-robust standard errors include degrees-of-freedom factors that the Python code leaves out.

@@ -26,6 +26,8 @@ Every path in the code is relative to this folder, so the paper replicates on it
 
 All sources are public, but several (EM-DAT, ACLED, DHS) do not allow redistribution, and the raw data total several GB, so `input/` is not in git. The fetch scripts below download each source into `input/`. Where a source needs registration (EM-DAT, DHS), the script's docstring says so.
 
+**FAO DIEM.** `input/fao_diem/` holds FAO's Data in Emergencies monitoring-system household surveys, aggregated by area. They come from HDX, are CC BY 4.0, and need no login; see `SOURCE.md` there. `66_foodsec_surveys.py` adds them as a fourth household-indicator source.
+
 ## Hand-built data
 
 These inputs cannot be downloaded again, so they are kept with the code (in the repository under `data/`):
@@ -41,7 +43,7 @@ These inputs cannot be downloaded again, so they are kept with the code (in the 
 2. Run the analysis scripts in numerical order.
 3. Scripts `84`–`90` write the `numbers_*.tex` files; `side_survey_selection/code/06`–`07` write the survey-gap figure and `numbers_gaps.tex`; `40_paper.py` writes the shared `numbers.tex`. Then compile `ipc_surveys_draft.tex`.
 
-4. Stata replication: `../.venv/bin/python code/91_export_stata.py`, then `do 00_master.do` from `stata/`. All 222 numbers the draft prints replicate at the paper's rounding; see `stata/README.md`.
+4. Stata replication: `../.venv/bin/python code/91_export_stata.py`, then `do 00_master.do` from `stata/`. All 245 numbers the draft prints replicate at the paper's rounding; see `stata/README.md`.
 
 **Population cache.** The value-of-information numbers depend on `input/panel/fnid_population.parquet`. That cache is shared with the other two papers. `code/36_benefit_cost.py` used to overwrite it with only the units requested; this paper's copy now adds to it instead. On 15 Oct 2026 the cache was rebuilt as a superset of all FEWS NET units (see `stata/README.md`).
 
@@ -117,6 +119,7 @@ These inputs cannot be downloaded again, so they are kept with the code (in the 
 | `87_aid_vs_need.py` | Where does humanitarian aid go: where the phases are, or where children are malnourished and dying? |
 | `89_cross_country_aid.py` | Across countries: does humanitarian funding follow people in Phase 3+, or deaths? |
 | `90_aid_bounds.py` | Bounding the survey-vs-phase horse race for the effect of aid. |
+| `92_diem_numbers.py` | FAO DIEM household surveys against FEWS NET and IPC/CH phases: the DIEM-only numbers (`numbers_diem.tex`). |
 | `91_export_stata.py` | Exports analysis-ready CSVs and the paper's numbers for the Stata replication (`stata/`). |
 
 **Paper numbers, tables and figures**

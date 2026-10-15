@@ -130,6 +130,67 @@ disSomUsdMaln,70.71855491898555,71,not printed,,results_05.csv
 disSomUsdPop,72.25420034849411,72,not printed,,results_05.csv
 disSomUsdPthree,74.59869772243965,75,not printed,,results_05.csv
 disSomUsdUfive,71.16077285777197,71,not printed,,results_05.csv
+dmAreas,602,602,not printed,,results_02.csv
+dmCountries,27,27,same,,results_02.csv
+dmFcsCorr,.1812981667131094,0.18,same,,results_02.csv
+dmFcsCorrArea,.0277477412148699,0.03,same,,results_02.csv
+dmFcsCorrCty,.1070862235004282,0.11,not printed,,results_02.csv
+dmFcsFour,60.05460297029703,60,same,,results_02.csv
+dmFcsIpcCorr,.2774090359976655,0.28,same,,results_02.csv
+dmFcsIpcCorrArea,-.0255672825602667,-0.03,same,,results_02.csv
+dmFcsIpcCorrCty,.1351949480616419,0.14,not printed,,results_02.csv
+dmFcsIpcFour,50.53830925925926,51,not printed,,results_02.csv
+dmFcsIpcLowOver,81.70731707317073,82,not printed,,results_02.csv
+dmFcsIpcN,861,861,not printed,,results_02.csv
+dmFcsIpcOne,32.91005593220339,33,not printed,,results_02.csv
+dmFcsLowOver,76.67269439421338,77,same,,results_02.csv
+dmFcsN,1556,"1,556",not printed,,results_02.csv
+dmFcsOne,33.966389,34,same,,results_02.csv
+dmHhsCorr,.2725735515052796,0.27,same,,results_02.csv
+dmHhsCorrArea,.1273961844219515,0.13,same,,results_02.csv
+dmHhsCorrCty,.2362783768277547,0.24,not printed,,results_02.csv
+dmHhsFour,55.33337722772277,55,same,,results_02.csv
+dmHhsIpcCorr,.2943439867592672,0.29,same,,results_02.csv
+dmHhsIpcCorrArea,.0194189062597169,0.02,same,,results_02.csv
+dmHhsIpcCorrCty,.2550082482786939,0.26,not printed,,results_02.csv
+dmHhsIpcFour,36.73040740740741,37,not printed,,results_02.csv
+dmHhsIpcLowOver,40.40697674418605,40,not printed,,results_02.csv
+dmHhsIpcN,1041,"1,041",not printed,,results_02.csv
+dmHhsIpcOne,18.01849117647059,18,not printed,,results_02.csv
+dmHhsLowOver,54.95356037151703,55,not printed,,results_02.csv
+dmHhsN,1695,"1,695",not printed,,results_02.csv
+dmHhsOne,23.57925902777778,24,same,,results_02.csv
+dmLcsCorr,.3259584866936644,0.33,same,,results_02.csv
+dmLcsCorrArea,.1317549022016337,0.13,same,,results_02.csv
+dmLcsCorrCty,.2271424009307771,0.23,not printed,,results_02.csv
+dmLcsFour,74.72309896907217,75,same,,results_02.csv
+dmLcsIpcCorr,.4278209224425441,0.43,same,,results_02.csv
+dmLcsIpcCorrArea,-.0117489014213646,-0.01,same,,results_02.csv
+dmLcsIpcCorrCty,.2100175514255773,0.21,not printed,,results_02.csv
+dmLcsIpcFour,72.64061320754716,73,not printed,,results_02.csv
+dmLcsIpcLowOver,83.03571428571429,83,not printed,,results_02.csv
+dmLcsIpcN,1015,"1,015",not printed,,results_02.csv
+dmLcsIpcOne,36.47894558823529,36,not printed,,results_02.csv
+dmLcsLowOver,90.48361934477379,90,not printed,,results_02.csv
+dmLcsN,1670,"1,670",not printed,,results_02.csv
+dmLcsOne,42.80193194444444,43,same,,results_02.csv
+dmRcsiCorr,.2077283842225319,0.21,not printed,,results_02.csv
+dmRcsiCorrArea,.1476126799785281,0.15,not printed,,results_02.csv
+dmRcsiCorrCty,.2106674213232049,0.21,not printed,,results_02.csv
+dmRcsiFour,35.52508095238095,36,not printed,,results_02.csv
+dmRcsiIpcCorr,.1956659904723283,0.20,not printed,,results_02.csv
+dmRcsiIpcCorrArea,.0491915825200464,0.05,not printed,,results_02.csv
+dmRcsiIpcCorrCty,.3157577492856787,0.32,not printed,,results_02.csv
+dmRcsiIpcFour,32.06591290322581,32,not printed,,results_02.csv
+dmRcsiIpcLowOver,43.33333333333334,43,not printed,,results_02.csv
+dmRcsiIpcN,267,267,not printed,,results_02.csv
+dmRcsiIpcOne,30.422525,30,not printed,,results_02.csv
+dmRcsiLowOver,48.125,48,not printed,,results_02.csv
+dmRcsiN,417,417,not printed,,results_02.csv
+dmRcsiOne,22.85395172413793,23,not printed,,results_02.csv
+dmRounds,2268,"2,268",same,,results_02.csv
+dmYearOne,2026,2026,same,,results_02.csv
+dmYearZero,2022,2022,same,,results_02.csv
 exCalm,23.07692307692308,23,same,,results_08.csv
 exCampsIn,10,10,same,,results_08.csv
 exCampsOut,4,4,same,,results_08.csv
@@ -151,16 +212,16 @@ fsCorrLag,.6568573791501704,0.66,same,,results_01.csv
 fsCrit,33.1306990881459,33,same,,results_01.csv
 fsFcOnLag,.0872044897563981,0.09,same,,results_01.csv
 fsFcOnLagSe,.0477393066053426,0.05,same,,results_01.csv
-fsFcsCorr,.4070230425241504,0.41,same,,results_02.csv
-fsFcsCorrArea,.1456895764913995,0.15,same,,results_02.csv
-fsFcsCorrCty,.2659199198079188,0.27,same,,results_02.csv
-fsFcsFour,45.86721435178839,46,same,,results_02.csv
-fsFcsHighUnder,5.090909090909091,5,same,,results_02.csv
-fsFcsLowOver,71.3015873015873,71,same,,results_02.csv
-fsFcsOne,28.37202725355955,28,same,,results_02.csv
-fsFcsThree,47.41802813894439,47,same,,results_02.csv
-fsFcsTwo,34.98132027215895,35,same,,results_02.csv
-fsFoodAreas,478,478,same,,results_02.csv
+fsFcsCorr,.3428568878831507,0.34,same,,results_02.csv
+fsFcsCorrArea,.1106593999633822,0.11,same,,results_02.csv
+fsFcsCorrCty,.192059691620145,0.19,same,,results_02.csv
+fsFcsFour,51.00315073339905,51,same,,results_02.csv
+fsFcsHighUnder,6.420765027322404,6,same,,results_02.csv
+fsFcsLowOver,72.69736842105263,73,same,,results_02.csv
+fsFcsOne,29.04767480747748,29,same,,results_02.csv
+fsFcsThree,46.78197790061753,47,same,,results_02.csv
+fsFcsTwo,38.25205920809125,38,same,,results_02.csv
+fsFoodAreas,931,931,same,,results_02.csv
 fsFoodCountries,29,29,same,,results_02.csv
 fsGam,13.41823708206687,13,same,,results_01.csv
 fsGamFour,15.33536585365854,15,same,,results_01.csv
@@ -170,15 +231,15 @@ fsLead,3,3,same,,results_01.csv
 fsMortFc,-.0712421029585024,-0.07,same,,results_01.csv
 fsMortLag,.2047641561306496,0.20,same,,results_01.csv
 fsN,329,329,same,,results_01.csv
-fsRcsiCorr,.3514722770952469,0.35,same,,results_02.csv
-fsRcsiCorrArea,.2469275308612102,0.25,same,,results_02.csv
-fsRcsiCorrCty,.2496620620517302,0.25,same,,results_02.csv
-fsRcsiFour,45.13939343260724,45,same,,results_02.csv
-fsRcsiHighUnder,3.557692307692307,4,same,,results_02.csv
-fsRcsiLowOver,78.46260387811634,78,same,,results_02.csv
-fsRcsiOne,33.49140721172862,33,same,,results_02.csv
-fsRcsiThree,48.59369065977415,49,same,,results_02.csv
-fsRcsiTwo,35.32334213077868,35,same,,results_02.csv
+fsRcsiCorr,.2595037939002952,0.26,same,,results_02.csv
+fsRcsiCorrArea,.2418066217886725,0.24,same,,results_02.csv
+fsRcsiCorrCty,.2089022748929787,0.21,same,,results_02.csv
+fsRcsiFour,43.21653093656198,43,same,,results_02.csv
+fsRcsiHighUnder,7.941403238242096,8,same,,results_02.csv
+fsRcsiLowOver,75.43640897755611,75,same,,results_02.csv
+fsRcsiOne,33.0855043049653,33,same,,results_02.csv
+fsRcsiThree,44.09936310465108,44,same,,results_02.csv
+fsRcsiTwo,32.97185952517204,33,same,,results_02.csv
 fsRtwoBoth,.4119436120825316,0.41,same,,results_01.csv
 fsRtwoFc,-.1025119636992304,-0.10,same,,results_01.csv
 fsRtwoLag,.4160977205066884,0.42,same,,results_01.csv

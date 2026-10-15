@@ -30,6 +30,14 @@ Sources (raw files in input/foodsec_surveys/<source>/; `fetch` re-downloads them
              rounds), not independent of the CH phase, and the CH phase attached to the
              same record is used as the official phase.
 
+  fao_diem   FAO Data in Emergencies (DIEM) monitoring system household surveys, aggregated by HDX
+             ('fao-diem-monitoring-system-household-surveys-aggregated-data', CC BY 4.0), rounds from
+             Dec 2022 (input/fao_diem/; see SOURCE.md there). Phone (CATI) and face-to-face surveys,
+             representative at admin 1 and often admin 2. Weighted shares of households: poor or
+             borderline food consumption (FCG 1-2), rCSI 19+ (class 3), household hunger score 2+ and
+             4+ (IPC HHS Phase 3+ and 4+), crisis or emergency livelihood coping (LCSI 2-3). FAO says
+             the data inform IPC analyses, so, like WFP's, they are not independent of the analysts'
+             evidence base, but they are not produced by the IPC or FEWS NET.
 Not used (see code/README.md and the report): WFP HungerMap API (key needed), World Bank
 LSMS-ISA / EHCVM / high-frequency phone surveys (free registration on the Microdata Library),
 REACH MSNA household data (HDX 'request data'), IPC indicator worksheets (not public; the
@@ -233,16 +241,47 @@ def ch():
     return o.drop_duplicates(["area_id", "month", "indicator"], keep="last")
 
 
+def diem():
+    d = pd.read_csv(INP / "fao_diem" / "diem_food_security.csv", low_memory=False)
+    d["month"] = pd.PeriodIndex(pd.to_datetime(d.coll_mid_date, format="%m/%d/%Y %I:%M:%S %p"), freq="M")
+
+    def share(cols):
+        v = d[cols].fillna(0).sum(axis=1)                          # blank category = no households in it
+        tot = d[[c for c in d.columns if c.startswith(cols[0].rsplit("_", 1)[0] + "_")
+                 and c.rsplit("_", 1)[1].isdigit() and int(c.rsplit("_", 1)[1]) < 100]].sum(axis=1, min_count=1)
+        return v.where(tot.between(95, 105))                       # weighted % of households; rows sum to ~100
+    vals = {"fcs_poor_borderline": share(["fcg_1", "fcg_2"]), "rcsi_19plus": share(["rcsi_class_3"]),
+            "hhs_3plus": share([f"hhs_{i}" for i in range(2, 7)]), "hhs_4plus": share([f"hhs_{i}" for i in range(4, 7)]),
+            "lcs_crisis_plus": share(["lcsi_2", "lcsi_3"])}
+    lvl2 = d.adm_level.eq(2)
+    out = []
+    for ind, v in vals.items():
+        out.append(pd.DataFrame({
+            "iso3": d.adm0_iso3, "country": d.adm0_name, "adm1_name": d.adm1_name,
+            "adm2_name": d.adm2_name.where(lvl2), "adm1_pcode": d.adm1_pcode, "adm2_pcode": d.adm2_pcode.where(lvl2),
+            "area_id": "DIEM|" + d.adm0_iso3 + "|" + d.adm_pcode.astype(str), "level": np.where(lvl2, "adm2", "adm1"),
+            "source": "fao_diem", "mode": "FAO DIEM (phone and face-to-face)", "month": d.month, "indicator": ind,
+            "value": v.values, "n": d.surveys}))
+    o = pd.concat(out, ignore_index=True).dropna(subset=["value"])
+    o["period_start"], o["period_end"] = o.month, o.month       # survey mid-date month
+    # several rounds can fall in the same month for one area: average
+    return o.groupby(["iso3", "country", "adm1_name", "adm2_name", "adm1_pcode", "adm2_pcode", "area_id", "level",
+                      "source", "mode", "month", "indicator", "period_start", "period_end"], dropna=False,
+                     as_index=False).agg(value=("value", "mean"), n=("n", "sum"))
+
+
 def indicators():
     to2, _ = iso_maps()
-    d = pd.concat([hfid(), mvam(), ch()], ignore_index=True)
+    d = pd.concat([hfid(), mvam(), ch(), diem()], ignore_index=True)
     d["iso2"] = d.iso3.map(to2)
     d["year"] = d.month.dt.year
-    d = d[d.year.between(2011, 2024)]
+    d = d[(d.source.ne("fao_diem") & d.year.between(2011, 2024)) | (d.source.eq("fao_diem") & d.year.between(2022, 2026))]
     d["independent_of_ipc"] = d.source.ne("ch_hdx")
     d["ipc_note"] = np.where(d.source.eq("ch_hdx"),
                              "CH analysts' own direct-evidence input for this classification",
-                             "WFP survey; not produced by IPC/CH or FEWS NET, but may have been used as evidence")
+                             np.where(d.source.eq("fao_diem"),
+                                      "FAO DIEM survey; not produced by IPC/CH or FEWS NET, but used as IPC evidence",
+                                      "WFP survey; not produced by IPC/CH or FEWS NET, but may have been used as evidence"))
     d["indicator_label"] = d.indicator.map(IND_LABEL)
     return d.reset_index(drop=True)
 
@@ -335,6 +374,33 @@ def area_geoms(d):
             geom = find_name(Z[Z.iso3 == r.iso3], r.adm2_name if isinstance(r.adm2_name, str) else r.adm1_name)
             if geom is not None:
                 out[r.area_id] = (geom, "CH by name (gazetteer)")
+    # FAO DIEM areas: admin 1 by name; admin 2 by name, preferring units inside the admin-1 polygon
+    alias = {("HTI", "North"): "Nord", ("HTI", "North-East"): "Nord-Est", ("HTI", "North-West"): "Nord-Ouest",
+             ("HTI", "South"): "Sud", ("HTI", "South-East"): "Sud-Est", ("HTI", "West"): "Ouest",
+             ("HTI", "Centre"): "Centre", ("CMR", "Adamawa"): "Adamaoua", ("YEM", "Aden"): "'Adan",
+             ("YEM", "Al Hudaydah"): "Al Hodeidah", ("AFG", "Maidan Wardak"): "Wardak", ("AFG", "Sar-e-Pul"): "Sar-e Pol"}
+    for r in d[d.source == "fao_diem"].drop_duplicates("area_id").itertuples():
+        Zc = Z[Z.iso3 == r.iso3]
+        a1 = alias.get((r.iso3, r.adm1_name), r.adm1_name)
+        g1 = find_name(Zc, a1)
+        if g1 is None and a1 != r.adm1_name:
+            g1 = find_name(Zc, r.adm1_name)
+        if r.level == "adm1":
+            if g1 is not None:
+                out[r.area_id] = (g1, "DIEM admin 1 by name")
+            continue
+        n2 = norm(alias.get((r.iso3, r.adm2_name), r.adm2_name))
+        h = Zc[Zc.n == n2]                                    # any level (some countries' districts are admin 1)
+        if g1 is not None and len(h):
+            inside = h[h.geometry.representative_point().within(g1.buffer(0.05))]
+            if len(inside):
+                h = inside
+        if len(h):
+            out[r.area_id] = (h.sort_values("src").geometry.iloc[0], "DIEM admin 2 by name")
+        else:
+            geom = find_name(Zc[Zc.src.isin(["gb_adm2", "gadm_adm2"])], r.adm2_name)
+            if geom is not None and (g1 is None or geom.representative_point().within(g1.buffer(0.05))):
+                out[r.area_id] = (geom, "DIEM admin 2 by fuzzy name")
     return gpd.GeoDataFrame({"area_id": list(out), "how": [v[1] for v in out.values()]},
                             geometry=[v[0].buffer(0) for v in out.values()], crs=4326)
 
@@ -442,7 +508,8 @@ def summarize(m):
     # pooled WFP sources: the same admin-1 x month x indicator can appear twice (HFID's "literature"
     # Yemen series is the mVAM phone series also on HDX); keep mvam_hdx, then wfp_lit, then wfp_rt
     pr = {"mvam_hdx": 0, "wfp_lit": 1, "wfp_rt": 2}
-    ind_ = m[m.independent_of_ipc].assign(an=lambda z: z.adm1_name.map(norm), o=lambda z: z.source.map(pr))
+    ind_ = m[m.independent_of_ipc & m.source.isin(list(pr))].assign(an=lambda z: z.adm1_name.map(norm),
+                                                                    o=lambda z: z.source.map(pr))
     ind_ = ind_.sort_values("o").drop_duplicates(["iso3", "an", "month", "indicator"]).drop(columns=["an", "o"])
     groups = [("independent, all WFP sources", ind_)] + list(m.groupby("group"))
     for gname, g in groups:

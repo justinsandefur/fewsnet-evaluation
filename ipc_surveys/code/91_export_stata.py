@@ -14,6 +14,7 @@ Writes stata/data/*.csv:
   amn_areas.csv          areas with both an IPC food-insecurity and an acute-malnutrition phase (58)
   foodsec.csv            WFP household indicators matched to FEWS NET's phase (as in 40_paper._foodsec)
   ch_inputs.csv          Cadre Harmonise input indicators and the CH phase (66)
+  diem.csv               FAO DIEM household indicators matched to FEWS NET and IPC/CH phases (66, 92)
   newsurvey.csv          area-rounds for the new-survey regression (53.new_measurement)
   coverage.csv           area-rounds for survey coverage of Emergency areas (53.data_tables)
   report_surveys.csv     survey results quoted in FEWS NET's reports (53.survey_validation)
@@ -88,6 +89,8 @@ def foodsec():
     m = pd.read_parquet(INP / "foodsec_surveys/matched.parquet")
     c = m[(m.source == "ch_hdx")][["iso3", "area_id", "indicator", "value", "ipc_phase"]]
     write(c, "ch_inputs.csv")
+    dm = m[m.source == "fao_diem"][["area_id", "iso3", "month", "indicator", "value", "fews_cs", "ipc_phase"]]
+    write(dm.assign(month=dm.month.astype(str)), "diem.csv")
 
 
 # ------------------------------------------------------------------ 53: surveys in FEWS NET's reports

@@ -28,6 +28,12 @@ evaluation; use this file to start or continue the companion piece in another ch
     - Aid follows Phase 3+ counts more than deaths in Somalia and across countries, but not in Nigeria.
     - Phases match surveys at predicting no-aid death rates only if all aid averts deaths at about $2.5–5k each.
   - **Possible bug flagged by the Nigeria agent:** `27_shock_index.py`'s name-based ACLED match falls back to state totals for Abadam, Maiduguri, Wamako and Gulani. `88` matches on P-codes instead.
+- **FAO DIEM, 15 Oct:** added as a household-indicator source.
+  - **Coverage:** 2,268 area-rounds in 27 countries, 2022–2026.
+  - **Code:** `66` loads and matches it; `92` writes `numbers_diem.tex`.
+  - **Figures 1–2:** now show DIEM as green triangles.
+  - **Pooled numbers changed:** food consumption correlation 0.41 → 0.34; the share of Phase 1–2 areas over the 20% line 71 → 73%.
+  - **Not geographically matched:** 142 of 746 DIEM areas, mostly countries FEWS NET doesn't cover, plus Pakistan's districts.
 - Still open:
   - items 1, 2 and 6 above;
   - Charles wants the "target downstream outcomes / deaths wherever they happen" proposal reviewed by practitioners before it is pushed hard.

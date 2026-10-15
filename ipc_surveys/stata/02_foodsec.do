@@ -61,5 +61,53 @@ foreach ind in fcs_poor_borderline hhs_3plus rcsi_19plus lcs_crisis_plus {
     }
 }
 
+* FAO DIEM surveys on their own (code/92_diem_numbers.py): by FEWS NET phase (rounded half to even) and
+* by the official IPC/CH phase (rounded half up)
+import delimited using "$DATA/diem.csv", clear varnames(1) case(preserve)
+foreach ind in fcs_poor_borderline rcsi_19plus hhs_3plus lcs_crisis_plus {
+    local I = cond("`ind'" == "fcs_poor_borderline", "Fcs", cond("`ind'" == "rcsi_19plus", "Rcsi", ///
+              cond("`ind'" == "hhs_3plus", "Hhs", "Lcs")))
+    foreach col in fews_cs ipc_phase {
+        local P = cond("`col'" == "fews_cs", "", "Ipc")
+        preserve
+            keep if indicator == "`ind'" & !missing(value, `col')
+            if "`col'" == "fews_cs" bankround ph = `col'
+            else gen double ph = floor(`col' + 0.5)
+            replace ph = min(max(ph, 1), 4)
+            foreach p in 1 4 {
+                local tag = word("One Two Three Four", `p')
+                qui summarize value if ph == `p'
+                res dm`I'`P'`tag' r(mean)
+            }
+            res dm`I'`P'N _N
+            qui corr value `col'
+            res dm`I'`P'Corr r(rho)
+            foreach g in iso3 area_id {
+                bysort `g': egen mv = mean(value)
+                bysort `g': egen mp = mean(`col')
+                gen dv = value - mv
+                gen dp = `col' - mp
+                qui corr dv dp
+                res dm`I'`P'Corr`=cond("`g'" == "iso3", "Cty", "Area")' r(rho)
+                drop mv mp dv dp
+            }
+            gen over = value >= 20 if ph <= 2
+            qui summarize over
+            res dm`I'`P'LowOver 100 * r(mean)
+        restore
+    }
+}
+qui tab iso3
+res dmCountries r(r)
+qui tab area_id
+res dmAreas r(r)
+egen byte tr = tag(area_id month)
+qui count if tr
+res dmRounds r(N)
+gen int yr = real(substr(month, 1, 4))
+qui summarize yr
+res dmYearZero r(min)
+res dmYearOne r(max)
+
 res_save results_02
 log close
