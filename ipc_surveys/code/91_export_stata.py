@@ -16,6 +16,7 @@ Writes stata/data/*.csv:
   ch_inputs.csv          Cadre Harmonise input indicators and the CH phase (66)
   diem.csv               FAO DIEM household indicators matched to FEWS NET and IPC/CH phases (66, 92)
   ch_class.csv           Cadre Harmonise analyses 2021-2023: indicator shares, indicator/dimension/area phases (93)
+  disp_*.csv, prmn_records.csv   Somalia displacement panels and record list (94)
   newsurvey.csv          area-rounds for the new-survey regression (53.new_measurement)
   coverage.csv           area-rounds for survey coverage of Emergency areas (53.data_tables)
   report_surveys.csv     survey results quoted in FEWS NET's reports (53.survey_validation)
@@ -217,6 +218,14 @@ def gaps():
          "camps_silent", "displacement_question"]], "exclusions.csv")
 
 
+# ------------------------------------------------------------------ 94: displacement (Somalia)
+def displacement():
+    for f in ["disp_district", "disp_region", "disp_reassign", "disp_settlements"]:
+        write(pd.read_csv(TAB / f"{f}.csv"), f"{f}.csv")
+    x = pd.read_excel(INP / "displacement" / "prmn" / "prmn.xlsx", usecols=["Reason", "Number of Individuals"])
+    write(x.rename(columns={"Reason": "reason", "Number of Individuals": "n"}), "prmn_records.csv")
+
+
 # ------------------------------------------------------------------ the numbers the paper prints
 def numbers():
     tex = (PAPER / "ipc_surveys_draft.tex").read_text()
@@ -230,5 +239,5 @@ def numbers():
 
 
 if __name__ == "__main__":
-    for f in [fsnau, smartplus, foodsec, ch_class, reports, triggers, money, bounds, voi, gaps, numbers]:
+    for f in [fsnau, smartplus, foodsec, ch_class, displacement, reports, triggers, money, bounds, voi, gaps, numbers]:
         f()

@@ -40,6 +40,14 @@ evaluation; use this file to start or continue the companion piece in another ch
   - **Area phase:** equals the food consumption phase in 82% of cases.
   - **Nutrition and mortality:** add about 2 points of explained variation.
   - **Correction:** an earlier chat-only estimate ("food consumption implies Phase 3+ in 70% of areas") used the wrong food-consumption threshold. It was never put in the paper.
+- **Displacement, 17 Oct (`94`, §7 "Is the IPC measuring displacement instead?", Table 2, appendix fig17).** Prompted by Charles's question and `../DISPLACEMENT_PLAN.md`. Somalia only: UNHCR displacement records, 2016–Aug 2023, in `input/displacement/prmn/` (link to `_data`).
+  - **Phases track movement weakly.** Within season, the Phase 3+ share correlates 0.28 with past drought departures and 0.22 with future ones, about as much as with the crude death rate (0.18). Out of sample it predicts departures no better than rainfall and conflict.
+  - **Circularity:** household migration is one of the IPC's livelihood-coping strategies, so some link is built in.
+  - **What makes people move:** within regions, household food consumption predicts drought departures about as well as rainfall.
+  - **Counting the displaced at home doesn't tighten the link to death.** Few leave (median 0.9% of a district a year). Even if everyone who left died at 10 per 10,000 per day, the correlation with death falls.
+  - **Displaced settlements:** arrivals predict malnutrition and death there; origin districts' phases don't.
+  - **Stata:** `10_displacement.do`; the compare file is now `11_compare.do`. All 303 printed numbers replicate.
+  - **Not done:** IOM data for other countries (plan item 2); phases of displaced settlements (item 4).
 - Still open:
   - items 1, 2 and 6 above;
   - Charles wants the "target downstream outcomes / deaths wherever they happen" proposal reviewed by practitioners before it is pushed hard.

@@ -15,7 +15,8 @@
 *   07  value of surveys: the treatment-allocation model
 *   08  where surveys do not go: survey timing and what reports leave out
 *   09  what it takes to be classified in Crisis: the Cadre Harmonise's chain of evidence
-*   10  compare every number with the value printed in the paper
+*   10  displacement in Somalia: the phase vs displacement, household measures, reassignment, settlements
+*   11  compare every number with the value printed in the paper
 *
 * Figures stay in Python.
 
@@ -29,4 +30,5 @@ do 06_bounds.do
 do 07_survey_value.do
 do 08_survey_gaps.do
 do 09_ch_classification.do
-do 10_compare.do
+do 10_displacement.do
+do 11_compare.do

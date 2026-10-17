@@ -37,7 +37,8 @@ These do-files re-estimate every number in `output/cgd_paper/ipc_surveys_draft.p
 | `07_survey_value.do` | §9, Fig 10 | `65`, `59` | The treatment-allocation model (greedy allocation, in Mata): extra deaths averted and the cost per death. |
 | `08_survey_gaps.do` | §10, Fig 11 | `side_survey_selection/code/03`, `06` | Survey timing on conflict and downturns (country and year effects), the conflict-onset event study, and what survey reports leave out. |
 | `09_ch_classification.do` | §6, Table 1 | `93` | The Cadre Harmonisé's chain of evidence. The 20 percent rule against the analysts' phase for each indicator; the dimension against its indicators; the area phase by food consumption × livelihoods; and what nutrition and mortality phases add. |
-| `10_compare.do` | – | – | Lines up every Stata number with the value printed in the paper. Writes `output/compare.csv`. |
+| `10_displacement.do` | §7, Table 2, appendix figure | `94` | **Is the IPC measuring displacement instead?** (Somalia, UNHCR displacement records 2016–2023.) The phase against drought and conflict departures, malnutrition and death within season; out-of-sample R² leaving one season out; what predicts the Phase 3+ share. Region-months: household food consumption and coping, rainfall and violence against departures. Counting the displaced at home, and the assumed-death-rate stress test. Displaced settlements: arrivals against malnutrition and death. |
+| `11_compare.do` | – | – | Lines up every Stata number with the value printed in the paper. Writes `output/compare.csv`. |
 
 **Helpers in `_setup.do`:**
 - `res` records an estimate under the paper's macro name, and `res_save` writes the recorded estimates to file.
@@ -47,12 +48,13 @@ These do-files re-estimate every number in `output/cgd_paper/ipc_surveys_draft.p
 
 ## How well it matches
 
-All 265 numbers the draft prints are identical at the paper's rounding. Another 380 estimates are computed but not printed in the current draft; `compare.csv` lists them as "not printed".
+All 303 numbers the draft prints are identical at the paper's rounding. Another 463 estimates are computed but not printed in the current draft; `compare.csv` lists them as "not printed".
 
 Three Stata choices produce standard errors that differ slightly from the Python code, but none shows at the paper's rounding:
 - **Somalia within-zone slopes and the SMART+ slopes:** `reghdfe` cluster-robust standard errors include degrees-of-freedom factors that the Python code leaves out.
 - **New-survey regression:** same reason.
 - **Python's half-to-even rounding of phase bins:** handled by `bankround`.
+- **Percentiles:** pandas interpolates linearly between order statistics; Stata's `_pctile` does not. `10_displacement.do` computes the pandas version directly (the 90th percentile of departures otherwise reads 7.9 instead of 7.7).
 
 ## A data problem the port found
 
