@@ -19,13 +19,14 @@
 *   10  benefit-cost arithmetic in lives, Table 4                             (App. H)
 *   11  value on two margins: reallocation and the envelope                   (Section 8)
 *   12  FEWS NET's budget; what a phase means for malnutrition and death      (Section 8, App. G)
+*   13  displacement in Somalia: forecasts and departures; warned onsets      (Sections 3, 5, 6)
 *   99  compare every number with the Python values printed in the paper
 *
 * Figures and the gradient-boosted predictions stay in Python.
 
 clear all
 foreach f in 01_errors 02_need_onsets 03_contribution 04_official 05_text_prices 06_money ///
-             07_shocks 08_flags 09_subnational 10_benefit_cost 11_value_margins 12_budget_phase {
+             07_shocks 08_flags 09_subnational 10_benefit_cost 11_value_margins 12_budget_phase 13_displacement {
     clear all
     do `f'.do
 }

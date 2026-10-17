@@ -1,4 +1,5 @@
 name,stata,py_text,status,source
+dispOnEmEarlyTwelveSe,.3248003430131587,0.33,close,results_13.csv
 aidAllFourCurPool,27.03117832520321,27,not in paper,results_06.csv
 aidAllFourCurPoolCi_hi,62.32659806079446,62,not in paper,results_06.csv
 aidAllFourCurPoolCi_lo,-.5897957607292947,-1,not in paper,results_06.csv
@@ -46,6 +47,38 @@ contribRawCurSe,.0232891691961798,0.02,not in paper,results_03.csv
 contribRawFcSe,.0191484505376174,0.02,not in paper,results_03.csv
 contribRawIPCCurSe,.0201114797701672,0.02,not in paper,results_03.csv
 contribRawIPCFcSe,.0230847259842721,0.02,not in paper,results_03.csv
+dispConflictBase,.354109244788936,0,not in paper,results_13.csv
+dispConflictBaseCi_hi,9.667494063744918,10,not in paper,results_13.csv
+dispConflictBaseCi_lo,-8.16834716346092,-8,not in paper,results_13.csv
+dispConflictContribIpc,3.651014225969229,4,not in paper,results_13.csv
+dispConflictContribIpcCi_hi,8.027571576464055,8,not in paper,results_13.csv
+dispConflictContribIpcCi_lo,-.5482341841999916,-1,not in paper,results_13.csv
+dispConflictCur,.2790574419315961,0,not in paper,results_13.csv
+dispConflictCurCi_hi,5.313222153812314,5,not in paper,results_13.csv
+dispConflictCurCi_lo,-4.514464985646693,-5,not in paper,results_13.csv
+dispConflictFc,2.721120895295459,3,not in paper,results_13.csv
+dispConflictFcCi_hi,7.914709105195095,8,not in paper,results_13.csv
+dispConflictFcCi_lo,-2.222516601511737,-2,not in paper,results_13.csv
+dispDroughtBase,8.409879647644392,8,not in paper,results_13.csv
+dispDroughtBaseCi_hi,15.48476426513583,15,not in paper,results_13.csv
+dispDroughtBaseCi_lo,1.768420102882895,2,not in paper,results_13.csv
+dispDroughtContribIpc,2.843824156293784,3,not in paper,results_13.csv
+dispDroughtContribIpcCi_hi,5.606454785997417,6,not in paper,results_13.csv
+dispDroughtContribIpcCi_lo,.153463048482938,0,not in paper,results_13.csv
+dispDroughtCur,-2.808693263429107,-3,not in paper,results_13.csv
+dispDroughtCurCi_hi,-.3729473486429824,0,not in paper,results_13.csv
+dispDroughtCurCi_lo,-5.184888503940455,-5,not in paper,results_13.csv
+dispDroughtFc,4.575862064940139,5,not in paper,results_13.csv
+dispDroughtFcCi_hi,7.943947837008958,8,not in paper,results_13.csv
+dispDroughtFcCi_lo,1.312867888975822,1,not in paper,results_13.csv
+dispOnCrAverted,93,93,not in paper,results_13.csv
+dispOnCrAvertedTwelveSe,.2072302973765721,0.21,not in paper,results_13.csv
+dispOnCrEarly,348,348,not in paper,results_13.csv
+dispOnEmAverted,104,104,not in paper,results_13.csv
+dispOnEmAvertedSix,25.50779637362177,26,not in paper,results_13.csv
+dispOnEmAvertedSixSe,.341937125478478,0.34,not in paper,results_13.csv
+dispOnEmAvertedTwelve,-23.19406848490894,-23,not in paper,results_13.csv
+dispOnEmAvertedTwelveSe,.1991200549390668,0.20,not in paper,results_13.csv
 flagIpcPlacebo,.2156547858024493,0.22,not in paper,results_08.csv
 flagIpcSe,.0884666045122438,0.09,not in paper,results_08.csv
 flagOwnSe,.0683330717169111,0.07,not in paper,results_08.csv
@@ -220,6 +253,46 @@ dShareHi,.4485824276564329,0.4,same,results_10.csv
 dShareLo,.2715480139869202,0.3,same,results_10.csv
 dWastHi,240,240,same,results_10.csv
 dWastLo,50,50,same,results_10.csv
+dispAllBase,9.891988572701838,10,same,results_13.csv
+dispAllBaseCi_hi,17.47619257295783,17,same,results_13.csv
+dispAllBaseCi_lo,2.797416974192068,3,same,results_13.csv
+dispAllContrib,5.300732082368698,5,same,results_13.csv
+dispAllContribCi_hi,8.219692706881432,8,same,results_13.csv
+dispAllContribCi_lo,2.460503257164715,2,same,results_13.csv
+dispAllContribIpc,5.089864239169839,5,same,results_13.csv
+dispAllContribIpcCi_hi,8.042451169735699,8,same,results_13.csv
+dispAllContribIpcCi_lo,2.217965681444145,2,same,results_13.csv
+dispAllCur,-.93713022786579,-1,same,results_13.csv
+dispAllCurCi_hi,1.797189829198209,2,same,results_13.csv
+dispAllCurCi_lo,-3.598005171297414,-4,same,results_13.csv
+dispAllFc,5.940922937651494,6,same,results_13.csv
+dispAllFcCi_hi,9.063857405868303,9,same,results_13.csv
+dispAllFcCi_lo,2.907410574289115,3,same,results_13.csv
+dispConflictContrib,2.965192854319132,3,same,results_13.csv
+dispConflictContribCi_hi,7.205894877773811,7,same,results_13.csv
+dispConflictContribCi_lo,-1.107761363175475,-1,same,results_13.csv
+dispDistricts,74,74,same,results_13.csv
+dispDroughtContrib,2.944660521956277,3,same,results_13.csv
+dispDroughtContribCi_hi,5.723220967932918,6,same,results_13.csv
+dispDroughtContribCi_lo,.2391246970729233,0,same,results_13.csv
+dispDroughtShare,41.21350483502693,41,same,results_13.csv
+dispMedShare,2.768178487621378,2.8,same,results_13.csv
+dispN,1480,"1,480",same,results_13.csv
+dispOnCr,561,561,same,results_13.csv
+dispOnCrAvertedSix,-35.19035628453125,-35,same,results_13.csv
+dispOnCrAvertedSixSe,.1672565485623382,0.17,same,results_13.csv
+dispOnCrAvertedTwelve,-16.79812558794703,-17,same,results_13.csv
+dispOnCrEarlySix,1.733090910200064,2,same,results_13.csv
+dispOnCrEarlySixSe,.1561559685550541,0.16,same,results_13.csv
+dispOnCrEarlyTwelve,-15.73264495350236,-16,same,results_13.csv
+dispOnCrEarlyTwelveSe,.1623263517155699,0.16,same,results_13.csv
+dispOnEm,266,266,same,results_13.csv
+dispOnEmEarly,68,68,same,results_13.csv
+dispOnEmEarlySix,-29.6290733974797,-30,same,results_13.csv
+dispOnEmEarlySixSe,.4468900014992165,0.45,same,results_13.csv
+dispOnEmEarlyTwelve,-18.61406130184243,-19,same,results_13.csv
+dispRounds,20,20,same,results_13.csv
+dispTotal,8.562528,8.6,same,results_13.csv
 envBeta,28.32953537059808,28,same,results_11.csv
 envPmHi,9.645189226625153,9.6,same,results_11.csv
 envPmLo,4.233093177340833,4.2,same,results_11.csv

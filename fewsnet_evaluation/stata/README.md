@@ -54,6 +54,7 @@ Stata takes those outputs and redoes the rest from near-raw data. For example, `
 | `10_benefit_cost.do` | App. H, Table 4 | Benefit-cost arithmetic in lives, both calibrations; symmetric attribution | 56 + 39 cells |
 | `11_value_margins.do` | §8 | Greedy allocation of a fixed budget (reallocation margin); implied coverage; scaling to all countries; the envelope | 46 |
 | `12_budget_phase.do` | §8, App. G | FEWS NET contract obligations; what a phase means for malnutrition and death (FSNAU, SMART+, FDW, IPC AMN vs. AFI) | 21 |
+| `13_displacement.do` | §§3, 5, 6 | Displacement in Somalia: departures on FEWS NET's map, forecast and the forecast split, district and round FE; departures after warned and unwarned onsets | 41 |
 | `99_compare.do` | – | Lines up every Stata number with the value printed in the paper; writes `output/compare.csv` and `output/not_covered.csv` | |
 
 `_setup.do` holds paths and four helpers:
@@ -65,11 +66,12 @@ Stata takes those outputs and redoes the rest from near-raw data. For example, `
 
 ## How well it matches
 
-Of the 310 numbers printed in the paper's text and 363 table cells:
+Of the 351 numbers printed in the paper's text and 363 table cells:
 
 | Status | Count |
 |---|---|
-| Identical at the paper's rounding | 670 |
+| Identical at the paper's rounding | 710 |
+| Close (one displacement standard error, 0.325 vs. 0.326: degrees-of-freedom detail) | 1 |
 | Bootstrap p-values differing only by random draws | 3 |
 | Different | 0 |
 
@@ -97,6 +99,7 @@ The port found one Python bug, now fixed. `code/40_paper.py` divided two already
 
 ## Not covered
 
+- **Displacement out-of-sample R²** (`dispAllRtwo*`, `dispDroughtRtwo*`): gradient boosting, Python only.
 - **Two dates:** the months FEWS NET first raised famine risk (`famRiskSo`, `famRiskSd`). The lead times derived from them are covered.
 - **The predictions themselves:** gradient boosting and penalised logit. Stata uses the exported out-of-sample predictions. The AUCs, coefficients and allocations computed from them match Python exactly, which confirms that the export reproduces the pipeline.
 - **Figures.**

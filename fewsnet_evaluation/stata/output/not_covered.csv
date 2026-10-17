@@ -1,6 +1,15 @@
 name,py_text
 aidAllFourFcPoolCi,44 to 115
 aidFoodThreeFcWithinCi,5 to 48
+dispAllBaseCi,3 to 17
+dispAllContribCi,2 to 8
+dispAllContribIpcCi,2 to 8
+dispAllCurCi,-4 to 2
+dispAllFcCi,3 to 9
+dispAllRtwoFews,0.29
+dispAllRtwoPub,0.28
+dispConflictContribCi,-1 to 7
+dispDroughtContribCi,0 to 6
 famRiskSd,June 2023
 famRiskSo,January 2011
 moneyRawAllContribCi,4 to 21

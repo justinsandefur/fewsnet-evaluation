@@ -1405,6 +1405,39 @@ def pieces():
                 N[f"pv{tag}{mt}"] = f"{pv.loc[(task, model)]:.3f}"
 
 
+# ------------------------------------------------------------------ displacement (Somalia, 83_displacement.py)
+def displacement():
+    k = json.loads((TAB / "displacement_key.json").read_text())
+    R = pd.read_csv(TAB / "displacement_forecast.csv")
+    O = pd.read_csv(TAB / "displacement_oos.csv").set_index(["outcome", "model"]).r2
+    E = pd.read_csv(TAB / "displacement_onsets.csv")
+    eff = lambda b: sg(100 * (np.exp(0.1 * b) - 1))
+    N["dispDistricts"], N["dispRounds"], N["dispN"] = str(k["districts"]), str(k["rounds"]), f"{k['district_rounds']:,}"
+    N["dispTotal"] = f"{k['departures_total'] / 1e6:.1f}"
+    N["dispDroughtShare"] = pct(k["drought_share"])
+    N["dispMedShare"], N["dispPninety"] = pct(k["dep_per_year_median_share"], 1), pct(k["dep_per_year_p90_share"])
+    for y, Y in [("dep", "All"), ("dep_drought", "Drought"), ("dep_conflict", "Conflict")]:
+        g = R[R.outcome == y].set_index(["spec", "term"])
+        for spec, t, nm in [("map and forecast", "cur3", "Cur"), ("map and forecast", "fc3", "Fc"),
+                            ("forecast split", "b_fc3", "Base"), ("forecast split", "c_fc3", "Contrib"),
+                            ("forecast split, + IPC", "ci_fc3", "ContribIpc")]:
+            r = g.loc[(spec, t)]
+            N[f"disp{Y}{nm}"] = eff(r.coef)
+            N[f"disp{Y}{nm}Ci"] = f"{eff(r.coef - 1.96 * r.se)} to {eff(r.coef + 1.96 * r.se)}"
+    for y, Y in [("dep", "All"), ("dep_drought", "Drought")]:
+        N[f"disp{Y}RtwoPub"], N[f"disp{Y}RtwoFews"] = f"{O[(y, 'public')]:.2f}", f"{O[(y, 'public + FEWS NET')]:.2f}"
+    for lvl, L in [("Emergency", "Em"), ("Crisis", "Cr")]:
+        N[f"dispOn{L}"], N[f"dispOn{L}Early"] = str(k[f"onsets_{lvl}"]), str(k[f"onsets_{lvl}_early"])
+        N[f"dispOn{L}Averted"] = str(k[f"onsets_{lvl}_averted"])
+        e = E[(E.onset == lvl) & (E.outcome == "dep")].set_index(["window", "term"])
+        for w, W in [("post6", "Six"), ("post12", "Twelve")]:
+            for t, T in [("early", "Early"), ("averted", "Averted")]:
+                r = e.loc[(w, t)]
+                N[f"dispOn{L}{T}{W}"] = sg(100 * (np.exp(r.coef) - 1))
+                N[f"dispOn{L}{T}{W}Se"] = f"{r.se:.2f}"
+                N[f"dispOn{L}{T}{W}Coef"] = f"{r.coef:.2f}"
+
+
 if __name__ == "__main__":
     coverage()
     type2()
@@ -1431,4 +1464,5 @@ if __name__ == "__main__":
     value_margins()
     fig_allocation()
     famine_errors()
+    displacement()
     write_numbers()
