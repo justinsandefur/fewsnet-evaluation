@@ -1,0 +1,52 @@
+population_group,type,region,us_pct,group,loss_pct,n_s,n_all,n_post,surveyed_gu26
+Qardho IDPs,IDP,SO16,69,Higher,7,1,9,0,No
+Lasanood IDPs,IDP,SO14,59,Higher,21,1,2,0,No
+Bossaso IDPs,IDP,SO16,59,Higher,36,14,21,3,Yes
+Garowe IDPs,IDP,SO17,55,Higher,30,15,23,3,Yes
+Dhobley IDPs,IDP,SO28,55,Higher,-22,0,6,0,No
+Hargeisa IDPs,IDP,SO12,53,Higher,0,12,20,2,No
+Berbera IDPs,IDP,SO12,44,Higher,43,0,6,0,No
+Dhusamareb IDP,IDP,SO19,42,Lower,18,14,22,3,Yes
+Galkayo IDPs,IDP,SO18,38,Lower,14,14,20,2,No
+Mogadishu IDPs,IDP,SO22,38,Lower,22,15,23,3,Yes
+Baidoa IDPs,IDP,SO24,37,Lower,30,14,22,2,No
+Kismayo IDPs,IDP,SO28,36,Lower,14,15,23,3,Yes
+Beletweyne IDPs,IDP,SO20,35,Lower,37,2,2,1,No
+Burao IDPs,IDP,SO13,34,Lower,38,12,20,3,Yes
+Dolow IDPs,IDP,SO26,33,Lower,33,15,23,3,Yes
+Northern Inland Pastoral NW,Rural,SO14,64,Higher,29,7,10,2,No
+Northern Inland Pastoral,Rural,SO16,63,Higher,26,7,9,0,No
+Northern Inland Pastoral NE,Rural,SO16,63,Higher,26,6,9,1,No
+Coastal Deeh NE,Rural,SO18,60,Higher,34,15,18,3,Yes
+East Golis Pastoral,Rural,SO16,58,Higher,33,15,20,3,Yes
+Guban Pastoral,Rural,SO11,58,Higher,37,13,19,3,Yes
+Golis Pastoral,Rural,SO16,55,Higher,30,0,1,0,No
+Coastal Deeh,Rural,SO18,55,Higher,35,0,5,0,No
+West Golis Pastoral LZ,Rural,SO12,52,Higher,27,12,20,2,No
+Northwest Agro-Pastoral LZ,Rural,SO12,52,Higher,13,13,20,3,Yes
+Addun Pastoral,Rural,SO18,51,Higher,20,14,22,2,No
+Bay Agro Pastoral,Rural,SO24,51,Lower,26,15,23,3,Yes
+Hawd Pastoral NE,Rural,SO18,47,Lower,22,3,7,0,No
+NW Hawd,Rural,SO13,46,Lower,23,13,18,2,No
+Bakool Pastoral,Rural,SO25,45,Lower,2,1,8,0,No
+Hawd Pastoral,Rural,SO13,44,Lower,23,0,4,0,No
+Juba SIP pastoral- Dhobely district,Rural,SO28,44,Lower,7,1,1,0,No
+Shabelle Riverine,Rural,SO23,43,Lower,37,14,21,3,Yes
+Hawd Pastoral of Central,Rural,SO18,42,Lower,18,12,12,3,Yes
+Shabeele Agro-pastoral,Rural,SO23,40,Lower,37,13,21,2,No
+Beletweyne,Rural,SO20,35,Lower,37,12,16,2,No
+North Gedo Riverine,Rural,SO26,33,Lower,22,15,23,3,Yes
+North Gedo Pastoral,Rural,SO26,33,Lower,19,15,23,3,Yes
+Lasanood Urban (Sool),Urban,SO14,59,Higher,21,1,2,0,No
+Bari Urban,Urban,SO16,59,Higher,36,10,12,1,No
+Nugaal Urban,Urban,SO17,55,Higher,30,11,13,1,No
+Hargeisa Urban (W. Galbeed),Urban,SO12,53,Higher,0,10,10,1,No
+Huddur Urban,Urban,SO25,49,Higher,36,2,2,0,No
+Dhusamareb Urban (Galgadud),Urban,SO19,42,Higher,18,11,11,1,No
+Galkacyo Urban (Mudug),Urban,SO18,38,Lower,14,11,11,1,No
+Mogadishu Urban,Urban,SO22,38,Lower,22,12,18,1,No
+Baidoa Urban (Bay),Urban,SO24,37,Lower,30,11,11,1,No
+Kismayo Urban,Urban,SO28,36,Lower,14,12,18,1,No
+Beledweyne District,Urban,SO20,35,Lower,37,10,14,1,No
+Burao Urban (Toghdeer),Urban,SO13,34,Lower,38,9,10,1,No
+Dolow Urban (N Gedo),Urban,SO26,33,Lower,33,11,11,1,No

@@ -1,0 +1,310 @@
+name,value
+atIn,16
+atOut,22
+bCdrBinDyTv,-0.01
+bCdrBinGuTs,0.07
+bCdrBinGuTv,0.06
+bCdrBinPool,0.04
+bCdrDyTv,-0.01
+bCdrGuTs,0.06
+bCdrGuTv,0.02
+bCdrPool,0.02
+bGamBinDyTv,1.8
+bGamBinGuTs,5.5
+bGamBinGuTv,2.6
+bGamBinPool,2.9
+bGamDyTv,1.4
+bGamGuTs,2.8
+bGamGuTv,1.2
+bGamPool,1.6
+bGamUnadjDyTv,1.6
+bGamUnadjGuTs,2.6
+bGamUnadjGuTv,0.9
+bGamUnadjPool,1.5
+bMuacBinDyTv,0.6
+bMuacBinGuTs,1.2
+bMuacBinGuTv,-0.8
+bMuacBinPool,0.1
+bMuacDyTv,0.6
+bMuacGuTs,0.6
+bMuacGuTv,-0.5
+bMuacPool,0.1
+bSamBinDyTv,0.5
+bSamBinGuTs,1.6
+bSamBinGuTv,0.8
+bSamBinPool,0.9
+bSamDyTv,0.5
+bSamGuTs,0.8
+bSamGuTv,0.5
+bSamPool,0.6
+bUfiveBinDyTv,0.12
+bUfiveBinGuTs,0.00
+bUfiveBinGuTv,0.00
+bUfiveBinPool,0.04
+bUfiveDyTv,0.04
+bUfiveGuTs,0.05
+bUfiveGuTv,-0.02
+bUfivePool,0.01
+ciCdrBinDyTv,-0.16 to 0.15
+ciCdrBinGuTs,-0.09 to 0.25
+ciCdrBinGuTv,-0.08 to 0.18
+ciCdrBinPool,-0.10 to 0.16
+ciCdrDyTv,-0.10 to 0.10
+ciCdrGuTs,-0.01 to 0.22
+ciCdrGuTv,-0.07 to 0.08
+ciCdrPool,-0.07 to 0.09
+ciGamBinDyTv,-2.4 to 5.3
+ciGamBinGuTs,2.1 to 8.3
+ciGamBinGuTv,0.5 to 4.5
+ciGamBinPool,0.5 to 4.8
+ciGamDyTv,-0.1 to 2.9
+ciGamGuTs,0.1 to 5.6
+ciGamGuTv,-0.3 to 2.1
+ciGamPool,0.2 to 2.4
+ciGamUnadjDyTv,-0.1 to 3.1
+ciGamUnadjGuTs,-0.1 to 5.8
+ciGamUnadjGuTv,-0.4 to 1.8
+ciGamUnadjPool,0.1 to 2.4
+ciMuacBinDyTv,-2.4 to 3.3
+ciMuacBinGuTs,-0.5 to 3.0
+ciMuacBinGuTv,-2.8 to 1.6
+ciMuacBinPool,-1.9 to 1.7
+ciMuacDyTv,-1.0 to 2.4
+ciMuacGuTs,-0.2 to 1.4
+ciMuacGuTv,-1.9 to 0.9
+ciMuacPool,-1.0 to 1.1
+ciSamBinDyTv,-0.9 to 1.7
+ciSamBinGuTs,0.2 to 3.8
+ciSamBinGuTv,-0.1 to 1.6
+ciSamBinPool,-0.1 to 1.6
+ciSamDyTv,-0.1 to 1.1
+ciSamGuTs,0.0 to 2.7
+ciSamGuTv,-0.2 to 0.9
+ciSamPool,0.0 to 0.9
+ciUfiveBinDyTv,-0.25 to 0.47
+ciUfiveBinGuTs,-0.35 to 0.35
+ciUfiveBinGuTv,-0.20 to 0.19
+ciUfiveBinPool,-0.16 to 0.24
+ciUfiveDyTv,-0.08 to 0.23
+ciUfiveGuTs,-0.07 to 0.31
+ciUfiveGuTv,-0.12 to 0.07
+ciUfivePool,-0.07 to 0.12
+corrDepUs,-0.33
+evCiGuTs,-1.0 to 5.5
+evGuTs,2.4
+evPreMax,0.3
+evPreMin,-1.2
+evPreP,p=0.56
+evPrePbin,p=0.56
+fDistHi,35
+fDistLo,35
+fOtDrop,31
+fSitesUsHOneTs,5.2
+fSitesUsHTwoTv,18
+fSitesUsLast,May 2026
+fSitesUsTf,51
+fUsDrop,90
+fUsShareTf,52
+fUsTf,450
+fUsTv,44
+fsFFscDepTs,11.2
+fsFFscDepTv,15.3
+fsFFscLossTs,0.1
+fsFFscLossTv,0.4
+fsFFscUsTs,0.7
+fsFFscUsTv,0.9
+fsFOtpDepTs,7.5
+fsFOtpDepTv,1.4
+fsFOtpLossTs,3.9
+fsFOtpLossTv,2.4
+fsFOtpUsTs,0.0
+fsFOtpUsTv,0.0
+nDomains,46
+nGuTs,16
+nPost,79
+nRegions,15
+nSurveys,481
+natFscTf,1.8
+natFscTs,0.4
+natFscTv,0.9
+natOtpTf,1068
+natOtpTs,726
+pCdrDyTv,p=0.79
+pCdrGuTs,p=0.12
+pCdrGuTv,p=0.54
+pCdrPool,p=0.61
+pGamBinDyTv,p=0.35
+pGamBinGuTs,p=0.0008
+pGamBinGuTv,p=0.024
+pGamBinPool,p=0.026
+pGamDyTv,p=0.066
+pGamGuTs,p=0.046
+pGamGuTv,p=0.089
+pGamPool,p=0.034
+pGamUnadjDyTv,p=0.071
+pGamUnadjGuTs,p=0.053
+pGamUnadjGuTv,p=0.12
+pGamUnadjPool,p=0.042
+pMuacDyTv,p=0.43
+pMuacGuTs,p=0.083
+pMuacGuTv,p=0.36
+pMuacPool,p=0.85
+pSamDyTv,p=0.072
+pSamGuTs,p=0.032
+pSamGuTv,p=0.10
+pSamPool,p=0.038
+pUfiveDyTv,p=0.53
+pUfiveGuTs,p=0.51
+pUfiveGuTv,p=0.61
+pUfivePool,p=0.71
+rawHiGuTs,15.9
+rawHiGuTv,12.9
+rawLoGuTs,14.3
+rawLoGuTv,14.6
+rawPreHi,10.3
+rawPreLo,13.7
+rbAB,2.8
+rbABp,1.6
+rbACi,0.1 to 5.6
+rbACip,0.2 to 2.4
+rbAP,p=0.046
+rbAPp,p=0.034
+rbBB,2.6
+rbBBp,1.5
+rbBCi,-0.1 to 5.8
+rbBCip,0.1 to 2.4
+rbBP,p=0.053
+rbBPp,p=0.042
+rbCB,2.6
+rbCBp,1.4
+rbCCi,0.6 to 4.6
+rbCCip,0.3 to 2.2
+rbCP,p=0.023
+rbCPp,p=0.027
+rbDB,2.8
+rbDBp,1.5
+rbDCi,-0.8 to 6.2
+rbDCip,-0.4 to 2.8
+rbDP,p=0.12
+rbDPp,p=0.10
+rbEB,1.2
+rbEBp,0.9
+rbECi,0.5 to 1.7
+rbECip,-0.3 to 2.1
+rbEP,p=0.0099
+rbEPp,p=0.17
+rbFB,4.6
+rbFBp,2.5
+rbFCi,-1.0 to 9.8
+rbFCip,0.2 to 3.5
+rbFP,p=0.074
+rbFPp,p=0.046
+rbGB,2.8
+rbGBp,1.5
+rbGCi,0.5 to 5.2
+rbGCip,0.2 to 2.4
+rbGP,p=0.034
+rbGPp,p=0.033
+rbHB,2.4
+rbHBp,1.1
+rbHCi,-0.1 to 4.0
+rbHCip,-0.4 to 1.8
+rbHP,p=0.056
+rbHPp,p=0.11
+rbIB,2.8
+rbIBp,1.6
+rbICi,0.2 to 5.4
+rbICip,0.2 to 2.4
+rbIP,p=0.043
+rbIPp,p=0.031
+rbJB,3.0
+rbJBp,2.4
+rbJCi,0.0 to 5.6
+rbJCip,0.4 to 3.6
+rbJP,p=0.051
+rbJPp,p=0.028
+rbKB,2.3
+rbKBp,0.9
+rbKCi,0.5 to 4.5
+rbKCip,-0.2 to 2.4
+rbKP,p=0.0077
+rbKPp,p=0.090
+rbLB,-1.0
+rbLBp,0.0
+rbLCi,-3.8 to 2.4
+rbLCip,-3.2 to 2.1
+rbLP,p=0.42
+rbLPp,p=0.97
+scBase,501000
+scGap,12
+scKids,3.9
+scLoss,26
+scLossN,209000
+scLossNHi,416000
+scLossNHiSam,158000
+scLossNLo,44000
+scLossNLoSam,21000
+scLossNSam,83000
+scLossPct,42
+scLossPp,5.4
+scLossPpHi,10.8
+scLossPpHiSam,4.1
+scLossPpLo,1.1
+scLossPpLoSam,0.5
+scLossPpSam,2.2
+scN,127000
+scNHi,249000
+scNLo,6000
+scNSam,35000
+scNSamHi,119000
+scNSamLo,2000
+scNatNTs,59000
+scNatTs,1.5
+scNatTv,0.9
+scPct,25
+scPp,3.3
+scPpHi,6.5
+scPpLo,0.2
+sdUs,10.6
+tOneCdrHi,0.26
+tOneCdrLo,0.35
+tOneDepHi,-0.29
+tOneDepLo,0.23
+tOneDomainsHi,20
+tOneDomainsLo,26
+tOneFatHi,18
+tOneFatLo,78
+tOneGamHi,10.6
+tOneGamLo,14.0
+tOneGuTwoSixHi,6
+tOneGuTwoSixLo,10
+tOneIdpHi,5
+tOneIdpLo,8
+tOneLossHi,24
+tOneLossLo,25
+tOneMuacHi,5.5
+tOneMuacLo,7.8
+tOnePostroundsHi,31
+tOnePostroundsLo,48
+tOneRainHi,0.55
+tOneRainLo,0.32
+tOneRuralHi,9
+tOneRuralLo,11
+tOneSamHi,1.7
+tOneSamLo,2.5
+tOneSurveysHi,190
+tOneSurveysLo,291
+tOneUfivedrHi,0.22
+tOneUfivedrLo,0.54
+tOneUrbanHi,6
+tOneUrbanLo,7
+tOneUsmaxHi,69
+tOneUsmaxLo,51
+tOneUsminHi,42
+tOneUsminLo,33
+tOneUsshareHi,57
+tOneUsshareLo,39
+usMax,69
+usMed,45
+usMin,33
+yMeanGam,12.4
