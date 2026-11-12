@@ -35,7 +35,7 @@ The run takes about two minutes and writes everything to `output/`.
 
 ## Inference
 
-Standard errors are clustered by region (15 clusters). All p values and 95% CIs come from a restricted wild cluster bootstrap (`boottest`, Webb weights, 9999 replications, seed 20261110); CIs invert the same test, so they agree with the p values. The one exception is figure 2, which shows raw means with normal-approximation CIs across domains.
+Standard errors are clustered by region (15 clusters). All p values and 95% CIs come from a restricted wild cluster bootstrap (`boottest`, Webb weights, 9999 replications, seed 20261110); CIs invert the same test, so they agree with the p values. Two exceptions: table S2 (district cross-section) reports cluster-robust CIs (b ± 1·96 SE) and F statistics, and figure 2 shows raw means with normal-approximation CIs across domains.
 
 The estimation sample starts in Gu 2019 (`global START 2019` in `00_master.do`): 481 surveys of 46 domains. Sensitivity row H uses all transcribed rounds from 2015. The national prediction gap (table S6) fits on all rounds before 2025, and figure 2 shows rounds from 2017.
 
