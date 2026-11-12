@@ -4,7 +4,7 @@ Asks whether the 2025 withdrawal of US humanitarian aid raised malnutrition and 
 
 Paper source: `output/us_cut_memo/us_cut_memo.tex` (`us_cut_memo_v1.tex` is the earlier draft).
 
-The journal version, "Child wasting in Somalia after the 2025 withdrawal of US humanitarian assistance" (submitted to The Lancet Global Health), has its own self-contained Stata replication package in `lgh_replication/`. See its README.
+The journal version, "Child wasting in Somalia after the 2025 withdrawal of US humanitarian assistance" (submitted to The Lancet Global Health), has its own self-contained replication package in `lgh_replication/`, which builds its data from public sources (`build/`). See its README.
 
 ## Layout
 
@@ -79,7 +79,6 @@ Stata: Done: `stata/` re-estimates the headline numbers and `stata/output/compar
 | `75_somalia_delivery.py` | Somalia: a fuller first stage from monthly delivered-aid data, and 2SLS by survey season. |
 | `76_ethiopia_us_cut.py` | Ethiopia: first stage and food-insecurity outcomes for the 2025 US aid cut (zone level). |
 | `80_us_cut_scale.py` | Scale of the estimated effects, and why Somalia, Nigeria and Ethiopia. |
-| `84_lgh_replication_data.py` | Assemble the data for the Lancet Global Health replication package (`lgh_replication/data/`); estimates nothing. |
 
 **Export for Stata**
 

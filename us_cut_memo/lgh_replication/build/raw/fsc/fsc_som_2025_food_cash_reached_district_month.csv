@@ -1,0 +1,647 @@
+workbook,month,admin1,admin2,admin2_pcode,reached,reached_label,n_impl_partners
+2025_FSC_Dashboards_SOM,January,Awdal,Zeylac,SO1104,"3,600","3,600",1
+2025_FSC_Dashboards_SOM,January,Bakool,Xudur,SO2501,"18,258","18,258",2
+2025_FSC_Dashboards_SOM,January,Sool,Xudun,SO1404,438,438,1
+2025_FSC_Dashboards_SOM,January,Mudug,Xarardheere,SO1805,"1,044","1,044",1
+2025_FSC_Dashboards_SOM,January,Bakool,Waajid,SO2504,"11,394","11,394",3
+2025_FSC_Dashboards_SOM,January,Bakool,Tayeeglow,SO2503,"2,400","2,400",1
+2025_FSC_Dashboards_SOM,January,Togdheer,Sheikh,SO1304,"1,566","1,566",1
+2025_FSC_Dashboards_SOM,January,Bakool,Rab Dhuure,SO2505,"5,232","5,232",1
+2025_FSC_Dashboards_SOM,January,Lower Shabelle,Qoryooley,SO2305,138,138,1
+2025_FSC_Dashboards_SOM,January,Bari,Qardho,SO1606,"7,218","7,218",2
+2025_FSC_Dashboards_SOM,January,Bay,Qansax Dheere,SO2404,"10,080","10,080",1
+2025_FSC_Dashboards_SOM,January,Bari,Qandala,SO1605,"3,708","3,708",1
+2025_FSC_Dashboards_SOM,January,Togdheer,Owdweyne,SO1303,102,102,3
+2025_FSC_Dashboards_SOM,January,Lower Shabelle,Marka,SO2301,"1,800","1,800",1
+2025_FSC_Dashboards_SOM,January,Gedo,Luuq,SO2606,"14,748","14,748",1
+2025_FSC_Dashboards_SOM,January,Awdal,Lughaye,SO1103,"2,880","2,880",1
+2025_FSC_Dashboards_SOM,January,Sanaag,Laasqoray,SO1503,"13,536","13,536",3
+2025_FSC_Dashboards_SOM,January,Lower Shabelle,Kurtunwaarey,SO2304,"5,802","5,802",1
+2025_FSC_Dashboards_SOM,January,Lower Juba,Kismaayo,SO2801,"42,222","42,222",1
+2025_FSC_Dashboards_SOM,January,Middle Shabelle,Jowhar,SO2101,"24,036","24,036",2
+2025_FSC_Dashboards_SOM,January,Mudug,Jariiban,SO1804,"14,208","14,208",5
+2025_FSC_Dashboards_SOM,January,Lower Juba,Jamaame,SO2804,"1,638","1,638",1
+2025_FSC_Dashboards_SOM,January,Hiraan,Jalalaqsi,SO2003,"51,486","51,486",1
+2025_FSC_Dashboards_SOM,January,Bari,Iskushuban,SO1604,"5,490","5,490",2
+2025_FSC_Dashboards_SOM,January,Mudug,Hobyo,SO1803,"27,672","27,672",4
+2025_FSC_Dashboards_SOM,January,Woqooyi Galbeed,Hargeysa,SO1201,"47,850","47,850",4
+2025_FSC_Dashboards_SOM,January,Nugaal,Garoowe,SO1701,"6,906","6,906",4
+2025_FSC_Dashboards_SOM,January,Gedo,Garbahaarey,SO2601,"7,608","7,608",1
+2025_FSC_Dashboards_SOM,January,Mudug,Galdogob,SO1802,"7,968","7,968",2
+2025_FSC_Dashboards_SOM,January,Mudug,Gaalkacyo,SO1801,"41,886","41,886",5
+2025_FSC_Dashboards_SOM,January,Nugaal,Eyl,SO1703,"5,340","5,340",2
+2025_FSC_Dashboards_SOM,January,Gedo,Doolow,SO2605,"19,920","19,920",1
+2025_FSC_Dashboards_SOM,January,Bay,Diinsoor,SO2403,"8,148","8,148",2
+2025_FSC_Dashboards_SOM,January,Galgaduud,Dhuusamarreeb,SO1901,"25,464","25,464",3
+2025_FSC_Dashboards_SOM,January,Sanaag,Ceerigaabo,SO1501,"12,210","12,210",3
+2025_FSC_Dashboards_SOM,January,Gedo,Ceel Waaq,SO2604,18,18,1
+2025_FSC_Dashboards_SOM,January,Galgaduud,Ceel Dheer,SO1905,"4,410","4,410",1
+2025_FSC_Dashboards_SOM,January,Galgaduud,Ceel Buur,SO1904,"1,338","1,338",1
+2025_FSC_Dashboards_SOM,January,Bakool,Ceel Barde,SO2502,"4,896","4,896",1
+2025_FSC_Dashboards_SOM,January,Sanaag,Ceel Afweyn,SO1502,"6,294","6,294",1
+2025_FSC_Dashboards_SOM,January,Sool,Caynabo,SO1402,"9,756","9,756",1
+2025_FSC_Dashboards_SOM,January,Bari,Caluula,SO1603,"3,594","3,594",1
+2025_FSC_Dashboards_SOM,January,Middle Shabelle,Cadale,SO2104,"5,430","5,430",2
+2025_FSC_Dashboards_SOM,January,Galgaduud,Cadaado,SO1903,"23,106","23,106",3
+2025_FSC_Dashboards_SOM,January,Galgaduud,Cabudwaaq,SO1902,"18,150","18,150",2
+2025_FSC_Dashboards_SOM,January,Bay,Buur Hakaba,SO2402,"14,160","14,160",1
+2025_FSC_Dashboards_SOM,January,Nugaal,Burtinle,SO1702,"5,052","5,052",2
+2025_FSC_Dashboards_SOM,January,Togdheer,Burco,SO1301,"11,484","11,484",2
+2025_FSC_Dashboards_SOM,January,Hiraan,Bulo Burto,SO2002,"28,512","28,512",1
+2025_FSC_Dashboards_SOM,January,Bari,Bossaso,SO1601,"21,942","21,942",2
+2025_FSC_Dashboards_SOM,January,Awdal,Borama,SO1101,"19,398","19,398",2
+2025_FSC_Dashboards_SOM,January,Woqooyi Galbeed,Berbera,SO1202,"1,392","1,392",1
+2025_FSC_Dashboards_SOM,January,Gedo,Belet Xaawo,SO2603,"15,438","15,438",1
+2025_FSC_Dashboards_SOM,January,Hiraan,Belet Weyne,SO2001,"51,816","51,816",3
+2025_FSC_Dashboards_SOM,January,Bay,Baydhaba,SO2401,"173,706","173,706",7
+2025_FSC_Dashboards_SOM,January,Lower Shabelle,Baraawe,SO2303,"2,100","2,100",1
+2025_FSC_Dashboards_SOM,January,Bari,Bandarbeyla,SO1602,"3,420","3,420",1
+2025_FSC_Dashboards_SOM,January,Banadir,Banadir,SO2201,"22,578","22,578",3
+2025_FSC_Dashboards_SOM,January,Middle Shabelle,Balcad,SO2103,"43,872","43,872",1
+2025_FSC_Dashboards_SOM,January,Awdal,Baki,SO1102,"1,038","1,038",1
+2025_FSC_Dashboards_SOM,January,Lower Juba,Badhaadhe,SO2803,"2,130","2,130",1
+2025_FSC_Dashboards_SOM,January,Gedo,Baardheere,SO2602,"30,654","30,654",1
+2025_FSC_Dashboards_SOM,January,Lower Juba,Afmadow,SO2802,"18,420","18,420",1
+2025_FSC_Dashboards_SOM,January,Lower Shabelle,Afgooye,SO2302,"2,520","2,520",2
+2025_FSC_Dashboards_SOM,January,Middle Shabelle,Adan Yabaal,SO2102,90,90,1
+2025_FSC_Dashboards_SOM,February,Awdal,Zeylac,SO1104,"3,600","3,600",1
+2025_FSC_Dashboards_SOM,February,Bakool,Xudur,SO2501,"14,664","14,664",1
+2025_FSC_Dashboards_SOM,February,Sool,Xudun,SO1404,438,438,1
+2025_FSC_Dashboards_SOM,February,Mudug,Xarardheere,SO1805,"6,096","6,096",1
+2025_FSC_Dashboards_SOM,February,Lower Shabelle,Wanla Weyn,SO2307,"11,184","11,184",2
+2025_FSC_Dashboards_SOM,February,Bakool,Waajid,SO2504,"8,814","8,814",2
+2025_FSC_Dashboards_SOM,February,Togdheer,Sheikh,SO1304,"1,566","1,566",1
+2025_FSC_Dashboards_SOM,February,Bakool,Rab Dhuure,SO2505,"5,232","5,232",1
+2025_FSC_Dashboards_SOM,February,Bari,Qardho,SO1606,"6,618","6,618",1
+2025_FSC_Dashboards_SOM,February,Bay,Qansax Dheere,SO2404,"10,488","10,488",2
+2025_FSC_Dashboards_SOM,February,Bari,Qandala,SO1605,"3,708","3,708",1
+2025_FSC_Dashboards_SOM,February,Togdheer,Owdweyne,SO1303,54,54,1
+2025_FSC_Dashboards_SOM,February,Lower Shabelle,Marka,SO2301,"11,058","11,058",1
+2025_FSC_Dashboards_SOM,February,Gedo,Luuq,SO2606,"15,642","15,642",2
+2025_FSC_Dashboards_SOM,February,Awdal,Lughaye,SO1103,"2,880","2,880",1
+2025_FSC_Dashboards_SOM,February,Sanaag,Laasqoray,SO1503,"22,842","22,842",2
+2025_FSC_Dashboards_SOM,February,Sool,Laas Caanood,SO1401,18,18,1
+2025_FSC_Dashboards_SOM,February,Lower Shabelle,Kurtunwaarey,SO2304,"5,808","5,808",1
+2025_FSC_Dashboards_SOM,February,Lower Juba,Kismaayo,SO2801,"58,014","58,014",4
+2025_FSC_Dashboards_SOM,February,Middle Shabelle,Jowhar,SO2101,"28,386","28,386",3
+2025_FSC_Dashboards_SOM,February,Mudug,Jariiban,SO1804,"8,298","8,298",3
+2025_FSC_Dashboards_SOM,February,Lower Juba,Jamaame,SO2804,"1,638","1,638",1
+2025_FSC_Dashboards_SOM,February,Hiraan,Jalalaqsi,SO2003,"52,974","52,974",2
+2025_FSC_Dashboards_SOM,February,Bari,Iskushuban,SO1604,"8,490","8,490",2
+2025_FSC_Dashboards_SOM,February,Mudug,Hobyo,SO1803,"44,346","44,346",3
+2025_FSC_Dashboards_SOM,February,Woqooyi Galbeed,Hargeysa,SO1201,"44,538","44,538",4
+2025_FSC_Dashboards_SOM,February,Nugaal,Garoowe,SO1701,"6,198","6,198",2
+2025_FSC_Dashboards_SOM,February,Gedo,Garbahaarey,SO2601,"7,608","7,608",1
+2025_FSC_Dashboards_SOM,February,Mudug,Galdogob,SO1802,"5,388","5,388",1
+2025_FSC_Dashboards_SOM,February,Mudug,Gaalkacyo,SO1801,"50,010","50,010",4
+2025_FSC_Dashboards_SOM,February,Nugaal,Eyl,SO1703,"7,338","7,338",2
+2025_FSC_Dashboards_SOM,February,Gedo,Doolow,SO2605,"41,778","41,778",2
+2025_FSC_Dashboards_SOM,February,Bay,Diinsoor,SO2403,"10,848","10,848",1
+2025_FSC_Dashboards_SOM,February,Galgaduud,Dhuusamarreeb,SO1901,"20,964","20,964",2
+2025_FSC_Dashboards_SOM,February,Sanaag,Ceerigaabo,SO1501,"13,494","13,494",3
+2025_FSC_Dashboards_SOM,February,Gedo,Ceel Waaq,SO2604,18,18,1
+2025_FSC_Dashboards_SOM,February,Galgaduud,Ceel Dheer,SO1905,"4,416","4,416",1
+2025_FSC_Dashboards_SOM,February,Bakool,Ceel Barde,SO2502,"5,634","5,634",2
+2025_FSC_Dashboards_SOM,February,Sanaag,Ceel Afweyn,SO1502,"6,300","6,300",1
+2025_FSC_Dashboards_SOM,February,Sool,Caynabo,SO1402,"9,750","9,750",1
+2025_FSC_Dashboards_SOM,February,Bari,Caluula,SO1603,"3,594","3,594",1
+2025_FSC_Dashboards_SOM,February,Middle Shabelle,Cadale,SO2104,"7,794","7,794",3
+2025_FSC_Dashboards_SOM,February,Galgaduud,Cadaado,SO1903,"14,868","14,868",3
+2025_FSC_Dashboards_SOM,February,Galgaduud,Cabudwaaq,SO1902,"18,570","18,570",1
+2025_FSC_Dashboards_SOM,February,Bay,Buur Hakaba,SO2402,"19,302","19,302",1
+2025_FSC_Dashboards_SOM,February,Togdheer,Buuhoodle,SO1302,"6,000","6,000",1
+2025_FSC_Dashboards_SOM,February,Nugaal,Burtinle,SO1702,"4,656","4,656",1
+2025_FSC_Dashboards_SOM,February,Togdheer,Burco,SO1301,"11,502","11,502",2
+2025_FSC_Dashboards_SOM,February,Hiraan,Bulo Burto,SO2002,"28,932","28,932",1
+2025_FSC_Dashboards_SOM,February,Bari,Bossaso,SO1601,"25,146","25,146",2
+2025_FSC_Dashboards_SOM,February,Awdal,Borama,SO1101,"9,060","9,060",1
+2025_FSC_Dashboards_SOM,February,Woqooyi Galbeed,Berbera,SO1202,"1,392","1,392",1
+2025_FSC_Dashboards_SOM,February,Gedo,Belet Xaawo,SO2603,"18,738","18,738",1
+2025_FSC_Dashboards_SOM,February,Hiraan,Belet Weyne,SO2001,"29,070","29,070",1
+2025_FSC_Dashboards_SOM,February,Bay,Baydhaba,SO2401,"110,574","110,574",6
+2025_FSC_Dashboards_SOM,February,Lower Shabelle,Baraawe,SO2303,"2,814","2,814",1
+2025_FSC_Dashboards_SOM,February,Bari,Bandarbeyla,SO1602,"3,420","3,420",1
+2025_FSC_Dashboards_SOM,February,Banadir,Banadir,SO2201,"25,656","25,656",4
+2025_FSC_Dashboards_SOM,February,Middle Shabelle,Balcad,SO2103,"44,094","44,094",1
+2025_FSC_Dashboards_SOM,February,Awdal,Baki,SO1102,"1,038","1,038",1
+2025_FSC_Dashboards_SOM,February,Lower Juba,Badhaadhe,SO2803,"2,130","2,130",1
+2025_FSC_Dashboards_SOM,February,Gedo,Baardheere,SO2602,"30,648","30,648",1
+2025_FSC_Dashboards_SOM,February,Lower Juba,Afmadow,SO2802,"18,426","18,426",1
+2025_FSC_Dashboards_SOM,February,Lower Shabelle,Afgooye,SO2302,"31,578","31,578",3
+2025_FSC_Dashboards_SOM,March,Awdal,Zeylac,SO1104,"2,400","2,400",1
+2025_FSC_Dashboards_SOM,March,Bakool,Xudur,SO2501,"64,440","64,440",2
+2025_FSC_Dashboards_SOM,March,Sool,Xudun,SO1404,324,324,1
+2025_FSC_Dashboards_SOM,March,Mudug,Xarardheere,SO1805,"6,234","6,234",1
+2025_FSC_Dashboards_SOM,March,Lower Shabelle,Wanla Weyn,SO2307,36,36,1
+2025_FSC_Dashboards_SOM,March,Bakool,Waajid,SO2504,"14,970","14,970",3
+2025_FSC_Dashboards_SOM,March,Togdheer,Sheikh,SO1304,"1,314","1,314",1
+2025_FSC_Dashboards_SOM,March,Bakool,Rab Dhuure,SO2505,"5,256","5,256",1
+2025_FSC_Dashboards_SOM,March,Lower Shabelle,Qoryooley,SO2305,138,138,1
+2025_FSC_Dashboards_SOM,March,Bari,Qardho,SO1606,"9,558","9,558",3
+2025_FSC_Dashboards_SOM,March,Bay,Qansax Dheere,SO2404,"16,482","16,482",3
+2025_FSC_Dashboards_SOM,March,Bari,Qandala,SO1605,"4,518","4,518",2
+2025_FSC_Dashboards_SOM,March,Togdheer,Owdweyne,SO1303,12,12,1
+2025_FSC_Dashboards_SOM,March,Lower Shabelle,Marka,SO2301,"12,360","12,360",2
+2025_FSC_Dashboards_SOM,March,Gedo,Luuq,SO2606,"16,236","16,236",2
+2025_FSC_Dashboards_SOM,March,Awdal,Lughaye,SO1103,"1,548","1,548",1
+2025_FSC_Dashboards_SOM,March,Sanaag,Laasqoray,SO1503,"14,820","14,820",4
+2025_FSC_Dashboards_SOM,March,Sool,Laas Caanood,SO1401,"1,500","1,500",1
+2025_FSC_Dashboards_SOM,March,Lower Shabelle,Kurtunwaarey,SO2304,"5,808","5,808",1
+2025_FSC_Dashboards_SOM,March,Lower Juba,Kismaayo,SO2801,"61,908","61,908",2
+2025_FSC_Dashboards_SOM,March,Middle Shabelle,Jowhar,SO2101,"15,984","15,984",1
+2025_FSC_Dashboards_SOM,March,Mudug,Jariiban,SO1804,"8,844","8,844",3
+2025_FSC_Dashboards_SOM,March,Lower Juba,Jamaame,SO2804,"2,202","2,202",1
+2025_FSC_Dashboards_SOM,March,Hiraan,Jalalaqsi,SO2003,"50,220","50,220",1
+2025_FSC_Dashboards_SOM,March,Bari,Iskushuban,SO1604,"6,630","6,630",2
+2025_FSC_Dashboards_SOM,March,Mudug,Hobyo,SO1803,"36,396","36,396",4
+2025_FSC_Dashboards_SOM,March,Woqooyi Galbeed,Hargeysa,SO1201,"53,526","53,526",5
+2025_FSC_Dashboards_SOM,March,Nugaal,Garoowe,SO1701,"8,700","8,700",2
+2025_FSC_Dashboards_SOM,March,Gedo,Garbahaarey,SO2601,"7,140","7,140",1
+2025_FSC_Dashboards_SOM,March,Mudug,Galdogob,SO1802,"7,998","7,998",2
+2025_FSC_Dashboards_SOM,March,Mudug,Gaalkacyo,SO1801,"57,162","57,162",5
+2025_FSC_Dashboards_SOM,March,Nugaal,Eyl,SO1703,"4,818","4,818",1
+2025_FSC_Dashboards_SOM,March,Gedo,Doolow,SO2605,"22,158","22,158",2
+2025_FSC_Dashboards_SOM,March,Bay,Diinsoor,SO2403,"12,288","12,288",1
+2025_FSC_Dashboards_SOM,March,Galgaduud,Dhuusamarreeb,SO1901,"51,582","51,582",6
+2025_FSC_Dashboards_SOM,March,Sanaag,Ceerigaabo,SO1501,"7,980","7,980",2
+2025_FSC_Dashboards_SOM,March,Gedo,Ceel Waaq,SO2604,48,48,1
+2025_FSC_Dashboards_SOM,March,Galgaduud,Ceel Dheer,SO1905,"4,416","4,416",1
+2025_FSC_Dashboards_SOM,March,Galgaduud,Ceel Buur,SO1904,"1,140","1,140",1
+2025_FSC_Dashboards_SOM,March,Bakool,Ceel Barde,SO2502,"8,388","8,388",2
+2025_FSC_Dashboards_SOM,March,Sanaag,Ceel Afweyn,SO1502,"3,414","3,414",1
+2025_FSC_Dashboards_SOM,March,Sool,Caynabo,SO1402,"9,996","9,996",2
+2025_FSC_Dashboards_SOM,March,Bari,Caluula,SO1603,"3,594","3,594",1
+2025_FSC_Dashboards_SOM,March,Middle Shabelle,Cadale,SO2104,"4,386","4,386",2
+2025_FSC_Dashboards_SOM,March,Galgaduud,Cadaado,SO1903,"17,616","17,616",2
+2025_FSC_Dashboards_SOM,March,Galgaduud,Cabudwaaq,SO1902,"19,878","19,878",2
+2025_FSC_Dashboards_SOM,March,Bay,Buur Hakaba,SO2402,"20,634","20,634",1
+2025_FSC_Dashboards_SOM,March,Nugaal,Burtinle,SO1702,"4,656","4,656",1
+2025_FSC_Dashboards_SOM,March,Togdheer,Burco,SO1301,"12,234","12,234",4
+2025_FSC_Dashboards_SOM,March,Hiraan,Bulo Burto,SO2002,"22,224","22,224",1
+2025_FSC_Dashboards_SOM,March,Bari,Bossaso,SO1601,"14,844","14,844",4
+2025_FSC_Dashboards_SOM,March,Awdal,Borama,SO1101,"11,460","11,460",2
+2025_FSC_Dashboards_SOM,March,Woqooyi Galbeed,Berbera,SO1202,"1,092","1,092",1
+2025_FSC_Dashboards_SOM,March,Gedo,Belet Xaawo,SO2603,"21,372","21,372",2
+2025_FSC_Dashboards_SOM,March,Hiraan,Belet Weyne,SO2001,"35,142","35,142",5
+2025_FSC_Dashboards_SOM,March,Bay,Baydhaba,SO2401,"23,448","23,448",3
+2025_FSC_Dashboards_SOM,March,Lower Shabelle,Baraawe,SO2303,"7,800","7,800",1
+2025_FSC_Dashboards_SOM,March,Bari,Bandarbeyla,SO1602,"3,084","3,084",1
+2025_FSC_Dashboards_SOM,March,Banadir,Banadir,SO2201,"55,698","55,698",6
+2025_FSC_Dashboards_SOM,March,Middle Shabelle,Balcad,SO2103,"44,346","44,346",2
+2025_FSC_Dashboards_SOM,March,Awdal,Baki,SO1102,690,690,1
+2025_FSC_Dashboards_SOM,March,Lower Juba,Badhaadhe,SO2803,"9,492","9,492",1
+2025_FSC_Dashboards_SOM,March,Gedo,Baardheere,SO2602,"41,178","41,178",1
+2025_FSC_Dashboards_SOM,March,Lower Juba,Afmadow,SO2802,"26,988","26,988",1
+2025_FSC_Dashboards_SOM,March,Lower Shabelle,Afgooye,SO2302,"18,048","18,048",2
+2025_FSC_Dashboards_SOM,April,Bakool,Xudur,SO2501,"63,582","63,582",4
+2025_FSC_Dashboards_SOM,April,Mudug,Xarardheere,SO1805,"4,608","4,608",1
+2025_FSC_Dashboards_SOM,April,Lower Shabelle,Wanla Weyn,SO2307,102,102,2
+2025_FSC_Dashboards_SOM,April,Bakool,Waajid,SO2504,"12,720","12,720",3
+2025_FSC_Dashboards_SOM,April,Bakool,Tayeeglow,SO2503,"2,400","2,400",1
+2025_FSC_Dashboards_SOM,April,Bakool,Rab Dhuure,SO2505,"3,882","3,882",1
+2025_FSC_Dashboards_SOM,April,Bari,Qardho,SO1606,"6,558","6,558",1
+2025_FSC_Dashboards_SOM,April,Bay,Qansax Dheere,SO2404,"18,300","18,300",2
+2025_FSC_Dashboards_SOM,April,Bari,Qandala,SO1605,"1,890","1,890",1
+2025_FSC_Dashboards_SOM,April,Togdheer,Owdweyne,SO1303,"7,428","7,428",1
+2025_FSC_Dashboards_SOM,April,Lower Shabelle,Marka,SO2301,"5,250","5,250",2
+2025_FSC_Dashboards_SOM,April,Gedo,Luuq,SO2606,"28,662","28,662",1
+2025_FSC_Dashboards_SOM,April,Lower Shabelle,Kurtunwaarey,SO2304,"4,080","4,080",1
+2025_FSC_Dashboards_SOM,April,Lower Juba,Kismaayo,SO2801,"55,176","55,176",4
+2025_FSC_Dashboards_SOM,April,Middle Shabelle,Jowhar,SO2101,"17,580","17,580",2
+2025_FSC_Dashboards_SOM,April,Mudug,Jariiban,SO1804,"11,028","11,028",2
+2025_FSC_Dashboards_SOM,April,Lower Juba,Jamaame,SO2804,"10,710","10,710",2
+2025_FSC_Dashboards_SOM,April,Hiraan,Jalalaqsi,SO2003,"13,662","13,662",1
+2025_FSC_Dashboards_SOM,April,Bari,Iskushuban,SO1604,"5,640","5,640",1
+2025_FSC_Dashboards_SOM,April,Mudug,Hobyo,SO1803,"18,420","18,420",3
+2025_FSC_Dashboards_SOM,April,Woqooyi Galbeed,Hargeysa,SO1201,"2,778","2,778",2
+2025_FSC_Dashboards_SOM,April,Woqooyi Galbeed,Gebiley,SO1203,6,6,1
+2025_FSC_Dashboards_SOM,April,Nugaal,Garoowe,SO1701,438,438,2
+2025_FSC_Dashboards_SOM,April,Gedo,Garbahaarey,SO2601,"3,624","3,624",1
+2025_FSC_Dashboards_SOM,April,Mudug,Galdogob,SO1802,"4,764","4,764",1
+2025_FSC_Dashboards_SOM,April,Mudug,Gaalkacyo,SO1801,"40,272","40,272",4
+2025_FSC_Dashboards_SOM,April,Gedo,Doolow,SO2605,"18,402","18,402",2
+2025_FSC_Dashboards_SOM,April,Bay,Diinsoor,SO2403,"6,078","6,078",1
+2025_FSC_Dashboards_SOM,April,Galgaduud,Dhuusamarreeb,SO1901,"49,788","49,788",4
+2025_FSC_Dashboards_SOM,April,Sanaag,Ceerigaabo,SO1501,"4,398","4,398",1
+2025_FSC_Dashboards_SOM,April,Gedo,Ceel Waaq,SO2604,36,36,1
+2025_FSC_Dashboards_SOM,April,Galgaduud,Ceel Buur,SO1904,684,684,1
+2025_FSC_Dashboards_SOM,April,Bakool,Ceel Barde,SO2502,"6,078","6,078",1
+2025_FSC_Dashboards_SOM,April,Galgaduud,Cadaado,SO1903,"12,516","12,516",2
+2025_FSC_Dashboards_SOM,April,Galgaduud,Cabudwaaq,SO1902,"9,636","9,636",2
+2025_FSC_Dashboards_SOM,April,Bay,Buur Hakaba,SO2402,"13,614","13,614",1
+2025_FSC_Dashboards_SOM,April,Nugaal,Burtinle,SO1702,390,390,1
+2025_FSC_Dashboards_SOM,April,Hiraan,Bulo Burto,SO2002,"7,272","7,272",1
+2025_FSC_Dashboards_SOM,April,Bari,Bossaso,SO1601,"16,374","16,374",1
+2025_FSC_Dashboards_SOM,April,Gedo,Belet Xaawo,SO2603,"15,570","15,570",1
+2025_FSC_Dashboards_SOM,April,Hiraan,Belet Weyne,SO2001,"30,048","30,048",2
+2025_FSC_Dashboards_SOM,April,Bay,Baydhaba,SO2401,"101,370","101,370",5
+2025_FSC_Dashboards_SOM,April,Lower Shabelle,Baraawe,SO2303,"4,554","4,554",2
+2025_FSC_Dashboards_SOM,April,Banadir,Banadir,SO2201,"25,710","25,710",3
+2025_FSC_Dashboards_SOM,April,Middle Shabelle,Balcad,SO2103,"22,950","22,950",3
+2025_FSC_Dashboards_SOM,April,Lower Juba,Badhaadhe,SO2803,102,102,1
+2025_FSC_Dashboards_SOM,April,Gedo,Baardheere,SO2602,"18,720","18,720",2
+2025_FSC_Dashboards_SOM,April,Lower Juba,Afmadow,SO2802,"26,088","26,088",2
+2025_FSC_Dashboards_SOM,April,Lower Shabelle,Afgooye,SO2302,"24,006","24,006",3
+2025_FSC_Dashboards_SOM,May,Bakool,Xudur,SO2501,"56,964","56,964",3
+2025_FSC_Dashboards_SOM,May,Mudug,Xarardheere,SO1805,"6,312","6,312",1
+2025_FSC_Dashboards_SOM,May,Lower Shabelle,Wanla Weyn,SO2307,"4,572","4,572",1
+2025_FSC_Dashboards_SOM,May,Bakool,Waajid,SO2504,"20,658","20,658",5
+2025_FSC_Dashboards_SOM,May,Bakool,Tayeeglow,SO2503,"2,400","2,400",1
+2025_FSC_Dashboards_SOM,May,Bakool,Rab Dhuure,SO2505,"3,900","3,900",1
+2025_FSC_Dashboards_SOM,May,Bari,Qardho,SO1606,"5,598","5,598",1
+2025_FSC_Dashboards_SOM,May,Bay,Qansax Dheere,SO2404,"12,312","12,312",3
+2025_FSC_Dashboards_SOM,May,Bari,Qandala,SO1605,"9,330","9,330",2
+2025_FSC_Dashboards_SOM,May,Togdheer,Owdweyne,SO1303,"20,280","20,280",2
+2025_FSC_Dashboards_SOM,May,Lower Shabelle,Marka,SO2301,"5,250","5,250",2
+2025_FSC_Dashboards_SOM,May,Gedo,Luuq,SO2606,"39,690","39,690",1
+2025_FSC_Dashboards_SOM,May,Sool,Laas Caanood,SO1401,"15,762","15,762",1
+2025_FSC_Dashboards_SOM,May,Lower Shabelle,Kurtunwaarey,SO2304,"4,044","4,044",1
+2025_FSC_Dashboards_SOM,May,Lower Juba,Kismaayo,SO2801,"27,180","27,180",4
+2025_FSC_Dashboards_SOM,May,Middle Shabelle,Jowhar,SO2101,"11,874","11,874",1
+2025_FSC_Dashboards_SOM,May,Mudug,Jariiban,SO1804,"7,224","7,224",2
+2025_FSC_Dashboards_SOM,May,Lower Juba,Jamaame,SO2804,840,840,1
+2025_FSC_Dashboards_SOM,May,Hiraan,Jalalaqsi,SO2003,"6,042","6,042",1
+2025_FSC_Dashboards_SOM,May,Bari,Iskushuban,SO1604,"7,488","7,488",1
+2025_FSC_Dashboards_SOM,May,Mudug,Hobyo,SO1803,"19,620","19,620",2
+2025_FSC_Dashboards_SOM,May,Woqooyi Galbeed,Hargeysa,SO1201,"34,860","34,860",2
+2025_FSC_Dashboards_SOM,May,Nugaal,Garoowe,SO1701,"3,960","3,960",1
+2025_FSC_Dashboards_SOM,May,Gedo,Garbahaarey,SO2601,"7,812","7,812",2
+2025_FSC_Dashboards_SOM,May,Mudug,Galdogob,SO1802,"10,014","10,014",2
+2025_FSC_Dashboards_SOM,May,Mudug,Gaalkacyo,SO1801,"48,510","48,510",2
+2025_FSC_Dashboards_SOM,May,Gedo,Doolow,SO2605,"40,800","40,800",1
+2025_FSC_Dashboards_SOM,May,Bay,Diinsoor,SO2403,"10,122","10,122",3
+2025_FSC_Dashboards_SOM,May,Galgaduud,Dhuusamarreeb,SO1901,"61,242","61,242",5
+2025_FSC_Dashboards_SOM,May,Sanaag,Ceerigaabo,SO1501,"11,106","11,106",2
+2025_FSC_Dashboards_SOM,May,Bakool,Ceel Barde,SO2502,"2,118","2,118",1
+2025_FSC_Dashboards_SOM,May,Sanaag,Ceel Afweyn,SO1502,"1,050","1,050",1
+2025_FSC_Dashboards_SOM,May,Sool,Caynabo,SO1402,"2,700","2,700",1
+2025_FSC_Dashboards_SOM,May,Galgaduud,Cadaado,SO1903,"15,516","15,516",1
+2025_FSC_Dashboards_SOM,May,Galgaduud,Cabudwaaq,SO1902,"21,306","21,306",2
+2025_FSC_Dashboards_SOM,May,Bay,Buur Hakaba,SO2402,"10,902","10,902",1
+2025_FSC_Dashboards_SOM,May,Togdheer,Burco,SO1301,"13,770","13,770",1
+2025_FSC_Dashboards_SOM,May,Hiraan,Bulo Burto,SO2002,"13,686","13,686",1
+2025_FSC_Dashboards_SOM,May,Bari,Bossaso,SO1601,"32,022","32,022",1
+2025_FSC_Dashboards_SOM,May,Gedo,Belet Xaawo,SO2603,"8,556","8,556",1
+2025_FSC_Dashboards_SOM,May,Hiraan,Belet Weyne,SO2001,"21,246","21,246",2
+2025_FSC_Dashboards_SOM,May,Bay,Baydhaba,SO2401,"138,276","138,276",4
+2025_FSC_Dashboards_SOM,May,Lower Shabelle,Baraawe,SO2303,"7,380","7,380",2
+2025_FSC_Dashboards_SOM,May,Bari,Bandarbeyla,SO1602,600,600,1
+2025_FSC_Dashboards_SOM,May,Banadir,Banadir,SO2201,"32,400","32,400",1
+2025_FSC_Dashboards_SOM,May,Middle Shabelle,Balcad,SO2103,"32,070","32,070",2
+2025_FSC_Dashboards_SOM,May,Lower Juba,Badhaadhe,SO2803,"2,424","2,424",1
+2025_FSC_Dashboards_SOM,May,Gedo,Baardheere,SO2602,"12,162","12,162",1
+2025_FSC_Dashboards_SOM,May,Lower Juba,Afmadow,SO2802,"25,344","25,344",3
+2025_FSC_Dashboards_SOM,May,Lower Shabelle,Afgooye,SO2302,"19,632","19,632",2
+2025_FSC_Dashboards_SOM,June,Awdal,Zeylac,SO1104,"2,112","2,112",1
+2025_FSC_Dashboards_SOM,June,Mudug,Xarardheere,SO1805,"5,436","5,436",1
+2025_FSC_Dashboards_SOM,June,Lower Shabelle,Wanla Weyn,SO2307,"4,572","4,572",1
+2025_FSC_Dashboards_SOM,June,Bakool,Waajid,SO2504,"15,636","15,636",1
+2025_FSC_Dashboards_SOM,June,Bakool,Rab Dhuure,SO2505,"3,906","3,906",1
+2025_FSC_Dashboards_SOM,June,Bari,Qardho,SO1606,"6,846","6,846",1
+2025_FSC_Dashboards_SOM,June,Bay,Qansax Dheere,SO2404,"7,050","7,050",1
+2025_FSC_Dashboards_SOM,June,Bari,Qandala,SO1605,"5,502","5,502",1
+2025_FSC_Dashboards_SOM,June,Togdheer,Owdweyne,SO1303,"11,106","11,106",1
+2025_FSC_Dashboards_SOM,June,Gedo,Luuq,SO2606,"28,590","28,590",1
+2025_FSC_Dashboards_SOM,June,Awdal,Lughaye,SO1103,756,756,1
+2025_FSC_Dashboards_SOM,June,Sanaag,Laasqoray,SO1503,"5,196","5,196",2
+2025_FSC_Dashboards_SOM,June,Sool,Laas Caanood,SO1401,"15,708","15,708",1
+2025_FSC_Dashboards_SOM,June,Lower Shabelle,Kurtunwaarey,SO2304,"4,044","4,044",1
+2025_FSC_Dashboards_SOM,June,Lower Juba,Kismaayo,SO2801,"30,360","30,360",3
+2025_FSC_Dashboards_SOM,June,Middle Shabelle,Jowhar,SO2101,"13,968","13,968",2
+2025_FSC_Dashboards_SOM,June,Mudug,Jariiban,SO1804,"7,590","7,590",2
+2025_FSC_Dashboards_SOM,June,Lower Juba,Jamaame,SO2804,"1,314","1,314",1
+2025_FSC_Dashboards_SOM,June,Hiraan,Jalalaqsi,SO2003,"9,912","9,912",1
+2025_FSC_Dashboards_SOM,June,Bari,Iskushuban,SO1604,"2,502","2,502",1
+2025_FSC_Dashboards_SOM,June,Mudug,Hobyo,SO1803,"9,660","9,660",1
+2025_FSC_Dashboards_SOM,June,Woqooyi Galbeed,Hargeysa,SO1201,"46,122","46,122",2
+2025_FSC_Dashboards_SOM,June,Nugaal,Garoowe,SO1701,"3,960","3,960",1
+2025_FSC_Dashboards_SOM,June,Gedo,Garbahaarey,SO2601,"12,582","12,582",1
+2025_FSC_Dashboards_SOM,June,Mudug,Galdogob,SO1802,"10,008","10,008",2
+2025_FSC_Dashboards_SOM,June,Mudug,Gaalkacyo,SO1801,"50,490","50,490",2
+2025_FSC_Dashboards_SOM,June,Gedo,Doolow,SO2605,"35,736","35,736",1
+2025_FSC_Dashboards_SOM,June,Bay,Diinsoor,SO2403,"15,570","15,570",1
+2025_FSC_Dashboards_SOM,June,Galgaduud,Dhuusamarreeb,SO1901,"32,598","32,598",3
+2025_FSC_Dashboards_SOM,June,Sanaag,Ceerigaabo,SO1501,"16,368","16,368",2
+2025_FSC_Dashboards_SOM,June,Bakool,Ceel Barde,SO2502,"2,226","2,226",1
+2025_FSC_Dashboards_SOM,June,Sool,Caynabo,SO1402,"2,700","2,700",1
+2025_FSC_Dashboards_SOM,June,Galgaduud,Cadaado,SO1903,"20,442","20,442",1
+2025_FSC_Dashboards_SOM,June,Galgaduud,Cabudwaaq,SO1902,"22,272","22,272",2
+2025_FSC_Dashboards_SOM,June,Bay,Buur Hakaba,SO2402,"10,914","10,914",1
+2025_FSC_Dashboards_SOM,June,Togdheer,Buuhoodle,SO1302,540,540,1
+2025_FSC_Dashboards_SOM,June,Togdheer,Burco,SO1301,"5,742","5,742",2
+2025_FSC_Dashboards_SOM,June,Hiraan,Bulo Burto,SO2002,"19,518","19,518",2
+2025_FSC_Dashboards_SOM,June,Bari,Bossaso,SO1601,"39,012","39,012",2
+2025_FSC_Dashboards_SOM,June,Gedo,Belet Xaawo,SO2603,"21,168","21,168",1
+2025_FSC_Dashboards_SOM,June,Hiraan,Belet Weyne,SO2001,"32,262","32,262",1
+2025_FSC_Dashboards_SOM,June,Bay,Baydhaba,SO2401,"120,282","120,282",3
+2025_FSC_Dashboards_SOM,June,Lower Shabelle,Baraawe,SO2303,"5,280","5,280",1
+2025_FSC_Dashboards_SOM,June,Banadir,Banadir,SO2201,"54,774","54,774",3
+2025_FSC_Dashboards_SOM,June,Middle Shabelle,Balcad,SO2103,"17,736","17,736",1
+2025_FSC_Dashboards_SOM,June,Gedo,Baardheere,SO2602,"22,848","22,848",1
+2025_FSC_Dashboards_SOM,June,Lower Juba,Afmadow,SO2802,"26,826","26,826",3
+2025_FSC_Dashboards_SOM,June,Lower Shabelle,Afgooye,SO2302,"15,960","15,960",1
+2025_FSC_Dashboards_SOM,July,Awdal,Zeylac,SO1104,"6,498","6,498",1
+2025_FSC_Dashboards_SOM,July,Mudug,Xarardheere,SO1805,"8,412","8,412",1
+2025_FSC_Dashboards_SOM,July,Lower Shabelle,Wanla Weyn,SO2307,"4,572","4,572",1
+2025_FSC_Dashboards_SOM,July,Bakool,Waajid,SO2504,"15,594","15,594",1
+2025_FSC_Dashboards_SOM,July,Bakool,Rab Dhuure,SO2505,"3,906","3,906",1
+2025_FSC_Dashboards_SOM,July,Bari,Qardho,SO1606,"11,538","11,538",1
+2025_FSC_Dashboards_SOM,July,Bay,Qansax Dheere,SO2404,"7,050","7,050",1
+2025_FSC_Dashboards_SOM,July,Bari,Qandala,SO1605,"7,764","7,764",1
+2025_FSC_Dashboards_SOM,July,Togdheer,Owdweyne,SO1303,"11,094","11,094",1
+2025_FSC_Dashboards_SOM,July,Gedo,Luuq,SO2606,"36,252","36,252",1
+2025_FSC_Dashboards_SOM,July,Awdal,Lughaye,SO1103,"7,800","7,800",1
+2025_FSC_Dashboards_SOM,July,Sanaag,Laasqoray,SO1503,"6,666","6,666",3
+2025_FSC_Dashboards_SOM,July,Sool,Laas Caanood,SO1401,"47,804","47,804",1
+2025_FSC_Dashboards_SOM,July,Lower Shabelle,Kurtunwaarey,SO2304,"4,044","4,044",1
+2025_FSC_Dashboards_SOM,July,Lower Juba,Kismaayo,SO2801,"19,392","19,392",1
+2025_FSC_Dashboards_SOM,July,Middle Shabelle,Jowhar,SO2101,"19,200","19,200",2
+2025_FSC_Dashboards_SOM,July,Mudug,Jariiban,SO1804,"6,524","6,524",2
+2025_FSC_Dashboards_SOM,July,Lower Juba,Jamaame,SO2804,858,858,1
+2025_FSC_Dashboards_SOM,July,Hiraan,Jalalaqsi,SO2003,"12,000","12,000",1
+2025_FSC_Dashboards_SOM,July,Bari,Iskushuban,SO1604,"8,436","8,436",1
+2025_FSC_Dashboards_SOM,July,Mudug,Hobyo,SO1803,"15,282","15,282",2
+2025_FSC_Dashboards_SOM,July,Woqooyi Galbeed,Hargeysa,SO1201,"51,600","51,600",2
+2025_FSC_Dashboards_SOM,July,Nugaal,Garoowe,SO1701,"10,098","10,098",1
+2025_FSC_Dashboards_SOM,July,Gedo,Garbahaarey,SO2601,"12,582","12,582",1
+2025_FSC_Dashboards_SOM,July,Mudug,Galdogob,SO1802,"11,304","11,304",2
+2025_FSC_Dashboards_SOM,July,Mudug,Gaalkacyo,SO1801,"63,714","63,714",2
+2025_FSC_Dashboards_SOM,July,Gedo,Doolow,SO2605,"42,660","42,660",1
+2025_FSC_Dashboards_SOM,July,Bay,Diinsoor,SO2403,"15,570","15,570",1
+2025_FSC_Dashboards_SOM,July,Galgaduud,Dhuusamarreeb,SO1901,"45,402","45,402",3
+2025_FSC_Dashboards_SOM,July,Sanaag,Ceerigaabo,SO1501,"18,930","18,930",2
+2025_FSC_Dashboards_SOM,July,Bakool,Ceel Barde,SO2502,"2,220","2,220",1
+2025_FSC_Dashboards_SOM,July,Galgaduud,Cadaado,SO1903,"24,126","24,126",2
+2025_FSC_Dashboards_SOM,July,Galgaduud,Cabudwaaq,SO1902,"31,884","31,884",3
+2025_FSC_Dashboards_SOM,July,Bay,Buur Hakaba,SO2402,"10,932","10,932",1
+2025_FSC_Dashboards_SOM,July,Nugaal,Burtinle,SO1702,6,6,1
+2025_FSC_Dashboards_SOM,July,Togdheer,Burco,SO1301,"5,022","5,022",1
+2025_FSC_Dashboards_SOM,July,Hiraan,Bulo Burto,SO2002,"9,690","9,690",1
+2025_FSC_Dashboards_SOM,July,Bari,Bossaso,SO1601,"49,500","49,500",1
+2025_FSC_Dashboards_SOM,July,Gedo,Belet Xaawo,SO2603,"21,732","21,732",1
+2025_FSC_Dashboards_SOM,July,Hiraan,Belet Weyne,SO2001,"45,966","45,966",1
+2025_FSC_Dashboards_SOM,July,Bay,Baydhaba,SO2401,"112,914","112,914",3
+2025_FSC_Dashboards_SOM,July,Lower Shabelle,Baraawe,SO2303,"5,280","5,280",1
+2025_FSC_Dashboards_SOM,July,Banadir,Banadir,SO2201,"32,436","32,436",2
+2025_FSC_Dashboards_SOM,July,Middle Shabelle,Balcad,SO2103,"18,186","18,186",1
+2025_FSC_Dashboards_SOM,July,Gedo,Baardheere,SO2602,"22,542","22,542",1
+2025_FSC_Dashboards_SOM,July,Lower Juba,Afmadow,SO2802,"22,128","22,128",1
+2025_FSC_Dashboards_SOM,July,Lower Shabelle,Afgooye,SO2302,"15,954","15,954",1
+2025_FSC_Dashboards_SOM,August,Awdal,Zeylac,SO1104,"3,954","3,954",2
+2025_FSC_Dashboards_SOM,August,Bakool,Xudur,SO2501,"7,500","7,500",1
+2025_FSC_Dashboards_SOM,August,Sool,Xudun,SO1404,"1,200","1,200",1
+2025_FSC_Dashboards_SOM,August,Mudug,Xarardheere,SO1805,"8,040","8,040",1
+2025_FSC_Dashboards_SOM,August,Lower Shabelle,Wanla Weyn,SO2307,"9,972","9,972",1
+2025_FSC_Dashboards_SOM,August,Bakool,Waajid,SO2504,"22,368","22,368",1
+2025_FSC_Dashboards_SOM,August,Sool,Taleex,SO1403,"2,490","2,490",2
+2025_FSC_Dashboards_SOM,August,Bakool,Rab Dhuure,SO2505,"8,382","8,382",1
+2025_FSC_Dashboards_SOM,August,Lower Shabelle,Qoryooley,SO2305,"3,396","3,396",1
+2025_FSC_Dashboards_SOM,August,Bari,Qardho,SO1606,"16,764","16,764",1
+2025_FSC_Dashboards_SOM,August,Bay,Qansax Dheere,SO2404,"17,862","17,862",1
+2025_FSC_Dashboards_SOM,August,Bari,Qandala,SO1605,"8,220","8,220",1
+2025_FSC_Dashboards_SOM,August,Togdheer,Owdweyne,SO1303,"1,668","1,668",1
+2025_FSC_Dashboards_SOM,August,Lower Shabelle,Marka,SO2301,"3,366","3,366",1
+2025_FSC_Dashboards_SOM,August,Gedo,Luuq,SO2606,"26,226","26,226",1
+2025_FSC_Dashboards_SOM,August,Awdal,Lughaye,SO1103,"5,400","5,400",2
+2025_FSC_Dashboards_SOM,August,Sanaag,Laasqoray,SO1503,"10,284","10,284",3
+2025_FSC_Dashboards_SOM,August,Sool,Laas Caanood,SO1401,"27,126","27,126",1
+2025_FSC_Dashboards_SOM,August,Lower Shabelle,Kurtunwaarey,SO2304,"4,044","4,044",1
+2025_FSC_Dashboards_SOM,August,Lower Juba,Kismaayo,SO2801,"74,358","74,358",2
+2025_FSC_Dashboards_SOM,August,Middle Shabelle,Jowhar,SO2101,"27,510","27,510",1
+2025_FSC_Dashboards_SOM,August,Mudug,Jariiban,SO1804,"8,802","8,802",2
+2025_FSC_Dashboards_SOM,August,Lower Juba,Jamaame,SO2804,"5,940","5,940",1
+2025_FSC_Dashboards_SOM,August,Hiraan,Jalalaqsi,SO2003,"11,220","11,220",1
+2025_FSC_Dashboards_SOM,August,Bari,Iskushuban,SO1604,"11,448","11,448",1
+2025_FSC_Dashboards_SOM,August,Mudug,Hobyo,SO1803,"15,348","15,348",2
+2025_FSC_Dashboards_SOM,August,Woqooyi Galbeed,Hargeysa,SO1201,"50,526","50,526",3
+2025_FSC_Dashboards_SOM,August,Woqooyi Galbeed,Gebiley,SO1203,600,600,1
+2025_FSC_Dashboards_SOM,August,Nugaal,Garoowe,SO1701,"13,242","13,242",1
+2025_FSC_Dashboards_SOM,August,Gedo,Garbahaarey,SO2601,"24,018","24,018",1
+2025_FSC_Dashboards_SOM,August,Mudug,Galdogob,SO1802,"13,392","13,392",2
+2025_FSC_Dashboards_SOM,August,Mudug,Gaalkacyo,SO1801,"72,936","72,936",3
+2025_FSC_Dashboards_SOM,August,Gedo,Doolow,SO2605,"63,738","63,738",1
+2025_FSC_Dashboards_SOM,August,Bay,Diinsoor,SO2403,"33,696","33,696",1
+2025_FSC_Dashboards_SOM,August,Galgaduud,Dhuusamarreeb,SO1901,"45,954","45,954",2
+2025_FSC_Dashboards_SOM,August,Sanaag,Ceerigaabo,SO1501,"22,590","22,590",2
+2025_FSC_Dashboards_SOM,August,Galgaduud,Ceel Buur,SO1904,18,18,1
+2025_FSC_Dashboards_SOM,August,Bakool,Ceel Barde,SO2502,"12,204","12,204",1
+2025_FSC_Dashboards_SOM,August,Galgaduud,Cadaado,SO1903,"24,540","24,540",2
+2025_FSC_Dashboards_SOM,August,Galgaduud,Cabudwaaq,SO1902,"38,982","38,982",4
+2025_FSC_Dashboards_SOM,August,Bay,Buur Hakaba,SO2402,"31,248","31,248",1
+2025_FSC_Dashboards_SOM,August,Togdheer,Burco,SO1301,720,720,1
+2025_FSC_Dashboards_SOM,August,Hiraan,Bulo Burto,SO2002,"20,136","20,136",1
+2025_FSC_Dashboards_SOM,August,Bari,Bossaso,SO1601,"50,604","50,604",1
+2025_FSC_Dashboards_SOM,August,Gedo,Belet Xaawo,SO2603,"35,346","35,346",1
+2025_FSC_Dashboards_SOM,August,Hiraan,Belet Weyne,SO2001,"48,684","48,684",1
+2025_FSC_Dashboards_SOM,August,Bay,Baydhaba,SO2401,"164,730","164,730",3
+2025_FSC_Dashboards_SOM,August,Lower Shabelle,Baraawe,SO2303,"11,892","11,892",1
+2025_FSC_Dashboards_SOM,August,Banadir,Banadir,SO2201,"34,536","34,536",1
+2025_FSC_Dashboards_SOM,August,Middle Shabelle,Balcad,SO2103,"30,768","30,768",1
+2025_FSC_Dashboards_SOM,August,Gedo,Baardheere,SO2602,"54,696","54,696",1
+2025_FSC_Dashboards_SOM,August,Lower Juba,Afmadow,SO2802,"28,554","28,554",1
+2025_FSC_Dashboards_SOM,August,Lower Shabelle,Afgooye,SO2302,"20,610","20,610",1
+2025_FSC_Dashboards_SOM,September,Awdal,Zeylac,SO1104,"17,298","17,298",2
+2025_FSC_Dashboards_SOM,September,Bakool,Xudur,SO2501,"9,186","9,186",1
+2025_FSC_Dashboards_SOM,September,Sool,Xudun,SO1404,"1,200","1,200",1
+2025_FSC_Dashboards_SOM,September,Mudug,Xarardheere,SO1805,"3,030","3,030",1
+2025_FSC_Dashboards_SOM,September,Lower Shabelle,Wanla Weyn,SO2307,"17,604","17,604",1
+2025_FSC_Dashboards_SOM,September,Bakool,Waajid,SO2504,"16,704","16,704",1
+2025_FSC_Dashboards_SOM,September,Sool,Taleex,SO1403,"1,620","1,620",1
+2025_FSC_Dashboards_SOM,September,Bakool,Rab Dhuure,SO2505,"6,474","6,474",1
+2025_FSC_Dashboards_SOM,September,Lower Shabelle,Qoryooley,SO2305,"3,396","3,396",1
+2025_FSC_Dashboards_SOM,September,Bari,Qardho,SO1606,48,48,1
+2025_FSC_Dashboards_SOM,September,Bay,Qansax Dheere,SO2404,"15,696","15,696",1
+2025_FSC_Dashboards_SOM,September,Bari,Qandala,SO1605,"7,896","7,896",2
+2025_FSC_Dashboards_SOM,September,Lower Shabelle,Marka,SO2301,"6,954","6,954",1
+2025_FSC_Dashboards_SOM,September,Gedo,Luuq,SO2606,"10,668","10,668",1
+2025_FSC_Dashboards_SOM,September,Awdal,Lughaye,SO1103,"34,440","34,440",2
+2025_FSC_Dashboards_SOM,September,Sanaag,Laasqoray,SO1503,"11,556","11,556",3
+2025_FSC_Dashboards_SOM,September,Sool,Laas Caanood,SO1401,"22,782","22,782",1
+2025_FSC_Dashboards_SOM,September,Lower Juba,Kismaayo,SO2801,"53,196","53,196",2
+2025_FSC_Dashboards_SOM,September,Middle Shabelle,Jowhar,SO2101,"20,268","20,268",1
+2025_FSC_Dashboards_SOM,September,Mudug,Jariiban,SO1804,"15,012","15,012",2
+2025_FSC_Dashboards_SOM,September,Lower Juba,Jamaame,SO2804,"6,054","6,054",1
+2025_FSC_Dashboards_SOM,September,Hiraan,Jalalaqsi,SO2003,"14,904","14,904",1
+2025_FSC_Dashboards_SOM,September,Bari,Iskushuban,SO1604,"8,784","8,784",1
+2025_FSC_Dashboards_SOM,September,Mudug,Hobyo,SO1803,"14,160","14,160",2
+2025_FSC_Dashboards_SOM,September,Woqooyi Galbeed,Hargeysa,SO1201,"52,152","52,152",2
+2025_FSC_Dashboards_SOM,September,Nugaal,Garoowe,SO1701,"20,568","20,568",2
+2025_FSC_Dashboards_SOM,September,Gedo,Garbahaarey,SO2601,"16,332","16,332",1
+2025_FSC_Dashboards_SOM,September,Mudug,Galdogob,SO1802,"11,442","11,442",2
+2025_FSC_Dashboards_SOM,September,Mudug,Gaalkacyo,SO1801,"70,842","70,842",2
+2025_FSC_Dashboards_SOM,September,Nugaal,Eyl,SO1703,6,6,1
+2025_FSC_Dashboards_SOM,September,Gedo,Doolow,SO2605,"50,682","50,682",1
+2025_FSC_Dashboards_SOM,September,Bay,Diinsoor,SO2403,"20,376","20,376",1
+2025_FSC_Dashboards_SOM,September,Galgaduud,Dhuusamarreeb,SO1901,"41,448","41,448",4
+2025_FSC_Dashboards_SOM,September,Sanaag,Ceerigaabo,SO1501,"80,724","80,724",3
+2025_FSC_Dashboards_SOM,September,Galgaduud,Ceel Buur,SO1904,36,36,1
+2025_FSC_Dashboards_SOM,September,Bakool,Ceel Barde,SO2502,"7,866","7,866",1
+2025_FSC_Dashboards_SOM,September,Sanaag,Ceel Afweyn,SO1502,"1,110","1,110",1
+2025_FSC_Dashboards_SOM,September,Sool,Caynabo,SO1402,12,12,1
+2025_FSC_Dashboards_SOM,September,Galgaduud,Cadaado,SO1903,"24,750","24,750",2
+2025_FSC_Dashboards_SOM,September,Galgaduud,Cabudwaaq,SO1902,"35,478","35,478",2
+2025_FSC_Dashboards_SOM,September,Bay,Buur Hakaba,SO2402,"25,740","25,740",1
+2025_FSC_Dashboards_SOM,September,Togdheer,Buuhoodle,SO1302,"1,104","1,104",1
+2025_FSC_Dashboards_SOM,September,Hiraan,Bulo Burto,SO2002,"22,824","22,824",2
+2025_FSC_Dashboards_SOM,September,Bari,Bossaso,SO1601,"76,590","76,590",1
+2025_FSC_Dashboards_SOM,September,Gedo,Belet Xaawo,SO2603,"27,018","27,018",1
+2025_FSC_Dashboards_SOM,September,Hiraan,Belet Weyne,SO2001,"37,260","37,260",2
+2025_FSC_Dashboards_SOM,September,Bay,Baydhaba,SO2401,"28,368","28,368",2
+2025_FSC_Dashboards_SOM,September,Lower Shabelle,Baraawe,SO2303,"13,170","13,170",1
+2025_FSC_Dashboards_SOM,September,Bari,Bandarbeyla,SO1602,12,12,1
+2025_FSC_Dashboards_SOM,September,Banadir,Banadir,SO2201,"34,164","34,164",1
+2025_FSC_Dashboards_SOM,September,Middle Shabelle,Balcad,SO2103,"29,634","29,634",1
+2025_FSC_Dashboards_SOM,September,Gedo,Baardheere,SO2602,"42,198","42,198",1
+2025_FSC_Dashboards_SOM,September,Lower Juba,Afmadow,SO2802,"18,918","18,918",2
+2025_FSC_Dashboards_SOM,September,Lower Shabelle,Afgooye,SO2302,"14,550","14,550",1
+2025_FSC_Dashboards_SOM,October,Awdal,Zeylac,SO1104,"9,732","9,732",3
+2025_FSC_Dashboards_SOM,October,Bakool,Xudur,SO2501,"12,126","12,126",1
+2025_FSC_Dashboards_SOM,October,Mudug,Xarardheere,SO1805,822,822,1
+2025_FSC_Dashboards_SOM,October,Lower Shabelle,Wanla Weyn,SO2307,"9,234","9,234",1
+2025_FSC_Dashboards_SOM,October,Bakool,Waajid,SO2504,"2,484","2,484",1
+2025_FSC_Dashboards_SOM,October,Sool,Taleex,SO1403,870,870,1
+2025_FSC_Dashboards_SOM,October,Bakool,Rab Dhuure,SO2505,"2,448","2,448",1
+2025_FSC_Dashboards_SOM,October,Lower Shabelle,Qoryooley,SO2305,"2,112","2,112",1
+2025_FSC_Dashboards_SOM,October,Bari,Qardho,SO1606,"14,436","14,436",1
+2025_FSC_Dashboards_SOM,October,Bay,Qansax Dheere,SO2404,"26,376","26,376",2
+2025_FSC_Dashboards_SOM,October,Bari,Qandala,SO1605,"10,398","10,398",1
+2025_FSC_Dashboards_SOM,October,Togdheer,Owdweyne,SO1303,"10,782","10,782",1
+2025_FSC_Dashboards_SOM,October,Lower Shabelle,Marka,SO2301,"7,038","7,038",1
+2025_FSC_Dashboards_SOM,October,Gedo,Luuq,SO2606,"7,536","7,536",2
+2025_FSC_Dashboards_SOM,October,Awdal,Lughaye,SO1103,"25,290","25,290",3
+2025_FSC_Dashboards_SOM,October,Sanaag,Laasqoray,SO1503,"17,304","17,304",2
+2025_FSC_Dashboards_SOM,October,Sool,Laas Caanood,SO1401,"13,572","13,572",1
+2025_FSC_Dashboards_SOM,October,Lower Shabelle,Kurtunwaarey,SO2304,462,462,1
+2025_FSC_Dashboards_SOM,October,Lower Juba,Kismaayo,SO2801,"9,282","9,282",1
+2025_FSC_Dashboards_SOM,October,Middle Shabelle,Jowhar,SO2101,"14,820","14,820",3
+2025_FSC_Dashboards_SOM,October,Mudug,Jariiban,SO1804,"15,000","15,000",1
+2025_FSC_Dashboards_SOM,October,Lower Juba,Jamaame,SO2804,"3,012","3,012",1
+2025_FSC_Dashboards_SOM,October,Hiraan,Jalalaqsi,SO2003,"11,352","11,352",1
+2025_FSC_Dashboards_SOM,October,Bari,Iskushuban,SO1604,"22,716","22,716",1
+2025_FSC_Dashboards_SOM,October,Mudug,Hobyo,SO1803,"15,552","15,552",2
+2025_FSC_Dashboards_SOM,October,Woqooyi Galbeed,Hargeysa,SO1201,"18,540","18,540",1
+2025_FSC_Dashboards_SOM,October,Woqooyi Galbeed,Gebiley,SO1203,600,600,1
+2025_FSC_Dashboards_SOM,October,Nugaal,Garoowe,SO1701,"14,544","14,544",3
+2025_FSC_Dashboards_SOM,October,Gedo,Garbahaarey,SO2601,"5,604","5,604",2
+2025_FSC_Dashboards_SOM,October,Mudug,Galdogob,SO1802,"5,028","5,028",2
+2025_FSC_Dashboards_SOM,October,Mudug,Gaalkacyo,SO1801,"34,296","34,296",4
+2025_FSC_Dashboards_SOM,October,Nugaal,Eyl,SO1703,"1,506","1,506",1
+2025_FSC_Dashboards_SOM,October,Gedo,Doolow,SO2605,"36,624","36,624",2
+2025_FSC_Dashboards_SOM,October,Bay,Diinsoor,SO2403,"24,168","24,168",2
+2025_FSC_Dashboards_SOM,October,Galgaduud,Dhuusamarreeb,SO1901,"46,068","46,068",3
+2025_FSC_Dashboards_SOM,October,Sanaag,Ceerigaabo,SO1501,"15,366","15,366",2
+2025_FSC_Dashboards_SOM,October,Bakool,Ceel Barde,SO2502,"2,742","2,742",1
+2025_FSC_Dashboards_SOM,October,Sanaag,Ceel Afweyn,SO1502,"1,110","1,110",1
+2025_FSC_Dashboards_SOM,October,Sool,Caynabo,SO1402,6,6,1
+2025_FSC_Dashboards_SOM,October,Galgaduud,Cadaado,SO1903,"19,530","19,530",1
+2025_FSC_Dashboards_SOM,October,Galgaduud,Cabudwaaq,SO1902,"36,792","36,792",3
+2025_FSC_Dashboards_SOM,October,Bay,Buur Hakaba,SO2402,"8,592","8,592",1
+2025_FSC_Dashboards_SOM,October,Togdheer,Buuhoodle,SO1302,834,834,1
+2025_FSC_Dashboards_SOM,October,Togdheer,Burco,SO1301,"2,400","2,400",1
+2025_FSC_Dashboards_SOM,October,Hiraan,Bulo Burto,SO2002,"16,278","16,278",1
+2025_FSC_Dashboards_SOM,October,Bari,Bossaso,SO1601,"42,294","42,294",1
+2025_FSC_Dashboards_SOM,October,Woqooyi Galbeed,Berbera,SO1202,"5,706","5,706",1
+2025_FSC_Dashboards_SOM,October,Gedo,Belet Xaawo,SO2603,"11,184","11,184",1
+2025_FSC_Dashboards_SOM,October,Hiraan,Belet Weyne,SO2001,"58,626","58,626",4
+2025_FSC_Dashboards_SOM,October,Bay,Baydhaba,SO2401,"37,206","37,206",3
+2025_FSC_Dashboards_SOM,October,Lower Shabelle,Baraawe,SO2303,"5,400","5,400",1
+2025_FSC_Dashboards_SOM,October,Bari,Bandarbeyla,SO1602,"3,822","3,822",2
+2025_FSC_Dashboards_SOM,October,Banadir,Banadir,SO2201,"85,284","85,284",5
+2025_FSC_Dashboards_SOM,October,Middle Shabelle,Balcad,SO2103,"21,918","21,918",1
+2025_FSC_Dashboards_SOM,October,Awdal,Baki,SO1102,354,354,1
+2025_FSC_Dashboards_SOM,October,Lower Juba,Badhaadhe,SO2803,18,18,1
+2025_FSC_Dashboards_SOM,October,Gedo,Baardheere,SO2602,"21,678","21,678",1
+2025_FSC_Dashboards_SOM,October,Lower Juba,Afmadow,SO2802,"19,998","19,998",1
+2025_FSC_Dashboards_SOM,October,Lower Shabelle,Afgooye,SO2302,"24,624","24,624",2
+2025_FSC_Dashboards_SOM,November,Awdal,Zeylac,SO1104,"8,136","8,136",2
+2025_FSC_Dashboards_SOM,November,Bakool,Waajid,SO2504,6,6,1
+2025_FSC_Dashboards_SOM,November,Bari,Qardho,SO1606,"14,484","14,484",2
+2025_FSC_Dashboards_SOM,November,Bay,Qansax Dheere,SO2404,"25,266","25,266",4
+2025_FSC_Dashboards_SOM,November,Bari,Qandala,SO1605,"3,600","3,600",1
+2025_FSC_Dashboards_SOM,November,Lower Shabelle,Marka,SO2301,444,444,1
+2025_FSC_Dashboards_SOM,November,Gedo,Luuq,SO2606,486,486,1
+2025_FSC_Dashboards_SOM,November,Awdal,Lughaye,SO1103,"12,684","12,684",2
+2025_FSC_Dashboards_SOM,November,Sanaag,Laasqoray,SO1503,"17,298","17,298",1
+2025_FSC_Dashboards_SOM,November,Sool,Laas Caanood,SO1401,"14,400","14,400",1
+2025_FSC_Dashboards_SOM,November,Lower Juba,Kismaayo,SO2801,"18,120","18,120",1
+2025_FSC_Dashboards_SOM,November,Middle Shabelle,Jowhar,SO2101,276,276,1
+2025_FSC_Dashboards_SOM,November,Mudug,Jariiban,SO1804,"15,000","15,000",1
+2025_FSC_Dashboards_SOM,November,Lower Juba,Jamaame,SO2804,270,270,1
+2025_FSC_Dashboards_SOM,November,Hiraan,Jalalaqsi,SO2003,780,780,1
+2025_FSC_Dashboards_SOM,November,Bari,Iskushuban,SO1604,"27,468","27,468",2
+2025_FSC_Dashboards_SOM,November,Mudug,Hobyo,SO1803,"7,872","7,872",1
+2025_FSC_Dashboards_SOM,November,Woqooyi Galbeed,Hargeysa,SO1201,"51,732","51,732",2
+2025_FSC_Dashboards_SOM,November,Mudug,Gaalkacyo,SO1801,"8,844","8,844",3
+2025_FSC_Dashboards_SOM,November,Gedo,Doolow,SO2605,"12,924","12,924",1
+2025_FSC_Dashboards_SOM,November,Bay,Diinsoor,SO2403,"23,232","23,232",2
+2025_FSC_Dashboards_SOM,November,Galgaduud,Dhuusamarreeb,SO1901,"37,716","37,716",3
+2025_FSC_Dashboards_SOM,November,Sanaag,Ceerigaabo,SO1501,"1,800","1,800",1
+2025_FSC_Dashboards_SOM,November,Galgaduud,Ceel Dheer,SO1905,720,720,1
+2025_FSC_Dashboards_SOM,November,Sanaag,Ceel Afweyn,SO1502,900,900,1
+2025_FSC_Dashboards_SOM,November,Galgaduud,Cadaado,SO1903,"32,586","32,586",3
+2025_FSC_Dashboards_SOM,November,Galgaduud,Cabudwaaq,SO1902,"12,162","12,162",2
+2025_FSC_Dashboards_SOM,November,Bay,Buur Hakaba,SO2402,360,360,1
+2025_FSC_Dashboards_SOM,November,Togdheer,Buuhoodle,SO1302,"4,410","4,410",2
+2025_FSC_Dashboards_SOM,November,Togdheer,Burco,SO1301,"2,400","2,400",1
+2025_FSC_Dashboards_SOM,November,Hiraan,Bulo Burto,SO2002,"5,436","5,436",1
+2025_FSC_Dashboards_SOM,November,Bari,Bossaso,SO1601,"18,366","18,366",3
+2025_FSC_Dashboards_SOM,November,Woqooyi Galbeed,Berbera,SO1202,"5,400","5,400",1
+2025_FSC_Dashboards_SOM,November,Hiraan,Belet Weyne,SO2001,"57,426","57,426",5
+2025_FSC_Dashboards_SOM,November,Bay,Baydhaba,SO2401,"18,426","18,426",3
+2025_FSC_Dashboards_SOM,November,Bari,Bandarbeyla,SO1602,"3,846","3,846",2
+2025_FSC_Dashboards_SOM,November,Banadir,Banadir,SO2201,"56,340","56,340",3
+2025_FSC_Dashboards_SOM,November,Middle Shabelle,Balcad,SO2103,"21,336","21,336",1
+2025_FSC_Dashboards_SOM,November,Awdal,Baki,SO1102,"7,200","7,200",1
+2025_FSC_Dashboards_SOM,November,Gedo,Baardheere,SO2602,138,138,1
+2025_FSC_Dashboards_SOM,November,Lower Juba,Afmadow,SO2802,"13,488","13,488",1
+2025_FSC_Dashboards_SOM,November,Lower Shabelle,Afgooye,SO2302,"14,292","14,292",3
+2025_FSC_Dashboards_SOM,December,Awdal,Zeylac,SO1104,"1,800","1,800",1
+2025_FSC_Dashboards_SOM,December,Sool,Xudun,SO1404,"1,200","1,200",1
+2025_FSC_Dashboards_SOM,December,Bakool,Waajid,SO2504,"4,806","4,806",2
+2025_FSC_Dashboards_SOM,December,Sool,Taleex,SO1403,"1,620","1,620",1
+2025_FSC_Dashboards_SOM,December,Togdheer,Sheikh,SO1304,12,12,1
+2025_FSC_Dashboards_SOM,December,Bari,Qardho,SO1606,"13,422","13,422",1
+2025_FSC_Dashboards_SOM,December,Bay,Qansax Dheere,SO2404,"21,510","21,510",3
+2025_FSC_Dashboards_SOM,December,Bari,Qandala,SO1605,"3,642","3,642",1
+2025_FSC_Dashboards_SOM,December,Togdheer,Owdweyne,SO1303,138,138,1
+2025_FSC_Dashboards_SOM,December,Gedo,Luuq,SO2606,"2,934","2,934",3
+2025_FSC_Dashboards_SOM,December,Awdal,Lughaye,SO1103,"14,860","14,860",2
+2025_FSC_Dashboards_SOM,December,Sanaag,Laasqoray,SO1503,"20,352","20,352",2
+2025_FSC_Dashboards_SOM,December,Sool,Laas Caanood,SO1401,"20,040","20,040",1
+2025_FSC_Dashboards_SOM,December,Lower Juba,Kismaayo,SO2801,"1,800","1,800",1
+2025_FSC_Dashboards_SOM,December,Mudug,Jariiban,SO1804,"15,672","15,672",2
+2025_FSC_Dashboards_SOM,December,Lower Juba,Jamaame,SO2804,"2,202","2,202",2
+2025_FSC_Dashboards_SOM,December,Hiraan,Jalalaqsi,SO2003,"1,134","1,134",2
+2025_FSC_Dashboards_SOM,December,Bari,Iskushuban,SO1604,"13,164","13,164",1
+2025_FSC_Dashboards_SOM,December,Mudug,Hobyo,SO1803,"10,794","10,794",1
+2025_FSC_Dashboards_SOM,December,Woqooyi Galbeed,Hargeysa,SO1201,"46,869","46,869",3
+2025_FSC_Dashboards_SOM,December,Nugaal,Garoowe,SO1701,"4,698","4,698",1
+2025_FSC_Dashboards_SOM,December,Gedo,Garbahaarey,SO2601,"1,800","1,800",1
+2025_FSC_Dashboards_SOM,December,Mudug,Galdogob,SO1802,"3,804","3,804",1
+2025_FSC_Dashboards_SOM,December,Mudug,Gaalkacyo,SO1801,"6,570","6,570",2
+2025_FSC_Dashboards_SOM,December,Nugaal,Eyl,SO1703,"2,706","2,706",1
+2025_FSC_Dashboards_SOM,December,Gedo,Doolow,SO2605,"15,552","15,552",1
+2025_FSC_Dashboards_SOM,December,Bay,Diinsoor,SO2403,"29,658","29,658",3
+2025_FSC_Dashboards_SOM,December,Galgaduud,Dhuusamarreeb,SO1901,"43,716","43,716",6
+2025_FSC_Dashboards_SOM,December,Sanaag,Ceerigaabo,SO1501,"2,400","2,400",1
+2025_FSC_Dashboards_SOM,December,Gedo,Ceel Waaq,SO2604,"6,330","6,330",2
+2025_FSC_Dashboards_SOM,December,Galgaduud,Ceel Dheer,SO1905,936,936,1
+2025_FSC_Dashboards_SOM,December,Sanaag,Ceel Afweyn,SO1502,900,900,1
+2025_FSC_Dashboards_SOM,December,Bari,Caluula,SO1603,12,12,1
+2025_FSC_Dashboards_SOM,December,Galgaduud,Cadaado,SO1903,"23,880","23,880",2
+2025_FSC_Dashboards_SOM,December,Galgaduud,Cabudwaaq,SO1902,"21,642","21,642",3
+2025_FSC_Dashboards_SOM,December,Bay,Buur Hakaba,SO2402,420,420,1
+2025_FSC_Dashboards_SOM,December,Togdheer,Buuhoodle,SO1302,"2,880","2,880",2
+2025_FSC_Dashboards_SOM,December,Togdheer,Burco,SO1301,"7,524","7,524",2
+2025_FSC_Dashboards_SOM,December,Hiraan,Bulo Burto,SO2002,"6,888","6,888",1
+2025_FSC_Dashboards_SOM,December,Bari,Bossaso,SO1601,"19,326","19,326",2
+2025_FSC_Dashboards_SOM,December,Woqooyi Galbeed,Berbera,SO1202,"5,316","5,316",1
+2025_FSC_Dashboards_SOM,December,Hiraan,Belet Weyne,SO2001,"62,736","62,736",4
+2025_FSC_Dashboards_SOM,December,Bay,Baydhaba,SO2401,"79,848","79,848",3
+2025_FSC_Dashboards_SOM,December,Bari,Bandarbeyla,SO1602,"3,816","3,816",2
+2025_FSC_Dashboards_SOM,December,Banadir,Banadir,SO2201,"58,590","58,590",4
+2025_FSC_Dashboards_SOM,December,Middle Shabelle,Balcad,SO2103,"27,126","27,126",1
+2025_FSC_Dashboards_SOM,December,Awdal,Baki,SO1102,"4,471","4,471",1
+2025_FSC_Dashboards_SOM,December,Gedo,Baardheere,SO2602,"1,800","1,800",1
+2025_FSC_Dashboards_SOM,December,Lower Juba,Afmadow,SO2802,"13,494","13,494",1
+2025_FSC_Dashboards_SOM,December,Lower Shabelle,Afgooye,SO2302,"16,674","16,674",3

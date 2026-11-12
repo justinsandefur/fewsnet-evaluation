@@ -1,0 +1,738 @@
+fnid,vintage,unit_name,admin1_pcode,admin1,admin2_pcode,admin2
+SO,SO-other,Somalia,,,,
+SO2009C3110110,2009C3,"Guban Pastoral: Sheep, Goats & Camel",SO11,Awdal,SO1101,Borama
+SO2009C3110119,2009C3,"North-West Agro-Pastoral: Sorghum, Cattle",SO11,Awdal,SO1101,Borama
+SO2009C3110120,2009C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO11,Awdal,SO1101,Borama
+SO2009C3110132,2009C3,"West Golis Pastoral: Goats, Camel, Sheep",SO11,Awdal,SO1101,Borama
+SO2009C3110210,2009C3,"Guban Pastoral: Sheep, Goats & Camel",SO11,Awdal,SO1102,Baki
+SO2009C3110219,2009C3,"North-West Agro-Pastoral: Sorghum, Cattle",SO11,Awdal,SO1102,Baki
+SO2009C3110220,2009C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO11,Awdal,SO1102,Baki
+SO2009C3110232,2009C3,"West Golis Pastoral: Goats, Camel, Sheep",SO11,Awdal,SO1102,Baki
+SO2009C3110308,2009C3,Fishing,SO11,Awdal,SO1103,Lughaye
+SO2009C3110310,2009C3,"Guban Pastoral: Sheep, Goats & Camel",SO11,Awdal,SO1103,Lughaye
+SO2009C3110332,2009C3,"West Golis Pastoral: Goats, Camel, Sheep",SO11,Awdal,SO1103,Lughaye
+SO2009C3110402,2009C3,"Awdal Border & Coastal Towns: Petty Trading, Fishing, Salt Mining",SO11,Awdal,SO1104,Zeylac
+SO2009C3110410,2009C3,"Guban Pastoral: Sheep, Goats & Camel",SO11,Awdal,SO1104,Zeylac
+SO2009C3110420,2009C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO11,Awdal,SO1104,Zeylac
+SO2009C3110432,2009C3,"West Golis Pastoral: Goats, Camel, Sheep",SO11,Awdal,SO1104,Zeylac
+SO2009C3120111,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2009C3120119,2009C3,"North-West Agro-Pastoral: Sorghum, Cattle",SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2009C3120120,2009C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2009C3120130,2009C3,"Togdheer Agro-Pastoral: Sheep, Goats & Vegetables",SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2009C3120132,2009C3,"West Golis Pastoral: Goats, Camel, Sheep",SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2009C3120210,2009C3,"Guban Pastoral: Sheep, Goats & Camel",SO12,Woqooyi Galbeed,SO1202,Berbera
+SO2009C3120220,2009C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO12,Woqooyi Galbeed,SO1202,Berbera
+SO2009C3120232,2009C3,"West Golis Pastoral: Goats, Camel, Sheep",SO12,Woqooyi Galbeed,SO1202,Berbera
+SO2009C3120311,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO12,Woqooyi Galbeed,SO1203,Gebiley
+SO2009C3120319,2009C3,"North-West Agro-Pastoral: Sorghum, Cattle",SO12,Woqooyi Galbeed,SO1203,Gebiley
+SO2009C3120320,2009C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO12,Woqooyi Galbeed,SO1203,Gebiley
+SO2009C3120332,2009C3,"West Golis Pastoral: Goats, Camel, Sheep",SO12,Woqooyi Galbeed,SO1203,Gebiley
+SO2009C3130111,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO13,Togdheer,SO1301,Burco
+SO2009C3130121,2009C3,Nugal Valley Pastoral: Sheep & Camel,SO13,Togdheer,SO1301,Burco
+SO2009C3130130,2009C3,"Togdheer Agro-Pastoral: Sheep, Goats & Vegetables",SO13,Togdheer,SO1301,Burco
+SO2009C3130132,2009C3,"West Golis Pastoral: Goats, Camel, Sheep",SO13,Togdheer,SO1301,Burco
+SO2009C3130211,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO13,Togdheer,SO1302,Buuhoodle
+SO2009C3130221,2009C3,Nugal Valley Pastoral: Sheep & Camel,SO13,Togdheer,SO1302,Buuhoodle
+SO2009C3130311,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO13,Togdheer,SO1303,Owdweyne
+SO2009C3130319,2009C3,"North-West Agro-Pastoral: Sorghum, Cattle",SO13,Togdheer,SO1303,Owdweyne
+SO2009C3130330,2009C3,"Togdheer Agro-Pastoral: Sheep, Goats & Vegetables",SO13,Togdheer,SO1303,Owdweyne
+SO2009C3130332,2009C3,"West Golis Pastoral: Goats, Camel, Sheep",SO13,Togdheer,SO1303,Owdweyne
+SO2009C3130420,2009C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO13,Togdheer,SO1304,Sheikh
+SO2009C3130421,2009C3,Nugal Valley Pastoral: Sheep & Camel,SO13,Togdheer,SO1304,Sheikh
+SO2009C3130430,2009C3,"Togdheer Agro-Pastoral: Sheep, Goats & Vegetables",SO13,Togdheer,SO1304,Sheikh
+SO2009C3130432,2009C3,"West Golis Pastoral: Goats, Camel, Sheep",SO13,Togdheer,SO1304,Sheikh
+SO2009C3140111,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO14,Sool,SO1401,Laas Caanood
+SO2009C3140121,2009C3,Nugal Valley Pastoral: Sheep & Camel,SO14,Sool,SO1401,Laas Caanood
+SO2009C3140211,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO14,Sool,SO1402,Caynabo
+SO2009C3140221,2009C3,Nugal Valley Pastoral: Sheep & Camel,SO14,Sool,SO1402,Caynabo
+SO2009C3140232,2009C3,"West Golis Pastoral: Goats, Camel, Sheep",SO14,Sool,SO1402,Caynabo
+SO2009C3140321,2009C3,Nugal Valley Pastoral: Sheep & Camel,SO14,Sool,SO1403,Taleex
+SO2009C3140324,2009C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO14,Sool,SO1403,Taleex
+SO2009C3140421,2009C3,Nugal Valley Pastoral: Sheep & Camel,SO14,Sool,SO1404,Xudun
+SO2009C3140424,2009C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO14,Sool,SO1404,Xudun
+SO2009C3150107,2009C3,East  Golis Pastoral: Frankinncense,SO15,Sanaag,SO1501,Ceerigaabo
+SO2009C3150108,2009C3,Fishing,SO15,Sanaag,SO1501,Ceerigaabo
+SO2009C3150115,2009C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO15,Sanaag,SO1501,Ceerigaabo
+SO2009C3150121,2009C3,Nugal Valley Pastoral: Sheep & Camel,SO15,Sanaag,SO1501,Ceerigaabo
+SO2009C3150122,2009C3,Potato Zone & Vegetables,SO15,Sanaag,SO1501,Ceerigaabo
+SO2009C3150124,2009C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO15,Sanaag,SO1501,Ceerigaabo
+SO2009C3150207,2009C3,East  Golis Pastoral: Frankinncense,SO15,Sanaag,SO1502,Ceel Afweyn
+SO2009C3150210,2009C3,"Guban Pastoral: Sheep, Goats & Camel",SO15,Sanaag,SO1502,Ceel Afweyn
+SO2009C3150215,2009C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO15,Sanaag,SO1502,Ceel Afweyn
+SO2009C3150221,2009C3,Nugal Valley Pastoral: Sheep & Camel,SO15,Sanaag,SO1502,Ceel Afweyn
+SO2009C3150232,2009C3,"West Golis Pastoral: Goats, Camel, Sheep",SO15,Sanaag,SO1502,Ceel Afweyn
+SO2009C3150307,2009C3,East  Golis Pastoral: Frankinncense,SO15,Sanaag,SO1503,Laasqoray
+SO2009C3150315,2009C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO15,Sanaag,SO1503,Laasqoray
+SO2009C3150324,2009C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO15,Sanaag,SO1503,Laasqoray
+SO2009C3160107,2009C3,East  Golis Pastoral: Frankinncense,SO16,Bari,SO1601,Bossaso
+SO2009C3160108,2009C3,Fishing,SO16,Bari,SO1601,Bossaso
+SO2009C3160115,2009C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO16,Bari,SO1601,Bossaso
+SO2009C3160205,2009C3,Coastal Deeh: Sheep,SO16,Bari,SO1602,Bandarbeyla
+SO2009C3160215,2009C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO16,Bari,SO1602,Bandarbeyla
+SO2009C3160224,2009C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO16,Bari,SO1602,Bandarbeyla
+SO2009C3160305,2009C3,Coastal Deeh: Sheep,SO16,Bari,SO1603,Caluula
+SO2009C3160307,2009C3,East  Golis Pastoral: Frankinncense,SO16,Bari,SO1603,Caluula
+SO2009C3160405,2009C3,Coastal Deeh: Sheep,SO16,Bari,SO1604,Iskushuban
+SO2009C3160407,2009C3,East  Golis Pastoral: Frankinncense,SO16,Bari,SO1604,Iskushuban
+SO2009C3160409,2009C3,Gagaab Pastoral: Frankincense,SO16,Bari,SO1604,Iskushuban
+SO2009C3160415,2009C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO16,Bari,SO1604,Iskushuban
+SO2009C3160424,2009C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO16,Bari,SO1604,Iskushuban
+SO2009C3160507,2009C3,East  Golis Pastoral: Frankinncense,SO16,Bari,SO1605,Qandala
+SO2009C3160509,2009C3,Gagaab Pastoral: Frankincense,SO16,Bari,SO1605,Qandala
+SO2009C3160515,2009C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO16,Bari,SO1605,Qandala
+SO2009C3160615,2009C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO16,Bari,SO1606,Qardho
+SO2009C3160624,2009C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO16,Bari,SO1606,Qardho
+SO2009C3170111,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO17,Nugaal,SO1701,Garoowe
+SO2009C3170121,2009C3,Nugal Valley Pastoral: Sheep & Camel,SO17,Nugaal,SO1701,Garoowe
+SO2009C3170124,2009C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO17,Nugaal,SO1701,Garoowe
+SO2009C3170211,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO17,Nugaal,SO1702,Burtinle
+SO2009C3170301,2009C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO17,Nugaal,SO1703,Eyl
+SO2009C3170305,2009C3,Coastal Deeh: Sheep,SO17,Nugaal,SO1703,Eyl
+SO2009C3170311,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO17,Nugaal,SO1703,Eyl
+SO2009C3170321,2009C3,Nugal Valley Pastoral: Sheep & Camel,SO17,Nugaal,SO1703,Eyl
+SO2009C3170324,2009C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO17,Nugaal,SO1703,Eyl
+SO2009C3180101,2009C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO18,Mudug,SO1801,Gaalkacyo
+SO2009C3180111,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO18,Mudug,SO1801,Gaalkacyo
+SO2009C3180211,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO18,Mudug,SO1802,Galdogob
+SO2009C3180301,2009C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO18,Mudug,SO1803,Hobyo
+SO2009C3180304,2009C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO18,Mudug,SO1803,Hobyo
+SO2009C3180305,2009C3,Coastal Deeh: Sheep,SO18,Mudug,SO1803,Hobyo
+SO2009C3180401,2009C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO18,Mudug,SO1804,Jariiban
+SO2009C3180405,2009C3,Coastal Deeh: Sheep,SO18,Mudug,SO1804,Jariiban
+SO2009C3180411,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO18,Mudug,SO1804,Jariiban
+SO2009C3180501,2009C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO18,Mudug,SO1805,Xarardheere
+SO2009C3180504,2009C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO18,Mudug,SO1805,Xarardheere
+SO2009C3180505,2009C3,Coastal Deeh: Sheep,SO18,Mudug,SO1805,Xarardheere
+SO2009C3190101,2009C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO19,Galgaduud,SO1901,Dhuusamarreeb
+SO2009C3190111,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO19,Galgaduud,SO1901,Dhuusamarreeb
+SO2009C3190128,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO19,Galgaduud,SO1901,Dhuusamarreeb
+SO2009C3190211,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO19,Galgaduud,SO1902,Cabudwaaq
+SO2009C3190301,2009C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO19,Galgaduud,SO1903,Cadaado
+SO2009C3190311,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO19,Galgaduud,SO1903,Cadaado
+SO2009C3190401,2009C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO19,Galgaduud,SO1904,Ceel Buur
+SO2009C3190404,2009C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO19,Galgaduud,SO1904,Ceel Buur
+SO2009C3190411,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO19,Galgaduud,SO1904,Ceel Buur
+SO2009C3190428,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO19,Galgaduud,SO1904,Ceel Buur
+SO2009C3190504,2009C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO19,Galgaduud,SO1905,Ceel Dheer
+SO2009C3190505,2009C3,Coastal Deeh: Sheep,SO19,Galgaduud,SO1905,Ceel Dheer
+SO2009C3200111,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO20,Hiraan,SO2001,Belet Weyne
+SO2009C3200112,2009C3,Hiran  Agro-Pastoral,SO20,Hiraan,SO2001,Belet Weyne
+SO2009C3200113,2009C3,"Hiran Riverine: Sorghum, Maize, Cattle & Shoats",SO20,Hiraan,SO2001,Belet Weyne
+SO2009C3200128,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO20,Hiraan,SO2001,Belet Weyne
+SO2009C3200204,2009C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO20,Hiraan,SO2002,Bulo Burto
+SO2009C3200211,2009C3,"Hawd Pastoral: Camel, Sheep & Goats",SO20,Hiraan,SO2002,Bulo Burto
+SO2009C3200212,2009C3,Hiran  Agro-Pastoral,SO20,Hiraan,SO2002,Bulo Burto
+SO2009C3200213,2009C3,"Hiran Riverine: Sorghum, Maize, Cattle & Shoats",SO20,Hiraan,SO2002,Bulo Burto
+SO2009C3200228,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO20,Hiraan,SO2002,Bulo Burto
+SO2009C3200312,2009C3,Hiran  Agro-Pastoral,SO20,Hiraan,SO2003,Jalalaqsi
+SO2009C3200313,2009C3,"Hiran Riverine: Sorghum, Maize, Cattle & Shoats",SO20,Hiraan,SO2003,Jalalaqsi
+SO2009C3200323,2009C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO20,Hiraan,SO2003,Jalalaqsi
+SO2009C3200328,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO20,Hiraan,SO2003,Jalalaqsi
+SO2009C3210104,2009C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO21,Middle Shabelle,SO2101,Jowhar
+SO2009C3210123,2009C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO21,Middle Shabelle,SO2101,Jowhar
+SO2009C3210126,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO21,Middle Shabelle,SO2101,Jowhar
+SO2009C3210128,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO21,Middle Shabelle,SO2101,Jowhar
+SO2009C3210204,2009C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO21,Middle Shabelle,SO2102,Adan Yabaal
+SO2009C3210205,2009C3,Coastal Deeh: Sheep,SO21,Middle Shabelle,SO2102,Adan Yabaal
+SO2009C3210228,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO21,Middle Shabelle,SO2102,Adan Yabaal
+SO2009C3210304,2009C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO21,Middle Shabelle,SO2103,Balcad
+SO2009C3210305,2009C3,Coastal Deeh: Sheep,SO21,Middle Shabelle,SO2103,Balcad
+SO2009C3210316,2009C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO21,Middle Shabelle,SO2103,Balcad
+SO2009C3210323,2009C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO21,Middle Shabelle,SO2103,Balcad
+SO2009C3210326,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO21,Middle Shabelle,SO2103,Balcad
+SO2009C3210404,2009C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO21,Middle Shabelle,SO2104,Cadale
+SO2009C3210405,2009C3,Coastal Deeh: Sheep,SO21,Middle Shabelle,SO2104,Cadale
+SO2009C3210428,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO21,Middle Shabelle,SO2104,Cadale
+SO2009C3220126,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO22,Banadir,SO22,Banadir
+SO2009C3220131,2009C3,Urban,SO22,Banadir,SO22,Banadir
+SO2009C3230116,2009C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO23,Lower Shabelle,SO2301,Marka
+SO2009C3230123,2009C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO23,Lower Shabelle,SO2301,Marka
+SO2009C3230127,2009C3,"Southern Coastal Pastoral: Goats, Cattle",SO23,Lower Shabelle,SO2301,Marka
+SO2009C3230216,2009C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO23,Lower Shabelle,SO2302,Afgooye
+SO2009C3230217,2009C3,"L. & M. Shabelle Agro-Pastoral Rain-Fed: Maize,Cowpeas, Sesame & Cattle",SO23,Lower Shabelle,SO2302,Afgooye
+SO2009C3230223,2009C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO23,Lower Shabelle,SO2302,Afgooye
+SO2009C3230226,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO23,Lower Shabelle,SO2302,Afgooye
+SO2009C3230227,2009C3,"Southern Coastal Pastoral: Goats, Cattle",SO23,Lower Shabelle,SO2302,Afgooye
+SO2009C3230231,2009C3,Urban,SO23,Lower Shabelle,SO2302,Afgooye
+SO2009C3230316,2009C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO23,Lower Shabelle,SO2303,Baraawe
+SO2009C3230323,2009C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO23,Lower Shabelle,SO2303,Baraawe
+SO2009C3230325,2009C3,"South-East Pastoral: Cattle, Sheep & Goats",SO23,Lower Shabelle,SO2303,Baraawe
+SO2009C3230327,2009C3,"Southern Coastal Pastoral: Goats, Cattle",SO23,Lower Shabelle,SO2303,Baraawe
+SO2009C3230416,2009C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO23,Lower Shabelle,SO2304,Kurtunwaarey
+SO2009C3230417,2009C3,"L. & M. Shabelle Agro-Pastoral Rain-Fed: Maize,Cowpeas, Sesame & Cattle",SO23,Lower Shabelle,SO2304,Kurtunwaarey
+SO2009C3230423,2009C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO23,Lower Shabelle,SO2304,Kurtunwaarey
+SO2009C3230428,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO23,Lower Shabelle,SO2304,Kurtunwaarey
+SO2009C3230516,2009C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO23,Lower Shabelle,SO2305,Qoryooley
+SO2009C3230517,2009C3,"L. & M. Shabelle Agro-Pastoral Rain-Fed: Maize,Cowpeas, Sesame & Cattle",SO23,Lower Shabelle,SO2305,Qoryooley
+SO2009C3230523,2009C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO23,Lower Shabelle,SO2305,Qoryooley
+SO2009C3230528,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO23,Lower Shabelle,SO2305,Qoryooley
+SO2009C3230616,2009C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO23,Lower Shabelle,SO2306,Sablaale
+SO2009C3230617,2009C3,"L. & M. Shabelle Agro-Pastoral Rain-Fed: Maize,Cowpeas, Sesame & Cattle",SO23,Lower Shabelle,SO2306,Sablaale
+SO2009C3230623,2009C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO23,Lower Shabelle,SO2306,Sablaale
+SO2009C3230625,2009C3,"South-East Pastoral: Cattle, Sheep & Goats",SO23,Lower Shabelle,SO2306,Sablaale
+SO2009C3230628,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO23,Lower Shabelle,SO2306,Sablaale
+SO2009C3230726,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO23,Lower Shabelle,SO2307,Wanla Weyn
+SO2009C3230728,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO23,Lower Shabelle,SO2307,Wanla Weyn
+SO2009C3240103,2009C3,"Bay-Bakool Agro-Pastoral High Potential Sorghum: Cattle, Camel",SO24,Bay,SO2401,Baydhaba
+SO2009C3240106,2009C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO24,Bay,SO2401,Baydhaba
+SO2009C3240125,2009C3,"South-East Pastoral: Cattle, Sheep & Goats",SO24,Bay,SO2401,Baydhaba
+SO2009C3240126,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO24,Bay,SO2401,Baydhaba
+SO2009C3240128,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO24,Bay,SO2401,Baydhaba
+SO2009C3240203,2009C3,"Bay-Bakool Agro-Pastoral High Potential Sorghum: Cattle, Camel",SO24,Bay,SO2402,Buur Hakaba
+SO2009C3240217,2009C3,"L. & M. Shabelle Agro-Pastoral Rain-Fed: Maize,Cowpeas, Sesame & Cattle",SO24,Bay,SO2402,Buur Hakaba
+SO2009C3240225,2009C3,"South-East Pastoral: Cattle, Sheep & Goats",SO24,Bay,SO2402,Buur Hakaba
+SO2009C3240226,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO24,Bay,SO2402,Buur Hakaba
+SO2009C3240228,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO24,Bay,SO2402,Buur Hakaba
+SO2009C3240303,2009C3,"Bay-Bakool Agro-Pastoral High Potential Sorghum: Cattle, Camel",SO24,Bay,SO2403,Diinsoor
+SO2009C3240325,2009C3,"South-East Pastoral: Cattle, Sheep & Goats",SO24,Bay,SO2403,Diinsoor
+SO2009C3240326,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO24,Bay,SO2403,Diinsoor
+SO2009C3240328,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO24,Bay,SO2403,Diinsoor
+SO2009C3240403,2009C3,"Bay-Bakool Agro-Pastoral High Potential Sorghum: Cattle, Camel",SO24,Bay,SO2404,Qansax Dheere
+SO2009C3240406,2009C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO24,Bay,SO2404,Qansax Dheere
+SO2009C3240414,2009C3,"Juba Pump Irrigation: Tobacco, Onions, Maize",SO24,Bay,SO2404,Qansax Dheere
+SO2009C3240426,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO24,Bay,SO2404,Qansax Dheere
+SO2009C3240428,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO24,Bay,SO2404,Qansax Dheere
+SO2009C3250126,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO25,Bakool,SO2501,Xudur
+SO2009C3250128,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO25,Bakool,SO2501,Xudur
+SO2009C3250228,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO25,Bakool,SO2502,Ceel Barde
+SO2009C3250303,2009C3,"Bay-Bakool Agro-Pastoral High Potential Sorghum: Cattle, Camel",SO25,Bakool,SO2503,Tayeeglow
+SO2009C3250326,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO25,Bakool,SO2503,Tayeeglow
+SO2009C3250328,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO25,Bakool,SO2503,Tayeeglow
+SO2009C3250403,2009C3,"Bay-Bakool Agro-Pastoral High Potential Sorghum: Cattle, Camel",SO25,Bakool,SO2504,Waajid
+SO2009C3250426,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO25,Bakool,SO2504,Waajid
+SO2009C3250503,2009C3,"Bay-Bakool Agro-Pastoral High Potential Sorghum: Cattle, Camel",SO25,Bakool,SO2505,Rab Dhuure
+SO2009C3250526,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO25,Bakool,SO2505,Rab Dhuure
+SO2009C3250528,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO25,Bakool,SO2505,Rab Dhuure
+SO2009C3260106,2009C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO26,Gedo,SO2601,Garbahaarey
+SO2009C3260114,2009C3,"Juba Pump Irrigation: Tobacco, Onions, Maize",SO26,Gedo,SO2601,Garbahaarey
+SO2009C3260126,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO26,Gedo,SO2601,Garbahaarey
+SO2009C3260128,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO26,Gedo,SO2601,Garbahaarey
+SO2009C3260203,2009C3,"Bay-Bakool Agro-Pastoral High Potential Sorghum: Cattle, Camel",SO26,Gedo,SO2602,Baardheere
+SO2009C3260214,2009C3,"Juba Pump Irrigation: Tobacco, Onions, Maize",SO26,Gedo,SO2602,Baardheere
+SO2009C3260226,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO26,Gedo,SO2602,Baardheere
+SO2009C3260228,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO26,Gedo,SO2602,Baardheere
+SO2009C3260306,2009C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO26,Gedo,SO2603,Belet Xaawo
+SO2009C3260326,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO26,Gedo,SO2603,Belet Xaawo
+SO2009C3260406,2009C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO26,Gedo,SO2604,Ceel Waaq
+SO2009C3260426,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO26,Gedo,SO2604,Ceel Waaq
+SO2009C3260428,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO26,Gedo,SO2604,Ceel Waaq
+SO2009C3260506,2009C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO26,Gedo,SO2605,Doolow
+SO2009C3260514,2009C3,"Juba Pump Irrigation: Tobacco, Onions, Maize",SO26,Gedo,SO2605,Doolow
+SO2009C3260526,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO26,Gedo,SO2605,Doolow
+SO2009C3260603,2009C3,"Bay-Bakool Agro-Pastoral High Potential Sorghum: Cattle, Camel",SO26,Gedo,SO2606,Luuq
+SO2009C3260606,2009C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO26,Gedo,SO2606,Luuq
+SO2009C3260614,2009C3,"Juba Pump Irrigation: Tobacco, Onions, Maize",SO26,Gedo,SO2606,Luuq
+SO2009C3260626,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO26,Gedo,SO2606,Luuq
+SO2009C3270125,2009C3,"South-East Pastoral: Cattle, Sheep & Goats",SO27,Middle Juba,SO2701,Bu'aale
+SO2009C3270126,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO27,Middle Juba,SO2701,Bu'aale
+SO2009C3270128,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO27,Middle Juba,SO2701,Bu'aale
+SO2009C3270129,2009C3,"Southern Juba Riverine: Maize, Sesame, Fruits & Vegetables",SO27,Middle Juba,SO2701,Bu'aale
+SO2009C3270218,2009C3,Lower Juba Agro-Pastoral: Maize & Cattle,SO27,Middle Juba,SO2702,Jilib
+SO2009C3270223,2009C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO27,Middle Juba,SO2702,Jilib
+SO2009C3270225,2009C3,"South-East Pastoral: Cattle, Sheep & Goats",SO27,Middle Juba,SO2702,Jilib
+SO2009C3270226,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO27,Middle Juba,SO2702,Jilib
+SO2009C3270227,2009C3,"Southern Coastal Pastoral: Goats, Cattle",SO27,Middle Juba,SO2702,Jilib
+SO2009C3270228,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO27,Middle Juba,SO2702,Jilib
+SO2009C3270229,2009C3,"Southern Juba Riverine: Maize, Sesame, Fruits & Vegetables",SO27,Middle Juba,SO2702,Jilib
+SO2009C3270314,2009C3,"Juba Pump Irrigation: Tobacco, Onions, Maize",SO27,Middle Juba,SO2703,Saakow
+SO2009C3270325,2009C3,"South-East Pastoral: Cattle, Sheep & Goats",SO27,Middle Juba,SO2703,Saakow
+SO2009C3270326,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO27,Middle Juba,SO2703,Saakow
+SO2009C3270328,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO27,Middle Juba,SO2703,Saakow
+SO2009C3280118,2009C3,Lower Juba Agro-Pastoral: Maize & Cattle,SO28,Lower Juba,SO2801,Kismaayo
+SO2009C3280125,2009C3,"South-East Pastoral: Cattle, Sheep & Goats",SO28,Lower Juba,SO2801,Kismaayo
+SO2009C3280128,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO28,Lower Juba,SO2801,Kismaayo
+SO2009C3280129,2009C3,"Southern Juba Riverine: Maize, Sesame, Fruits & Vegetables",SO28,Lower Juba,SO2801,Kismaayo
+SO2009C3280218,2009C3,Lower Juba Agro-Pastoral: Maize & Cattle,SO28,Lower Juba,SO2802,Afmadow
+SO2009C3280225,2009C3,"South-East Pastoral: Cattle, Sheep & Goats",SO28,Lower Juba,SO2802,Afmadow
+SO2009C3280226,2009C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO28,Lower Juba,SO2802,Afmadow
+SO2009C3280228,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO28,Lower Juba,SO2802,Afmadow
+SO2009C3280229,2009C3,"Southern Juba Riverine: Maize, Sesame, Fruits & Vegetables",SO28,Lower Juba,SO2802,Afmadow
+SO2009C3280318,2009C3,Lower Juba Agro-Pastoral: Maize & Cattle,SO28,Lower Juba,SO2803,Badhaadhe
+SO2009C3280325,2009C3,"South-East Pastoral: Cattle, Sheep & Goats",SO28,Lower Juba,SO2803,Badhaadhe
+SO2009C3280328,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO28,Lower Juba,SO2803,Badhaadhe
+SO2009C3280418,2009C3,Lower Juba Agro-Pastoral: Maize & Cattle,SO28,Lower Juba,SO2804,Jamaame
+SO2009C3280425,2009C3,"South-East Pastoral: Cattle, Sheep & Goats",SO28,Lower Juba,SO2804,Jamaame
+SO2009C3280427,2009C3,"Southern Coastal Pastoral: Goats, Cattle",SO28,Lower Juba,SO2804,Jamaame
+SO2009C3280428,2009C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO28,Lower Juba,SO2804,Jamaame
+SO2009C3280429,2009C3,"Southern Juba Riverine: Maize, Sesame, Fruits & Vegetables",SO28,Lower Juba,SO2804,Jamaame
+SO2011C3110112,2011C3,"Guban Pastoral: Sheep, Goats & Camel",SO11,Awdal,SO1101,Borama
+SO2011C3110121,2011C3,"North-West Agro-Pastoral: Sorghum, Cattle",SO11,Awdal,SO1101,Borama
+SO2011C3110122,2011C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO11,Awdal,SO1101,Borama
+SO2011C3110134,2011C3,"West Golis Pastoral: Goats, Camel, Sheep",SO11,Awdal,SO1101,Borama
+SO2011C3110212,2011C3,"Guban Pastoral: Sheep, Goats & Camel",SO11,Awdal,SO1102,Baki
+SO2011C3110221,2011C3,"North-West Agro-Pastoral: Sorghum, Cattle",SO11,Awdal,SO1102,Baki
+SO2011C3110222,2011C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO11,Awdal,SO1102,Baki
+SO2011C3110234,2011C3,"West Golis Pastoral: Goats, Camel, Sheep",SO11,Awdal,SO1102,Baki
+SO2011C3110310,2011C3,Fishing,SO11,Awdal,SO1103,Lughaye
+SO2011C3110312,2011C3,"Guban Pastoral: Sheep, Goats & Camel",SO11,Awdal,SO1103,Lughaye
+SO2011C3110334,2011C3,"West Golis Pastoral: Goats, Camel, Sheep",SO11,Awdal,SO1103,Lughaye
+SO2011C3110402,2011C3,"Awdal Border & Coastal Towns: Petty Trading, Fishing, Salt Mining",SO11,Awdal,SO1104,Zeylac
+SO2011C3110412,2011C3,"Guban Pastoral: Sheep, Goats & Camel",SO11,Awdal,SO1104,Zeylac
+SO2011C3110422,2011C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO11,Awdal,SO1104,Zeylac
+SO2011C3110434,2011C3,"West Golis Pastoral: Goats, Camel, Sheep",SO11,Awdal,SO1104,Zeylac
+SO2011C3120113,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2011C3120121,2011C3,"North-West Agro-Pastoral: Sorghum, Cattle",SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2011C3120122,2011C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2011C3120132,2011C3,"Togdheer Agro-Pastoral: Sheep, Goats & Vegetables",SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2011C3120134,2011C3,"West Golis Pastoral: Goats, Camel, Sheep",SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2011C3120212,2011C3,"Guban Pastoral: Sheep, Goats & Camel",SO12,Woqooyi Galbeed,SO1202,Berbera
+SO2011C3120222,2011C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO12,Woqooyi Galbeed,SO1202,Berbera
+SO2011C3120234,2011C3,"West Golis Pastoral: Goats, Camel, Sheep",SO12,Woqooyi Galbeed,SO1202,Berbera
+SO2011C3120313,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO12,Woqooyi Galbeed,SO1203,Gebiley
+SO2011C3120321,2011C3,"North-West Agro-Pastoral: Sorghum, Cattle",SO12,Woqooyi Galbeed,SO1203,Gebiley
+SO2011C3120322,2011C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO12,Woqooyi Galbeed,SO1203,Gebiley
+SO2011C3120334,2011C3,"West Golis Pastoral: Goats, Camel, Sheep",SO12,Woqooyi Galbeed,SO1203,Gebiley
+SO2011C3130113,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO13,Togdheer,SO1301,Burco
+SO2011C3130123,2011C3,Nugal Valley Pastoral: Sheep & Camel,SO13,Togdheer,SO1301,Burco
+SO2011C3130132,2011C3,"Togdheer Agro-Pastoral: Sheep, Goats & Vegetables",SO13,Togdheer,SO1301,Burco
+SO2011C3130134,2011C3,"West Golis Pastoral: Goats, Camel, Sheep",SO13,Togdheer,SO1301,Burco
+SO2011C3130213,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO13,Togdheer,SO1302,Buuhoodle
+SO2011C3130223,2011C3,Nugal Valley Pastoral: Sheep & Camel,SO13,Togdheer,SO1302,Buuhoodle
+SO2011C3130313,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO13,Togdheer,SO1303,Owdweyne
+SO2011C3130321,2011C3,"North-West Agro-Pastoral: Sorghum, Cattle",SO13,Togdheer,SO1303,Owdweyne
+SO2011C3130332,2011C3,"Togdheer Agro-Pastoral: Sheep, Goats & Vegetables",SO13,Togdheer,SO1303,Owdweyne
+SO2011C3130334,2011C3,"West Golis Pastoral: Goats, Camel, Sheep",SO13,Togdheer,SO1303,Owdweyne
+SO2011C3130422,2011C3,"North-West Valley Agro-Pastoral: Irrigated Vegetables, Shoats",SO13,Togdheer,SO1304,Sheikh
+SO2011C3130423,2011C3,Nugal Valley Pastoral: Sheep & Camel,SO13,Togdheer,SO1304,Sheikh
+SO2011C3130432,2011C3,"Togdheer Agro-Pastoral: Sheep, Goats & Vegetables",SO13,Togdheer,SO1304,Sheikh
+SO2011C3130434,2011C3,"West Golis Pastoral: Goats, Camel, Sheep",SO13,Togdheer,SO1304,Sheikh
+SO2011C3140113,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO14,Sool,SO1401,Laas Caanood
+SO2011C3140123,2011C3,Nugal Valley Pastoral: Sheep & Camel,SO14,Sool,SO1401,Laas Caanood
+SO2011C3140213,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO14,Sool,SO1402,Caynabo
+SO2011C3140223,2011C3,Nugal Valley Pastoral: Sheep & Camel,SO14,Sool,SO1402,Caynabo
+SO2011C3140234,2011C3,"West Golis Pastoral: Goats, Camel, Sheep",SO14,Sool,SO1402,Caynabo
+SO2011C3140323,2011C3,Nugal Valley Pastoral: Sheep & Camel,SO14,Sool,SO1403,Taleex
+SO2011C3140326,2011C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO14,Sool,SO1403,Taleex
+SO2011C3140423,2011C3,Nugal Valley Pastoral: Sheep & Camel,SO14,Sool,SO1404,Xudun
+SO2011C3140426,2011C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO14,Sool,SO1404,Xudun
+SO2011C3150109,2011C3,East Golis Pastoral: Frankinncense,SO15,Sanaag,SO1501,Ceerigaabo
+SO2011C3150110,2011C3,Fishing,SO15,Sanaag,SO1501,Ceerigaabo
+SO2011C3150117,2011C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO15,Sanaag,SO1501,Ceerigaabo
+SO2011C3150123,2011C3,Nugal Valley Pastoral: Sheep & Camel,SO15,Sanaag,SO1501,Ceerigaabo
+SO2011C3150124,2011C3,Potato Zone & Vegetables,SO15,Sanaag,SO1501,Ceerigaabo
+SO2011C3150126,2011C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO15,Sanaag,SO1501,Ceerigaabo
+SO2011C3150209,2011C3,East Golis Pastoral: Frankinncense,SO15,Sanaag,SO1502,Ceel Afweyn
+SO2011C3150212,2011C3,"Guban Pastoral: Sheep, Goats & Camel",SO15,Sanaag,SO1502,Ceel Afweyn
+SO2011C3150217,2011C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO15,Sanaag,SO1502,Ceel Afweyn
+SO2011C3150223,2011C3,Nugal Valley Pastoral: Sheep & Camel,SO15,Sanaag,SO1502,Ceel Afweyn
+SO2011C3150234,2011C3,"West Golis Pastoral: Goats, Camel, Sheep",SO15,Sanaag,SO1502,Ceel Afweyn
+SO2011C3150309,2011C3,East Golis Pastoral: Frankinncense,SO15,Sanaag,SO1503,Laasqoray
+SO2011C3150317,2011C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO15,Sanaag,SO1503,Laasqoray
+SO2011C3150326,2011C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO15,Sanaag,SO1503,Laasqoray
+SO2011C3160109,2011C3,East Golis Pastoral: Frankinncense,SO16,Bari,SO1601,Bossaso
+SO2011C3160110,2011C3,Fishing,SO16,Bari,SO1601,Bossaso
+SO2011C3160117,2011C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO16,Bari,SO1601,Bossaso
+SO2011C3160207,2011C3,Coastal Deeh: Sheep,SO16,Bari,SO1602,Bandarbeyla
+SO2011C3160217,2011C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO16,Bari,SO1602,Bandarbeyla
+SO2011C3160226,2011C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO16,Bari,SO1602,Bandarbeyla
+SO2011C3160307,2011C3,Coastal Deeh: Sheep,SO16,Bari,SO1603,Caluula
+SO2011C3160309,2011C3,East Golis Pastoral: Frankinncense,SO16,Bari,SO1603,Caluula
+SO2011C3160311,2011C3,Gagaab Pastoral: Frankincense,SO16,Bari,SO1603,Caluula
+SO2011C3160407,2011C3,Coastal Deeh: Sheep,SO16,Bari,SO1604,Iskushuban
+SO2011C3160409,2011C3,East Golis Pastoral: Frankinncense,SO16,Bari,SO1604,Iskushuban
+SO2011C3160411,2011C3,Gagaab Pastoral: Frankincense,SO16,Bari,SO1604,Iskushuban
+SO2011C3160417,2011C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO16,Bari,SO1604,Iskushuban
+SO2011C3160426,2011C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO16,Bari,SO1604,Iskushuban
+SO2011C3160509,2011C3,East Golis Pastoral: Frankinncense,SO16,Bari,SO1605,Qandala
+SO2011C3160511,2011C3,Gagaab Pastoral: Frankincense,SO16,Bari,SO1605,Qandala
+SO2011C3160517,2011C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO16,Bari,SO1605,Qandala
+SO2011C3160607,2011C3,Coastal Deeh: Sheep,SO16,Bari,SO1606,Qardho
+SO2011C3160617,2011C3,"Kakaar-Dharor Pastoral: Sheep, Goats, Camel",SO16,Bari,SO1606,Qardho
+SO2011C3160626,2011C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO16,Bari,SO1606,Qardho
+SO2011C3170113,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO17,Nugaal,SO1701,Garoowe
+SO2011C3170123,2011C3,Nugal Valley Pastoral: Sheep & Camel,SO17,Nugaal,SO1701,Garoowe
+SO2011C3170126,2011C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO17,Nugaal,SO1701,Garoowe
+SO2011C3170213,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO17,Nugaal,SO1702,Burtinle
+SO2011C3170301,2011C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO17,Nugaal,SO1703,Eyl
+SO2011C3170307,2011C3,Coastal Deeh: Sheep,SO17,Nugaal,SO1703,Eyl
+SO2011C3170313,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO17,Nugaal,SO1703,Eyl
+SO2011C3170323,2011C3,Nugal Valley Pastoral: Sheep & Camel,SO17,Nugaal,SO1703,Eyl
+SO2011C3170326,2011C3,"Sool-Sanag Plateau Pastoral: Camel, Sheep & Goats",SO17,Nugaal,SO1703,Eyl
+SO2011C3180101,2011C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO18,Mudug,SO1801,Gaalkacyo
+SO2011C3180113,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO18,Mudug,SO1801,Gaalkacyo
+SO2011C3180213,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO18,Mudug,SO1802,Galdogob
+SO2011C3180301,2011C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO18,Mudug,SO1803,Hobyo
+SO2011C3180306,2011C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO18,Mudug,SO1803,Hobyo
+SO2011C3180307,2011C3,Coastal Deeh: Sheep,SO18,Mudug,SO1803,Hobyo
+SO2011C3180401,2011C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO18,Mudug,SO1804,Jariiban
+SO2011C3180407,2011C3,Coastal Deeh: Sheep,SO18,Mudug,SO1804,Jariiban
+SO2011C3180413,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO18,Mudug,SO1804,Jariiban
+SO2011C3180501,2011C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO18,Mudug,SO1805,Xarardheere
+SO2011C3180506,2011C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO18,Mudug,SO1805,Xarardheere
+SO2011C3180507,2011C3,Coastal Deeh: Sheep,SO18,Mudug,SO1805,Xarardheere
+SO2011C3190101,2011C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO19,Galgaduud,SO1901,Dhuusamarreeb
+SO2011C3190113,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO19,Galgaduud,SO1901,Dhuusamarreeb
+SO2011C3190130,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO19,Galgaduud,SO1901,Dhuusamarreeb
+SO2011C3190213,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO19,Galgaduud,SO1902,Cabudwaaq
+SO2011C3190301,2011C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO19,Galgaduud,SO1903,Cadaado
+SO2011C3190313,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO19,Galgaduud,SO1903,Cadaado
+SO2011C3190401,2011C3,"Addun Pastoral: Mixed Sheep & Goats, Camel",SO19,Galgaduud,SO1904,Ceel Buur
+SO2011C3190406,2011C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO19,Galgaduud,SO1904,Ceel Buur
+SO2011C3190413,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO19,Galgaduud,SO1904,Ceel Buur
+SO2011C3190430,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO19,Galgaduud,SO1904,Ceel Buur
+SO2011C3190506,2011C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO19,Galgaduud,SO1905,Ceel Dheer
+SO2011C3190507,2011C3,Coastal Deeh: Sheep,SO19,Galgaduud,SO1905,Ceel Dheer
+SO2011C3200113,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO20,Hiraan,SO2001,Belet Weyne
+SO2011C3200114,2011C3,Hiran Agro-Pastoral,SO20,Hiraan,SO2001,Belet Weyne
+SO2011C3200115,2011C3,"Hiran Riverine: Sorghum, Maize, Cattle & Shoats",SO20,Hiraan,SO2001,Belet Weyne
+SO2011C3200130,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO20,Hiraan,SO2001,Belet Weyne
+SO2011C3200206,2011C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO20,Hiraan,SO2002,Bulo Burto
+SO2011C3200213,2011C3,"Hawd Pastoral: Camel, Sheep & Goats",SO20,Hiraan,SO2002,Bulo Burto
+SO2011C3200214,2011C3,Hiran Agro-Pastoral,SO20,Hiraan,SO2002,Bulo Burto
+SO2011C3200215,2011C3,"Hiran Riverine: Sorghum, Maize, Cattle & Shoats",SO20,Hiraan,SO2002,Bulo Burto
+SO2011C3200228,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO20,Hiraan,SO2002,Bulo Burto
+SO2011C3200230,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO20,Hiraan,SO2002,Bulo Burto
+SO2011C3200306,2011C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO20,Hiraan,SO2003,Jalalaqsi
+SO2011C3200314,2011C3,Hiran Agro-Pastoral,SO20,Hiraan,SO2003,Jalalaqsi
+SO2011C3200315,2011C3,"Hiran Riverine: Sorghum, Maize, Cattle & Shoats",SO20,Hiraan,SO2003,Jalalaqsi
+SO2011C3200325,2011C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO20,Hiraan,SO2003,Jalalaqsi
+SO2011C3200330,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO20,Hiraan,SO2003,Jalalaqsi
+SO2011C3210106,2011C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO21,Middle Shabelle,SO2101,Jowhar
+SO2011C3210125,2011C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO21,Middle Shabelle,SO2101,Jowhar
+SO2011C3210128,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO21,Middle Shabelle,SO2101,Jowhar
+SO2011C3210130,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO21,Middle Shabelle,SO2101,Jowhar
+SO2011C3210206,2011C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO21,Middle Shabelle,SO2102,Adan Yabaal
+SO2011C3210207,2011C3,Coastal Deeh: Sheep,SO21,Middle Shabelle,SO2102,Adan Yabaal
+SO2011C3210230,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO21,Middle Shabelle,SO2102,Adan Yabaal
+SO2011C3210306,2011C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO21,Middle Shabelle,SO2103,Balcad
+SO2011C3210307,2011C3,Coastal Deeh: Sheep,SO21,Middle Shabelle,SO2103,Balcad
+SO2011C3210318,2011C3,"L. & M. Shabelle Agro-Pastoral Rain-Fed: Maize,Cowpeas, Sesame & Cattle",SO21,Middle Shabelle,SO2103,Balcad
+SO2011C3210319,2011C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO21,Middle Shabelle,SO2103,Balcad
+SO2011C3210325,2011C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO21,Middle Shabelle,SO2103,Balcad
+SO2011C3210328,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO21,Middle Shabelle,SO2103,Balcad
+SO2011C3210333,2011C3,Urban,SO21,Middle Shabelle,SO2103,Balcad
+SO2011C3210406,2011C3,"Central Regions Agro-Pastoral: Cowpea, Sheep & Goats, Camel, Cattle",SO21,Middle Shabelle,SO2104,Cadale
+SO2011C3210407,2011C3,Coastal Deeh: Sheep,SO21,Middle Shabelle,SO2104,Cadale
+SO2011C3210430,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO21,Middle Shabelle,SO2104,Cadale
+SO2011C3220128,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO22,Banadir,SO22,Banadir
+SO2011C3220133,2011C3,Urban,SO22,Banadir,SO22,Banadir
+SO2011C3230119,2011C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO23,Lower Shabelle,SO2301,Marka
+SO2011C3230125,2011C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO23,Lower Shabelle,SO2301,Marka
+SO2011C3230129,2011C3,"Southern Coastal Pastoral: Goats, Cattle",SO23,Lower Shabelle,SO2301,Marka
+SO2011C3230218,2011C3,"L. & M. Shabelle Agro-Pastoral Rain-Fed: Maize,Cowpeas, Sesame & Cattle",SO23,Lower Shabelle,SO2302,Afgooye
+SO2011C3230219,2011C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO23,Lower Shabelle,SO2302,Afgooye
+SO2011C3230225,2011C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO23,Lower Shabelle,SO2302,Afgooye
+SO2011C3230228,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO23,Lower Shabelle,SO2302,Afgooye
+SO2011C3230229,2011C3,"Southern Coastal Pastoral: Goats, Cattle",SO23,Lower Shabelle,SO2302,Afgooye
+SO2011C3230233,2011C3,Urban,SO23,Lower Shabelle,SO2302,Afgooye
+SO2011C3230319,2011C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO23,Lower Shabelle,SO2303,Baraawe
+SO2011C3230325,2011C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO23,Lower Shabelle,SO2303,Baraawe
+SO2011C3230327,2011C3,"South-East Pastoral: Cattle, Sheep & Goats",SO23,Lower Shabelle,SO2303,Baraawe
+SO2011C3230329,2011C3,"Southern Coastal Pastoral: Goats, Cattle",SO23,Lower Shabelle,SO2303,Baraawe
+SO2011C3230418,2011C3,"L. & M. Shabelle Agro-Pastoral Rain-Fed: Maize,Cowpeas, Sesame & Cattle",SO23,Lower Shabelle,SO2304,Kurtunwaarey
+SO2011C3230419,2011C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO23,Lower Shabelle,SO2304,Kurtunwaarey
+SO2011C3230425,2011C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO23,Lower Shabelle,SO2304,Kurtunwaarey
+SO2011C3230430,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO23,Lower Shabelle,SO2304,Kurtunwaarey
+SO2011C3230518,2011C3,"L. & M. Shabelle Agro-Pastoral Rain-Fed: Maize,Cowpeas, Sesame & Cattle",SO23,Lower Shabelle,SO2305,Qoryooley
+SO2011C3230519,2011C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO23,Lower Shabelle,SO2305,Qoryooley
+SO2011C3230525,2011C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO23,Lower Shabelle,SO2305,Qoryooley
+SO2011C3230528,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO23,Lower Shabelle,SO2305,Qoryooley
+SO2011C3230530,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO23,Lower Shabelle,SO2305,Qoryooley
+SO2011C3230618,2011C3,"L. & M. Shabelle Agro-Pastoral Rain-Fed: Maize,Cowpeas, Sesame & Cattle",SO23,Lower Shabelle,SO2306,Sablaale
+SO2011C3230619,2011C3,L. & M. Shabelle Agro-Pastoral Irrigated: Maize/Sorghum & Cattle,SO23,Lower Shabelle,SO2306,Sablaale
+SO2011C3230625,2011C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO23,Lower Shabelle,SO2306,Sablaale
+SO2011C3230627,2011C3,"South-East Pastoral: Cattle, Sheep & Goats",SO23,Lower Shabelle,SO2306,Sablaale
+SO2011C3230630,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO23,Lower Shabelle,SO2306,Sablaale
+SO2011C3230704,2011C3,Bay-Bakool Agro-Pastoral Low Potential,SO23,Lower Shabelle,SO2307,Wanla Weyn
+SO2011C3230718,2011C3,"L. & M. Shabelle Agro-Pastoral Rain-Fed: Maize,Cowpeas, Sesame & Cattle",SO23,Lower Shabelle,SO2307,Wanla Weyn
+SO2011C3230728,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO23,Lower Shabelle,SO2307,Wanla Weyn
+SO2011C3230730,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO23,Lower Shabelle,SO2307,Wanla Weyn
+SO2011C3240104,2011C3,Bay-Bakool Agro-Pastoral Low Potential,SO24,Bay,SO2401,Baydhaba
+SO2011C3240105,2011C3,Bay Agro-Pastoral High Potential,SO24,Bay,SO2401,Baydhaba
+SO2011C3240108,2011C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO24,Bay,SO2401,Baydhaba
+SO2011C3240204,2011C3,Bay-Bakool Agro-Pastoral Low Potential,SO24,Bay,SO2402,Buur Hakaba
+SO2011C3240205,2011C3,Bay Agro-Pastoral High Potential,SO24,Bay,SO2402,Buur Hakaba
+SO2011C3240218,2011C3,"L. & M. Shabelle Agro-Pastoral Rain-Fed: Maize,Cowpeas, Sesame & Cattle",SO24,Bay,SO2402,Buur Hakaba
+SO2011C3240230,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO24,Bay,SO2402,Buur Hakaba
+SO2011C3240304,2011C3,Bay-Bakool Agro-Pastoral Low Potential,SO24,Bay,SO2403,Diinsoor
+SO2011C3240305,2011C3,Bay Agro-Pastoral High Potential,SO24,Bay,SO2403,Diinsoor
+SO2011C3240327,2011C3,"South-East Pastoral: Cattle, Sheep & Goats",SO24,Bay,SO2403,Diinsoor
+SO2011C3240404,2011C3,Bay-Bakool Agro-Pastoral Low Potential,SO24,Bay,SO2404,Qansax Dheere
+SO2011C3240405,2011C3,Bay Agro-Pastoral High Potential,SO24,Bay,SO2404,Qansax Dheere
+SO2011C3240408,2011C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO24,Bay,SO2404,Qansax Dheere
+SO2011C3240416,2011C3,"Juba Pump Irrigation: Tobacco, Onions, Maize",SO24,Bay,SO2404,Qansax Dheere
+SO2011C3240428,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO24,Bay,SO2404,Qansax Dheere
+SO2011C3250103,2011C3,Bakool Agro-Pastoral,SO25,Bakool,SO2501,Xudur
+SO2011C3250104,2011C3,Bay-Bakool Agro-Pastoral Low Potential,SO25,Bakool,SO2501,Xudur
+SO2011C3250230,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO25,Bakool,SO2502,Ceel Barde
+SO2011C3250303,2011C3,Bakool Agro-Pastoral,SO25,Bakool,SO2503,Tayeeglow
+SO2011C3250304,2011C3,Bay-Bakool Agro-Pastoral Low Potential,SO25,Bakool,SO2503,Tayeeglow
+SO2011C3250330,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO25,Bakool,SO2503,Tayeeglow
+SO2011C3250403,2011C3,Bakool Agro-Pastoral,SO25,Bakool,SO2504,Waajid
+SO2011C3250404,2011C3,Bay-Bakool Agro-Pastoral Low Potential,SO25,Bakool,SO2504,Waajid
+SO2011C3250503,2011C3,Bakool Agro-Pastoral,SO25,Bakool,SO2505,Rab Dhuure
+SO2011C3250508,2011C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO25,Bakool,SO2505,Rab Dhuure
+SO2011C3250530,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO25,Bakool,SO2505,Rab Dhuure
+SO2011C3260104,2011C3,Bay-Bakool Agro-Pastoral Low Potential,SO26,Gedo,SO2601,Garbahaarey
+SO2011C3260105,2011C3,Bay Agro-Pastoral High Potential,SO26,Gedo,SO2601,Garbahaarey
+SO2011C3260108,2011C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO26,Gedo,SO2601,Garbahaarey
+SO2011C3260116,2011C3,"Juba Pump Irrigation: Tobacco, Onions, Maize",SO26,Gedo,SO2601,Garbahaarey
+SO2011C3260128,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO26,Gedo,SO2601,Garbahaarey
+SO2011C3260130,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO26,Gedo,SO2601,Garbahaarey
+SO2011C3260205,2011C3,Bay Agro-Pastoral High Potential,SO26,Gedo,SO2602,Baardheere
+SO2011C3260216,2011C3,"Juba Pump Irrigation: Tobacco, Onions, Maize",SO26,Gedo,SO2602,Baardheere
+SO2011C3260228,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO26,Gedo,SO2602,Baardheere
+SO2011C3260230,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO26,Gedo,SO2602,Baardheere
+SO2011C3260308,2011C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO26,Gedo,SO2603,Belet Xaawo
+SO2011C3260328,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO26,Gedo,SO2603,Belet Xaawo
+SO2011C3260408,2011C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO26,Gedo,SO2604,Ceel Waaq
+SO2011C3260428,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO26,Gedo,SO2604,Ceel Waaq
+SO2011C3260430,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO26,Gedo,SO2604,Ceel Waaq
+SO2011C3260508,2011C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO26,Gedo,SO2605,Doolow
+SO2011C3260516,2011C3,"Juba Pump Irrigation: Tobacco, Onions, Maize",SO26,Gedo,SO2605,Doolow
+SO2011C3260528,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO26,Gedo,SO2605,Doolow
+SO2011C3260603,2011C3,Bakool Agro-Pastoral,SO26,Gedo,SO2606,Luuq
+SO2011C3260608,2011C3,"Dawo Pastoral: Shoats, Cattle, Camel",SO26,Gedo,SO2606,Luuq
+SO2011C3260616,2011C3,"Juba Pump Irrigation: Tobacco, Onions, Maize",SO26,Gedo,SO2606,Luuq
+SO2011C3260628,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO26,Gedo,SO2606,Luuq
+SO2011C3270127,2011C3,"South-East Pastoral: Cattle, Sheep & Goats",SO27,Middle Juba,SO2701,Bu'aale
+SO2011C3270128,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO27,Middle Juba,SO2701,Bu'aale
+SO2011C3270130,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO27,Middle Juba,SO2701,Bu'aale
+SO2011C3270131,2011C3,"Southern Juba Riverine: Maize, Sesame, Fruits & Vegetables",SO27,Middle Juba,SO2701,Bu'aale
+SO2011C3270220,2011C3,Lower Juba Agro-Pastoral: Maize & Cattle,SO27,Middle Juba,SO2702,Jilib
+SO2011C3270225,2011C3,"Shabelle Riverine: Maize, Fruits & Vegetables",SO27,Middle Juba,SO2702,Jilib
+SO2011C3270227,2011C3,"South-East Pastoral: Cattle, Sheep & Goats",SO27,Middle Juba,SO2702,Jilib
+SO2011C3270228,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO27,Middle Juba,SO2702,Jilib
+SO2011C3270229,2011C3,"Southern Coastal Pastoral: Goats, Cattle",SO27,Middle Juba,SO2702,Jilib
+SO2011C3270230,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO27,Middle Juba,SO2702,Jilib
+SO2011C3270231,2011C3,"Southern Juba Riverine: Maize, Sesame, Fruits & Vegetables",SO27,Middle Juba,SO2702,Jilib
+SO2011C3270305,2011C3,Bay Agro-Pastoral High Potential,SO27,Middle Juba,SO2703,Saakow
+SO2011C3270316,2011C3,"Juba Pump Irrigation: Tobacco, Onions, Maize",SO27,Middle Juba,SO2703,Saakow
+SO2011C3270327,2011C3,"South-East Pastoral: Cattle, Sheep & Goats",SO27,Middle Juba,SO2703,Saakow
+SO2011C3270328,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO27,Middle Juba,SO2703,Saakow
+SO2011C3270330,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO27,Middle Juba,SO2703,Saakow
+SO2011C3280120,2011C3,Lower Juba Agro-Pastoral: Maize & Cattle,SO28,Lower Juba,SO2801,Kismaayo
+SO2011C3280127,2011C3,"South-East Pastoral: Cattle, Sheep & Goats",SO28,Lower Juba,SO2801,Kismaayo
+SO2011C3280130,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO28,Lower Juba,SO2801,Kismaayo
+SO2011C3280131,2011C3,"Southern Juba Riverine: Maize, Sesame, Fruits & Vegetables",SO28,Lower Juba,SO2801,Kismaayo
+SO2011C3280220,2011C3,Lower Juba Agro-Pastoral: Maize & Cattle,SO28,Lower Juba,SO2802,Afmadow
+SO2011C3280227,2011C3,"South-East Pastoral: Cattle, Sheep & Goats",SO28,Lower Juba,SO2802,Afmadow
+SO2011C3280228,2011C3,"Southern Agro-Pastoral: Camel, Cattle, Sorghum",SO28,Lower Juba,SO2802,Afmadow
+SO2011C3280230,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO28,Lower Juba,SO2802,Afmadow
+SO2011C3280231,2011C3,"Southern Juba Riverine: Maize, Sesame, Fruits & Vegetables",SO28,Lower Juba,SO2802,Afmadow
+SO2011C3280320,2011C3,Lower Juba Agro-Pastoral: Maize & Cattle,SO28,Lower Juba,SO2803,Badhaadhe
+SO2011C3280327,2011C3,"South-East Pastoral: Cattle, Sheep & Goats",SO28,Lower Juba,SO2803,Badhaadhe
+SO2011C3280330,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO28,Lower Juba,SO2803,Badhaadhe
+SO2011C3280420,2011C3,Lower Juba Agro-Pastoral: Maize & Cattle,SO28,Lower Juba,SO2804,Jamaame
+SO2011C3280427,2011C3,"South-East Pastoral: Cattle, Sheep & Goats",SO28,Lower Juba,SO2804,Jamaame
+SO2011C3280429,2011C3,"Southern Coastal Pastoral: Goats, Cattle",SO28,Lower Juba,SO2804,Jamaame
+SO2011C3280430,2011C3,"Southern Inland Pastoral: Camel, Sheep & Goats",SO28,Lower Juba,SO2804,Jamaame
+SO2011C3280431,2011C3,"Southern Juba Riverine: Maize, Sesame, Fruits & Vegetables",SO28,Lower Juba,SO2804,Jamaame
+SO2016C3110101,2016C3,Guban Pastoral,SO11,Awdal,SO1101,Borama
+SO2016C3110102,2016C3,West Golis Pastoral,SO11,Awdal,SO1101,Borama
+SO2016C3110103,2016C3,Northwestern Agropastoral,SO11,Awdal,SO1101,Borama
+SO2016C3110201,2016C3,Guban Pastoral,SO11,Awdal,SO1102,Baki
+SO2016C3110202,2016C3,West Golis Pastoral,SO11,Awdal,SO1102,Baki
+SO2016C3110203,2016C3,Northwestern Agropastoral,SO11,Awdal,SO1102,Baki
+SO2016C3110301,2016C3,Guban Pastoral,SO11,Awdal,SO1103,Lughaye
+SO2016C3110302,2016C3,West Golis Pastoral,SO11,Awdal,SO1103,Lughaye
+SO2016C3110401,2016C3,Guban Pastoral,SO11,Awdal,SO1104,Zeylac
+SO2016C3110402,2016C3,West Golis Pastoral,SO11,Awdal,SO1104,Zeylac
+SO2016C3110407,2016C3,"East Golis – Frankincense, Goats, and Fishing",SO11,Awdal,SO1104,Zeylac
+SO2016C3120102,2016C3,West Golis Pastoral,SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2016C3120103,2016C3,Northwestern Agropastoral,SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2016C3120105,2016C3,Hawd Pastoral,SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SO2016C3120201,2016C3,Guban Pastoral,SO12,Woqooyi Galbeed,SO1202,Berbera
+SO2016C3120202,2016C3,West Golis Pastoral,SO12,Woqooyi Galbeed,SO1202,Berbera
+SO2016C3120302,2016C3,West Golis Pastoral,SO12,Woqooyi Galbeed,SO1203,Gebiley
+SO2016C3120303,2016C3,Northwestern Agropastoral,SO12,Woqooyi Galbeed,SO1203,Gebiley
+SO2016C3130102,2016C3,West Golis Pastoral,SO13,Togdheer,SO1301,Burco
+SO2016C3130104,2016C3,Togdheer Agropastoral,SO13,Togdheer,SO1301,Burco
+SO2016C3130105,2016C3,Hawd Pastoral,SO13,Togdheer,SO1301,Burco
+SO2016C3130205,2016C3,Hawd Pastoral,SO13,Togdheer,SO1302,Buuhoodle
+SO2016C3130302,2016C3,West Golis Pastoral,SO13,Togdheer,SO1303,Owdweyne
+SO2016C3130304,2016C3,Togdheer Agropastoral,SO13,Togdheer,SO1303,Owdweyne
+SO2016C3130305,2016C3,Hawd Pastoral,SO13,Togdheer,SO1303,Owdweyne
+SO2016C3130402,2016C3,West Golis Pastoral,SO13,Togdheer,SO1304,Sheikh
+SO2016C3130404,2016C3,Togdheer Agropastoral,SO13,Togdheer,SO1304,Sheikh
+SO2016C3140105,2016C3,Hawd Pastoral,SO14,Sool,SO1401,Laas Caanood
+SO2016C3140106,2016C3,Northern Inland Pastoral – Goats and Sheep,SO14,Sool,SO1401,Laas Caanood
+SO2016C3140202,2016C3,West Golis Pastoral,SO14,Sool,SO1402,Caynabo
+SO2016C3140205,2016C3,Hawd Pastoral,SO14,Sool,SO1402,Caynabo
+SO2016C3140206,2016C3,Northern Inland Pastoral – Goats and Sheep,SO14,Sool,SO1402,Caynabo
+SO2016C3140306,2016C3,Northern Inland Pastoral – Goats and Sheep,SO14,Sool,SO1403,Taleex
+SO2016C3140406,2016C3,Northern Inland Pastoral – Goats and Sheep,SO14,Sool,SO1404,Xudun
+SO2016C3150106,2016C3,Northern Inland Pastoral – Goats and Sheep,SO15,Sanaag,SO1501,Ceerigaabo
+SO2016C3150107,2016C3,"East Golis – Frankincense, Goats, and Fishing",SO15,Sanaag,SO1501,Ceerigaabo
+SO2016C3150201,2016C3,Guban Pastoral,SO15,Sanaag,SO1502,Ceel Afweyn
+SO2016C3150202,2016C3,West Golis Pastoral,SO15,Sanaag,SO1502,Ceel Afweyn
+SO2016C3150206,2016C3,Northern Inland Pastoral – Goats and Sheep,SO15,Sanaag,SO1502,Ceel Afweyn
+SO2016C3150207,2016C3,"East Golis – Frankincense, Goats, and Fishing",SO15,Sanaag,SO1502,Ceel Afweyn
+SO2016C3150306,2016C3,Northern Inland Pastoral – Goats and Sheep,SO15,Sanaag,SO1503,Laasqoray
+SO2016C3150307,2016C3,"East Golis – Frankincense, Goats, and Fishing",SO15,Sanaag,SO1503,Laasqoray
+SO2016C3160106,2016C3,Northern Inland Pastoral – Goats and Sheep,SO16,Bari,SO1601,Bossaso
+SO2016C3160107,2016C3,"East Golis – Frankincense, Goats, and Fishing",SO16,Bari,SO1601,Bossaso
+SO2016C3160206,2016C3,Northern Inland Pastoral – Goats and Sheep,SO16,Bari,SO1602,Bandarbeyla
+SO2016C3160208,2016C3,Coastal Deeh Pastoral and Fishing,SO16,Bari,SO1602,Bandarbeyla
+SO2016C3160307,2016C3,"East Golis – Frankincense, Goats, and Fishing",SO16,Bari,SO1603,Caluula
+SO2016C3160406,2016C3,Northern Inland Pastoral – Goats and Sheep,SO16,Bari,SO1604,Iskushuban
+SO2016C3160407,2016C3,"East Golis – Frankincense, Goats, and Fishing",SO16,Bari,SO1604,Iskushuban
+SO2016C3160408,2016C3,Coastal Deeh Pastoral and Fishing,SO16,Bari,SO1604,Iskushuban
+SO2016C3160506,2016C3,Northern Inland Pastoral – Goats and Sheep,SO16,Bari,SO1605,Qandala
+SO2016C3160507,2016C3,"East Golis – Frankincense, Goats, and Fishing",SO16,Bari,SO1605,Qandala
+SO2016C3160606,2016C3,Northern Inland Pastoral – Goats and Sheep,SO16,Bari,SO1606,Qardho
+SO2016C3170105,2016C3,Hawd Pastoral,SO17,Nugaal,SO1701,Garoowe
+SO2016C3170106,2016C3,Northern Inland Pastoral – Goats and Sheep,SO17,Nugaal,SO1701,Garoowe
+SO2016C3170205,2016C3,Hawd Pastoral,SO17,Nugaal,SO1702,Burtinle
+SO2016C3170305,2016C3,Hawd Pastoral,SO17,Nugaal,SO1703,Eyl
+SO2016C3170306,2016C3,Northern Inland Pastoral – Goats and Sheep,SO17,Nugaal,SO1703,Eyl
+SO2016C3170308,2016C3,Coastal Deeh Pastoral and Fishing,SO17,Nugaal,SO1703,Eyl
+SO2016C3170309,2016C3,Addun Pastoral,SO17,Nugaal,SO1703,Eyl
+SO2016C3180105,2016C3,Hawd Pastoral,SO18,Mudug,SO1801,Gaalkacyo
+SO2016C3180109,2016C3,Addun Pastoral,SO18,Mudug,SO1801,Gaalkacyo
+SO2016C3180205,2016C3,Hawd Pastoral,SO18,Mudug,SO1802,Galdogob
+SO2016C3180308,2016C3,Coastal Deeh Pastoral and Fishing,SO18,Mudug,SO1803,Hobyo
+SO2016C3180309,2016C3,Addun Pastoral,SO18,Mudug,SO1803,Hobyo
+SO2016C3180310,2016C3,Cowpea Belt Agropastoral,SO18,Mudug,SO1803,Hobyo
+SO2016C3180405,2016C3,Hawd Pastoral,SO18,Mudug,SO1804,Jariiban
+SO2016C3180408,2016C3,Coastal Deeh Pastoral and Fishing,SO18,Mudug,SO1804,Jariiban
+SO2016C3180409,2016C3,Addun Pastoral,SO18,Mudug,SO1804,Jariiban
+SO2016C3180508,2016C3,Coastal Deeh Pastoral and Fishing,SO18,Mudug,SO1805,Xarardheere
+SO2016C3180510,2016C3,Cowpea Belt Agropastoral,SO18,Mudug,SO1805,Xarardheere
+SO2016C3190105,2016C3,Hawd Pastoral,SO19,Galgaduud,SO1901,Dhuusamarreeb
+SO2016C3190109,2016C3,Addun Pastoral,SO19,Galgaduud,SO1901,Dhuusamarreeb
+SO2016C3190110,2016C3,Cowpea Belt Agropastoral,SO19,Galgaduud,SO1901,Dhuusamarreeb
+SO2016C3190111,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO19,Galgaduud,SO1901,Dhuusamarreeb
+SO2016C3190205,2016C3,Hawd Pastoral,SO19,Galgaduud,SO1902,Cabudwaaq
+SO2016C3190305,2016C3,Hawd Pastoral,SO19,Galgaduud,SO1903,Cadaado
+SO2016C3190309,2016C3,Addun Pastoral,SO19,Galgaduud,SO1903,Cadaado
+SO2016C3190405,2016C3,Hawd Pastoral,SO19,Galgaduud,SO1904,Ceel Buur
+SO2016C3190409,2016C3,Addun Pastoral,SO19,Galgaduud,SO1904,Ceel Buur
+SO2016C3190410,2016C3,Cowpea Belt Agropastoral,SO19,Galgaduud,SO1904,Ceel Buur
+SO2016C3190411,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO19,Galgaduud,SO1904,Ceel Buur
+SO2016C3190508,2016C3,Coastal Deeh Pastoral and Fishing,SO19,Galgaduud,SO1905,Ceel Dheer
+SO2016C3190510,2016C3,Cowpea Belt Agropastoral,SO19,Galgaduud,SO1905,Ceel Dheer
+SO2016C3200105,2016C3,Hawd Pastoral,SO20,Hiraan,SO2001,Belet Weyne
+SO2016C3200111,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO20,Hiraan,SO2001,Belet Weyne
+SO2016C3200112,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO20,Hiraan,SO2001,Belet Weyne
+SO2016C3200113,2016C3,Riverine Pump Irrigation,SO20,Hiraan,SO2001,Belet Weyne
+SO2016C3200205,2016C3,Hawd Pastoral,SO20,Hiraan,SO2002,Bulo Burto
+SO2016C3200210,2016C3,Cowpea Belt Agropastoral,SO20,Hiraan,SO2002,Bulo Burto
+SO2016C3200211,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO20,Hiraan,SO2002,Bulo Burto
+SO2016C3200212,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO20,Hiraan,SO2002,Bulo Burto
+SO2016C3200213,2016C3,Riverine Pump Irrigation,SO20,Hiraan,SO2002,Bulo Burto
+SO2016C3200311,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO20,Hiraan,SO2003,Jalalaqsi
+SO2016C3200312,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO20,Hiraan,SO2003,Jalalaqsi
+SO2016C3200313,2016C3,Riverine Pump Irrigation,SO20,Hiraan,SO2003,Jalalaqsi
+SO2016C3200314,2016C3,Riverine Gravity Irrigation,SO20,Hiraan,SO2003,Jalalaqsi
+SO2016C3210110,2016C3,Cowpea Belt Agropastoral,SO21,Middle Shabelle,SO2101,Jowhar
+SO2016C3210111,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO21,Middle Shabelle,SO2101,Jowhar
+SO2016C3210114,2016C3,Riverine Gravity Irrigation,SO21,Middle Shabelle,SO2101,Jowhar
+SO2016C3210115,2016C3,Sorghum High Potential Agropastoral,SO21,Middle Shabelle,SO2101,Jowhar
+SO2016C3210208,2016C3,Coastal Deeh Pastoral and Fishing,SO21,Middle Shabelle,SO2102,Adan Yabaal
+SO2016C3210210,2016C3,Cowpea Belt Agropastoral,SO21,Middle Shabelle,SO2102,Adan Yabaal
+SO2016C3210211,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO21,Middle Shabelle,SO2102,Adan Yabaal
+SO2016C3210308,2016C3,Coastal Deeh Pastoral and Fishing,SO21,Middle Shabelle,SO2103,Balcad
+SO2016C3210310,2016C3,Cowpea Belt Agropastoral,SO21,Middle Shabelle,SO2103,Balcad
+SO2016C3210314,2016C3,Riverine Gravity Irrigation,SO21,Middle Shabelle,SO2103,Balcad
+SO2016C3210315,2016C3,Sorghum High Potential Agropastoral,SO21,Middle Shabelle,SO2103,Balcad
+SO2016C3210408,2016C3,Coastal Deeh Pastoral and Fishing,SO21,Middle Shabelle,SO2104,Cadale
+SO2016C3210410,2016C3,Cowpea Belt Agropastoral,SO21,Middle Shabelle,SO2104,Cadale
+SO2016C3210411,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO21,Middle Shabelle,SO2104,Cadale
+SO2016C3220119,2016C3,Urban,SO22,Banadir,SO22,Banadir
+SO2016C3230108,2016C3,Coastal Deeh Pastoral and Fishing,SO23,Lower Shabelle,SO2301,Marka
+SO2016C3230114,2016C3,Riverine Gravity Irrigation,SO23,Lower Shabelle,SO2301,Marka
+SO2016C3230115,2016C3,Sorghum High Potential Agropastoral,SO23,Lower Shabelle,SO2301,Marka
+SO2016C3230117,2016C3,"Southern Rainfed Agropastoral – Maize, Cattle, and Goats",SO23,Lower Shabelle,SO2301,Marka
+SO2016C3230208,2016C3,Coastal Deeh Pastoral and Fishing,SO23,Lower Shabelle,SO2302,Afgooye
+SO2016C3230214,2016C3,Riverine Gravity Irrigation,SO23,Lower Shabelle,SO2302,Afgooye
+SO2016C3230215,2016C3,Sorghum High Potential Agropastoral,SO23,Lower Shabelle,SO2302,Afgooye
+SO2016C3230219,2016C3,Urban,SO23,Lower Shabelle,SO2302,Afgooye
+SO2016C3230314,2016C3,Riverine Gravity Irrigation,SO23,Lower Shabelle,SO2303,Baraawe
+SO2016C3230317,2016C3,"Southern Rainfed Agropastoral – Maize, Cattle, and Goats",SO23,Lower Shabelle,SO2303,Baraawe
+SO2016C3230411,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO23,Lower Shabelle,SO2304,Kurtunwaarey
+SO2016C3230414,2016C3,Riverine Gravity Irrigation,SO23,Lower Shabelle,SO2304,Kurtunwaarey
+SO2016C3230417,2016C3,"Southern Rainfed Agropastoral – Maize, Cattle, and Goats",SO23,Lower Shabelle,SO2304,Kurtunwaarey
+SO2016C3230511,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO23,Lower Shabelle,SO2305,Qoryooley
+SO2016C3230514,2016C3,Riverine Gravity Irrigation,SO23,Lower Shabelle,SO2305,Qoryooley
+SO2016C3230515,2016C3,Sorghum High Potential Agropastoral,SO23,Lower Shabelle,SO2305,Qoryooley
+SO2016C3230611,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO23,Lower Shabelle,SO2306,Sablaale
+SO2016C3230614,2016C3,Riverine Gravity Irrigation,SO23,Lower Shabelle,SO2306,Sablaale
+SO2016C3230617,2016C3,"Southern Rainfed Agropastoral – Maize, Cattle, and Goats",SO23,Lower Shabelle,SO2306,Sablaale
+SO2016C3230711,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO23,Lower Shabelle,SO2307,Wanla Weyn
+SO2016C3230715,2016C3,Sorghum High Potential Agropastoral,SO23,Lower Shabelle,SO2307,Wanla Weyn
+SO2016C3230716,2016C3,Bay Bakool Low Potential Agropastoral,SO23,Lower Shabelle,SO2307,Wanla Weyn
+SO2016C3240115,2016C3,Sorghum High Potential Agropastoral,SO24,Bay,SO2401,Baydhaba
+SO2016C3240116,2016C3,Bay Bakool Low Potential Agropastoral,SO24,Bay,SO2401,Baydhaba
+SO2016C3240211,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO24,Bay,SO2402,Buur Hakaba
+SO2016C3240215,2016C3,Sorghum High Potential Agropastoral,SO24,Bay,SO2402,Buur Hakaba
+SO2016C3240216,2016C3,Bay Bakool Low Potential Agropastoral,SO24,Bay,SO2402,Buur Hakaba
+SO2016C3240315,2016C3,Sorghum High Potential Agropastoral,SO24,Bay,SO2403,Diinsoor
+SO2016C3240316,2016C3,Bay Bakool Low Potential Agropastoral,SO24,Bay,SO2403,Diinsoor
+SO2016C3240413,2016C3,Riverine Pump Irrigation,SO24,Bay,SO2404,Qansax Dheere
+SO2016C3240415,2016C3,Sorghum High Potential Agropastoral,SO24,Bay,SO2404,Qansax Dheere
+SO2016C3240416,2016C3,Bay Bakool Low Potential Agropastoral,SO24,Bay,SO2404,Qansax Dheere
+SO2016C3250112,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO25,Bakool,SO2501,Xudur
+SO2016C3250116,2016C3,Bay Bakool Low Potential Agropastoral,SO25,Bakool,SO2501,Xudur
+SO2016C3250211,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO25,Bakool,SO2502,Ceel Barde
+SO2016C3250311,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO25,Bakool,SO2503,Tayeeglow
+SO2016C3250312,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO25,Bakool,SO2503,Tayeeglow
+SO2016C3250316,2016C3,Bay Bakool Low Potential Agropastoral,SO25,Bakool,SO2503,Tayeeglow
+SO2016C3250412,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO25,Bakool,SO2504,Waajid
+SO2016C3250416,2016C3,Bay Bakool Low Potential Agropastoral,SO25,Bakool,SO2504,Waajid
+SO2016C3250511,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO25,Bakool,SO2505,Rab Dhuure
+SO2016C3250512,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO25,Bakool,SO2505,Rab Dhuure
+SO2016C3260111,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO26,Gedo,SO2601,Garbahaarey
+SO2016C3260112,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO26,Gedo,SO2601,Garbahaarey
+SO2016C3260113,2016C3,Riverine Pump Irrigation,SO26,Gedo,SO2601,Garbahaarey
+SO2016C3260115,2016C3,Sorghum High Potential Agropastoral,SO26,Gedo,SO2601,Garbahaarey
+SO2016C3260211,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO26,Gedo,SO2602,Baardheere
+SO2016C3260212,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO26,Gedo,SO2602,Baardheere
+SO2016C3260213,2016C3,Riverine Pump Irrigation,SO26,Gedo,SO2602,Baardheere
+SO2016C3260215,2016C3,Sorghum High Potential Agropastoral,SO26,Gedo,SO2602,Baardheere
+SO2016C3260311,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO26,Gedo,SO2603,Belet Xaawo
+SO2016C3260312,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO26,Gedo,SO2603,Belet Xaawo
+SO2016C3260411,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO26,Gedo,SO2604,Ceel Waaq
+SO2016C3260412,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO26,Gedo,SO2604,Ceel Waaq
+SO2016C3260511,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO26,Gedo,SO2605,Doolow
+SO2016C3260512,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO26,Gedo,SO2605,Doolow
+SO2016C3260513,2016C3,Riverine Pump Irrigation,SO26,Gedo,SO2605,Doolow
+SO2016C3260611,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO26,Gedo,SO2606,Luuq
+SO2016C3260612,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO26,Gedo,SO2606,Luuq
+SO2016C3260613,2016C3,Riverine Pump Irrigation,SO26,Gedo,SO2606,Luuq
+SO2016C3270111,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO27,Middle Juba,SO2701,Bu'aale
+SO2016C3270112,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO27,Middle Juba,SO2701,Bu'aale
+SO2016C3270113,2016C3,Riverine Pump Irrigation,SO27,Middle Juba,SO2701,Bu'aale
+SO2016C3270114,2016C3,Riverine Gravity Irrigation,SO27,Middle Juba,SO2701,Bu'aale
+SO2016C3270115,2016C3,Sorghum High Potential Agropastoral,SO27,Middle Juba,SO2701,Bu'aale
+SO2016C3270118,2016C3,Juba Pastoral –  Cattle and Goats,SO27,Middle Juba,SO2701,Bu'aale
+SO2016C3270211,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO27,Middle Juba,SO2702,Jilib
+SO2016C3270214,2016C3,Riverine Gravity Irrigation,SO27,Middle Juba,SO2702,Jilib
+SO2016C3270217,2016C3,"Southern Rainfed Agropastoral – Maize, Cattle, and Goats",SO27,Middle Juba,SO2702,Jilib
+SO2016C3270218,2016C3,Juba Pastoral –  Cattle and Goats,SO27,Middle Juba,SO2702,Jilib
+SO2016C3270311,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO27,Middle Juba,SO2703,Saakow
+SO2016C3270312,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO27,Middle Juba,SO2703,Saakow
+SO2016C3270313,2016C3,Riverine Pump Irrigation,SO27,Middle Juba,SO2703,Saakow
+SO2016C3270315,2016C3,Sorghum High Potential Agropastoral,SO27,Middle Juba,SO2703,Saakow
+SO2016C3280111,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO28,Lower Juba,SO2801,Kismaayo
+SO2016C3280114,2016C3,Riverine Gravity Irrigation,SO28,Lower Juba,SO2801,Kismaayo
+SO2016C3280117,2016C3,"Southern Rainfed Agropastoral – Maize, Cattle, and Goats",SO28,Lower Juba,SO2801,Kismaayo
+SO2016C3280118,2016C3,Juba Pastoral –  Cattle and Goats,SO28,Lower Juba,SO2801,Kismaayo
+SO2016C3280211,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO28,Lower Juba,SO2802,Afmadow
+SO2016C3280212,2016C3,"Southern Agropastoral – Goats, Camels, and Sorghum",SO28,Lower Juba,SO2802,Afmadow
+SO2016C3280214,2016C3,Riverine Gravity Irrigation,SO28,Lower Juba,SO2802,Afmadow
+SO2016C3280218,2016C3,Juba Pastoral –  Cattle and Goats,SO28,Lower Juba,SO2802,Afmadow
+SO2016C3280311,2016C3,"Southern Inland Pastoral – Camels, Goats, Sheep, and Cattle",SO28,Lower Juba,SO2803,Badhaadhe
+SO2016C3280317,2016C3,"Southern Rainfed Agropastoral – Maize, Cattle, and Goats",SO28,Lower Juba,SO2803,Badhaadhe
+SO2016C3280318,2016C3,Juba Pastoral –  Cattle and Goats,SO28,Lower Juba,SO2803,Badhaadhe
+SO2016C3280414,2016C3,Riverine Gravity Irrigation,SO28,Lower Juba,SO2804,Jamaame
+SO2016C3280417,2016C3,"Southern Rainfed Agropastoral – Maize, Cattle, and Goats",SO28,Lower Juba,SO2804,Jamaame
+SOIDP01,SO-other,Afgooye,SO23,Lower Shabelle,SO2302,Afgooye
+SOIDP02,SO-other,Baydhaba,SO24,Bay,SO2401,Baydhaba
+SOIDP03,SO-other,Belet Weyne,SO20,Hiraan,SO2001,Belet Weyne
+SOIDP04,SO-other,Belet Xaawo,SO26,Gedo,SO2603,Belet Xaawo
+SOIDP05,SO-other,Bossaso,SO16,Bari,SO1601,Bossaso
+SOIDP06,SO-other,Burco,SO13,Togdheer,SO1301,Burco
+SOIDP07,SO-other,Laasanood,SO14,Sool,SO1401,Laas Caanood
+SOIDP08,SO-other,Dhuusamarreeb,SO19,Galgaduud,SO1901,Dhuusamarreeb
+SOIDP09,SO-other,Gaalkacyo,SO18,Mudug,SO1801,Gaalkacyo
+SOIDP10,SO-other,Garoowe,SO17,Nugaal,SO1701,Garoowe
+SOIDP11,SO-other,Hargeysa,SO12,Woqooyi Galbeed,SO1201,Hargeysa
+SOIDP12,SO-other,Jowhar,SO21,Middle Shabelle,SO2101,Jowhar
+SOIDP13,SO-other,Kismaayo,SO28,Lower Juba,SO2801,Kismaayo
+SOIDP14,SO-other,Dolo,SO26,Gedo,SO2605,Doolow
+SOIDP15,SO-other,Doblei,,,,
+SOIDP16,SO-other,Qarhdo,SO16,Bari,SO1606,Qardho
+SOIDP17,SO-other,Berbera,SO12,Woqooyi Galbeed,SO1202,Berbera
+SOIDP18,SO-other,Mogadishu,SO22,Banadir,SO22,Banadir
+SOIDP19,SO-other,Xudur,SO25,Bakool,SO2501,Xudur

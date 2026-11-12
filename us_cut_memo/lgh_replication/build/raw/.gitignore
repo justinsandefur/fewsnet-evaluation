@@ -1,0 +1,10 @@
+# Raw downloads are not redistributed; fetch.py gets them. Kept: files that cannot be downloaded again.
+*
+!.gitignore
+!SOURCES.md
+!fsnau/
+!fsnau/surveys.csv
+!fsc/
+!fsc/*.csv
+!ipc/
+!ipc/ipc_amn_2025_26.xlsx
