@@ -87,7 +87,7 @@
 *** Exposure per SD across domains (or the binary higher/lower group). 95% CIs and the joint test that all
 *** pre-cut (2019-23) coefficients are zero are from the wild cluster bootstrap.
     frame create ev str8 y str10 v double(t x b lo hi pjoint)
-    foreach spec in gam/us_share gam/high sam/us_share sam/high gam/loss gam/z_index {
+    foreach spec in gam/us_share gam/high sam/us_share sam/high gam/loss {
         tokenize "`spec'", parse("/")
         local y `1'
         local v `3'
@@ -172,16 +172,15 @@
         graph display, xsize(7.2) ysize(3)
         gexp figureS_event_sam_binary
 
-*** Figure S3: the three exposures side by side, per SD, same scale
-        summarize lo if y == "gam" & inlist(v, "us_share", "loss", "z_index"), meanonly
+*** Figure S3: the two exposures side by side, per SD, same scale
+        summarize lo if y == "gam" & inlist(v, "us_share", "loss"), meanonly
         local bot = floor(r(min))
-        summarize hi if y == "gam" & inlist(v, "us_share", "loss", "z_index"), meanonly
+        summarize hi if y == "gam" & inlist(v, "us_share", "loss"), meanonly
         local top = ceil(r(max))
         local o `"y(gam) ytitle("GAM (pp) per SD of exposure") bot(`bot') top(`top')"'
-        evplot, `o' v(z_index) title("Aid dependence") color(230 97 1) name(z_index)
         evplot, `o' v(us_share) title("US-funded share of agencies") color($LO) name(us_share)
         evplot, `o' v(loss) title("Agencies lost, 2024 to 2025") color(27 120 55) name(loss)
-        graph combine z_index us_share loss, rows(1) ycommon xsize(7.6) ysize(3.5) graphregion(color(white))
+        graph combine us_share loss, rows(1) ycommon xsize(7.2) ysize(3.5) graphregion(color(white))
         gexp figureS3_event_exposures
     }
 
